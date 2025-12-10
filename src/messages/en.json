@@ -1,0 +1,430 @@
+{
+    "layout": {
+        "title": "Love and Deepspace Battles",
+        "description": "Fan resource for LADS' battle system",
+        "character-list": "Character List",
+        "NB": "Currenly only Rafayel's page is available"
+
+  },
+    "home": {
+        "intro header": "Welcome to Love and Deepspace Battles Page",
+        "here": "Here you will be able to learn all about companion mechanics from LADS.",
+        "I started playing": "I started playing LADS at the first half of ‘25 and finding how to build this or that character was hard especially since each of them have several playable companions and it is completely ungooglable! I have experience playing other games and there are always guides pages on tha topic! And i am still astonished that there are no fan page dedicated to LADS’s battle mechanics especially since it is a big part of the game.",
+        "I cannot say": "I cannot say that i am an expert in the sphere but i wanna make a page there people (especially battle newbies) will be able to understand how to use companions they have in the easiest way possible. Since game description are extremely long and fan-made guides are hard to find (from my personal experience).",
+        "At the moment":"At the moment I am planning on adding all the playable companions onto the page. Protocores have general descriptions and recommendations for each companion. No cards or any other non-battle related information are in the plans. For general game information you can check fandom wiki etc.",
+        "Ending": "Help and mistake corrections will be appreciated! Let all your trials be as easy as falling with LADS men, Deepspace Hunters!",
+        "to start": "to start choose your character:"
+    },
+    "nav-foot": {
+        "home-btn":"home",
+        "characters": "characters",
+        "contact": "contact",
+        "unofficial": "Unofficial Fan Resource"
+    },
+    "chNames": {
+                "xavier":"Xavier",
+                "zayne": "Zayne",
+                "rafayel": "Rafayel",
+                "sylus":"Sylus",
+                "caleb": "Caleb"
+            },
+    "companions": {
+        "companion-list-title": "Companions",
+        "xavier": {
+            "deepspace_hunter": "Deepspace Hunter",
+            "distant_youth": "Distant Youth",
+            "evol_police": "Evol Police",
+            "lightseeker": "Lightseeker",
+            "lumiere": "Lumiere",
+            "king_of_darknight": "King Of Darknight"
+        },
+        "zayne" : {
+            "linkon_doctor": "Linkon Doctor",
+            "medic_of_the_arctic": "Medic Of The Arctic",
+            "dawnbreaker": "Dawnbreaker",
+            "foreseer": "Foreseer",
+            "master_of_fate": "Master Of Fate",
+            "god_of_annihilation": "God Of Annihilation"
+        },
+        "rafayel": {
+            "artist": "Artist",
+            "fresh_paint": "Fresh Paint",
+            "phantom_of_the_siren": "Phantom Of The Siren",
+            "abysswalker": "Abysswalker",
+            "god_of_the_tides": "God Of The Tides",
+            "lemurian_sea_god": "Lemurian Sea God"
+        },
+        "sylus": {
+            "otherworldly_visitor": "Otherworldly Visitor",
+            "relentless_conqueror": "Relentless Conqueror",
+            "abysm_sovereign": "Abysm Sovereign"
+        },
+        "caleb": {
+            "deepspace_pilot": "Deepspace Pilot",
+            "farspace_colonel": "Farspace Colonel",
+            "ultimate_weapon_x_02": "Ultimate Weapon X-02"
+        },
+        "table": {
+            "rarity": "Rarity",
+            "role": "Role", 
+            "scaling": "Scaling",
+            "best": "Best For",
+            "specialty": "Specialty",
+            "unlock": "Unlock Method",
+            "solarPair": "Solar Pair"
+        },
+        "roles": {
+            "burst_aoe": "Burst | AoE",
+            "heal_single": "Heal | Single-target",
+            "support_debuff": "Support | Debuff",
+            "burst_single_pull": "Burst | Single-target | Pull",
+            "sustained_buff_aoe": "Sustained | Buff | AoE",
+            "dps_aoe_empower": "DPS | AoE | Empower"
+        },
+        "scaling": {
+            "atk": "ATK",
+            "hp": "HP", 
+            "def": "DEF"
+        },
+        "unlock": {
+            "obtain_one_memory": "Obtain one memory",
+            "obtain_six_memories": "Obtain 6 4★+ memories",
+            "main_story_3_14": "Main Story 3-14",
+            "standard_banner": "Standard and Event Banner",
+            "limited_banner": "Limited Event Banner"
+        },
+        "best": {
+            "single_target": "Single Target",
+            "multi_target_res_aoth": "Multi Target(Resonance and Oath)",
+            "multi_target": "Multi Target",
+            "multi_target_dps": "multi target and DPS"
+        },
+        "specialty": {
+            "atk_buff": "ATK Buff",
+            "heal_debuff": "Heal, Debuff",
+            "debuff": "Debuff"
+
+        }
+    },
+    "protocoreSection": {
+        "header": "Protocores",
+        "introStandart": "If the card stellactrum fully match the stage's requirments use protocores with the main stat as 'DMG to Weakened' or 'Oath Recovery', otherwise 'CRIT DMG' and 'Expedited Energy'.",
+        "introSolar": "The way you want to build myth companions is slightly different. For solar pairs β protocore might change depending on the Ranks your have.",
+
+        "r0": {
+            "r0_abysswalker": "R0: Oath Recovery and Expedited Energy"
+        },
+        "r1": {
+            "abysswalker": "R1: Oath Strength and Expedited Energy"
+        },
+        "r2+": {
+            "abysswalker": "R2+: Oath Strength and ATK/Expedited Energy"
+        },
+        "chooseProtocores": "choose protocores based on your needs",
+        "substats": "Substats",
+        "substatsChoice": {
+            "basic": "For substats priorities protocores with ATK, crit rate, CRIT DMG, DMG to Weakened"
+        },
+        "solarCardsInfo": "Solar cards use α (alpha) and β (beta) protocores. α has a fixed main HP stat while β's main stat derives.",
+        "lunarCardsInfo": "Lunar cards use γ (gamma) and δ (delta) protocores. γ has a fixed main ATK stat while δ's main stat derives.",
+        "critBuildsInfo": "For crit builds don't forget to check your crit rate before entering the stage. for comfortable ratio aim for 60-80% crit rate. remember your CRIT DMG doesn't matter if you do not utilize it.",
+        "OathInfo": "Usually your companion will be able to use Oath once during the battle. To use it twice use 'Oath Recovery' for β protocore.",
+        "energyInfo": "Your skill and Resonance skill require special energy ◆, to regenerate it faster use Expedited Energy for β protocore.",
+        "energyNB": "depends on your conpanion ranks",
+        "ranks": {
+            "r0": "R0",
+            "r1": "R1",
+            "r2": "R2",
+            "r3": "R3"
+        },
+        "rankDescriptions": {
+            "abysswalker": {
+                "r0": {
+                    "p1": "Starting Effect: The team deals 8% more DMG and takes 8% less DMG. Abysswalker`s ",
+                    "p2": " gains 30% additional CRIT DMG."
+                },
+                "r1": "",
+                "r2": "",
+                "r3": ""
+            },
+            "god_of_the_tides": {
+                "r0": "",
+                "r1": "",
+                "r2": "",
+                "r3": ""
+            },
+            "lemurian_sea_god": {
+                "r0": "",
+                "r1": "",
+                "r2": "",
+                "r3": ""
+            }
+        },
+        "ProtocoreType": {
+            "Solar": "Solar",
+            "Lunar": "Lunar"
+        },
+        "protocoreStats" : {
+            "hp": "HP",
+            "atk": "ATK",
+            "def": "DEF",
+            "hp_bonus": "HP Bonus",
+            "atk_bonus": "ATK Bonus",
+            "def_bonus": "DEF Bonus",
+            "expedited_energy_boost": "Expedited Energy Boost",
+            "oath_recovery_boost": "Oath Recovery Boost",
+            "oath_strength": "Oath’s Strength",
+            "crit_rate": "CRIT Rate",
+            "crit_dmg": "CRIT DMG",
+            "dmg_boost_to_weakened": "DMG Boost to Weakened"
+        }
+    },
+    "skillWeaponSection": {
+        "header": "skills and weapons",
+        "hisSection": {
+            "header": "His Skills"
+        },
+        "mySection": {
+            "header": "My skills",
+            "exclusive_weapon": "'s exclusive weapon"
+        },
+        "skills": {
+            "artist": {
+                "support_skill": {
+                    "name": "Scarlet Shade",
+                    "description": "Rafayel creates a Scarlet Shade dealing AoE DMG and and inflicting Burn. Also leaves 3 [Flame Lilies]. "
+                },
+                "resonance_skill": {
+                    "name": "Scorching",
+                    "description": "You ignite all [Flame Lilies] dealing AoE DMG and inflicting Burn. Each of [Flame Lilies] increases your ATK by 5% for 8s."
+                },
+                "ardent_oath": {
+                    "name": "Searing Motif",
+                    "description": "You and Rafayel do a slash, dealing massive AoE DMG based on your combined ATK."
+                },
+                "passive_skill": {
+                    "name": "Flowing Flame",
+                    "description": "When you and Rafayel's skills hit enemy, he summons up to 5 [Flame Lilies] dealing AoE DMG. When 10 [Flame Lilies] are utilized, Rafayel's Basic Attack DMG and attack range are increased."
+                }
+            },
+            "fresh_paint": {
+                "support_skill": {
+                    "name": "Swirling Colors",
+                    "description": "Rafayel forces the enemy into the air and kicks them to the ground. Inflicts up to 2 stacks of [Tinctus]."
+                },
+                "resonance_skill": {
+                    "name": "Illuminating Strength",
+                    "description": "You and Rafayel perform a series of attacks."
+                },
+                "ardent_oath": {
+                    "name": "Dazzling Kaleidoscope",
+                    "description": "You and Rafayel do a slash, dealing massive AoE DMG based on your combined ATK. "
+                },
+                "passive_skill": {
+                    "name": "Gilded Tinctus",
+                    "description": "Hitting enemies with [Tinctus] by [Active Skill], [Resonance Skill] or [Ardent Oath] will deal DMG to enemies and restore you and him HP. When 5 stacks are detonated, the enemy's DEF will be reduced by 20% for 5s. "
+                }
+            },
+            "phantom_of_the_siren": {
+                "support_skill": {
+                    "name": "Aria",
+                    "description": "Rafayel thrusts forward, dealing AoE DMG and reducing enemy's movement speed by 30% for 5s. It leaves behind [Reprice], it deals bigger DMG and reduces enemy's movement speed by 50% for 5s."
+                },
+                "resonance_skill": {
+                    "name": "Concerto",
+                    "description": "You and Rafayel deal ATK DMG. If enemy inflicted by [Echo], they recieve additional ATK DMG."
+                },
+                "ardent_oath": {
+                    "name": "Sonata of Reunions",
+                    "description": "You and Rafayel do a slash, dealing massive AoE DMG based on your combined ATK."
+                },
+                "passive_skill": {
+                    "name": "Recitativo",
+                    "description": "Whe you and Rafayel deal DMG, you will sing Harmony, next time you use [Aria] it will leave [Echo] behind for 5s. It increases the DMG enemies take and additionally they lose HP based on Rafayeal ATK per second."
+                }
+            },
+            "abysswalker": {
+                "support_skill": {
+                    "name": "Eclipse Rend",
+                    "description": "Click Rafayel's icon when ready, or trigger with perfect dodge.• Leaves [Fishtail Beacon] on a ground (restores 2 Potential on pick) • At max [Potential], becomes empowered and Burns enemies "
+                },
+                "resonance_skill": {
+                    "name": "Fantasia Shark",
+                    "description": "You and Rafayel pull in enemies with chains. Fantasia Shark bites and burns them after."
+                },
+                "ardent_oath": {
+                    "name": "Four Scourges",
+                    "description": "You and Rafayel do massive DMG based on your combined ATK."
+                },
+                "passive_skill": {
+                    "name": "Abyssal Beacon",
+                    "description": "Periodically Rafayel applies [Beacon] on enemies. Hit it with a charged attack to collect 1 [Potential]."
+                },
+                "basic_attack": {
+                    "name": "Abyssal Rapid Fire",
+                    "description": "Wield dual guns for a combo up to 5 hits. Charged Attack will knock back nearby enemies."
+                },
+                "my_passive_skill": {
+                    "name": "Abyssal Shadow",
+                    "description": "Combo Attack provide buffs on each hit up to 5 stacks. 1 stack increases ATK Speed by 4% and CRIT Rate by 2%."
+                },
+                "active_skill": {
+                    "name": "Oceanic Traversal",
+                    "description": "You perform one big DMG shot from your guns."
+                }
+            },
+            "god_of_the_tides": {
+                "support_skill": {
+                    "name": "Tidal Summoning",
+                    "description": "Summons a [Sea Spirit]. Empowered [Tidal Summoning] restores 10% [Faith] and increases [Sea Spirit] DMG by 10%."
+                },
+                "resonance_skill": {
+                    "name": "Surging Tides",
+                    "description": "You and Rafayel summon tides dealing DMG based on your ATK + HP. "
+                },
+                "ardent_oath": {
+                    "name": "Oceanic Harmony",
+                    "description": "You and Rafayel summon a whale, dealing massive  DMG based on your combined ATK + HP."
+                },
+                "passive_skill": {
+                    "name": "Frenzy Surge",
+                    "description": "Your, Rafayel's and [Sea Spirit]s' hits restore [Faith]. When it is full, it triggers [Heavenly Rain] increases DMG dealt by 30% and boosts the level of all [Sea Spirit]s by 1."
+                },
+                "basic_attack": {
+                    "name": "Waves",
+                    "description": "Deals multi-hit combo up to 4 attacks based on your ATK + HP. Charged Attack launches enemies."
+                },
+                "my_passive_skill": {
+                    "name": "Sea Shanty",
+                    "description": "When using an [Active Skill], summons a [Sea Spirit]."
+                },
+                "active_skill": {
+                    "name": "Tides",
+                    "description": "Pushes back enemies and deals DMG based of your ATK + HP and leaves a [Tidal Field]. It provides Tidal Strength that increaces CRIT Rate by 10% and stacks up to 3 times."
+                }
+            },
+            "lemurian_sea_god": {
+                "support_skill": {
+                    "name": "Tide Cleaver",
+                    "description": "Throws his Trident dealing DMG based on ATK + DEF to enemies in range."
+                },
+                "resonance_skill": {
+                    "name": "Cerulean Verdict",
+                    "description": "You and Rafayel unleash towering waves pulling enemies inside it and dealing massive DMG based on ATK + DEF."
+                },
+                "ardent_oath": {
+                    "name": "Oceanic Harmony",
+                    "description": "You and Rafayel do massive DMG based on your combined ATK + DEF."
+                },
+                "passive_skill": {
+                    "name": "Deepfall Rite",
+                    "description": "Upon enterting the battle, Rafayel grants you a [Sea God Mark]. Charge Attack consumes it and it will be restored in 8s again. It is extremely powerful and especially good in [Ocean's Descent]."
+                },
+                "basic_attack": {
+                    "name": "Wave Chase",
+                    "description": "Perform a combo up to 4 hits. Charge Attack creates a powerful slash and consumes a [Sea God Mark] if full. Both scales with ATK + DEF."
+                },
+                "my_passive_skill": {
+                    "name": "Tide's Return",
+                    "description": "Consuming a [Sea God Mark] with Charged Attack also restores 0.5 ◆. "
+                },
+                "active_skill": {
+                    "name": "Riptide Rend",
+                    "description": "Dash forward dealing DMG based on your ATK + DEF."
+                }
+            }              
+        },
+        "weapons": {
+            "phantasma_sands": {
+                "name": "Phantasma Sands"
+            },
+            "tidal_embrace": {
+                "name": "Tidal Embrace"
+            },
+            "ballads_of_ebbs": {
+                "name": "Ballad of Ebbs"
+            }
+        },
+        "standard_weapons": {
+                "header": "Standard Weapons",
+                "firearm": {
+                    "name": "Hunter Firearm",
+                    "about": "Firearm is a perfect choice if you’re new to LADS' combat. Doing combo is good for Boss stages. Charged attack deals multitarget DMG so it is good to utilize on mob stages but it takes more time to perform.",
+                    "skills": {
+                        "basic_attack": {
+                            "name": "Precise Firing",
+                            "description": "Wield dual guns for a combo up to 5 hits. Charged Attack will knock back nearby enemies. Both Scales with ATK."
+                        },
+                        "passive_skill": {
+                            "name": "Weakpoint",
+                            "description": "20% chance of dealing additional DMG on hit. When using [Active Skill] increases to 80%, additionally ATK Speed by 16%."
+                        },
+                        "active_skill": {
+                            "name": "In Hot Pursuit",
+                            "description": "You perform one big DMG shot from your guns."
+                        }
+                    }
+                },
+                "sword": {
+                    "name": "Hunter Sword",
+                    "about": "Feels good to play on boss stages.",
+                    "skills": {
+                        "basic_attack": {
+                            "name": "Pierce",
+                            "description": "Perform a combo up to 4 hits. Charge Attack creates a single slash.  Both Scales with ATK. When [Hunter's Intention] is at 10 stacks, Charge Attack will be empowered."
+                        },
+                        "passive_skill": {
+                            "name": "Hunter's Intention",
+                            "description": "Gain s stack of [Hunter's Intention] for every instance of DMG up to 10 stacks. 1 stack increases ATK by 1.4%. Removes upon being hit."
+                        },
+                        "active_skill": {
+                            "name": "Blade's Shadow",
+                            "description": "Unleash  a slashing attack dealing AoE DMG."
+                        }
+                    }
+                },
+                "ward": {
+                    "name": "Hunter Ward",
+                    "about": "A perfect choice when you need a bit of healing for particular stages.",
+                    "skills": {
+                        "basic_attack": {
+                            "name": "Magnetic Pulse",
+                            "description": "Wield a wand for a combo up to 4 hits. Charged Attack launches enemies. Both Scales with ATK."
+                        },
+                        "passive_skill": {
+                            "name": "Magnetic Resonance",
+                            "description": "Charge attack attack range's increased every 15s and deals massive ATK DMG."
+                        },
+                        "active_skill": {
+                            "name": "IMagnetic Nexus",
+                            "description": "Creates a field that will inflict 6 instances of ATK DMG. When active restores HP to  you and your companion."
+                        }
+                    }
+                },
+                "claymore": {
+                    "name": "Hunter Claymore",
+                    "about": "Hunter Claymore is the most prominent standard weapon in the community due to its passive. Mastering [Gathering Stacks] are hard but really rewarding. To learn how to use them go to Training Room → Freestyle → Sustained Battle and practice here Dodge + 1 Basic Attack. Upon triggering it correctly you will be granted with one stack. Remember to collect all three before using [Active Skill] otherwise you will perform a much weaker hit. It can be used with any companion as other standard weapons but remember it scales with ATK so it is better not to use it with companions that use HP or DEF as their main stat.",
+                    "skills": {
+                        "basic_attack": {
+                            "name": "Indomitable Edge",
+                            "description": "Wield a claymore for a combo up to 4 hits. Charged Attack makes you smash the ground dealing AoE DMG. Both Scales with ATK."
+                        },
+                        "passive_skill": {
+                            "name": "Persistence",
+                            "description": "Allows you to empower your [Active Skill] by 50% on [Gathering stacks] and skip the charging state. You should collect all three stacks to utilize that. One stack increases your [Basic Attack] by 12.9%."
+                        },
+                        "active_skill": {
+                            "name": "Frangere Slash",
+                            "description": "Hold the button to charge your attack to deal big DMG, you can also press it to release an incomplete charge with smaller DMG."
+                        }
+                    }
+                }
+        },
+        "skill_basic_info:": {
+            "resonance_skill": "Only that skill helps you to destroy enemy’s shiels. On full Stellactrum match destroys 2 layers of the shield.",
+            "ardent_oath": "Usually you can use it once during a battle, use Oath Recovery protocore to utilize it twice."
+        }
+        
+        
+    }
+}

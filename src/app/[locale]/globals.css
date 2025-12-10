@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  --font-geist-sans: initial;
+  --font-geist-mono: initial; 
+  --font-inknut-antiqua: initial;
+
+  --light-gray: #778DA9;
+  --dark-gray: #30343F;
+  --text-primary: aliceblue;
+
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-inknut: var(--font-inknut-antiqua);
+  
+  --color-lightgray: var(--light-gray);
+  --color-darkgray: var(--dark-gray);
+  --color-aliceblue: var(--text-primary);
+}
+
+/*
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: var(--dark-gray);
+    --foreground: var(--text-primary-color);
+  }
+}*/
+
+body {
+  background: var(--dark-gray);
+  color: var(--text-primary);
+}
+
+main {
+  font-family: var(--font-geist-sans);
+    font-size: 18px;
+
+}

@@ -1,0 +1,26 @@
+import { CharaDataProps } from "@/app/utils/interfaces-data";
+import { styles } from "@/app/utils/styles";
+import { useTranslations } from "next-intl";
+import { CharacterId, charactersData } from "@/app/[locale]/data/characters-data";
+import SkillCard from "./SkillCard";
+
+export default function HisSkillsTable ({character, companion} : CharaDataProps) { 
+    const t = useTranslations('skillWeaponSection.hisSection');
+    const charaData = charactersData[character as CharacterId];
+    const companionData = charaData.companions.find(comp => comp.id === companion);
+
+    return (
+        <div>
+            <h1 className={styles.h1}>{t('header')}</h1>
+            <SkillCard 
+                icon={}
+                nameKey={}
+                label={}
+                cooldown={}
+                cost={}
+                descriptionKey={}
+                terms={}
+            />
+        </div>
+    )
+}
