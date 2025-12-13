@@ -1,0 +1,68 @@
+{
+    "abysswalker": {
+       "r0": {
+           "beta": ["oath_recovery_boost", "expedited_energy_boost"],
+           "delta": ["crit_rate", "crit_dmg", "dmg_boost_to_weakened"],
+           "description_key": "protocoreSection.rankDescriptions.abysswalker.r0"
+       },
+       "r1": {
+           "beta": ["expedited_energy_boost", "oath_strength"],
+           "delta": ["crit_rate", "crit_dmg", "dmg_boost_to_weakened"],
+           "description_key": "protocoreSection.rankDescriptions.abysswalker.r1"
+      },
+       "r2": {
+           "beta": ["expedited_energy_boost", "oath_strength"],
+           "delta": ["crit_rate", "crit_dmg", "dmg_boost_to_weakened"],
+           "description_key": "protocoreSection.rankDescriptions.abysswalker.r2"
+      },
+       "r3": {
+           "beta": ["expedited_energy_boost", "oath_strength"],
+           "delta": ["crit_rate", "crit_dmg", "dmg_boost_to_weakened"],
+           "description_key": "protocoreSection.rankDescriptions.abysswalker.r3"
+      }        
+   },
+   "god_of_the_tides": {
+       "r0": {
+           "beta": ["oath_recovery_boost", "expedited_energy_boost"],
+           "delta": ["crit_rate", "crit_dmg", "dmg_boost_to_weakened"],
+           "description_key": "protocoreSection.rankDescriptions.god_of_the_tides.r0"
+       },
+       "r1": {
+           "beta": ["expedited_energy_boost"],
+           "delta": ["crit_rate", "crit_dmg", "dmg_boost_to_weakened"],
+           "description_key": "protocoreSection.rankDescriptions.god_of_the_tides.r1"
+      },
+       "r2": {
+           "beta": ["expedited_energy_boost"],
+           "delta": ["crit_rate", "crit_dmg", "dmg_boost_to_weakened"],
+           "description_key": "protocoreSection.rankDescriptions.god_of_the_tides.r2"
+      },
+       "r3": {
+           "beta": ["expedited_energy_boost"],
+           "delta": ["crit_rate", "crit_dmg", "dmg_boost_to_weakened"],
+           "description_key": "protocoreSection.rankDescriptions.god_of_the_tides.r3"
+      }  
+   },
+   "lemurian_sea_god": {
+       "r0": {
+           "beta": ["oath_recovery_boost", "def_bonus"],
+           "delta": ["crit_rate", "crit_dmg", "dmg_boost_to_weakened", "def_bonus"],
+           "description_key": "protocoreSection.rankDescriptions.lemurian_sea_god.r0"
+      },
+       "r1": {
+           "beta": [ "def_bonus"],
+           "delta": ["crit_rate", "crit_dmg", "dmg_boost_to_weakened", "def_bonus"],
+           "description_key": "protocoreSection.rankDescriptions.lemurian_sea_god.r1"
+      },
+       "r2": {
+           "beta": [ "def_bonus"],
+           "delta": ["crit_rate", "crit_dmg", "dmg_boost_to_weakened", "def_bonus"],
+           "description_key": "protocoreSection.rankDescriptions.lemurian_sea_god.r2"
+      },
+       "r3": {
+           "beta": [ "def_bonus"],
+           "delta": ["crit_rate", "crit_dmg", "dmg_boost_to_weakened", "def_bonus"],
+           "description_key": "protocoreSection.rankDescriptions.lemurian_sea_god.r3"
+      }
+   }
+}

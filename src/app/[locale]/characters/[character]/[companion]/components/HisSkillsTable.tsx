@@ -1,7 +1,7 @@
 import { CharaDataProps } from "@/app/utils/interfaces-data";
 import { styles } from "@/app/utils/styles";
 import { useTranslations } from "next-intl";
-import { CharacterId, charactersData } from "@/app/[locale]/data/characters-data";
+import { CharacterId, charactersData } from "@/app/utils/character-data-loader";
 import SkillCard from "./SkillCard";
 
 export default function HisSkillsTable ({character, companion} : CharaDataProps) { 

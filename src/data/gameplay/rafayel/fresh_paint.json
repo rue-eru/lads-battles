@@ -1,0 +1,25 @@
+{
+    "his_skills": {
+        "support_skill": {
+            "name_key": "skills.fresh_paint.support_skill.name",
+            "cooldown": "10",
+            "description_key": "skills.fresh_paint.support_skill.description",
+            "terms": ["Tinctus"]
+        },
+        "resonance_skill": {
+            "name_key": "skills.fresh_paint.resonance_skill.name",
+            "cooldown": "15",
+            "cost": "2",
+            "description_key": "skills.fresh_paint.resonance_skill.description"
+        },
+        "ardent_oath": {
+            "name_key": "skills.fresh_paint.ardent_oath.name",
+            "description_key": "skills.fresh_paint.ardent_oath.description"
+        },
+        "passive_skill": {
+            "name_key": "skills.fresh_paint.passive_skill.name",
+            "description_key": "skills.fresh_paint.passive_skill.description",
+            "terms": ["Tinctus", "Active Skill", "Resonance Skill", "Ardent Oath"]
+        }
+    }
+}

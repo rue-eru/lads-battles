@@ -1,0 +1,7 @@
+{
+    "companions": [
+        { "id": "deepspace_pilot", "nameKey": "caleb.deepspace_pilot"},
+        { "id": "farspace_colonel", "nameKey": "caleb.farspace_colonel"},
+        { "id": "ultimate_weapon_x_02", "nameKey": "caleb.ultimate_weapon_x_02"}
+    ]  
+}

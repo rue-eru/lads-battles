@@ -1,0 +1,43 @@
+{
+    "his_skills": {
+        "support_skill": {
+            "name_key": "skills.lemurian_sea_god.support_skill.name",
+            "cooldown": "10",
+            "description_key": "skills.lemurian_sea_god.support_skill.description"
+        },
+        "resonance_skill": {
+            "name_key": "skills.lemurian_sea_god.resonance_skill.name",
+            "cooldown": "15",
+            "cost": "2",
+            "description_key": "skills.lemurian_sea_god.resonance_skill.description"
+        },
+        "ardent_oath": {
+            "name_key": "skills.lemurian_sea_god.ardent_oath.name",
+            "description_key": "skills.lemurian_sea_god.ardent_oath.description"
+        },
+        "passive_skill": {
+            "name_key": "skills.lemurian_sea_god.passive_skill.name",
+            "description_key": "skills.lemurian_sea_god.passive_skill.description",
+            "terms": ["Sea God Mark", "Ocean`s Descent"]
+        }
+    },
+    "my_skills": {
+        "weapon_key": "weapons.ballads_of_ebbs.name",
+        "basic_attack": {
+            "name_key": "skills.lemurian_sea_god.basic_attack.name",
+            "description_key": "skills.lemurian_sea_god.basic_attack.description",
+            "terms": ["Sea God Mark"]
+        },
+        "passive_skill": {
+            "name_key": "skills.lemurian_sea_god.my_passive_skill.name",
+            "description_key": "skills.lemurian_sea_god.my_passive_skill.description",
+            "terms": ["Sea God Mark"]
+        },
+        "active_skill": {
+            "name_key": "skills.lemurian_sea_god.active_skill.name",
+            "cooldown": "7",
+            "cost": "1",
+            "description_key": "skills.lemurian_sea_god.active_skill.description"
+        }
+    }
+}

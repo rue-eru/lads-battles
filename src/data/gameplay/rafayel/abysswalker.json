@@ -1,0 +1,43 @@
+{
+    "his_skills": {
+        "support_skill": {
+            "name_key": "skills.abysswalker.support_skill.name",
+            "cooldown": "14",
+            "description_key": "skills.abysswalker.support_skill.description",
+            "terms": ["Fishtail", "Beacon", "Potential"]
+        },
+        "resonance_skill": {
+            "name_key": "skills.abysswalker.resonance_skill.name",
+            "cooldown": "15",
+            "cost": "2",
+            "description_key": "skills.abysswalker.resonance_skill.description"
+        },
+        "ardent_oath": {
+            "name_key": "skills.abysswalker.ardent_oath.name",
+            "description_key": "skills.abysswalker.ardent_oath.description"
+        },
+        "passive_skill": {
+            "name_key": "skills.abysswalker.passive_skill.name",
+            "cooldown": "14",
+            "description_key": "skills.abysswalker.passive_skill.description",
+            "terms": ["Beacon", "Potential"]
+        }
+    },
+    "my_skills": {
+        "weapon_key": "weapons.phantasma_sands.name",
+        "basic_attack": {
+            "name_key": "skills.abysswalker.basic_attack.name",
+            "description_key": "skills.abysswalker.basic_attack.description"
+        },
+        "passive_skill": {
+            "name_key": "skills.abysswalker.my_passive_skill.name",
+            "description_key": "skills.abysswalker.my_passive_skill.description"
+        },
+        "active_skill": {
+            "name_key": "skills.abysswalker.active_skill.name",
+            "cooldown": "8",
+            "cost": "1",
+            "description_key": "skills.abysswalker.active_skill.description"
+        }
+    }
+}
