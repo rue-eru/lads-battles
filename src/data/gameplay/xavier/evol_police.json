@@ -1,0 +1,26 @@
+{
+    "his_skills": {
+        "support_skill": {
+            "name_key": "",
+            "cooldown": "",
+            "description_key": "",
+            "terms": [""]
+        },
+        "resonance_skill": {
+            "name_key": "",
+            "cooldown": "",
+            "cost": "",
+            "description_key": "",
+            "terms": [""]
+        },
+        "ardent_oath": {
+            "name_key": "",
+            "description_key": ""
+        },
+        "passive_skill": {
+            "name_key": "",
+            "description_key": "",
+            "terms": [""]
+        }
+    }
+}

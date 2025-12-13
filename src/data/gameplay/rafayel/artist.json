@@ -1,0 +1,26 @@
+{
+    "his_skills": {
+        "support_skill": {
+            "name_key": "skills.artist.support_skill.name",
+            "cooldown": "10",
+            "description_key": "skills.artist.support_skill.description",
+            "terms": ["Flame Lilies"]
+        },
+        "resonance_skill": {
+            "name_key": "skills.artist.resonance_skill.name",
+            "cooldown": "15",
+            "cost": "2",
+            "description_key": "skills.artist.resonance_skill.description",
+            "terms": ["Flame Lilies"]
+        },
+        "ardent_oath": {
+            "name_key": "skills.artist.ardent_oath.name",
+            "description_key": "skills.artist.ardent_oath.description"
+        },
+        "passive_skill": {
+            "name_key": "skills.artist.passive_skill.name",
+            "description_key": "skills.artist.passive_skill.description",
+            "terms": ["Flame Lilies"]
+        }
+    }
+}

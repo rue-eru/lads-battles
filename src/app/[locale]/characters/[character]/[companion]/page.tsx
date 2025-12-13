@@ -1,7 +1,7 @@
 import { Locale } from 'next-intl';
 import { styles } from "@/app/utils/styles";
 import Banner from './components/Banner';
-import { type CompanionId, type CharacterId, charactersData } from '@/app/[locale]/data/characters-data';
+import { type CompanionId, type CharacterId, charactersData } from '@/app/utils/character-data-loader';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import CompanionInfoTable from './components/CompanionInfoTable';
 import ProtocoreSection from './components/ProtocoreSection';
@@ -32,11 +32,12 @@ export default async function CompanionPage ( {params} : {
     return (
         <div className={styles.pagelayout}>
             <div className={styles.contentlayout}>
-                <h1 className={styles.h1}>{tCharas(character)}: {tCompanions(companionData.nameKey as any)}</h1> 
-                <Banner character={character} companion={companion} />
-                <CompanionInfoTable character={character} companion={companion}/>
-                <ProtocoreSection character={character} companion={companion}/>
-                <SkillWeaponSection character={character} companion={companion} />
+                {/* AS ANY FOR CHARACTERS FOR TS TYPES*/}
+                <h1 className={styles.h1}>{tCharas(character as any)}: {tCompanions(companionData.nameKey as any)}</h1> 
+                <Banner character={character as any} companion={companion} />
+                <CompanionInfoTable character={character as any} companion={companion}/>
+                <ProtocoreSection character={character as any} companion={companion}/>
+                <SkillWeaponSection character={character as any} companion={companion} />
             </div>
         </div>
     )

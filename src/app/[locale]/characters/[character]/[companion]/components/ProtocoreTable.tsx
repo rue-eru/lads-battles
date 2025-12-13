@@ -1,9 +1,9 @@
 'use client'
 
 import { CharaDataProps } from "@/app/utils/interfaces-data";
-import { CharacterId, charactersData } from "@/app/[locale]/data/characters-data";
+import { CharacterId, charactersData } from "@/app/utils/character-data-loader";
 import { useState } from "react";
-import { rankData } from "../data/rank-data";
+import { rankData } from "@/app/utils/rank-loader";
 import { useTranslations } from "next-intl";
 import ProtocoreTableRow from "@/app/[locale]/characters/[character]/[companion]/components/ProtocoreTableRow";
 import { styles } from "@/app/utils/styles";
@@ -20,10 +20,12 @@ export default function ProtocoreTable ({character, companion} : CharaDataProps)
     const hasRankData = (rankData as any)[character]?.[companion];
 
 
+    //  FOR STANDARD BETA AND DELTA AS ANY
+    
     return (
         <div className="w-full">
             { !hasRankData ? (
-                /* STANDART COMPANION PROTOCORE TABLE*/
+                /* STANDARD COMPANION PROTOCORE TABLE*/
                     <table className="w-full min-w-full table-auto">
                         <tbody>
                             <ProtocoreTableRow
@@ -34,7 +36,7 @@ export default function ProtocoreTable ({character, companion} : CharaDataProps)
                             />
                             <ProtocoreTableRow
                                 protocoreType="beta"
-                                protocoreStat={companionData?.beta || 'default_beta'}
+                                protocoreStat={companionData?.beta as any|| 'default_beta'}
                                 stellactrum={companionData?.stellactrum}
 
                             />
@@ -46,7 +48,7 @@ export default function ProtocoreTable ({character, companion} : CharaDataProps)
                             />
                             <ProtocoreTableRow
                                 protocoreType="delta"
-                                protocoreStat={companionData?.delta || 'delta'}
+                                protocoreStat={companionData?.delta as any|| 'delta'}
                                 stellactrum={companionData?.stellactrum}
 
                             />
@@ -98,7 +100,8 @@ export default function ProtocoreTable ({character, companion} : CharaDataProps)
                     </table> 
                     <details>
                         <summary className={`${styles.tableRow} cursor-pointer p-2`}>Rank Description</summary>
-                        <p>{(rankData as any)[character]?.[companion]?.[activeRank]?.rank_description}</p>
+                        <span>{t(`rankDescriptions.[companion].r0` as any)}</span>
+                        {/*<p>{(rankData as any)[character]?.[companion]?.[activeRank]?.rank_description}</p>*/}
                     </details>
                 </div>
             )}

@@ -1,0 +1,10 @@
+{
+    "companions": [
+        { "id": "linkon_doctor", "nameKey": "zayne.linkon_doctor"},
+        { "id": "medic_of_the_arctic", "nameKey": "zayne.medic_of_the_arctic"},
+        { "id": "dawnbreaker", "nameKey": "zayne.dawnbreaker"},
+        { "id": "foreseer", "nameKey": "zayne.foreseer"},
+        { "id": "master_of_fate", "nameKey": "zayne.master_of_fate"},
+        { "id": "god_of_annihilation", "nameKey": "zayne.god_of_annihilation"}
+    ] 
+}

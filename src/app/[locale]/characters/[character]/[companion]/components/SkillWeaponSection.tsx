@@ -1,6 +1,6 @@
 import { CharaDataProps } from "@/app/utils/interfaces-data";
 import { useTranslations } from "next-intl";
-import { CharacterId, charactersData } from "@/app/[locale]/data/characters-data";
+import { CharacterId, charactersData } from "@/app/utils/character-data-loader";
 import { styles } from "@/app/utils/styles";
 
 export default function SkillWeaponSection ({character, companion}: CharaDataProps) {

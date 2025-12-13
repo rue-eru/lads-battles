@@ -1,0 +1,10 @@
+{
+    "companions": [
+        { "id": "deepspace_hunter", "nameKey": "xavier.deepspace_hunter"},
+        { "id": "distant_youth", "nameKey": "xavier.distant_youth"},
+        { "id": "evol_police", "nameKey": "xavier.evol_police"},
+        { "id": "lightseeker", "nameKey": "xavier.lightseeker"},
+        { "id": "lumiere", "nameKey": "xavier.lumiere"},
+        { "id": "king_of_darknight", "nameKey": "xavier.king_of_darknight"}
+    ]
+}

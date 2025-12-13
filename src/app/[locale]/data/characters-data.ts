@@ -1,3 +1,14 @@
+//first version of using data
+//currently moved that logic to json file
+//didnt delete (yet)
+//it is here as a backup logic
+// MOVING THAT LOGIC TO APP>DATA>CHARACTERS>[CHARNAME].JSON
+//RAF MOVED
+//XAV NO
+//ZAYNE NO
+//CALEB NO
+//SYLUS NO
+
 export type CompanionBase = {
     readonly id: string;
     readonly nameKey: string;
@@ -134,6 +145,7 @@ export const charactersData = {
             { id: 'otherworldly_visitor', nameKey: 'sylus.otherworldly_visitor'},
             { id: 'relentless_conqueror', nameKey: 'sylus.relentless_conqueror'},
             { id: 'abysm_sovereign', nameKey: 'sylus.abysm_sovereign'},
+            { id: 'silverwing_fiend', nameKey: 'sylus.silverwing_fiend'}
         ] as CompanionBase[]
     },
     caleb: {

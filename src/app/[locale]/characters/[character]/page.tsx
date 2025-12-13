@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { Locale } from "next-intl";
-import { type CharacterId, charactersData } from "../../data/characters-data";
+import { type CharacterId, charactersData } from "@/app/utils/character-data-loader";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import CharacterCard from "@/app/components/CharacterCard";
 import { styles } from "@/app/utils/styles";
@@ -18,9 +18,11 @@ export default async function CharacterCompanionList({
 
     let characterName;
     try {
-        characterName = tCharas(character);
+        //as any for now
+        characterName = tCharas(character as any);
     } catch (error) {
-        characterName = character.charAt(0).toUpperCase()+ character.slice(1);
+        //character as const returns an error
+        characterName = String(character).charAt(0).toUpperCase()+ String(character).slice(1);
     }
     const possesive = characterName.endsWith("s") ? "'" : "'s";
 
@@ -30,7 +32,8 @@ export default async function CharacterCompanionList({
         <div className={styles.pagelayout}>
             <div className={styles.contentlayout}>
                 <h1 className={styles.h1}>
-                    {tCharas(`${character}`)}{possesive} {tCompanions('companion-list-title')}
+                    {/*as any for now*/}
+                    {tCharas(character as any)}{possesive} {tCompanions('companion-list-title')}
                 </h1>
                  <hr className={styles.divider}></hr>
 
