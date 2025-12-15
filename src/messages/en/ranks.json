@@ -5,15 +5,6 @@
         "r2": "R2",
         "r3": "R3"
     },
-    "r0": {
-        "r0_abysswalker": "R0: Oath Recovery and Expedited Energy"
-    },
-    "r1": {
-        "abysswalker": "R1: Oath Strength and Expedited Energy"
-    },
-    "r2+": {
-        "abysswalker": "R2+: Oath Strength and ATK/Expedited Energy"
-    },
     "rankDescriptions": {
         "rafayel": {
             "abysswalker": {

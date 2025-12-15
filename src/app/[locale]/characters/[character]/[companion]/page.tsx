@@ -4,8 +4,8 @@ import Banner from './components/Banner';
 import { type CompanionId, type CharacterId, charactersData } from '@/app/utils/character-data-loader';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import CompanionInfoTable from './components/CompanionInfoTable';
-import ProtocoreSection from './components/ProtocoreSection';
-import SkillWeaponSection from './components/SkillWeaponSection';
+import ProtocoreSection from './components/protocores/ProtocoreSection';
+import SkillWeaponSection from './components/skills_and_weapons/SkillWeaponSection';
 
 export default async function CompanionPage ( {params} : {
   params: Promise<{character: CharacterId; companion: CompanionId; locale: Locale}>

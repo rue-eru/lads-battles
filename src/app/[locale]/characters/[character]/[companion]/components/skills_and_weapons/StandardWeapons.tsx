@@ -4,7 +4,7 @@ import { CharaDataProps } from "@/app/utils/interfaces-data";
 import { styles } from "@/app/utils/styles";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
-import { standardWeaponsData } from "../data/standard-weapons-data";
+import { standardWeaponsData } from "../../data/standard-weapons-data";
 import { WeaponCard } from "./WeaponCard";
 
 export default function StandardWeapons ({ character, companion }: CharaDataProps) {

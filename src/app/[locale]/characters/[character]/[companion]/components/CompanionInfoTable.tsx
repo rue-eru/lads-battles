@@ -2,7 +2,7 @@
 
 import { CharacterId, charactersData } from "@/app/utils/character-data-loader";
 import { CharaDataProps } from "@/app/utils/interfaces-data";
-import TableRow from "./TableRow";
+import TableRow from "./protocores/TableRow";
 import { useTranslations } from 'next-intl';
 
 
