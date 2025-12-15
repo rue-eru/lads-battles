@@ -1,8 +1,8 @@
 import Image from "next/image";
-import { styles } from "../../../../../utils/styles";
-import { ProtocoreTableRowProps } from "../../../../../utils/interfaces-data";
+import { styles } from "@/app/utils/styles";
+import { ProtocoreTableRowProps } from "@/app/utils/interfaces-data";
 import { useTranslations } from "next-intl";
-import { getStellactrumColor } from "../../../../../utils/game/stellactrum-utils";
+import { getStellactrumColor } from "@/app/utils/game/stellactrum-utils";
 import StatList from "./StatList";
 
 export default function ProtocoreTableRow ({

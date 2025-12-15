@@ -1,6 +1,6 @@
 import { CharaDataProps } from "@/app/utils/interfaces-data";
 import { useTranslations } from "next-intl";
-import { gameplayData } from "../data/gameplay-data";
+import { gameplayData } from "../../data/gameplay-data";
 import { styles } from "@/app/utils/styles";
 import Image from "next/image";
 import SkillCard from "./SkillCard";
