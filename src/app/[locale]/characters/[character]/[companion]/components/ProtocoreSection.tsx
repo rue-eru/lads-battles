@@ -9,7 +9,7 @@ export default function ProtocoreSection ({character, companion}: CharaDataProps
     const charaData = charactersData[character as CharacterId];
     const companionData = charaData.companions.find(comp => comp.id === companion);
 
-    const t = useTranslations('protocoreSection');
+    const t = useTranslations('protocores');
 
 
     return (

@@ -1,0 +1,34 @@
+{
+        "header": "Protocores",
+        "introStandart": "If the card stellactrum fully match the stage's requirments use protocores with the main stat as 'DMG to Weakened' or 'Oath Recovery', otherwise 'CRIT DMG' and 'Expedited Energy'.",
+        "introSolar": "The way you want to build myth companions is slightly different. For solar pairs β protocore might change depending on the Ranks your have.",
+        "chooseProtocores": "choose protocores based on your needs",
+        "substats": "Substats",
+        "substatsChoice": {
+            "basic": "For substats priorities protocores with ATK, crit rate, CRIT DMG, DMG to Weakened"
+        },
+        "solarCardsInfo": "Solar cards use α (alpha) and β (beta) protocores. α has a fixed main HP stat while β's main stat derives.",
+        "lunarCardsInfo": "Lunar cards use γ (gamma) and δ (delta) protocores. γ has a fixed main ATK stat while δ's main stat derives.",
+        "critBuildsInfo": "For crit builds don't forget to check your crit rate before entering the stage. for comfortable ratio aim for 60-80% crit rate. remember your CRIT DMG doesn't matter if you do not utilize it.",
+        "OathInfo": "Usually your companion will be able to use Oath once during the battle. To use it twice use 'Oath Recovery' for β protocore.",
+        "energyInfo": "Your skill and Resonance skill require special energy ◆, to regenerate it faster use Expedited Energy for β protocore.",
+        "energyNB": "depends on your conpanion ranks",
+        "ProtocoreType": {
+            "Solar": "Solar",
+            "Lunar": "Lunar"
+        },
+        "protocoreStats" : {
+            "hp": "HP",
+            "atk": "ATK",
+            "def": "DEF",
+            "hp_bonus": "HP Bonus",
+            "atk_bonus": "ATK Bonus",
+            "def_bonus": "DEF Bonus",
+            "expedited_energy_boost": "Expedited Energy Boost",
+            "oath_recovery_boost": "Oath Recovery Boost",
+            "oath_strength": "Oath’s Strength",
+            "crit_rate": "CRIT Rate",
+            "crit_dmg": "CRIT DMG",
+            "dmg_boost_to_weakened": "DMG Boost to Weakened"
+        }
+}

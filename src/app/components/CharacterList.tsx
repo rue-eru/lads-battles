@@ -6,7 +6,7 @@ import { styles } from '../utils/styles';
 
 export default function CharacterList () {
 
-    const tCharas = useTranslations('chNames');
+    const tCharas = useTranslations('characters.chNames');
 
     const characters = ['xavier', 'zayne', 'rafayel', 'sylus', 'caleb'];
 

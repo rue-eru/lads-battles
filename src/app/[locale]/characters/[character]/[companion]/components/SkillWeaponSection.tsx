@@ -7,7 +7,7 @@ export default function SkillWeaponSection ({character, companion}: CharaDataPro
     const charaData = charactersData[character as CharacterId];
     const companionData = charaData.companions.find(comp => comp.id === companion);
 
-    const t = useTranslations('skillWeaponSection');
+    const t = useTranslations('skills');
 
     return (
         <div className={styles.contentlayout}>

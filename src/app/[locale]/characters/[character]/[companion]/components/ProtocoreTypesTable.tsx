@@ -7,7 +7,7 @@ import Image from "next/image";
 import { styles } from "@/app/utils/styles";
 
 export default function ProtocoreTypesTable({stellactrum, companionId}: ProtocoreTypesTableProps) {
-    const t = useTranslations('protocoreSection');
+    const t = useTranslations('protocores');
     const displayColor = getStellactrumColor(stellactrum);
 
     return(

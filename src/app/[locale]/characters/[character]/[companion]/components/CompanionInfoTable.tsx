@@ -14,7 +14,7 @@ export default function CompanionInfoTable ( {character, companion} : CharaDataP
 
     const hasDetailedData = companionData?.role || companionData?.scaling || companionData?.type;
 
-    const t = useTranslations('companions');
+    const t = useTranslations('characters');
     const translateValue = (category: string, key: string | undefined) => {
         if (!key) return 'Coming soon...';
         return t(`${category}.${key}` as any)

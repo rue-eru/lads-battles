@@ -7,8 +7,8 @@ import SkillCard from "./SkillCard";
 
 export default function MySkillsTable( {character, companion}: CharaDataProps) {
 
-    const t = useTranslations('skillWeaponSection');
-    const chNamesT = useTranslations('chNames');
+    const t = useTranslations('skills');
+    const chNamesT = useTranslations('characters.chNames');
 
 
     const getCompanionSkills = (character: string, companion: string) => {

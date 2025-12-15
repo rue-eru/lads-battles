@@ -4,7 +4,7 @@ import {Link} from "@/i18n/navigation"
 import { useTranslations } from "next-intl";
 
 export default function Footer() {
-    const t = useTranslations('nav-foot');
+    const t = useTranslations('layout');
 
     return (
         <footer className="flex items-center justify-between bg-lightgray font-inknut font-light  w-full  border-t-2 border-darkgray p-6">

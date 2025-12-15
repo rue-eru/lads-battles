@@ -13,8 +13,8 @@ export default async function CharacterCompanionList({
     const  { character, locale } = await params;
     setRequestLocale(locale);
 
-    const tCompanions = await getTranslations('companions');
-    const tCharas = await getTranslations('chNames');
+    const tCompanions = await getTranslations('characters.companions');
+    const tCharas = await getTranslations('characters.chNames');
 
     let characterName;
     try {

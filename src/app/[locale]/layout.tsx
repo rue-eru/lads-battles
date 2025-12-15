@@ -60,7 +60,7 @@ export default async function RootLayout({
       >{/* flex flex-col min-h-screen - helps footer to stay at the bottom x1*/}
         <NextIntlClientProvider>
           <Navigation />
-          <main className="flex-grow" >{children}</main>
+          <main className="grow" >{children}</main>
           {/*flex-grow - helps footer to stay at the bottom x2*/}
           <Footer />
         </NextIntlClientProvider>

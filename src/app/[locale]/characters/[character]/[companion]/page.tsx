@@ -14,8 +14,8 @@ export default async function CompanionPage ( {params} : {
     const { character, companion, locale } = await params;
     setRequestLocale(locale);
 
-    const tCharas = await getTranslations('chNames');
-    const tCompanions = await getTranslations('companions');
+    const tCharas = await getTranslations('characters.chNames');
+    const tCompanions = await getTranslations('characters.companions');
 
     const characterData = charactersData[character];
     const companionData = characterData.companions.find(comp => comp.id === companion);

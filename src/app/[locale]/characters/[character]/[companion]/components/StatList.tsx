@@ -2,7 +2,7 @@ import { StatListProps } from "@/app/utils/interfaces-data";
 import { useTranslations } from "next-intl";
 
 export default function StatList ({stats, separator = ", "}: StatListProps) {
-    const t = useTranslations('protocoreSection.protocoreStats');
+    const t = useTranslations('protocores.protocoreStats');
 
     if (!stats || stats.length === 0) {
         return <span className="text-gray-500">No Data</span>
