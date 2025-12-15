@@ -8,7 +8,7 @@ import { standardWeaponsData } from "../data/standard-weapons-data";
 import { WeaponCard } from "./WeaponCard";
 
 export default function StandardWeapons ({ character, companion }: CharaDataProps) {
-    const t = useTranslations('skillWeaponSection.standard_weapons');
+    const t = useTranslations('weapons.standard_weapons');
     const [selectedWeapon, setSelectedWeapon] = useState<string | null>(null);
         const [expandedWeapon, setExpandedWeapon] = useState<string | null>(null);
 

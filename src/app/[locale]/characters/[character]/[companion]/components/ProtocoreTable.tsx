@@ -12,7 +12,10 @@ import { styles } from "@/app/utils/styles";
 export default function ProtocoreTable ({character, companion} : CharaDataProps) {
 
     const [activeRank, setActiveRank] = useState('r0');
-    const t = useTranslations('protocoreSection');
+    const t = useTranslations('protocores');
+    const tRank = useTranslations('ranks');
+
+
     
     const charaData = charactersData[character as CharacterId];
     const companionData = charaData.companions.find(comp => comp.id === companion);
@@ -69,7 +72,7 @@ export default function ProtocoreTable ({character, companion} : CharaDataProps)
                                         : 'text-white hover:bg-pink-400'
                                 }`}
                             >
-                                {t(`ranks.${rank}` as any)}
+                                {tRank(`ranks.${rank}` as any)}
                             </button>
                         ))}
                     </div>    

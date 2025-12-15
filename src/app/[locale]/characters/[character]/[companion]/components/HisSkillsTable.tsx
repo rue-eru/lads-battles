@@ -5,7 +5,7 @@ import { CharacterId, charactersData } from "@/app/utils/character-data-loader";
 import SkillCard from "./SkillCard";
 
 export default function HisSkillsTable ({character, companion} : CharaDataProps) { 
-    const t = useTranslations('skillWeaponSection.hisSection');
+    const t = useTranslations('skills.hisSection');
     const charaData = charactersData[character as CharacterId];
     const companionData = charaData.companions.find(comp => comp.id === companion);
 

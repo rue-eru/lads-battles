@@ -1,0 +1,87 @@
+{
+  "chNames": {
+    "xavier": "Xavier",
+    "zayne": "Zayne",
+    "rafayel": "Rafayel",
+    "sylus": "Sylus",
+    "caleb": "Caleb"
+  },
+  "companions": {
+    "companion-list-title": "Companions",
+    "xavier": {
+      "deepspace_hunter": "Deepspace Hunter",
+      "distant_youth": "Distant Youth",
+      "evol_police": "Evol Police",
+      "lightseeker": "Lightseeker",
+      "lumiere": "Lumiere",
+      "king_of_darknight": "King Of Darknight"
+    },
+    "zayne": {
+      "linkon_doctor": "Linkon Doctor",
+      "medic_of_the_arctic": "Medic Of The Arctic",
+      "dawnbreaker": "Dawnbreaker",
+      "foreseer": "Foreseer",
+      "master_of_fate": "Master Of Fate",
+      "god_of_annihilation": "God Of Annihilation"
+    },
+    "rafayel": {
+      "artist": "Artist",
+      "fresh_paint": "Fresh Paint",
+      "phantom_of_the_siren": "Phantom Of The Siren",
+      "abysswalker": "Abysswalker",
+      "god_of_the_tides": "God Of The Tides",
+      "lemurian_sea_god": "Lemurian Sea God"
+    },
+    "sylus": {
+        "otherworldly_visitor": "Otherworldly Visitor",
+        "relentless_conqueror": "Relentless Conqueror",
+        "abysm_sovereign": "Abysm Sovereign",
+        "silverwing_fiend": "Silverwing Fiend"
+    },
+    "caleb": {
+        "deepspace_pilot": "Deepspace Pilot",
+        "farspace_colonel": "Farspace Colonel",
+        "ultimate_weapon_x_02": "Ultimate Weapon X-02"
+    }
+  },
+  "table": {
+    "rarity": "Rarity",
+    "role": "Role",
+    "scaling": "Scaling",
+    "best": "Best For",
+    "specialty": "Specialty",
+    "unlock": "Unlock Method",
+    "solarPair": "Solar Pair"
+  },
+  "roles": {
+    "burst_aoe": "Burst | AoE",
+    "heal_single": "Heal | Single-target",
+    "support_debuff": "Support | Debuff",
+    "burst_single_pull": "Burst | Single-target | Pull",
+    "sustained_buff_aoe": "Sustained | Buff | AoE",
+    "dps_aoe_empower": "DPS | AoE | Empower"
+  },
+  "scaling": {
+    "atk": "ATK",
+    "hp": "HP",
+    "def": "DEF"
+  },
+  "unlock": {
+    "obtain_one_memory": "Obtain one memory",
+    "obtain_six_memories": "Obtain 6 4★+ memories",
+    "main_story_3_14": "Main Story 3-14",
+    "standard_banner": "Standard and Event Banner",
+    "limited_banner": "Limited Event Banner"
+  },
+  "best": {
+    "single_target": "Single Target",
+    "multi_target_res_aoth": "Multi Target(Resonance and Oath)",
+    "multi_target": "Multi Target",
+    "multi_target_dps": "multi target and DPS"
+  },
+  "specialty": {
+    "atk_buff": "ATK Buff",
+    "heal_debuff": "Heal, Debuff",
+    "debuff": "Debuff"
+  }
+}

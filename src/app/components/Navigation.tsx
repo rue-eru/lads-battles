@@ -7,8 +7,8 @@ import SearchInput from "./SearchInput"
 import { useState } from "react"
 import { useTranslations } from "next-intl"
 export default function Navigation() {
-    const tNav = useTranslations('nav-foot');
-    const tCharas = useTranslations('chNames');
+    const tLayout = useTranslations('layout');
+    const tCharas = useTranslations('characters');
 
     const [isCharacterOpen, setIsCharacterOpen] = useState(false);
 
@@ -26,7 +26,7 @@ export default function Navigation() {
 
             <div className="flex items-center gap-10 uppercase tracking-[0.5rem]">
                 <Link href="/" className="hover:text-pink-400">
-                    {tNav("home-btn")}
+                    {tLayout("home-btn")}
                 </Link>
 
                 {/*Dropdown logic for character list*/}
@@ -36,7 +36,7 @@ export default function Navigation() {
                     onMouseLeave={() => setIsCharacterOpen(false)}
                 >
                     <Link href="/characters" className="hover:text-pink-400 flex items-center gap-1">
-                        {tNav("characters")}
+                        {tLayout("characters")}
                         <Image
                             src="/images/icons/dropdown-arrow.png"
                             alt="dropdown arrow"
@@ -51,19 +51,19 @@ export default function Navigation() {
                     {isCharacterOpen && (
                         <div className="absolute top-full left-0 bg-lightgray  rounded-lg shadow-lg py-2 min-w-[150px] z-50 text-center uppercase tracking-widest">
                             <Link href="/characters/xavier" className="block hover:text-pink-400">
-                                {tCharas("xavier")}
+                                {tCharas("chNames.xavier")}
                             </Link>
                             <Link href="/characters/zayne" className="block hover:text-pink-400">
-                                {tCharas("zayne")}
+                                {tCharas("chNames.zayne")}
                             </Link>
                             <Link href="/characters/rafayel" className="block hover:text-pink-400">
-                                {tCharas("rafayel")}
+                                {tCharas("chNames.rafayel")}
                             </Link>
                             <Link href="/characters/sylus" className="block hover:text-pink-400">
-                                {tCharas("sylus")}
+                                {tCharas("chNames.sylus")}
                             </Link>
                             <Link href="/characters/caleb" className="block hover:text-pink-400">
-                                {tCharas("caleb")}
+                                {tCharas("chNames.caleb")}
                             </Link>                                                        
                         </div>
                     )}

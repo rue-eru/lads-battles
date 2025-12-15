@@ -11,7 +11,7 @@ export default function ProtocoreTableRow ({
     stellactrum
 } : ProtocoreTableRowProps) {
 
-    const t = useTranslations('protocoreSection.protocoreStats');
+    const t = useTranslations('protocores.protocoreStats');
     const displayStellactrum = getStellactrumColor(stellactrum);
 
     const renderStatContent = () => {
