@@ -6,7 +6,7 @@ import { getStellactrumColor } from "../../../../../../utils/game/stellactrum-ut
 import Image from "next/image";
 import { styles } from "@/app/utils/styles";
 
-export default function ProtocoreTypesTable({stellactrum, companionId}: ProtocoreTypesTableProps) {
+export default function ProtocoreTypesTable({stellactrum }: ProtocoreTypesTableProps) {
     const t = useTranslations('protocores');
     const displayColor = getStellactrumColor(stellactrum);
 
