@@ -29,7 +29,6 @@ export interface RankProtocoreData {
 
 export interface ProtocoreTypesTableProps {
     stellactrum?: string;
-    companionId?: string;
 }
 
 export interface StatListProps {

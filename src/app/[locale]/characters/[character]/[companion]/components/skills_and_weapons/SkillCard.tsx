@@ -80,19 +80,24 @@ export default function SkillCard ({
                     />
                 </div>
                 <div>
-                    <h3>{t('nameKey' as any)}</h3>
                     <div>
+                        {/*skill name*/}
+                        <h3>{t('nameKey' as any)}</h3>
+                        {/*label as type of skill eg support skill*/}
                         <span className="capitalize">{label.replace(/_/g, ' ')}</span>
                         {cooldown && <span>cooldown {cooldown}s</span>}
                         {cost && <span>cost {cost}</span>}
                     </div>
+
+
+                    {/*skill description part*/}
+                    <div className="leading-relaxed">
+                        {renderDescription()}
+                    </div>
                 </div>
             </div>
 
-            {/*skill description part*/}
-            <div className="leading-relaxed">
-                {renderDescription()}
-            </div>
+
         </div>
     )
 

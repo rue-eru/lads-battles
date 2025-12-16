@@ -20,8 +20,9 @@ export default function ProtocoreSection ({character, companion}: CharaDataProps
             {/*protocore names and visual representation*/}
             <ProtocoreTypesTable 
                 stellactrum={companionData?.stellactrum}
-                companionId={companionData?.id}
             />
+                {/*companionId={companionData?.id} */ }
+
 
             {/* basic info that is true for all companions that's why it is static*/}
             <ul className="w-full list-['—'] list-inside">
