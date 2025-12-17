@@ -1,156 +1,175 @@
 {
     "header": "skills and weapons",
     "hisSection": {
-        "header": "His Skills"
+        "header": "His Skills",
+        "no-data": "No skill data available for this companion.",
+        "support_skill": "Support Skill",
+        "resonance_skill": "Resonance Skill",
+        "ardent_oath": "Ardent Oath",
+        "passive_skill": "Passive Skill"
+
     },
     "mySection": {
         "header": "My skills",
-        "exclusive_weapon": "'s exclusive weapon"
+        "intro": "5-star companion’s MC has her own special weapon. You can always switch to standard weapons but you can’t wield other companion's exclusive weapon.",
+        "exclusive_weapon": "'s exclusive weapon",
+        "no-data": "No skill data available for this companion.",
+        "basic_attack": "Basic Attack",
+        "active_skill": "Active Skill",
+        "passive_skill":"Passive Skill",
+        "not_limited_companion_warning": "No exlusive weapons are available for standard companions. You can only use standard Hunter series."
+    },
+    "general": {
+        "cooldown": "Cooldown",
+        "seconds": "s",
+        "cost": "Cost"
     },
     "our_skills": {
-        "artist": {
-            "support_skill": {
-                "name": "Scarlet Shade",
-                "description": "Rafayel creates a Scarlet Shade dealing AoE DMG and and inflicting Burn. Also leaves 3 [Flame Lilies]. "
+        "rafayel": {
+            "artist": {
+                "support_skill": {
+                    "name": "Scarlet Shade",
+                    "description": "Rafayel creates a Scarlet Shade dealing AoE DMG and and inflicting Burn. Also leaves 3 [Flame Lilies]. "
+                },
+                "resonance_skill": {
+                    "name": "Scorching",
+                    "description": "You ignite all [Flame Lilies] dealing AoE DMG and inflicting Burn. Each of [Flame Lilies] increases your ATK by 5% for 8s."
+                },
+                "ardent_oath": {
+                    "name": "Searing Motif",
+                    "description": "You and Rafayel do a slash, dealing massive AoE DMG based on your combined ATK."
+                },
+                "passive_skill": {
+                    "name": "Flowing Flame",
+                    "description": "When you and Rafayel's skills hit enemy, he summons up to 5 [Flame Lilies] dealing AoE DMG. When 10 [Flame Lilies] are utilized, Rafayel's Basic Attack DMG and attack range are increased."
+                }
             },
-            "resonance_skill": {
-                "name": "Scorching",
-                "description": "You ignite all [Flame Lilies] dealing AoE DMG and inflicting Burn. Each of [Flame Lilies] increases your ATK by 5% for 8s."
+            "fresh_paint": {
+                "support_skill": {
+                    "name": "Swirling Colors",
+                    "description": "Rafayel forces the enemy into the air and kicks them to the ground. Inflicts up to 2 stacks of [Tinctus]."
+                },
+                "resonance_skill": {
+                    "name": "Illuminating Strength",
+                    "description": "You and Rafayel perform a series of attacks."
+                },
+                "ardent_oath": {
+                    "name": "Dazzling Kaleidoscope",
+                    "description": "You and Rafayel do a slash, dealing massive AoE DMG based on your combined ATK. "
+                },
+                "passive_skill": {
+                    "name": "Gilded Tinctus",
+                    "description": "Hitting enemies with [Tinctus] by [Active Skill], [Resonance Skill] or [Ardent Oath] will deal DMG to enemies and restore you and him HP. When 5 stacks are detonated, the enemy's DEF will be reduced by 20% for 5s. "
+                }
             },
-            "ardent_oath": {
-                "name": "Searing Motif",
-                "description": "You and Rafayel do a slash, dealing massive AoE DMG based on your combined ATK."
+            "phantom_of_the_siren": {
+                "support_skill": {
+                    "name": "Aria",
+                    "description": "Rafayel thrusts forward, dealing AoE DMG and reducing enemy's movement speed by 30% for 5s. It leaves behind [Reprice], it deals bigger DMG and reduces enemy's movement speed by 50% for 5s."
+                },
+                "resonance_skill": {
+                    "name": "Concerto",
+                    "description": "You and Rafayel deal ATK DMG. If enemy inflicted by [Echo], they recieve additional ATK DMG."
+                },
+                "ardent_oath": {
+                    "name": "Sonata of Reunions",
+                    "description": "You and Rafayel do a slash, dealing massive AoE DMG based on your combined ATK."
+                },
+                "passive_skill": {
+                    "name": "Recitativo",
+                    "description": "Whe you and Rafayel deal DMG, you will sing Harmony, next time you use [Aria] it will leave [Echo] behind for 5s. It increases the DMG enemies take and additionally they lose HP based on Rafayeal ATK per second."
+                }
             },
-            "passive_skill": {
-                "name": "Flowing Flame",
-                "description": "When you and Rafayel's skills hit enemy, he summons up to 5 [Flame Lilies] dealing AoE DMG. When 10 [Flame Lilies] are utilized, Rafayel's Basic Attack DMG and attack range are increased."
-            }
-        },
-        "fresh_paint": {
-            "support_skill": {
-                "name": "Swirling Colors",
-                "description": "Rafayel forces the enemy into the air and kicks them to the ground. Inflicts up to 2 stacks of [Tinctus]."
+            "abysswalker": {
+                "support_skill": {
+                    "name": "Eclipse Rend",
+                    "description": "Click Rafayel's icon when ready, or trigger with perfect dodge.• Leaves [Fishtail Beacon] on a ground (restores 2 Potential on pick) • At max [Potential], becomes empowered and Burns enemies "
+                },
+                "resonance_skill": {
+                    "name": "Fantasia Shark",
+                    "description": "You and Rafayel pull in enemies with chains. Fantasia Shark bites and burns them after."
+                },
+                "ardent_oath": {
+                    "name": "Four Scourges",
+                    "description": "You and Rafayel do massive DMG based on your combined ATK."
+                },
+                "passive_skill": {
+                    "name": "Abyssal Beacon",
+                    "description": "Periodically Rafayel applies [Beacon] on enemies. Hit it with a charged attack to collect 1 [Potential]."
+                },
+                "basic_attack": {
+                    "name": "Abyssal Rapid Fire",
+                    "description": "Wield dual guns for a combo up to 5 hits. Charged Attack will knock back nearby enemies."
+                },
+                "my_passive_skill": {
+                    "name": "Abyssal Shadow",
+                    "description": "Combo Attack provide buffs on each hit up to 5 stacks. 1 stack increases ATK Speed by 4% and CRIT Rate by 2%."
+                },
+                "active_skill": {
+                    "name": "Oceanic Traversal",
+                    "description": "You perform one big DMG shot from your guns."
+                }
             },
-            "resonance_skill": {
-                "name": "Illuminating Strength",
-                "description": "You and Rafayel perform a series of attacks."
+            "god_of_the_tides": {
+                "support_skill": {
+                    "name": "Tidal Summoning",
+                    "description": "Summons a [Sea Spirit]. Empowered [Tidal Summoning] restores 10% [Faith] and increases [Sea Spirit] DMG by 10%."
+                },
+                "resonance_skill": {
+                    "name": "Surging Tides",
+                    "description": "You and Rafayel summon tides dealing DMG based on your ATK + HP. "
+                },
+                "ardent_oath": {
+                    "name": "Oceanic Harmony",
+                    "description": "You and Rafayel summon a whale, dealing massive  DMG based on your combined ATK + HP."
+                },
+                "passive_skill": {
+                    "name": "Frenzy Surge",
+                    "description": "Your, Rafayel's and [Sea Spirit]s' hits restore [Faith]. When it is full, it triggers [Heavenly Rain] increases DMG dealt by 30% and boosts the level of all [Sea Spirit]s by 1."
+                },
+                "basic_attack": {
+                    "name": "Waves",
+                    "description": "Deals multi-hit combo up to 4 attacks based on your ATK + HP. Charged Attack launches enemies."
+                },
+                "my_passive_skill": {
+                    "name": "Sea Shanty",
+                    "description": "When using an [Active Skill], summons a [Sea Spirit]."
+                },
+                "active_skill": {
+                    "name": "Tides",
+                    "description": "Pushes back enemies and deals DMG based of your ATK + HP and leaves a [Tidal Field]. It provides Tidal Strength that increaces CRIT Rate by 10% and stacks up to 3 times."
+                }
             },
-            "ardent_oath": {
-                "name": "Dazzling Kaleidoscope",
-                "description": "You and Rafayel do a slash, dealing massive AoE DMG based on your combined ATK. "
-            },
-            "passive_skill": {
-                "name": "Gilded Tinctus",
-                "description": "Hitting enemies with [Tinctus] by [Active Skill], [Resonance Skill] or [Ardent Oath] will deal DMG to enemies and restore you and him HP. When 5 stacks are detonated, the enemy's DEF will be reduced by 20% for 5s. "
-            }
-        },
-        "phantom_of_the_siren": {
-            "support_skill": {
-                "name": "Aria",
-                "description": "Rafayel thrusts forward, dealing AoE DMG and reducing enemy's movement speed by 30% for 5s. It leaves behind [Reprice], it deals bigger DMG and reduces enemy's movement speed by 50% for 5s."
-            },
-            "resonance_skill": {
-                "name": "Concerto",
-                "description": "You and Rafayel deal ATK DMG. If enemy inflicted by [Echo], they recieve additional ATK DMG."
-            },
-            "ardent_oath": {
-                "name": "Sonata of Reunions",
-                "description": "You and Rafayel do a slash, dealing massive AoE DMG based on your combined ATK."
-            },
-            "passive_skill": {
-                "name": "Recitativo",
-                "description": "Whe you and Rafayel deal DMG, you will sing Harmony, next time you use [Aria] it will leave [Echo] behind for 5s. It increases the DMG enemies take and additionally they lose HP based on Rafayeal ATK per second."
-            }
-        },
-        "abysswalker": {
-            "support_skill": {
-                "name": "Eclipse Rend",
-                "description": "Click Rafayel's icon when ready, or trigger with perfect dodge.• Leaves [Fishtail Beacon] on a ground (restores 2 Potential on pick) • At max [Potential], becomes empowered and Burns enemies "
-            },
-            "resonance_skill": {
-                "name": "Fantasia Shark",
-                "description": "You and Rafayel pull in enemies with chains. Fantasia Shark bites and burns them after."
-            },
-            "ardent_oath": {
-                "name": "Four Scourges",
-                "description": "You and Rafayel do massive DMG based on your combined ATK."
-            },
-            "passive_skill": {
-                "name": "Abyssal Beacon",
-                "description": "Periodically Rafayel applies [Beacon] on enemies. Hit it with a charged attack to collect 1 [Potential]."
-            },
-            "basic_attack": {
-                "name": "Abyssal Rapid Fire",
-                "description": "Wield dual guns for a combo up to 5 hits. Charged Attack will knock back nearby enemies."
-            },
-            "my_passive_skill": {
-                "name": "Abyssal Shadow",
-                "description": "Combo Attack provide buffs on each hit up to 5 stacks. 1 stack increases ATK Speed by 4% and CRIT Rate by 2%."
-            },
-            "active_skill": {
-                "name": "Oceanic Traversal",
-                "description": "You perform one big DMG shot from your guns."
-            }
-        },
-        "god_of_the_tides": {
-            "support_skill": {
-                "name": "Tidal Summoning",
-                "description": "Summons a [Sea Spirit]. Empowered [Tidal Summoning] restores 10% [Faith] and increases [Sea Spirit] DMG by 10%."
-            },
-            "resonance_skill": {
-                "name": "Surging Tides",
-                "description": "You and Rafayel summon tides dealing DMG based on your ATK + HP. "
-            },
-            "ardent_oath": {
-                "name": "Oceanic Harmony",
-                "description": "You and Rafayel summon a whale, dealing massive  DMG based on your combined ATK + HP."
-            },
-            "passive_skill": {
-                "name": "Frenzy Surge",
-                "description": "Your, Rafayel's and [Sea Spirit]s' hits restore [Faith]. When it is full, it triggers [Heavenly Rain] increases DMG dealt by 30% and boosts the level of all [Sea Spirit]s by 1."
-            },
-            "basic_attack": {
-                "name": "Waves",
-                "description": "Deals multi-hit combo up to 4 attacks based on your ATK + HP. Charged Attack launches enemies."
-            },
-            "my_passive_skill": {
-                "name": "Sea Shanty",
-                "description": "When using an [Active Skill], summons a [Sea Spirit]."
-            },
-            "active_skill": {
-                "name": "Tides",
-                "description": "Pushes back enemies and deals DMG based of your ATK + HP and leaves a [Tidal Field]. It provides Tidal Strength that increaces CRIT Rate by 10% and stacks up to 3 times."
-            }
-        },
-        "lemurian_sea_god": {
-            "support_skill": {
-                "name": "Tide Cleaver",
-                "description": "Throws his Trident dealing DMG based on ATK + DEF to enemies in range."
-            },
-            "resonance_skill": {
-                "name": "Cerulean Verdict",
-                "description": "You and Rafayel unleash towering waves pulling enemies inside it and dealing massive DMG based on ATK + DEF."
-            },
-            "ardent_oath": {
-                "name": "Oceanic Harmony",
-                "description": "You and Rafayel do massive DMG based on your combined ATK + DEF."
-            },
-            "passive_skill": {
-                "name": "Deepfall Rite",
-                "description": "Upon enterting the battle, Rafayel grants you a [Sea God Mark]. Charge Attack consumes it and it will be restored in 8s again. It is extremely powerful and especially good in [Ocean's Descent]."
-            },
-            "basic_attack": {
-                "name": "Wave Chase",
-                "description": "Perform a combo up to 4 hits. Charge Attack creates a powerful slash and consumes a [Sea God Mark] if full. Both scales with ATK + DEF."
-            },
-            "my_passive_skill": {
-                "name": "Tide's Return",
-                "description": "Consuming a [Sea God Mark] with Charged Attack also restores 0.5 ◆. "
-            },
-            "active_skill": {
-                "name": "Riptide Rend",
-                "description": "Dash forward dealing DMG based on your ATK + DEF."
-            }
-        }              
+            "lemurian_sea_god": {
+                "support_skill": {
+                    "name": "Tide Cleaver",
+                    "description": "Throws his Trident dealing DMG based on ATK + DEF to enemies in range."
+                },
+                "resonance_skill": {
+                    "name": "Cerulean Verdict",
+                    "description": "You and Rafayel unleash towering waves pulling enemies inside it and dealing massive DMG based on ATK + DEF."
+                },
+                "ardent_oath": {
+                    "name": "Oceanic Harmony",
+                    "description": "You and Rafayel do massive DMG based on your combined ATK + DEF."
+                },
+                "passive_skill": {
+                    "name": "Deepfall Rite",
+                    "description": "Upon enterting the battle, Rafayel grants you a [Sea God Mark]. Charge Attack consumes it and it will be restored in 8s again. It is extremely powerful and especially good in [Ocean's Descent]."
+                },
+                "basic_attack": {
+                    "name": "Wave Chase",
+                    "description": "Perform a combo up to 4 hits. Charge Attack creates a powerful slash and consumes a [Sea God Mark] if full. Both scales with ATK + DEF."
+                },
+                "my_passive_skill": {
+                    "name": "Tide's Return",
+                    "description": "Consuming a [Sea God Mark] with Charged Attack also restores 0.5 ◆. "
+                },
+                "active_skill": {
+                    "name": "Riptide Rend",
+                    "description": "Dash forward dealing DMG based on your ATK + DEF."
+                }
+            }    
+        }          
     }
 }

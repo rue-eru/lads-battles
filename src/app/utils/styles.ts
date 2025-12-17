@@ -17,9 +17,18 @@ export const styles = {
     flatStatStyle: `flex items-center gap-2 mb-2`,
     multipleStatProt: `flex-1 w-full inline-flex gap-10 items-center`,
     multipleStatStyle: `flex items-center gap-2 mb-2`,
-    protRowHover: `block hover:bg-pink-400`,
+    rowHover: `block hover:bg-pink-400`,
     colStyle: `space-y-6 flex-1 font-inknut`,
-    ulStatsStyle: `space-y-1 list-none pl-0`
+    ulStatsStyle: `space-y-1 list-none pl-0`,
+
+    //skills
+    h1Skills: `font-inknut text-xl mb-6`,
+    skillsInfoDiv: `flex gap-3 font-inknut text-wrap`,
+    skillsPinkBubble: `rounded-2xl px-2 bg-pink-400`,
+    skillsGrayubble: `rounded-2xl px-2 bg-lightgray`,
+
+
+
 
 
 } as const

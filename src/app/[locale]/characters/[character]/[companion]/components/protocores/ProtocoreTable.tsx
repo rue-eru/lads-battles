@@ -12,7 +12,6 @@ import { styles } from "@/app/utils/styles";
 export default function ProtocoreTable ({character, companion} : CharaDataProps) {
 
     const [activeRank, setActiveRank] = useState('r0');
-    const t = useTranslations('protocores');
     const tRank = useTranslations('ranks');
 
 

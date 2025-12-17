@@ -1,72 +1,95 @@
 import { CharaDataProps } from "@/app/utils/interfaces-data";
 import { useTranslations } from "next-intl";
-import { gameplayData } from "../../data/gameplay-data";
+import { getGameplay } from "@/app/utils/gameplay-loader";
 import { styles } from "@/app/utils/styles";
 import Image from "next/image";
 import SkillCard from "./SkillCard";
+import StandardWeapons from "./StandardWeapons";
+
 
 export default function MySkillsTable( {character, companion}: CharaDataProps) {
 
-    const t = useTranslations('skills');
-    const chNamesT = useTranslations('characters.chNames');
+    const tCommon = useTranslations('skills.mySection');
+    const tData = useTranslations();
+    const tCharaName = useTranslations(`characters.companions.${character}`)
+    const gameplayData = getGameplay(character as any, companion);
 
-
-    const getCompanionSkills = (character: string, companion: string) => {
-        const characterData = gameplayData[character as keyof typeof gameplayData];
-        if (!characterData) return null;
-
-        return characterData[companion as keyof typeof characterData]?.my_skills|| null;
+    if (!gameplayData) {
+        return <p>{tCommon('no-data')}</p>
     }
 
-    const mySkills = getCompanionSkills(character, companion);
+    if (!gameplayData?.my_skills) {
 
-    if (!mySkills) return null;
+        return (
+            <div>
+                <h2 className={styles.h1}>{tCommon('header')}</h2>
+                <p className="mt-6 italic">{tCommon('not_limited_companion_warning')}</p>
+            </div>
+        )
+    }
 
+    const {
+        weapon_key,
+        basic_attack,
+        passive_skill,
+        active_skill
+    } = gameplayData.my_skills 
+    
     return (
-        <div>
-            <h2 className={styles.h1}>{t('mySection.header')}</h2>
+        <div className="py-12">
+            <h2 className={styles.h1}>{tCommon('header')}</h2>
 
-            <div className="flex items-center gap-4">
-                <div className="w-16 h-16 relative">
+            <p className="pt-12">{tCommon('intro')}</p>
+
+            <div className="flex items-center  gap-4 p-6">
+                <div className="relative">
                     <Image 
-                        src={`companions/${character}/gameplay/${companion}/weapon.png`}
-                        alt={t(mySkills.weapon_key)} //check again
-                        width={64}
-                        height={64}
+                        src={`/images/companions/${character}/gameplay/${companion}/weapon.png`}
+                        alt={tData(weapon_key)}
+                        width={140}
+                        height={140}
                         className="object-cover rounded"
                     />
                 </div>
                 <div>
-                    <h3 className="text-lg font-inknut">{t(mySkills.weapon_key)}</h3>
-                    <p className="text-xl font-inknut">{chNamesT(`${companion}` as any)}{t('mySection.exclusive_weapon')}</p>
+                    <h3 className="text-lg font-inknut mb-3">{tData(weapon_key)}</h3>
+                    <p className="text-lg  font-inknut">{tCharaName(`${companion}` as any)}{tCommon('exclusive_weapon')}</p>
                 </div>
             </div>
 
-            <div>
-                <SkillCard 
-                    icon={`companions/${character}/gameplay/${companion}/my_basic_attack.png`}
-                    nameKey={mySkills.basic_attack.name_key}
-                    label="basic_attack"
-                    descriptionKey={mySkills.basic_attack.descriptionKey}
-                    terms={mySkills.basic_attack.terms || []}
-                />
+            <table className=" w-full border-collapse">
+                <tbody>
+                    <SkillCard 
+                        icon={`/images/companions/${character}/gameplay/${companion}/my_basic_attack.png`}
+                        nameKey={basic_attack.name_key}
+                        label={tCommon('basic_attack')}
+                        descriptionKey={basic_attack.description_key as any}
+                        terms={basic_attack.terms}
+                    />
 
-                <SkillCard 
-                    icon={`companions/${character}/gameplay/${companion}/my_active_skill.png`}
-                    nameKey={mySkills.active_skill.name_key}
-                    label="active_skill"
-                    descriptionKey={mySkills.active_skill.descriptionKey}
-                    terms={mySkills.active_skill.terms || []}
-                />
+                    <SkillCard 
+                        icon={`/images/companions/${character}/gameplay/${companion}/my_passive_skill.png`}
+                        nameKey={passive_skill.name_key}
+                        label={tCommon('passive_skill')}
+                        descriptionKey={passive_skill.description_key as any}
+                        terms={passive_skill.terms}
+                    />
 
-                <SkillCard 
-                    icon={`companions/${character}/gameplay/${companion}/my_my_passive_skill.png`}
-                    nameKey={mySkills.passive_skill.name_key}
-                    label="passive_skill"
-                    descriptionKey={mySkills.passive_skill.descriptionKey}
-                    terms={mySkills.passive_skill.terms || []}
-                />
-            </div>
+                    <SkillCard 
+                        icon={`/images/companions/${character}/gameplay/${companion}/my_active_skill.png`}
+                        nameKey={active_skill.name_key}
+                        label={tCommon('active_skill')}
+                        descriptionKey={active_skill.description_key as any}
+                        cooldown={active_skill.cooldown as any}
+                        cost={active_skill.cost as any}
+                        terms={active_skill.terms}
+                    />
+                </tbody>
+            </table>
+            
+
+            {/*<StandardWeapons character={character} companion={companion} />*/}
+
         </div>
     )
 
