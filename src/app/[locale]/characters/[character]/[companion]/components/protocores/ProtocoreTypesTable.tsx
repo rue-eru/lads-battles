@@ -30,7 +30,7 @@ export default function ProtocoreTypesTable({stellactrum }: ProtocoreTypesTableP
 
                 <div className={styles.protCol}>
                     {/*ALPHA*/}
-                    <div className={styles.protRowHover}>
+                    <div className={styles.rowHover}>
                         <div className={styles.flatStatProt}>
                             <div className={styles.flatStatStyle}>
                                 <Image 
@@ -47,7 +47,7 @@ export default function ProtocoreTypesTable({stellactrum }: ProtocoreTypesTableP
                     </div>
 
                     {/*BETA*/}
-                    <div className={styles.protRowHover}>
+                    <div className={styles.rowHover}>
                         <div className={styles.multipleStatProt}>
                             <div className={styles.multipleStatStyle}>
                                 <Image 
@@ -90,7 +90,7 @@ export default function ProtocoreTypesTable({stellactrum }: ProtocoreTypesTableP
 
                 <div className={styles.protCol}>
                     {/*GAMMA*/}
-                    <div className={styles.protRowHover}>
+                    <div className={styles.rowHover}>
                         <div className={styles.flatStatProt}>
                             <div className={styles.flatStatStyle}>
                                 <Image 
@@ -105,12 +105,12 @@ export default function ProtocoreTypesTable({stellactrum }: ProtocoreTypesTableP
                             <div>{t('protocoreStats.atk')}</div>
                         </div>
                     </div>
-                    {/*            <div className={styles.protRowHover}>
+                    {/*            <div className={styles.rowHover}>
                         <div className={styles.multipleStatProt}>
                             <div className={styles.multipleStatStyle}>*/}
 
                     {/*DELTA*/}
-                    <div className={styles.protRowHover}>
+                    <div className={styles.rowHover}>
                         <div className={styles.multipleStatProt}>
                             <div className={styles.multipleStatStyle}>
                                 <Image 
