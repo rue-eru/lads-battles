@@ -381,8 +381,8 @@
                         }
                     }
                 },
-                "ward": {
-                    "name": "Hunter Ward",
+                "wand": {
+                    "name": "Hunter Wand",
                     "about": "A perfect choice when you need a bit of healing for particular stages.",
                     "skills": {
                         "basic_attack": {

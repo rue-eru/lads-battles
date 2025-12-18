@@ -24,6 +24,8 @@ export default function MySkillsTable( {character, companion}: CharaDataProps) {
             <div>
                 <h2 className={styles.h1}>{tCommon('header')}</h2>
                 <p className="mt-6 italic">{tCommon('not_limited_companion_warning')}</p>
+                <StandardWeapons />
+
             </div>
         )
     }
@@ -36,7 +38,7 @@ export default function MySkillsTable( {character, companion}: CharaDataProps) {
     } = gameplayData.my_skills 
     
     return (
-        <div className="py-12">
+        <div className="pb-12">
             <h2 className={styles.h1}>{tCommon('header')}</h2>
 
             <p className="pt-12">{tCommon('intro')}</p>
@@ -88,7 +90,7 @@ export default function MySkillsTable( {character, companion}: CharaDataProps) {
             </table>
             
 
-            {/*<StandardWeapons character={character} companion={companion} />*/}
+            <StandardWeapons />
 
         </div>
     )

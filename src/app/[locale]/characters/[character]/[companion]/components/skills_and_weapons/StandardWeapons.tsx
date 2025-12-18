@@ -1,45 +1,161 @@
 'use client'
 
-import { CharaDataProps } from "@/app/utils/interfaces-data";
 import { styles } from "@/app/utils/styles";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 import { standardWeaponsData } from "../../data/standard-weapons-data";
-import { WeaponCard } from "./WeaponCard";
+import Image from "next/image";
 
-export default function StandardWeapons ({ character, companion }: CharaDataProps) {
-    const t = useTranslations('weapons.standard_weapons');
-    const [selectedWeapon, setSelectedWeapon] = useState<string | null>(null);
-        const [expandedWeapon, setExpandedWeapon] = useState<string | null>(null);
+export default function StandardWeapons () {
+    const tWeapons = useTranslations('weapons');
+    const tSkills = useTranslations('skills.mySection')
+    const tGeneral = useTranslations('skills.general');
 
-        const handleWeaponClick = (weaponId: string) => {
-            if (expandedWeapon === weaponId) {
-                setExpandedWeapon(null);
-            } else {
-                setExpandedWeapon(weaponId);
-                setSelectedWeapon(weaponId);
-            }
-        }
+    const [expandedWeapon, setExpandedWeapon] = useState<string | null>(null);
+
+    const weaponData = standardWeaponsData[expandedWeapon as keyof typeof standardWeaponsData]
 
 
     return (
-        <div>
-            <h2 className={styles.h1}>{t('header')}</h2>
+        <div className="py-12">
+            <h2 className={styles.h1}>{tWeapons('standard_weapons.header')}</h2>
 
-            <div className="grid gap-4 md-grid-cols-4 grid-cols-2">
+            <div className="">
+
+                {/*represents an array of weapon images that can be expanded on toggle*/}
+                <div className="flex justify-between py-6">
                 {Object.entries(standardWeaponsData).map(([weaponId, weaponData]) => (
-                    <WeaponCard 
+                    <button
                         key={weaponId}
-                        weaponId={weaponId}
-                        weaponData={weaponData}
-                        isExpanded={expandedWeapon === weaponId}
-                        onClick={() => handleWeaponClick(weaponId)}
-                        t={t}
-                    />
+                        onClick={() =>setExpandedWeapon(
+                            expandedWeapon === weaponId ? null : weaponId
+                        )}
+                        className={`rounded-xl transition-all font-inknut ${
+                            expandedWeapon === weaponId
+                                ? ''
+                                : ''
+                        }`}
+                    >
+                        <div className="relative cursor-pointer">
+                            <Image 
+                                src={`/images/standard_weapons/${weaponId}/icon.png`}
+                                alt={tWeapons(weaponData.name_key)}
+                                width={150}
+                                height={150}
+                                className={`object-cover ${
+                                    expandedWeapon === weaponId
+                                        ? 'border-pink-400 border-3 rounded-full'
+                                        : ''
+                                }
+                                }    
+                                `}
+                            />
+                            <div className="h-6"></div>
+                            <span
+                                className={
+                                    expandedWeapon === weaponId
+                                    ? 'text-pink-400'
+                                    : ''
+                                }
+                            >{tWeapons(weaponData.name_key)}</span>
+                        </div>
+                    </button>
                 ))}
+                </div>
+
+                {/*clicking the button above expands the chosen weapon's skills info*/}
+                {expandedWeapon && weaponData && (
+                    <div className="mt-6">
+
+                        <table>
+                            <tbody>
+                                <tr>
+
+                                    {/*basic attack data*/}
+                                    <td className={styles.imgSkillWidth}>
+                                        <div>
+                                            <Image 
+                                                src={`/images/standard_weapons/${expandedWeapon}/basic_attack.png`}
+                                                alt={tWeapons(weaponData.skills.basic_attack.name_key)}
+                                                width={150}
+                                                height={150}
+                                                className="object-cover"
+                                            />
+                                        </div>
+                                    </td>
+                                    <td className="p-6">
+                                        <div className={styles.skillInfoBubbleDiv}>
+                                            <h3>{tWeapons(weaponData.skills.basic_attack.name_key)}</h3>
+                                            <span className={styles.skillsPinkBubble}>
+                                                {tSkills('basic_attack')}
+                                            </span>
+                                        </div>
+                                        <p>{tWeapons(weaponData.skills.basic_attack.description_key)}</p>
+                                    </td>
+                                </tr>
+                                <tr>
+
+                                    {/*passive skill data*/}
+                                    <td className={styles.imgSkillWidth}>
+                                        <div>
+                                            <Image 
+                                                src={`/images/standard_weapons/${expandedWeapon}/passive_skill.png`}
+                                                alt={tWeapons(weaponData.skills.passive_skill.name_key)}
+                                                width={150}
+                                                height={150}
+                                                className="object-cover"
+                                            />
+                                        </div>
+                                    </td>
+                                    <td className="p-6">
+                                        <div className={styles.skillInfoBubbleDiv}>
+                                            <h3>{tWeapons(weaponData.skills.passive_skill.name_key)}</h3>
+                                            <span className={styles.skillsPinkBubble}>
+                                                {tSkills('passive_skill')}
+                                            </span>
+                                        </div>
+                                        <p>{tWeapons(weaponData.skills.passive_skill.description_key)}</p>
+                                    </td>
+                                </tr>
+                                <tr>
+
+                                    {/*active skill data*/}
+                                    <td className={styles.imgSkillWidth}>
+                                        <div>
+                                            <Image 
+                                                src={`/images/standard_weapons/${expandedWeapon}/active_skill.png`}
+                                                alt={tWeapons(weaponData.skills.active_skill.name_key)}
+                                                width={150}
+                                                height={150}
+                                                className="object-cover"
+                                            />
+                                        </div>
+                                    </td>
+                                    <td className="p-6">
+                                        <div className={styles.skillInfoBubbleDiv}>
+                                            <h3>{tWeapons(weaponData.skills.active_skill.name_key)}</h3>
+                                            <span className={styles.skillsPinkBubble}>
+                                                {tSkills('active_skill')}
+                                            </span>
+
+                                            {weaponData.skills.active_skill.cooldown && <span className={styles.skillsGrayubble}>{tGeneral("cooldown")} {weaponData.skills.active_skill.cooldown}{tGeneral("seconds")}</span>}
+                                            {weaponData.skills.active_skill.cost && <span className={styles.skillsGrayubble}>{tGeneral("cost")} {weaponData.skills.active_skill.cost} ◆</span>}
+
+                                        </div>
+                                        <p>{tWeapons(weaponData.skills.active_skill.description_key)}</p>
+                                        
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+
+                )}
 
             </div>
         </div>
     )
 
 }
+

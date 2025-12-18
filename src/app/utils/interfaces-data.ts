@@ -65,6 +65,5 @@ export interface WeaponCardProps {
     weaponId: string;
     weaponData: any;
     isExpanded: boolean;
-    onClick: () => void;
-    t: any;
+    onToggle: () => void;
 }
