@@ -20,7 +20,7 @@ export default function StandardWeapons () {
         <div className="py-12">
             <h2 className={styles.h1}>{tWeapons('standard_weapons.header')}</h2>
 
-            <div className="">
+            <div>
 
                 {/*represents an array of weapon images that can be expanded on toggle*/}
                 <div className="flex justify-between py-6">
@@ -30,11 +30,7 @@ export default function StandardWeapons () {
                         onClick={() =>setExpandedWeapon(
                             expandedWeapon === weaponId ? null : weaponId
                         )}
-                        className={`rounded-xl transition-all font-inknut ${
-                            expandedWeapon === weaponId
-                                ? ''
-                                : ''
-                        }`}
+                        className="rounded-xl transition-all font-inknut"
                     >
                         <div className="relative cursor-pointer">
                             <Image 
@@ -149,11 +145,15 @@ export default function StandardWeapons () {
                             </tbody>
                         </table>
 
+                        <p className="py-6 italic">{tWeapons(weaponData.about as any)}</p>
+
+
                     </div>
 
                 )}
 
             </div>
+
         </div>
     )
 
