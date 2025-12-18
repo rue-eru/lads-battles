@@ -48,8 +48,8 @@
                     }
                 }
             },
-            "ward": {
-                "name": "Hunter Ward",
+            "wand": {
+                "name": "Hunter Wand",
                 "about": "A perfect choice when you need a bit of healing for particular stages.",
                 "skills": {
                     "basic_attack": {
@@ -61,7 +61,7 @@
                         "description": "Charge attack attack range's increased every 15s and deals massive ATK DMG."
                     },
                     "active_skill": {
-                        "name": "IMagnetic Nexus",
+                        "name": "Magnetic Nexus",
                         "description": "Creates a field that will inflict 6 instances of ATK DMG. When active restores HP to  you and your companion."
                     }
                 }
@@ -89,6 +89,7 @@
         "resonance_skill": "Only that skill helps you to destroy enemy’s shiels. On full Stellactrum match destroys 2 layers of the shield.",
         "ardent_oath": "Usually you can use it once during a battle, use Oath Recovery protocore to utilize it twice."
     }
+
         
         
 }

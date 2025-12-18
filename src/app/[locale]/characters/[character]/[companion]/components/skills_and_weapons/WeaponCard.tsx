@@ -3,14 +3,17 @@
 import { WeaponCardProps } from "@/app/utils/interfaces-data";
 import Image from "next/image";
 import SkillCard from "./SkillCard";
+import { useTranslations } from "next-intl";
 
 export function WeaponCard ({
     weaponId,
     weaponData,
     isExpanded,
-    onClick,
-    t
+    onToggle,
 }: WeaponCardProps) {
+
+    const t = useTranslations('weapons.standard_weapons')
+
     return (
         <div>
             <div className="hidden mx:visible text-[10px]">

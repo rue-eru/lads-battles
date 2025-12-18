@@ -26,6 +26,8 @@ export const styles = {
     skillsInfoDiv: `flex gap-3 font-inknut text-wrap`,
     skillsPinkBubble: `rounded-2xl px-2 bg-pink-400`,
     skillsGrayubble: `rounded-2xl px-2 bg-lightgray`,
+    imgSkillWidth: `w-32 p-6`,
+    skillInfoBubbleDiv: `flex flex-wrap items-center gap-3 mb-2 font-inknut`,
 
 
 

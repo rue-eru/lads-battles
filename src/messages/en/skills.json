@@ -17,7 +17,7 @@
         "basic_attack": "Basic Attack",
         "active_skill": "Active Skill",
         "passive_skill":"Passive Skill",
-        "not_limited_companion_warning": "No exlusive weapons are available for standard companions. You can only use standard Hunter series."
+        "not_limited_companion_warning": "No exlusive weapons are available for standard companions. You can only use Standard Hunter series."
     },
     "general": {
         "cooldown": "Cooldown",

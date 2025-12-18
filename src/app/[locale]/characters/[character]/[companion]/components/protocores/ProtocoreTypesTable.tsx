@@ -1,4 +1,3 @@
-'use client'
 
 import { ProtocoreTypesTableProps } from "@/app/utils/interfaces-data";
 import { useTranslations } from "next-intl";

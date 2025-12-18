@@ -13,10 +13,10 @@ export const standardWeaponsData = {
                 terms: ['Active Skill']
             },
             active_skill: {
-                name_key: "standard_weapons.firearm.skills.passive_skill.name",
+                name_key: "standard_weapons.firearm.skills.active_skill.name",
                 cooldown: '10',
                 cost: '1',
-                description_key: "standard_weapons.firearm.skills.passive_skill.description"
+                description_key: "standard_weapons.firearm.skills.active_skill.description"
             }
         }
     },
@@ -35,30 +35,30 @@ export const standardWeaponsData = {
                 terms: ['Hunter`s Intention']
             },
             active_skill: {
-                name_key: "standard_weapons.sword.skills.passive_skill.name",
+                name_key: "standard_weapons.sword.skills.active_skill.name",
                 cooldown: '8',
                 cost: '1',
-                description_key: "standard_weapons.sword.skills.passive_skill.description"
+                description_key: "standard_weapons.sword.skills.active_skill.description"
             }
         }
     },
-    ward: {
-        name_key: "standard_weapons.ward.name",
-        about: "standard_weapons.ward.about",
+    wand: {
+        name_key: "standard_weapons.wand.name",
+        about: "standard_weapons.wand.about",
         skills: {
             basic_attack: {
-                name_key: "standard_weapons.ward.skills.basic_attack.name",
-                description_key: "standard_weapons.ward.skills.basic_attack.description"
+                name_key: "standard_weapons.wand.skills.basic_attack.name",
+                description_key: "standard_weapons.wand.skills.basic_attack.description"
             },
             passive_skill: {
-                name_key: "standard_weapons.ward.skills.passive_skill.name",
-                description_key: "standard_weapons.ward.skills.passive_skill.description"
+                name_key: "standard_weapons.wand.skills.passive_skill.name",
+                description_key: "standard_weapons.wand.skills.passive_skill.description"
             },
             active_skill: {
-                name_key: "standard_weapons.ward.skills.passive_skill.name",
+                name_key: "standard_weapons.wand.skills.active_skill.name",
                 cooldown: '10',
                 cost: '1',
-                description_key: "standard_weapons.ward.skills.passive_skill.description"
+                description_key: "standard_weapons.wand.skills.active_skill.description"
             }
         }
     },
@@ -77,10 +77,10 @@ export const standardWeaponsData = {
             terms: ['Gathering Stacks', 'Active Skill', 'Basic Attack'],
             },
             active_skill: {
-                name_key: "standard_weapons.claymore.skills.passive_skill.name",
+                name_key: "standard_weapons.claymore.skills.active_skill.name",
                 cooldown: '7',
                 cost: '1',
-                description_key: "standard_weapons.claymore.skills.passive_skill.description"
+                description_key: "standard_weapons.claymore.skills.active_skill.description"
             }
         }
     },
