@@ -18,6 +18,15 @@ export default function SkillCard ({
     const t = useTranslations();
     const tGeneral = useTranslations('skills.general');
 
+    const hasNB = () => {
+        if (nameKey?.includes('.resonance_skill.')) return 'resonance_skill';
+        if (nameKey?.includes('.ardent_oath.')) return 'ardent_oath';
+
+        return null
+    }
+
+    const NBType = hasNB();
+
     return (
         <tr >
 
@@ -46,6 +55,7 @@ export default function SkillCard ({
                 {/*skill description part*/}
                 <div className="">
                     <p>{t(descriptionKey)}</p>
+                    {NBType && <span className="italic">{tGeneral(`skill_NB.${NBType}`)}</span>}
                     {/*
                     {terms.length > 0 && (
                         <div className="mt-2">
