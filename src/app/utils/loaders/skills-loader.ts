@@ -1,4 +1,4 @@
-import { CompanionSkills } from "./types-skills";
+import { CompanionSkills } from "../types/types-skills";
 
 import { xavierSkills } from "@/data/skills/xavier";
 import { zayneSkills} from "@/data/skills/zayne";

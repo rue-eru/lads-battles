@@ -1,4 +1,4 @@
-import {StandardWeapon} from "@/app/utils/types-weapon";
+import {StandardWeapon} from "@/app/utils/types/types-weapon";
 
 import standardWeapons from '@/data/weapons/standard-weapons.json'
 

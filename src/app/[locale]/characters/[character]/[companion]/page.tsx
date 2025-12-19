@@ -1,7 +1,7 @@
 import { Locale } from 'next-intl';
 import { styles } from "@/app/utils/styles";
 import Banner from './components/companion_basic_info/Banner';
-import { type CompanionId, type CharacterId, charactersData } from '@/app/utils/character-data-loader';
+import { type CompanionId, type CharacterId, charactersData } from "@/app/utils/loaders/character-data-loader";
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import CompanionInfoTable from './components/companion_basic_info/CompanionInfoTable';
 import ProtocoreSection from './components/protocores/ProtocoreSection';

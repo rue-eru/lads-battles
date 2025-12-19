@@ -1,4 +1,4 @@
-import { CompanionRanks } from "./types-ranks";
+import { CompanionRanks } from "@/app/utils/types/types-ranks";
 
 import xavierRanks from '@/data/ranks/xavier.json'
 import zayneRanks from '@/data/ranks/zayne.json'

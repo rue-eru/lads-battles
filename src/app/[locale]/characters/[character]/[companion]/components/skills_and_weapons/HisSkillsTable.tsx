@@ -2,7 +2,7 @@ import { CharaDataProps } from "@/app/utils/interfaces-data";
 import { styles } from "@/app/utils/styles";
 import { useTranslations } from "next-intl";
 import SkillCard from "./SkillCard";
-import { getSkills } from "@/app/utils/skills-loader";
+import { getSkills } from "@/app/utils/loaders/skills-loader";
 
 export default function HisSkillsTable ({character, companion } : CharaDataProps) { 
     const t = useTranslations('skills.hisSection');
