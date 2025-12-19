@@ -1,6 +1,6 @@
 import { CharaDataProps } from "@/app/utils/interfaces-data";
 import { useTranslations } from "next-intl";
-import { getGameplay } from "@/app/utils/gameplay-loader";
+import { getSkills } from "@/app/utils/skills-loader";
 import { styles } from "@/app/utils/styles";
 import Image from "next/image";
 import SkillCard from "./SkillCard";
@@ -12,13 +12,13 @@ export default function MySkillsTable( {character, companion}: CharaDataProps) {
     const tCommon = useTranslations('skills.mySection');
     const tData = useTranslations();
     const tCharaName = useTranslations(`characters.companions.${character}`)
-    const gameplayData = getGameplay(character as any, companion);
+    const SkillsData = getSkills(character as any, companion);
 
-    if (!gameplayData) {
+    if (!SkillsData) {
         return <p>{tCommon('no-data')}</p>
     }
 
-    if (!gameplayData?.my_skills) {
+    if (!SkillsData?.my_skills) {
 
         return (
             <div>
@@ -35,7 +35,7 @@ export default function MySkillsTable( {character, companion}: CharaDataProps) {
         basic_attack,
         passive_skill,
         active_skill
-    } = gameplayData.my_skills 
+    } = SkillsData.my_skills 
     
     return (
         <div className="pb-12">

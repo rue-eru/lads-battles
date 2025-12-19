@@ -3,7 +3,7 @@ import otherworldly_visitor from './otherworldly_visitor.json'
 import abysm_sovereign from './abysm_sovereign.json'
 import silverwing_fiend from './silverwing_fiend.json'
 
-export const sylusGameplay = {
+export const sylusSkills = {
     relentless_conqueror,
     otherworldly_visitor,
     abysm_sovereign,
