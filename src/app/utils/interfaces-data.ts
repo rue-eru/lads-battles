@@ -53,7 +53,6 @@ export interface SkillCardProps {
     cost?: number;
     descriptionKey: string;
     terms?: string[];
-    compact?: boolean
 }
 
 export interface SkillTermProps { 

@@ -22,7 +22,11 @@
     "general": {
         "cooldown": "Cooldown",
         "seconds": "s",
-        "cost": "Cost"
+        "cost": "Cost",
+        "skill_NB": {
+            "resonance_skill": "Only that skill helps you to  destroy enemy’s shields. On full Stellactrum Match destroys 2 layers of the shield.",
+            "ardent_oath":"Usually you can use it once during a battle, use [Oath Recovery] protocore to utilize it twice."
+        }
     },
     "our_skills": {
         "rafayel": {
@@ -83,7 +87,7 @@
             "abysswalker": {
                 "support_skill": {
                     "name": "Eclipse Rend",
-                    "description": "Click Rafayel's icon when ready, or trigger with perfect dodge.• Leaves [Fishtail Beacon] on a ground (restores 2 Potential on pick) • At max [Potential], becomes empowered and Burns enemies "
+                    "description": "Click Rafayel's icon when ready, or trigger with perfect dodge. Leaves [Fishtail Beacon] on a ground restoring 2 Potential on pick • At max [Potential], becomes empowered and Burns enemies"
                 },
                 "resonance_skill": {
                     "name": "Fantasia Shark",

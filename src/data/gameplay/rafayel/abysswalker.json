@@ -34,7 +34,7 @@
             "description_key": "skills.our_skills.rafayel.abysswalker.my_passive_skill.description"
         },
         "active_skill": {
-            "name_key": "skills.aour_skills.bysswalker.active_skill.name",
+            "name_key": "skills.our_skills.rafayel.abysswalker.active_skill.name",
             "cooldown": "8",
             "cost": "1",
             "description_key": "skills.our_skills.rafayel.abysswalker.active_skill.description"
