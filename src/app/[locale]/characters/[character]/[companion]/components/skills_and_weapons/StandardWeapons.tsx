@@ -3,7 +3,7 @@
 import { styles } from "@/app/utils/styles";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
-import { standardWeaponsData } from "@/app/utils/weapon-loader";
+import { standardWeaponsData } from "@/app/utils/loaders/weapon-loader";
 import Image from "next/image";
 
 export default function StandardWeapons () {

@@ -1,6 +1,6 @@
 'use client'
 
-import { CharacterId, charactersData } from "@/app/utils/character-data-loader";
+import { CharacterId, charactersData } from "@/app/utils/loaders/character-data-loader";
 import { CharaDataProps } from "@/app/utils/interfaces-data";
 import TableRow from "./TableRow";
 import { useTranslations } from 'next-intl';

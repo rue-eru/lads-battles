@@ -1,4 +1,4 @@
-import { CharacterData, CharactersData } from "./types-data"
+import { CharacterData, CharactersData } from "@/app/utils/types/types-data"
 
 import xavierData from '@/data/characters/xavier.json';
 import zayneData  from '@/data/characters/zayne.json';

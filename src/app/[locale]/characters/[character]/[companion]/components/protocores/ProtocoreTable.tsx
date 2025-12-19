@@ -1,9 +1,9 @@
 'use client'
 
 import { CharaDataProps } from "@/app/utils/interfaces-data";
-import { CharacterId, charactersData } from "@/app/utils/character-data-loader";
+import { CharacterId, charactersData } from "@/app/utils/loaders/character-data-loader";
 import { useState } from "react";
-import { rankData } from "@/app/utils/rank-loader";
+import { rankData } from "@/app/utils/loaders/rank-loader";
 import { useTranslations } from "next-intl";
 import ProtocoreTableRow from "./ProtocoreTableRow";
 import { styles } from "@/app/utils/styles";

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { Locale } from "next-intl";
-import { type CharacterId, charactersData } from "@/app/utils/character-data-loader";
+import { type CharacterId, charactersData } from "@/app/utils/loaders/character-data-loader";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import CharacterCard from "@/app/components/CharacterCard";
 import { styles } from "@/app/utils/styles";
