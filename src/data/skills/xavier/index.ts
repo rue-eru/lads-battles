@@ -5,7 +5,7 @@ import lightseeker from './lightseeker.json'
 import lumiere from './lumiere.json'
 import king_of_darknight from './king_of_darknight.json'
 
-export const xavierGameplay = {
+export const xavierSkills = {
     deepspace_hunter,
     distant_youth,
     evol_police,

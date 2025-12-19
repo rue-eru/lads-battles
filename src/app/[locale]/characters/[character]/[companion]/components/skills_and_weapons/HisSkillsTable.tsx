@@ -2,14 +2,14 @@ import { CharaDataProps } from "@/app/utils/interfaces-data";
 import { styles } from "@/app/utils/styles";
 import { useTranslations } from "next-intl";
 import SkillCard from "./SkillCard";
-import { getGameplay } from "@/app/utils/gameplay-loader";
+import { getSkills } from "@/app/utils/skills-loader";
 
 export default function HisSkillsTable ({character, companion } : CharaDataProps) { 
     const t = useTranslations('skills.hisSection');
 
-    const gameplayData = getGameplay(character as any, companion);
+    const SkillsData = getSkills(character as any, companion);
 
-    if (!gameplayData?.his_skills) {
+    if (!SkillsData?.his_skills) {
         return <p>{t('no-data')}</p>
     }
 
@@ -18,7 +18,7 @@ export default function HisSkillsTable ({character, companion } : CharaDataProps
         resonance_skill,
         ardent_oath,
         passive_skill
-    } = gameplayData.his_skills
+    } = SkillsData.his_skills
 
 // dont forget to return term
     return (

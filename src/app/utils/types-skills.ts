@@ -10,7 +10,7 @@ export interface SkillDescription {
     highlights?: string;
 }
 
-//goes directly in CompanionGameplay as an interface for each skill
+//goes directly in CompanionSkills as an interface for each skill
 export interface Skills {
     name_key: string;
     cooldown?: string;
@@ -19,7 +19,7 @@ export interface Skills {
     terms?: string[];
 }
 
-export interface CompanionGameplay {
+export interface CompanionSkills {
     his_skills: {
         support_skill: Skills;
         resonance_skill: Skills;
@@ -34,4 +34,4 @@ export interface CompanionGameplay {
     }
 }
 
-export type GameplayData = Record<string, Record<string, CompanionGameplay>>;
+export type SkillsData = Record<string, Record<string, CompanionSkills>>;

@@ -5,7 +5,7 @@ import foreseer from './foreseer.json'
 import master_of_fate from './master_of_fate.json'
 import god_of_annihilation from './god_of_annihilation.json'
 
-export const zayneGameplay = {
+export const zayneSkills = {
     dawnbreaker,
     linkon_doctor,
     medic_of_the_arctic,

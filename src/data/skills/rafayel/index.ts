@@ -5,7 +5,7 @@ import abysswalker from './abysswalker.json'
 import god_of_the_tides from './god_of_the_tides.json'
 import lemurian_sea_god from './lemurian_sea_god.json'
 
-export const rafayelGameplay = {
+export const rafayelSkills = {
     artist,
     fresh_paint,
     phantom_of_the_siren,
