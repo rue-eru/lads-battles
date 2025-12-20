@@ -4,9 +4,17 @@
     "tipsKey": "gameplay.rafayel.artist.tips",
     "images": [
         {
-            "src": "/images",
-            "alt": "",
-            "caption": ""
+            "src": "/images/companions/rafayel/gameplay/artist/flame_lily.png",
+            "alt": "gameplay.rafayel.artist.images.flame_lily.alt",
+            "caption": "gameplay.rafayel.artist.images.flame_lily.caption"
+        },
+        {
+            "src": [
+                "/images/companions/rafayel/gameplay/artist/scarlet_shade_1.png",
+                "/images/companions/rafayel/gameplay/artist/scarlet_shade_2.png"
+            ],
+            "alt": "gameplay.rafayel.artist.images.scarlet_shade.alt",
+            "caption": "gameplay.rafayel.artist.images.scarlet_shade.caption"
         }
     ]
 }

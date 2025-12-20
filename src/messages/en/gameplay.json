@@ -6,7 +6,17 @@
                 "[Resonate Skill] and [Support Skill] create a [Scarlet Shade] and [Flame Lily] which inflict burn for 5s.",
                 "After consuming 10 [Flame Lilies] Rafayel gets an ATK buff for 10s and additionally his attack range is also increased.",
                 "To create more [Flame Lilies] and trigger the passive faster you can use high speed weapon like [Hunter Firearms]."
-            ]
+            ],
+            "images": {
+                "flame_lily": {
+                    "alt": "Flame Lily display on the field",
+                    "caption": "Flame Lilies summoned by Rafayel"
+                },
+                "scarlet_shade": {
+                    "alt": "Scarlet Shade on the field",
+                    "caption": "Scarlet shade left by Rafayel's Support Skill leaves Burn on exit"
+                }
+            }
         },
         "fresh_paint": {
             "summary": "Detonate for DEF reduction + healing",
@@ -15,7 +25,13 @@
                 "[Active Skill], [Resonance Skill] or [Ardent Oath]  detonate them, dealing ATK DMG based on the number of stacks and restore HP to both of you.",
                 "Detonation of 5 stacks reduce enemy's DEF by 20% for 5s.",
                 "To inflict more [Tinctus] use high speed weapon like [Hunter Firearms]."
-            ]
+            ],
+            "images": {
+                "tinctus": {
+                    "alt": "Tinctus on enemies",
+                    "caption": "Tinctus inflicted on the enemies"
+                }
+            }
         },
         "phantom_of_the_siren": {
             "summary": "[Echo] → Increase damage taken +  [DoT]",
@@ -23,7 +39,13 @@
                 "[Support Skill] leaves behind [Reprise] which reduces enemies movement speed by 50% for 5s.",
                 "Using [Support Skill] after a [Passive Skill] leaves [Echo] which increases the DMG dealt to enemies by 10% for 5s.",
                 "To utilise it faster using high speed weapon like [Hunter Firearm]."
-            ]
+            ],
+            "images": {
+                "echo": {
+                    "alt": "Echo circle on the field",
+                    "caption": "Echo circle caused by Rafayel's Passive Skill"
+                }
+            }
         },
         "abysswalker": {
             "summary": "For Abysswalker there's no actial rotation but in a nutshell:",
@@ -155,9 +177,9 @@
                     "alt": "Ocean's Descent indicator active",
                     "caption": "After activation your earned points will burn out back till the end of the state empowering you and Rafayel"
                 },
-                "lightnings": {
-                    "alt": "Lightning Crystal and stricking Lightnings in Ocean's Descent",
-                    "caption": "When Ocean's Descent is active Rafayel will throw lightnings on the field"
+                "state_activation": {
+                    "alt": "Ocean's Descent state activation",
+                    "caption": "When Ocean's Descent is active a activation button will appear and Rafayel will throw lightnings on the field while you will be empowered."
                 }
             }
         }

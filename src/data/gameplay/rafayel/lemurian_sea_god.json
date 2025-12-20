@@ -28,6 +28,14 @@
             "src": "/images/companions/rafayel/gameplay/lemurian_sea_god/oceans_descent_bar_active.png",
             "altKey": "gameplay.rafayel.lemurian_sea_god.images.oceans_descent_bar_active.alt",
             "captionKey": "gameplay.rafayel.lemurian_sea_god.images.oceans_descent_bar_active.caption"
+        },
+            {
+            "src": [
+                "/images/companions/rafayel/gameplay/lemurian_sea_god/state_activation_1.png",
+                "/images/companions/rafayel/gameplay/lemurian_sea_god/state_activation_2.png"
+            ],
+            "altKey": "gameplay.rafayel.lemurian_sea_god.images.state_activation.alt",
+            "captionKey": "gameplay.rafayel.lemurian_sea_god.images.state_activation.caption"
         }
     ]
     
