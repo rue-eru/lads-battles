@@ -1,12 +1,15 @@
 {
+    "general": {
+        "header": "gameplay",
+        "no-data": "no guide available",
+        "standard_conclusion": "Standard Companion's gameplay is pretty straightforward: you utilise his skills to get buffs while adapting your gameplay based on the standard weapon you have chosen.",
+        "standard_rotation": "Your rotation will go like: "
+    },
     "rafayel": {
         "artist": {
-            "summary": "Collect [Flame Lily] → Get ATK buff + range increase",
-            "tips": [
-                "[Resonate Skill] and [Support Skill] create a [Scarlet Shade] and [Flame Lily] which inflict burn for 5s.",
-                "After consuming 10 [Flame Lilies] Rafayel gets an ATK buff for 10s and additionally his attack range is also increased.",
-                "To create more [Flame Lilies] and trigger the passive faster you can use high speed weapon like [Hunter Firearms]."
-            ],
+            "paragraph": 
+                "[Resonate Skill] and [Support Skill] create a [Scarlet Shade] and [Flame Lily] which inflict burn for 5s. After consuming 10 [Flame Lilies] Rafayel gets an ATK buff for 10s and additionally his attack range is also increased. To create more [Flame Lilies] and trigger the passive faster you can use a high speed weapon like [Hunter Firearms]."
+            ,
             "images": {
                 "flame_lily": {
                     "alt": "Flame Lily display on the field",
@@ -16,16 +19,14 @@
                     "alt": "Scarlet Shade on the field",
                     "caption": "Scarlet shade left by Rafayel's Support Skill leaves Burn on exit"
                 }
-            }
+            },
+            "summary": "Collect [Flame Lily] → Get ATK buff + range increase"
+
         },
         "fresh_paint": {
             "summary": "Detonate for DEF reduction + healing",
-            "tips": [
-                "[Charge Attack] and [Support Skill] inflict [Tinctus] stacking it up to 5 times.",
-                "[Active Skill], [Resonance Skill] or [Ardent Oath]  detonate them, dealing ATK DMG based on the number of stacks and restore HP to both of you.",
-                "Detonation of 5 stacks reduce enemy's DEF by 20% for 5s.",
-                "To inflict more [Tinctus] use high speed weapon like [Hunter Firearms]."
-            ],
+            "paragraph": 
+                "[Charge Attack] and [Support Skill] inflict [Tinctus] stacking it up to 5 times. [Active Skill], [Resonance Skill] or [Ardent Oath]  detonate them, dealing ATK DMG based on the number of stacks and restore HP to both of you. Detonation of 5 stacks reduce enemy's DEF by 20% for 5s. To inflict more [Tinctus] use high speed weapon like [Hunter Firearms].",
             "images": {
                 "tinctus": {
                     "alt": "Tinctus on enemies",
@@ -35,11 +36,8 @@
         },
         "phantom_of_the_siren": {
             "summary": "[Echo] → Increase damage taken +  [DoT]",
-            "tips": [
-                "[Support Skill] leaves behind [Reprise] which reduces enemies movement speed by 50% for 5s.",
-                "Using [Support Skill] after a [Passive Skill] leaves [Echo] which increases the DMG dealt to enemies by 10% for 5s.",
-                "To utilise it faster using high speed weapon like [Hunter Firearm]."
-            ],
+            "paragraph":
+                "[Support Skill] leaves behind [Reprise] which reduces enemies movement speed by 50% for 5s. Using [Support Skill] after a [Passive Skill] leaves [Echo] which increases the DMG dealt to enemies by 10% for 5s. To utilise it faster using high speed weapon like [Hunter Firearm].",
             "images": {
                 "echo": {
                     "alt": "Echo circle on the field",

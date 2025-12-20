@@ -1,12 +1,23 @@
 {
     "type": "standard",
-    "summaryKey": "gameplay.rafayel.phantom_of_the_siren.summary",
-    "tipsKey": "gameplay.rafayel.phantom_of_the_siren.tips",
-        "images": [
+   "blocks": [
         {
-            "src": "/images/companions/rafayel/gameplay/phantom_of_the_siren/echo.png",
+            "type": "paragraph",
+            "content": "gameplay.rafayel.phantom_of_the_siren.paragraph" 
+        },
+        {
+            "type": "image",
+            "src": "/images/companions/rafayel/gameplay/phantom_of_the_siren/echo.jpg",
             "alt": "gameplay.rafayel.phantom_of_the_siren.images.echo.alt",
             "caption": "gameplay.rafayel.phantom_of_the_siren.images.echo.caption"
+        },
+        {
+            "type": "summary",
+            "content": "gameplay.rafayel.phantom_of_the_siren.summary"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.general.standard_conclusion"
         }
     ]
 }

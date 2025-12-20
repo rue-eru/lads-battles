@@ -1,12 +1,24 @@
 {
     "type": "standard",
-    "summaryKey": "gameplay.rafayel.fresh_paint.summary",
-    "tipsKey": "gameplay.rafayel.fresh_paint.tips",
-    "images": [
+    "blocks": [
         {
-            "src": "/images/companions/rafayel/gameplay/fresh_paint/tinctus.png",
+            "type": "paragraph",
+            "content": "gameplay.rafayel.fresh_paint.paragraph" 
+        },
+        {
+            "type": "image",
+            "src": "/images/companions/rafayel/gameplay/fresh_paint/tinctus.jpg",
             "alt": "gameplay.rafayel.fresh_paint.images.tinctus.alt",
-            "caption": "gameplay.rafayel.artist.images.tinctus.caption"
+            "caption": "gameplay.rafayel.fresh_paint.images.tinctus.caption"
+        },
+        {
+            "type": "summary",
+            "content": "gameplay.rafayel.fresh_paint.summary"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.general.standard_conclusion"
         }
     ]
+
 }

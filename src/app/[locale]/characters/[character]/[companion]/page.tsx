@@ -6,6 +6,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import CompanionInfoTable from './components/companion_basic_info/CompanionInfoTable';
 import ProtocoreSection from './components/protocores/ProtocoreSection';
 import SkillWeaponSection from './components/skills_and_weapons/SkillWeaponSection';
+import GameplaySection from './components/gameplay/GameplaySection';
 
 export default async function CompanionPage ( {params} : {
   params: Promise<{character: CharacterId; companion: CompanionId; locale: Locale}>
@@ -38,6 +39,7 @@ export default async function CompanionPage ( {params} : {
                 <CompanionInfoTable character={character as any} companion={companion}/>
                 <ProtocoreSection character={character as any} companion={companion}/>
                 <SkillWeaponSection character={character as any} companion={companion} />
+                <GameplaySection character={character as any} companion={companion} />
             </div>
         </div>
     )

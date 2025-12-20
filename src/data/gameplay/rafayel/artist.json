@@ -1,20 +1,38 @@
 {
     "type": "standard",
-    "summaryKey": "gameplay.rafayel.artist.summary",
-    "tipsKey": "gameplay.rafayel.artist.tips",
-    "images": [
+    "blocks": [
         {
-            "src": "/images/companions/rafayel/gameplay/artist/flame_lily.png",
+            "type": "paragraph",
+            "content": "gameplay.rafayel.artist.paragraph" 
+        },
+        {
+            "type": "image",
+            "src": "/images/companions/rafayel/gameplay/artist/flame_lily.jpg",
             "alt": "gameplay.rafayel.artist.images.flame_lily.alt",
             "caption": "gameplay.rafayel.artist.images.flame_lily.caption"
         },
         {
-            "src": [
-                "/images/companions/rafayel/gameplay/artist/scarlet_shade_1.png",
-                "/images/companions/rafayel/gameplay/artist/scarlet_shade_2.png"
-            ],
-            "alt": "gameplay.rafayel.artist.images.scarlet_shade.alt",
-            "caption": "gameplay.rafayel.artist.images.scarlet_shade.caption"
+            "type": "imageGroup",
+            "caption": "gameplay.rafayel.artist.images.scarlet_shade.caption",
+            "images": [
+                {
+                "src": "/images/companions/rafayel/gameplay/artist/scarlet_shade_1.jpg",
+                "alt": "gameplay.rafayel.artist.images.scarlet_shade.alt"
+                },
+                {
+                "src": "/images/companions/rafayel/gameplay/artist/scarlet_shade_2.jpg",
+                "alt": "gameplay.rafayel.artist.images.scarlet_shade.alt"
+                }
+            ]
+
+        },
+        {
+            "type": "summary",
+            "content": "gameplay.rafayel.artist.summary"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.general.standard_conclusion"
         }
     ]
 }

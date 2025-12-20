@@ -1,3 +1,4 @@
+
 export interface CharaDataProps{
     character: string,
     companion: string
@@ -65,4 +66,14 @@ export interface WeaponCardProps {
     weaponData: any;
     isExpanded: boolean;
     onToggle: () => void;
+}
+
+export interface GameplaySectionProps {
+    character: string;
+    companion: string;
+}
+
+export interface StandardGameplayCardProps {
+    character: string;
+    companion: string;
 }
