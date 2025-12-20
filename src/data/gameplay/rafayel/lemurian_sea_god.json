@@ -1,0 +1,34 @@
+{
+    "type": "solar",
+    "summaryKey": "gameplay.rafayel.lemurian_sea_god.summary",
+    "tipsKey": "gameplay.rafayel.lemurian_sea_god.tips",
+    "rotationsKey": "gameplay.rafayel.lemurian_sea_god.rotations",
+    "images": [
+        {
+            "src": "/images/companions/rafayel/gameplay/lemurian_sea_god/lightning_crystal.png",
+            "altKey": "gameplay.rafayel.lemurian_sea_god.images.lightning_crystal.alt",
+            "captionKey": "gameplay.rafayel.lemurian_sea_god.images.lightning_crystal.caption"
+        },
+        {
+            "src": "/images/companions/rafayel/gameplay/lemurian_sea_god/buffs.png",
+            "altKey": "gameplay.rafayel.lemurian_sea_god.images.buffs.alt",
+            "captionKey": "gameplay.rafayel.lemurian_sea_god.images.buffs.caption"
+        },
+        {
+            "src": "/images/companions/rafayel/gameplay/lemurian_sea_god/oceans_descent_bar_inactive.png",
+            "altKey": "gameplay.rafayel.lemurian_sea_god.images.oceans_descent_bar_inactive.alt",
+            "captionKey": "gameplay.rafayel.lemurian_sea_god.images.oceans_descent_bar_inactive.caption"
+        },
+        {
+            "src": "/images/companions/rafayel/gameplay/lemurian_sea_god/oceans_descent_bar_at_full.png",
+            "altKey": "gameplay.rafayel.lemurian_sea_god.images.oceans_descent_bar_at_full.alt",
+            "captionKey": "gameplay.rafayel.lemurian_sea_god.images.oceans_descent_bar_at_full.caption"
+        },
+        {
+            "src": "/images/companions/rafayel/gameplay/lemurian_sea_god/oceans_descent_bar_active.png",
+            "altKey": "gameplay.rafayel.lemurian_sea_god.images.oceans_descent_bar_active.alt",
+            "captionKey": "gameplay.rafayel.lemurian_sea_god.images.oceans_descent_bar_active.caption"
+        }
+    ]
+    
+}
