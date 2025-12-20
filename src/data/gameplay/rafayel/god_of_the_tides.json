@@ -1,0 +1,44 @@
+{
+    "type": "solar",
+    "summaryKey": "gameplay.rafayel.god_of_the_tides.summary",
+    "tipsKey": "gameplay.rafayel.god_of_the_tides.tips",
+    "rotationsKey": "gameplay.rafayel.god_of_the_tides.rotations",
+    "images": [
+        {
+            "src": "/images/companions/rafayel/gameplay/god_of_the_tides/seaspirit.png",
+            "altKey": "gameplay.rafayel.god_of_the_tides.images.seaspirit.alt",
+            "captionKey": "gameplay.rafayel.god_of_the_tides.images.seaspirit.caption"
+        },
+        {
+            "src": "/images/companions/rafayel/gameplay/god_of_the_tides/faith.png",
+            "altKey": "gameplay.rafayel.god_of_the_tides.images.faith.alt",
+            "captionKey": "gameplay.rafayel.god_of_the_tides.images.faith.caption"
+        },
+        {
+            "src": "/images/companions/rafayel/gameplay/god_of_the_tides/heavenly_rain.png",
+            "altKey": "gameplay.rafayel.god_of_the_tides.images.heavenly_rain.alt",
+            "captionKey": "gameplay.rafayel.god_of_the_tides.images.heavenly_rain.caption"
+        },
+        {
+            "src": "/images/companions/rafayel/gameplay/god_of_the_tides/tidal_field.png",
+            "altKey": "gameplay.rafayel.god_of_the_tides.images.tidal_field.alt",
+            "captionKey": "gameplay.rafayel.god_of_the_tides.images.tidal_field.caption"
+        },
+        {
+            "src": [
+                "/images/companions/rafayel/gameplay/god_of_the_tides/rafayel_buff_1.png",
+                "/images/companions/rafayel/gameplay/god_of_the_tides/rafayel_buff_2.png"
+            ],
+            "altKey": "gameplay.rafayel.god_of_the_tides.images.rafayel_buffs.alt",
+            "captionKey": "gameplay.rafayel.god_of_the_tides.images.rafayel_buffs.caption"
+        },
+        {
+            "src": [
+                "/images/companions/rafayel/gameplay/god_of_the_tides/mc_buff_1.png",
+                "/images/companions/rafayel/gameplay/god_of_the_tides/mc_buff_2.png"
+            ],
+            "altKey": "gameplay.rafayel.god_of_the_tides.images.mc_buffs.alt",
+            "captionKey": "gameplay.rafayel.god_of_the_tides.images.mc_buffs.caption"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "type": "standard",
+    "summaryKey": "gameplay.rafayel.artist.summary",
+    "tipsKey": "gameplay.rafayel.artist.tips",
+    "images": [
+        {
+            "src": "/images",
+            "alt": "",
+            "caption": ""
+        }
+    ]
+}
