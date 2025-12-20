@@ -1,12 +1,10 @@
 import { CharaDataProps } from "@/app/utils/interfaces-data";
 import { useTranslations } from "next-intl";
-import { CharacterId, charactersData } from "@/app/utils/loaders/character-data-loader";
 import { styles } from "@/app/utils/styles";
 import HisSkillsTable from "./HisSkillsTable";
 import MySkillsTable from "./MySkillsTable";
 
 export default function SkillWeaponSection ({character, companion}: CharaDataProps) {
-    const charaData = charactersData[character as CharacterId];
 
     const t = useTranslations('skills');
 
