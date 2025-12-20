@@ -1,5 +1,12 @@
 {
     "type": "standard",
     "summaryKey": "gameplay.rafayel.phantom_of_the_siren.summary",
-    "tipsKey": "gameplay.rafayel.phantom_of_the_siren.tips"
+    "tipsKey": "gameplay.rafayel.phantom_of_the_siren.tips",
+        "images": [
+        {
+            "src": "/images/companions/rafayel/gameplay/phantom_of_the_siren/echo.png",
+            "alt": "gameplay.rafayel.phantom_of_the_siren.images.echo.alt",
+            "caption": "gameplay.rafayel.phantom_of_the_siren.images.echo.caption"
+        }
+    ]
 }

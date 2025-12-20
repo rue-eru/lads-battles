@@ -1,5 +1,12 @@
 {
     "type": "standard",
     "summaryKey": "gameplay.rafayel.fresh_paint.summary",
-    "tipsKey": "gameplay.rafayel.fresh_paint.tips"
+    "tipsKey": "gameplay.rafayel.fresh_paint.tips",
+    "images": [
+        {
+            "src": "/images/companions/rafayel/gameplay/fresh_paint/tinctus.png",
+            "alt": "gameplay.rafayel.fresh_paint.images.tinctus.alt",
+            "caption": "gameplay.rafayel.artist.images.tinctus.caption"
+        }
+    ]
 }
