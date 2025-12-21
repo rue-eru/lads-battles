@@ -43,6 +43,7 @@
                     "alt": "Echo circle on the field",
                     "caption": "Echo circle caused by Rafayel's Passive Skill"
                 }
+
             }
         },
         "abysswalker": {
@@ -145,15 +146,22 @@
             }
         },
         "lemurian_sea_god": {
-            "tips": [
-                "Lemurian Sea God may seem quite complex at first but his rotations are quite straightforward and improve with Ranks.",
-                "Your gameplay is centred around [Sea God Mark] and his Special State. When a [Charged Attack] empowered by [Sea God Mark] hits an enemy, it reduces the [Support Skill] cooldown by 1.5s.",
-                "Basically he has two states normal and [Ocean's Descent]. To active it you need to perform [Basic Attacks] and an [Active Skill] to full your yellow part of the bar. To full Rafayel's white part you should click on his icon when his [Support Skill] is up and to trigger it faster you can perform a perfect dodge.",
-                "On full [Ocean's Descent] button will appear. On trigger it will change to  [Divine Favor] for 11s. In that state Rafayel will throw lightning. And you are the main star right now!  Consuming [Sea God Mark] is greatly empowered in that state. Additionally [Active Skill]  will generate [Lightning Crystal], dodging right into it will detonate it dealing massive DMG and restoring 0.3◆  also reducing [Active Skill] cooldown by 3,3s! When state is over and if the [Lightning Crystal] still exists it will be detonated.Usually you are able to make the rotation 3 times during the [Divine Favor], with Ranks it is possible up to do 4!",
-                "So the whole rotation would look like this:"
-            ],
-            "rotations": "[Resonance Skill]  + stack MC's [Basic Attack] & [Active Skill] (don't consume [Sea God Mark] too close to changing states) + Rafayel's [Support Skill] +  [Resonance skill]  →  [Ocean's Descent] → consume [Sea God Mark] + [Active Skill] leaves  [Lightning Crystal] + dodge in it (repeat till the end) → repeat the whole rotation.",
-            "summary": "If you have time in between  before [Sea God Mark] is restored you can do [Basic Attack]s.",
+
+            "paragraph_1": "Lemurian Sea God may seem quite complex at first but his rotations are quite straightforward and improve with Ranks.",
+            "paragraph_2": "Your gameplay is centred around [Sea God Mark] and his Special State. When a [Charged Attack] empowered by [Sea God Mark] hits an enemy, it reduces the [Support Skill] cooldown by 1.5s.",
+            "paragraph_3": "Basically he has two states normal and [Ocean's Descent]. To active it you need to perform [Basic Attacks] and an [Active Skill] to full your yellow part of the bar. To full Rafayel's white part of it you should click on his icon when his [Support Skill] is up and to trigger it faster you can perform a perfect dodge.",
+            "paragraph_4": "At full [Ocean's Descent] button will appear. On trigger it will change the state to  [Divine Favor] for 11s. In that state Rafayel will throw lightning. And you are the main star right now!",
+            "paragraph_5": "Consuming [Sea God Mark] is greatly empowered in that state. Additionally [Active Skill]  will generate [Lightning Crystal], dodging right into it will detonate it dealing massive DMG and restoring 0.3 ◆  also reducing [Active Skill] cooldown by 3,3s! When state is over and if the [Lightning Crystal] still exists it will be detonated.",
+            "paragraph_6": "Usually you are able to make the rotation 3 times during the [Divine Favor], with Ranks it is possible up to do 4!",
+            "paragraph_8": "So the whole rotation will look like this:",
+
+            "ul_li_1": "[Resonance Skill]  +  stack MC's [Basic Attack] & [Active Skill] (don't consume [Sea God Mark] too close to state change) + Rafayel's [Support Skill] +  [Resonance skill]  →",
+            "ul_li_2": "activate [Divine Favor] → ",
+            "ul_li_3": "consume [Sea God Mark] + [Active Skill] leaves  [Lightning Crystal] + dodge in it (repeat till the end) → ",
+            "ul_li_4": "repeat the whole rotation",
+
+
+            "paragraph_9": "If you have time in between  before [Sea God Mark] is restored you can do [Basic Attack]s.",
             "images": {
                 "lightning_crystal": {
                     "alt": "Lightning Crystal left by Active Skill in [Ocean's Descent] state",
@@ -176,8 +184,8 @@
                     "caption": "After activation your earned points will burn out back till the end of the state empowering you and Rafayel"
                 },
                 "state_activation": {
-                    "alt": "Ocean's Descent state activation",
-                    "caption": "When Ocean's Descent is active a activation button will appear and Rafayel will throw lightnings on the field while you will be empowered."
+                    "alt": " [Divine Favor] state activation",
+                    "caption": "When Ocean's Descent is active a activation button will appear changing state to Divine Favor in which Rafayel will throw lightnings on the field while you will be empowered."
                 }
             }
         }
