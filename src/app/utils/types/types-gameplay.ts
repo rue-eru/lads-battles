@@ -24,7 +24,7 @@ export type StandardBlock =
         }>
     }
     | {
-        type: 'summary';
+        type: 'standard_summary';
         content: string;
     }
 

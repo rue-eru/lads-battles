@@ -12,7 +12,7 @@
             "caption": "gameplay.rafayel.fresh_paint.images.tinctus.caption"
         },
         {
-            "type": "summary",
+            "type": "standard_summary",
             "content": "gameplay.rafayel.fresh_paint.summary"
         },
         {
