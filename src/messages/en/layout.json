@@ -6,5 +6,7 @@
     "home-btn":"home",
     "characters": "characters",
     "contact": "contact",
-    "unofficial": "Unofficial Fan Resource"
+    "unofficial": "Unofficial Fan Resource",
+    "not-available": "Current companion guide is not available yet...",
+    "stay_tuned":"Stay tuned!!!"
 }

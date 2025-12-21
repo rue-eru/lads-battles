@@ -73,7 +73,7 @@ export function GameplayBlockRenderer({
                             </figure>
                         )
 
-                    case 'imageGroup':
+                    case 'imageGroupSharedCaption':
                         return (
                             <figure key={index} className="">
                                 <div className="grid grid-cols-2 gap-1 -my-14">

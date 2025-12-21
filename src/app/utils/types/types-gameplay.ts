@@ -10,10 +10,26 @@ export type StandardBlock =
         content: string;
     }
     | {
+        type: 'ordered list';
+        content: string[];
+    }
+    | {
+        type: 'unordered list';
+        content: string[];
+    }
+    | {
         type: 'image';
         src: string;
         alt: string;
         caption?: string;
+    }
+    | {
+        type: 'imageGroupSharedCaption';
+        caption?: string;
+        images: Array<{
+            src: string;
+            alt: string;
+        }>
     }
     | {
         type: 'imageGroup';
@@ -34,29 +50,12 @@ export interface StandardGameplayGuideBlock extends BaseGameplayGuide {
 
 }
 
-export interface SolarGameplayGuide extends BaseGameplayGuide {
+export interface SolarGameplayGuideBlock extends BaseGameplayGuide {
     type: 'solar';
-    rotations: string[];
-    images: Array<{
-        src: string;
-        alt: string;
-        caption?: string;
-    }>;
-    imageGroup?: Array<{
-        caption?: string;
-        images: Array<{
-            src:string;
-            alt: string;
-        }>
-    }>;
-    mechanics: Array<{
-      name: string;
-      description: string;
-      icon?: string;  
-    }>;
+    blocks: StandardBlock[]
 }
 
 // type for properties
-export type GameplayGuide = StandardGameplayGuideBlock | SolarGameplayGuide;
+export type GameplayGuide = StandardGameplayGuideBlock | SolarGameplayGuideBlock;
 //type for entire gameplay data
 export type GameplayData = Record<string, Record<string, GameplayGuide>>;

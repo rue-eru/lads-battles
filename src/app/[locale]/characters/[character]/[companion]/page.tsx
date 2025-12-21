@@ -7,6 +7,8 @@ import CompanionInfoTable from './components/companion_basic_info/CompanionInfoT
 import ProtocoreSection from './components/protocores/ProtocoreSection';
 import SkillWeaponSection from './components/skills_and_weapons/SkillWeaponSection';
 import GameplaySection from './components/gameplay/GameplaySection';
+import { NoGuideAvailable } from './components/NoGuideAvailable';
+import { getGameplayGuide } from '@/app/utils/loaders/gameplay-loader';
 
 export default async function CompanionPage ( {params} : {
   params: Promise<{character: CharacterId; companion: CompanionId; locale: Locale}>
@@ -20,26 +22,31 @@ export default async function CompanionPage ( {params} : {
 
     const characterData = charactersData[character];
     const companionData = characterData.companions.find(comp => comp.id === companion);
+    const guide = getGameplayGuide(character as any, companion);
+    
 
     if (!companionData) {
-      return (
-        <div className={styles.contentlayout}>
-          <div className={styles.contentlayout}>
-            <h1 className={styles.h1}>Companion Not Found</h1>
-          </div>
-        </div>
-      )
+      return null
     }
+
     return (
         <div className={styles.pagelayout}>
             <div className={styles.contentlayout}>
                 {/* AS ANY FOR CHARACTERS FOR TS TYPES*/}
                 <h1 className={styles.h1}>{tCharas(character as any)}: {tCompanions(companionData.nameKey as any)}</h1> 
                 <Banner character={character as any} companion={companion} />
-                <CompanionInfoTable character={character as any} companion={companion}/>
-                <ProtocoreSection character={character as any} companion={companion}/>
-                <SkillWeaponSection character={character as any} companion={companion} />
-                <GameplaySection character={character as any} companion={companion} />
+
+                {guide?.type ? (
+                  <>
+                    <CompanionInfoTable character={character as any} companion={companion}/>
+                    <ProtocoreSection character={character as any} companion={companion}/>
+                    <SkillWeaponSection character={character as any} companion={companion} />
+                    <GameplaySection character={character as any} companion={companion} />
+                  </>
+                ) : (
+                  <NoGuideAvailable character={character as any} companion={companion} />
+                )}
+
             </div>
         </div>
     )

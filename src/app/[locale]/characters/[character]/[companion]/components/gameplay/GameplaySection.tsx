@@ -4,6 +4,8 @@ import { GameplaySectionProps } from "@/app/utils/interfaces-data";
 import { useTranslations } from "next-intl";
 import { styles } from "@/app/utils/styles";
 import  StandardGameplayCard from "./StandardGameplayCard";
+import SolarGameplayCard from "./SolarGameplayCard";
+import { getGameplayGuide } from "@/app/utils/loaders/gameplay-loader";
 
 export default function GameplaySection ({
     character, companion
@@ -11,15 +13,33 @@ export default function GameplaySection ({
 
     const tGeneral = useTranslations('gameplay.general')
 
+    const guide = getGameplayGuide(character as any, companion);
+
+    if (!guide) {
+        return <p className="text-red-500 font-bold italic">{tGeneral('no-data')}</p>
+    }
+
     return (
         <div className={styles.contentlayout}>
             <h1 className={styles.sectionH1}>{tGeneral('header')}</h1>
             <hr className={styles.divider}></hr>
 
-            <StandardGameplayCard 
-                character={character}
-                companion={companion}
-            />
+            {guide.type === 'solar' ? (
+                <>
+                    <SolarGameplayCard 
+                        character={character}
+                        companion={companion}
+                    />
+                </>
+            ) : (
+                <>
+                    <StandardGameplayCard 
+                        character={character}
+                        companion={companion}
+                    />               
+                </>
+            )}
+
         </div>
     )
 }
