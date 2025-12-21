@@ -1,3 +1,5 @@
+'use client'
+
 import Image from "next/image";
 import { styles } from "@/app/utils/styles";
 import { ProtocoreTableRowProps } from "@/app/utils/interfaces-data";

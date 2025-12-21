@@ -5,17 +5,11 @@ import { useTranslations } from "next-intl";
 import { styles } from "@/app/utils/styles";
 import  StandardGameplayCard from "./StandardGameplayCard";
 
-
 export default function GameplaySection ({
     character, companion
 }: GameplaySectionProps) {
 
     const tGeneral = useTranslations('gameplay.general')
-
-
-
-
-
 
     return (
         <div className={styles.contentlayout}>

@@ -77,3 +77,9 @@ export interface StandardGameplayCardProps {
     character: string;
     companion: string;
 }
+
+export interface LightboxProps {
+    src: string;
+    alt: string;
+    onClose: () => void;
+}

@@ -12,7 +12,7 @@
             "caption": "gameplay.rafayel.phantom_of_the_siren.images.echo.caption"
         },
         {
-            "type": "summary",
+            "type": "standard_summary",
             "content": "gameplay.rafayel.phantom_of_the_siren.summary"
         },
         {
