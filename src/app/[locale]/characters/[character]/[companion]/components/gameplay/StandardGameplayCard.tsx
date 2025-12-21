@@ -2,6 +2,7 @@
 
 import type { CharaDataProps } from "@/app/utils/interfaces-data";
 import { getGameplayGuide } from "@/app/utils/loaders/gameplay-loader";
+import { styles } from "@/app/utils/styles";
 import type { StandardGameplayGuideBlock } from "@/app/utils/types/types-gameplay";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
@@ -26,7 +27,8 @@ export default function StandardGameplayCard ({character, companion}: CharaDataP
 
 
     return (
-        <div className="py-6 grid gri-cols gap-6">
+        <div className="py-6 grid gri-cols gap-12">
+            
             {standardGuide.blocks.map((block, index) => {
                 switch (block.type) {
 
@@ -43,7 +45,7 @@ export default function StandardGameplayCard ({character, companion}: CharaDataP
                                 key={index}
                             >
                                 <span>{tGeneral('standard_rotation')}</span>
-                                <span className="font-semibold">{t(block.content)}</span>
+                                <span className="font-semibold text-pink-400">{t(block.content)}</span>
                             </div>
                         )
 
@@ -51,16 +53,18 @@ export default function StandardGameplayCard ({character, companion}: CharaDataP
                         return (
                             <figure
                                 key={index}
-                                className="relative w-full h-100"
+                                className="flex flex-col -mb-18"
                             >
+                                <div className="w-full h-100 relative">
                                 <Image
                                     src={block.src}
                                     alt={t(block.alt)}
                                     fill
                                     className="object-contain" 
                                 />
+                                </div>
                                 {block.caption && (
-                                    <figcaption className="text-sm mt-2">
+                                    <figcaption className={styles.figcaptionStyle}>
                                         {t(block.caption)}
                                     </figcaption>
                                 )}
@@ -69,8 +73,8 @@ export default function StandardGameplayCard ({character, companion}: CharaDataP
 
                     case 'imageGroup':
                         return (
-                            <figure key={index} className="space-y-4">
-                                <div className="grid grid-cols-2 gap-4">
+                            <figure key={index} className="">
+                                <div className="grid grid-cols-2 gap-1 -mb-14">
                                     {block.images.map((img, index) => (
                                         <div
                                             key={index}
@@ -82,14 +86,14 @@ export default function StandardGameplayCard ({character, companion}: CharaDataP
                                                 fill
                                                 className="object-contain"
                                             />
-                                            {block.caption && (
-                                                <figcaption className="text-sm mt-2">
-                                                    {t(block.caption)}
-                                                </figcaption>
-                                            )}
                                         </div>
                                     ))}
                                 </div>
+                                    {block.caption && (
+                                        <figcaption className={styles.figcaptionStyle}>
+                                            {t(block.caption)}
+                                        </figcaption>
+                                    )}
                             </figure>
                         )
                 }

@@ -29,6 +29,9 @@ export const styles = {
     imgSkillWidth: `w-32 p-6`,
     skillInfoBubbleDiv: `flex flex-wrap items-center gap-3 mb-2 font-inknut`,
 
+    //gameplay
+    figcaptionStyle: `text-sm text-right text-gray-400 italic`,
+
 
 
 
