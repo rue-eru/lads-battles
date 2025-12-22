@@ -19,6 +19,11 @@ export default function GameplaySection ({
         return <p className="text-red-500 font-bold italic">{tGeneral('no-data')}</p>
     }
 
+    if (!('blocks' in guide)) {
+        throw new Error(tGeneral('no-data'));
+
+    }
+
     return (
         <div className={styles.contentlayout}>
             <h1 className={styles.sectionH1}>{tGeneral('header')}</h1>
@@ -27,15 +32,13 @@ export default function GameplaySection ({
             {guide.type === 'solar' ? (
                 <>
                     <SolarGameplayCard 
-                        character={character}
-                        companion={companion}
+                        guide={guide}
                     />
                 </>
             ) : (
                 <>
                     <StandardGameplayCard 
-                        character={character}
-                        companion={companion}
+                        guide={guide}
                     />               
                 </>
             )}

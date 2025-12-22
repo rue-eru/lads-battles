@@ -83,3 +83,4 @@ export interface LightboxProps {
     alt: string;
     onClose: () => void;
 }
+

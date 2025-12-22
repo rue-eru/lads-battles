@@ -1,7 +1,7 @@
 'use client'
 
 import { styles } from "@/app/utils/styles";
-import type { StandardBlock } from "@/app/utils/types/types-gameplay";
+import type { GameplayBlock } from "@/app/utils/types/types-gameplay";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useState } from "react";
@@ -11,7 +11,7 @@ import { Lightbox } from "./Lightbox";
 export function GameplayBlockRenderer({
     blocks
 }: {
-    blocks: StandardBlock[]
+    blocks: GameplayBlock[]
 }){
 
     const t = useTranslations();
@@ -77,6 +77,7 @@ export function GameplayBlockRenderer({
                         return (
                             <figure key={index} className="">
                                 <div className="grid grid-cols-2 gap-1 -my-14">
+                                    {/*maps only an image*/}
                                     {block.images.map((img, index) => (
                                         <div
                                             key={index}
@@ -97,6 +98,7 @@ export function GameplayBlockRenderer({
                                         </div>
                                     ))}
                                 </div>
+
                                     {block.caption && (
                                         <figcaption className={styles.figcaptionStyle}>
                                             {t(block.caption)}
@@ -104,6 +106,91 @@ export function GameplayBlockRenderer({
                                     )}
                             </figure>
                         )
+
+                    case 'imageGroupPerImageCaption':
+                        return(
+                            <div 
+                                className="grid grid-cols-2 gap-6"
+                                key={index}
+                            >
+                                {/*everything maps alltogether*/}
+                                {block.images.map((img, index) => (
+                                    <figure 
+                                        key={index}
+                                        className="space-y-2"
+                                    >
+                                        <div className="relative w-full h-48">
+                                            <Image
+                                                src={img.src}
+                                                alt={t(img.alt)}
+                                                fill
+                                                className="object-contain cursor-zoom-in"
+                                                onClick={() =>
+                                                    setOpenImage({
+                                                        src: img.src,
+                                                        alt: t(img.alt)
+                                                    })
+                                                }
+                                            />
+                                        </div>
+
+                                        {img.caption && (
+                                            <figcaption className={styles.figcaptionStyle}>
+                                                {t(img.caption)}
+                                            </figcaption>
+                                        )}
+                                    </figure>
+
+                                ))}
+
+                            </div>
+                        )
+
+                    case 'rotationList':
+                        return(
+                            <div className="border">
+                                <ul className="list-['∘'] p-6 list-outside">
+                                    {block.content.map((li, index) => (
+                                        <li
+                                            key={index}
+                                            className="font-bold text-justify pl-2"
+                                        >
+                                            {t(li)}
+                                        </li>
+
+                                    ))}
+                                </ul>
+                            </div>
+                        )
+
+                    case 'orderedList':
+                        return(
+                            <ol className="list-decimal list-inside">
+                                {block.content.map((li, index) => (
+                                    <li
+                                        key={index}
+                                        className="font-bold text-justify pl-2"
+                                    >
+                                        {t(li)}
+                                    </li>
+                                ))}
+                            </ol>
+                        )
+
+                    case 'unorderedList':
+                        return(
+                            <ul className="list-['∘'] list-outside">
+                                {block.content.map((li, index) => (
+                                    <li
+                                        key={index}
+                                        className="pl-2"
+                                    >
+                                        {t(li)}
+                                    </li>
+                                ))}
+                            </ul>
+                        )
+
                 }
             })}
             </div>

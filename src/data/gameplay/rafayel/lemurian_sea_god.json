@@ -1,6 +1,6 @@
 {
     "type": "solar",
-    "block": [
+    "blocks": [
         {
             "type": "paragraph",
             "content": "gameplay.rafayel.lemurian_sea_god.paragraph_1"
@@ -14,7 +14,7 @@
             "content": "gameplay.rafayel.lemurian_sea_god.paragraph_3"
         },
         {
-            "type": "imageGroup",
+            "type": "imageGroupPerImageCaption",
             "images": [
                 {
                     "src": "/images/companions/rafayel/gameplay/lemurian_sea_god/oceans_descent_bar_inactive.png",
@@ -42,11 +42,11 @@
             "caption": "gameplay.rafayel.lemurian_sea_god.images.state_activation.caption",
             "images": [
                 {
-                    "src": "/images/companions/rafayel/gameplay/lemurian_sea_god/state_activation_1.png",
+                    "src": "/images/companions/rafayel/gameplay/lemurian_sea_god/state_activation_1.jpeg",
                     "alt": "gameplay.rafayel.lemurian_sea_god.images.state_activation.alt"
                 },
                 {
-                    "src": "/images/companions/rafayel/gameplay/lemurian_sea_god/state_activation_2.png",
+                    "src": "/images/companions/rafayel/gameplay/lemurian_sea_god/state_activation_2.jpg",
                     "alt": "gameplay.rafayel.lemurian_sea_god.images.state_activation.alt"
                 }
             ]
@@ -55,8 +55,8 @@
             "type": "paragraph",
             "content": "gameplay.rafayel.lemurian_sea_god.paragraph_5"
         },
-            {
-            "type": "imageGroup",
+        {
+            "type": "imageGroupPerImageCaption",
             "images": [
                 {
                     "src": "/images/companions/rafayel/gameplay/lemurian_sea_god/lightning_crystal.png",
@@ -80,11 +80,7 @@
             "content": "gameplay.rafayel.lemurian_sea_god.paragraph_7"
         },
         {
-            "type": "paragraph",
-            "content": "gameplay.rafayel.lemurian_sea_god.paragraph_8"
-        },
-        {
-            "type": "unorderedList",
+            "type": "rotationList",
             "content": [
                 "gameplay.rafayel.lemurian_sea_god.ul_li_1",
                 "gameplay.rafayel.lemurian_sea_god.ul_li_2",
@@ -94,7 +90,7 @@
         },
             {
             "type": "paragraph",
-            "content": "gameplay.rafayel.lemurian_sea_god.paragraph_9"
+            "content": "gameplay.rafayel.lemurian_sea_god.paragraph_8"
         }
     ]
     

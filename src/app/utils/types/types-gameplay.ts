@@ -4,39 +4,43 @@ export interface BaseGameplayGuide {
     //tips: string[] | string;
 }
 
-export type StandardBlock =
+export type GameplayBlock =
     | {
         type: 'paragraph';
         content: string;
     }
     | {
-        type: 'ordered list';
+        type: 'orderedList';
         content: string[];
     }
     | {
-        type: 'unordered list';
+        type: 'unorderedList';
+        content: string[];
+    }
+    | {
+        type: 'rotationList';
         content: string[];
     }
     | {
         type: 'image';
         src: string;
         alt: string;
-        caption?: string;
+        caption: string;
     }
     | {
         type: 'imageGroupSharedCaption';
-        caption?: string;
+        caption: string;
         images: Array<{
             src: string;
             alt: string;
         }>
     }
     | {
-        type: 'imageGroup';
-        caption?: string;
+        type: 'imageGroupPerImageCaption';
         images: Array<{
             src: string;
             alt: string;
+            caption: string;
         }>
     }
     | {
@@ -46,13 +50,13 @@ export type StandardBlock =
 
 export interface StandardGameplayGuideBlock extends BaseGameplayGuide {
     type: 'standard';
-    blocks: StandardBlock[]
+    blocks: GameplayBlock[]
 
 }
 
 export interface SolarGameplayGuideBlock extends BaseGameplayGuide {
     type: 'solar';
-    blocks: StandardBlock[]
+    blocks: GameplayBlock[]
 }
 
 // type for properties

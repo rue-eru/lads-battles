@@ -1,44 +1,105 @@
 {
     "type": "solar",
-    "summaryKey": "gameplay.rafayel.god_of_the_tides.summary",
-    "tipsKey": "gameplay.rafayel.god_of_the_tides.tips",
-    "rotationsKey": "gameplay.rafayel.god_of_the_tides.rotations",
-    "images": [
+    "blocks": [
         {
-            "src": "/images/companions/rafayel/gameplay/god_of_the_tides/seaspirit.png",
-            "altKey": "gameplay.rafayel.god_of_the_tides.images.seaspirit.alt",
-            "captionKey": "gameplay.rafayel.god_of_the_tides.images.seaspirit.caption"
+            "type": "paragraph",
+            "content": "gameplay.rafayel.god_of_the_tides.paragraph_1"
+        },  
+        {
+            "type": "unorderedList",
+            "content": [
+                "gameplay.rafayel.god_of_the_tides.li_1",
+                "gameplay.rafayel.god_of_the_tides.li_2"
+            ]
         },
         {
-            "src": "/images/companions/rafayel/gameplay/god_of_the_tides/faith.png",
-            "altKey": "gameplay.rafayel.god_of_the_tides.images.faith.alt",
-            "captionKey": "gameplay.rafayel.god_of_the_tides.images.faith.caption"
+            "type": "imageGroupPerImageCaption",
+            "images": [
+                {
+                    "src": "/images/companions/rafayel/gameplay/god_of_the_tides/seaspirit.png",
+                    "alt": "gameplay.rafayel.god_of_the_tides.images.seaspirit.alt",
+                    "caption": "gameplay.rafayel.god_of_the_tides.images.seaspirit.caption"
+                },
+                {
+                    "src": "/images/companions/rafayel/gameplay/god_of_the_tides/faith.png",
+                    "alt": "gameplay.rafayel.god_of_the_tides.images.faith.alt",
+                    "caption": "gameplay.rafayel.god_of_the_tides.images.faith.caption"
+                }
+            ]
         },
         {
-            "src": "/images/companions/rafayel/gameplay/god_of_the_tides/heavenly_rain.png",
-            "altKey": "gameplay.rafayel.god_of_the_tides.images.heavenly_rain.alt",
-            "captionKey": "gameplay.rafayel.god_of_the_tides.images.heavenly_rain.caption"
+            "type": "paragraph",
+            "content": "gameplay.rafayel.god_of_the_tides.paragraph_2"
+        }, 
+        {
+            "type": "rotationList",
+            "content": [
+                "gameplay.rafayel.god_of_the_tides.li_3",
+                "gameplay.rafayel.god_of_the_tides.li_4",
+                "gameplay.rafayel.god_of_the_tides.li_5"
+
+            ]
         },
         {
-            "src": "/images/companions/rafayel/gameplay/god_of_the_tides/tidal_field.png",
-            "altKey": "gameplay.rafayel.god_of_the_tides.images.tidal_field.alt",
-            "captionKey": "gameplay.rafayel.god_of_the_tides.images.tidal_field.caption"
+            "type": "imageGroupPerImageCaption",
+            "images": [
+                {
+                    "src": "/images/companions/rafayel/gameplay/god_of_the_tides/heavenly_rain.jpg",
+                    "alt": "gameplay.rafayel.god_of_the_tides.images.heavenly_rain.alt",
+                    "caption": "gameplay.rafayel.god_of_the_tides.images.heavenly_rain.caption"
+                },
+                {
+                    "src": "/images/companions/rafayel/gameplay/god_of_the_tides/tidal_field.jpg",
+                    "alt": "gameplay.rafayel.god_of_the_tides.images.tidal_field.alt",
+                    "caption": "gameplay.rafayel.god_of_the_tides.images.tidal_field.caption"
+                }
+            ]
         },
         {
-            "src": [
-                "/images/companions/rafayel/gameplay/god_of_the_tides/rafayel_buff_1.png",
-                "/images/companions/rafayel/gameplay/god_of_the_tides/rafayel_buff_2.png"
-            ],
-            "altKey": "gameplay.rafayel.god_of_the_tides.images.rafayel_buffs.alt",
-            "captionKey": "gameplay.rafayel.god_of_the_tides.images.rafayel_buffs.caption"
+            "type": "paragraph",
+            "content": "gameplay.rafayel.god_of_the_tides.paragraph_3"
+        }, 
+        {
+            "type": "imageGroupSharedCaption",
+            "caption": "gameplay.rafayel.god_of_the_tides.images.rafayel_buffs.caption",
+            "images": [
+                {
+                    "src": "/images/companions/rafayel/gameplay/god_of_the_tides/rafayel_buff_1.png",
+                    "alt": "gameplay.rafayel.god_of_the_tides.images.rafayel_buffs.alt"
+                },
+                {
+                    "src":  "/images/companions/rafayel/gameplay/god_of_the_tides/rafayel_buff_2.png",
+                    "alt": "gameplay.rafayel.god_of_the_tides.images.rafayel_buffs.alt"
+                }
+            ]
+
+        },
+            {
+            "type": "imageGroupSharedCaption",
+            "caption": "gameplay.rafayel.god_of_the_tides.images.mc_buffs.caption",
+            "images": [
+                {
+                    "src": "/images/companions/rafayel/gameplay/god_of_the_tides/mc_buff_1.png",
+                    "alt": "gameplay.rafayel.god_of_the_tides.images.mc_buffs.alt"
+                },
+                {
+                    "src": "/images/companions/rafayel/gameplay/god_of_the_tides/mc_buff_2.png",
+                    "alt": "gameplay.rafayel.god_of_the_tides.images.mc_buffs.alt"
+                }
+            ]
         },
         {
-            "src": [
-                "/images/companions/rafayel/gameplay/god_of_the_tides/mc_buff_1.png",
-                "/images/companions/rafayel/gameplay/god_of_the_tides/mc_buff_2.png"
-            ],
-            "altKey": "gameplay.rafayel.god_of_the_tides.images.mc_buffs.alt",
-            "captionKey": "gameplay.rafayel.god_of_the_tides.images.mc_buffs.caption"
+            "type": "paragraph",
+            "content": "gameplay.rafayel.god_of_the_tides.paragraph_4"
+        }, 
+        {
+            "type": "orderedList",
+            "content": [
+                "gameplay.rafayel.god_of_the_tides.li_6",
+                "gameplay.rafayel.god_of_the_tides.li_7",
+                "gameplay.rafayel.god_of_the_tides.li_8"
+
+            ]
         }
     ]
 }
