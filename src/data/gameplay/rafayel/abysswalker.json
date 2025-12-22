@@ -1,52 +1,79 @@
 {
     "type": "solar",
-    "summaryKey": "gameplay.rafayel.abysswalker.summary",
-    "tipsKey": "gameplay.rafayel.abysswalker.tips",
-    "rotationsKey": "gameplay.rafayel.abysswalker.rotations",
-    "images": [
+    "blocks": [
         {
-            "src": "/images/companions/rafayel/gameplay/abysswalker/beacon.png",
-            "altKey": "gameplay.rafayel.abysswalker.images.beacon.alt",
-            "captionKey": "gameplay.rafayel.abysswalker.images.beacon.caption"
+            "type": "paragraph",
+            "content": "gameplay.rafayel.abysswalker.paragraph_1"
         },
         {
-            "src": "/images/companions/rafayel/gameplay/abysswalker/fishtail_beacon.png",
-            "alt": "gameplay.rafayel.abysswalker.images.fishtail_beacon.alt",
-            "caption": "gameplay.rafayel.abysswalker.images.fishtail_beacon.caption"
-        },
-        {
+            "type": "image",
             "src": "/images/companions/rafayel/gameplay/abysswalker/potential_stacks.png",
             "alt": "gameplay.rafayel.abysswalker.images.potential_stacks.alt",
             "caption": "gameplay.rafayel.abysswalker.images.potential_stacks.caption"
         },
         {
-            "src": "/images/companions/rafayel/gameplay/abysswalker/potential_trigger_performance.png",
+            "type": "paragraph",
+            "content": "gameplay.rafayel.abysswalker.paragraph_2"
+        },
+        {
+            "type": "imageGroupPerImageCaption",
+            "images": [
+                {
+                    "src": "/images/companions/rafayel/gameplay/abysswalker/beacon.png",
+                    "alt": "gameplay.rafayel.abysswalker.images.beacon.alt",
+                    "caption": "gameplay.rafayel.abysswalker.images.beacon.caption"
+                },
+                {
+                    "src": "/images/companions/rafayel/gameplay/abysswalker/fishtail_beacon.png",
+                    "alt": "gameplay.rafayel.abysswalker.images.fishtail_beacon.alt",
+                    "caption": "gameplay.rafayel.abysswalker.images.fishtail_beacon.caption"
+                }
+
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.rafayel.abysswalker.paragraph_3"
+        },
+        {
+            "type": "image",
+            "src": "/images/companions/rafayel/gameplay/abysswalker/potential_trigger_performance.jpg",
             "alt": "gameplay.rafayel.abysswalker.images.potential_trigger_performance.alt",
             "caption": "gameplay.rafayel.abysswalker.images.potential_trigger_performance.caption"
         },
         {
-            "src": "/images/companions/rafayel/gameplay/abysswalker/rafayel_buffs.png",
-            "alt": "gameplay.rafayel.abysswalker.images.rafayel_buffs.alt",
-            "caption": "gameplay.rafayel.abysswalker.images.rafayel_buffs.caption"
+            "type": "paragraph",
+            "content": "gameplay.rafayel.abysswalker.paragraph_4"
         },
         {
-            "src": "/images/companions/rafayel/gameplay/abysswalker/my_buffs.png",
-            "alt": "gameplay.rafayel.abysswalker.images.my_buffs.alt",
-            "caption": "gameplay.rafayel.abysswalker.images.my_buffs.caption"
-        }
-    ],
-    "mechanics":[
-        {
-            "nameKey": "gameplay.rafayel.abysswalker.mechanics.potential.name",
-            "descriptionKey": "gameplay.rafayel.abysswalker.mechanics.potential.description"
+            "type": "imageGroupPerImageCaption",
+            "images": [
+                {
+                    "src": "/images/companions/rafayel/gameplay/abysswalker/rafayel_buffs.png",
+                    "alt": "gameplay.rafayel.abysswalker.images.rafayel_buffs.alt",
+                    "caption": "gameplay.rafayel.abysswalker.images.rafayel_buffs.caption"
+                },
+                {
+                    "src": "/images/companions/rafayel/gameplay/abysswalker/my_buffs.png",
+                    "alt": "gameplay.rafayel.abysswalker.images.my_buffs.alt",
+                    "caption": "gameplay.rafayel.abysswalker.images.my_buffs.caption"
+                }
+
+            ]
         },
         {
-            "nameKey": "gameplay.rafayel.abysswalker.mechanics.beacon.name",
-            "descriptionKey": "gameplay.rafayel.abysswalker.mechanics.beacon.description"
+            "type": "paragraph",
+            "content": "gameplay.rafayel.abysswalker.paragraph_5"
         },
         {
-            "nameKey": "gameplay.rafayel.abysswalker.mechanics.fishtail_beacon.name",
-            "descriptionKey": "gameplay.rafayel.abysswalker.mechanics.fishtail_beacon.description"
+            "type": "rotationList",
+            "content": [
+                "gameplay.rafayel.abysswalker.li_1",
+                "gameplay.rafayel.abysswalker.li_2",
+                "gameplay.rafayel.abysswalker.li_3",
+                "gameplay.rafayel.abysswalker.li_4"
+            ]
         }
     ]
+
 }

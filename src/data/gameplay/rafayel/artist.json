@@ -12,7 +12,7 @@
             "caption": "gameplay.rafayel.artist.images.flame_lily.caption"
         },
         {
-            "type": "imageGroup",
+            "type": "imageGroupSharedCaption",
             "caption": "gameplay.rafayel.artist.images.scarlet_shade.caption",
             "images": [
                 {
