@@ -124,7 +124,7 @@
                 },
                 "tidal_field": {
                     "alt": "Tidal Field performance",
-                    "caption": "Tidal Field is triggered by your Active Skill and provides buffs by staying inside of it"
+                    "caption": "Tidal Field triggered by your Active Skill provides buffs by staying inside of it"
                 }
             }
         },

@@ -1,15 +1,34 @@
+'use client'
+
 import type { CharaDataProps } from "@/app/utils/interfaces-data"
 import { styles } from "@/app/utils/styles"
 import { useTranslations } from "next-intl"
 import Image from "next/image"
-import type { relative } from "path"
+import { useEffect, useState } from "react"
 
 export function NoGuideAvailable  ({
     character,
     companion
 }: CharaDataProps) {
 
-    const t = useTranslations('layout')
+    const t = useTranslations('layout');
+
+    const [positionClass, setPositionClass ] = useState('');
+
+    useEffect(() => {
+
+        const positions = [
+            'col-start-1',
+            'col-start-2',
+            'col-start-3',
+            'col-start-4',
+            'col-start-5',
+        ]
+
+        setPositionClass(positions[Math.floor(Math.random() * positions.length)])
+
+    }, [])
+
 
     return (
         <div className="w-full py-12 -mb-30">
@@ -19,14 +38,21 @@ export function NoGuideAvailable  ({
                 <p>{t('stay_tuned')}</p>
             </div>
 
-            <Image
-                src={`/images/idle-gifs/${character}.webp`}
-                alt={`${character} kitty gif`}
-                width={150}
-                height={150}
-                className="object-cover"
+            {positionClass && (
+                <div className="grid grid-cols-5 place-items-center">
+                    <div className={`col-span-1 ${positionClass}`}>
+                        <Image
+                            src={`/images/idle-gifs/${character}.webp`}
+                            alt={`${character} kitty gif`}
+                            width={150}
+                            height={150}
+                            className="object-cover"
 
-            />             
+                        /> 
+                    </div>
+                </div>
+            )}
+            
 
             </div>
 

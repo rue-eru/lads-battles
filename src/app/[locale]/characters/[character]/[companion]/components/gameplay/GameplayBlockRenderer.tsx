@@ -75,13 +75,13 @@ export function GameplayBlockRenderer({
 
                     case 'imageGroupSharedCaption':
                         return (
-                            <figure key={index} className="">
-                                <div className="grid grid-cols-2 gap-1 -my-14">
+                            <figure key={index}>
+                                <div className="flex flex-col gap-1">
                                     {/*maps only an image*/}
                                     {block.images.map((img, index) => (
                                         <div
                                             key={index}
-                                            className="relative w-full h-80"
+                                            className="relative w-full h-100"
                                         >
                                             <Image 
                                                 src={img.src}
@@ -119,7 +119,7 @@ export function GameplayBlockRenderer({
                                         key={index}
                                         className="space-y-2"
                                     >
-                                        <div className="relative w-full h-48">
+                                        <div className="relative w-full h-48 border">
                                             <Image
                                                 src={img.src}
                                                 alt={t(img.alt)}
