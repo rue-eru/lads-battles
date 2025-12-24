@@ -1,3 +1,87 @@
 {
-    
+  "chNames": {
+    "xavier": "Ксавьер",
+    "zayne": "Зейн",
+    "rafayel": "Рафаэль",
+    "sylus": "Сайлус",
+    "caleb": "Калеб"
+  },
+  "companions": {
+    "companion-list-title": "Компаньоны",
+    "xavier": {
+      "deepspace_hunter": "Deepspace Hunter",
+      "distant_youth": "Distant Youth",
+      "evol_police": "Evol Police",
+      "lightseeker": "Lightseeker",
+      "lumiere": "Lumiere",
+      "king_of_darknight": "King Of Darknight"
+    },
+    "zayne": {
+      "linkon_doctor": "Linkon Doctor",
+      "medic_of_the_arctic": "Medic Of The Arctic",
+      "dawnbreaker": "Dawnbreaker",
+      "foreseer": "Foreseer",
+      "master_of_fate": "Master Of Fate",
+      "god_of_annihilation": "God Of Annihilation"
+    },
+    "rafayel": {
+      "artist": "Artist",
+      "fresh_paint": "Fresh Paint",
+      "phantom_of_the_siren": "Phantom Of The Siren",
+      "abysswalker": "Abysswalker",
+      "god_of_the_tides": "God Of The Tides",
+      "lemurian_sea_god": "Lemurian Sea God"
+    },
+    "sylus": {
+        "otherworldly_visitor": "Otherworldly Visitor",
+        "relentless_conqueror": "Relentless Conqueror",
+        "abysm_sovereign": "Abysm Sovereign",
+        "silverwing_fiend": "Silverwing Fiend"
+    },
+    "caleb": {
+        "deepspace_pilot": "Deepspace Pilot",
+        "farspace_colonel": "Farspace Colonel",
+        "ultimate_weapon_x_02": "Ultimate Weapon X-02"
+    }
+  },
+  "table": {
+    "rarity": "Редкость",
+    "role": "Роль",
+    "scaling": "Основной параметр",
+    "best": "Лучше всего для:",
+    "specialty": "Специализируется в",
+    "unlock": "Как открыть",
+    "solarPair": "Солнечная пара карт"
+  },
+  "roles": {
+    "burst_aoe": "Ультимейт | Урон по области",
+    "heal_single": "Лечение | Урон по одной цели",
+    "support_debuff": "Поддержка | Дебафф",
+    "burst_single_pull": "Ультимейт | Урон по одной цели | Стяжка",
+    "sustained_buff_aoe": "Поддержка | Бафф | Урон по области",
+    "dps_aoe_empower": "Основной источник урона | Урон по области | Наделяет силой"
+  },
+  "scaling": {
+    "atk": "ATK",
+    "hp": "HP (Очки Здоровья)",
+    "def": "DEF (Защита)"
+  },
+  "unlock": {
+    "obtain_one_memory": "Получите одно воспоминание",
+    "obtain_six_memories": "Получите 6 4★+ воспоминаний",
+    "main_story_3_14": "Основная история 3-14",
+    "standard_banner": "Стандартный и Временный Баннер",
+    "limited_banner": "Временный баннер"
+  },
+  "best": {
+    "single_target": "Урон по одной цели",
+    "multi_target_res_aoth": "Урон по нескольким целям (Resonance и Oath)",
+    "multi_target": "Урон по нескольким целям",
+    "multi_target_dps": "Урон по нескольким целям и Основной источник урона"
+  },
+  "specialty": {
+    "atk_buff": "ATK бафф",
+    "heal_debuff": "Лечение, Дебафф",
+    "debuff": "Дебафф"
+  }
 }
