@@ -8,7 +8,7 @@
     "rafayel": {
         "artist": {
             "paragraph": 
-                "[Resonate Skill] and [Support Skill] create a [Scarlet Shade] and [Flame Lily] which inflict burn for 5s. After consuming 10 [Flame Lilies] Rafayel gets an ATK buff for 10s and additionally his attack range is also increased. To create more [Flame Lilies] and trigger the passive faster you can use a high speed weapon like [Hunter Firearms]."
+                "[Resonate Skill] and [Support Skill] create a [Scarlet Shade] and [Flame Lily] which inflict burn for 5s. After consuming 10 [Flame Lilies] Rafayel gets an ATK buff for 10s and additionally his attack range is also increased. To create more [Flame Lilies] and trigger the [Passive Skill] faster you can use a high speed weapon like [Hunter Firearms]."
             ,
             "images": {
                 "flame_lily": {
@@ -41,7 +41,7 @@
             "images": {
                 "echo": {
                     "alt": "Echo circle on the field",
-                    "caption": "Echo circle caused by Rafayel's Passive Skill"
+                    "caption": "Echo circle caused by Rafayel's Passive Skill + Support Skill"
                 }
 
             }
@@ -56,7 +56,7 @@
             "li_1": "perform [Basic Attack]s for buffs",
             "li_2": "upon seeing [Fishtail Beacon] use [Charged Attack]",
             "li_3": "on [Support Skill] wait for [Beacon] to collect",
-            "li_4": "use [Resonance Skill]  to pull enemies",
+            "li_4": "use [Resonance Skill] to pull enemies (and break the shield)",
 
             "images": {
                 "beacon": {

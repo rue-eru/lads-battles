@@ -1,3 +1,177 @@
 {
-    
+    "general": {
+        "header": "Геймплей",
+        "no-data": "гайд отсутсвует",
+        "standard_conclusion": "Играть на стандартном компаньоне просто: используйте его навыки, чтобы получить баффы для своей МС, адаптируя геймплей на основе выбранного стандартного оружия.",
+        "standard_rotation": "Полная ротация: "
+    },
+    "rafayel": {
+        "artist": {
+            "paragraph": 
+                "[Resonate Skill] и [Support Skill] создают [Scarlet Shade] и [Flame Lily], которые вызывают горения напротяжении 5 сек.  После использования 10 [Flame Lily] Рафаэль получает АТК бафф на 10 сек, дополнительно увеличивая дальность его атак. Чтобы создать больше [Flame Liliy] и , быстрее активировать [Passive Skill],  можно использовать  оружие с быстрыми атаками, как [Hunter Firearms].."
+            ,
+            "images": {
+                "flame_lily": {
+                    "alt": "Flame Lily на поле боя",
+                    "caption": "Flame Lily Рафаэля на поле боя"
+                },
+                "scarlet_shade": {
+                    "alt": "Scarlet Shade на поле боя",
+                    "caption": "Scarlet shade появившийся после использования Support Skill Рафаэля, по истечению времени навыка оставляет горение"
+                }
+            },
+            "summary": "Собираем [Flame Lily] ⇨ Получаем АТК бафф + увеличение дальности атак Рафаэля"
+
+        },
+        "fresh_paint": {
+            "paragraph": 
+                "[Charge Attack] и [Support Skill] оставляют [Tinctus] на врагах, макс 5. [Active Skill], [Resonance Skill] и [Ardent Oath]  взрывают их, нанося АТК урон в зависимости от количества [Tinctus] на врагах и восстанавливая здоровье и МС, и Рафаэлю. Взрыв 5 сразу понижает DEF противника на 20% и 5 сек.  Чтобы чаще наносить [Tinctus], используйте оружие с быстрыми атами,  как [Hunter Firearms].",
+            "images": {
+                "tinctus": {
+                    "alt": "Tinctus на врагах",
+                    "caption": "Tinctus на врагах"
+                }
+            },
+            "summary": "Взрываем  [Tinctus] для снижения защиты + Лечение"
+
+        },
+        "phantom_of_the_siren": {
+            "paragraph":
+                "[Support Skill]  оставляет после себя [Reprise], что в свою очередь снижает скорость передвижения врагов на 50% в течение 5 секунд.  Если после [Passive Skill] прожать [Support Skill], то получится [Echo] , который увелчит поступаемый урон по врагам на 10% и 5s. Чтобы чаще появлялось [Echo] , используйте оружие с быстрыми атаками, как [Hunter Firearm].",
+            "images": {
+                "echo": {
+                    "alt": "Echo круг на поле боя",
+                    "caption": "Echo вызваныый Passive Skill и Support Skill Рафаэля"
+                }
+
+            },
+            "summary": "[Echo] ⇨ Увеличивает проходящий урон по противникам + Постипенно отнимает HP противника"
+        },
+        "abysswalker": {
+
+            "paragraph_1": "У Abysswalker есть специальный навык — [Potential]. Для его активации необходимо 6 раз заполнить графу, которую можно найти под графой HP МС:",
+            "paragraph_2": "Чтобы заполнить ее: а) воспользуйтесь заряженной атакой, когда увидите [Beacon] на враге, и б) собирайте по полю [Fishtail Beacon] , который появляется после использования [Support Skill]:",
+            "paragraph_3": "При полном заполнении графы она автоматически активируется и увеличит Крит шанс на 15% в течение 5 секунд, также Рафаэль нанесёт большой урон по противнику.",
+            "paragraph_4": "Активные баффы отображаются над HP МС и рядом с иконкой Рафаэля:",
+            "paragraph_5": "У Abysswalker нет фиксированной ротации, но основной план действия следующий:",
+            "li_1": "выполняем обычный атаки для баффов с родного оружия",
+            "li_2": "как появится [Fishtail Beacon] бьём заряженной атакой ",
+            "li_3": "при прожатии [Support Skill] ждём пока Рафаэль оставит [Beacon] и бежим его хватать ради баффов",
+            "li_4": "для стяжки врагов (и пробития щита) используем [Resonance Skill]",
+
+            "images": {
+                "beacon": {
+                    "alt": "Beacon индикатор",
+                    "caption": "Beacon на врагах"
+                },
+                "fishtail_beacon": {
+                    "alt": "Fishtail Beacon индикатор",
+                    "caption": "Fishtail Beacon на поле боя"
+                },
+                "potential_stacks": {
+                    "alt": "Графа Potential на 0",
+                    "caption": "Графа Potential расположена прямо под графой HP МС"
+                }, 
+                "potential_trigger_performance": {
+                    "alt": "Рафаэль наносит большой урон при активации Potential",
+                    "caption": "Рафаэль наносит большой урон при активации Potential"
+                },
+                "rafayel_buffs": {
+                    "alt": "Баффы Рафаэля",
+                    "caption": "Расположение баффов Рафаэля"
+                },
+                "my_buffs": {
+                    "alt": "Баффы МС",
+                    "caption": "Расположение баффом МС"
+                }
+            }
+
+        },
+        "god_of_the_tides": {
+            "paragraph_1": "В бою с Богом Морей обращаем внимание на следующее:",
+            "li_1": "Заполняем [Faith]: атакуем за MC, Рафаэля и [Sea Spirit]",
+            "li_2": "При полном заполнении [Faith] срабатывает [Heavenly Rain] (+30% к урону, +1 к уровню [Sea Spirit])",
+            "paragraph_2": "Ротация примерно такая:",
+            "li_3": "[Active Skill] (Крит Урон + [Tidal Field], стоим в нём)",
+            "li_4": "Базовык атаки + [Support Skill] + [Perfect Dodge] (это позволяет создавать [Sea Spirit] и заполнять графу [Faith])",
+            "li_5": "Стараемся использовать [Resonance Skill] и [Ardent Oath] пока активен [Heavenly Rain], для максимального баффа наши самых сильных кнопок",
+            "paragraph_3": "Также помним, что [Resonance Skill] пробивает щиты, поэтому все важные ротации стараемся перенести после этого. Активные баффы также всегда можно проверить на экране:",
+            "paragraph_4": "У [Sea Spirit] 3 уровня. При первом вызове он всегда 1ур., поднять уровень можно с  помощью [Passive Skill] и открытием R1 у карт компаньона:",
+            "li_6": "Наносит урон ATK + HP",
+            "li_7": "Скорость атак увеличена на 20%",
+            "li_8": "Урон увеличен на 25%",
+
+
+            "images": {
+                "seaspirit": {
+                    "alt": "Sea Spirit на поле боя",
+                    "caption": "Морские духи(Sea Spirit) Рафаэля, появляются от Support Skill и Perfect Dodge"
+                },
+                "faith": {
+                    "alt": "Faith индикатор",
+                    "caption": "Графа Faith находится HP МС."
+                },
+                "rafayel_buffs": {
+                    "alt": "Баффы Рафаэля",
+                    "caption": "Расположение баффов Рафаэля"
+                },
+                "mc_buffs": {
+                    "alt": "Баффы МС",
+                    "caption": "Расположение баффом МС"
+                },
+                "heavenly_rain" :{
+                    "alt": "Heavenly Rain на поле боя",
+                    "caption": "При полном заполнении Faith пойдет дождь, который будет даст бафф"
+                },
+                "tidal_field": {
+                    "alt": "Tidal Field на поле боя",
+                    "caption": "Tidal Field появляется после использования Active Skill, при нахождении внутри его круга можно получить баффы"
+                }
+            }
+        },
+        "lemurian_sea_god": {
+
+            "paragraph_1": "Lemurian Sea God may seem quite complex at first but his rotations are quite straightforward and improve with Ranks.",
+            "paragraph_2": "Your gameplay is centred around [Sea God Mark] and his Special State. When a [Charged Attack] empowered by [Sea God Mark] hits an enemy, it reduces the [Support Skill] cooldown by 1.5s.",
+            "paragraph_3": "Basically he has two states normal and [Ocean's Descent]. To active it you need to perform [Basic Attacks] and an [Active Skill] to full your yellow part of the bar. To full Rafayel's white part of it you should click on his icon when his [Support Skill] is up and to trigger it faster you can perform a perfect dodge.",
+            "paragraph_4": "At full [Ocean's Descent] button will appear. On trigger it will change the state to  [Divine Favor] for 11s. In that state Rafayel will throw lightning. And you are the main star right now!",
+            "paragraph_5": "Consuming [Sea God Mark] is greatly empowered in that state. Additionally [Active Skill]  will generate [Lightning Crystal], dodging right into it will detonate it dealing massive DMG and restoring 0.3 ◆  also reducing [Active Skill] cooldown by 3,3s! When state is over and if the [Lightning Crystal] still exists it will be detonated.",
+            "paragraph_6": "Usually you are able to make the rotation 3 times during the [Divine Favor], with Ranks it is possible up to do 4!",
+            "paragraph_7": "So the whole rotation will look like this:",
+
+            "ul_li_1": "[Resonance Skill]  +  stack MC's [Basic Attack] & [Active Skill] (don't consume [Sea God Mark] too close to state change) + Rafayel's [Support Skill] +  [Resonance skill]  ⇨",
+            "ul_li_2": "activate [Divine Favor] ⇨ ",
+            "ul_li_3": "consume [Sea God Mark] + [Active Skill] leaves  [Lightning Crystal] + dodge in it (repeat till the end) ⇨ ",
+            "ul_li_4": "repeat the whole rotation ↺",
+
+
+            "paragraph_8": "If you have time in between  before [Sea God Mark] is restored you can do [Basic Attack]s.",
+            "images": {
+                "lightning_crystal": {
+                    "alt": "Lightning Crystal left by Active Skill in [Ocean's Descent] state",
+                    "caption": "Lightning Crystal that appears after Active Skill in [Ocean's Descent] state, dodge in it to active big AOE DMG"
+                },
+                "buffs": {
+                    "alt": "Buff indicators",
+                    "caption": "Your buffs. Pay special attention to the first one, it is the [Sea God Mark]"
+                },
+                "oceans_descent_bar_inactive":{
+                    "alt": "Ocean's Descent indicator inactive",
+                    "caption": "Ocean's Descent bar is under your HP"
+                },
+                "oceans_descent_bar_at_full": {
+                    "alt": "Ocean's Descent indicator at full",
+                    "caption": "When filling at max you will notice a new button for  Ocean's Descent state activation"
+                },
+                "oceans_descent_bar_active": {
+                    "alt": "Ocean's Descent indicator active",
+                    "caption": "After activation your earned points will burn out back till the end of the state empowering you and Rafayel"
+                },
+                "state_activation": {
+                    "alt": " [Divine Favor] state activation",
+                    "caption": "When Ocean's Descent is active a activation button will appear changing state to Divine Favor in which Rafayel will throw lightnings on the field while you will be empowered."
+                }
+            }
+        }
+    }
 }
