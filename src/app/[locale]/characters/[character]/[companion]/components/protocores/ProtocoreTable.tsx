@@ -102,8 +102,9 @@ export default function ProtocoreTable ({character, companion} : CharaDataProps)
                     </table> 
                     <details>
                         <summary className={`${styles.tableRow} cursor-pointer p-2`}>Rank Description</summary>
-                        <span>{tRank(`rankDescriptions.${character}.${companion}.${activeRank}` as any)}</span>
+                        <p>{tRank(`rankDescriptions.${character}.${companion}.${activeRank}` as any)}</p>
                         {/*<p>{(rankData as any)[character]?.[companion]?.[activeRank]?.rank_description}</p>*/}
+                        <p>{tRank("NB")}</p>
                     </details>
                 </div>
             )}

@@ -1,3 +1,34 @@
 {
-    
+        "header": "Protocores | Протокоры",
+        "introStandart": "Когда stellactrum (цвет карты) полность совпадает с условием комнаты можно использовать протокоры с основным статом 'DMG to Weakened' или 'Oath Recovery', в случае, когда не удается собрать подходящие карты, отдаем предпочтение 'CRIT DMG' и 'Expedited Energy'.",
+        "introSolar": "Сбор 5★ компаньонов слегка отличается. β протокор у солнечных карт отличается в зависимости от открытых ранков.",
+        "chooseProtocores": "выбирайте протокоры закрывающие ваши нужды в бою",
+        "substats": "Подстаты | нижние статы",
+        "substatsChoice": {
+            "basic": "В подстаты подбираем протокоры с ATK, CRIT Rate, CRIT DMG, DMG to Weakened"
+        },
+        "solarCardsInfo": "Протокоры α (альфа) и β (бета) используются только на солнечных картах. Фиксированный стат у α — HP, в то время, как у β может меняться",
+        "lunarCardsInfo": "Протокоры γ (гамма) и δ (дельта) используются на лунарных картах. Фиксированный стат у γ - ATK, а у δ он меняется.",
+        "critBuildsInfo": "Для сборок от критов не забывайте проверить свой крит шанс. Для стабильного урона старайтесь набрать 60-80% CRIT Rate. Держим в голове: не важно как много набралось CRIT DMG, если шанс его выпадениея нулевой.",
+        "OathInfo": "За раунд компаньон сможет воспользоваться Ardent Oath (ультой) один раз. Чтобы была возможность задействовать ее дважды — воспользуйтесь протокором 'Oath Recovery' для β.",
+        "energyInfo": "Для Active skill и Resonance skill требуется специальная энергия — ◆, чтобы она быстрее восстанавливалась используем протокор Expedited Energy для β.",
+        "energyNB": "заваисит от ранков",
+        "ProtocoreType": {
+            "Solar": "Solar | Солнечные",
+            "Lunar": "Lunar | Лунарные"
+        },
+        "protocoreStats" : {
+            "hp": "HP = Здоровье",
+            "atk": "ATK",
+            "def": "DEF = Защита",
+            "hp_bonus": "HP Bonus ",
+            "atk_bonus": "ATK Bonus",
+            "def_bonus": "DEF Bonus",
+            "expedited_energy_boost": "Expedited Energy Boost = скорость восстановления◆",
+            "oath_recovery_boost": "Oath Recovery Boost = скорость восстановления ульты",
+            "oath_strength": "Oath’s Strength = сила ульты",
+            "crit_rate": "CRIT Rate = Критический шанс",
+            "crit_dmg": "CRIT DMG = Критический урон",
+            "dmg_boost_to_weakened": "DMG Boost to Weakened = увеличение урона по врагам с пробитым щитом"
+        }
 }

@@ -5,6 +5,7 @@
         "r2": "R2",
         "r3": "R3"
     },
+    "NB": "Remember your Rank Buffs are only active when you add both Solar Pair cards in the team. You can choose your limited companion but he will remain at R0 buff even if you own R3.",
     "rankDescriptions": {
         "rafayel": {
             "abysswalker": {
@@ -17,7 +18,7 @@
                 "r0": "Starting Effect: The team deals 8% more DMG and takes 8% less DMG. When fighting near a [Sea Spirit], CRIT DMG is increased by 10%.",
                 "r1": "Increases Ardent Oath charge by 20%. The [Sea Spirit] starts at Lv. 2 and its duration is extended by 5 seconds.",
                 "r2": "Energy Charge limit is raised by 1. During [Heavenly Rain], Energy Charge recovery speed is increased by 30%.",
-                "r3": "The team deals 8% more DMG. [Surging Tides] restores 30% [Faith] for each enemy hit. This effect can trigger at most 3 times during."
+                "r3": "The team deals 8% more DMG. [Surging Tides] restores 30% [Faith] for each enemy hit. This effect can trigger at most 3 times during Surging Tides."
             },
             "lemurian_sea_god": {
                 "r0": "Starting Effect: The team deals 8% more DMG and take 8% less DMG. When your basic attack hits, [Sea God Mark] cooldown is reduced by 0.8s. This effect can trigger once per attack. When [Lightning Tide] hits Weakened enemies, extends the Weakened duration by 0.5s. This effect can trigger up to 2 times per enemy.",

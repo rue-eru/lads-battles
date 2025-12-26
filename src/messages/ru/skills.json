@@ -1,3 +1,179 @@
 {
-    
+    "header": "skills and weapons | Навыки и Оружие",
+    "hisSection": {
+        "header": "Его навыки",
+        "no-data": "Для данного компаньона не обнаружено информации о навыках",
+        "support_skill": "Support Skill",
+        "resonance_skill": "Resonance Skill",
+        "ardent_oath": "Ardent Oath",
+        "passive_skill": "Passive Skill"
+
+    },
+    "mySection": {
+        "header": "Мои навыки",
+        "intro": "У [MC] 5★ компаньона есть собственное особое оружие. Его всегда можно поменять на стандартное оружие, но его нельзя использовать с другогим компаньоном.",
+        "exclusive_weapon": "Эксключивное оружие: ",
+        "no-data": "Для данного компаньона не обнаружено информации о навыках",
+        "basic_attack": "Basic Attack",
+        "active_skill": "Active Skill",
+        "passive_skill":"Passive Skill",
+        "not_limited_companion_warning": "Стандартным компаньонам не доступно эксклюзивное оружие. Можно использовать только стандартную серию [Standard Weapons]."
+    },
+    "general": {
+        "cooldown": "Откат",
+        "seconds": "сек",
+        "cost": "Стоимость",
+        "skill_NB": {
+            "resonance_skill": "Только этот навык может сбить щиты врагов. При полном совпадении Stellactrum уничтожает 2 слоя щита.",
+            "ardent_oath":"Обычно за бой можно воспользоваться один раз, используйте протокор Oath Recovery, чтобы воспользоваться дважды."
+        }
+    },
+    "our_skills": {
+        "rafayel": {
+            "artist": {
+                "support_skill": {
+                    "name": "Scarlet Shade",
+                    "description": "Рафаэль создает Scarlet Shade, наносящий урон по периметру и вызывающий горение. Также оставляет 3 [Flame Lily]."
+                },
+                "resonance_skill": {
+                    "name": "Scorching",
+                    "description": "МС поджигает все [Flame Lily], нанося урон по периметру и горение. Каждая [Flame Lily] увеличивает АТК на 5% в течение 8 секунд."
+                },
+                "ardent_oath": {
+                    "name": "Searing Motif",
+                    "description": "МС и Рафаэль наносят режащий удар, нанося огромный урон по периметру на основе комбинированной АТК."
+                },
+                "passive_skill": {
+                    "name": "Flowing Flame",
+                    "description": "Когда навыки МС и Рафаэля поражают врага, Рафаэл вызывает до 5 [Flame Lily], наносящих урон по периметру. При использовании 10 [Flame Lily] увеличивается урон базовой атаки Рафаэля и дальность его атак."
+                }
+            },
+            "fresh_paint": {
+                "support_skill": {
+                    "name": "Swirling Colors",
+                    "description": "Рафаэль поднимает противника в воздух и ударом  возвращает к земле. Наносит до 2 [Tinctus]."
+                },
+                "resonance_skill": {
+                    "name": "Illuminating Strength",
+                    "description": "МС с Рафаэлем наносит серию атак."
+                },
+                "ardent_oath": {
+                    "name": "Dazzling Kaleidoscope",
+                    "description": "МС и Рафаэль наносят режащий удар, нанося огромный урон по периметру на основе комбинированной АТК."
+                },
+                "passive_skill": {
+                    "name": "Gilded Tinctus",
+                    "description": "Удары по врагам с [Tinctus] с помощью [Active Skill], [Resonance Skill] или [Ardent Oath] наносит урон и восстанавливает здоровье команде. При активации 5 [Tinctus] DEF противника будет снижена на 20% на 5 сек. "
+                }
+            },
+            "phantom_of_the_siren": {
+                "support_skill": {
+                    "name": "Aria",
+                    "description": "Рафаэль вырывается вперед, нанося урон по периметру и снижая скорость передвижения противника на 30% в течение 5 сек. Что вызывает [Reprice], который наносит больший урон и снижает скорость передвижения противника на 50% в течение 5 сек."
+                },
+                "resonance_skill": {
+                    "name": "Concerto",
+                    "description": "МС и Рафаэль наносят ATK урон. Если противник поражен [Echo], он получает дополнительный урон АТК."
+                },
+                "ardent_oath": {
+                    "name": "Sonata of Reunions",
+                    "description": "МС и Рафаэль наносят режащий удар, нанося огромный урон по периметру на основе комбинированной АТК."
+                },
+                "passive_skill": {
+                    "name": "Recitativo",
+                    "description": "Когда МС и Рафаэль наносят урон, МС исполнит Harmony, которая позволяет при  следующей [Aria] оставить [Echo] на 5 сек. Что увеличит проходящий урон по врагам и дополнительно они начнут терять HP каждую секунду взависимости от ATK Рафаэля."
+                }
+            },
+            "abysswalker": {
+                "support_skill": {
+                    "name": "Eclipse Rend",
+                    "description": "Нажмите на иконку Рафаэля, когда будет готова к использованию(загорится жёлтым), или совершите [Perfect Dodge]. По завершению на поле будет  [Fishtail Beacon], его поднятие восстанавливает 2 [Potential] • При макс. Potential наносит сильный удар по врагам, сжигая их."
+                },
+                "resonance_skill": {
+                    "name": "Fantasia Shark",
+                    "description": "МС с Рафаэлем стягивает врагов цепями. Fantasia Shark кусает и сжигает их."
+                },
+                "ardent_oath": {
+                    "name": "Four Scourges",
+                    "description": "МС и Рафаэль наносят огромный урон по периметру на основе комбинированной АТК."
+                },
+                "passive_skill": {
+                    "name": "Abyssal Beacon",
+                    "description": "Периодически Рафаэль накладывает на врагов [Beacon]. Ударьте по ним заряженной атакой, чтобы собрать 1 [Potential]."
+                },
+                "basic_attack": {
+                    "name": "Abyssal Rapid Fire",
+                    "description": "Стреляйте из двух пистолетов, максимальное количество непрерывных обычных атак 5. Заряженная атака отбросит врагов, находящихся в близи."
+                },
+                "my_passive_skill": {
+                    "name": "Abyssal Shadow",
+                    "description": "Комбо-атака дает баффы при каждом попадании до 5 раз. 1 попадание увеличивает скорость атаки на 4% и CRIT Rate на 2%."
+                },
+                "active_skill": {
+                    "name": "Oceanic Traversal",
+                    "description": "Наносит один большой удар из пистолетов."
+                }
+            },
+            "god_of_the_tides": {
+                "support_skill": {
+                    "name": "Tidal Summoning",
+                    "description": "Призывает [Sea Spirit]. Усиленный [Tidal Summoning] восстанавливает 10% [Faith] и увеличивает урон [Sea Spirit]  на 10%."
+                },
+                "resonance_skill": {
+                    "name": "Surging Tides",
+                    "description": "МС и Рафаэль вызывают приливы, нанося урон на основе комбинированных АТК + HP."
+                },
+                "ardent_oath": {
+                    "name": "Oceanic Harmony",
+                    "description": "МС и Рафаэль призывают кита, нанося массивный урон на основе комбинированных АТК + HP."
+                },
+                "passive_skill": {
+                    "name": "Frenzy Surge",
+                    "description": "Удары МС, Рафаэля и [Sea Spirit] восстанавливают [Faith]. При полном заполнении активируется [Heavenly Rain], увеличивая урон на 30% и повышает уровень всех [Sea Spirit] на 1."
+                },
+                "basic_attack": {
+                    "name": "Waves",
+                    "description": "Наносит комбо с непрерывными обычными атаками до 4 на основе АТК + HP. Заряженная атака подбрасывает врагов в воздух."
+                },
+                "my_passive_skill": {
+                    "name": "Sea Shanty",
+                    "description": "При использовании [Active Skill] призывает [Sea Spirit]."
+                },
+                "active_skill": {
+                    "name": "Tides",
+                    "description": "Отталкивает врагов и наносит урон на основе  АТК + HP и оставляет [Tidal Field]. Таким образом даётся Tidal Strength, которая увеличивает CRIT Rate на 10% и суммируется до 3 раз."
+                }
+            },
+            "lemurian_sea_god": {
+                "support_skill": {
+                    "name": "Tide Cleaver",
+                    "description": "Бросает трезубец, нанося урон на основе ATK + DEF, в врагов в радиусе действия."
+                },
+                "resonance_skill": {
+                    "name": "Cerulean Verdict",
+                    "description": "МС и Рафаэль призывают возвышающиеся волны, стягивая врагов внутрь и нанося массивный урон на основе ATK + DEF."
+                },
+                "ardent_oath": {
+                    "name": "Oceanic Harmony",
+                    "description": "МС и Рафаэль наносят массивный урон на основе комбинированного ATK + DEF."
+                },
+                "passive_skill": {
+                    "name": "Deepfall Rite",
+                    "description": "При входе в битву, Рафаэль дарует [Sea God Mark]. Заряжанная атака поглащает его, и повторно восстановится через 8 секунд. Очень полезная вещь в бою с LSG и особенно в [Ocean's Descent]."
+                },
+                "basic_attack": {
+                    "name": "Wave Chase",
+                    "description": "Выполните комбо с непрерывными обычными атаками до 4. Заряженная атака производит мощный удар мечом и поглощает [Sea God Mark], если заряжен. Урон от ATK + DEF."
+                },
+                "my_passive_skill": {
+                    "name": "Tide's Return",
+                    "description": "Поглащение [Sea God Mark] заряженной атакой также восстанавливает 0,5 ◆."
+                },
+                "active_skill": {
+                    "name": "Riptide Rend",
+                    "description": "Вырывается вперед, нанося урон на основе ATK + DEF."
+                }
+            }    
+        }          
+    }
 }

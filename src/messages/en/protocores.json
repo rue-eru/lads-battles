@@ -11,7 +11,7 @@
         "lunarCardsInfo": "Lunar cards use γ (gamma) and δ (delta) protocores. γ has a fixed main ATK stat while δ's main stat derives.",
         "critBuildsInfo": "For crit builds don't forget to check your crit rate before entering the stage. for comfortable ratio aim for 60-80% crit rate. remember your CRIT DMG doesn't matter if you do not utilize it.",
         "OathInfo": "Usually your companion will be able to use Oath once during the battle. To use it twice use 'Oath Recovery' for β protocore.",
-        "energyInfo": "Your skill and Resonance skill require special energy ◆, to regenerate it faster use Expedited Energy for β protocore.",
+        "energyInfo": "Active skill and Resonance skill require special energy ◆, to regenerate it faster use Expedited Energy for β protocore.",
         "energyNB": "depends on your conpanion ranks",
         "ProtocoreType": {
             "Solar": "Solar",
