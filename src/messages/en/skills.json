@@ -81,7 +81,7 @@
                 },
                 "passive_skill": {
                     "name": "Recitativo",
-                    "description": "Whe you and Rafayel deal DMG, you will sing Harmony, next time you use [Aria] it will leave [Echo] behind for 5s. It increases the DMG enemies take and additionally they lose HP based on Rafayeal ATK per second."
+                    "description": "When you and Rafayel deal DMG, you will sing Harmony, next time you use [Aria] it will leave [Echo] behind for 5s. It increases the DMG enemies take and additionally they lose HP based on Rafayeal ATK per second."
                 }
             },
             "abysswalker": {

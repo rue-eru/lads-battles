@@ -39,15 +39,6 @@ export default function ProtocoreSection ({character, companion}: CharaDataProps
             { companionData?.type === "solar" ? (
                 <>
                     <span>{t('introSolar')}</span>
-
-                    {/*
-                    <ul className="list-['—'] list-inside">
-                        <li> {t(`r0.${companion}` as any)}</li>
-                        <li> {t(`r1.${companion}` as any)}</li>
-                        <li> {t(`r2+.${companion}` as any)}</li>
-                    </ul>
-                    <span>{t('chooseProtocores')}</span>
-                    */}
                 </>
 
             ) :  (
