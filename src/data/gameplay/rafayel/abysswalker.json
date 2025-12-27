@@ -6,18 +6,17 @@
             "content": "gameplay.rafayel.abysswalker.paragraph_1"
         },
         {
-            "type": "image",
-            "src": "/images/companions/rafayel/gameplay/abysswalker/potential_stacks.png",
-            "alt": "gameplay.rafayel.abysswalker.images.potential_stacks.alt",
-            "caption": "gameplay.rafayel.abysswalker.images.potential_stacks.caption"
-        },
-        {
             "type": "paragraph",
             "content": "gameplay.rafayel.abysswalker.paragraph_2"
         },
         {
             "type": "imageGroupPerImageCaption",
             "images": [
+                {
+                    "src": "/images/companions/rafayel/gameplay/abysswalker/potential_stacks.png",
+                    "alt": "gameplay.rafayel.abysswalker.images.potential_stacks.alt",
+                    "caption": "gameplay.rafayel.abysswalker.images.potential_stacks.caption"
+                },
                 {
                     "src": "/images/companions/rafayel/gameplay/abysswalker/beacon.png",
                     "alt": "gameplay.rafayel.abysswalker.images.beacon.alt",
@@ -28,7 +27,6 @@
                     "alt": "gameplay.rafayel.abysswalker.images.fishtail_beacon.alt",
                     "caption": "gameplay.rafayel.abysswalker.images.fishtail_beacon.caption"
                 }
-
             ]
         },
         {

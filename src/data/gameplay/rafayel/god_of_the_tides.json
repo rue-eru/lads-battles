@@ -60,31 +60,17 @@
             "content": "gameplay.rafayel.god_of_the_tides.paragraph_3"
         }, 
         {
-            "type": "imageGroupSharedCaption",
-            "caption": "gameplay.rafayel.god_of_the_tides.images.rafayel_buffs.caption",
+            "type": "imageGroupPerImageCaption",
             "images": [
                 {
-                    "src": "/images/companions/rafayel/gameplay/god_of_the_tides/rafayel_buff_1.png",
-                    "alt": "gameplay.rafayel.god_of_the_tides.images.rafayel_buffs.alt"
+                    "src": "/images/companions/rafayel/gameplay/god_of_the_tides/rafayel_buffs.png",
+                    "alt": "gameplay.rafayel.god_of_the_tides.images.rafayel_buffs.alt",
+                    "caption": "gameplay.rafayel.god_of_the_tides.images.rafayel_buffs.caption"
                 },
                 {
-                    "src":  "/images/companions/rafayel/gameplay/god_of_the_tides/rafayel_buff_2.png",
-                    "alt": "gameplay.rafayel.god_of_the_tides.images.rafayel_buffs.alt"
-                }
-            ]
-
-        },
-            {
-            "type": "imageGroupSharedCaption",
-            "caption": "gameplay.rafayel.god_of_the_tides.images.mc_buffs.caption",
-            "images": [
-                {
-                    "src": "/images/companions/rafayel/gameplay/god_of_the_tides/mc_buff_1.png",
-                    "alt": "gameplay.rafayel.god_of_the_tides.images.mc_buffs.alt"
-                },
-                {
-                    "src": "/images/companions/rafayel/gameplay/god_of_the_tides/mc_buff_2.png",
-                    "alt": "gameplay.rafayel.god_of_the_tides.images.mc_buffs.alt"
+                    "src": "/images/companions/rafayel/gameplay/god_of_the_tides/mc_buffs.png",
+                    "alt": "gameplay.rafayel.god_of_the_tides.images.mc_buffs.alt",
+                    "caption": "gameplay.rafayel.god_of_the_tides.images.mc_buffs.caption"
                 }
             ]
         },

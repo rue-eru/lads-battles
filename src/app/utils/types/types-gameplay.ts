@@ -37,6 +37,7 @@ export type GameplayBlock =
     }
     | {
         type: 'imageGroupPerImageCaption';
+        layout?: 'ui' | 'visual';
         images: Array<{
             src: string;
             alt: string;
