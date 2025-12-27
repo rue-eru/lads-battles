@@ -48,7 +48,7 @@
         },
         "abysswalker": {
 
-            "paragraph_1": "Abysswalker has a special skill called [Potential]. It requires 6 stacks.  You can find it under the HP bar:",
+            "paragraph_1": "Abysswalker has a special skill called [Potential]. It requires 6 stacks.  You can find it under the HP bar.",
             "paragraph_2": "You can collect those by using a [Charge Attack] when you see a [Beacon] on the enemy or by collecting a [Fishtail Beacon] that appears after using a [Support Skill]:",
             "paragraph_3": "Triggering that [Potential] on collection all 6 stacks consumes them and increases CRIT Rate by 15% for 5s and allows Rafayel to deal big DMG on the enemy.",
             "paragraph_4": "You can also see buffs being applied on your MC above your HP bar and his buffs near his icon:",
@@ -73,7 +73,7 @@
                 }, 
                 "potential_trigger_performance": {
                     "alt": "Rafayel stricking at full Potential",
-                    "caption": "After collecting 6 stacks of Potential Rafayel will perform big strike on an enemy."
+                    "caption": "After collecting 6 stacks of Potential Rafayel will perform big strike on an enemy"
                 },
                 "rafayel_buffs": {
                     "alt": "Buffs indicators on Rafayel",
@@ -148,7 +148,7 @@
             "images": {
                 "lightning_crystal": {
                     "alt": "Lightning Crystal left by Active Skill in Ocean's Descent state",
-                    "caption": "Lightning Crystal that appears after Active Skill in Ocean's Descent state, dodge in it to active big AOE DMG"
+                    "caption": "Lightning Crystal that appears after Active Skill in Ocean's Descent state, dodge in it to activate big AOE DMG"
                 },
                 "buffs": {
                     "alt": "Buff indicators",

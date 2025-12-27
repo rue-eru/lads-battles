@@ -15,6 +15,7 @@
         },
         {
             "type": "imageGroupPerImageCaption",
+            "layout": "ui",
             "images": [
                 {
                     "src": "/images/companions/rafayel/gameplay/lemurian_sea_god/oceans_descent_bar_inactive.png",

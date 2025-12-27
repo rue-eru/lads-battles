@@ -30,7 +30,9 @@ export const styles = {
     skillInfoBubbleDiv: `flex flex-wrap items-center gap-3 mb-2 font-inknut`,
 
     //gameplay
-    figcaptionStyle: `text-sm text-right text-gray-400 italic`,
+    figcaptionStyle: `text-sm text-right text-gray-400 italic text-wrap justify-end`,
+    img_bg: ` bg-gray-700 lg:p-2 sm:p-1 rounded-sm`,
+    imgHeightSoloOrSoloCapture: `w-full sm:h-60 md:h-80 lg:h-100 relative`,
 
 
 
