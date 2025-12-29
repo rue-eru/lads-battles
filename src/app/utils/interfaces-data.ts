@@ -84,3 +84,9 @@ export interface LightboxProps {
     onClose: () => void;
 }
 
+export interface GlossaryTerm {
+    key: string;
+    label: string;
+    description: string;
+    link?: string;
+}

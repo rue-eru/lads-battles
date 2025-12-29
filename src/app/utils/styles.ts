@@ -4,7 +4,7 @@ export const styles = {
 
 
     divider: `border-t border-text-primary w-full -mt-4`,
-    pagelayout: `w-[50%] mx-auto flex-1 mb-20`,
+    pagelayout: `lg:w-[50%] sm:w-[90%] mx-auto flex-1 mb-20`,
     contentlayout: `flex flex-col gap-[32px] row-start-2 items-center sm:items-start mt-20 w-full text-justify`,
     tableRow: `hover:bg-pink-400 font-inknut`,
     charaIconStyle: ` hover:border-pink-400 hover:border-3 rounded-full`,
