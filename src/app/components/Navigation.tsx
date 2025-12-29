@@ -24,7 +24,7 @@ export default function Navigation() {
                 />
             </Link>
 
-            <div className="flex items-center gap-10 uppercase tracking-[0.5rem]">
+            <div className="flex items-center gap-10 uppercase tracking-[0.5rem] ">
                 <Link href="/" className="hover:text-pink-400">
                     {tLayout("home-btn")}
                 </Link>
@@ -49,7 +49,7 @@ export default function Navigation() {
 
                     {/*Dropdown menu*/}
                     {isCharacterOpen && (
-                        <div className="absolute top-full left-0 bg-lightgray  rounded-lg shadow-lg py-2 min-w-[150px] z-50 text-center uppercase tracking-widest">
+                        <div className="absolute w-full top-full left-0 bg-lightgray  rounded-lg shadow-lg py-2 min-w-[150px] z-50 text-center uppercase tracking-widest">
                             <Link href="/characters/xavier" className="block hover:text-pink-400">
                                 {tCharas("chNames.xavier")}
                             </Link>

@@ -15,7 +15,7 @@ export default function CharacterCard({
 }: CharacterCardProps) {
 
     return (
-        <div className="block hover:scale-115 transition-transform hover:text-pink-400 ">
+        <div className="flex flex-col items-center  hover:scale-115 transition-transform hover:text-pink-400">
                 <Image
                     src={`/images/${imgRoot}`}
                     alt={`imgRoot`} // you can also translate it in the file you pass it to
@@ -23,7 +23,7 @@ export default function CharacterCard({
                     height={imageSize}
                     className={className}
                 ></Image>
-                <span className="block">{titleId}</span>
+                <p className="text-center mt-2">{titleId}</p>
         </div>
 
     )

@@ -10,6 +10,7 @@ import GameplaySection from './components/gameplay/GameplaySection';
 import { NoGuideAvailable } from './components/NoGuideAvailable';
 import { getGameplayGuide } from '@/app/utils/loaders/gameplay-loader';
 
+
 export default async function CompanionPage ( {params} : {
   params: Promise<{character: CharacterId; companion: CompanionId; locale: Locale}>
 }) {

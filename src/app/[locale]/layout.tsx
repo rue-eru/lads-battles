@@ -55,7 +55,7 @@ export default async function RootLayout({
       <body 
          className={`
           ${geistSans.variable} ${geistMono.variable} ${InknutAntiqua.variable} 
-            flex flex-col min-h-screen 
+            flex flex-col min-h-screen
           `}
       >{/* flex flex-col min-h-screen - helps footer to stay at the bottom x1*/}
         <NextIntlClientProvider>
@@ -64,6 +64,13 @@ export default async function RootLayout({
           {/*flex-grow - helps footer to stay at the bottom x2*/}
           <Footer />
         </NextIntlClientProvider>
+
+          {/*-- Typpy.js Development --*/}
+          <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+          <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+          {/*-- Typpy.js Production --*/}
+          <script src="https://unpkg.com/@popperjs/core@2"></script>
+          <script src="https://unpkg.com/tippy.js@6"></script>
       </body>
     </html>
   );
