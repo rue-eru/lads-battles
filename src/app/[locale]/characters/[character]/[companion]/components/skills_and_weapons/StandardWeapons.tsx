@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import { useState } from "react";
 import { standardWeaponsData } from "@/app/utils/loaders/weapon-loader";
 import Image from "next/image";
+import { TextRenderer } from "../glossary/TextRenderer";
 
 export default function StandardWeapons () {
     const tWeapons = useTranslations('weapons');
@@ -86,7 +87,9 @@ export default function StandardWeapons () {
                                                 {tSkills('basic_attack')}
                                             </span>
                                         </div>
-                                        <p>{tWeapons(weaponData.skills.basic_attack.description_key)}</p>
+                                        <p>
+                                            <TextRenderer>{tWeapons(weaponData.skills.basic_attack.description_key)}</TextRenderer>
+                                        </p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -110,7 +113,9 @@ export default function StandardWeapons () {
                                                 {tSkills('passive_skill')}
                                             </span>
                                         </div>
-                                        <p>{tWeapons(weaponData.skills.passive_skill.description_key)}</p>
+                                        <p>
+                                            <TextRenderer>{tWeapons(weaponData.skills.passive_skill.description_key)}</TextRenderer>
+                                        </p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -138,7 +143,9 @@ export default function StandardWeapons () {
                                             {weaponData.skills.active_skill.cost && <span className={styles.skillsGrayubble}>{tGeneral("cost")} {weaponData.skills.active_skill.cost} ◆</span>}
 
                                         </div>
-                                        <p>{tWeapons(weaponData.skills.active_skill.description_key)}</p>
+                                        <p>
+                                            <TextRenderer>{tWeapons(weaponData.skills.active_skill.description_key)}</TextRenderer>
+                                        </p>
                                         
                                     </td>
                                 </tr>

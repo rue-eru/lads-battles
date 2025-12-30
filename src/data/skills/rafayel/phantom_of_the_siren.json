@@ -4,7 +4,7 @@
                 "name_key": "skills.our_skills.rafayel.phantom_of_the_siren.support_skill.name",
                 "cooldown": "10",
                 "description_key": "skills.our_skills.rafayel.phantom_of_the_siren.support_skill.description",
-                "terms": ["Reprice"]
+                "terms": ["Reprise"]
             },
             "resonance_skill": {
                 "name_key": "skills.our_skills.rafayel.phantom_of_the_siren.resonance_skill.name",

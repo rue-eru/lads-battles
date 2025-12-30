@@ -5,6 +5,7 @@ import { styles } from "@/app/utils/styles";
 import Image from "next/image";
 import SkillCard from "./SkillCard";
 import StandardWeapons from "./StandardWeapons";
+import { TextRenderer } from "../glossary/TextRenderer";
 
 
 export default function MySkillsTable( {character, companion}: CharaDataProps) {
@@ -41,7 +42,9 @@ export default function MySkillsTable( {character, companion}: CharaDataProps) {
         <div className="pb-12">
             <h2 className={styles.h1}>{tCommon('header')}</h2>
 
-            <p className="pt-12">{tCommon('intro')}</p>
+            <p className="pt-12">
+                <TextRenderer>{tCommon('intro')}</TextRenderer>
+            </p>
 
             <div className="flex items-center  gap-4 p-6">
                 <div className="relative">
@@ -67,6 +70,7 @@ export default function MySkillsTable( {character, companion}: CharaDataProps) {
                         label={tCommon('basic_attack')}
                         descriptionKey={basic_attack.description_key as any}
                         terms={basic_attack.terms}
+                        id="basicAttack"
                     />
 
                     <SkillCard 
@@ -75,6 +79,7 @@ export default function MySkillsTable( {character, companion}: CharaDataProps) {
                         label={tCommon('passive_skill')}
                         descriptionKey={passive_skill.description_key as any}
                         terms={passive_skill.terms}
+                        id="myPassiveSkill"
                     />
 
                     <SkillCard 
@@ -85,6 +90,7 @@ export default function MySkillsTable( {character, companion}: CharaDataProps) {
                         cooldown={active_skill.cooldown as any}
                         cost={active_skill.cost as any}
                         terms={active_skill.terms}
+                        id="activeSkill"
                     />
                 </tbody>
             </table>

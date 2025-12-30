@@ -51,7 +51,7 @@
             "paragraph_1": "Abysswalker has a special skill called [Potential]. It requires 6 stacks.  You can find it under the HP bar.",
             "paragraph_2": "You can collect those by using a [Charge Attack] when you see a [Beacon] on the enemy or by collecting a [Fishtail Beacon] that appears after using a [Support Skill]:",
             "paragraph_3": "Triggering that [Potential] on collection all 6 stacks consumes them and increases CRIT Rate by 15% for 5s and allows Rafayel to deal big DMG on the enemy.",
-            "paragraph_4": "You can also see buffs being applied on your MC above your HP bar and his buffs near his icon:",
+            "paragraph_4": "You can also see buffs being applied on your [MC] above your HP bar and his buffs near his icon:",
             "paragraph_5": "For Abysswalker there's no actual rotation but in a nutshell:",
             "li_1": "perform [Basic Attack]s for buffs",
             "li_2": "upon seeing [Fishtail Beacon] use [Charged Attack]",
@@ -88,11 +88,11 @@
         },
         "god_of_the_tides": {
             "paragraph_1": "Your main priorities with God of the Tides in the battle are:",
-            "li_1": "Building [Faith]: attack with MC, Rafayel and [Sea Spirit]s",
-            "li_2": "At full [Faith] triggering [Heavenly Rain] (+30% DMG, [Sea Spirit]s levels up)",
+            "li_1": "Building [Faith]: attack with [MC], Rafayel and [Sea Spirits]",
+            "li_2": "At full [Faith] triggering [Heavenly Rain] (+30% DMG, [Sea Spirits] levels up)",
             "paragraph_2": "Your rotation will include:",
             "li_3": "[Active Skill] (CRIT Rate [Tidal Field], stay inside it)",
-            "li_4": " [Basic Attack]s + [Support Skill] + [Perfect Dodge] (For creating as much [Sea Spirit]s and restoring [Faith])",
+            "li_4": " [Basic Attack]s + [Support Skill] + [Perfect Dodge] (For creating as much [Sea Spirits] and restoring [Faith])",
             "li_5": "[Resonance Skill] and[Ardent Oath] during [Heavenly Rain]",
             "paragraph_3": "Remember to time your main sources of DMG with enemies shields which can be broken only by [Resonance Skill]. You can always check if the buffs up above your HP and near his icon.",
             "paragraph_4": "[Sea Spirit] has 3 levels. It can be increased by [Passive Skill]  and R1:",
@@ -104,7 +104,7 @@
             "images": {
                 "seaspirit": {
                     "alt": "Sea Spirit on the field",
-                    "caption": "Sea Spirit summoned by Rafayel's Support Skill and Perfect Dodge"
+                    "caption": "Sea Spirit summoned by Rafayel's Support Skill and [Perfect Dodge]"
                 },
                 "faith": {
                     "alt": "Faith indicator",
@@ -132,7 +132,7 @@
 
             "paragraph_1": "Lemurian Sea God may seem quite complex at first but his rotations are quite straightforward and improve with Ranks.",
             "paragraph_2": "Your gameplay is centred around [Sea God Mark] and his Special State. When a [Charged Attack] empowered by [Sea God Mark] hits an enemy, it reduces the [Support Skill] cooldown by 1.5s.",
-            "paragraph_3": "Basically he has two states normal and [Divine Favor] that can be changed by reaching [Ocean's Descent]. To active it you need to perform [Basic Attacks] and an [Active Skill] to full your yellow part of the bar. To full Rafayel's white part of it you should click on his icon when his [Support Skill] is up and to trigger it faster you can perform a perfect dodge.",
+            "paragraph_3": "Basically he has two states normal and [Divine Favor] that can be changed by reaching [Ocean's Descent]. To active it you need to perform [Basic Attacks] and an [Active Skill] to full your yellow part of the bar. To full Rafayel's white part of it you should click on his icon when his [Support Skill] is up and to trigger it faster you can perform a [Perfect Dodge].",
             "paragraph_4": "At full [Ocean's Descent] button will appear. On trigger it will change the state to  [Divine Favor] for 11s. In that state Rafayel will throw lightning. And you are the main star right now!",
             "paragraph_5": "Consuming [Sea God Mark] is greatly empowered in that state. Additionally [Active Skill]  will generate [Lightning Crystal], dodging right into it will detonate it dealing massive DMG and restoring 0.3 ◆  also reducing [Active Skill] cooldown by 3,3s! When state is over and if the [Lightning Crystal] still exists it will be detonated.",
             "paragraph_6": "Usually you are able to make the rotation 3 times during the [Divine Favor], with Ranks it is possible up to do 4!",

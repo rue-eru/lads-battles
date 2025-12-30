@@ -1,8 +1,8 @@
 import { SkillCardProps } from "@/app/utils/interfaces-data";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import { SkillTerm } from "./SkillTerm";
 import { styles } from "@/app/utils/styles";
+import { TextRenderer } from "../glossary/TextRenderer";
 
 
 export default function SkillCard ({
@@ -12,7 +12,7 @@ export default function SkillCard ({
     cooldown,
     cost,
     descriptionKey,
-    terms = [],
+    id
 }: SkillCardProps) {
 
     const t = useTranslations();
@@ -28,7 +28,7 @@ export default function SkillCard ({
     const NBType = hasNB();
 
     return (
-        <tr >
+        <tr id={id}>
 
             {/*header with an icon and key points for skills*/}
             <td className={styles.imgSkillWidth}>
@@ -54,18 +54,12 @@ export default function SkillCard ({
                 </div>
                 {/*skill description part*/}
                 <div className="">
-                    <p>{t(descriptionKey)}</p>
-                    {NBType && <span className="italic">{tGeneral(`skill_NB.${NBType}`)}</span>}
-                    {/*
-                    {terms.length > 0 && (
-                        <div className="mt-2">
-                            <span className="text-sm text-gray-500">Terms:
-                                {terms.map(term => (
-                                    <SkillTerm key={term} term={term} />
-                                ))}
-                            </span>
-                        </div>
-                    )}*/}
+                    <p>
+                        <TextRenderer>{t(descriptionKey)}</TextRenderer>
+                    </p>
+                    {NBType && <span className="italic">
+                        <TextRenderer>{tGeneral(`skill_NB.${NBType}`)}</TextRenderer>
+                    </span>}
                 </div>
             </td>
 
