@@ -62,13 +62,13 @@ export default function StandardWeapons () {
 
                 {/*clicking the button above expands the chosen weapon's skills info*/}
                 {expandedWeapon && weaponData && (
-                    <div className="mt-6">
+                    <div className="mt-6" id={expandedWeapon}>
 
                         <table>
                             <tbody>
-                                <tr>
 
-                                    {/*basic attack data*/}
+                                {/*basic attack data*/}
+                                <tr id="stWeaponBasic">
                                     <td className={styles.imgSkillWidth}>
                                         <div>
                                             <Image 
@@ -92,9 +92,9 @@ export default function StandardWeapons () {
                                         </p>
                                     </td>
                                 </tr>
-                                <tr>
-
-                                    {/*passive skill data*/}
+                                    
+                                {/*passive skill data*/}
+                                <tr id="stWeaponPassive">
                                     <td className={styles.imgSkillWidth}>
                                         <div>
                                             <Image 
@@ -118,9 +118,9 @@ export default function StandardWeapons () {
                                         </p>
                                     </td>
                                 </tr>
-                                <tr>
 
-                                    {/*active skill data*/}
+                                {/*active skill data*/}
+                                <tr id="stWeaponActive">
                                     <td className={styles.imgSkillWidth}>
                                         <div>
                                             <Image 
@@ -152,7 +152,9 @@ export default function StandardWeapons () {
                             </tbody>
                         </table>
 
-                        <p className="py-6 italic">{tWeapons(weaponData.about as any)}</p>
+                        <p className="py-6 italic">
+                            <TextRenderer>{tWeapons(weaponData.about as any)}</TextRenderer>
+                        </p>
 
 
                     </div>

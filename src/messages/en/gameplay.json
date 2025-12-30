@@ -8,7 +8,7 @@
     "rafayel": {
         "artist": {
             "paragraph": 
-                "[Resonate Skill] and [Support Skill] create a [Scarlet Shade] and [Flame Lily] which inflict burn for 5s. After consuming 10 [Flame Lilies] Rafayel gets an ATK buff for 10s and additionally his attack range is also increased. To create more [Flame Lilies] and trigger the [Passive Skill] faster you can use a high speed weapon like [Hunter Firearms]."
+                "[Resonance Skill] and [Support Skill] create a [Scarlet Shade] and [Flame Lily] which inflict burn for 5s. After consuming 10 [Flame Lilies] Rafayel gets an ATK buff for 10s and additionally his attack range is also increased. To create more [Flame Lilies] and trigger the [Passive Skill] faster you can use a high speed weapon like [Hunter Firearm]."
             ,
             "images": {
                 "flame_lily": {
@@ -24,9 +24,9 @@
 
         },
         "fresh_paint": {
-            "summary": "Detonate for DEF reduction + healing",
+            "summary": "Detonate [Tinctus] for DEF reduction + healing",
             "paragraph": 
-                "[Charge Attack] and [Support Skill] inflict [Tinctus] stacking it up to 5 times. [Active Skill], [Resonance Skill] or [Ardent Oath]  detonate them, dealing ATK DMG based on the number of stacks and restore HP to both of you. Detonation of 5 stacks reduce enemy's DEF by 20% for 5s. To inflict more [Tinctus] use high speed weapon like [Hunter Firearms].",
+                "[Charge Attack] and [Support Skill] inflict [Tinctus] stacking it up to 5 times. [Active Skill], [Resonance Skill] or [Ardent Oath]  detonate them, dealing ATK DMG based on the number of stacks and restore HP to both of you. Detonation of 5 stacks reduce enemy's DEF by 20% for 5s. To inflict more [Tinctus] use high speed weapon like [Hunter Firearm].",
             "images": {
                 "tinctus": {
                     "alt": "Tinctus on enemies",
@@ -50,7 +50,7 @@
 
             "paragraph_1": "Abysswalker has a special skill called [Potential]. It requires 6 stacks.  You can find it under the HP bar.",
             "paragraph_2": "You can collect those by using a [Charge Attack] when you see a [Beacon] on the enemy or by collecting a [Fishtail Beacon] that appears after using a [Support Skill]:",
-            "paragraph_3": "Triggering that [Potential] on collection all 6 stacks consumes them and increases CRIT Rate by 15% for 5s and allows Rafayel to deal big DMG on the enemy.",
+            "paragraph_3": "Triggering [Potential] on collection of all 6 stacks consumes them and increases CRIT Rate by 15% for 5s and allows Rafayel to deal big DMG on an enemy.",
             "paragraph_4": "You can also see buffs being applied on your [MC] above your HP bar and his buffs near his icon:",
             "paragraph_5": "For Abysswalker there's no actual rotation but in a nutshell:",
             "li_1": "perform [Basic Attack]s for buffs",
@@ -93,8 +93,8 @@
             "paragraph_2": "Your rotation will include:",
             "li_3": "[Active Skill] (CRIT Rate [Tidal Field], stay inside it)",
             "li_4": " [Basic Attack]s + [Support Skill] + [Perfect Dodge] (For creating as much [Sea Spirits] and restoring [Faith])",
-            "li_5": "[Resonance Skill] and[Ardent Oath] during [Heavenly Rain]",
-            "paragraph_3": "Remember to time your main sources of DMG with enemies shields which can be broken only by [Resonance Skill]. You can always check if the buffs up above your HP and near his icon.",
+            "li_5": "[Resonance Skill] and [Ardent Oath] during [Heavenly Rain]",
+            "paragraph_3": "Remember to time your main sources of DMG with enemiies' shields which can be broken only by [Resonance Skill]. You can always check if the buffs are up above your HP and near his icon.",
             "paragraph_4": "[Sea Spirit] has 3 levels. It can be increased by [Passive Skill]  and R1:",
             "li_6": "does DMG based on ATK + HP.",
             "li_7": "ATK Speed is increased by 20%.",
@@ -104,7 +104,7 @@
             "images": {
                 "seaspirit": {
                     "alt": "Sea Spirit on the field",
-                    "caption": "Sea Spirit summoned by Rafayel's Support Skill and [Perfect Dodge]"
+                    "caption": "Sea Spirit summoned by Rafayel's Support Skill and Perfect Dodge"
                 },
                 "faith": {
                     "alt": "Faith indicator",
@@ -135,10 +135,10 @@
             "paragraph_3": "Basically he has two states normal and [Divine Favor] that can be changed by reaching [Ocean's Descent]. To active it you need to perform [Basic Attacks] and an [Active Skill] to full your yellow part of the bar. To full Rafayel's white part of it you should click on his icon when his [Support Skill] is up and to trigger it faster you can perform a [Perfect Dodge].",
             "paragraph_4": "At full [Ocean's Descent] button will appear. On trigger it will change the state to  [Divine Favor] for 11s. In that state Rafayel will throw lightning. And you are the main star right now!",
             "paragraph_5": "Consuming [Sea God Mark] is greatly empowered in that state. Additionally [Active Skill]  will generate [Lightning Crystal], dodging right into it will detonate it dealing massive DMG and restoring 0.3 ◆  also reducing [Active Skill] cooldown by 3,3s! When state is over and if the [Lightning Crystal] still exists it will be detonated.",
-            "paragraph_6": "Usually you are able to make the rotation 3 times during the [Divine Favor], with Ranks it is possible up to do 4!",
+            "paragraph_6": "Usually you are able to make the rotation 3 times during the [Divine Favor], with Ranks it is possible to do up to 4!",
             "paragraph_7": "So the whole rotation will look like this:",
 
-            "ul_li_1": "[Resonance Skill]  +  stack MC's [Basic Attack] & [Active Skill] (don't consume [Sea God Mark] too close to state change) + Rafayel's [Support Skill] +  [Resonance skill]  ⇨",
+            "ul_li_1": "[Resonance Skill]  +  stack MC's [Basic Attack] & [Active Skill] (don't consume [Sea God Mark] too close to state change) + Rafayel's [Support Skill] +  [Resonance Skill]  ⇨",
             "ul_li_2": "activate [Divine Favor] ⇨ ",
             "ul_li_3": "consume [Sea God Mark] + [Active Skill] leaves  [Lightning Crystal] + dodge in it (repeat till the end) ⇨ ",
             "ul_li_4": "repeat the whole rotation ↺",
@@ -148,7 +148,7 @@
             "images": {
                 "lightning_crystal": {
                     "alt": "Lightning Crystal left by Active Skill in Ocean's Descent state",
-                    "caption": "Lightning Crystal that appears after Active Skill in Ocean's Descent state, dodge in it to activate big AOE DMG"
+                    "caption": "Lightning Crystal that appears after Active Skill in Divine Favor state, dodge in it to activate big AoE DMG"
                 },
                 "buffs": {
                     "alt": "Buff indicators",
@@ -164,7 +164,7 @@
                 },
                 "oceans_descent_bar_active": {
                     "alt": "Ocean's Descent indicator active",
-                    "caption": "After activation your earned points will burn out back till the end of the state empowering you and Rafayel"
+                    "caption": "After activation state will change to Divine Favor and your earned points will burn out back till the end of the state empowering you and Rafayel"
                 },
                 "state_activation": {
                     "alt": "Divine Favor state activation",
