@@ -18,7 +18,7 @@
                 "skills": {
                     "basic_attack": {
                         "name": "Precise Firing",
-                        "description": "Wield dual guns for a combo up to 5 hits. Charged Attack will knock back nearby enemies. Both Scales with ATK."
+                        "description": "Wield dual guns for a combo up to 5 hits. Charged Attack will knock back nearby enemies. Both scale with ATK."
                     },
                     "passive_skill": {
                         "name": "Weakpoint",
@@ -36,7 +36,7 @@
                 "skills": {
                     "basic_attack": {
                         "name": "Pierce",
-                        "description": "Perform a combo up to 4 hits. Charge Attack creates a single slash.  Both Scales with ATK. When [Hunter's Intention] is at 10 stacks, Charge Attack will be empowered."
+                        "description": "Perform a combo up to 4 hits. Charge Attack creates a single slash.  Both Scale with ATK. When [Hunter's Intention] is at 10 stacks, Charge Attack will be empowered."
                     },
                     "passive_skill": {
                         "name": "Hunter's Intention",

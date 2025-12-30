@@ -33,6 +33,7 @@ export default function HisSkillsTable ({character, companion } : CharaDataProps
                         cooldown={support_skill.cooldown as any}
                         descriptionKey={support_skill.description_key as any}
                         terms={support_skill.terms}
+                        id="supportSkill"
                     />
                     <SkillCard 
                         icon={`/images/companions/${character}/gameplay/${companion}/resonance_skill.png`}
@@ -42,6 +43,7 @@ export default function HisSkillsTable ({character, companion } : CharaDataProps
                         cost={resonance_skill.cost as any}
                         descriptionKey={resonance_skill.description_key as any}
                         terms={resonance_skill.terms}
+                        id="resonanceSkill"
                     />
                     <SkillCard 
                         icon={`/images/companions/${character}/gameplay/${companion}/ardent_oath.png`}
@@ -49,6 +51,7 @@ export default function HisSkillsTable ({character, companion } : CharaDataProps
                         label={t("ardent_oath")}
                         descriptionKey={ardent_oath.description_key as any}
                         terms={ardent_oath.terms}
+                        id="ardentOath"
                     />
                     <SkillCard 
                         icon={`/images/companions/${character}/gameplay/${companion}/passive_skill.png`}
@@ -56,6 +59,7 @@ export default function HisSkillsTable ({character, companion } : CharaDataProps
                         label={t("passive_skill")}
                         descriptionKey={passive_skill.description_key as any}
                         terms={passive_skill.terms}
+                        id="hisPassiveSkill"
                     />
                 </tbody>
             </table>

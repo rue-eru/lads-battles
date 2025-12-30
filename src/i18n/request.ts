@@ -19,6 +19,8 @@ export default getRequestConfig(async ({requestLocale}) => {
     ranks: (await import(`../messages/${locale}/ranks.json`)).default,
     protocores: (await import(`../messages/${locale}/protocores.json`)).default,
     gameplay: (await import(`../messages/${locale}/gameplay.json`)).default,
+    glossary: (await import(`../messages/${locale}/glossary.json`)).default,
+
 
 
   };

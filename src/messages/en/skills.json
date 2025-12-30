@@ -11,7 +11,7 @@
     },
     "mySection": {
         "header": "My skills",
-        "intro": "5-star companion’s MC has her own special weapon. You can always switch to standard weapons but you can’t wield other companion's exclusive weapon.",
+        "intro": "5★ companion’s [MC] has her own special weapon. You can always switch to standard weapons but you can’t wield other companion's exclusive weapon.",
         "exclusive_weapon": "'s exclusive weapon",
         "no-data": "No skill data available for this companion.",
         "basic_attack": "Basic Attack",
@@ -45,7 +45,7 @@
                 },
                 "passive_skill": {
                     "name": "Flowing Flame",
-                    "description": "When you and Rafayel's skills hit enemy, he summons up to 5 [Flame Lilies] dealing AoE DMG. When 10 [Flame Lilies] are utilized, Rafayel's Basic Attack DMG and attack range are increased."
+                    "description": "When you and Rafayel's skills hit enemy, he summons up to 5 [Flame Lilies] dealing AoE DMG. When 10 [Flame Lilies] are utilized, Rafayel's [Basic Attack] DMG and attack range are increased."
                 }
             },
             "fresh_paint": {
@@ -69,7 +69,7 @@
             "phantom_of_the_siren": {
                 "support_skill": {
                     "name": "Aria",
-                    "description": "Rafayel thrusts forward, dealing AoE DMG and reducing enemy's movement speed by 30% for 5s. It leaves behind [Reprice], it deals bigger DMG and reduces enemy's movement speed by 50% for 5s."
+                    "description": "Rafayel thrusts forward, dealing AoE DMG and reducing enemy's movement speed by 30% for 5s. It leaves behind [Reprise], it deals bigger DMG and reduces enemy's movement speed by 50% for 5s."
                 },
                 "resonance_skill": {
                     "name": "Concerto",
@@ -87,7 +87,7 @@
             "abysswalker": {
                 "support_skill": {
                     "name": "Eclipse Rend",
-                    "description": "Click Rafayel's icon when ready, or trigger with perfect dodge. Leaves [Fishtail Beacon] on a ground restoring 2 Potential on pick • At max [Potential], becomes empowered and Burns enemies"
+                    "description": "Click Rafayel's icon when ready, or trigger with [Perfect Dodge]. Leaves [Fishtail Beacon] on a ground restoring 2 Potential on pick • At max [Potential], becomes empowered and Burns enemies"
                 },
                 "resonance_skill": {
                     "name": "Fantasia Shark",
@@ -129,7 +129,7 @@
                 },
                 "passive_skill": {
                     "name": "Frenzy Surge",
-                    "description": "Your, Rafayel's and [Sea Spirit]s' hits restore [Faith]. When it is full, it triggers [Heavenly Rain] increases DMG dealt by 30% and boosts the level of all [Sea Spirit]s by 1."
+                    "description": "Your, Rafayel's and [Sea Spirits]' hits restore [Faith]. When it is full, it triggers [Heavenly Rain] increases DMG dealt by 30% and boosts the level of all [Sea Spirits] by 1."
                 },
                 "basic_attack": {
                     "name": "Waves",

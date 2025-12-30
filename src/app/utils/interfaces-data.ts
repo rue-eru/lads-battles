@@ -54,6 +54,7 @@ export interface SkillCardProps {
     cost?: number;
     descriptionKey: string;
     terms?: string[];
+    id?: string;
 }
 
 export interface SkillTermProps { 
@@ -84,9 +85,14 @@ export interface LightboxProps {
     onClose: () => void;
 }
 
-export interface GlossaryTerm {
+export interface GlossaryTermProps {
     key: string;
     label: string;
     description: string;
     link?: string;
+}
+
+export interface TextRendererProps {
+    children: string;
+    className?: string;
 }
