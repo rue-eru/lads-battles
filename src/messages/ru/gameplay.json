@@ -8,7 +8,7 @@
     "rafayel": {
         "artist": {
             "paragraph": 
-                "[Resonate Skill] и [Support Skill] создают [Scarlet Shade] и [Flame Lily], которые вызывают горения напротяжении 5 сек.  После использования 10 [Flame Lily] Рафаэль получает АТК бафф на 10 сек, дополнительно увеличивая дальность его атак. Чтобы создать больше [Flame Liliy] и , быстрее активировать [Passive Skill],  можно использовать  оружие с быстрыми атаками, как [Hunter Firearms].."
+                "[Resonate Skill] и [Support Skill] создают [Scarlet Shade] и [Flame Lily], которые вызывают горения напротяжении 5 сек.  После использования 10 [Flame Lily] Рафаэль получает АТК бафф на 10 сек, дополнительно увеличивая дальность его атак. Чтобы создать больше [Flame Liliy] и , быстрее активировать [Passive Skill],  можно использовать  оружие с быстрыми атаками, как [Hunter Firearm].."
             ,
             "images": {
                 "flame_lily": {
@@ -25,7 +25,7 @@
         },
         "fresh_paint": {
             "paragraph": 
-                "[Charge Attack] и [Support Skill] оставляют [Tinctus] на врагах, макс 5. [Active Skill], [Resonance Skill] и [Ardent Oath]  взрывают их, нанося АТК урон в зависимости от количества [Tinctus] на врагах и восстанавливая здоровье и МС, и Рафаэлю. Взрыв 5 сразу понижает DEF противника на 20% и 5 сек.  Чтобы чаще наносить [Tinctus], используйте оружие с быстрыми атами,  как [Hunter Firearms].",
+                "[Charge Attack] и [Support Skill] оставляют [Tinctus] на врагах, макс 5. [Active Skill], [Resonance Skill] и [Ardent Oath]  взрывают их, нанося АТК урон в зависимости от количества [Tinctus] на врагах и восстанавливая здоровье и МС, и Рафаэлю. Взрыв 5 сразу понижает DEF противника на 20% и 5 сек.  Чтобы чаще наносить [Tinctus], используйте оружие с быстрыми атами,  как [Hunter Firearm].",
             "images": {
                 "tinctus": {
                     "alt": "Tinctus на врагах",

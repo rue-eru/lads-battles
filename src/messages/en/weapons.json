@@ -44,7 +44,7 @@
                     },
                     "active_skill": {
                         "name": "Blade's Shadow",
-                        "description": "Unleash  a slashing attack dealing AoE DMG."
+                        "description": "Unleash  a slashing attack dealing [AoE] DMG."
                     }
                 }
             },
@@ -54,7 +54,7 @@
                 "skills": {
                     "basic_attack": {
                         "name": "Magnetic Pulse",
-                        "description": "Wield a wand for a combo up to 4 hits. Charged Attack launches enemies. Both Scales with ATK."
+                        "description": "Wield a wand for a combo up to 4 hits. Charged Attack launches enemies. Both scale with ATK."
                     },
                     "passive_skill": {
                         "name": "Magnetic Resonance",
@@ -72,11 +72,11 @@
                 "skills": {
                     "basic_attack": {
                         "name": "Indomitable Edge",
-                        "description": "Wield a claymore for a combo up to 4 hits. Charged Attack makes you smash the ground dealing AoE DMG. Both Scales with ATK."
+                        "description": "Wield a claymore for a combo up to 4 hits. Charged Attack makes you smash the ground dealing [AoE] DMG. Both scale with ATK."
                     },
                     "passive_skill": {
                         "name": "Persistence",
-                        "description": "Allows you to empower your [Active Skill] by 50% on [Gathering stacks] and skip the charging state. You should collect all three stacks to utilize that. One stack increases your [Basic Attack] by 12.9%."
+                        "description": "Allows you to empower your [Active Skill] by 50% on [Gathering Stacks] and skip the charging state. You should collect all three stacks to utilize that. One stack increases your [Basic Attack] by 12.9%."
                     },
                     "active_skill": {
                         "name": "Frangere Slash",
@@ -87,6 +87,6 @@
     },
     "skill_basic_info:": {
         "resonance_skill": "Only that skill helps you to destroy enemy’s shiels. On full Stellactrum match destroys 2 layers of the shield.",
-        "ardent_oath": "Usually you can use it once during a battle, use Oath Recovery protocore to utilize it twice."
+        "ardent_oath": "Usually you can use it once during a battle, use [Oath Recovery Boost] protocore to utilize it twice."
     } 
 }

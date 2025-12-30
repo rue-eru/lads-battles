@@ -9,22 +9,22 @@
     "rankDescriptions": {
         "rafayel": {
             "abysswalker": {
-                "r0": "Starting Effect: The team deals 8% more DMG and takes 8% less DMG. Abysswalker`s [Deepsea Pursuit] gains 30% additional CRIT DMG.",
-                "r1": "Boosts Ardent Oath charge by 20%. When fighting together with Abysswalker, increases DMG taken of enemies inflicted with [Burn] by 20%.",
+                "r0": "Starting Effect: The team deals 8% more DMG and takes 8% less DMG. Abysswalker`s [Deepsea Pursuit] gains 30% additional [CRIT DMG].",
+                "r1": "Boosts [Ardent Oath] charge by 20%. When fighting together with Abysswalker, increases DMG taken of enemies inflicted with [Burn] by 20%.",
                 "r2": "Energy Charge limit is raised by 1. When triggering [Potential] recovery, Energy Charge recovery speed is increased by 50% for 4s.",
                 "r3": "The team deals 8% more DMG. Abysswalker`s [Searing Slash] deals 150% more DMG. When triggering [Beacon], additionally restore 1 [Potential]."
             },
             "god_of_the_tides": {
-                "r0": "Starting Effect: The team deals 8% more DMG and takes 8% less DMG. When fighting near a [Sea Spirit], CRIT DMG is increased by 10%.",
-                "r1": "Increases Ardent Oath charge by 20%. The [Sea Spirit] starts at Lv. 2 and its duration is extended by 5 seconds.",
+                "r0": "Starting Effect: The team deals 8% more DMG and takes 8% less DMG. When fighting near a [Sea Spirit], [CRIT DMG] is increased by 10%.",
+                "r1": "Increases [Ardent Oath] charge by 20%. The [Sea Spirit] starts at Lv. 2 and its duration is extended by 5 seconds.",
                 "r2": "Energy Charge limit is raised by 1. During [Heavenly Rain], Energy Charge recovery speed is increased by 30%.",
                 "r3": "The team deals 8% more DMG. [Surging Tides] restores 30% [Faith] for each enemy hit. This effect can trigger at most 3 times during Surging Tides."
             },
             "lemurian_sea_god": {
                 "r0": "Starting Effect: The team deals 8% more DMG and take 8% less DMG. When your basic attack hits, [Sea God Mark] cooldown is reduced by 0.8s. This effect can trigger once per attack. When [Lightning Tide] hits Weakened enemies, extends the Weakened duration by 0.5s. This effect can trigger up to 2 times per enemy.",
-                "r1": "Increases Ardent Oath charge by 20%. While [Divine Favor] is active, when Rafayel throws his Tidebreaker Trident, it generates an additional vortex that continuously pulls nearby enemies toward its center. While [Divine Favor] is active, lightning will randomly strike the battlefield to assist you in battle, dealing DMG equal to 270+144% ATK+571% DEF with each hit.",
+                "r1": "Increases [Ardent Oath] charge by 20%. While [Divine Favor] is active, when Rafayel throws his Tidebreaker Trident, it generates an additional vortex that continuously pulls nearby enemies toward its center. While [Divine Favor] is active, lightning will randomly strike the battlefield to assist you in battle, dealing DMG equal to 270+144% ATK+571% DEF with each hit.",
                 "r2": "Energy Charge limit is raised by 1. DMG boost from [Sea God Mark] is increased by 50%. While [Divine Favor] is active, you gain 40% DMG Reduction.",
-                "r3": "The team deals 8% more DMG. While [Divine Favor] is active, when your basic attack hits, Active Skill cooldown is reduced by 0.5s. While [Divine Favor] is active, when Charged Attacks empowered by [Sea God Mark] hit, [Lightning Tide] is triggered for 70% DMG. These effects can trigger once per attack."
+                "r3": "The team deals 8% more DMG. While [Divine Favor] is active, when your basic attack hits, [Active Skill] cooldown is reduced by 0.5s. While [Divine Favor] is active, when Charged Attacks empowered by [Sea God Mark] hit, [Lightning Tide] is triggered for 70% DMG. These effects can trigger once per attack."
             }
         }
     }

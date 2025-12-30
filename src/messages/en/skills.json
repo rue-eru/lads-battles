@@ -25,7 +25,7 @@
         "cost": "Cost",
         "skill_NB": {
             "resonance_skill": "Only that skill helps you to  destroy enemy’s shields. On full Stellactrum Match destroys 2 layers of the shield.",
-            "ardent_oath":"Usually you can use it once during a battle, use [Oath Recovery] protocore to utilize it twice."
+            "ardent_oath":"Usually you can use it once during a battle, use [Oath Recovery Boost] protocore to utilize it twice."
         }
     },
     "our_skills": {
@@ -33,19 +33,19 @@
             "artist": {
                 "support_skill": {
                     "name": "Scarlet Shade",
-                    "description": "Rafayel creates a Scarlet Shade dealing AoE DMG and and inflicting Burn. Also leaves 3 [Flame Lilies]. "
+                    "description": "Rafayel creates a Scarlet Shade dealing [AoE] DMG and and inflicting Burn. Also leaves 3 [Flame Lilies]. "
                 },
                 "resonance_skill": {
                     "name": "Scorching",
-                    "description": "You ignite all [Flame Lilies] dealing AoE DMG and inflicting Burn. Each of [Flame Lilies] increases your ATK by 5% for 8s."
+                    "description": "You ignite all [Flame Lilies] dealing [AoE] DMG and inflicting Burn. Each of [Flame Lilies] increases your ATK by 5% for 8s."
                 },
                 "ardent_oath": {
                     "name": "Searing Motif",
-                    "description": "You and Rafayel do a slash, dealing massive AoE DMG based on your combined ATK."
+                    "description": "You and Rafayel do a slash, dealing massive [AoE] DMG based on your combined ATK."
                 },
                 "passive_skill": {
                     "name": "Flowing Flame",
-                    "description": "When you and Rafayel's skills hit enemy, he summons up to 5 [Flame Lilies] dealing AoE DMG. When 10 [Flame Lilies] are utilized, Rafayel's [Basic Attack] DMG and attack range are increased."
+                    "description": "When you and Rafayel's skills hit enemy, he summons up to 5 [Flame Lilies] dealing [AoE] DMG. When 10 [Flame Lilies] are utilized, Rafayel's [Basic Attack] DMG and attack range are increased."
                 }
             },
             "fresh_paint": {
@@ -59,7 +59,7 @@
                 },
                 "ardent_oath": {
                     "name": "Dazzling Kaleidoscope",
-                    "description": "You and Rafayel do a slash, dealing massive AoE DMG based on your combined ATK. "
+                    "description": "You and Rafayel do a slash, dealing massive [AoE] DMG based on your combined ATK. "
                 },
                 "passive_skill": {
                     "name": "Gilded Tinctus",
@@ -69,7 +69,7 @@
             "phantom_of_the_siren": {
                 "support_skill": {
                     "name": "Aria",
-                    "description": "Rafayel thrusts forward, dealing AoE DMG and reducing enemy's movement speed by 30% for 5s. It leaves behind [Reprise], it deals bigger DMG and reduces enemy's movement speed by 50% for 5s."
+                    "description": "Rafayel thrusts forward, dealing [AoE] DMG and reducing enemy's movement speed by 30% for 5s. It leaves behind [Reprise], it deals bigger DMG and reduces enemy's movement speed by 50% for 5s."
                 },
                 "resonance_skill": {
                     "name": "Concerto",
@@ -77,7 +77,7 @@
                 },
                 "ardent_oath": {
                     "name": "Sonata of Reunions",
-                    "description": "You and Rafayel do a slash, dealing massive AoE DMG based on your combined ATK."
+                    "description": "You and Rafayel do a slash, dealing massive [AoE] DMG based on your combined ATK."
                 },
                 "passive_skill": {
                     "name": "Recitativo",
@@ -99,7 +99,7 @@
                 },
                 "passive_skill": {
                     "name": "Abyssal Beacon",
-                    "description": "Periodically Rafayel applies [Beacon] on enemies. Hit it with a charged attack to collect 1 [Potential]."
+                    "description": "Periodically Rafayel applies [Beacon] on enemies. Hit it with Charged Attack to collect 1 [Potential]."
                 },
                 "basic_attack": {
                     "name": "Abyssal Rapid Fire",

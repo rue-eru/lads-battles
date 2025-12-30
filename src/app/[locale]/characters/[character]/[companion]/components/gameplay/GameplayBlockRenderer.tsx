@@ -7,6 +7,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { Lightbox } from "./Lightbox";
 import clsx from 'clsx';
+import { TextRenderer } from "../glossary/TextRenderer";
 
 
 
@@ -34,7 +35,7 @@ export function GameplayBlockRenderer({
                     case 'paragraph':
                         return (
                             <p key={index}>
-                                {t(block.content)}
+                                <TextRenderer>{t(block.content)}</TextRenderer>
                             </p>
                         );
 
@@ -44,7 +45,9 @@ export function GameplayBlockRenderer({
                                 key={index}
                             >
                                 <span>{tGeneral('standard_rotation')}</span>
-                                <span className="font-semibold text-pink-400">{t(block.content)}</span>
+                                <span className="font-semibold text-pink-400">
+                                    <TextRenderer>{t(block.content)}</TextRenderer>
+                                </span>
                             </div>
                         )
 
@@ -166,7 +169,7 @@ export function GameplayBlockRenderer({
                                             key={index}
                                             className="font-bold text-justify pl-2"
                                         >
-                                            {t(li)}
+                                            <TextRenderer>{t(li)}</TextRenderer>
                                         </li>
 
                                     ))}
@@ -182,7 +185,7 @@ export function GameplayBlockRenderer({
                                         key={index}
                                         className="font-bold text-justify pl-2"
                                     >
-                                        {t(li)}
+                                        <TextRenderer>{t(li)}</TextRenderer>
                                     </li>
                                 ))}
                             </ol>
@@ -196,7 +199,7 @@ export function GameplayBlockRenderer({
                                         key={index}
                                         className="pl-2"
                                     >
-                                        {t(li)}
+                                        <TextRenderer>{t(li)}</TextRenderer>
                                     </li>
                                 ))}
                             </ul>

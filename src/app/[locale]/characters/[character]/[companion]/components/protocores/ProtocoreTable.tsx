@@ -7,6 +7,7 @@ import { rankData } from "@/app/utils/loaders/rank-loader";
 import { useTranslations } from "next-intl";
 import ProtocoreTableRow from "./ProtocoreTableRow";
 import { styles } from "@/app/utils/styles";
+import { TextRenderer } from "../glossary/TextRenderer";
 
 
 export default function ProtocoreTable ({character, companion} : CharaDataProps) {
@@ -102,7 +103,9 @@ export default function ProtocoreTable ({character, companion} : CharaDataProps)
                     </table> 
                     <details>
                         <summary className={`${styles.tableRow} cursor-pointer p-2`}>Rank Description</summary>
-                        <p>{tRank(`rankDescriptions.${character}.${companion}.${activeRank}` as any)}</p>
+                        <p>
+                            <TextRenderer>{tRank(`rankDescriptions.${character}.${companion}.${activeRank}` as any)}</TextRenderer>
+                        </p>
                         {/*<p>{(rankData as any)[character]?.[companion]?.[activeRank]?.rank_description}</p>*/}
                         <p>{tRank("NB")}</p>
                     </details>

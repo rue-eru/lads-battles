@@ -4,6 +4,7 @@ import { styles } from "@/app/utils/styles";
 import { useTranslations } from "next-intl";
 import ProtocoreTable from "./ProtocoreTable";
 import ProtocoreTypesTable from "./ProtocoreTypesTable";
+import { TextRenderer } from "../glossary/TextRenderer";
 
 export default function ProtocoreSection ({character, companion}: CharaDataProps) {
     const charaData = charactersData[character as CharacterId];
@@ -28,9 +29,17 @@ export default function ProtocoreSection ({character, companion}: CharaDataProps
             <ul className="w-full list-['—'] list-inside">
                     <li> {t('solarCardsInfo')}</li>
                     <li> {t('lunarCardsInfo')}</li>
-                    <li> {t('critBuildsInfo')}</li>
-                    <li> {t('OathInfo')} *</li>
-                    <li> {t('energyInfo')} *</li>
+                    <li> 
+                        <TextRenderer>{t('critBuildsInfo')}</TextRenderer>
+                    </li>
+                    <li> 
+                        <TextRenderer>{t('OathInfo')}</TextRenderer>
+                        *
+                    </li>
+                    <li> 
+                        <TextRenderer>{t('energyInfo')}</TextRenderer>
+                        *
+                    </li>
             </ul>
             <span>* {t('energyNB')}</span>
 
@@ -42,12 +51,29 @@ export default function ProtocoreSection ({character, companion}: CharaDataProps
                 </>
 
             ) :  (
-                <span>{t('introStandart')}</span>
+                <>
+                    <span>
+                        <TextRenderer>{t('introStandart')}</TextRenderer>
+                    </span>
+                </>
+
+
             )}
 
             <ProtocoreTable character={character} companion={companion}/>
 
-            <span>{t('substatsChoice.basic')}</span>
+            { companionData?.type === "solar" ? (
+                <>
+                    <span>{t(`substatsChoice.solar.intro`)}{t(`substatsChoice.solar.${companion}`)}</span>               
+                </>
+
+            ) :  (
+                <>
+                    <span>{t('substatsChoice.basic')}</span>               
+                </>
+
+
+            )}
 
 
         </div>
