@@ -63,12 +63,28 @@
         "descriptionKey": "Area of Effect: an ability that affects enemies in the radius",
         "labelKey": "AoE"
     },
+    "alfa": {
+        "descriptionKey": "Alfa",
+        "labelKey": "α"
+    },
+    "beta": {
+        "descriptionKey": "Beta",
+        "labelKey": "β"
+    }, 
+    "gamma": {
+        "descriptionKey": "Gamma",
+        "labelKey": "γ"
+    },
+    "delta": {
+        "descriptionKey": "Delta",
+        "labelKey": "δ"
+    },
     "hunter_firearm": {
         "descriptionKey": "A weapon from Standard Hunter Series.",
         "labelKey": "Hunter Firearm"
     },
     "flame_lily": {
-        "descriptionKey": "Artis's special ability. Different Skills summon them, activating provide buffs.",
+        "descriptionKey": "Artis's special ability. Different Skills summon them, activating buffs.",
         "labelKey": "Flame Lily"
     },
     "flame_lilies": {
@@ -152,6 +168,10 @@
     "lightning_tide": {
         "descriptionKey": "Damage explosure after triggering Lightning Crystal in Divine Favor state.",
         "labelKey": "Lightning Tide"
+    },
+    "lightning_crystal": {
+        "descriptionKey": "Lemurian Sea God's special ability. When using Active Skill in Divine Favor a ball will appear, dodge in it to activate.", 
+        "labelKey": "Lightning Crystal"
     },
     "hunters_intention": {
         "descriptionKey": "Hunter Sword's Passive Skill. Provides ATK buff",

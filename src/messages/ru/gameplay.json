@@ -105,11 +105,11 @@
             "images": {
                 "seaspirit": {
                     "alt": "Sea Spirit на поле боя",
-                    "caption": "Морские духи(Sea Spirit) Рафаэля, появляются от Support Skill и [Perfect Dodge]"
+                    "caption": "Морские духи(Sea Spirit) Рафаэля, появляются от Support Skill и Perfect Dodge"
                 },
                 "faith": {
                     "alt": "Faith индикатор",
-                    "caption": "Графа Faith находится HP МС."
+                    "caption": "Графа Faith находится HP под МС."
                 },
                 "rafayel_buffs": {
                     "alt": "Баффы Рафаэля",
@@ -117,11 +117,11 @@
                 },
                 "mc_buffs": {
                     "alt": "Баффы МС",
-                    "caption": "Расположение баффом МС"
+                    "caption": "Расположение баффов МС"
                 },
                 "heavenly_rain" :{
                     "alt": "Heavenly Rain на поле боя",
-                    "caption": "При полном заполнении Faith пойдет дождь, который будет даст бафф"
+                    "caption": "При полном заполнении Faith пойдет дождь, который даст бафф"
                 },
                 "tidal_field": {
                     "alt": "Tidal Field на поле боя",
@@ -136,8 +136,8 @@
             "paragraph_3": "У него два основных состояния: обычное и [Divine Favor], который достигается путем достижения [Ocean's Descent]. Чтобы активировать его,  нужно выполнять обычные атаки и [Active Skill], чтобы заполнить желтую часть графы.  Чтобы заполнить белую часть Рафаэля, достаточно нажимать на его иконку, когда его [Support Skill] готов к использованию, а для того, чтобы использовать его чаще, можно совершать [Perfect Dodge].",
             "paragraph_4": "При полном заполнении графы с обеиз сторо появится кнопка [Ocean's Descent]. При ее нажатии активируется  [Divine Favor] на 11 секунд. В таком состоянии Рафаэль начнет бросать молнии. А МС становится главным источником урона.",
             "paragraph_5": "При использовании в данном состоянии [Sea God Mark] урон значительно возрастает. Дополнительно, [Active Skill]  будет создавать [Lightning Crystal]. Если бежать в него с нажатием клопки уклонения  — он взорвется, нанося большой урон по площади и восстанавливая 0,3 ◆ , а также уменьшая перезарядку [Active Skill] на 3,3 сек! В случае, если [Divine Favor] закончилось, а на поле остался [Lightning Crystal]  — он автоматически взрывается сам.",
-            "paragraph_6": "Usually you are able to make the rotation 3 times during the [Divine Favor], with Ranks it is possОбычно в течение [Divine Favor] полную ротацию можно реализовать 3 раза , с рангами до 4!",
             "paragraph_7": "Полная ротация выглядит так:",
+            "paragraph_6": "Обычно в течение [Divine Favor] полную ротацию можно реализовать 3 раза , с рангами до 4!",
 
             "ul_li_1": "[Resonance Skill] + базовые атаки и [Active Attack]  (не используйте [Sea God Mark] слишком близко к изменению состояния) + [Support Skill] +  [Resonance skill]  ⇨",
             "ul_li_2": "активация [Divine Favor] ⇨ ",
@@ -147,7 +147,7 @@
             "paragraph_8": "Когда остается время между прожатием [Sea God Mark], можно использовать обычные атаки.",
             "images": {
                 "lightning_crystal": {
-                    "alt": "[Lightning Crystal] в [Ocean's Descent]",
+                    "alt": "Lightning Crystal в [Ocean's Descent]",
                     "caption": "Lightning Crystal, который появляется после Active Skill в состоянии Ocean's Descent, прожимаем кнопку уклонения прям в него для детонации и нанесения урона."
                 },
                 "buffs": {

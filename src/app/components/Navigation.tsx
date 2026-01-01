@@ -4,13 +4,12 @@ import Image from "next/image"
 import {Link} from "@/i18n/navigation"
 import LanguageSwitch from "./LanguageSwitch"
 import SearchInput from "./SearchInput"
-import { useState } from "react"
 import { useTranslations } from "next-intl"
+import { styles } from "../utils/styles"
+import NavDropdown from "./NavDropdown"
 export default function Navigation() {
     const tLayout = useTranslations('layout');
     const tCharas = useTranslations('characters');
-
-    const [isCharacterOpen, setIsCharacterOpen] = useState(false);
 
     return (
         <nav className="p-2 flex items-center justify-between bg-lightgray font-inknut font-light ">
@@ -30,46 +29,29 @@ export default function Navigation() {
                 </Link>
 
                 {/*Dropdown logic for character list*/}
-                <div
-                    className="relative"
-                    onMouseEnter={() => setIsCharacterOpen(true)}
-                    onMouseLeave={() => setIsCharacterOpen(false)}
-                >
-                    <Link href="/characters" className="hover:text-pink-400 flex items-center gap-1">
-                        {tLayout("characters")}
-                        <Image
-                            src="/images/icons/dropdown-arrow.png"
-                            alt="dropdown arrow"
-                            width={12}
-                            height={12}
-                            className={`transform transition-transform duration-200 ${isCharacterOpen ? 'rotate-180' : ''}`}
-                        >
-                        </Image>
-                    </Link>
+                <NavDropdown label={<Link href={"/characters"}>{tLayout('characters')}</Link>}>
 
                     {/*Dropdown menu*/}
-                    {isCharacterOpen && (
-                        <div className="absolute w-full top-full left-0 bg-lightgray  rounded-lg shadow-lg py-2 min-w-[150px] z-50 text-center uppercase tracking-widest">
-                            <Link href="/characters/xavier" className="block hover:text-pink-400">
+                        <div className={`${styles.navDowndropLists} block`}>
+                            <Link href="/characters/xavier" className={styles.dropdownBlockLI}>
                                 {tCharas("chNames.xavier")}
                             </Link>
-                            <Link href="/characters/zayne" className="block hover:text-pink-400">
+                            <Link href="/characters/zayne" className={styles.dropdownBlockLI}>
                                 {tCharas("chNames.zayne")}
                             </Link>
-                            <Link href="/characters/rafayel" className="block hover:text-pink-400">
+                            <Link href="/characters/rafayel" className={styles.dropdownBlockLI}>
                                 {tCharas("chNames.rafayel")}
                             </Link>
-                            <Link href="/characters/sylus" className="block hover:text-pink-400">
+                            <Link href="/characters/sylus" className={styles.dropdownBlockLI}>
                                 {tCharas("chNames.sylus")}
                             </Link>
-                            <Link href="/characters/caleb" className="block hover:text-pink-400">
+                            <Link href="/characters/caleb" className={styles.dropdownBlockLI}>
                                 {tCharas("chNames.caleb")}
                             </Link>                                                        
                         </div>
-                    )}
-                </div>
+                </NavDropdown>
 
-                <LanguageSwitch /> {/*havent created it yet its a placeholder*/}
+                <LanguageSwitch />
             </div>
 
             <SearchInput/>

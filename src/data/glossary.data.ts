@@ -62,6 +62,61 @@ export const GLOSSARY: Record<string, GlossaryTermProps> = {
         description: 'ardent_oath.descriptionKey',
         link: '#ardentOath' 
     },
+    "α": {
+        key: "α",
+        label: 'alfa.labelKey',
+        description: 'alfa.descriptionKey',
+    },
+    "β": {
+        key: "β",
+        label: 'beta.labelKey',
+        description: 'beta.descriptionKey',
+    },
+    "γ": {
+        key: "γ",
+        label: 'gamma.labelKey',
+        description: 'gamma.descriptionKey',
+    },
+    "δ": {
+        key: "δ",
+        label: 'delta.labelKey',
+        description: 'delta.descriptionKey',
+    },
+    "HP": {
+        key: "HP",
+        label: 'hp.labelKey',
+        description: 'hp.descriptionKey',
+    },
+    "HP Bonus": {
+        key: "HP Bonus",
+        label: 'hp_bonus.labelKey',
+        description: 'hp_bonus.descriptionKey',
+    },
+    "ATK": {
+        key: "ATK",
+        label: 'atk.labelKey',
+        description: 'atk.descriptionKey',
+    },
+    "ATK Bonus": {
+        key: "ATK Bonus",
+        label: 'atk_bonus.labelKey',
+        description: 'atk_bonus.descriptionKey',
+    },
+    "DEF": {
+        key: "DEF",
+        label: 'def.labelKey',
+        description: 'def.descriptionKey',
+    },
+    "DEF Bonus": {
+        key: "DEF Bonus",
+        label: 'def_bonus.labelKey',
+        description: 'def_bonus.descriptionKey',
+    },
+    "Oath’s Strength": {
+        key: "Oath’s Strength",
+        label: 'oath_strength.labelKey',
+        description: 'doath_strengthef_bonus.descriptionKey',
+    },
     "MC": {
         key: "MC",
         label: 'mc.labelKey',
@@ -183,6 +238,11 @@ export const GLOSSARY: Record<string, GlossaryTermProps> = {
         key: "Lightning Tide",
         label: 'lightning_tide.labelKey',
         description: 'lightning_tide.descriptionKey',  
+    },
+    "Lightning Crystal": {
+        key: "Lightning Crystal",
+        label: 'lightning_crystal.labelKey',
+        description: 'lightning_crystal.descriptionKey', 
     },
     "Hunter's Intention": {
         key: "Hunter's Intention",
