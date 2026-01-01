@@ -4,10 +4,19 @@ import { useTranslations } from "next-intl";
 import { getStellactrumColor } from "../../../../../../utils/game/stellactrum-utils";
 import Image from "next/image";
 import { styles } from "@/app/utils/styles";
+import { TextRenderer } from "../glossary/TextRenderer";
 
-export default function ProtocoreTypesTable({stellactrum }: ProtocoreTypesTableProps) {
+export default function ProtocoreTypesTable({stellactrum, betaData, deltaData }: ProtocoreTypesTableProps) {
     const t = useTranslations('protocores');
     const displayColor = getStellactrumColor(stellactrum);
+
+    betaData = [
+        'hp_bonus', 'atk_bonus' , 'def_bonus' , 'expedited_energy_boost' , 'oath_recovery_boost' , 'oath_strength'
+    ];
+
+    deltaData = [
+        'hp_bonus' , 'atk_bonus' , 'def_bonus' , 'crit_rate' , 'crit_dmg' , 'dmg_boost_to_weakened'
+    ];
 
     return(
         <div className="grid grid-cols-1 lg:grid-cols-2 min-w-full">
@@ -41,7 +50,9 @@ export default function ProtocoreTypesTable({stellactrum }: ProtocoreTypesTableP
                                 />
                                 <span>α</span>
                             </div>
-                            <div>{t('protocoreStats.hp')}</div>
+                            <div>
+                                <TextRenderer>{t('protocoreStats.hp')}</TextRenderer>
+                            </div>
                         </div>
                     </div>
 
@@ -59,12 +70,15 @@ export default function ProtocoreTypesTable({stellactrum }: ProtocoreTypesTableP
                                 <span>β</span>
                             </div>
                             <ul className={styles.ulStatsStyle}>
-                                <li>{t('protocoreStats.hp_bonus')}</li>
-                                <li>{t('protocoreStats.atk_bonus')}</li>
-                                <li>{t('protocoreStats.def_bonus')}</li>
-                                <li>{t('protocoreStats.expedited_energy_boost')}</li>
-                                <li>{t('protocoreStats.oath_recovery_boost')}</li>
-                                <li>{t('protocoreStats.oath_strength')}</li>
+                                {betaData?.map((stat, index) => (
+                                    <li
+                                        key={index}
+                                    >
+                                        <TextRenderer>
+                                            {t(`protocoreStats.${stat}`)}
+                                        </TextRenderer>
+                                    </li>
+                                ))}
                             </ul>
                         </div>
                     </div>
@@ -101,7 +115,9 @@ export default function ProtocoreTypesTable({stellactrum }: ProtocoreTypesTableP
                                 />
                                 <span>γ</span>
                             </div>
-                            <div>{t('protocoreStats.atk')}</div>
+                            <div>
+                                <TextRenderer>{t('protocoreStats.atk')}</TextRenderer>
+                            </div>
                         </div>
                     </div>
                     {/*            <div className={styles.rowHover}>
@@ -122,12 +138,15 @@ export default function ProtocoreTypesTable({stellactrum }: ProtocoreTypesTableP
                                 <span>δ</span>
                             </div>
                             <ul className={styles.ulStatsStyle}>
-                                <li>{t('protocoreStats.hp_bonus')}</li>
-                                <li>{t('protocoreStats.atk_bonus')}</li>
-                                <li>{t('protocoreStats.def_bonus')}</li>
-                                <li>{t('protocoreStats.crit_rate')}</li>
-                                <li>{t('protocoreStats.crit_dmg')}</li>
-                                <li>{t('protocoreStats.dmg_boost_to_weakened')}</li>
+                                {deltaData?.map((stat, index) => (
+                                    <li
+                                        key={index}
+                                    >
+                                        <TextRenderer>
+                                            {t(`protocoreStats.${stat}`)}
+                                        </TextRenderer>
+                                    </li>
+                                ))}
                             </ul>
                         </div>
                     </div>

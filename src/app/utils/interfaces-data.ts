@@ -32,6 +32,8 @@ export interface RankProtocoreData {
 
 export interface ProtocoreTypesTableProps {
     stellactrum?: string;
+    betaData?: string[];
+    deltaData?: string[];
 }
 
 export interface StatListProps {
@@ -96,6 +98,11 @@ export interface GlossaryTermProps {
 
 export interface TextRendererProps {
     children: string;
+    className?: string;
+}
+
+export interface GlossaryTextProps {
+    text: string;
     className?: string;
 }
 

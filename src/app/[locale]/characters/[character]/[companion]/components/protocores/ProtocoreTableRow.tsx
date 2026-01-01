@@ -6,6 +6,7 @@ import { ProtocoreTableRowProps } from "@/app/utils/interfaces-data";
 import { useTranslations } from "next-intl";
 import { getStellactrumColor } from "@/app/utils/game/stellactrum-utils";
 import StatList from "./StatList";
+import { TextRenderer } from "../glossary/TextRenderer";
 
 export default function ProtocoreTableRow ({
     protocoreType,
@@ -20,7 +21,7 @@ export default function ProtocoreTableRow ({
         if (Array.isArray(protocoreStat)) {
             return <StatList stats={protocoreStat}/>
         } else {
-            return t(protocoreStat as any) || protocoreStat
+            return <TextRenderer>{t(protocoreStat as any)}</TextRenderer>
         }
     }
 

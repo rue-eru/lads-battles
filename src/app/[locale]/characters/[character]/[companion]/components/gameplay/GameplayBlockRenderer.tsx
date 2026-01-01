@@ -169,7 +169,7 @@ export function GameplayBlockRenderer({
                                             key={index}
                                             className="font-bold text-justify pl-2"
                                         >
-                                            <TextRenderer>{t(li)}</TextRenderer>
+                                            <TextRenderer key={index}>{t(li)}</TextRenderer>
                                         </li>
 
                                     ))}
