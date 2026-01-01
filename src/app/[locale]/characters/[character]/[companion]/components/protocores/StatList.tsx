@@ -1,5 +1,6 @@
 import { StatListProps } from "@/app/utils/interfaces-data";
 import { useTranslations } from "next-intl";
+import { TextRenderer } from "../glossary/TextRenderer";
 
 export default function StatList ({stats, separator = ", "}: StatListProps) {
     const t = useTranslations('protocores.protocoreStats');
@@ -12,7 +13,7 @@ export default function StatList ({stats, separator = ", "}: StatListProps) {
         <span>
             {stats?.map((statKey, index) => (
                 <span key={statKey}>
-                    {t(statKey as any)}
+                    <TextRenderer>{t(statKey as any)}</TextRenderer>
                     {index < stats.length - 1 ? separator : ''}
 
                 </span>

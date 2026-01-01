@@ -115,7 +115,7 @@ export const GLOSSARY: Record<string, GlossaryTermProps> = {
     "Oath’s Strength": {
         key: "Oath’s Strength",
         label: 'oath_strength.labelKey',
-        description: 'doath_strengthef_bonus.descriptionKey',
+        description: 'oath_strength.descriptionKey',
     },
     "MC": {
         key: "MC",

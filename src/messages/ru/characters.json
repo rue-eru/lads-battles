@@ -63,8 +63,8 @@
   },
   "scaling": {
     "atk": "ATK",
-    "hp": "HP (Очки Здоровья)",
-    "def": "DEF (Защита)"
+    "hp": "HP",
+    "def": "DEF"
   },
   "unlock": {
     "obtain_one_memory": "Получите одно воспоминание",

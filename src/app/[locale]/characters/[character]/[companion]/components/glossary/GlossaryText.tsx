@@ -27,16 +27,22 @@ export function GlossaryText ({ text }: { text: string}) {
 
                 if (!term) return termKey;
 
+                const label = tGlossay(term.label) || term.label
+
+                const description = term.description
+                    ? tGlossay(term.description) || term.description
+                    : undefined;
+
                 const content = (
                     <span className="hover:bg-pink-400 text-yellow-100 underline decoration-dotted decoration-pink-400 cursor-help">
-                        {tGlossay(term.label)}
+                        {label}
                     </span>
                 );
 
                 return term.description ? (
                     <Tippy 
                         key={index} 
-                        content={tGlossay(term.description)} 
+                        content={description} 
                         theme="translucent"
                         animation="perspective-subtle"
                     > 
@@ -47,10 +53,10 @@ export function GlossaryText ({ text }: { text: string}) {
                     </Tippy>
                 ) : term.link ? (
                     <a key={index} href={term.link} className="underline">
-                        {tGlossay(term.label)}
+                        {label}
                     </a>
                 ) : (
-                    term.label
+                    label
                 )
             })}
         

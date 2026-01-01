@@ -32,7 +32,7 @@ export default function Navigation() {
                 <NavDropdown label={<Link href={"/characters"}>{tLayout('characters')}</Link>}>
 
                     {/*Dropdown menu*/}
-                        <div className={`${styles.navDowndropLists} block`}>
+                        <div className={styles.navDowndropLists}>
                             <Link href="/characters/xavier" className={styles.dropdownBlockLI}>
                                 {tCharas("chNames.xavier")}
                             </Link>
