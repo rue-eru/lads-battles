@@ -8,6 +8,8 @@ export const styles = {
     contentlayout: `flex flex-col gap-[32px] row-start-2 items-center sm:items-start mt-20 w-full text-justify`,
     tableRow: `hover:bg-pink-400 font-inknut`,
     charaIconStyle: ` hover:border-pink-400 hover:border-3 rounded-full`,
+    navDowndropLists: `absolute w-full top-full bg-lightgray rounded-lg shadow-lg z-50 text-center tracking-widest py-4 px-1`,
+    dropdownBlockLI: `block hover:text-pink-400 uppercase text-nowrap`,
 
     //styles for ProtocororeTypeTable
     thDiv: `flex justify-center items-center`,

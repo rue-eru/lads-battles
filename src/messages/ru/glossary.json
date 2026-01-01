@@ -1,3 +1,212 @@
 {
-    
+    "basic_attack": {
+        "descriptionKey": "Обычная атака МС. Может варьироваться от выбранного оружия.",
+        "labelKey": "Basic Attack"
+    },
+    "active_skill": {
+        "descriptionKey": "Активный Навык МС. Может варьироваться от выбранного оружия.",
+        "labelKey": "Active Skill"
+    },
+    "passive_skill": {
+        "descriptionKey": "Пассивный навок. Имеется и у него, и у МС.",
+        "labelKey": "Passive Skill"
+    },
+    "support_skill": {
+        "descriptionKey": "Его Навык Поддержки. Нажмите, чтобы ознакомиться с Support Skill для этого персонажа.",
+        "labelKey": "Support Skill"
+    },
+    "resonance_skill": {
+        "descriptionKey": "Резонирующий Навык, выполняется им и МС. Нажмите, чтобы ознакомиться с особенностями Resonance Skill для этого персонажа",
+        "labelKey": "Resonance Skill"
+    },
+    "ardent_oath": {
+        "descriptionKey": "Ультимативная способность персонажа. Нажмите, чтобы ознакомиться с Ardent Oath для этого персонажа.",
+        "labelKey": "Ardent Oath"
+    },
+    "perfect_dodge": {
+        "descriptionKey": "Идеальное Уклонение. Для активации необходимо уклониться от удара врага прямо в момент его нанесения. Активирует Support Skill, даже если время отката незакончилось.",
+        "labelKey": "Perfect Dodge"
+    },
+    "alfa": {
+        "descriptionKey": "Альфа",
+        "labelKey": "α"
+    },
+    "beta": {
+        "descriptionKey": "Бета",
+        "labelKey": "β"
+    }, 
+    "gamma": {
+        "descriptionKey": "Гамма",
+        "labelKey": "γ"
+    },
+    "delta": {
+        "descriptionKey": "Дельта",
+        "labelKey": "δ"
+    },
+    "hp": {
+        "descriptionKey": "Health Points, т.е. Очки Здоровья.",
+        "labelKey": "HP"
+    },
+    "hp_bonus": {
+        "descriptionKey": "Бонус Здоровья, увеличивает HP на указанный процент",
+        "labelKey": "HP Bonus"
+    },
+    "atk": {
+        "descriptionKey": "Атака, сокращение от англ. Attack.",
+        "labelKey": "ATK"
+    },
+    "atk_bonus": {
+        "descriptionKey": "Бонус Атаки, увеличивает ATK на указанный процент",
+        "labelKey": "ATK Bonus"
+    },
+    "def": {
+        "descriptionKey": "Защита, сокращение от англ. Defence.",
+        "labelKey": "DEF"
+    },
+    "def_bonus": {
+        "descriptionKey": "Бонус Защиты, увеличивает DEF на указанный процент",
+        "labelKey": "DEF Bonus"
+    },
+    "oath_recovery": {
+        "descriptionKey": "Протокор β, увеличающий скорость востановления Oath(Ульты). Может увеличить использование Oath за раунд с 1 до 2 раз.",
+        "labelKey": "Oath Recovery Boost"
+    },
+    "oath_strength": {
+        "descriptionKey": "Протокор β, увеличающий урон от Oath (Ульты).",
+        "labelKey": "Oath's Strength"
+    },
+    "expedited_energy": {
+        "descriptionKey": "Протокор β, увеличающий скорость востановления особой энергии — ◆. Чем быстрее она будет востанавливаться, тем чаще можно будет использовать повторно Resonance Skill и Active Skill.",
+        "labelKey": "Expedited Energy Boost"
+    },
+    "dmg_to_weakened": {
+        "descriptionKey": "Протокор δ, увеличивающий урон, получаемый по ослабленным врагам (со снятыми щитами).",
+        "labelKey": "DMG Boost to Weakened"
+    },
+    "crit_dmg": {
+        "descriptionKey": "Протокор δ увеличивающий  CRIT DMG (Критический Урон). Указывает на возможное увеличение урона от CRIT DMG в процентах. Оно возможно, в случае, если у вас достаточно CRIT Rate(Критического Шанса).",
+        "labelKey": "CRIT DMG"
+    },
+    "crit_rate": {
+        "descriptionKey": "Протокор δ увеличивающий CRIT Rate (Критический Шанс). Указывет вероятность увеличения CRIT DMG(Критического Урона) в процентах. То есть, 50% означает, что в 1 из 2 случаев возможно получить увеличение урона на показатель вашего CRIT DMG.",
+        "labelKey": "CRIT Rate"
+    },
+    "stellactrum_match": {
+        "descriptionKey": "У каждой карты есть свой цвет, также как на каждой арене есть рекомендации по цветам. Когда цвета карт совпадают цветам арены, Resonance Skill будет снимать 2 слоя щита у врагов, вместо 1.",
+        "labelKey": "Stellactrum Match"
+    },
+    "mc": {
+        "descriptionKey": "от англ. Main Character, Главная Героиня.",
+        "labelKey": "MC"
+    },
+    "dot": {
+        "descriptionKey": "от англ. Damage over Time, урон наносящийся постепенно на протяжении времени",
+        "labelKey": "DoT"
+    },
+    "aoe": {
+        "descriptionKey": "от англ Area of Effect, урон по площади",
+        "labelKey": "AoE"
+    },
+    "hunter_firearm": {
+        "descriptionKey": "Оружие из стандартной серии",
+        "labelKey": "Hunter Firearm"
+    },
+    "flame_lily": {
+        "descriptionKey": "Особая способность компаньона Artis. Навыки призывают Flame Lily, активациия раздаёт баффы.",
+        "labelKey": "Flame Lily"
+    },
+    "flame_lilies": {
+        "labelKey": "Flame Lilies"
+    },
+    "scarlet_shade": {
+        "descriptionKey": "Особая способность компаньона Artis. Создаёт Flame Lily",
+        "labelKey": "Scarlet Shade"
+    },
+    "tinctus": {
+        "descriptionKey": "Особая способность компаньона Fresh Paint. Для получения баффа, нанесите на врогов Tinctus.",
+        "labelKey": "Tinctus"
+    },
+    "reprise": {
+        "descriptionKey": "Особая способность компаньона Phantom Of The Siren. Создаётся через Support Skill.",
+        "labelKey": "Reprise"
+    },
+    "echo": {
+        "descriptionKey": "Особая способность компаньона Phantom Of The Siren. Относится к Passive Skill.",
+        "labelKey": "Echo"
+    },
+    "aria": {
+        "descriptionKey": "Support Skill компаньона Phantom Of The Siren. Нажмите, чтобы ознакомиться.",
+        "labelKey": "Aria"
+    }, 
+    "fishtail_beacon": {
+        "descriptionKey": "Особая способность компаньона Abysswalker. Относится к Support Skill. Восстанавливает 2 Potential",
+        "labelKey": "Fishtail Beacon"
+    },
+    "potential": {
+        "descriptionKey": "Особая способность компаньона Abysswalker. Имеет графу под HP МС, из шести делений. 1 Potential заполняет 1 деление.",
+        "labelKey": "Potential"
+    },
+    "beacon": {
+        "descriptionKey": "Особая способность компаньона Abysswalker. Относится к Passive Skill. Восстанавливает 1 Potential",
+        "labelKey": "Beacon"
+    },
+    "deepsea_pursuit": {
+        "descriptionKey": "Бафф CRIT Rate при полном заполнении графы Potential.",
+        "labelKey": "Deepsea Pursuit"
+    },
+    "searing_slash": {
+        "descriptionKey": "Особая атака Рафаэля, активируется при полном заполнении графы Potential.",
+        "labelKey": "Searing Slash"
+    },
+    "sea_spirit": {
+        "descriptionKey": "Особая способность компаньона God Of The Tides. Его Passive Skill и МС создаёт один Sea Spirit. Имеет 3 уровня.",
+        "labelKey": "Sea Spirit"
+    },
+    "sea_spirits": {
+        "labelKey": "Sea Spirits"
+    },
+    "heavenly_rain": {
+        "descriptionKey": "Особая способность компаньона God Of The Tides. Активируется при заполнении графы Faith на полную, раздаёт баффы.",
+        "labelKey": "Heavenly Rain"
+    },
+    "faith": {
+        "descriptionKey": "Особая способность компаньона God Of The Tides. Расположена под HP МС. Удары от него, МС и Sea Spirit заполняют её.",
+        "labelKey": "Faith" 
+    },
+    "tidal_field": {
+        "descriptionKey": "Особая способность компаньона God Of The Tides'. Активируется через Active Skill, при нахождении внутри круга — раздаёт баффы.",
+        "labelKey": "Tidal Field"
+    },
+    "surging_tides": {
+        "descriptionKey": "Resonance Skill компаньона God Of The Tides. Нажмите, чтобы ознакомиться.",
+        "labelKey": "Surging Tides"
+    },
+    "sea_god_mark": {
+        "descriptionKey": "Особая способность компаньона Lemurian Sea God. Восстанавлиевается в течении короткого периода. Заряжанная атака поглащает ее, увеличивая урон, особенно полезно в состоянии Divine Favor.",
+        "labelKey": "Sea God Mark"
+    },
+    "ocean_descent": {
+        "descriptionKey": "Особая способность компаньона Lemurian Sea God. Ее графа расположенна под HP МС. Атаки МС заполняют левую часть, а Passive Skill Рафаэля — левую.",
+        "labelKey": "Ocean's Descent"
+    },
+    "divine_favor": {
+        "descriptionKey": "Особое состояние компаньона Lemurian Sea God. Можно активировать, когда при полном заполнении Ocean's Descent, появится дополнительная кнопка на экране. В этом состоянии поглщание Sea God Mark наносит больше урона, при Active Skill на поле появится Lightning Crystal, прожатие улонения прям в него нанесет урон по периметру — Lightning Tide.",
+        "labelKey": "Divine Favor"
+    },
+    "lightning_tide": {
+        "descriptionKey": "Урон, наносящийся по периметру, при активации Lightning Crystal в состоянии Divine Favor.",
+        "labelKey": "Lightning Tide"
+    },
+    "lightning_crystal": {
+        "descriptionKey": "Особая способность компаньона Lemurian Sea God. Использование Active Skill в состоянии Divine Favor создаст электрический шар, для его активации необходимо уклониться в него.", 
+        "labelKey": "Lightning Crystal"
+    },
+    "hunters_intention": {
+        "descriptionKey": "Passive Skill оружия Hunter Sword . Даёт ATK бафф",
+        "labelKey": "Hunter's Intention"
+    },
+    "gathering_stacks": {
+        "descriptionKey": "Особая способнасть оружия Hunter Claymore. При 3 очках значительно увеличивает урон от Active Skill, дополнительно позволяя пропустить этап заряда способности.",
+        "labelKey": "Gathering Stacks"
+    }
 }

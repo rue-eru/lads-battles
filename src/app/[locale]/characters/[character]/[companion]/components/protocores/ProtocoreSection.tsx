@@ -26,17 +26,21 @@ export default function ProtocoreSection ({character, companion}: CharaDataProps
 
 
             {/* basic info that is true for all companions that's why it is static*/}
-            <ul className="w-full list-['—'] list-inside">
-                    <li> {t('solarCardsInfo')}</li>
-                    <li> {t('lunarCardsInfo')}</li>
-                    <li> 
+            <ul className="w-full list-['∘'] list-outside">
+                    <li className="pl-2">
+                        <TextRenderer>{t('solarCardsInfo')}</TextRenderer>
+                    </li>
+                    <li className="pl-2">
+                        <TextRenderer>{t('lunarCardsInfo')}</TextRenderer>
+                    </li>
+                    <li className="pl-2"> 
                         <TextRenderer>{t('critBuildsInfo')}</TextRenderer>
                     </li>
-                    <li> 
+                    <li className="pl-2"> 
                         <TextRenderer>{t('OathInfo')}</TextRenderer>
                         *
                     </li>
-                    <li> 
+                    <li className="pl-2"> 
                         <TextRenderer>{t('energyInfo')}</TextRenderer>
                         *
                     </li>

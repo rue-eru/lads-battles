@@ -17,14 +17,14 @@
         "basic_attack": "Basic Attack",
         "active_skill": "Active Skill",
         "passive_skill":"Passive Skill",
-        "not_limited_companion_warning": "Стандартным компаньонам не доступно эксклюзивное оружие. Можно использовать только стандартную серию [Standard Weapons]."
+        "not_limited_companion_warning": "Стандартным компаньонам не доступно эксклюзивное оружие. Можно использовать только стандартную серию Standard Weapons."
     },
     "general": {
         "cooldown": "Откат",
         "seconds": "сек",
         "cost": "Стоимость",
         "skill_NB": {
-            "resonance_skill": "Только этот навык может сбить щиты врагов. При полном совпадении Stellactrum уничтожает 2 слоя щита.",
+            "resonance_skill": "Только этот навык может сбить щиты врагов. При полном совпадении [Stellactrum Match] уничтожает 2 слоя щита.",
             "ardent_oath":"Обычно за бой можно воспользоваться один раз, используйте протокор [Oath Recovery Boost], чтобы воспользоваться дважды."
         }
     },

@@ -1,3 +1,5 @@
+import type { ReactNode } from "react";
+import type React from "react";
 
 export interface CharaDataProps{
     character: string,
@@ -95,4 +97,9 @@ export interface GlossaryTermProps {
 export interface TextRendererProps {
     children: string;
     className?: string;
+}
+
+export interface NavDropdownProps {
+    label: ReactNode;
+    children: ReactNode;
 }
