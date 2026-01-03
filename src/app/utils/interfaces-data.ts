@@ -61,11 +61,6 @@ export interface SkillCardProps {
     id?: string;
 }
 
-export interface SkillTermProps { 
-    term: string;
-    onClick?: (term: string) => void;
-}
-
 export interface WeaponCardProps {
     weaponId: string;
     weaponData: any;
@@ -108,5 +103,10 @@ export interface GlossaryTextProps {
 
 export interface NavDropdownProps {
     label: ReactNode;
+    children: ReactNode;
+}
+
+export interface GuideStateProviderProps {
+    hasGuide: boolean;
     children: ReactNode;
 }

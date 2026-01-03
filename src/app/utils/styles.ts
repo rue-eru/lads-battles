@@ -1,5 +1,6 @@
 export const styles = {
     h1: `font-inknut text-xl`,
+    headerEN: `text-[16px]`,
     sectionH1: `font-inknut text-xl uppercase`,
 
 
@@ -37,6 +38,11 @@ export const styles = {
     figcaptionStyle: `text-sm text-right text-gray-400 italic text-wrap justify-end`,
     img_bg: ` bg-gray-700 lg:p-2 sm:p-1 rounded-sm`,
     imgHeightSoloOrSoloCapture: `w-full sm:h-60 md:h-80 lg:h-100 relative`,
+
+    //floatingbtns
+    floatBtnStyle: `flex gap-2 items-center hover:text-pink-400 
+                    sm:bg-darkgray sm:rounded-full sm:h-8 sm:w-8 sm:px-3 sm:border inset-0 z-50
+                    lg:border-none`
 
 
 

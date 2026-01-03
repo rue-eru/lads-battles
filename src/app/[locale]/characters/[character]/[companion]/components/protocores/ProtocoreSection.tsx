@@ -15,7 +15,7 @@ export default function ProtocoreSection ({character, companion}: CharaDataProps
 
     return (
         <div className={styles.contentlayout} id="protocoreSection">
-            <h1 className={styles.sectionH1}>{t('header')}</h1>
+            <h1 className={styles.sectionH1}>{t('header')}<span className={styles.headerEN}>{t('headerEN')}</span></h1>
             <hr className={styles.divider}></hr>
 
             {/*protocore names and visual representation*/}
