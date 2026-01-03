@@ -9,7 +9,7 @@ export default function SkillWeaponSection ({character, companion}: CharaDataPro
     const t = useTranslations('skills');
 
     return (
-        <div className={styles.contentlayout}>
+        <div className={styles.contentlayout} id="skillWeaponSection">
             <h1 className={styles.sectionH1}>{t('header')}</h1>
             <hr className={styles.divider}></hr>
             <HisSkillsTable character={character} companion={companion} /> 

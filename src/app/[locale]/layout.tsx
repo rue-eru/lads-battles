@@ -7,6 +7,7 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
+import SideBtns from '../components/SideBtns';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -60,6 +61,7 @@ export default async function RootLayout({
       >{/* flex flex-col min-h-screen - helps footer to stay at the bottom x1*/}
         <NextIntlClientProvider>
           <Navigation />
+          <SideBtns />
           <main className="grow" >{children}</main>
           {/*flex-grow - helps footer to stay at the bottom x2*/}
           <Footer />

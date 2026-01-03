@@ -23,7 +23,7 @@ export default function Navigation() {
                 />
             </Link>
 
-            <div className="flex items-center gap-10 uppercase tracking-[0.5rem] ">
+            <div className="flex items-center gap-10 uppercase sm:tracking-[0.5rem]  ">
                 <Link href="/" className="hover:text-pink-400">
                     {tLayout("home-btn")}
                 </Link>

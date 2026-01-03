@@ -18,13 +18,13 @@ export default function StandardWeapons () {
 
 
     return (
-        <div className="py-12">
+        <div className="py-12 -mb-28">
             <h2 className={styles.h1}>{tWeapons('standard_weapons.header')}</h2>
 
             <div>
 
                 {/*represents an array of weapon images that can be expanded on toggle*/}
-                <div className="flex justify-between py-6">
+                <div className="flex justify-between py-6 gap-2">
                 {Object.entries(standardWeaponsData).map(([weaponId, weaponData]) => (
                     <button
                         key={weaponId}
@@ -47,15 +47,24 @@ export default function StandardWeapons () {
                                 }    
                                 `}
                             />
-                            <div className="h-6"></div>
-                            <span
-                                className={
-                                    expandedWeapon === weaponId
-                                    ? 'text-pink-400'
-                                    : ''
-                                }
-                            >{tWeapons(weaponData.name_key)}</span>
+
+                            <div className=" flex justify-center mt-4">
+
+                                <div className="relative flex justify-center w-5">
+                                    <p
+                                        className={
+                                            expandedWeapon === weaponId
+                                            ? 'text-pink-400'
+                                            : ''
+                                        }
+                                    >{tWeapons(weaponData.name_key)}
+                                    </p>
+                                </div>
+
+                            </div>
                         </div>
+
+
                     </button>
                 ))}
                 </div>

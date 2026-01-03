@@ -8,8 +8,9 @@ export const styles = {
     contentlayout: `flex flex-col gap-[32px] row-start-2 items-center sm:items-start mt-20 w-full text-justify`,
     tableRow: `hover:bg-pink-400 font-inknut`,
     charaIconStyle: ` hover:border-pink-400 hover:border-3 rounded-full`,
-    navDowndropLists: `absolute w-full top-full bg-lightgray rounded-lg shadow-lg z-50 text-center tracking-widest py-4 px-1`,
+    navDowndropLists: `absolute w-full top-full bg-lightgray rounded-lg shadow-lg z-50 text-center tracking-widest py-4`,
     dropdownBlockLI: `block hover:text-pink-400 uppercase text-nowrap`,
+
 
     //styles for ProtocororeTypeTable
     thDiv: `flex justify-center items-center`,
@@ -20,8 +21,9 @@ export const styles = {
     multipleStatProt: `flex-1 w-full inline-flex gap-10 items-center`,
     multipleStatStyle: `flex items-center gap-2 mb-2`,
     rowHover: `block hover:bg-pink-400`,
-    colStyle: `space-y-6 flex-1 font-inknut`,
-    ulStatsStyle: `space-y-1 list-none pl-0`,
+    colStyle: `space-y-6 flex-1 font-inknut my-8`,
+    ulStatsStyle: `space-y-1 list-none pl-0  overflow-hidden `,
+    statHoverStyle: `hover:underline hover:dotted-yellow-100 text-left`,
 
     //skills
     h1Skills: `font-inknut text-xl mb-6`,
