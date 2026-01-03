@@ -25,6 +25,8 @@ export default async function CompanionPage ( {params} : {
     const companionData = characterData.companions.find(comp => comp.id === companion);
     const guide = getGameplayGuide(character as any, companion);
 
+    const hasGuide = Boolean(guide?.type);
+
     if (!companionData) {
       return null
     }
@@ -33,19 +35,19 @@ export default async function CompanionPage ( {params} : {
         <div className={styles.pagelayout}>
             <div className={styles.contentlayout}>
                 {/* AS ANY FOR CHARACTERS FOR TS TYPES*/}
-                <h1 className={styles.h1}>{tCharas(character as any)}: {tCompanions(companionData.nameKey as any)}</h1> 
+                <h1 className={styles.h1}><span className='text-[25px]'>{tCharas(character as any)}</span>: {tCompanions(companionData.nameKey as any)}</h1> 
                 <Banner character={character as any} companion={companion} />
 
-                {guide?.type ? (
-                  <>
-                    <CompanionInfoTable character={character as any} companion={companion}/>
-                    <ProtocoreSection character={character as any} companion={companion}/>
-                    <SkillWeaponSection character={character as any} companion={companion} />
-                    <GameplaySection character={character as any} companion={companion} />
-                  </>
-                ) : (
-                  <NoGuideAvailable character={character as any} companion={companion} />
-                )}
+                  {hasGuide ? (
+                    <>
+                      <CompanionInfoTable character={character as any} companion={companion}/>
+                      <ProtocoreSection character={character as any} companion={companion}/>
+                      <SkillWeaponSection character={character as any} companion={companion} />
+                      <GameplaySection character={character as any} companion={companion} />
+                    </>
+                  ) : (
+                    <NoGuideAvailable character={character as any} companion={companion} />
+                  )}
 
             </div>
         </div>

@@ -10,7 +10,7 @@ export default function SkillWeaponSection ({character, companion}: CharaDataPro
 
     return (
         <div className={styles.contentlayout} id="skillWeaponSection">
-            <h1 className={styles.sectionH1}>{t('header')}</h1>
+            <h1 className={styles.sectionH1}>{t('header')}<span className={styles.headerEN}>{t('headerEN')}</span></h1>
             <hr className={styles.divider}></hr>
             <HisSkillsTable character={character} companion={companion} /> 
             <MySkillsTable character={character} companion={companion} />

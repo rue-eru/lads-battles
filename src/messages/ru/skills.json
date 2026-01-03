@@ -1,5 +1,6 @@
 {
-    "header": "skills and weapons | Навыки и Оружие",
+    "header": "Навыки и Оружие",
+    "headerEN": " | skills and weapons",
     "hisSection": {
         "header": "Его навыки",
         "no-data": "Для данного компаньона не обнаружено информации о навыках",

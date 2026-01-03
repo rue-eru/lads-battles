@@ -7,7 +7,7 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import SideBtns from '../components/SideBtns';
+import SideNav from '../components/side-nav/SideNav';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,6 +27,7 @@ const InknutAntiqua = Inknut_Antiqua({
   display: 'swap'
 });
 
+//fix l10n
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations('layout');
   return {
@@ -51,6 +52,7 @@ export default async function RootLayout({
   // Enable static rendering
   setRequestLocale(locale);
 
+
   return (
     <html lang={locale}>
       <body 
@@ -61,7 +63,7 @@ export default async function RootLayout({
       >{/* flex flex-col min-h-screen - helps footer to stay at the bottom x1*/}
         <NextIntlClientProvider>
           <Navigation />
-          <SideBtns />
+          <SideNav />
           <main className="grow" >{children}</main>
           {/*flex-grow - helps footer to stay at the bottom x2*/}
           <Footer />

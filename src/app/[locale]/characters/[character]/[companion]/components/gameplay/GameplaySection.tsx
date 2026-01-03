@@ -26,7 +26,7 @@ export default function GameplaySection ({
 
     return (
         <div className={styles.contentlayout} id="gameplaySection">
-            <h1 className={styles.sectionH1}>{tGeneral('header')}</h1>
+            <h1 className={styles.sectionH1}>{tGeneral('header')}<span className={styles.headerEN}>{tGeneral('headerEN')}</span></h1>
             <hr className={styles.divider}></hr>
 
             {guide.type === 'solar' ? (
