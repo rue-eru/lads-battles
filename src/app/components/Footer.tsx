@@ -8,7 +8,7 @@ export default function Footer() {
 
     return (
         <footer className="flex items-center justify-between bg-lightgray font-inknut font-light  w-full  border-t-2 border-darkgray p-6">
-            <div className="flex items-center gap-10 uppercase tracking-[0.5rem]">
+            <div className="flex flex-wrap gap-2 sm:items-center sm:gap-10 uppercase sm:tracking-[0.5rem]">
                     <Link href="/" className="hover:text-pink-400">
                         {t("home-btn")}
                     </Link>

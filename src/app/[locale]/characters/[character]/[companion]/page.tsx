@@ -24,7 +24,6 @@ export default async function CompanionPage ( {params} : {
     const characterData = charactersData[character];
     const companionData = characterData.companions.find(comp => comp.id === companion);
     const guide = getGameplayGuide(character as any, companion);
-    
 
     if (!companionData) {
       return null

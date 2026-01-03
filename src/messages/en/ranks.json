@@ -5,7 +5,8 @@
         "r2": "R2",
         "r3": "R3"
     },
-    "NB": "Remember your Rank Buffs are only active when you add both Solar Pair cards in the team. You can choose your limited companion but he will remain at R0 buff even if you own R3.",
+    "rDescriptionBtn": "Rank Description",
+    "NB": "Remember your Rank Buffs are only active when you add both Solar Pair cards in the team. You can choose your limited companion but he wont receive any buffs even if you own R3.",
     "rankDescriptions": {
         "rafayel": {
             "abysswalker": {

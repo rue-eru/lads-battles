@@ -21,13 +21,13 @@ export default function LanguageSwitch(){
         // remove locale from pathname
         const segments = pathname.split('/');
         const currentPath = segments.slice(2).join('/') || '';
-        router.push(`/${lang}/${currentPath}`)
+        router.push(`/${lang}/${currentPath}`);
     }
 
     return (
         <NavDropdown label={currentLang}>
 
-            <div className={styles.navDowndropLists}>
+            <div className={`${styles.navDowndropLists} border min-w-15`}>
 
                 {languages.map((lang) => (
                     <button

@@ -50,7 +50,7 @@ export default function ProtocoreTypesTable({stellactrum, betaData, deltaData }:
                                 />
                                 <span>α</span>
                             </div>
-                            <div>
+                            <div className={styles.statHoverStyle}>
                                 <TextRenderer>{t('protocoreStats.hp')}</TextRenderer>
                             </div>
                         </div>
@@ -73,6 +73,7 @@ export default function ProtocoreTypesTable({stellactrum, betaData, deltaData }:
                                 {betaData?.map((stat, index) => (
                                     <li
                                         key={index}
+                                        className={styles.statHoverStyle}
                                     >
                                         <TextRenderer>
                                             {t(`protocoreStats.${stat}`)}
@@ -115,7 +116,7 @@ export default function ProtocoreTypesTable({stellactrum, betaData, deltaData }:
                                 />
                                 <span>γ</span>
                             </div>
-                            <div>
+                            <div className={styles.statHoverStyle}> 
                                 <TextRenderer>{t('protocoreStats.atk')}</TextRenderer>
                             </div>
                         </div>
@@ -141,6 +142,7 @@ export default function ProtocoreTypesTable({stellactrum, betaData, deltaData }:
                                 {deltaData?.map((stat, index) => (
                                     <li
                                         key={index}
+                                        className={styles.statHoverStyle}
                                     >
                                         <TextRenderer>
                                             {t(`protocoreStats.${stat}`)}

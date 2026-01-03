@@ -56,7 +56,7 @@ export default function MySkillsTable( {character, companion}: CharaDataProps) {
                         className="object-cover rounded"
                     />
                 </div>
-                <div>
+                <div className="text-left">
                     <h3 className="text-lg font-inknut mb-3">{tData(weapon_key)}</h3>
                     <p className="text-lg  font-inknut">{tCharaName(`${companion}` as any)}{tCommon('exclusive_weapon')}</p>
                 </div>

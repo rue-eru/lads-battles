@@ -14,7 +14,7 @@ export default function ProtocoreSection ({character, companion}: CharaDataProps
 
 
     return (
-        <div className={styles.contentlayout}>
+        <div className={styles.contentlayout} id="protocoreSection">
             <h1 className={styles.sectionH1}>{t('header')}</h1>
             <hr className={styles.divider}></hr>
 
@@ -45,7 +45,11 @@ export default function ProtocoreSection ({character, companion}: CharaDataProps
                         *
                     </li>
             </ul>
-            <span>* {t('energyNB')}</span>
+            <p className="-mt-8 text-right w-full italic">* {t('energyNB')}</p>
+
+            <span>                        
+                <TextRenderer>{t('stellacrtumMatchInfo')}</TextRenderer>
+            </span>
 
 
             {/*what stats to choose on your protocores based on companion type*/}
@@ -54,15 +58,7 @@ export default function ProtocoreSection ({character, companion}: CharaDataProps
                     <span>{t('introSolar')}</span>
                 </>
 
-            ) :  (
-                <>
-                    <span>
-                        <TextRenderer>{t('introStandart')}</TextRenderer>
-                    </span>
-                </>
-
-
-            )}
+            ) :  ('')}
 
             <ProtocoreTable character={character} companion={companion}/>
 

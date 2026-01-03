@@ -26,7 +26,7 @@ export default function ProtocoreTable ({character, companion} : CharaDataProps)
     //  FOR STANDARD BETA AND DELTA AS ANY
     
     return (
-        <div className="w-full">
+        <div className="w-full text-left">
             { !hasRankData ? (
                 /* STANDARD COMPANION PROTOCORE TABLE*/
                     <table className="w-full min-w-full table-auto">
@@ -101,13 +101,13 @@ export default function ProtocoreTable ({character, companion} : CharaDataProps)
                             />
                         </tbody>
                     </table> 
-                    <details>
-                        <summary className={`${styles.tableRow} cursor-pointer p-2`}>Rank Description</summary>
+                    <details className="text-justify">
+                        <summary className={`${styles.tableRow} cursor-pointer p-2`}>{tRank('rDescriptionBtn')}</summary>
                         <p>
                             <TextRenderer>{tRank(`rankDescriptions.${character}.${companion}.${activeRank}` as any)}</TextRenderer>
                         </p>
                         {/*<p>{(rankData as any)[character]?.[companion]?.[activeRank]?.rank_description}</p>*/}
-                        <p>{tRank("NB")}</p>
+                        <p className="italic mt-4">{tRank("NB")}</p>
                     </details>
                 </div>
             )}

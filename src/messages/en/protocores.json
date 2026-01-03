@@ -1,7 +1,7 @@
 {
         "header": "Protocores",
-        "introStandart": "If the card [Stellactrum Match] is on full the stage's requirments use protocores with the main stat as [DMG Boost to Weakened] or [Oath Recovery Boost], otherwise [CRIT DMG], [CRIT Rate]  and [Expedited Energy Boost].",
-        "introSolar": "The way you want to build 5★ companions is slightly different. For solar pairs β protocore might change depending on the Ranks your have.",
+        "stellacrtumMatchInfo": "If the card [Stellactrum Match] is on full the stage's requirments use protocores with the main stat as [DMG Boost to Weakened] or [Oath Recovery Boost], otherwise [CRIT DMG], [CRIT Rate]  and [Expedited Energy Boost].",
+        "introSolar": "Sometimes 5★ companions want slightly different build. For solar pairs β protocore might change depending on the Ranks your have.",
         "chooseProtocores": "choose protocores based on your needs",
         "substats": "Substats",
         "substatsChoice": {

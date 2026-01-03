@@ -25,7 +25,7 @@ export default function CompanionInfoTable ( {character, companion} : CharaDataP
         <div className="w-full overflow-x-auto">
             { !hasDetailedData ? ( <div>Coming soon...</div>) : (
 
-            <table className="w-full min-w-full table-auto">
+            <table className="w-full min-w-full table-auto text-left">
                 <tbody>
                     {companionData.type === 'solar' && (
                         <TableRow 
