@@ -36,7 +36,7 @@ export default function BackBtn () {
                          height={10}
                          className="object-cover"
                      />
-                    <span className="uppercase sm:hidden lg:block">{t('layout.up')}</span>
+                    <span className="uppercase hidden lg:block">{t('layout.up')}</span>
                 </div>            
             </button>
             )}

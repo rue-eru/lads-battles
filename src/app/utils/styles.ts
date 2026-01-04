@@ -37,12 +37,15 @@ export const styles = {
     //gameplay
     figcaptionStyle: `text-sm text-right text-gray-400 italic text-wrap justify-end`,
     img_bg: ` bg-gray-700 lg:p-2 sm:p-1 rounded-sm`,
-    imgHeightSoloOrSoloCapture: `w-full sm:h-60 md:h-80 lg:h-100 relative`,
+    imgHeightSoloOrSoloCapture: `w-full h-60 md:h-80 lg:h-100 relative`,
 
     //floatingbtns
-    floatBtnStyle: `flex gap-2 items-center hover:text-pink-400 
-                    sm:bg-darkgray sm:rounded-full sm:h-8 sm:w-8 sm:px-3 sm:border inset-0 z-50
-                    lg:border-none`
+    floatBtnStyle: `flex gap-2 items-center hover:border-pink-400 hover:text-pink-400 
+                    bg-darkgray rounded-full h-8 w-8 px-3 border inset-0 z-50
+                    lg:border-none`,
+    floatBtnStyleLetters: `hover:border-pink-400 text-center
+                    bg-darkgray rounded-full h-8 w-8 px-3 border inset-0 z-50
+                    lg:border-none`,
 
 
 

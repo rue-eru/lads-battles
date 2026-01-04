@@ -7,7 +7,7 @@ import { styles } from "../utils/styles";
 export default function LanguageSwitch(){
 
     const router = useRouter();
-    const pathname = usePathname();
+    const pathname = usePathname();    
 
     const languages = [
         { code: 'en', name: 'en'},
@@ -15,7 +15,9 @@ export default function LanguageSwitch(){
         { code: 'ja', name: '日本語'}
     ];
 
-    const currentLang = pathname.split('/')[1] || 'en';
+    const currentLangCode = pathname.split('/')[1] || 'en';
+
+    const currentLanguage = languages.find(lang => lang.code === currentLangCode) || languages[0];
 
     const switchLang = (lang: string) => {
         // remove locale from pathname
@@ -25,7 +27,7 @@ export default function LanguageSwitch(){
     }
 
     return (
-        <NavDropdown label={currentLang}>
+        <NavDropdown label={currentLanguage.name}>
 
             <div className={`${styles.navDowndropLists} border min-w-15`}>
 

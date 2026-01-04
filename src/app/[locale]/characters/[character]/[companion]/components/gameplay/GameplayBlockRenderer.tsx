@@ -55,7 +55,7 @@ export function GameplayBlockRenderer({
                         return (
                             <figure
                                 key={index}
-                                className={`flex sm:h-auto  flex-col ${styles.img_bg}`}
+                                className={`flex h-auto  flex-col ${styles.img_bg}`}
                             >
                                 <div className={styles.imgHeightSoloOrSoloCapture}>
                                 <Image

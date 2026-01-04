@@ -1,6 +1,7 @@
 import { usePathname } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
+import { styles } from "@/app/utils/styles";
 
 
 export default function SectionNav () {
@@ -8,12 +9,14 @@ export default function SectionNav () {
     const t = useTranslations();
     const pathname = usePathname();
     const [isCompanionPage, setIsCompanionPage] = useState(false);
+    const [isExpanded, setIsExpanded] = useState(false);
 
     const scrollToId = (id: string) => {
         document.getElementById(id)?.scrollIntoView({
             behavior: 'smooth',
             block: "start"
         })
+        setIsExpanded(false); //for sm to be closed
     }
 
     useEffect(() => {
@@ -43,22 +46,60 @@ export default function SectionNav () {
     }
 
     return(
-        <div className="pl-4 mt-4">
+        <div >
             {/*to a section by #id only opens on http://localhost:3000/en/characters/${character}/${companion}
             section ids: protocoreSection, skillWeaponSection, gameplaySection*/}
-                    <p className="uppercase">{t('layout.goSection')}</p>
-                    <ul className="text-left list-none list-inside  pt-4 ">
-                        {availableSections.map(section => (
-                            <li className="mb-4 hover:text-pink-400">
+
+                {/* sm and md screens*/}
+                    <div className="lg:hidden">
+                        {!isExpanded ? (
+                            <button
+                                onClick={() => setIsExpanded(true)}
+                                className={styles.floatBtnStyleLetters}
+                            ><p className="text-center uppercase text-[12px] -ml-1">{t('layout.goSectionSM')}</p>
+                            </button>
+                        ) : (
+                            <div className={`bg-darkgray flex rounded-2xl ${isExpanded ? "border" : ''}`}>
                                 <button
-                                    key={section.id}
-                                    onClick={() => scrollToId(section.id)}
-                                >
-                                    {t(section.labelKey)}
+                                    onClick={() => setIsExpanded(false)}
+                                    className={`${styles.floatBtnStyle} ${isExpanded ? "border-none" : ""}`}
+                                ><span className="text-center uppercase text-[12px]">{t('layout.goSectionSM')}</span>
                                 </button>
-                            </li>
-                        ))}
-                    </ul>
+                                <ul className="text-left list-none list-inside px-4 py-1">
+                                    {availableSections.map(section => (
+                                        <li className="mb-4 hover:text-pink-400">
+                                            <button
+                                                key={section.id}
+                                                onClick={() => scrollToId(section.id)}
+                                            >
+                                                <span className="text-center uppercase text-[12px]">{t(section.labelKey)}</span>
+                                            </button>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                            
+
+                        )}
+                    </div>
+
+                    {/* lg+ */}
+                    <div className="hidden lg:block">
+                        <p className="uppercase">{t('layout.goSection')}</p>
+                        <ul className="text-left list-none list-inside  pt-4 ">
+                            {availableSections.map(section => (
+                                <li className="mb-4 hover:text-pink-400">
+                                    <button
+                                        key={section.id}
+                                        onClick={() => scrollToId(section.id)}
+                                    >
+                                        {t(section.labelKey)}
+                                    </button>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+
         </div>
     )
 }
