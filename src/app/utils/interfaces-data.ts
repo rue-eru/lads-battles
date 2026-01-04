@@ -110,3 +110,9 @@ export interface GuideStateProviderProps {
     hasGuide: boolean;
     children: ReactNode;
 }
+
+export interface CopyWrapperProps {
+    text: string;
+    children: ReactNode;
+    className?: string;
+}
