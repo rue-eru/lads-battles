@@ -24,7 +24,7 @@ export default function Contact () {
                     <p>{tCommon('contacts_intro')}</p>
         
                     <div className="flex items-center gap-4 w-full">
-                        <div className="font-inknut font-semibold">{tLayout('email')}</div>
+                        <div className="font-accent font-semibold">{tLayout('email')}</div>
                         <CopyWrapper text="shigoto.el@gmail.com">
                             <span  className="cursor-text">shigoto.el@gmail.com</span>
                         </CopyWrapper>
@@ -34,7 +34,7 @@ export default function Contact () {
                     <p className="mt-12 w-full">{tCommon('contacts_thanks')}</p>
         
                     <div className="flex items-center gap-2  w-full">
-                        <div className="font-inknut font-semibold">{tLayout('ingame_info')}</div>
+                        <div className="font-accent font-semibold">{tLayout('ingame_info')}</div>
                         
                         {/*it works it is being upset since it is being imported through Script and its custom compoenent without being installed by packages*/}
                         <CopyWrapper text="Asia 81003102527 素える">

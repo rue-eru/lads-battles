@@ -4,10 +4,14 @@
   --font-geist-sans: initial;
   --font-geist-mono: initial; 
   --font-inknut-antiqua: initial;
+  --font-source-serif-4: initial;
+  --font-noto-serif-jp: initial;
 
   --light-gray: #778DA9;
   --dark-gray: #30343F;
   --text-primary: aliceblue;
+
+  --font-accent: var(--font-inknut-antiqua), serif;
 
 }
 
@@ -17,11 +21,32 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-inknut: var(--font-inknut-antiqua);
+  --font-source-serif-4: var(--font-source-serif-4);
+  --font-noto-serif-jp: var(--font-noto-serif-jp);
   
   --color-lightgray: var(--light-gray);
   --color-darkgray: var(--dark-gray);
   --color-aliceblue: var(--text-primary);
+
+  --font-accent: var(--font-accent)
+  /*font change based on language*/
 }
+
+/* Force the font with higher specificity */
+html[lang="en"] .font-accent,
+.font-accent {
+  font-family: var(--font-inknut-antiqua), serif;
+}
+
+html[lang="ru"] .font-accent {
+  font-family: var(--font-source-serif-4), serif;
+  font-size: larger;
+}
+
+html[lang="ja"] .font-accent {
+  font-family: var(--font-noto-serif-jp), serif;
+}
+
 
 /*
 @media (prefers-color-scheme: dark) {

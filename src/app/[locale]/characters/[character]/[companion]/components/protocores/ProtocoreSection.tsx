@@ -1,3 +1,5 @@
+'use client'
+
 import { CharacterId, charactersData } from "@/app/utils/loaders/character-data-loader";
 import { CharaDataProps } from "@/app/utils/interfaces-data";
 import { styles } from "@/app/utils/styles";
@@ -5,6 +7,7 @@ import { useTranslations } from "next-intl";
 import ProtocoreTable from "./ProtocoreTable";
 import ProtocoreTypesTable from "./ProtocoreTypesTable";
 import { TextRenderer } from "../glossary/TextRenderer";
+import { useCurrentLanguage } from "@/app/hooks/useCurrentLanguage";
 
 export default function ProtocoreSection ({character, companion}: CharaDataProps) {
     const charaData = charactersData[character as CharacterId];
@@ -12,10 +15,19 @@ export default function ProtocoreSection ({character, companion}: CharaDataProps
 
     const t = useTranslations('protocores');
 
+    const { isRu } = useCurrentLanguage();
+
 
     return (
         <div className={styles.contentlayout} id="protocoreSection">
-            <h1 className={styles.sectionH1}>{t('header')}<span className={styles.headerEN}>{t('headerEN')}</span></h1>
+            <h1 className={styles.sectionH1}>
+                {t('header')}
+                {isRu 
+                    ? <span className={styles.headerEN}>{t('headerEN')}</span>
+                    : ''
+                }
+                
+            </h1>
             <hr className={styles.divider}></hr>
 
             {/*protocore names and visual representation*/}

@@ -1,13 +1,13 @@
 export const styles = {
-    h1: `font-inknut text-xl`,
-    headerEN: `text-[16px]`,
-    sectionH1: `font-inknut text-xl uppercase`,
+    h1: `font-accent text-xl`,
+    headerEN: ``,
+    sectionH1: `font-accent text-xl uppercase`,
 
 
     divider: `border-t border-text-primary w-full -mt-4`,
     pagelayout: `lg:w-[50%] sm:w-[90%] mx-auto flex-1 mb-20`,
     contentlayout: `flex flex-col gap-[32px] row-start-2 items-center sm:items-start mt-20 w-full text-justify`,
-    tableRow: `hover:bg-pink-400 font-inknut`,
+    tableRow: `hover:bg-pink-400 font-accent`,
     charaIconStyle: ` hover:border-pink-400 hover:border-3 rounded-full`,
     navDowndropLists: `absolute w-full top-full bg-lightgray rounded-lg shadow-lg z-50 text-center tracking-widest py-4`,
     dropdownBlockLI: `block hover:text-pink-400 uppercase text-nowrap`,
@@ -22,17 +22,17 @@ export const styles = {
     multipleStatProt: `flex-1 w-full inline-flex gap-10 items-center`,
     multipleStatStyle: `flex items-center gap-2 mb-2`,
     rowHover: `block hover:bg-pink-400`,
-    colStyle: `space-y-6 flex-1 font-inknut my-8`,
+    colStyle: `space-y-6 flex-1 font-accent my-8`,
     ulStatsStyle: `space-y-1 list-none pl-0  overflow-hidden `,
     statHoverStyle: `hover:underline hover:dotted-yellow-100 text-left`,
 
     //skills
-    h1Skills: `font-inknut text-xl mb-6`,
-    skillsInfoDiv: `flex gap-3 font-inknut text-wrap`,
+    h1Skills: `font-accent text-xl mb-6`,
+    skillsInfoDiv: `flex gap-3 font-accent text-wrap`,
     skillsPinkBubble: `rounded-2xl px-2 bg-pink-400`,
     skillsGrayubble: `rounded-2xl px-2 bg-lightgray`,
     imgSkillWidth: `w-32 p-6`,
-    skillInfoBubbleDiv: `flex flex-wrap items-center gap-3 mb-2 font-inknut`,
+    skillInfoBubbleDiv: `flex flex-wrap items-center gap-3 mb-2 font-accent`,
 
     //gameplay
     figcaptionStyle: `text-sm text-right text-gray-400 italic text-wrap justify-end`,
@@ -46,9 +46,5 @@ export const styles = {
     floatBtnStyleLetters: `hover:border-pink-400 text-center
                     bg-darkgray rounded-full h-8 w-8 px-3 border inset-0 z-50
                     lg:border-none`,
-
-
-
-
 
 } as const

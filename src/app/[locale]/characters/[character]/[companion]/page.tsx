@@ -35,7 +35,7 @@ export default async function CompanionPage ( {params} : {
         <div className={styles.pagelayout}>
             <div className={styles.contentlayout}>
                 {/* AS ANY FOR CHARACTERS FOR TS TYPES*/}
-                <h1 className={styles.h1}><span className='text-[25px]'>{tCharas(character as any)}</span>: {tCompanions(companionData.nameKey as any)}</h1> 
+                <h1 className={styles.h1}><span>{tCharas(character as any)}</span>: {tCompanions(companionData.nameKey as any)}</h1> 
                 <Banner character={character as any} companion={companion} />
 
                   {hasGuide ? (

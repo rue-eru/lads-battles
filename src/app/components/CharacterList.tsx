@@ -12,7 +12,7 @@ export default function CharacterList () {
 
     return(
         <div>
-          <div className="grid grid-cols-3 md:grid-cols-5 gap-4 p-5 font-inknut uppercase text-center mr-5 hover:bo">
+          <div className="grid grid-cols-3 md:grid-cols-5 gap-4 p-5 font-accent uppercase text-center mr-5 hover:bo">
 
           {characters.map((characterId) => (
             <Link
