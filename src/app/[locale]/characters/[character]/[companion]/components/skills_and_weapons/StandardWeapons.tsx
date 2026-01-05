@@ -31,7 +31,7 @@ export default function StandardWeapons () {
                         onClick={() =>setExpandedWeapon(
                             expandedWeapon === weaponId ? null : weaponId
                         )}
-                        className="rounded-xl transition-all font-inknut"
+                        className="rounded-xl transition-all font-accent"
                     >
                         <div className="relative cursor-pointer">
                             <Image 

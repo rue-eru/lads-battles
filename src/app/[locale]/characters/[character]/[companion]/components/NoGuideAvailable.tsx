@@ -33,7 +33,7 @@ export function NoGuideAvailable  ({
     return (
         <div className="w-full py-12 -mb-30">
             <hr className={styles.divider}></hr>
-            <div className="text-center py-6 font-inknut flex flex-col gap-4">
+            <div className="text-center py-6 font-accent flex flex-col gap-4">
                 <p>{t('not-available')}</p>
                 <p>{t('stay_tuned')}</p>
             </div>

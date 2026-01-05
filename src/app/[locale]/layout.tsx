@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
-import { Geist, Geist_Mono, Inknut_Antiqua } from "next/font/google";
+import { Geist, Geist_Mono, Inknut_Antiqua, Source_Serif_4, Noto_Serif_JP } from "next/font/google";
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
@@ -26,6 +26,22 @@ const InknutAntiqua = Inknut_Antiqua({
   weight: ["300" , "400" , "500" , "600" , "700" , "800" , "900"],
   display: 'swap'
 });
+
+const SourceSerif4 = Source_Serif_4({
+  variable: "--font-source-serif-4",
+  subsets: ['latin', 'cyrillic'],
+  weight: ["300" , "400" , "500" , "600" , "700" , "800" , "900"],
+  display: 'swap'
+});
+
+const NotoSerifJP = Noto_Serif_JP({
+  variable: "--font-noto-serif-jp",
+  //ts doesnt allow japanese???
+  subsets: ['latin'],
+  weight: ["300" , "400" , "500" , "600" , "700" , "800" , "900"],
+  display: 'swap'
+});
+
 
 //fix l10n
 export async function generateMetadata(): Promise<Metadata> {
@@ -57,7 +73,7 @@ export default async function RootLayout({
     <html lang={locale}>
       <body 
          className={`
-          ${geistSans.variable} ${geistMono.variable} ${InknutAntiqua.variable} 
+          ${geistSans.variable} ${geistMono.variable} ${InknutAntiqua.variable} ${SourceSerif4.variable} ${NotoSerifJP.variable}
             flex flex-col min-h-screen
           `}
       >{/* flex flex-col min-h-screen - helps footer to stay at the bottom x1*/}

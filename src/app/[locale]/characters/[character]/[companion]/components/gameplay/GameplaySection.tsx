@@ -6,10 +6,13 @@ import { styles } from "@/app/utils/styles";
 import  StandardGameplayCard from "./StandardGameplayCard";
 import SolarGameplayCard from "./SolarGameplayCard";
 import { getGameplayGuide } from "@/app/utils/loaders/gameplay-loader";
+import { useCurrentLanguage } from "@/app/hooks/useCurrentLanguage";
 
 export default function GameplaySection ({
     character, companion
 }: GameplaySectionProps) {
+
+    const { isRu } = useCurrentLanguage();
 
     const tGeneral = useTranslations('gameplay.general')
 
@@ -26,7 +29,13 @@ export default function GameplaySection ({
 
     return (
         <div className={styles.contentlayout} id="gameplaySection">
-            <h1 className={styles.sectionH1}>{tGeneral('header')}<span className={styles.headerEN}>{tGeneral('headerEN')}</span></h1>
+            <h1 className={styles.sectionH1}>
+                {tGeneral('header')}
+                {isRu 
+                    ? <span className={styles.headerEN}>{tGeneral('headerEN')}</span>
+                    : ''
+                }
+            </h1>
             <hr className={styles.divider}></hr>
 
             {guide.type === 'solar' ? (

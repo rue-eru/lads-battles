@@ -66,7 +66,7 @@ export default function ProtocoreTable ({character, companion} : CharaDataProps)
                             <button
                                 key={rank}
                                 onClick={() => setActiveRank(rank)}
-                                className={`px-4 font-medium font-inknut border-l-2 border-white first:border-none cursor-pointer ${
+                                className={`px-4 font-medium font-accent border-l-2 border-white first:border-none cursor-pointer ${
                                     activeRank === rank 
                                         ? ' text-pink-400 ' 
                                         : 'text-white hover:bg-pink-400'

@@ -32,7 +32,7 @@ export default function ProtocoreTypesTable({stellactrum, betaData, deltaData }:
                          width={24}
                          height={24}
                         />
-                        <span className="font-inknut">{t('ProtocoreType.Solar')}</span>
+                        <span className="font-accent">{t('ProtocoreType.Solar')}</span>
                     </div>
                 </div>
 
