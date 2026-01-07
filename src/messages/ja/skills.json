@@ -1,8 +1,8 @@
 {
-    "header": "Skills and Weapons",
+    "header": "スキルと武器",
     "hisSection": {
-        "header": "His Skills",
-        "no-data": "No skill data available for this companion.",
+        "header": "パートナースキル",
+        "no-data": "このパートナーのスキルデータはないです。",
         "support_skill": "協力スキル",
         "resonance_skill": "共鳴スキル",
         "ardent_oath": "誓約スキル",
@@ -10,10 +10,10 @@
 
     },
     "mySection": {
-        "header": "My skills",
+        "header": "武器スキル",
         "intro": "5★ companion’s [MC] has her own special weapon. You can always switch to standard weapons but you can’t wield other companion's exclusive weapon.",
-        "exclusive_weapon": "'s exclusive weapon",
-        "no-data": "No skill data available for this companion.",
+        "exclusive_weapon": "の専用武器",
+        "no-data": "このパートナーのスキルデータはないです。",
         "basic_attack": "通常攻撃",
         "active_skill": "アクティブスキル",
         "passive_skill":"パッシブスキル",
@@ -116,62 +116,63 @@
             },
             "god_of_the_tides": {
                 "support_skill": {
-                    "name": "Tidal Summoning",
-                    "description": "Summons a [Sea Spirit]. Empowered [Tidal Summoning] restores 10% [Faith] and increases [Sea Spirit] DMG by 10%."
+                    "name": "精霊を喚ぶ潮",
+                    "description":  "[Sea Spirit]を1体召喚する。強化版「精霊を喚ぶ潮・強化」は[Faith]を10%回復し、[Sea Spirit]の与ダメージを10%増加させる。"
                 },
                 "resonance_skill": {
-                    "name": "Surging Tides",
-                    "description": "You and Rafayel summon tides dealing DMG based on your ATK + HP. "
+                    "name": "押し寄せる波",
+                    "description": "ホムラと共に波を召喚し、自身の攻撃力と最大HPに基づくダメージを与える。"
                 },
                 "ardent_oath": {
-                    "name": "Oceanic Harmony",
-                    "description": "You and Rafayel summon a whale, dealing massive  DMG based on your combined ATK + HP."
+                    "name": "四海の生命",
+                    "description": "ホムラと共にクジラを召喚し、自身の攻撃力と最大HPに基づく大ダメージを与える。"
                 },
                 "passive_skill": {
-                    "name": "Frenzy Surge",
-                    "description": "Your, Rafayel's and [Sea Spirits]' hits restore [Faith]. When it is full, it triggers [Heavenly Rain] increases DMG dealt by 30% and boosts the level of all [Sea Spirits] by 1."
+                    "name": "激流",
+                    "description": "自身、ホムラ、[Sea Spirits]の攻撃が命中するたびに[Faith]を回復する。[Faith]が満タンになると[Heavenly Rain]を発動し、味方の与ダメージを30%増加させ、全ての[Sea Spirits]のレベルを1上昇させる。"
                 },
                 "basic_attack": {
-                    "name": "Waves",
-                    "description": "Deals multi-hit combo up to 4 attacks based on your ATK + HP. Charged Attack launches enemies."
+                    "name": "うねり",
+                    "description": "自身の攻撃力と最大HPに基づく最大4段の連続攻撃。重撃は敵を吹き飛ばす。"
                 },
                 "my_passive_skill": {
-                    "name": "Sea Shanty",
-                    "description": "When using an [Active Skill], summons a [Sea Spirit]."
+                    "name": "海の低吟",
+                    "description": "[Active Skill]を使用すると、[Sea Spirit]を1体召喚する。"
                 },
                 "active_skill": {
-                    "name": "Tides",
-                    "description": "Pushes back enemies and deals DMG based of your ATK + HP and leaves a [Tidal Field]. It provides Tidal Strength that increaces CRIT Rate by 10% and stacks up to 3 times."
+                    "name": "潮汐",
+                    "description": "近くの敵をノックバックし、自身の攻撃力と最大HPに基づくダメージを与え、[Tidal Field]を生成する。潮汐の力場は「潮汐の力」を付与し、1層ごとに会心率が10%上昇する（最大3層）。"
                 }
             },
             "lemurian_sea_god": {
+
                 "support_skill": {
-                    "name": "斬潮の戦",
-                    "description": "Throws his Trident dealing DMG based on ATK + DEF to enemies in range."
+                    "name": "新潮の裁",
+                    "description": "断潮戟を投擲し、範囲内の敵に攻撃力と防御力に基づくダメージを与える。"
                 },
                 "resonance_skill": {
-                    "name": "Cerulean Verdict",
-                    "description": "You and Rafayel unleash towering waves pulling enemies inside it and dealing massive DMG based on ATK + DEF."
+                    "name": "激浪の裁き",
+                    "description": "ホムラと共に大波を起こし、範囲内の敵を吸い寄せた後、攻撃力と防御力に基づく大ダメージを与える。"
                 },
                 "ardent_oath": {
-                    "name": "Oceanic Harmony",
-                    "description": "You and Rafayel do massive DMG based on your combined ATK + DEF."
+                    "name": "波の永約",
+                    "description": "ホムラとEvolを共鳴させ、攻撃力と防御力に基づく大ダメージを敵に与える。"
                 },
                 "passive_skill": {
-                    "name": "Deepfall Rite",
-                    "description": "Upon enterting the battle, Rafayel grants you a [Sea God Mark]. Charge Attack consumes it and it will be restored in 8s again. It is extremely powerful and especially good in [Ocean's Descent]."
+                    "name": "漣海の淵",
+                    "description": "戦闘開始時、ホムラが[海神の印]を付与。重撃で消費され、8秒後に再付与される。[海神の印]は非常に強力で、特に[神の眷属]状態で真価を発揮する。"
                 },
                 "basic_attack": {
-                    "name": "Wave Chase",
-                    "description": "Perform a combo up to 4 hits. Charge Attack creates a powerful slash and consumes a [Sea God Mark] if full. Both scales with ATK + DEF."
+                    "name": "追波",
+                    "description": "最大4段の連続攻撃。重撃は強力な斬撃を放ち、[海神の印]が満タンの場合は消費する。ダメージは攻撃力と防御力に依存。"
                 },
                 "my_passive_skill": {
-                    "name": "Tide's Return",
-                    "description": "Consuming a [Sea God Mark] with Charged Attack also restores 0.5 ◆. "
+                    "name": "帰る波濤",
+                    "description": "[海神の印]を消費する重撃は、追加でスキルエネルギーを0.5回復する。"
                 },
                 "active_skill": {
-                    "name": "Riptide Rend",
-                    "description": "Dash forward dealing DMG based on your ATK + DEF."
+                    "name": "減流",
+                    "description": "前方へ突進し、攻撃力と防御力に基づくダメージを与える。"
                 }
             }    
         }          
