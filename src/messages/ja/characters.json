@@ -1,3 +1,87 @@
 {
-    
+  "chNames": {
+    "xavier": "セイヤ",
+    "zayne": "レイ",
+    "rafayel": "ホムラ",
+    "sylus": "シン",
+    "caleb": "マヒル"
+  },
+  "companions": {
+    "companion-list-title": "パートナー",
+    "xavier": {
+      "deepspace_hunter": "深空ハンター",
+      "distant_youth": "遥かなる少年",
+      "evol_police": "Evol特殊部隊",
+      "lightseeker": "追光騎士",
+      "lumiere": "月影ハンター",
+      "king_of_darknight": "暗蝕の国王"
+    },
+    "zayne": {
+      "linkon_doctor": "臨空の医者",
+      "medic_of_the_arctic": "極地の軍医",
+      "dawnbreaker": "黎明の抹殺者",
+      "foreseer": "永久の預言者",
+      "master_of_fate": "九黎の司命",
+      "god_of_annihilation": "終焉の神"
+    },
+    "rafayel": {
+      "artist": "芸術家",
+      "fresh_paint": "画壇の新鋭",
+      "phantom_of_the_siren": "海妖の影",
+      "abysswalker": "深海の潜行者",
+      "god_of_the_tides": "潮汐の神",
+      "lemurian_sea_god": "リモリアの海神"
+    },
+    "sylus": {
+        "otherworldly_visitor": "異界の来客",
+        "relentless_conqueror": "飽くなき略奪者",
+        "abysm_sovereign": "深淵の主",
+        "silverwing_fiend": "銀翼の悪魔"
+    },
+    "caleb": {
+        "deepspace_pilot": "深空パイロット",
+        "farspace_colonel": "遠空執艦官",
+        "ultimate_weapon_x_02": "究極兵器X-02"
+    }
+  },
+  "table": {
+    "rarity": "レアリティ",
+    "role": "役割",
+    "scaling": "主属性",
+    "best": "得意状況",
+    "specialty": "特徴",
+    "unlock": "解放条件",
+    "solarPair": "セット日位思念"
+  },
+  "roles": {
+    "burst_aoe": "バースト | 複数",
+    "heal_single": "治療 | 単体",
+    "support_debuff": "支援 | デバフ",
+    "burst_single_pull": "バースト | 単体 | 集合",
+    "sustained_buff_aoe": "継続 | バフ | 複数",
+    "dps_aoe_empower": "ダメージ | 複数 | 強化"
+  },
+  "scaling": {
+    "atk": "攻撃力",
+    "hp": "HP",
+    "def": "防御力"
+  },
+  "unlock": {
+    "obtain_one_memory": "思念を1枚所持",
+    "obtain_six_memories": "4星以上思念を6枚所持",
+    "main_story_3_14": "メインストーリ3-14",
+    "standard_banner": "願う",
+    "limited_banner": "限定願う"
+  },
+  "best": {
+    "single_target": "単体敵",
+    "multi_target_res_aoth": "複数敵(共鳴スキルと誓約スキル)",
+    "multi_target": "複数敵",
+    "multi_target_dps": "複数敵＆ダメージ"
+  },
+  "specialty": {
+    "atk_buff": "攻撃バフ",
+    "heal_debuff": "治療＆デバフ",
+    "debuff": "デバフ"
+  }
 }

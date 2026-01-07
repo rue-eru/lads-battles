@@ -1,3 +1,184 @@
 {
-    
+    "basic_attack": {
+        "descriptionKey": "Basic Attack varies based on a weapon choice.",
+        "labelKey": "Basic Attack"
+    },
+    "active_skill": {
+        "descriptionKey": "Active Skill varies based on a weapon choice.",
+        "labelKey": "Active Skill"
+    },
+    "passive_skill": {
+        "descriptionKey": "Your MC and Him each have their own Passive Skill",
+        "labelKey": "Passive Skill"
+    },
+    "support_skill": {
+        "descriptionKey": "Click to check his Support Skill for that companion",
+        "labelKey": "協力スキル"
+    },
+    "resonance_skill": {
+        "descriptionKey": "Click to check specifics of Resonance Skill for that companion",
+        "labelKey": "Resonance Skill"
+    },
+    "ardent_oath": {
+        "descriptionKey": "Click to check specifics of Ardent Oath for that companion. Oath is your Ultimate Ability.",
+        "labelKey": "置約スキル"
+    },
+    "perfect_dodge": {
+        "descriptionKey": "You can trigger it when dodging right before the enemy attacks you. It activates Support Skill even if its cooldown is not up yet.",
+        "labelKey": "Perfect Dodge"
+    },
+    "oath_recovery": {
+        "descriptionKey": "A β Protocore that fastens your ultimate recovery(Oath). Can make you use your Oath two times during the battle instead of one",
+        "labelKey": "Oath Recovery Boost"
+    },
+    "expedited_energy": {
+        "descriptionKey": "A β Protocore that fastens your special energy ◆ recovery. The faster you regenerate them the faster you will be able to use your Resonance Skill and Active Skill again.",
+        "labelKey": "Expedited Energy Boost"
+    },
+    "dmg_to_weakened": {
+        "descriptionKey": "A δ Protocore that boosts damage taken on weakened enemies, i.e. enemies with broken shields.",
+        "labelKey": "DMG Boost to Weakened"
+    },
+    "crit_dmg": {
+        "descriptionKey": "A δ Protocore that increases your CRIT DMG. It is used to multiply your damage on finale CRIT DMG number percentage. It will apply if you 'crit' i.e. your CRIT Rate is enough to happen.",
+        "labelKey": "CRIT DMG"
+    },
+    "crit_rate": {
+        "descriptionKey": "A δ Protocore that increases your CRIT Rate. It shows the ratio of possible crit multiply. E.g. 50% means there is 1 out of 2 chances to multiply your damage by CRIT DMG you have.",
+        "labelKey": "CRIT Rate"
+    },
+    "stellactrum_match": {
+        "descriptionKey": "Each card has its color. On each stage there's a color requirment. When you match all the colors, your Resonance Skill will be able to destroy 2 layers of enemy's shield instead of 1.",
+        "labelKey": "Stellactrum Match"
+    },
+    "mc": {
+        "descriptionKey": "Main Character, in other words, You!",
+        "labelKey": "MC"
+    },
+    "dot": {
+        "descriptionKey": "Damage over Time",
+        "labelKey": "DoT"
+    },
+    "aoe": {
+        "descriptionKey": "Area of Effect: an ability that affects enemies in the radius",
+        "labelKey": "AoE"
+    },
+    "alfa": {
+        "descriptionKey": "Alfa",
+        "labelKey": "α"
+    },
+    "beta": {
+        "descriptionKey": "Beta",
+        "labelKey": "β"
+    }, 
+    "gamma": {
+        "descriptionKey": "Gamma",
+        "labelKey": "γ"
+    },
+    "delta": {
+        "descriptionKey": "Delta",
+        "labelKey": "δ"
+    },
+    "hunter_firearm": {
+        "descriptionKey": "A weapon from Standard Hunter Series.",
+        "labelKey": "Hunter Firearm"
+    },
+    "flame_lily": {
+        "descriptionKey": "Artis's special ability. Different Skills summon them, activating buffs.",
+        "labelKey": "Flame Lily"
+    },
+    "flame_lilies": {
+        "labelKey": "Flame Lilies"
+    },
+    "scarlet_shade": {
+        "descriptionKey": "Artis's Support Skill. It creates Flame Lilies",
+        "labelKey": "Scarlet Shade"
+    },
+    "tinctus": {
+        "descriptionKey": "Fresh Paint's special ability. Inflict Tinctus to get buffs.",
+        "labelKey": "Tinctus"
+    },
+    "reprise": {
+        "descriptionKey": "Phantom Of The Siren's special ability. Reprise is summoned by Support Skill.",
+        "labelKey": "Reprise"
+    },
+    "echo": {
+        "descriptionKey": "Phantom Of The Siren's special ability. Echo is a part of his Passive Skill.",
+        "labelKey": "Echo"
+    },
+    "aria": {
+        "descriptionKey": "Phantom Of The Siren's Support Skill.",
+        "labelKey": "Aria"
+    }, 
+    "fishtail_beacon": {
+        "descriptionKey": "Abysswalker's special ability. It is a part of his Support Skill. Restores 2 Potential",
+        "labelKey": "Fishtail Beacon"
+    },
+    "potential": {
+        "descriptionKey": "Abysswalker's special ability. It has 6 stacks, check them under MC's HP bar.",
+        "labelKey": "Potential"
+    },
+    "beacon": {
+        "descriptionKey": "Abysswalker's special ability. It is a part of his Passive Skill. Restores 1 Potential",
+        "labelKey": "Beacon"
+    },
+    "deepsea_pursuit": {
+        "descriptionKey": "CRIT Rate buff that appears at full Potential stacks.",
+        "labelKey": "Deepsea Pursuit"
+    },
+    "searing_slash": {
+        "descriptionKey": "Rafayel's special attack that is triggered at full Potential stacks.",
+        "labelKey": "Searing Slash"
+    },
+    "sea_spirit": {
+        "descriptionKey": "God Of The Tides' special ability. Both his and your Passive Skills summon them. It has 3 levels.",
+        "labelKey": "Sea Spirit"
+    },
+    "sea_spirits": {
+        "labelKey": "Sea Spirits"
+    },
+    "heavenly_rain": {
+        "descriptionKey": "God Of The Tides' special ability. Triggers at full Faith and provides buffs.",
+        "labelKey": "Heavenly Rain"
+    },
+    "faith": {
+        "descriptionKey": "God Of The Tides' special ability. It is located under MC's HP bar. Hits from you, Rafayel and Sea Spirits fill it up.",
+        "labelKey": "Faith"
+    },
+    "tidal_field": {
+        "descriptionKey": "God Of The Tides' special ability. It can be triggered by Active Skill and provides buffs by staying inside of it",
+        "labelKey": "Tidal Field"
+    },
+    "surging_tides": {
+        "descriptionKey": "God Of The Tides' Resonance Skill. Click to learn more.",
+        "labelKey": "Surging Tides"
+    },
+    "sea_god_mark": {
+        "descriptionKey": "Lemurian Sea God's special ability. It recharges over time. Charge Attack can consume it empowering your attack, especially in Divine Favor.",
+        "labelKey": "海神の印"
+    },
+    "ocean_descent": {
+        "descriptionKey": "Lemurian Sea God's special ability. It is located under MC's HP bar. Your attacks fill left part of it, while Rafayel's Passive Skill left part.",
+        "labelKey": "Ocean's Descent"
+    },
+    "divine_favor": {
+        "descriptionKey": "Lemurian Sea God's special ability. You can activate it by reaching full Ocean's Descent and pressing the appeared button. In that state consuming the Sea God Mark does more damage, on Active Skill Lightning Crystal will appear on the field, dodge in it to do AoE DMG.",
+        "labelKey": "神の養属"
+    },
+    "lightning_tide": {
+        "descriptionKey": "Damage explosure after triggering Lightning Crystal in Divine Favor state.",
+        "labelKey": "潮"
+    },
+    "lightning_crystal": {
+        "descriptionKey": "Lemurian Sea God's special ability. When using Active Skill in Divine Favor a ball will appear, dodge in it to activate.", 
+        "labelKey": "Lightning Crystal"
+    },
+    "hunters_intention": {
+        "descriptionKey": "Hunter Sword's Passive Skill. Provides ATK buff",
+        "labelKey": "Hunter's Intention"
+    },
+    "gathering_stacks": {
+        "descriptionKey": "Hunter Claymore's special ability. On 3 stacks greatly empoweres your Active Skill allowing to skip the charge stage.",
+        "labelKey": "Gathering Stacks"
+    }
 }
