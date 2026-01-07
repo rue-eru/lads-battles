@@ -1,3 +1,40 @@
 {
-    
+        "header": "コア",
+        "stellacrtumMatchInfo": "If the card [Stellactrum Match] is on full the stage's requirments use protocores with the main stat as [DMG Boost to Weakened] or [Oath Recovery Boost], otherwise [CRIT DMG], [CRIT Rate]  and [Expedited Energy Boost].",
+        "introSolar": "Sometimes 5★ companions want slightly different build. For solar pairs β protocore might change depending on the Ranks your have.",
+        "chooseProtocores": "choose protocores based on your needs",
+        "substats": "副属性",
+        "substatsChoice": {
+            "basic": "For substats priorities protocores with ATK, ATK Bonus, CRIT Rate, CRIT DMG, DMG Boost to Weakened",
+            "solar": {
+                "intro": "For substats priorities protocores with ",
+                "abysswalker": "ATK, ATK Bonus, CRIT Rate, CRIT DMG, DMG Boost to Weakened",
+                "god_of_the_tides": "HP, HP Bonus, CRIT Rate, CRIT DMG, DMG Boost to Weakened",
+                "lemurian_sea_god": "DEF, DEF Bonus, CRIT Rate, CRIT DMG, DMG Boost to Weakened"
+            }
+        },
+        "solarCardsInfo": "Solar cards use [α] and [β] protocores. [α] has a fixed main HP stat while [β]'s main stat derives.",
+        "lunarCardsInfo": "Lunar cards use [γ] and [δ] protocores. [γ] has a fixed main ATK stat while [δ]'s main stat derives.",
+        "critBuildsInfo": "For crit builds don't forget to check your [CRIT Rate] before entering the stage. For comfortable ratio aim for 60-80% [CRIT Rate]. Remember your [CRIT DMG] doesn't matter if you do not utilize it.",
+        "OathInfo": "Usually your companion will be able to use [Ardent Oath] once during the battle. To use it twice use [Oath Recovery Boost] for β protocore.",
+        "energyInfo": "[Active Skill] and [Resonance Skill] require special energy ◆, to regenerate it faster use [Expedited Energy Boost] for β protocore.",
+        "energyNB": "depends on your companion ranks",
+        "ProtocoreType": {
+            "Solar": "日位",
+            "Lunar": "月位"
+        },
+        "protocoreStats" : {
+            "hp": "HP",
+            "atk": "攻撃力",
+            "def": "防御力",
+            "hp_bonus": "HPバフ",
+            "atk_bonus": "攻撃力バフ",
+            "def_bonus": "防御力バフ",
+            "expedited_energy_boost": "エネルギー回復増",
+            "oath_recovery_boost": "誓約回復増",
+            "oath_strength": "誓約ダメージ増",
+            "crit_rate": "CR率",
+            "crit_dmg": "CR攻撃",
+            "dmg_boost_to_weakened": "対弱体攻撃"
+        }
 }

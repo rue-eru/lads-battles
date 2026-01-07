@@ -1,3 +1,32 @@
 {
-    
+    "ranks": {
+        "r0": "R0",
+        "r1": "R1",
+        "r2": "R2",
+        "r3": "R3"
+    },
+    "rDescriptionBtn": "Rank Description",
+    "NB": "Remember your Rank Buffs are only active when you add both Solar Pair cards in the team. You can choose your limited companion but he wont receive any buffs even if you own R3.",
+    "rankDescriptions": {
+        "rafayel": {
+            "abysswalker": {
+                "r0": "Starting Effect: The team deals 8% more DMG and takes 8% less DMG. Abysswalker`s [Deepsea Pursuit] gains 30% additional [CRIT DMG].",
+                "r1": "Boosts [Ardent Oath] charge by 20%. When fighting together with Abysswalker, increases DMG taken of enemies inflicted with [Burn] by 20%.",
+                "r2": "Energy Charge limit is raised by 1. When triggering [Potential] recovery, Energy Charge recovery speed is increased by 50% for 4s.",
+                "r3": "The team deals 8% more DMG. Abysswalker`s [Searing Slash] deals 150% more DMG. When triggering [Beacon], additionally restore 1 [Potential]."
+            },
+            "god_of_the_tides": {
+                "r0": "Starting Effect: The team deals 8% more DMG and takes 8% less DMG. When fighting near a [Sea Spirit], [CRIT DMG] is increased by 10%.",
+                "r1": "Increases [Ardent Oath] charge by 20%. The [Sea Spirit] starts at Lv. 2 and its duration is extended by 5 seconds.",
+                "r2": "Energy Charge limit is raised by 1. During [Heavenly Rain], Energy Charge recovery speed is increased by 30%.",
+                "r3": "The team deals 8% more DMG. [Surging Tides] restores 30% [Faith] for each enemy hit. This effect can trigger at most 3 times during Surging Tides."
+            },
+            "lemurian_sea_god": {
+                "r0": "基礎効果 : 追加で味方全体の敵に与えるダメージ＋8%、被ダメージ−8%。あなたの通常攻撃が命中すると、『[Sea God Mark]』のクールタイムが0.8秒短縮される 。 この効果は攻するたびに1回のみ発動する。『[Lightning Tide]』が弱体状態の敵に命中すると、敵の弱体状態の持 続時間が0.5秒延長される。この効果は敵1体につき最大2回まで発動する。",
+                "r1": "2枚ともランク1　: 『[Ardent Oath]』エネルギー回復＋20%。『[Divine Favor]』状態の間、ホムラが断潮載で投郷攻撃を繰り出すと、追加で渦が1つ生成され、範囲内の敵を中心へ引きき寄せ続ける。『[Divine Favor]』状態の間、 戦場にはランダムに雷が落ちて戦闘をサポートする。雷が敵に命中するたび、 攻撃力270＋144%分＋防御力571%分のダメージを与える。",
+                "r2": "2枚ともランク2 : スキルエネルギーの上限＋1。『[Sea God Mark]』のダメージ増効果が追加で50%アップ。『[Divine Favor]』状態の間、あなたは40%のダメージ軽減効果を獲得する。",
+                "r3": "2枚ともランク3　:　追加で味方全体の敵に与えるダメージ＋8%。『[Divine Favor]』状態の間、あなたの通常攻撃が敵に命中すると、[アクティプスキル]のクールタイムが0.5秒短縮される。『[Divine Favor]』状態の間、『[Sea God Mark]』によって強化された重撃が敵に命中すると、追加で『[Lightning Tide]』の70%分のダメージを1回与える。これらの効果は攻撃するたびに1回のみ発動する。"
+            }
+        }
+    }
 }

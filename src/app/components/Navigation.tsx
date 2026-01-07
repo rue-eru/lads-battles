@@ -26,8 +26,7 @@ export default function Navigation() {
                 />
             </Link>
 
-            <div className={`flex items-center gap-10 uppercase sm:tracking-[0.5rem] 
-                ${isRu ? 'sm:tracking-tight' : ''}}`}>
+            <div className="flex items-center gap-10 uppercase lg:tracking-[0.5rem]">
                 <Link href="/" className="hover:text-pink-400">
                     {tLayout("home-btn")}
                 </Link>

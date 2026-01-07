@@ -2,6 +2,7 @@ import { usePathname } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
 import { styles } from "@/app/utils/styles";
+import { useCurrentLanguage } from "@/app/hooks/useCurrentLanguage";
 
 
 export default function SectionNav () {
@@ -10,6 +11,7 @@ export default function SectionNav () {
     const pathname = usePathname();
     const [isCompanionPage, setIsCompanionPage] = useState(false);
     const [isExpanded, setIsExpanded] = useState(false);
+    const {isRu, isEn} = useCurrentLanguage();
 
     const scrollToId = (id: string) => {
         document.getElementById(id)?.scrollIntoView({
@@ -45,6 +47,10 @@ export default function SectionNav () {
         return null
     }
 
+    const ruBtn = isRu ? "uppercase text-[14px] -ml-0.5" : "";
+    const ruLi = isRu? "text-[14px] capitalize!" : "";
+    const enBtn = isEn ? "uppercase text-[12px] -ml-1.5": "";
+
     return(
         <div >
             {/*to a section by #id only opens on http://localhost:3000/en/characters/${character}/${companion}
@@ -56,23 +62,23 @@ export default function SectionNav () {
                             <button
                                 onClick={() => setIsExpanded(true)}
                                 className={styles.floatBtnStyleLetters}
-                            ><p className="text-center uppercase text-[12px] -ml-1">{t('layout.goSectionSM')}</p>
+                            ><p className={`${ruBtn} ${enBtn}`}>{t('layout.goSectionSM')}</p>
                             </button>
                         ) : (
                             <div className={`bg-darkgray flex rounded-2xl ${isExpanded ? "border" : ''}`}>
                                 <button
                                     onClick={() => setIsExpanded(false)}
                                     className={`${styles.floatBtnStyle} ${isExpanded ? "border-none" : ""}`}
-                                ><span className="text-center uppercase text-[12px]">{t('layout.goSectionSM')}</span>
+                                ><span className={`${ruBtn} ${enBtn}`}>{t('layout.goSectionSM')}</span>
                                 </button>
-                                <ul className="text-left list-none list-inside px-4 py-1">
+                                <ul className="text-left list-none list-inside px-4">
                                     {availableSections.map(section => (
-                                        <li className="mb-4 hover:text-pink-400">
+                                        <li className="my-0.5 hover:text-pink-400">
                                             <button
                                                 key={section.id}
                                                 onClick={() => scrollToId(section.id)}
                                             >
-                                                <span className="text-center uppercase text-[12px]">{t(section.labelKey)}</span>
+                                                <span className={`text-center uppercase text-[12px] ${ruLi}`}>{t(section.labelKey)}</span>
                                             </button>
                                         </li>
                                     ))}
