@@ -1,3 +1,176 @@
 {
-    
+    "general": {
+        "header": "ゲームプレイ",
+        "no-data": "no guide available",
+        "standard_conclusion": "Standard Companion's gameplay is pretty straightforward: you utilise his skills to get buffs while adapting your gameplay based on the standard weapon you have chosen.",
+        "standard_rotation": "Your rotation will go like: "
+    },
+    "rafayel": {
+        "artist": {
+            "paragraph": 
+                "[Resonance Skill] and [Support Skill] create a [Scarlet Shade] and [Flame Lily] which inflict burn for 5s. After consuming 10 [Flame Lilies] Rafayel gets an ATK buff for 10s and additionally his attack range is also increased. To create more [Flame Lilies] and trigger the [Passive Skill] faster you can use a high speed weapon like [Hunter Firearm]."
+            ,
+            "images": {
+                "flame_lily": {
+                    "alt": "Flame Lily display on the field",
+                    "caption": "Flame Lilies summoned by Rafayel"
+                },
+                "scarlet_shade": {
+                    "alt": "Scarlet Shade on the field",
+                    "caption": "Scarlet shade left by Rafayel's Support Skill leaves Burn on exit"
+                }
+            },
+            "summary": "Collect [Flame Lily] ⇨ Get ATK buff + range increase"
+
+        },
+        "fresh_paint": {
+            "summary": "Detonate [Tinctus] for DEF reduction + healing",
+            "paragraph": 
+                "[Charge Attack] and [Support Skill] inflict [Tinctus] stacking it up to 5 times. [Active Skill], [Resonance Skill] or [Ardent Oath]  detonate them, dealing ATK DMG based on the number of stacks and restore HP to both of you. Detonation of 5 stacks reduce enemy's DEF by 20% for 5s. To inflict more [Tinctus] use high speed weapon like [Hunter Firearm].",
+            "images": {
+                "tinctus": {
+                    "alt": "Tinctus on enemies",
+                    "caption": "Tinctus inflicted on the enemies"
+                }
+            }
+        },
+        "phantom_of_the_siren": {
+            "summary": "[Echo] ⇨ Increase damage taken + [DoT]",
+            "paragraph":
+                "[Support Skill] leaves behind [Reprise] which reduces enemies movement speed by 50% for 5s. Using [Support Skill] after a [Passive Skill] leaves [Echo] which increases the DMG dealt to enemies by 10% for 5s. To utilise it faster using high speed weapon like [Hunter Firearm].",
+            "images": {
+                "echo": {
+                    "alt": "Echo circle on the field",
+                    "caption": "Echo circle caused by Rafayel's Passive Skill + Support Skill"
+                }
+
+            }
+        },
+        "abysswalker": {
+
+            "paragraph_1": "Abysswalker has a special skill called [Potential]. It requires 6 stacks.  You can find it under the HP bar.",
+            "paragraph_2": "You can collect those by using a [Charge Attack] when you see a [Beacon] on the enemy or by collecting a [Fishtail Beacon] that appears after using a [Support Skill]:",
+            "paragraph_3": "Triggering [Potential] on collection of all 6 stacks consumes them and increases CRIT Rate by 15% for 5s and allows Rafayel to deal big DMG on an enemy.",
+            "paragraph_4": "You can also see buffs being applied on your [MC] above your HP bar and his buffs near his icon:",
+            "paragraph_5": "For Abysswalker there's no actual rotation but in a nutshell:",
+            "li_1": "perform [Basic Attack]s for buffs",
+            "li_2": "upon seeing [Fishtail Beacon] use [Charged Attack]",
+            "li_3": "on [Support Skill] wait for [Beacon] to collect",
+            "li_4": "use [Resonance Skill] to pull enemies (and break the shield)",
+
+            "images": {
+                "beacon": {
+                    "alt": "Beacon indicator",
+                    "caption": "Beacon indicator on an enemy"
+                },
+                "fishtail_beacon": {
+                    "alt": "Fishtail Beacon indicator",
+                    "caption": "Fishtail Beacon left by Rafayel"
+                },
+                "potential_stacks": {
+                    "alt": "Potential indicator at 0",
+                    "caption": "Potential stack bar is located right under your HP bar"
+                }, 
+                "potential_trigger_performance": {
+                    "alt": "Rafayel stricking at full Potential",
+                    "caption": "After collecting 6 stacks of Potential Rafayel will perform big strike on an enemy"
+                },
+                "rafayel_buffs": {
+                    "alt": "Buffs indicators on Rafayel",
+                    "caption": "Buffs gotten from skills for Rafayel are displayed next to his icon"
+                },
+                "my_buffs": {
+                    "alt": "Buff indicators on MC",
+                    "caption": "Buffs gotten from skills for MC are displayed above your HP bar"
+                }
+            }
+
+        },
+        "god_of_the_tides": {
+            "paragraph_1": "潮汐の神を使った戦闘での主な目標は以下の2点です：",
+            "li_1": "[Faith]を溜める: [MC]、ホムラ、[Sea Spirit]で攻撃する",
+            "li_2": "[Faith]満タンで[Heavenly Rain]を発動 (+30%ダメージ、[Sea Spirit]のレベルアップ)",
+            "paragraph_2": "基本的なローテーションに含めるべき行動：",
+            "li_3": "[Active Skill] (CR率上昇の[Tidal Field]を設置し、その中に留まる)",
+            "li_4": "[Basic Attack] ＋ [Support Skill] ＋ [Perfect Dodge] ([Sea Spirit]をできるだけ多く召喚し、[Faith]を回復するため)",
+            "li_5": "[Heavenly Rain]中に[Resonance Skill]と[Ardent Oath]を使用",
+            "paragraph_3": "メインのダメージ源である[Resonance Skill]と[Ardent Oath]は、敵のシールド（共鳴スキルでのみ破壊可能）とタイミングを合わせることを意識しましょう。各種バフの状態は、自身のHPバーの上とホムラのアイコンの近くで常に確認できます。",
+            "paragraph_4": "[Sea Spirit]にはレベルが3段階あり、[Passive Skill]とランク1効果で上昇できます：",
+            "li_6": "攻撃力と最大HPに基づくダメージを与える。",
+            "li_7": "攻撃速度が20%上昇する。",
+            "li_8": "与ダメージが25%上昇する。",
+
+
+            "images": {
+                "seaspirit": {
+                    "alt": "フィールド上の海霊",
+                    "caption": "ホムラの協力スキルと[Perfect Dodge]で召喚された海霊"
+                },
+                "faith": {
+                    "alt": "信仰ゲージ",
+                    "caption": "信仰ゲージは自身のHPバーの下に表示されます。"
+                },
+                "rafayel_buffs": {
+                    "alt": "ホムラにかかっているバフ表示",
+                    "caption": "ホムラが受けているスキルバフは、そのアイコンの近くに表示されます。"
+                },
+                "mc_buffs": {
+                    "alt": "MCにかかっているバフ表示",
+                    "caption": "MCが受けているスキルバフは、HPバーの上に表示されます。"            
+                },
+                "heavenly_rain" :{
+                    "alt": "海の慈雨発動時の演出",
+                    "caption": "信仰ゲージが満タンになると雨が降り、バフが発動したことがわかります。"
+                },
+                "tidal_field": {
+                    "alt": "潮汐の力場の演出",
+                    "caption": "アクティブスキルで生成される潮汐の力場。中に留まることでバフを獲得できます。"
+                }
+            }
+        },
+        "lemurian_sea_god": {
+
+            "paragraph_1": "リモリアの海神は最初は複雑に見えますが、ローテーションは比較的単純で、ランクが上がるほど洗練されていきます。",
+            "paragraph_2": "戦闘の核は[Sea God Mark]と[Divine Favor]状態です。[Sea God Mark]で強化された[Charged Attack]が敵に命中すると、[Support Skill]のスキルCD が1.5秒短縮されます。",
+            "paragraph_3": "基本的に「通常状態」と「[Divine Favor]状態」の2つがあり、[Ocean's Descent]ゲージを満タンにすることで切り替わります。ゲージの左側（波紋）は、自身の[Basic Attack]と[Active Skill]で溜まります。右側（怒涛）は、ホムラの[Support Skill]のアイコンをタップするか、[Perfect Dodge]を成功させることでより早く溜めることができます。",
+            "paragraph_4": "[Ocean's Descent]ゲージが満タンになると専用ボタンが出現します。発動すると11秒間[Divine Favor]状態になります。この状態中、ホムラは戦場に雷を落とし、あなたが主役となります！",
+            "paragraph_5": "[Divine Favor]状態中に[Sea God Mark]を消費すると、攻撃が大きく強化されます。さらに、[Active Skill]を使用すると[Lightning Crystal]が生成されます。[Lightning Crystal]の中へ回避することでこれを起爆させ、大ダメージを与え、スキルエネルギーを0.3回復し、[Active Skill]のスキルCDを3.3秒短縮できます！状態終了時、まだ[Lightning Crystal]が残っている場合、それは自動的に起爆します。",
+            "paragraph_6": "通常、[Divine Favor]状態中にこのローテーションを3回行えます。ランクによっては4回まで可能です！",
+            "paragraph_7": "全体の基本的なローテーションは以下のようになります：",
+
+            "ul_li_1": "[Resonance Skill]発動 ＋ MCの[Basic Attack]と[Active Skill]でゲージを溜める（状態切り替え直前に[Sea God Mark]を消費しないよう注意 ＋ ホムラの[Support Skill] ＋ [Resonance Skill] ⇨",
+            "ul_li_2": "[Divine Favor]状態を発動 ⇨",
+            "ul_li_3": "[Sea God Mark]を消費した[Charged Attack] ＋ [Active Skill]で[Lightning Crystal]生成 ＋ その中へ回避（状態終了まで繰り返し）⇨",
+            "ul_li_4": "この一連の流れを繰り返す ↺",
+
+
+            "paragraph_8": "[Sea God Mark]が再チャージされるまでの間は、[Basic Attack]で時間を繋いでください。",
+            "images": {
+                "lightning_crystal": {
+                    "alt": "神の養属状態中にアクティブスキルで出現する雷晶",
+                    "caption": "神の養属状態中にアクティブスキルを使用すると出現する雷晶。中へ回避することで広範囲大ダメージを発生させる。"
+                },
+                "buffs": {
+                    "alt": "バフ状態のアイコン一覧",
+                    "caption": "自身にかかっているバフ。特に一番左の海神の印に注意。"
+                },
+                "oceans_descent_bar_inactive":{
+                    "alt": "非アクティブ時の海溝の降臨ゲージ",
+                    "caption": "海溝の降臨ゲージはHPバーの下に表示されます。"
+                },
+                "oceans_descent_bar_at_full": {
+                    "alt": "満タン時の海溝の降臨ゲージ",
+                    "caption": "ゲージが満タンになると、神の養属状態への切り替えボタンが出現します。"
+                },
+                "oceans_descent_bar_active": {
+                    "alt":  "発動中の海溝の降臨ゲージ（神の養属状態）",
+                    "caption": "発動後は神の養属状態へ移行し、ゲージが時間と共に減少しながら、自身とホムラを強化します。"
+                },
+                "state_activation": {
+                    "alt": "神の養属状態への切り替え",
+                    "caption": "海溝の降臨ゲージが満タンになると、専用ボタンを押すことで神の養属状態へ切り替わります。この状態中、ホムラは戦場に雷を落とし、あなたは強化されます。"
+                }
+            }
+        }
+    }
 }

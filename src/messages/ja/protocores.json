@@ -1,24 +1,24 @@
 {
         "header": "コア",
-        "stellacrtumMatchInfo": "If the card [Stellactrum Match] is on full the stage's requirments use protocores with the main stat as [DMG Boost to Weakened] or [Oath Recovery Boost], otherwise [CRIT DMG], [CRIT Rate]  and [Expedited Energy Boost].",
-        "introSolar": "Sometimes 5★ companions want slightly different build. For solar pairs β protocore might change depending on the Ranks your have.",
-        "chooseProtocores": "choose protocores based on your needs",
+        "stellacrtumMatchInfo": "カードの「[Stellactrum Match]」が「完全マッチング」の場合は、コアの主属性は「[DMG Boost to Weakened]」または「[Oath Recovery Boost]」を選択してください。「完全マッチング」でない場合は、「[CRIT DMG]」「[CRIT Rate]」「[Expedited Energy Boost]」を優先してください。",
+        "introSolar": "一部の5星パートナーは、少し特殊なビルドを必要とすることがあります。日位カードの「β」コアは、所有するランクによって最適な選択が変わる場合があります。",
+        "chooseProtocores": "目的に合わせてコアを選択",
         "substats": "副属性",
         "substatsChoice": {
-            "basic": "For substats priorities protocores with ATK, ATK Bonus, CRIT Rate, CRIT DMG, DMG Boost to Weakened",
+            "basic": "副属性の優先順位： 攻撃力、攻撃力バフ、CR率、CR攻撃、対弱体攻撃。",
             "solar": {
-                "intro": "For substats priorities protocores with ",
-                "abysswalker": "ATK, ATK Bonus, CRIT Rate, CRIT DMG, DMG Boost to Weakened",
-                "god_of_the_tides": "HP, HP Bonus, CRIT Rate, CRIT DMG, DMG Boost to Weakened",
-                "lemurian_sea_god": "DEF, DEF Bonus, CRIT Rate, CRIT DMG, DMG Boost to Weakened"
+                "intro": "副属性の優先順位：",
+                "abysswalker": "攻撃力、攻撃力バフ、CR率、CR攻撃, 対弱体攻撃。",
+                "god_of_the_tides": "HP、HPバフ、CR率、CR攻撃, 対弱体攻撃。",
+                "lemurian_sea_god": "防御力、防御力バフ、CR率、CR攻撃、対弱体攻撃。"
             }
         },
-        "solarCardsInfo": "Solar cards use [α] and [β] protocores. [α] has a fixed main HP stat while [β]'s main stat derives.",
-        "lunarCardsInfo": "Lunar cards use [γ] and [δ] protocores. [γ] has a fixed main ATK stat while [δ]'s main stat derives.",
-        "critBuildsInfo": "For crit builds don't forget to check your [CRIT Rate] before entering the stage. For comfortable ratio aim for 60-80% [CRIT Rate]. Remember your [CRIT DMG] doesn't matter if you do not utilize it.",
-        "OathInfo": "Usually your companion will be able to use [Ardent Oath] once during the battle. To use it twice use [Oath Recovery Boost] for β protocore.",
-        "energyInfo": "[Active Skill] and [Resonance Skill] require special energy ◆, to regenerate it faster use [Expedited Energy Boost] for β protocore.",
-        "energyNB": "depends on your companion ranks",
+        "solarCardsInfo": "日位カードは「[α]」と「[β]」コアが使用します。「[α]」の主属性は「HP」で固定されていますが、「[β]」の主属性は選択できます。",
+        "lunarCardsInfo": "月位カードは「[γ]」と「[δ]」コアが使用します。「[γ]」の主属性は「攻撃力」で固定されていますが、「[δ]」の主属性は選択できます。",
+        "critBuildsInfo": "クリティカルビルドは、戦闘前に自身の[CRIT Rate]を必ず確認してください。快適なゲームプレイのために60〜80%の[CRIT Rate]を目安にしましょう。クリティカル率が低いと[CRIT DMG]の数値が高くても意味がありません。",
+        "OathInfo": "通常、戦闘中に[Ardent Oath]を使用できるのは1回ですが、2回使用したい場合は「[β]」コアの[Oath Recovery Boost]を選択してください。",
+        "energyInfo": "[Active Skill]と[Resonance Skill]は専用エネルギー「◆」を消費します。回復速度を上げたい場合は、「[β]」コアの「[Expedited Energy Boost]」を選択してください。",
+        "energyNB": "パートナーのランクによって効果が異なります。",
         "ProtocoreType": {
             "Solar": "日位",
             "Lunar": "月位"

@@ -1,15 +1,15 @@
 {
     "basic_attack": {
         "descriptionKey": "Basic Attack varies based on a weapon choice.",
-        "labelKey": "Basic Attack"
+        "labelKey": "通常攻撃"
     },
     "active_skill": {
         "descriptionKey": "Active Skill varies based on a weapon choice.",
-        "labelKey": "Active Skill"
+        "labelKey": "アクティブスキル"
     },
     "passive_skill": {
         "descriptionKey": "Your MC and Him each have their own Passive Skill",
-        "labelKey": "Passive Skill"
+        "labelKey": "パッシブスキル"
     },
     "support_skill": {
         "descriptionKey": "Click to check his Support Skill for that companion",
@@ -17,11 +17,11 @@
     },
     "resonance_skill": {
         "descriptionKey": "Click to check specifics of Resonance Skill for that companion",
-        "labelKey": "Resonance Skill"
+        "labelKey": "共鳴スキル"
     },
     "ardent_oath": {
         "descriptionKey": "Click to check specifics of Ardent Oath for that companion. Oath is your Ultimate Ability.",
-        "labelKey": "置約スキル"
+        "labelKey": "誓約スキル"
     },
     "perfect_dodge": {
         "descriptionKey": "You can trigger it when dodging right before the enemy attacks you. It activates Support Skill even if its cooldown is not up yet.",
@@ -29,27 +29,27 @@
     },
     "oath_recovery": {
         "descriptionKey": "A β Protocore that fastens your ultimate recovery(Oath). Can make you use your Oath two times during the battle instead of one",
-        "labelKey": "Oath Recovery Boost"
+        "labelKey": "約回復増"
     },
     "expedited_energy": {
         "descriptionKey": "A β Protocore that fastens your special energy ◆ recovery. The faster you regenerate them the faster you will be able to use your Resonance Skill and Active Skill again.",
-        "labelKey": "Expedited Energy Boost"
+        "labelKey": "エネルギー回復増"
     },
     "dmg_to_weakened": {
         "descriptionKey": "A δ Protocore that boosts damage taken on weakened enemies, i.e. enemies with broken shields.",
-        "labelKey": "DMG Boost to Weakened"
+        "labelKey": "対弱体攻撃"
     },
     "crit_dmg": {
-        "descriptionKey": "A δ Protocore that increases your CRIT DMG. It is used to multiply your damage on finale CRIT DMG number percentage. It will apply if you 'crit' i.e. your CRIT Rate is enough to happen.",
-        "labelKey": "CRIT DMG"
+        "descriptionKey": "A δ Protocore that increases your CRIT DMG. It is used to multiply your damage on finale CRIT DMG number percentage. It will apply if you 'crit' i.e. your CRIT Rate is enough to happen.クリティカル攻撃",
+        "labelKey": "CR攻撃"
     },
     "crit_rate": {
         "descriptionKey": "A δ Protocore that increases your CRIT Rate. It shows the ratio of possible crit multiply. E.g. 50% means there is 1 out of 2 chances to multiply your damage by CRIT DMG you have.",
-        "labelKey": "CRIT Rate"
+        "labelKey": "CR率"
     },
     "stellactrum_match": {
-        "descriptionKey": "Each card has its color. On each stage there's a color requirment. When you match all the colors, your Resonance Skill will be able to destroy 2 layers of enemy's shield instead of 1.",
-        "labelKey": "Stellactrum Match"
+        "descriptionKey": "Each card has its color. On each stage there's a color requirment. When you match all the colors, your Resonance Skill will be able to destroy 2 layers of enemy's shield instead of 1 磁場星譜:完全マッチング.",
+        "labelKey": "磁場星譜"
     },
     "mc": {
         "descriptionKey": "Main Character, in other words, You!",
@@ -116,62 +116,66 @@
     },
     "potential": {
         "descriptionKey": "Abysswalker's special ability. It has 6 stacks, check them under MC's HP bar.",
-        "labelKey": "Potential"
+        "labelKey": "潜在工ネルギー"
     },
     "beacon": {
         "descriptionKey": "Abysswalker's special ability. It is a part of his Passive Skill. Restores 1 Potential",
-        "labelKey": "Beacon"
+        "labelKey": "しるべ"
+    },
+    "burn": {
+        "descriptionKey": "",
+        "labelKey":"火傷"
     },
     "deepsea_pursuit": {
         "descriptionKey": "CRIT Rate buff that appears at full Potential stacks.",
-        "labelKey": "Deepsea Pursuit"
+        "labelKey": "深海の追撃"
     },
     "searing_slash": {
         "descriptionKey": "Rafayel's special attack that is triggered at full Potential stacks.",
-        "labelKey": "Searing Slash"
+        "labelKey": "強力斬撃"
     },
     "sea_spirit": {
-        "descriptionKey": "God Of The Tides' special ability. Both his and your Passive Skills summon them. It has 3 levels.",
-        "labelKey": "Sea Spirit"
+        "descriptionKey": "潮汐の神固有の特殊召喚物です。ホムラとMCのパッシブスキルで召喚でき、レベルが3段階存在します。",
+        "labelKey": "海霊"
     },
     "sea_spirits": {
-        "labelKey": "Sea Spirits"
+        "labelKey": "海霊"
     },
     "heavenly_rain": {
-        "descriptionKey": "God Of The Tides' special ability. Triggers at full Faith and provides buffs.",
-        "labelKey": "Heavenly Rain"
+        "descriptionKey": "潮汐の神固有の特殊効果です。信仰ゲージが満タンになると発動し、味方の与ダメージを30%増加させ、全ての海霊のレベルを1上昇させます。",
+        "labelKey": "海の慈雨"
     },
     "faith": {
-        "descriptionKey": "God Of The Tides' special ability. It is located under MC's HP bar. Hits from you, Rafayel and Sea Spirits fill it up.",
-        "labelKey": "Faith"
+        "descriptionKey": "潮汐の神固有のゲージです。MCのHPバーの下に表示されます。自身、ホムラ、海霊の攻撃が命中することで溜まります。",
+        "labelKey": "信仰"
     },
     "tidal_field": {
-        "descriptionKey": "God Of The Tides' special ability. It can be triggered by Active Skill and provides buffs by staying inside of it",
-        "labelKey": "Tidal Field"
+        "descriptionKey": "潮汐の神固有のフィールド効果です。アクティブスキル「潮汐」で生成され、その中にいることで会心率が上昇する潮汐の力を獲得できます。",
+        "labelKey": "潮汐の力場"
     },
     "surging_tides": {
-        "descriptionKey": "God Of The Tides' Resonance Skill. Click to learn more.",
-        "labelKey": "Surging Tides"
+        "descriptionKey": "潮汐の神の共鳴スキルです。ホムラと共に大波を起こし、攻撃力と最大HPに基づくダメージを与えます。",
+        "labelKey": "押し寄せる波"
     },
     "sea_god_mark": {
-        "descriptionKey": "Lemurian Sea God's special ability. It recharges over time. Charge Attack can consume it empowering your attack, especially in Divine Favor.",
+        "descriptionKey": "リモリアの海神固有の特殊バフです。時間経過で再チャージされ、重撃で消費してダメージを強化できます。「神の眷属」状態中は特に強力です。",
         "labelKey": "海神の印"
     },
     "ocean_descent": {
-        "descriptionKey": "Lemurian Sea God's special ability. It is located under MC's HP bar. Your attacks fill left part of it, while Rafayel's Passive Skill left part.",
-        "labelKey": "Ocean's Descent"
+        "descriptionKey": "リモリアの海神固有の特殊バフです。HPバーの下にある専用ゲージです。自身の攻撃で左側を、ホムラのパッシブスキルで右側を溜めます。満タンで「神の眷属」状態へ移行できます。",
+        "labelKey": "海溝の降臨"
     },
     "divine_favor": {
-        "descriptionKey": "Lemurian Sea God's special ability. You can activate it by reaching full Ocean's Descent and pressing the appeared button. In that state consuming the Sea God Mark does more damage, on Active Skill Lightning Crystal will appear on the field, dodge in it to do AoE DMG.",
+        "descriptionKey": "リモリアの海神の強力な強化状態です。「海溝の降臨」ゲージ満タンで発動でき、「海神の印」とアクティブスキルが強化され、「雷晶」を生成します。",
         "labelKey": "神の養属"
     },
     "lightning_tide": {
-        "descriptionKey": "Damage explosure after triggering Lightning Crystal in Divine Favor state.",
-        "labelKey": "潮"
+        "descriptionKey": "「神の眷属」状態中に「雷晶」を起爆させると発生する追加ダメージ効果です。",
+        "labelKey": "雷潮"
     },
     "lightning_crystal": {
-        "descriptionKey": "Lemurian Sea God's special ability. When using Active Skill in Divine Favor a ball will appear, dodge in it to activate.", 
-        "labelKey": "Lightning Crystal"
+        "descriptionKey": "リモリアの海神固有の特殊バフです。「神の眷属」状態中にアクティブスキルを使うと出現する特殊オブジェクトです。中へ回避することで起爆し、範囲ダメージとエネルギー回復をもたらします。", 
+        "labelKey": "雷晶"
     },
     "hunters_intention": {
         "descriptionKey": "Hunter Sword's Passive Skill. Provides ATK buff",

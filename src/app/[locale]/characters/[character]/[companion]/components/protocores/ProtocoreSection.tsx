@@ -15,7 +15,7 @@ export default function ProtocoreSection ({character, companion}: CharaDataProps
 
     const t = useTranslations('protocores');
 
-    const { isRu } = useCurrentLanguage();
+    const { isRu, isJa } = useCurrentLanguage();
 
 
     return (
@@ -50,14 +50,14 @@ export default function ProtocoreSection ({character, companion}: CharaDataProps
                     </li>
                     <li className="pl-2"> 
                         <TextRenderer>{t('OathInfo')}</TextRenderer>
-                        *
+                        {isJa ? "※": "*"}
                     </li>
                     <li className="pl-2"> 
                         <TextRenderer>{t('energyInfo')}</TextRenderer>
-                        *
+                        {isJa ? "※": "*"}
                     </li>
             </ul>
-            <p className="-mt-8 text-right w-full italic">* {t('energyNB')}</p>
+            <p className="-mt-8 text-right w-full italic">{isJa ? "※ ": "* "}{t('energyNB')}</p>
 
             <span>                        
                 <TextRenderer>{t('stellacrtumMatchInfo')}</TextRenderer>

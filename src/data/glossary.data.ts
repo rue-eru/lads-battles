@@ -178,6 +178,11 @@ export const GLOSSARY: Record<string, GlossaryTermProps> = {
         description: 'beacon.descriptionKey',  
         link: "#hisPassiveSkill"                  
     },
+    "Burn": {
+        key: "Burn",
+        label: 'burn.labelKey',
+        description: 'burn.descriptionKey',  
+    },
     "Deepsea Pursuit": {
         key: "Deepsea Pursuit",
         label: 'deepsea_pursuit.labelKey',

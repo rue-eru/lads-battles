@@ -122,6 +122,10 @@
         "descriptionKey": "Abysswalker's special ability. It is a part of his Passive Skill. Restores 1 Potential",
         "labelKey": "Beacon"
     },
+    "burn" : {
+        "description": "",
+        "labelKey": "Burn"
+    },
     "deepsea_pursuit": {
         "descriptionKey": "CRIT Rate buff that appears at full Potential stacks.",
         "labelKey": "Deepsea Pursuit"

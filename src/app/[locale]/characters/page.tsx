@@ -1,9 +1,11 @@
 import { useTranslations } from 'next-intl';
 import CharacterList from "@/app/components/CharacterList";
 import { styles } from "@/app/utils/styles";
+import { useCurrentLanguage } from '@/app/hooks/useCurrentLanguage';
 
 export default function CharactersPage () {
         const t = useTranslations('layout');
+        const {isJa} = useCurrentLanguage();
     
     return (
         <div className={styles.pagelayout}>
@@ -16,7 +18,7 @@ export default function CharactersPage () {
                         <CharacterList />
                     </div>
                     <hr className={styles.divider}></hr>
-                    <span className='-mt-4'>*{t("NB")}</span>
+                    <span className='-mt-4'>{isJa ? "※" : "*"}{t("NB")}</span>
                 </div>
             </div>
         </div>
