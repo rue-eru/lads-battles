@@ -2,7 +2,7 @@
     "header": "スキルと武器",
     "hisSection": {
         "header": "パートナースキル",
-        "no-data": "このパートナーのスキルデータはないです。",
+        "no-data": "このパートナーのスキルデータはありません。",
         "support_skill": "協力スキル",
         "resonance_skill": "共鳴スキル",
         "ardent_oath": "誓約スキル",
@@ -11,107 +11,107 @@
     },
     "mySection": {
         "header": "武器スキル",
-        "intro": "5★ companion’s [MC] has her own special weapon. You can always switch to standard weapons but you can’t wield other companion's exclusive weapon.",
+        "intro": "5星パートナーの[MC]には専用の武器があります。常にスタンダード武器に切り替えることは可能ですが、他のパートナーの専用武器を装備することはできません。",
         "exclusive_weapon": "の専用武器",
-        "no-data": "このパートナーのスキルデータはないです。",
+        "no-data": "このパートナーの武器スキルデータはありません。",
         "basic_attack": "通常攻撃",
         "active_skill": "アクティブスキル",
         "passive_skill":"パッシブスキル",
-        "not_limited_companion_warning": "No exlusive weapons are available for standard companions. You can only use Standard Hunter series."
+        "not_limited_companion_warning": "スタンダードパートナーには専用武器がありません。ハンターシリーズのスタンダード武器のみ使用可能です。"
     },
     "general": {
         "cooldown": "スキルCD",
         "seconds": "s",
         "cost": "消費",
         "skill_NB": {
-            "resonance_skill": "Only that skill helps you to  destroy enemy’s shields. On full Stellactrum Match destroys 2 layers of the shield.",
-            "ardent_oath":"Usually you can use it once during a battle, use [Oath Recovery Boost] protocore to utilize it twice."
+            "resonance_skill": "敵のシールドを破壊できるのはこのスキルのみです。[Stellactrum Match]は「完全マッチング」時はシールドを2層破壊します。",
+            "ardent_oath": "通常、戦闘中に1回しか使用できませんが、[Oath Recovery Boost]プロトコアを使用することで2回の使用が可能になります。"
         }
     },
     "our_skills": {
         "rafayel": {
             "artist": {
                 "support_skill": {
-                    "name": "Scarlet Shade",
-                    "description": "Rafayel creates a Scarlet Shade dealing [AoE] DMG and and inflicting Burn. Also leaves 3 [Flame Lilies]. "
+                    "name": "緋影",
+                    "description": "ホムラが後退し、元いた場所に[Scarlet Shade]を生成する。範囲ダメージと[Burn]を付与し、さらに3つの[Flame Lily]を残す。"
                 },
                 "resonance_skill": {
-                    "name": "Scorching",
-                    "description": "You ignite all [Flame Lilies] dealing [AoE] DMG and inflicting Burn. Each of [Flame Lilies] increases your ATK by 5% for 8s."
+                    "name": "灼酷",
+                    "description": "フィールド上の全ての[Flame Lily]に着火し、範囲ダメージと[Burn]を付与する。炎の罠1つにつき自身の攻撃力が5%上昇する（8秒間）。"
                 },
                 "ardent_oath": {
-                    "name": "Searing Motif",
-                    "description": "You and Rafayel do a slash, dealing massive [AoE] DMG based on your combined ATK."
+                    "name":"火焰爆裂",
+                    "description": "ホムラと共に空中から強力な斬撃を行い、自身とホムラの攻撃力に基づく大範囲ダメージを与える。"
                 },
                 "passive_skill": {
-                    "name": "Flowing Flame",
-                    "description": "When you and Rafayel's skills hit enemy, he summons up to 5 [Flame Lilies] dealing [AoE] DMG. When 10 [Flame Lilies] are utilized, Rafayel's [Basic Attack] DMG and attack range are increased."
+                    "name": "流炎",
+                    "description": "自身とホムラのスキルが敵に命中すると、最大5つの[Flame Lily]を召喚する。[Flame Lily]を合計10個消費すると、ホムラの通常攻撃ダメージと攻撃範囲が10秒間強化される。"
                 }
             },
             "fresh_paint": {
                 "support_skill": {
-                    "name": "Swirling Colors",
-                    "description": "Rafayel forces the enemy into the air and kicks them to the ground. Inflicts up to 2 stacks of [Tinctus]."
+                    "name": "原色の螺旋",
+                    "description": "ホムラが敵を空中に飛ばし、地面に蹴りつける。最大2スタックの[Tinctus]を付与する。"
                 },
                 "resonance_skill": {
-                    "name": "Illuminating Strength",
-                    "description": "You and Rafayel perform a series of attacks."
+                    "name": "色彩の力",
+                    "description": "ホムラと共に連続斬撃を繰り出し、攻撃力に基づくダメージを与える。"
                 },
                 "ardent_oath": {
-                    "name": "Dazzling Kaleidoscope",
-                    "description": "You and Rafayel do a slash, dealing massive [AoE] DMG based on your combined ATK. "
+                    "name": "輝く極彩色",
+                    "description": "ホムラと共に空中から強力な斬撃を行い、自身とホムラの攻撃力に基づく大範囲ダメージを与える。"
                 },
                 "passive_skill": {
-                    "name": "Gilded Tinctus",
-                    "description": "Hitting enemies with [Tinctus] by [Active Skill], [Resonance Skill] or [Ardent Oath] will deal DMG to enemies and restore you and him HP. When 5 stacks are detonated, the enemy's DEF will be reduced by 20% for 5s. "
+                    "name": "ゴールドローズ",
+                    "description": "敵に付与された[Tinctus]を[Active Skill]、[Resonance Skill]、[Ardent Oath]で爆発させると、スタック数に応じてダメージを与え、自身とホムラのHPを回復する。5スタックを爆発させると、敵の防御力を20%低下させる（5秒間）。"
                 }
             },
             "phantom_of_the_siren": {
                 "support_skill": {
-                    "name": "Aria",
-                    "description": "Rafayel thrusts forward, dealing [AoE] DMG and reducing enemy's movement speed by 30% for 5s. It leaves behind [Reprise], it deals bigger DMG and reduces enemy's movement speed by 50% for 5s."
+                    "name": "アリア",
+                    "description": "ホムラが前方へ突進し、範囲ダメージを与え、敵の移動速度を30%低下（5秒間）。終了後[Reprise]を残し、より大ダメージを与え移動速度を50%低下（5秒間）。"
                 },
                 "resonance_skill": {
-                    "name": "Concerto",
-                    "description": "You and Rafayel deal ATK DMG. If enemy inflicted by [Echo], they recieve additional ATK DMG."
+                    "name": "協奏曲",
+                    "description": "ホムラと共に突進し、攻撃力に基づくダメージを与える。[Echo]状態の敵には追加ダメージ。"
                 },
                 "ardent_oath": {
-                    "name": "Sonata of Reunions",
-                    "description": "You and Rafayel do a slash, dealing massive [AoE] DMG based on your combined ATK."
+                    "name": "再会曲",
+                    "description": "ホムラと共鳴し、空中へ飛び上がり、自身とホムラの攻撃力に基づく大範囲ダメージを与える。"
                 },
                 "passive_skill": {
-                    "name": "Recitativo",
-                    "description": "When you and Rafayel deal DMG, you will sing Harmony, next time you use [Aria] it will leave [Echo] behind for 5s. It increases the DMG enemies take and additionally they lose HP based on Rafayeal ATK per second."
+                    "name": "レシタティーブ",
+                    "description": "自身とホムラがダメージを与えると[Harmony]が発生し、次の[Support Skill]使用時に[Echo]を5秒間残す。[Echo]内の敵の被ダメージが10%増加し、ホムラの攻撃力に基づく持続ダメージを受ける。"
                 }
             },
             "abysswalker": {
                 "support_skill": {
-                    "name": "Eclipse Rend",
-                    "description": "Click Rafayel's icon when ready, or trigger with [Perfect Dodge]. Leaves [Fishtail Beacon] on a ground restoring 2 Potential on pick • At max [Potential], becomes empowered and Burns enemies"
+                    "name": "月蝕斬り",
+                    "description": "黄色のときにホムラのアイコンをタップ、または[Perfect Dodge]で発動。地面に[Fishtail Beacon]を残し、回収で[Potential]を2回復。[Potential]最大時は強化され、敵に[Burn]を付与する。"
                 },
                 "resonance_skill": {
-                    "name": "Fantasia Shark",
-                    "description": "You and Rafayel pull in enemies with chains. Fantasia Shark bites and burns them after."
+                    "name": "幻海ザメ",
+                    "description": "ホムラと共に鎖で敵を引き寄せた後、幻海ザメが噛みつき[Burn]を付与する。"
                 },
                 "ardent_oath": {
-                    "name": "Four Scourges",
-                    "description": "You and Rafayel do massive DMG based on your combined ATK."
+                    "name": "包囲網",
+                    "description": "ホムラと共にEvolを発動し、自身とホムラの攻撃力に基づく大ダメージを与える。"
                 },
                 "passive_skill": {
-                    "name": "Abyssal Beacon",
-                    "description": "Periodically Rafayel applies [Beacon] on enemies. Hit it with Charged Attack to collect 1 [Potential]."
+                    "name": "深海のしるべ",
+                    "description": "ホムラが敵に定期的に[Beacon]を付与する。重撃で命中させると[Potential]を1回収できる。"
                 },
                 "basic_attack": {
-                    "name": "Abyssal Rapid Fire",
-                    "description": "Wield dual guns for a combo up to 5 hits. Charged Attack will knock back nearby enemies."
+                    "name": "深海速射",
+                    "description": "双銃による最大5段の連続攻撃。重撃は近くの敵をノックバックする。"
                 },
                 "my_passive_skill": {
-                    "name": "Abyssal Shadow",
-                    "description": "Combo Attack provide buffs on each hit up to 5 stacks. 1 stack increases ATK Speed by 4% and CRIT Rate by 2%."
+                    "name": "深海の影",
+                    "description": "通常攻撃が命中するたびに「追撃」スタックが増加（最大5スタック）。1スタックごとに攻撃速度+4%、CR率+2%。"
                 },
                 "active_skill": {
-                    "name": "Oceanic Traversal",
-                    "description": "You perform one big DMG shot from your guns."
+                    "name": "海域貫通",
+                    "description": "双銃による前方一直線の強力な一撃。"
                 }
             },
             "god_of_the_tides": {

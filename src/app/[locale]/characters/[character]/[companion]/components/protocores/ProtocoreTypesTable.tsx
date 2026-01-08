@@ -32,7 +32,7 @@ export default function ProtocoreTypesTable({stellactrum, betaData, deltaData }:
                          width={24}
                          height={24}
                         />
-                        <span className="font-accent">{t('ProtocoreType.Solar')}</span>
+                        <span className={styles.protoTypeTableH1}>{t('ProtocoreType.Solar')}</span>
                     </div>
                 </div>
 
@@ -98,7 +98,7 @@ export default function ProtocoreTypesTable({stellactrum, betaData, deltaData }:
                          width={24}
                          height={24}
                         />
-                        <span>{t('ProtocoreType.Lunar')}</span>
+                        <span className={styles.protoTypeTableH1}>{t('ProtocoreType.Lunar')}</span>
                     </div>
                 </div>
 
@@ -160,93 +160,3 @@ export default function ProtocoreTypesTable({stellactrum, betaData, deltaData }:
         </div>
     )
 }
-
-{/* FIRST APPROACH FOR THAT COMPONENT WITH PURE <TABLE> and NO MAIN STAT LOGIC
-            <table className="w-full min-w-full table-auto">
-
-                first row: headers | Solar cards | Lunar Cards|
-                <thead>
-                    <tr className="text-center">
-                        <th>
-                            <div className={styles.th}>
-                                <Image 
-                                 src="/images/icons/solar_icon.webp"
-                                 alt="Solar"
-                                 width={30}
-                                 height={30}
-                                />
-                                <span className="font-inknut">{t('Solar')}</span>
-                            </div>
-                        </th>
-
-                        <th>
-                            <div className={styles.th}>
-                                <Image 
-                                 src="/images/icons/lunar_icon.webp"
-                                 alt="Lunar"
-                                 width={30}
-                                 height={30}
-                                />
-                                <span className="font-inknut">{t('Lunar')}</span>
-                            </div>
-                        </th>
-                    </tr>
-                </thead>
-
-                 second row: protocore images | alpha | beta | delta | gamma |
-                <tr>
-                    <td className="">
-                        alpha img
-                        <div className={styles.th}>
-                            <Image 
-                                src={`/images/mats/protocores/${displayColor}/alpha.webp`}
-                                alt="Alpha protocore"
-                                width={50}
-                                height={50}
-                                className="object-cover"
-                            />
-                            <span>α</span>
-
-                        </div>
-                        beta img
-                        <div>
-                            <Image 
-                                src={`/images/mats/protocores/${displayColor}/beta.webp`}
-                                alt="Beta protocore"
-                                width={50}
-                                height={50}
-                                className="object-cover"
-                            />
-                            <span>β</span>
-
-                        </div>
-                    </td>
-                    <td>
-                        *gamma img
-                        <div>
-                            <Image 
-                                src={`/images/mats/protocores/${displayColor}/gamma.webp`}
-                                alt="Gamma protocore"
-                                width={50}
-                                height={50}
-                                className="object-cover"
-                            />
-                            <span>γ</span>
-                        </div>
-
-                        *delta img*
-                        <div>
-                            <Image 
-                                src={`/images/mats/protocores/${displayColor}/delta.webp`}
-                                alt="Delta protocore"
-                                width={60}
-                                height={50}
-                                className="object-cover "
-                            />
-                            <span>δ</span>
-
-                        </div>
-                    </td>
-                </tr>
-            </table>
-    */}

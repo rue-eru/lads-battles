@@ -1,87 +1,83 @@
 {
     "general": {
         "header": "ゲームプレイ",
-        "no-data": "no guide available",
-        "standard_conclusion": "Standard Companion's gameplay is pretty straightforward: you utilise his skills to get buffs while adapting your gameplay based on the standard weapon you have chosen.",
-        "standard_rotation": "Your rotation will go like: "
+        "no-data": "ガイドはまだ用意されていません",
+        "standard_conclusion": "スタンダードパートナーのゲームプレイは非常にシンプルです：選択したスタンダード武器に応じた戦い方をしながら、彼のスキルでバフを獲得するのが基本です。",
+        "standard_rotation": "基本的なローテーション："
     },
     "rafayel": {
         "artist": {
-            "paragraph": 
-                "[Resonance Skill] and [Support Skill] create a [Scarlet Shade] and [Flame Lily] which inflict burn for 5s. After consuming 10 [Flame Lilies] Rafayel gets an ATK buff for 10s and additionally his attack range is also increased. To create more [Flame Lilies] and trigger the [Passive Skill] faster you can use a high speed weapon like [Hunter Firearm]."
-            ,
+            "paragraph": "[Resonance Skill]と[Support Skill]は[Scarlet Shade]と[Flame Lily]を生成し、5秒間の[Burn]を付与します。[Flame Lily]を合計10個消費すると、ホムラは10秒間攻撃力バフと攻撃範囲上昇効果を獲得します。より多くの[Flame Lily]を生成し[Passive Skill]を素早く発動させるには、高速武器「[Hunter Firearm]」の使用が有効です。",
             "images": {
                 "flame_lily": {
-                    "alt": "Flame Lily display on the field",
-                    "caption": "Flame Lilies summoned by Rafayel"
+                    "alt": "フィールド上の炎の罠",
+                    "caption": "ホムラが召喚した炎の罠"
                 },
                 "scarlet_shade": {
-                    "alt": "Scarlet Shade on the field",
-                    "caption": "Scarlet shade left by Rafayel's Support Skill leaves Burn on exit"
+                    "alt":"フィールド上の緋影",
+                    "caption": "ホムラの協力スキルで残された緋影（消滅時に火傷を付与）"
                 }
             },
-            "summary": "Collect [Flame Lily] ⇨ Get ATK buff + range increase"
+            "summary": "[Flame Lily]を集める ⇨ 攻撃力上昇＆範囲拡大"
 
         },
         "fresh_paint": {
-            "summary": "Detonate [Tinctus] for DEF reduction + healing",
-            "paragraph": 
-                "[Charge Attack] and [Support Skill] inflict [Tinctus] stacking it up to 5 times. [Active Skill], [Resonance Skill] or [Ardent Oath]  detonate them, dealing ATK DMG based on the number of stacks and restore HP to both of you. Detonation of 5 stacks reduce enemy's DEF by 20% for 5s. To inflict more [Tinctus] use high speed weapon like [Hunter Firearm].",
+            "summary":  "[Tinctus]を爆発させて防御力低下＆回復",
+            "paragraph": "[Charged Attack]と[Support Skill]が[Tinctus]を付与（最大5スタック）。[Active Skill]、[Resonance Skill]、[Ardent Oath]でそれを爆発させ、スタック数に応じたダメージを与え、自身とホムラのHPを回復します。5スタックの爆発は敵の防御力を5秒間20%低下させます。より多くの[Tinctus]を付与するには、高速武器「[Hunter Firearm]」を使用すると効果的です。",
             "images": {
                 "tinctus": {
-                    "alt": "Tinctus on enemies",
-                    "caption": "Tinctus inflicted on the enemies"
+                    "alt": "敵にかかっている薔薇色の印",
+                    "caption": "敵に付与された薔薇色の印"
                 }
             }
         },
         "phantom_of_the_siren": {
-            "summary": "[Echo] ⇨ Increase damage taken + [DoT]",
-            "paragraph":
-                "[Support Skill] leaves behind [Reprise] which reduces enemies movement speed by 50% for 5s. Using [Support Skill] after a [Passive Skill] leaves [Echo] which increases the DMG dealt to enemies by 10% for 5s. To utilise it faster using high speed weapon like [Hunter Firearm].",
+            "summary": "[Echo] ⇨ 被ダメージ増加 ＋ [DoT]",
+            "paragraph": "[Support Skill]は終了後[Reprise]を残し、敵の移動速度を5秒間50%低下させます。[Passive Skill]発動後の[Support Skill]は[Echo]を残し、5秒間敵の被ダメージを10%増加させます。高速武器「[Hunter Firearm]」を使用するとより素早く活用できます。",
             "images": {
                 "echo": {
-                    "alt": "Echo circle on the field",
-                    "caption": "Echo circle caused by Rafayel's Passive Skill + Support Skill"
+                    "alt": "フィールド上のエコー円",
+                    "caption": "ホムラのパッシブスキルと協力スキルで発生するエコー円"
                 }
 
             }
         },
         "abysswalker": {
 
-            "paragraph_1": "Abysswalker has a special skill called [Potential]. It requires 6 stacks.  You can find it under the HP bar.",
-            "paragraph_2": "You can collect those by using a [Charge Attack] when you see a [Beacon] on the enemy or by collecting a [Fishtail Beacon] that appears after using a [Support Skill]:",
-            "paragraph_3": "Triggering [Potential] on collection of all 6 stacks consumes them and increases CRIT Rate by 15% for 5s and allows Rafayel to deal big DMG on an enemy.",
-            "paragraph_4": "You can also see buffs being applied on your [MC] above your HP bar and his buffs near his icon:",
-            "paragraph_5": "For Abysswalker there's no actual rotation but in a nutshell:",
-            "li_1": "perform [Basic Attack]s for buffs",
-            "li_2": "upon seeing [Fishtail Beacon] use [Charged Attack]",
-            "li_3": "on [Support Skill] wait for [Beacon] to collect",
-            "li_4": "use [Resonance Skill] to pull enemies (and break the shield)",
+            "paragraph_1": "深海の潜行者は[Potential]という特殊ゲージを持っています。最大6スタックまで溜まり、HPバーの下で確認できます。",
+            "paragraph_2": "[Potential]は、敵に付与された[Beacon]を重撃で命中させるか、[Support Skill]使用後に出現する[Fishtail Beacon]を回収することで獲得できます:",
+            "paragraph_3":  "6スタック全てを集めて[Potential]を発動すると、それらを消費し、5秒間CR率が15%上昇し、ホムラが敵に大ダメージを与えます。",
+            "paragraph_4": "自身にかかっているバフはHPバーの上、ホムラのバフはそのアイコンの近くで常に確認できます:",
+            "paragraph_5": "深海の潜行者に決まったローテーションはありませんが、基本的な流れは以下の通りです:",
+            "li_1": "バフを付与するために[Basic Attack]を行う",
+            "li_2": "[Fishtail Beacon]を見つけたら、[Charged Attack]を使用して回収",
+            "li_3": "[Support Skill]使用後は、敵に付く[Beacon]を回収するのを待つ",
+            "li_4": "敵を引き寄せ（シールドを破壊）するために[Resonance Skill]を使用",
 
             "images": {
                 "beacon": {
-                    "alt": "Beacon indicator",
-                    "caption": "Beacon indicator on an enemy"
+                    "alt": "敵にかかっているしるべ",
+                    "caption": "敵に付与されたしるべの表示"
                 },
                 "fishtail_beacon": {
-                    "alt": "Fishtail Beacon indicator",
-                    "caption": "Fishtail Beacon left by Rafayel"
+                    "alt": "地面にある尾びれ矢",
+                    "caption": "ホムラが残した尾びれ矢"
                 },
                 "potential_stacks": {
-                    "alt": "Potential indicator at 0",
-                    "caption": "Potential stack bar is located right under your HP bar"
+                    "alt":"潜在エネルギーゲージ（0スタック時）",
+                    "caption": "潜在エネルギースタックのゲージはHPバーの直下にあります"
                 }, 
                 "potential_trigger_performance": {
-                    "alt": "Rafayel stricking at full Potential",
-                    "caption": "After collecting 6 stacks of Potential Rafayel will perform big strike on an enemy"
+                    "alt": "潜在エネルギー満タン時のホムラの一撃",
+                    "caption": "潜在エネルギー6スタックを集めると、ホムラが敵に強力な一撃を放ちます"
                 },
                 "rafayel_buffs": {
-                    "alt": "Buffs indicators on Rafayel",
-                    "caption": "Buffs gotten from skills for Rafayel are displayed next to his icon"
+                    "alt": "ホムラにかかっているバフ表示",
+                    "caption": "ホムラが受けているスキルバフは、そのアイコンの近くに表示されます"
                 },
                 "my_buffs": {
-                    "alt": "Buff indicators on MC",
-                    "caption": "Buffs gotten from skills for MC are displayed above your HP bar"
+                    "alt": "MCにかかっているバフ表示",
+                    "caption": "MCが受けているスキルバフは、HPバーの上に表示されます"
                 }
             }
 

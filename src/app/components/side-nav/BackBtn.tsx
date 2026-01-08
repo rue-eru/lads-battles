@@ -28,7 +28,7 @@ export default function BackBtn () {
                          height={7}
                          className="object-cover"
                      />
-                    <span className="uppercase hidden lg:block">{t('layout.back')}</span>
+                    <span className="uppercase hidden lg:block lg:flex-none">{t('layout.back')}</span>
                 </div>
             </button>
             }        

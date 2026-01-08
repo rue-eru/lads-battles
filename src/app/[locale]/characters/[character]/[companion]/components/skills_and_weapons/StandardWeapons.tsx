@@ -6,11 +6,13 @@ import { useState } from "react";
 import { standardWeaponsData } from "@/app/utils/loaders/weapon-loader";
 import Image from "next/image";
 import { TextRenderer } from "../glossary/TextRenderer";
+import { useCurrentLanguage } from "@/app/hooks/useCurrentLanguage";
 
 export default function StandardWeapons () {
     const tWeapons = useTranslations('weapons');
     const tSkills = useTranslations('skills.mySection')
     const tGeneral = useTranslations('skills.general');
+    const {isRu, isJa} = useCurrentLanguage();
 
     const [expandedWeapon, setExpandedWeapon] = useState<string | null>(null);
 
@@ -50,7 +52,7 @@ export default function StandardWeapons () {
 
                             <div className=" flex justify-center mt-4">
 
-                                <div className="relative flex justify-center w-5">
+                                <div className={`relative flex justify-center ${isJa ? "w-20": "w-5"}`}>
                                     <p
                                         className={
                                             expandedWeapon === weaponId
@@ -148,8 +150,8 @@ export default function StandardWeapons () {
                                                 {tSkills('active_skill')}
                                             </span>
 
-                                            {weaponData.skills.active_skill.cooldown && <span className={styles.skillsGrayubble}>{tGeneral("cooldown")} {weaponData.skills.active_skill.cooldown}{tGeneral("seconds")}</span>}
-                                            {weaponData.skills.active_skill.cost && <span className={styles.skillsGrayubble}>{tGeneral("cost")} {weaponData.skills.active_skill.cost} ◆</span>}
+                                            {weaponData.skills.active_skill.cooldown && <span className={`${styles.skillsGrayubble} ${isRu ? "lowercase" : ""}`}>{tGeneral("cooldown")} {weaponData.skills.active_skill.cooldown}{tGeneral("seconds")}</span>}
+                                            {weaponData.skills.active_skill.cost && <span className={`${styles.skillsGrayubble} ${isRu ? "lowercase" : ""}`}>{tGeneral("cost")} {weaponData.skills.active_skill.cost} ◆</span>}
 
                                         </div>
                                         <p>

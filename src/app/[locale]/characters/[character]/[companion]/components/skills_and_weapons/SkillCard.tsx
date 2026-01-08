@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { styles } from "@/app/utils/styles";
 import { TextRenderer } from "../glossary/TextRenderer";
+import { useCurrentLanguage } from "@/app/hooks/useCurrentLanguage";
 
 
 export default function SkillCard ({
@@ -17,6 +18,7 @@ export default function SkillCard ({
 
     const t = useTranslations();
     const tGeneral = useTranslations('skills.general');
+    const {isRu} = useCurrentLanguage();
 
     const hasNB = () => {
         if (nameKey?.includes('.resonance_skill.')) return 'resonance_skill';
@@ -49,8 +51,8 @@ export default function SkillCard ({
                     <h3>{t(nameKey)}</h3>
                     {/*label as type of skill eg support skill*/}
                     <span className={styles.skillsPinkBubble}>{label}</span>
-                    {cooldown && <span className={styles.skillsGrayubble}>{tGeneral("cooldown")} {cooldown}{tGeneral("seconds")}</span>}
-                    {cost && <span className={styles.skillsGrayubble}>{tGeneral("cost")} {cost} ◆</span>}
+                    {cooldown && <span className={`${styles.skillsGrayubble} ${isRu ? "lowercase" : ""}`}>{tGeneral("cooldown")} {cooldown}{tGeneral("seconds")}</span>}
+                    {cost && <span className={`${styles.skillsGrayubble} ${isRu ? "lowercase" : ""}`}>{tGeneral("cost")} {cost} ◆</span>}
                 </div>
                 {/*skill description part*/}
                 <div className="">
