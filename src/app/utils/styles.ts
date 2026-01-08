@@ -25,6 +25,7 @@ export const styles = {
     colStyle: `space-y-6 flex-1 font-accent my-8`,
     ulStatsStyle: `space-y-1 list-none pl-0  overflow-hidden `,
     statHoverStyle: `hover:underline hover:dotted-yellow-100 text-left`,
+    protoTypeTableH1: `font-accent`,
 
     //skills
     h1Skills: `font-accent text-xl mb-6`,

@@ -11,7 +11,7 @@ export default function SectionNav () {
     const pathname = usePathname();
     const [isCompanionPage, setIsCompanionPage] = useState(false);
     const [isExpanded, setIsExpanded] = useState(false);
-    const {isRu, isEn} = useCurrentLanguage();
+    const {isRu, isEn, isJa} = useCurrentLanguage();
 
     const scrollToId = (id: string) => {
         document.getElementById(id)?.scrollIntoView({
@@ -50,6 +50,7 @@ export default function SectionNav () {
     const ruBtn = isRu ? "uppercase text-[14px] -ml-0.5" : "";
     const ruLi = isRu? "text-[14px] capitalize!" : "";
     const enBtn = isEn ? "uppercase text-[12px] -ml-1.5": "";
+    const jaBtn = isJa ? "-ml-1.5" : "";
 
     return(
         <div >
@@ -62,14 +63,14 @@ export default function SectionNav () {
                             <button
                                 onClick={() => setIsExpanded(true)}
                                 className={styles.floatBtnStyleLetters}
-                            ><p className={`${ruBtn} ${enBtn}`}>{t('layout.goSectionSM')}</p>
+                            ><p className={`${ruBtn} ${enBtn} ${jaBtn}`}>{t('layout.goSectionSM')}</p>
                             </button>
                         ) : (
                             <div className={`bg-darkgray flex rounded-2xl ${isExpanded ? "border" : ''}`}>
                                 <button
                                     onClick={() => setIsExpanded(false)}
                                     className={`${styles.floatBtnStyle} ${isExpanded ? "border-none" : ""}`}
-                                ><span className={`${ruBtn} ${enBtn}`}>{t('layout.goSectionSM')}</span>
+                                ><span className={`${ruBtn} ${enBtn} ${jaBtn}`}>{t('layout.goSectionSM')}</span>
                                 </button>
                                 <ul className="text-left list-none list-inside px-4">
                                     {availableSections.map(section => (
@@ -84,8 +85,6 @@ export default function SectionNav () {
                                     ))}
                                 </ul>
                             </div>
-                            
-
                         )}
                     </div>
 
@@ -94,7 +93,7 @@ export default function SectionNav () {
                         <p className="uppercase">{t('layout.goSection')}</p>
                         <ul className="text-left list-none list-inside  pt-4 ">
                             {availableSections.map(section => (
-                                <li className="mb-4 hover:text-pink-400">
+                                <li className="mb-4 ml-4 hover:text-pink-400">
                                     <button
                                         key={section.id}
                                         onClick={() => scrollToId(section.id)}

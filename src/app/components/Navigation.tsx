@@ -7,12 +7,10 @@ import SearchInput from "./SearchInput"
 import { useTranslations } from "next-intl"
 import { styles } from "../utils/styles"
 import NavDropdown from "./NavDropdown"
-import { useCurrentLanguage } from "../hooks/useCurrentLanguage"
 
 export default function Navigation() {
     const tLayout = useTranslations('layout');
     const tCharas = useTranslations('characters');
-    const {isRu} = useCurrentLanguage();
 
     return (
         <nav className="p-2  flex items-center justify-between bg-lightgray font-accent font-light ">

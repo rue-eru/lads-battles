@@ -2,11 +2,13 @@ import Image from "next/image"
 import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
 import { styles } from "@/app/utils/styles";
+import { useCurrentLanguage } from "@/app/hooks/useCurrentLanguage";
 
 
 export default function BackBtn () {
     
     const t = useTranslations();
+    const {isJa} = useCurrentLanguage();
 
     const [showUP, setShowUP] = useState(false);
 
@@ -36,7 +38,7 @@ export default function BackBtn () {
                          height={10}
                          className="object-cover"
                      />
-                    <span className="uppercase hidden lg:block">{t('layout.up')}</span>
+                    <span className={`uppercase hidden lg:block lg:flex-none ${isJa ? "tracking-[0.3em]" : ""}`}>{t('layout.up')}</span>
                 </div>            
             </button>
             )}

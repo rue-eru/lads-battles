@@ -3,6 +3,7 @@ import { setRequestLocale } from 'next-intl/server';
 import { use } from "react";
 import { styles } from '../utils/styles';
 import CharacterList from '../components/CharacterList';
+import CharaListNB from '../components/CharaListNB';
 
 export default function Home({ params }: { params: Promise<{ locale: Locale }> }) {
 
@@ -11,7 +12,6 @@ export default function Home({ params }: { params: Promise<{ locale: Locale }> }
   setRequestLocale(locale); //for server components
 
   const tHome = useTranslations('home');
-  const tLayout = useTranslations('layout');
 
   return (
     <div className={styles.pagelayout}>
@@ -28,8 +28,7 @@ export default function Home({ params }: { params: Promise<{ locale: Locale }> }
           <span className="block bg-lightgray flex-1 p-2">{tHome('to start')}</span>
             <CharacterList/>
         </div>
-        <span className='-mt-8'>*{tLayout("NB")}</span>
-
+        <CharaListNB />
       </main>
     </div>
   );

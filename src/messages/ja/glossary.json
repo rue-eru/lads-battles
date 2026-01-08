@@ -1,137 +1,145 @@
 {
     "basic_attack": {
-        "descriptionKey": "Basic Attack varies based on a weapon choice.",
+        "descriptionKey": "通常攻撃は、選択した武器によって異なります。",
         "labelKey": "通常攻撃"
     },
     "active_skill": {
-        "descriptionKey": "Active Skill varies based on a weapon choice.",
+        "descriptionKey": "アクティブスキルは、選択した武器によって異なります。",
         "labelKey": "アクティブスキル"
     },
     "passive_skill": {
-        "descriptionKey": "Your MC and Him each have their own Passive Skill",
+        "descriptionKey": "MCとパートナーはそれぞれ固有のパッシブスキルを持っています。",
         "labelKey": "パッシブスキル"
     },
     "support_skill": {
-        "descriptionKey": "Click to check his Support Skill for that companion",
+        "descriptionKey": "タップすると、そのパートナーの協力スキル詳細を確認できます。",
         "labelKey": "協力スキル"
     },
     "resonance_skill": {
-        "descriptionKey": "Click to check specifics of Resonance Skill for that companion",
+        "descriptionKey": "タップすると、そのパートナーの共鳴スキル詳細を確認できます。",
         "labelKey": "共鳴スキル"
     },
     "ardent_oath": {
-        "descriptionKey": "Click to check specifics of Ardent Oath for that companion. Oath is your Ultimate Ability.",
+        "descriptionKey": "タップすると、そのパートナーの誓約スキル詳細を確認できます。誓約スキルは究極スキルです。",
         "labelKey": "誓約スキル"
     },
     "perfect_dodge": {
-        "descriptionKey": "You can trigger it when dodging right before the enemy attacks you. It activates Support Skill even if its cooldown is not up yet.",
-        "labelKey": "Perfect Dodge"
+        "descriptionKey": "敵の攻撃直前に回避を成功させると発動できます。発動時、協力スキルのクールタイム中でも即時使用可能になります。",
+        "labelKey": "パーフェクトドッジ"
     },
     "oath_recovery": {
-        "descriptionKey": "A β Protocore that fastens your ultimate recovery(Oath). Can make you use your Oath two times during the battle instead of one",
+        "descriptionKey": "誓約スキルの回復速度を上昇させるβコアです。これにより戦闘中、誓約スキルを1回ではなく2回使用できる可能性があります。",
         "labelKey": "約回復増"
     },
     "expedited_energy": {
-        "descriptionKey": "A β Protocore that fastens your special energy ◆ recovery. The faster you regenerate them the faster you will be able to use your Resonance Skill and Active Skill again.",
+        "descriptionKey": "専用エネルギー「◆」の回復速度を上昇させるβコアです。これにより、共鳴スキルとアクティブスキルをより頻繁に使用できるようになります。",
         "labelKey": "エネルギー回復増"
     },
     "dmg_to_weakened": {
-        "descriptionKey": "A δ Protocore that boosts damage taken on weakened enemies, i.e. enemies with broken shields.",
+        "descriptionKey": "弱体状態（シールド破壊後など）の敵への与ダメージを増加させるδコアです。",
         "labelKey": "対弱体攻撃"
     },
     "crit_dmg": {
-        "descriptionKey": "A δ Protocore that increases your CRIT DMG. It is used to multiply your damage on finale CRIT DMG number percentage. It will apply if you 'crit' i.e. your CRIT Rate is enough to happen.クリティカル攻撃",
+        "descriptionKey": "CR攻撃を増加させるδコアです。クリティカル攻撃時のダメージ倍率に乗算されます。CR率が十分な場合に効果を発揮します。",
         "labelKey": "CR攻撃"
     },
     "crit_rate": {
-        "descriptionKey": "A δ Protocore that increases your CRIT Rate. It shows the ratio of possible crit multiply. E.g. 50% means there is 1 out of 2 chances to multiply your damage by CRIT DMG you have.",
+        "descriptionKey":"CR率を増加させるδコアです。攻撃がクリティカルとなる確率を表します。",
         "labelKey": "CR率"
     },
     "stellactrum_match": {
-        "descriptionKey": "Each card has its color. On each stage there's a color requirment. When you match all the colors, your Resonance Skill will be able to destroy 2 layers of enemy's shield instead of 1 磁場星譜:完全マッチング.",
+        "descriptionKey": "各カードには属性色があります。ステージごとに必要な属性色を揃える（完全マッチング）と、共鳴スキルが敵のシールドを1層ではなく2層破壊できるようになります。",
         "labelKey": "磁場星譜"
     },
     "mc": {
-        "descriptionKey": "Main Character, in other words, You!",
+        "descriptionKey": "主人公（Main Character）、つまりあなた自身のことです。",
         "labelKey": "MC"
     },
     "dot": {
-        "descriptionKey": "Damage over Time",
+        "descriptionKey": "持続ダメージ（Damage Over Time）。時間経過で継続的にダメージを与える効果です。",
         "labelKey": "DoT"
     },
     "aoe": {
-        "descriptionKey": "Area of Effect: an ability that affects enemies in the radius",
+        "descriptionKey": "範囲効果（Area of Effect）。一定範囲内の敵に影響を与える効果です。",
         "labelKey": "AoE"
     },
     "alfa": {
-        "descriptionKey": "Alfa",
+        "descriptionKey": "日位カードにセットするプロトコアの種類です（読み：アルファ）。",
         "labelKey": "α"
     },
     "beta": {
-        "descriptionKey": "Beta",
+        "descriptionKey": "日位カードにセットするプロトコアの種類です（読み：ベータ）。主属性が選択可能です。",
         "labelKey": "β"
     }, 
     "gamma": {
-        "descriptionKey": "Gamma",
+        "descriptionKey": "月位カードにセットするプロトコアの種類です（読み：ガンマ）。",
         "labelKey": "γ"
     },
     "delta": {
-        "descriptionKey": "Delta",
+        "descriptionKey": "月位カードにセットするプロトコアの種類です（読み：デルタ）。主属性が選択可能です。",
         "labelKey": "δ"
     },
     "hunter_firearm": {
-        "descriptionKey": "A weapon from Standard Hunter Series.",
-        "labelKey": "Hunter Firearm"
+        "descriptionKey": "ハンターシリーズのスタンダード武器の一つです。",
+        "labelKey": "ハンター拳銃"
+    },
+    "hunters_intention": {
+        "descriptionKey": "ハンター片手剣のパッシブスキルです。攻撃力バフを付与します。",
+        "labelKey": "狩人の意志"
+    },
+    "gathering_stacks": {
+        "descriptionKey": "ハンター大剣固有の特殊システムです。3スタック集めることでアクティブスキルが大幅に強化され、溜め動作を省略できます。",
+        "labelKey": "蓄力"
     },
     "flame_lily": {
-        "descriptionKey": "Artis's special ability. Different Skills summon them, activating buffs.",
-        "labelKey": "Flame Lily"
+        "descriptionKey": "芸術家固有の特殊オブジェクト。様々なスキルで召喚され、集めることでバフを発動します。",
+        "labelKey":"炎の罠"
     },
     "flame_lilies": {
-        "labelKey": "Flame Lilies"
+        "labelKey": "炎の罠"
     },
     "scarlet_shade": {
-        "descriptionKey": "Artis's Support Skill. It creates Flame Lilies",
-        "labelKey": "Scarlet Shade"
+        "descriptionKey": "芸術家の協力スキル「緋影」で生成される特殊オブジェクト。消滅時に範囲ダメージと火傷を付与します。",
+        "labelKey": "緋影"
     },
     "tinctus": {
-        "descriptionKey": "Fresh Paint's special ability. Inflict Tinctus to get buffs.",
-        "labelKey": "Tinctus"
+        "descriptionKey": "画壇の新鋭固有の特殊状態。敵に付与できるマークで、最大5スタックまで重ねられます。スタックを消費するスキルで爆発させ、ダメージと回復効果を発動します。",
+        "labelKey": "薔薇色の印"
     },
     "reprise": {
-        "descriptionKey": "Phantom Of The Siren's special ability. Reprise is summoned by Support Skill.",
-        "labelKey": "Reprise"
+        "descriptionKey": "海妖の影固有の特殊効果。協力スキル「アリア」が終了後に残す余韻で、範囲ダメージを与え、敵の移動速度を大幅に低下させます。",
+        "labelKey": "余韻"
     },
     "echo": {
-        "descriptionKey": "Phantom Of The Siren's special ability. Echo is a part of his Passive Skill.",
-        "labelKey": "Echo"
+        "descriptionKey": "海妖の影固有の特殊フィールド。パッシブスキル「レシタティーブ」で発生した「和声」により、次に「アリア」を使用すると生成されます。範囲内の敵の被ダメージが増加し、持続ダメージを受けます。",
+        "labelKey": "エコー"
     },
     "aria": {
-        "descriptionKey": "Phantom Of The Siren's Support Skill.",
-        "labelKey": "Aria"
+        "descriptionKey": "海妖の影の協力スキル。前方突進攻撃を行い、敵の移動速度を低下させます。",
+        "labelKey": "アリア"
     }, 
     "fishtail_beacon": {
-        "descriptionKey": "Abysswalker's special ability. It is a part of his Support Skill. Restores 2 Potential",
-        "labelKey": "Fishtail Beacon"
+        "descriptionKey": "深海の潜行者固有の特殊オブジェクト。協力スキル「月蝕斬り」で生成され、回収すると潜在エネルギーを2回復します。",
+        "labelKey": "尾びれ矢"
     },
     "potential": {
-        "descriptionKey": "Abysswalker's special ability. It has 6 stacks, check them under MC's HP bar.",
-        "labelKey": "潜在工ネルギー"
+        "descriptionKey": "深海の潜行者固有の特殊ゲージ。6点まで溜まり、MCのHPバーの下に表示されます。",
+        "labelKey": "潜在エネルギー"
     },
     "beacon": {
-        "descriptionKey": "Abysswalker's special ability. It is a part of his Passive Skill. Restores 1 Potential",
+        "descriptionKey": "深海の潜行者固有の特殊状態。パッシブスキル「深海のしるべ」で敵に付与され、重撃で命中させると潜在エネルギーを1回復します。",
         "labelKey": "しるべ"
     },
     "burn": {
-        "descriptionKey": "",
+        "descriptionKey": "敵にかかる持続ダメージ状態異常。深海の潜行者の一部スキルで付与できます。",
         "labelKey":"火傷"
     },
     "deepsea_pursuit": {
-        "descriptionKey": "CRIT Rate buff that appears at full Potential stacks.",
+        "descriptionKey": "潜在エネルギーが満タン（6点）になった時に獲得する強化状態。CR率が15%上昇します。",
         "labelKey": "深海の追撃"
     },
     "searing_slash": {
-        "descriptionKey": "Rafayel's special attack that is triggered at full Potential stacks.",
+        "descriptionKey": "潜在エネルギー満タン時にホムラが発動する強力な一撃です。",
         "labelKey": "強力斬撃"
     },
     "sea_spirit": {
@@ -176,13 +184,5 @@
     "lightning_crystal": {
         "descriptionKey": "リモリアの海神固有の特殊バフです。「神の眷属」状態中にアクティブスキルを使うと出現する特殊オブジェクトです。中へ回避することで起爆し、範囲ダメージとエネルギー回復をもたらします。", 
         "labelKey": "雷晶"
-    },
-    "hunters_intention": {
-        "descriptionKey": "Hunter Sword's Passive Skill. Provides ATK buff",
-        "labelKey": "Hunter's Intention"
-    },
-    "gathering_stacks": {
-        "descriptionKey": "Hunter Claymore's special ability. On 3 stacks greatly empoweres your Active Skill allowing to skip the charge stage.",
-        "labelKey": "Gathering Stacks"
     }
 }
