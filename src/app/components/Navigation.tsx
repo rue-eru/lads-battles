@@ -3,7 +3,7 @@
 import Image from "next/image"
 import {Link} from "@/i18n/navigation"
 import LanguageSwitch from "./LanguageSwitch"
-import SearchInput from "./SearchInput"
+import SearchInput from "./search/SearchInput"
 import { useTranslations } from "next-intl"
 import { styles } from "../utils/styles"
 import NavDropdown from "./NavDropdown"
