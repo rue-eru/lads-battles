@@ -1,8 +1,9 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import SearchResults from "./SearchResult";
 
 export default function SearchInput(){
-
+    
     const [query, setQuery] = useState('');
     const [searchResults, setSearchResults] = useState([]);
     const [expanded, setExpanded] = useState(false);
@@ -33,20 +34,29 @@ export default function SearchInput(){
                 />
             </div>
             ) : (
-                <div
-                    onMouseLeave={() => setExpanded(false)}
-                >
-                    <input
-                        type="text"
-                        placeholder="Search companions..."
-                        className="absolute right-2 bg-aliceblue text-lightgray h-10 transition-all duration-1000
-                            rounded-3xl
-                            "
-
+                    <div
+                        onMouseLeave={() => setExpanded(false)}
                     >
-
-                    </input>
-                </div>
+                        <input
+                            type="text"
+                            placeholder="Search companions..."
+                            className="md:absolute right-2 bg-aliceblue text-lightgray h-10 transition-all duration-1000
+                                rounded-3xl
+                                "
+                            autoComplete="off"
+                            autoCorrect="off"
+                            spellCheck="false"
+                            maxLength={64}
+                            value={query}
+                            onChange={handleChange}
+                        >
+                        </input>
+                        {query &&(
+                            <div>
+                                <SearchResults searchResults={searchResults} />
+                            </div>
+                        )}
+                    </div>
             )}
 
 
