@@ -1,21 +1,49 @@
+import { getSearchData } from "@/app/utils/search-data";
+import Fuse from "fuse.js";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
-import { useEffect, useState } from "react";
-import SearchResults from "./SearchResult";
+import { usePathname, useRouter } from "next/navigation";
+import { useMemo, useState } from "react";
 
 export default function SearchInput(){
     
     const [query, setQuery] = useState('');
-    const [searchResults, setSearchResults] = useState([]);
     const [expanded, setExpanded] = useState(false);
+    const router = useRouter();
+    const pathname = usePathname();
+    const t = useTranslations();
+    const locale = pathname.split('/')[1] || 'en';
+    const searchItems = useMemo(() => getSearchData(), []);
 
-    const handleChange = (e: any) => setQuery(e.target.value);
+    const fuse = useMemo(() => new Fuse(searchItems, {
+        keys: ['searchText'],
+        threshold: 0.3, // 1 is super strict search, 0 is soft
+        minMatchCharLength: 2,
+    }), [searchItems]);
 
-    useEffect(() => {
-        if (!query) {
-            setSearchResults([])
-            return
+    const results = useMemo(() => {
+        if(!query.trim()) return [];
+        return fuse.search(query).map(result => result.item);
+    }, [query, fuse]);
+
+    //helper to get display name usuing IDs
+    const getDisplayName = (item: typeof searchItems[0]) => {
+        try {
+            const characterName = t(`${item.characterTKey as any}`)
+            const companionName = t(`${item.companionTKey as any}`)
+            return `${characterName}: ${companionName}`
+        } catch {
+            return `${item.characterId}: ${item.companionId}`;
         }
-    }, [query])
+    }
+
+    const handleSelect = (item: typeof searchItems[0]) => {
+        router.push(`/${locale}${item.route}`);
+        setQuery('');
+        setExpanded(false);
+    }
+    
+
 
     return (
         <div className="lg:w-100 md:w-50 border flex justify-end h-10">
@@ -43,17 +71,29 @@ export default function SearchInput(){
                             className="md:absolute right-2 bg-aliceblue text-lightgray h-10 transition-all duration-1000
                                 rounded-3xl
                                 "
-                            autoComplete="off"
-                            autoCorrect="off"
-                            spellCheck="false"
-                            maxLength={64}
                             value={query}
-                            onChange={handleChange}
+                            onChange={(e) => setQuery(e.target.value)}
                         >
                         </input>
-                        {query &&(
-                            <div>
-                                <SearchResults searchResults={searchResults} />
+                        {query && results.length > 0 && (
+                            <div 
+                                className=" bg-aliceblue text-darkgray"
+                            >
+                                {results.slice(0, 5).map((item) => (
+                                    <button
+                                        key={item.id}
+                                        onClick={() => handleSelect(item)}
+                                        className="w-full text-left hover:bg-pink-400 hover:text-aliceblue"
+                                    >
+                                        <div>
+                                            {getDisplayName(item)}
+                                        </div>
+                                        <div>
+                                            {item.characterId} • {item.companionId}
+                                        </div>
+
+                                    </button>
+                                ))}
                             </div>
                         )}
                     </div>
