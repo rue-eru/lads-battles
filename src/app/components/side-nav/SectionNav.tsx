@@ -93,7 +93,10 @@ export default function SectionNav () {
                         <p className="uppercase">{t('layout.goSection')}</p>
                         <ul className="text-left list-none list-inside  pt-4 ">
                             {availableSections.map(section => (
-                                <li className="mb-4 ml-4 hover:text-pink-400">
+                                <li 
+                                    className="mb-4 ml-4 hover:text-pink-400"
+                                    key={section.id}
+                                >
                                     <button
                                         key={section.id}
                                         onClick={() => scrollToId(section.id)}

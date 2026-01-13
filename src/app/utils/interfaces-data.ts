@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import type React from "react";
+import type { charactersData } from "./loaders/character-data-loader";
 
 export interface CharaDataProps{
     character: string,

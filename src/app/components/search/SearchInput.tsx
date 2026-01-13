@@ -3,12 +3,13 @@ import Fuse from "fuse.js";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 export default function SearchInput(){
     
     const [query, setQuery] = useState('');
-    const [expanded, setExpanded] = useState(false);
+    const [open, setOpen] = useState(false);
+    const containerRef = useRef<HTMLDivElement>(null);
     const router = useRouter();
     const pathname = usePathname();
     const t = useTranslations();
@@ -16,8 +17,15 @@ export default function SearchInput(){
     const searchItems = useMemo(() => getSearchData(), []);
 
     const fuse = useMemo(() => new Fuse(searchItems, {
-        keys: ['searchText'],
+        keys: [
+            { name: 'names.en', weight: 0.4 }, // EN&JA = official => heigher weight
+            { name: 'names.ja', weight: 0.4 },
+            { name: 'names.ru', weight: 0.2 },
+            { name: 'aliases', weight: 0.1 }, // for fallback
+
+        ],
         threshold: 0.3, // 1 is super strict search, 0 is soft
+        ignoreLocation: true,
         minMatchCharLength: 2,
     }), [searchItems]);
 
@@ -28,79 +36,85 @@ export default function SearchInput(){
 
     //helper to get display name usuing IDs
     const getDisplayName = (item: typeof searchItems[0]) => {
-        try {
-            const characterName = t(`${item.characterTKey as any}`)
-            const companionName = t(`${item.companionTKey as any}`)
-            return `${characterName}: ${companionName}`
-        } catch {
-            return `${item.characterId}: ${item.companionId}`;
-        }
+        return `${t(item.characterTKey)}: ${t(item.companionTKey)}`;
     }
 
     const handleSelect = (item: typeof searchItems[0]) => {
         router.push(`/${locale}${item.route}`);
         setQuery('');
-        setExpanded(false);
+        setOpen(false);
     }
     
+    useEffect(() => {
+        const handleClickOutside = (e: MouseEvent) => {
+            if (!containerRef.current?.contains(e.target as Node)) {
+                setOpen(false);
+            }
+        }
 
+        document.addEventListener('mousedown', handleClickOutside);
+        return () => document.removeEventListener('mousedown', handleClickOutside);
+    }, []);
 
     return (
         <div className="lg:w-100 md:w-50 border flex justify-end h-10">
-            {!expanded ? (
             <div
-                onMouseOver={ () => setExpanded(true)}
-                onClick={() => setExpanded(true)}
-                className="rounded-full bg-aliceblue h-10 w-10 flex justify-center items-center cursor-pointer transition-all duration-1000"
+                ref={containerRef}
+                className="relative"
             >
-                <Image
-                    src="/images/icons/search.png"
-                    alt="back arrow"
-                    width={20}
-                    height={20}
-                    className="object-cover"
-                />
-            </div>
-            ) : (
-                    <div
-                        onMouseLeave={() => setExpanded(false)}
+                {!open ? (
+                    <button
+                        onClick={() => setOpen(true)}
+                        onMouseEnter={() => setOpen(true)}
+                        className="rounded-full bg-aliceblue h-10 w-10 flex justify-center items-center cursor-pointer"
                     >
-                        <input
-                            type="text"
-                            placeholder="Search companions..."
-                            className="md:absolute right-2 bg-aliceblue text-lightgray h-10 transition-all duration-1000
-                                rounded-3xl
-                                "
-                            value={query}
-                            onChange={(e) => setQuery(e.target.value)}
-                        >
-                        </input>
-                        {query && results.length > 0 && (
-                            <div 
-                                className=" bg-aliceblue text-darkgray"
+                        <Image
+                            src="/images/icons/search.png"
+                            alt="search icon"
+                            width={20}
+                            height={20}
+                            className="object-cover"
+                        />
+                    </button>
+                ) : (
+                        <div className={`
+                            absolute right-2 top-0 z-50
+                            transition-all duration-300 ease-out
+                            origin-right
+                            scale-x-100 opacuty-100
+                        `}>
+
+                            <input
+                                autoFocus
+                                type="text"
+                                placeholder="Search companions..."
+                                className="bg-aliceblue text-lightgray h-10 rounded-3xl"
+                                value={query}
+                                onChange={(e) => setQuery(e.target.value)}
                             >
-                                {results.slice(0, 5).map((item) => (
-                                    <button
-                                        key={item.id}
-                                        onClick={() => handleSelect(item)}
-                                        className="w-full text-left hover:bg-pink-400 hover:text-aliceblue"
-                                    >
-                                        <div>
-                                            {getDisplayName(item)}
-                                        </div>
-                                        <div>
-                                            {item.characterId} • {item.companionId}
-                                        </div>
+                            </input>
+                            {query && results.length > 0 && (
+                                <div 
+                                    className=" bg-aliceblue text-darkgray mt-2 rounded-xl shadow-lg"
+                                >
+                                    {results.slice(0, 10).map((item) => (
+                                        <button
+                                            key={item.id}
+                                            onClick={() => handleSelect(item)}
+                                            className="w-full text-left hover:bg-pink-400 hover:text-aliceblue hover:overflow-hidden"
+                                        >
+                                            <div>
+                                                {getDisplayName(item)}
+                                            </div>
 
-                                    </button>
-                                ))}
-                            </div>
-                        )}
-                    </div>
-            )}
-
-
-
+                                        </button>
+                                    ))}
+                                </div>
+                            )}
+                        
+                        </div>
+                )}
+            </div>
         </div>
     )
 }
