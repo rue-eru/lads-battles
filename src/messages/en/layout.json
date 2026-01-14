@@ -14,5 +14,6 @@
     "back": "back",
     "up": "up",
     "goSection": "go to",
-    "goSectionSM": "to"
+    "goSectionSM": "to",
+    "search-placeholder": "Search companions..."
 }
