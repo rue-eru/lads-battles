@@ -9,6 +9,7 @@ export default function SearchInput(){
     
     const [query, setQuery] = useState('');
     const [open, setOpen] = useState(false);
+    const [activeIndex, setActiveIndex] = useState(-1);
     const containerRef = useRef<HTMLDivElement>(null);
     const router = useRouter();
     const pathname = usePathname();
@@ -56,8 +57,30 @@ export default function SearchInput(){
         return () => document.removeEventListener('mousedown', handleClickOutside);
     }, []);
 
+    const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+        if (!results.length) return;
+
+        if (e.key === 'ArrowDown') {
+            e.preventDefault();
+            setActiveIndex( i => i < results.length - 1 ? i + 1 : 0)
+        }
+
+        if (e.key === "ArrowUp") {
+            e.preventDefault();
+            setActiveIndex( i => i > 0 ? i - 1 : results.length - 1)
+        }
+
+        if (e.key === "Enter" && activeIndex >= 0) {
+            handleSelect(results[activeIndex])
+        }
+    }
+
+    useEffect(() => {
+        setActiveIndex(-1)
+    }, [query]);
+
     return (
-        <div className="lg:w-100 md:w-50 border flex justify-end h-10">
+        <div className="w-10 flex justify-end h-10">
             <div
                 ref={containerRef}
                 className="relative"
@@ -79,35 +102,45 @@ export default function SearchInput(){
                 ) : (
                         <div className={`
                             absolute right-2 top-0 z-50
-                            transition-all duration-300 ease-out
+                            transition-all duration-200 ease-out
                             origin-right
-                            scale-x-100 opacuty-100
+                            ${open 
+                                ? 'opacity-100 translate-x-0'
+                                : 'opacity-0 translate-x-2 pointer-events-none'
+                            }
                         `}>
 
                             <input
                                 autoFocus
                                 type="text"
-                                placeholder="Search companions..."
-                                className="bg-aliceblue text-lightgray h-10 rounded-3xl"
+                                placeholder={t('layout.search-placeholder')}
+                                className="bg-aliceblue text-lightgray h-10 rounded-3xl focus:outline-none px-4 w-[clamp(14rem,30vw,22rem)] shadow-lg shadow-black/10
+"
                                 value={query}
                                 onChange={(e) => setQuery(e.target.value)}
+                                onKeyDown={handleKeyDown}
                             >
                             </input>
                             {query && results.length > 0 && (
                                 <div 
-                                    className=" bg-aliceblue text-darkgray mt-2 rounded-xl shadow-lg"
+                                    className=" bg-aliceblue text-darkgray rounded-3xl shadow-lg mt-0.5 overflow-hidden"
                                 >
-                                    {results.slice(0, 10).map((item) => (
-                                        <button
-                                            key={item.id}
-                                            onClick={() => handleSelect(item)}
-                                            className="w-full text-left hover:bg-pink-400 hover:text-aliceblue hover:overflow-hidden"
-                                        >
-                                            <div>
-                                                {getDisplayName(item)}
-                                            </div>
-
-                                        </button>
+                                    {results.slice(0, 10).map((item, index) => (
+                                       <button
+                                        key={item.id}
+                                        onClick={() => handleSelect(item)}
+                                        className={`
+                                                w-full text-left px-4 py-2 font-accent
+                                                transition-colors duration-150
+                                                focus:outline-none focus-visible:outline-none
+                                                ${index === activeIndex
+                                                    ? 'bg-pink-400 text-aliceblue'
+                                                    : 'text-lightgray hover:bg-pink-400 hover:text-aliceblue'
+                                                }
+                                            `}
+                                       >
+                                            {getDisplayName(item)}
+                                       </button>
                                     ))}
                                 </div>
                             )}

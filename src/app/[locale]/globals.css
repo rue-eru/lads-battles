@@ -40,7 +40,6 @@ html[lang="en"] .font-accent,
 
 html[lang="ru"] .font-accent {
   font-family: var(--font-source-serif-4), serif;
-  font-size: larger;
 }
 
 html[lang="ja"] .font-accent {
