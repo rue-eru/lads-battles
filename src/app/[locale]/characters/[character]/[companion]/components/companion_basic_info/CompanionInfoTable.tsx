@@ -22,7 +22,7 @@ export default function CompanionInfoTable ( {character, companion} : CharaDataP
 
 
     return (
-        <div className="w-full overflow-x-auto">
+        <div className="w-full ">
             { !hasDetailedData ? ( <div>Coming soon...</div>) : (
 
             <table className="w-full min-w-full table-auto text-left">

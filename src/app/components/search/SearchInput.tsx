@@ -1,3 +1,4 @@
+import { useCurrentLanguage } from "@/app/hooks/useCurrentLanguage";
 import { getSearchData } from "@/app/utils/search-data";
 import Fuse from "fuse.js";
 import { useTranslations } from "next-intl";
@@ -16,6 +17,7 @@ export default function SearchInput(){
     const t = useTranslations();
     const locale = pathname.split('/')[1] || 'en';
     const searchItems = useMemo(() => getSearchData(), []);
+    const {isEn} = useCurrentLanguage();
 
     const fuse = useMemo(() => new Fuse(searchItems, {
         keys: [
@@ -94,8 +96,8 @@ export default function SearchInput(){
                         <Image
                             src="/images/icons/search.png"
                             alt="search icon"
-                            width={20}
-                            height={20}
+                            width={25}
+                            height={25}
                             className="object-cover"
                         />
                     </button>
@@ -114,8 +116,18 @@ export default function SearchInput(){
                                 autoFocus
                                 type="text"
                                 placeholder={t('layout.search-placeholder')}
-                                className="bg-aliceblue text-lightgray h-10 rounded-3xl focus:outline-none px-4 w-[clamp(14rem,30vw,22rem)] shadow-lg shadow-black/10
-"
+                                className={`
+                                    bg-aliceblue text-lightgray 
+                                    h-10 px-4 
+                                    rounded-3xl 
+                                    focus:outline-none 
+                                    w-[clamp(14rem,30vw,22rem)] 
+                                    shadow-lg shadow-black/10
+                                    leading-none
+                                    text-base
+                                    caret-lightgray
+                                    ${isEn ? 'main-font font-medium tracking-widest' : 'font-accent'}
+                                    `}
                                 value={query}
                                 onChange={(e) => setQuery(e.target.value)}
                                 onKeyDown={handleKeyDown}

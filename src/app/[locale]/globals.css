@@ -28,7 +28,8 @@
   --color-darkgray: var(--dark-gray);
   --color-aliceblue: var(--text-primary);
 
-  --font-accent: var(--font-accent)
+  --font-accent: var(--font-accent);
+  --main-font: var(--main-font);
   /*font change based on language*/
 }
 
@@ -40,20 +41,26 @@ html[lang="en"] .font-accent,
 
 html[lang="ru"] .font-accent {
   font-family: var(--font-source-serif-4), serif;
+  font-weight: normal;
 }
 
 html[lang="ja"] .font-accent {
   font-family: var(--font-noto-serif-jp), serif;
+  font-weight: bold;
 }
 
+html[lang="en"] .main-font,
+.main-font {
+  font-family: var(--font-source-serif-4), serif;
+}
 
-/*
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: var(--dark-gray);
-    --foreground: var(--text-primary-color);
-  }
-}*/
+html[lang="ru"] .main-font {
+  font-family: var(--font-source-serif-4), serif;
+}
+
+html[lang="ja"] .main-font {
+  font-family: var(--font-noto-serif-jp), serif;
+}
 
 body {
   background: var(--dark-gray);
@@ -61,7 +68,6 @@ body {
 }
 
 main {
-  font-family: var(--font-geist-sans);
-    font-size: 18px;
-
+  font-family: var(--main-font);
+  font-size: 18px;
 }

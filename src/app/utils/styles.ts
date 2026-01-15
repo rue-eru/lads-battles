@@ -5,12 +5,13 @@ export const styles = {
 
 
     divider: `border-t border-text-primary w-full -mt-4`,
-    pagelayout: `lg:w-[50%] sm:w-[90%] mx-auto flex-1 mb-20`,
+    pagelayout: `lg:w-[50%] sm:w-[90%] w-[95%] mx-auto flex-1 mb-20`,
     contentlayout: `flex flex-col gap-[32px] row-start-2 items-center sm:items-start mt-20 w-full text-justify`,
     tableRow: `hover:bg-pink-400 font-accent`,
     charaIconStyle: ` hover:border-pink-400 hover:border-3 rounded-full`,
     navDowndropLists: `absolute w-full top-full bg-lightgray rounded-lg shadow-lg z-50 text-center tracking-widest py-4`,
     dropdownBlockLI: `block hover:text-pink-400 uppercase text-nowrap`,
+    contactIcons: `object-covers bg-white rounded-full`,
 
 
     //styles for ProtocororeTypeTable
@@ -42,7 +43,7 @@ export const styles = {
 
     //floatingbtns
     floatBtnStyle: `flex gap-2 items-center hover:border-pink-400 hover:text-pink-400 
-                    bg-darkgray rounded-full h-8 w-8 px-3 border inset-0 z-50
+                    bg-darkgray rounded-full h-8 w-8 px-2 border inset-0 z-50
                     lg:border-none`,
     floatBtnStyleLetters: `hover:border-pink-400 text-center
                     bg-darkgray rounded-full h-8 w-8 px-3 border inset-0 z-50

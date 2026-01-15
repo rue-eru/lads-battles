@@ -34,7 +34,7 @@ export function GameplayBlockRenderer({
 
                     case 'paragraph':
                         return (
-                            <p key={index}>
+                            <p key={`${block.type}-${index}-${Date.now()}`}>
                                 <TextRenderer>{t(block.content)}</TextRenderer>
                             </p>
                         );
@@ -42,7 +42,7 @@ export function GameplayBlockRenderer({
                     case 'standard_summary': 
                         return (
                             <div
-                                key={index}
+                                key={`${block.type}-${index}-${Date.now()}`}
                             >
                                 <span>{tGeneral('standard_rotation')}</span>
                                 <span className="font-semibold text-pink-400">
@@ -54,7 +54,7 @@ export function GameplayBlockRenderer({
                     case 'image': 
                         return (
                             <figure
-                                key={index}
+                                key={`${block.type}-${index}-${Date.now()}`}
                                 className={`flex h-auto  flex-col ${styles.img_bg}`}
                             >
                                 <div className={styles.imgHeightSoloOrSoloCapture}>
@@ -86,7 +86,7 @@ export function GameplayBlockRenderer({
                                     {/*maps only an image*/}
                                     {block.images.map((img, index) => (
                                         <div
-                                            key={index}
+                                            key={`${block.type}-${index}-${Date.now()}`}
                                             className={styles.imgHeightSoloOrSoloCapture}
                                         >
                                             <Image 
@@ -125,7 +125,7 @@ export function GameplayBlockRenderer({
                                 {/*everything maps alltogether*/}
                                 {block.images.map((img, index) => (
                                     <figure 
-                                        key={index}
+                                        key={`${block.type}-${index}-${Date.now()}`}
                                         className="space-y-2 flex-1"
                                     >
                                         <div className={clsx(
@@ -166,10 +166,10 @@ export function GameplayBlockRenderer({
                                 <ul className="list-['∘'] p-6 list-outside">
                                     {block.content.map((li, index) => (
                                         <li
-                                            key={index}
+                                            key={`${block.type}-${index}-${Date.now()}`}
                                             className="font-bold text-justify pl-2"
                                         >
-                                            <TextRenderer key={index}>{t(li)}</TextRenderer>
+                                            <TextRenderer>{t(li)}</TextRenderer>
                                         </li>
 
                                     ))}
@@ -182,10 +182,10 @@ export function GameplayBlockRenderer({
                             <ol className="list-decimal list-inside">
                                 {block.content.map((li, index) => (
                                     <li
-                                        key={index}
+                                        key={`${block.type}-${index}-${Date.now()}`}
                                         className="font-bold text-justify pl-2"
                                     >
-                                        <TextRenderer key={index}>{t(li)}</TextRenderer>
+                                        <TextRenderer>{t(li)}</TextRenderer>
                                     </li>
                                 ))}
                             </ol>
@@ -196,10 +196,10 @@ export function GameplayBlockRenderer({
                             <ul className="list-['∘'] list-outside">
                                 {block.content.map((li, index) => (
                                     <li
-                                        key={index}
+                                        key={`${block.type}-${index}-${Date.now()}`}
                                         className="pl-2"
                                     >
-                                        <TextRenderer key={index}>{t(li)}</TextRenderer>
+                                        <TextRenderer>{t(li)}</TextRenderer>
                                     </li>
                                 ))}
                             </ul>

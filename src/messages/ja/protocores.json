@@ -8,8 +8,8 @@
             "basic": "副属性の優先順位： 攻撃力、攻撃力バフ、CR率、CR攻撃、対弱体攻撃。",
             "solar": {
                 "intro": "副属性の優先順位：",
-                "abysswalker": "攻撃力、攻撃力バフ、CR率、CR攻撃, 対弱体攻撃。",
-                "god_of_the_tides": "HP、HPバフ、CR率、CR攻撃, 対弱体攻撃。",
+                "abysswalker": "攻撃力、攻撃力バフ、CR率、CR攻撃、対弱体攻撃。",
+                "god_of_the_tides": "HP、HPバフ、CR率、CR攻撃、対弱体攻撃。",
                 "lemurian_sea_god": "防御力、防御力バフ、CR率、CR攻撃、対弱体攻撃。"
             }
         },

@@ -1,9 +1,12 @@
 import { StatListProps } from "@/app/utils/interfaces-data";
 import { useTranslations } from "next-intl";
 import { TextRenderer } from "../glossary/TextRenderer";
+import { useCurrentLanguage } from "@/app/hooks/useCurrentLanguage";
 
-export default function StatList ({stats, separator = ", "}: StatListProps) {
+export default function StatList ({stats}: StatListProps) {
     const t = useTranslations('protocores.protocoreStats');
+    const { isJa } = useCurrentLanguage();
+    const separator = isJa ? "、" : ", ";
 
     if (!stats || stats.length === 0) {
         return <span className="text-gray-500">No Data</span>

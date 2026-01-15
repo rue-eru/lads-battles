@@ -2,9 +2,11 @@
 
 import {Link} from "@/i18n/navigation"
 import { useTranslations } from "next-intl";
+import { useCurrentLanguage } from "../hooks/useCurrentLanguage";
 
 export default function Footer() {
     const t = useTranslations('layout');
+    const {isJa} = useCurrentLanguage();
 
     return (
         <footer className="flex items-center justify-between bg-lightgray font-accent font-light  w-full  border-t-2 border-darkgray p-6">
@@ -16,8 +18,11 @@ export default function Footer() {
                         {t("contact")}
                     </Link>
             </div>
-            <div className="text-right w-auto">
-                <p>@2025 Love and Deepspace Battles</p>
+            <div className="text-right w-auto ml-4">
+                {isJa
+                    ? <p>@2025 恋と深空バトル</p>
+                    : <p>@2025 Love and Deepspace Battles</p>
+                }
                 <p>{t("unofficial")}</p>
             </div>
         </footer>
