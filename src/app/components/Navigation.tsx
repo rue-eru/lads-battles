@@ -7,24 +7,27 @@ import SearchInput from "./search/SearchInput"
 import { useTranslations } from "next-intl"
 import { styles } from "../utils/styles"
 import NavDropdown from "./NavDropdown"
+import { useCurrentLanguage } from "../hooks/useCurrentLanguage"
 
 export default function Navigation() {
     const tLayout = useTranslations('layout');
     const tCharas = useTranslations('characters');
+    const { isJa } = useCurrentLanguage();
 
     return (
         <nav className="p-2  flex items-center justify-between bg-lightgray font-accent font-light ">
-            <Link href="/" className="flex items-center ml-5">
+
+            <Link href="/" className="flex items-center">
                 <Image
-                    src="/images/icons/site-logo.png"
+                    src={isJa ? "/images/icons/ja-logo.png" : "/images/icons/main-logo.png"}
                     alt="Website Logo > Home Link"
-                    width={60}
-                    height={65}
+                    width={70}
+                    height={70}
                     priority
                 />
             </Link>
 
-            <div className="flex items-center gap-10 uppercase lg:tracking-[0.5rem]">
+            <div className="flex items-center gap-10 uppercase lg:tracking-[0.5rem">
                 <Link href="/" className="hover:text-pink-400">
                     {tLayout("home-btn")}
                 </Link>
@@ -55,7 +58,12 @@ export default function Navigation() {
                 <LanguageSwitch />
             </div>
 
-            <SearchInput/>
+            {/*allows bigger screens avoid blocking dropdown by the expanded input*/}
+            <div className="sm:w-[30%] lg:w-fit flex justify-end-safe">
+
+                <SearchInput/>
+            </div>
+
         </nav>
     )
 }

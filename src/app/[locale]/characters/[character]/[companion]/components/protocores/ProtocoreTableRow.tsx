@@ -38,7 +38,7 @@ export default function ProtocoreTableRow ({
                     />
                 </div>
             </td>
-            <td className="px-4 py-3">
+            <td className="px-4 py-3 w-[90%]">
                 <div>
                     {renderStatContent()}
                 </div>

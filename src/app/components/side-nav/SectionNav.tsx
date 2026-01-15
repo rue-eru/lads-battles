@@ -69,14 +69,16 @@ export default function SectionNav () {
                             <div className={`bg-darkgray flex rounded-2xl ${isExpanded ? "border" : ''}`}>
                                 <button
                                     onClick={() => setIsExpanded(false)}
-                                    className={`${styles.floatBtnStyle} ${isExpanded ? "border-none" : ""}`}
+                                    className={`${styles.floatBtnStyleLetters} ${isExpanded ? "border-none" : ""}`}
                                 ><span className={`${ruBtn} ${enBtn} ${jaBtn}`}>{t('layout.goSectionSM')}</span>
                                 </button>
                                 <ul className="text-left list-none list-inside px-4">
                                     {availableSections.map(section => (
-                                        <li className="my-0.5 hover:text-pink-400">
+                                        <li 
+                                            key={section.id}
+                                            className="my-0.5 hover:text-pink-400
+                                        ">
                                             <button
-                                                key={section.id}
                                                 onClick={() => scrollToId(section.id)}
                                             >
                                                 <span className={`text-center uppercase text-[12px] ${ruLi}`}>{t(section.labelKey)}</span>

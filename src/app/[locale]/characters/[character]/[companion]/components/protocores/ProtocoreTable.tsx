@@ -39,7 +39,7 @@ export default function ProtocoreTable ({character, companion} : CharaDataProps)
                             />
                             <ProtocoreTableRow
                                 protocoreType="beta"
-                                protocoreStat={companionData?.beta as any|| 'default_beta'}
+                                protocoreStat={companionData?.beta as any|| 'beta'}
                                 stellactrum={companionData?.stellactrum}
 
                             />

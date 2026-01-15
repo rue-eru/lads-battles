@@ -42,7 +42,7 @@ export function NoGuideAvailable  ({
                 <div className="grid grid-cols-5 place-items-center">
                     <div className={`col-span-1 ${positionClass}`}>
                         <Image
-                            src={`/images/idle-gifs/${character}.webp`}
+                            src={`/images/others/${character}.webp`}
                             alt={`${character} kitty gif`}
                             width={150}
                             height={150}

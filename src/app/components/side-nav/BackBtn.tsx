@@ -24,8 +24,8 @@ export default function BackBtn () {
                     <Image
                          src="/images/icons/back-arrow.png"
                          alt="back arrow"
-                         width={7}
-                         height={7}
+                         width={20}
+                         height={20}
                          className="object-cover"
                      />
                     <span className="uppercase hidden lg:block lg:flex-none">{t('layout.back')}</span>

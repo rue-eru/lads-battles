@@ -34,8 +34,8 @@ export default function BackBtn () {
                     <Image
                          src="/images/icons/up-arrow.png"
                          alt="up arrow"
-                         width={10}
-                         height={10}
+                         width={20}
+                         height={20}
                          className="object-cover"
                      />
                     <span className={`uppercase hidden lg:block lg:flex-none ${isJa ? "tracking-[0.3em]" : ""}`}>{t('layout.up')}</span>
