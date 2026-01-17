@@ -6,7 +6,6 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useState } from "react";
 import { Lightbox } from "./Lightbox";
-import clsx from 'clsx';
 import { TextRenderer } from "../glossary/TextRenderer";
 
 
@@ -55,14 +54,14 @@ export function GameplayBlockRenderer({
                         return (
                             <figure
                                 key={`${block.type}-${index}-${Date.now()}`}
-                                className={`flex h-auto  flex-col ${styles.img_bg}`}
+                                className={`flex flex-col ${styles.img_bg}`}
                             >
-                                <div className={styles.imgHeightSoloOrSoloCapture}>
+                                <div className={styles.imgHeight}>
                                 <Image
                                     src={block.src}
                                     alt={t(block.alt)}
                                     fill
-                                    className="object-contain cursor-zoom-in"
+                                    className={styles.imgFillContainer}
                                     onClick={() => 
                                         setOpenImage({
                                             src: block.src,
@@ -82,18 +81,18 @@ export function GameplayBlockRenderer({
                     case 'imageGroupSharedCaption':
                         return (
                             <figure key={index} className={`${styles.img_bg}`}>
-                                <div className="flex flex-col sm:gap-1">
+                                <div className="flex flex-col gap-1">
                                     {/*maps only an image*/}
                                     {block.images.map((img, index) => (
                                         <div
                                             key={`${block.type}-${index}-${Date.now()}`}
-                                            className={styles.imgHeightSoloOrSoloCapture}
+                                            className={styles.imgHeight}
                                         >
                                             <Image 
                                                 src={img.src}
                                                 alt={t(img.alt)}
                                                 fill
-                                                className="object-contain cursor-zoom-in"
+                                                className={styles.imgFillContainer}
                                                 onClick={() =>
                                                     setOpenImage({
                                                         src: img.src,
@@ -114,50 +113,65 @@ export function GameplayBlockRenderer({
                         )
 
                     case 'imageGroupPerImageCaption': {
-
-                        const isUi = block.layout === 'ui';
+                        const directionLayoutGRID = block.directionLayout === 'grid-col';
 
                         return(
                             <div 
-                                className={`lg:flex lg:flex-row sm:grid sm:grid-cols-1  gap-1 justify-evenly ${styles.img_bg}`} 
+                                className={`${directionLayoutGRID 
+                                    ? "grid grid-cols-1 gap-4"
+                                    : "md:flex md:flex-row md:flex-wrap grid grid-cols-1 gap-1 justify-evenly"
+                                }
+                                    ${styles.img_bg}`} 
                                 key={index}
                             >
                                 {/*everything maps alltogether*/}
-                                {block.images.map((img, index) => (
+
+                                {block.images.map((img) => {
+                                    // for smaller images with important info being cut of on the display
+                                    const objPositionMap = {
+                                        left: 'object-left',
+                                        right: 'object-right',
+                                        top: 'object-top',
+                                        center: 'object-center'
+                                    } as const;
+
+                                    const positionClass =
+                                        img.layout ? objPositionMap[img.layout] : "object-center";
+                                        
+                                    
+                                    return(
                                     <figure 
-                                        key={`${block.type}-${index}-${Date.now()}`}
-                                        className="space-y-2 flex-1"
+                                        key={`${block.type}-${img.src}`}
+                                        className="flex-1 w-full h-auto"
                                     >
-                                        <div className={clsx(
-                                            'relative sm:w-full',
-                                            isUi ? 'h-20' : 'h-48'
-                                        )}>
-                                            <Image
-                                                src={img.src}
-                                                alt={t(img.alt)}
-                                                fill
-                                                className={clsx(
-                                                "cursor-zoom-in",
-                                                isUi ? "object-contain" : 'object-contain')}
-                                                onClick={() =>
-                                                    setOpenImage({
-                                                        src: img.src,
-                                                        alt: t(img.alt)
-                                                    })
-                                                }
-                                            />
-                                        </div>
+                                            <div className={`relative ${directionLayoutGRID
+                                                ? 'h-20 sm:h-40 md:h-50'
+                                                : ' lg:h-50 h-60'
+                                            }`}>
+                                                <Image
+                                                    src={img.src}
+                                                    alt={t(img.alt)}
+                                                    fill
+                                                    className={`${styles.imgFillContainer} ${positionClass}`}
+                                                    onClick={() =>
+                                                        setOpenImage({
+                                                            src: img.src,
+                                                            alt: t(img.alt)
+                                                        })
+                                                    }
+                                                />
+                                            </div>
 
-                                        {img.caption && (
-                                            <figcaption className={styles.figcaptionStyle}>
-                                                {t(img.caption)}
-                                            </figcaption>
-                                        )}
-                                    </figure>
-
-                                ))}
-
+                                            {img.caption && (
+                                                <figcaption className={styles.figcaptionStyle}>
+                                                    {t(img.caption)}
+                                                </figcaption>
+                                            )}
+                                    </figure>)}
+                                    
+                                )}
                             </div>
+
                         )}
 
                     case 'rotationList':

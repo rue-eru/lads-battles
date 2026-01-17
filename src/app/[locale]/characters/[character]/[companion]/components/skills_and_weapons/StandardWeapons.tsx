@@ -26,7 +26,7 @@ export default function StandardWeapons () {
             <div>
 
                 {/*represents an array of weapon images that can be expanded on toggle*/}
-                <div className="flex justify-between py-6 gap-2">
+                <div className="flex flex-wrap justify-center sm:justify-between py-6 gap-x-0.5 sm:gap-2">
                 {Object.entries(standardWeaponsData).map(([weaponId, weaponData]) => (
                     <button
                         key={weaponId}
@@ -85,13 +85,13 @@ export default function StandardWeapons () {
                                             <Image 
                                                 src={`/images/standard_weapons/${expandedWeapon}/basic_attack.png`}
                                                 alt={tWeapons(weaponData.skills.basic_attack.name_key)}
-                                                width={150}
-                                                height={150}
+                                                width={80}
+                                                height={80}
                                                 className="object-cover"
                                             />
                                         </div>
                                     </td>
-                                    <td className="p-6">
+                                    <td className={styles.skillDescriptionDiv}>
                                         <div className={styles.skillInfoBubbleDiv}>
                                             <h3>{tWeapons(weaponData.skills.basic_attack.name_key)}</h3>
                                             <span className={styles.skillsPinkBubble}>
@@ -111,13 +111,13 @@ export default function StandardWeapons () {
                                             <Image 
                                                 src={`/images/standard_weapons/${expandedWeapon}/passive_skill.png`}
                                                 alt={tWeapons(weaponData.skills.passive_skill.name_key)}
-                                                width={150}
-                                                height={150}
+                                                width={80}
+                                                height={80}
                                                 className="object-cover"
                                             />
                                         </div>
                                     </td>
-                                    <td className="p-6">
+                                    <td className={styles.skillDescriptionDiv}>
                                         <div className={styles.skillInfoBubbleDiv}>
                                             <h3>{tWeapons(weaponData.skills.passive_skill.name_key)}</h3>
                                             <span className={styles.skillsPinkBubble}>
@@ -137,13 +137,13 @@ export default function StandardWeapons () {
                                             <Image 
                                                 src={`/images/standard_weapons/${expandedWeapon}/active_skill.png`}
                                                 alt={tWeapons(weaponData.skills.active_skill.name_key)}
-                                                width={150}
-                                                height={150}
+                                                width={80}
+                                                height={80}
                                                 className="object-cover"
                                             />
                                         </div>
                                     </td>
-                                    <td className="p-6">
+                                    <td className={styles.skillDescriptionDiv}>
                                         <div className={styles.skillInfoBubbleDiv}>
                                             <h3>{tWeapons(weaponData.skills.active_skill.name_key)}</h3>
                                             <span className={styles.skillsPinkBubble}>

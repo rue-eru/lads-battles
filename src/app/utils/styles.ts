@@ -11,7 +11,7 @@ export const styles = {
     charaIconStyle: ` hover:border-pink-400 hover:border-3 rounded-full`,
     navDowndropLists: `absolute w-full top-full bg-lightgray rounded-lg shadow-lg z-50 text-center tracking-widest py-4`,
     dropdownBlockLI: `block hover:text-pink-400 uppercase text-nowrap`,
-    contactIcons: `object-covers bg-white rounded-full`,
+    contactIcons: `object-covers bg-aliceblue rounded-full outline-2 outline-black -outline-offset-1 shadow-md shadow-black/20 cursor-pointer`,
 
 
     //styles for ProtocororeTypeTable
@@ -33,13 +33,15 @@ export const styles = {
     skillsInfoDiv: `flex gap-3 font-accent text-wrap`,
     skillsPinkBubble: `rounded-2xl px-2 bg-pink-400`,
     skillsGrayubble: `rounded-2xl px-2 bg-lightgray`,
-    imgSkillWidth: `w-32 p-6`,
+    imgSkillWidth: `w-[25%] sm:w-32 p-2 sm:p-6`,
+    skillDescriptionDiv:`sm:p-6 py-6`,
     skillInfoBubbleDiv: `flex flex-wrap items-center gap-3 mb-2 font-accent`,
 
     //gameplay
     figcaptionStyle: `text-sm text-right text-gray-400 italic text-wrap justify-end`,
-    img_bg: ` bg-gray-700 lg:p-2 sm:p-1 rounded-sm`,
-    imgHeightSoloOrSoloCapture: `w-full h-60 md:h-80 lg:h-100 relative`,
+    img_bg: ` bg-gray-700 rounded-sm p-1`,
+    imgHeight: `w-full h-60 md:h-80 lg:h-100 relative`,
+    imgFillContainer: `object-cover cursor-zoom-in w-full h-full`,
 
     //floatingbtns
     floatBtnStyle: `flex gap-2 items-center hover:border-pink-400 hover:text-pink-400 

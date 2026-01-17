@@ -8,6 +8,7 @@ import { useTranslations } from "next-intl"
 import { styles } from "../utils/styles"
 import NavDropdown from "./NavDropdown"
 import { useCurrentLanguage } from "../hooks/useCurrentLanguage"
+import HomeBtn from "./HomeBtn"
 
 export default function Navigation() {
     const tLayout = useTranslations('layout');
@@ -15,9 +16,9 @@ export default function Navigation() {
     const { isJa } = useCurrentLanguage();
 
     return (
-        <nav className="p-2  flex items-center justify-between bg-lightgray font-accent font-light ">
+        <nav className="p-2  flex items-center justify-between bg-lightgray font-accent font-light">
 
-            <Link href="/" className="flex items-center">
+            <Link href="/" className="hidden sm:block">
                 <Image
                     src={isJa ? "/images/icons/ja-logo.png" : "/images/icons/main-logo.png"}
                     alt="Website Logo > Home Link"
@@ -27,10 +28,8 @@ export default function Navigation() {
                 />
             </Link>
 
-            <div className="flex items-center gap-10 uppercase lg:tracking-[0.5rem">
-                <Link href="/" className="hover:text-pink-400">
-                    {tLayout("home-btn")}
-                </Link>
+            <div className="flex items-center gap-4 sm:gap-10 uppercase lg:tracking-[0.5rem]">
+                <HomeBtn />
 
                 {/*Dropdown logic for character list*/}
                 <NavDropdown label={<Link href={"/characters"}>{tLayout('characters')}</Link>}>

@@ -11,21 +11,26 @@
         },
         {
             "type": "imageGroupPerImageCaption",
+            "layout": "contain",
             "images": [
                 {
                     "src": "/images/companions/rafayel/gameplay/abysswalker/potential_stacks.png",
                     "alt": "gameplay.rafayel.abysswalker.images.potential_stacks.alt",
-                    "caption": "gameplay.rafayel.abysswalker.images.potential_stacks.caption"
+                    "caption": "gameplay.rafayel.abysswalker.images.potential_stacks.caption",
+                    "layout": "left"
                 },
                 {
                     "src": "/images/companions/rafayel/gameplay/abysswalker/beacon.png",
                     "alt": "gameplay.rafayel.abysswalker.images.beacon.alt",
-                    "caption": "gameplay.rafayel.abysswalker.images.beacon.caption"
+                    "caption": "gameplay.rafayel.abysswalker.images.beacon.caption",
+                    "layout": "center"
+
                 },
                 {
                     "src": "/images/companions/rafayel/gameplay/abysswalker/fishtail_beacon.png",
                     "alt": "gameplay.rafayel.abysswalker.images.fishtail_beacon.alt",
-                    "caption": "gameplay.rafayel.abysswalker.images.fishtail_beacon.caption"
+                    "caption": "gameplay.rafayel.abysswalker.images.fishtail_beacon.caption",
+                    "layout": "center"
                 }
             ]
         },
@@ -49,12 +54,14 @@
                 {
                     "src": "/images/companions/rafayel/gameplay/abysswalker/rafayel_buffs.png",
                     "alt": "gameplay.rafayel.abysswalker.images.rafayel_buffs.alt",
-                    "caption": "gameplay.rafayel.abysswalker.images.rafayel_buffs.caption"
+                    "caption": "gameplay.rafayel.abysswalker.images.rafayel_buffs.caption",
+                    "layout": "top"
                 },
                 {
                     "src": "/images/companions/rafayel/gameplay/abysswalker/my_buffs.png",
                     "alt": "gameplay.rafayel.abysswalker.images.my_buffs.alt",
-                    "caption": "gameplay.rafayel.abysswalker.images.my_buffs.caption"
+                    "caption": "gameplay.rafayel.abysswalker.images.my_buffs.caption",
+                    "layout": "left"
                 }
 
             ]

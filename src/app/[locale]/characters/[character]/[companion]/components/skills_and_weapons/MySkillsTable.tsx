@@ -46,7 +46,7 @@ export default function MySkillsTable( {character, companion}: CharaDataProps) {
                 <TextRenderer>{tCommon('intro')}</TextRenderer>
             </p>
 
-            <div className="flex items-center  gap-4 p-6">
+            <div className="flex items-center gap-4 p-6">
                 <div className="relative">
                     <Image 
                         src={`/images/companions/${character}/gameplay/${companion}/weapon.png`}
