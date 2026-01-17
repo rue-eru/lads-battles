@@ -37,10 +37,11 @@ export type GameplayBlock =
     }
     | {
         type: 'imageGroupPerImageCaption';
-        layout?: 'ui' | 'visual';
+        directionLayout?: 'grid-col' | 'flex';
         images: Array<{
             src: string;
             alt: string;
+            layout?: 'left' | 'right' | 'top' | 'center';
             caption: string;
         }>
     }

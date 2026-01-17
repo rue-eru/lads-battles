@@ -15,7 +15,7 @@
         },
         {
             "type": "imageGroupPerImageCaption",
-            "layout": "ui",
+            "directionLayout": "grid-col",
             "images": [
                 {
                     "src": "/images/companions/rafayel/gameplay/lemurian_sea_god/oceans_descent_bar_inactive.png",
@@ -65,6 +65,7 @@
                     "caption": "gameplay.rafayel.lemurian_sea_god.images.lightning_crystal.caption"
                 },
                 {
+                    "layout": "left",
                     "src": "/images/companions/rafayel/gameplay/lemurian_sea_god/buffs.png",
                     "alt": "gameplay.rafayel.lemurian_sea_god.images.buffs.alt",
                     "caption": "gameplay.rafayel.lemurian_sea_god.images.buffs.caption"

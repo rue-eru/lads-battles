@@ -8,7 +8,6 @@ import { useEffect, useState } from "react"
 
 export function NoGuideAvailable  ({
     character,
-    companion
 }: CharaDataProps) {
 
     const t = useTranslations('layout');
@@ -18,11 +17,11 @@ export function NoGuideAvailable  ({
     useEffect(() => {
 
         const positions = [
-            'col-start-1',
-            'col-start-2',
-            'col-start-3',
-            'col-start-4',
-            'col-start-5',
+            'sm:col-start-1',
+            'sm:col-start-2',
+            'sm:col-start-3',
+            'sm:col-start-4',
+            'sm:col-start-5',
         ]
 
         setPositionClass(positions[Math.floor(Math.random() * positions.length)])
@@ -40,7 +39,7 @@ export function NoGuideAvailable  ({
 
             {positionClass && (
                 <div className="grid grid-cols-5 place-items-center">
-                    <div className={`col-span-1 ${positionClass}`}>
+                    <div className={`col-span-1 col-start-3 w-45 ${positionClass}`}>
                         <Image
                             src={`/images/others/${character}.webp`}
                             alt={`${character} kitty gif`}

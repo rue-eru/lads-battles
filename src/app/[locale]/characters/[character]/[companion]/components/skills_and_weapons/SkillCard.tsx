@@ -45,7 +45,7 @@ export default function SkillCard ({
                 </div>
             </td>
 
-            <td className="p-6" >
+            <td className={styles.skillDescriptionDiv} >
                 <div className={styles.skillInfoBubbleDiv}>
                     {/*skill name from translation key!*/}
                     <h3>{t(nameKey)}</h3>

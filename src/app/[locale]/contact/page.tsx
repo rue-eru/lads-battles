@@ -23,7 +23,7 @@ export default function Contact () {
                     <hr className={styles.divider}></hr>
                     <p>{tCommon('contacts_intro')}</p>
         
-                    <div className="flex items-center gap-4 w-full">
+                    <div className="flex flex-col sm:flex-row items-center sm:gap-4 w-full">
                         <div className="font-accent font-semibold">{tLayout('email')}</div>
                         <CopyWrapper text="shigoto.el@gmail.com">
                             <span  className="cursor-text">shigoto.el@gmail.com</span>
@@ -31,13 +31,13 @@ export default function Contact () {
                     </div>
         
         
-                    <p className="mt-12 w-full">{tCommon('contacts_thanks')}</p>
+                    <p className="mt-4 w-full">{tCommon('contacts_thanks')}</p>
         
-                    <div className="flex items-center gap-2  w-full">
+                    <div className="flex flex-col sm:flex-row items-center sm:gap-2  w-full">
                         <div className="font-accent font-semibold">{tLayout('ingame_info')}</div>
                         
                         {/*it works it is being upset since it is being imported through Script and its custom compoenent without being installed by packages |
-                        i tied installing it through the npm packege and it didnt work at all so it stays as it is ig */}
+                        i tried installing it through the npm packege and it didnt work at all so it stays as it is ig */}
                         <CopyWrapper text="Asia 81003102527 素える">
                             <spoiler-span>
                                 <span className="cursor-text">Asia 81003102527 素える</span>
@@ -49,42 +49,46 @@ export default function Contact () {
         
                     <div className="grid grid-cols-5 place-items-center justify-center">
 
-                        <div className="col-start-5 w-45">
+                        <div className="col-start-3 sm:col-start-5 w-45">
 
                             <Image
                                 alt="kitty raf"
                                 src={`/images/others/rafayel.webp`}
                                 width={200}
                                 height={200}
-                                className="object-covers border-8"
+                                className="object-covers z-50"
                             /> 
 
-                            <div className="flex gap-2 w-fit mx-auto -mt-8">
-                                <a href="mailto:shigoto.el@gmail.com" aria-label="Email">
+                            <div className="flex gap-2 w-fit mx-auto -mt-7">
+                                <a href="mailto:shigoto.el@gmail.com" aria-label="Email" target="_blank" rel="noopener noreferrer">
                                     <Image
                                         alt="email icon"
                                         src={`/images/icons/email.png`}
                                         width={30}
                                         height={30}
                                         className={styles.contactIcons}
+                                        title="Email"
                                     />
                                 </a>
-                                <a>
+                                <a href="https://github.com/rue-eru" aria-label="Github" target="_blank" rel="noopener noreferrer">
                                     <Image
                                         alt="github icon"
                                         src={`/images/icons/github-logo.png`}
                                         width={30}
                                         height={30}
                                         className={styles.contactIcons}
+                                        title="Github"
+
                                     />
                                 </a>
-                                <a>
+                                <a href="https://t.me/literallyfault" aria-label="Telegram" target="_blank" rel="noopener noreferrer">
                                     <Image
                                         alt="telegram icon"
                                         src={`/images/icons/telegram.png`}
                                         width={30}
                                         height={30}
                                         className={styles.contactIcons}
+                                        title="Telegram"
                                     />
                                 </a>
                             </div>
