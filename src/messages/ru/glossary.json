@@ -118,6 +118,10 @@
     "flame_lilies": {
         "labelKey": "Flame Lilies"
     },
+    "burn" : {
+        "description": "Наносит врагам постепенный урон, накладывается компаньонами Abysswalker и Artist.",
+        "labelKey": "Burn"
+    },
     "scarlet_shade": {
         "descriptionKey": "Особая способность компаньона Artis. Создаёт Flame Lily",
         "labelKey": "Scarlet Shade"

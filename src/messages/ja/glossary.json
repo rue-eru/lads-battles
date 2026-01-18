@@ -131,7 +131,7 @@
         "labelKey": "しるべ"
     },
     "burn": {
-        "descriptionKey": "敵にかかる持続ダメージ状態異常。深海の潜行者の一部スキルで付与できます。",
+        "descriptionKey": "敵にかかる持続ダメージ状態異常。深海の潜行者と芸術家の一部スキルで付与できます。",
         "labelKey":"火傷"
     },
     "deepsea_pursuit": {

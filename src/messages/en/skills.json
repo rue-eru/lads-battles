@@ -33,11 +33,11 @@
             "artist": {
                 "support_skill": {
                     "name": "Scarlet Shade",
-                    "description": "Rafayel creates a Scarlet Shade dealing [AoE] DMG and and inflicting Burn. Also leaves 3 [Flame Lilies]. "
+                    "description": "Rafayel creates a Scarlet Shade dealing [AoE] DMG and and inflicting [Burn]. Also leaves 3 [Flame Lilies]. "
                 },
                 "resonance_skill": {
                     "name": "Scorching",
-                    "description": "You ignite all [Flame Lilies] dealing [AoE] DMG and inflicting Burn. Each of [Flame Lilies] increases your ATK by 5% for 8s."
+                    "description": "You ignite all [Flame Lilies] dealing [AoE] DMG and inflicting [Burn]. Each of [Flame Lilies] increases your ATK by 5% for 8s."
                 },
                 "ardent_oath": {
                     "name": "Searing Motif",
@@ -45,7 +45,7 @@
                 },
                 "passive_skill": {
                     "name": "Flowing Flame",
-                    "description": "When you and Rafayel's skills hit enemy, he summons up to 5 [Flame Lilies] dealing [AoE] DMG. When 10 [Flame Lilies] are utilized, Rafayel's [Basic Attack] DMG and attack range are increased."
+                    "description": "When you and Rafayel's skills hit enemy, he summons up to 5 [Flame Lilies] dealing [AoE] DMG. When 10 [Flame Lilies] are utilized, Rafayel's [Basic Attack] DMG and attack range are increased, creating newborn [Flame Lilies] and triggering them dealing DMG and leaving [Burn]."
                 }
             },
             "fresh_paint": {
@@ -87,11 +87,11 @@
             "abysswalker": {
                 "support_skill": {
                     "name": "Eclipse Rend",
-                    "description": "Click Rafayel's icon when ready, or trigger with [Perfect Dodge]. Leaves [Fishtail Beacon] on a ground restoring 2 Potential on pick • At max [Potential], becomes empowered and Burns enemies"
+                    "description": "Click Rafayel's icon when ready, or trigger with [Perfect Dodge]. Leaves [Fishtail Beacon] on a ground restoring 2 Potential on pick • At max [Potential], becomes empowered and [Burn]s enemies"
                 },
                 "resonance_skill": {
                     "name": "Fantasia Shark",
-                    "description": "You and Rafayel pull in enemies with chains. Fantasia Shark bites and burns them after."
+                    "description": "You and Rafayel pull in enemies with chains. Fantasia Shark bites and [Burn]s them after."
                 },
                 "ardent_oath": {
                     "name": "Four Scourges",

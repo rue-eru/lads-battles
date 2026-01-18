@@ -8,6 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "@floating-ui/core": "^1.7.3",
+    "@floating-ui/dom": "^1.7.4",
+    "@floating-ui/react": "^0.27.16",
+    "@floating-ui/react-native": "^0.10.7",
     "@tippyjs/react": "^4.2.6",
     "clsx": "^2.1.1",
     "fuse.js": "^7.1.0",

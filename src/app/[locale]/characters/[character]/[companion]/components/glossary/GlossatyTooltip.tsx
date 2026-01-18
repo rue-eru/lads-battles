@@ -1,0 +1,52 @@
+'use client'
+
+import { useState } from "react";
+import { useFloating, offset, flip, shift, autoUpdate } from "@floating-ui/react";
+
+type Props = {
+    label: string;
+    description: string;
+    href?: string;
+};
+
+export function GlossatyTooltip ({ label, description, href} : Props) {
+    const [open, setOpen] = useState(false);
+
+    const {refs, floatingStyles } = useFloating({
+        open,
+        onOpenChange: setOpen,
+        placement: 'top',
+        middleware: [
+            offset(8),
+            flip(),
+            shift({ padding: 8})
+        ],
+        whileElementMounted: autoUpdate,
+    })
+
+    const trigger = (
+        <span 
+            ref={refs.setReference}
+            onMouseEnter={() => setOpen(true)}
+            onMouseLeave={() => setOpen(false)}
+            className="hover:bg-pink-400 text-yellow-100 underline decoration-dotted decoration-pink-400 cursor-help"
+        >
+            {label}
+        </span>
+    )
+
+    return (
+        <>
+            {href ? <a href={href}>{trigger}</a> : trigger}
+            {open && (
+                <div
+                    ref={refs.setFloating}
+                    style={floatingStyles}
+                    className="z-50 max-w-xs rounded-md bg-black/80 px-3 py-2 text-sm text-white shadow-lg"
+                >
+                    {description}
+                </div>
+            )}
+        </>
+    )
+}

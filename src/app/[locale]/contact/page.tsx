@@ -50,13 +50,14 @@ export default function Contact () {
                     <div className="grid grid-cols-5 place-items-center justify-center">
 
                         <div className="col-start-3 sm:col-start-5 w-45">
-
+                            {/*Console said : The requested resource "/images/others/rafayel.webp" is an animated image so it will not be optimized. Consider adding the "unoptimized" property to the <Image>.*/}
                             <Image
                                 alt="kitty raf"
                                 src={`/images/others/rafayel.webp`}
                                 width={200}
                                 height={200}
                                 className="object-covers z-50"
+                                unoptimized
                             /> 
 
                             <div className="flex gap-2 w-fit mx-auto -mt-7">
