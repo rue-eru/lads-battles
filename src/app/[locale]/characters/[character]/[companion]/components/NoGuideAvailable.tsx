@@ -37,6 +37,7 @@ export function NoGuideAvailable  ({
                 <p>{t('stay_tuned')}</p>
             </div>
 
+            {/*Console said : The requested resource "/images/others/rafayel.webp" is an animated image so it will not be optimized. Consider adding the "unoptimized" property to the <Image>.*/}
             {positionClass && (
                 <div className="grid grid-cols-5 place-items-center">
                     <div className={`col-span-1 col-start-3 w-45 ${positionClass}`}>
@@ -46,7 +47,7 @@ export function NoGuideAvailable  ({
                             width={150}
                             height={150}
                             className="object-cover"
-
+                            unoptimized
                         /> 
                     </div>
                 </div>

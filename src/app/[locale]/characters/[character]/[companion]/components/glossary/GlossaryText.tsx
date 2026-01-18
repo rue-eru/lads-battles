@@ -1,17 +1,13 @@
 'use client'
 
 import { GLOSSARY } from "@/data/glossary.data";
-import Tippy from "@tippyjs/react";
-import 'tippy.js/dist/tippy.css'
-import 'tippy.js/themes/translucent.css';
-import 'tippy.js/animations/perspective-subtle.css';
 import { useTranslations } from "next-intl";
+import { GlossatyTooltip } from "./GlossatyTooltip";
 
 
 
 export function GlossaryText ({ text }: { text: string}) {
     const parts = text.split(/(\[[^\]]+\])/g);
-
     const tGlossay = useTranslations('glossary');
 
     return(
@@ -20,44 +16,37 @@ export function GlossaryText ({ text }: { text: string}) {
 
                 const match = part.match(/^\[(.+)\]$/);
 
-                if (!match) return part;
+                if (!match) return <span key={index}>{part}</span>;
 
                 const termKey = match[1];
                 const term = GLOSSARY[termKey];
 
-                if (!term) return termKey;
+                if (!term) return <span key={index}>{termKey}</span>;
 
                 const label = tGlossay(term.label) || term.label
 
                 const description = term.description
                     ? tGlossay(term.description) || term.description
-                    : undefined;
+                    : null;
 
-                const content = (
-                    <span className="hover:bg-pink-400 text-yellow-100 underline decoration-dotted decoration-pink-400 cursor-help">
-                        {label}
-                    </span>
-                );
+                if (description) {
+                    return (
+                        <GlossatyTooltip
+                            key={index}
+                            label={label}
+                            description={description}
+                            href={term.link}
+                        />
+                    )
+                }
 
-                return term.description ? (
-                    <Tippy 
-                        key={index} 
-                        content={description} 
-                        theme="translucent"
-                        animation="perspective-subtle"
-                    > 
-                        {term.link 
-                            ? <a href={term.link}>{content}</a>
-                            : content
-                        }
-                    </Tippy>
-                ) : term.link ? (
-                    <a key={index} href={term.link} className="underline">
-                        {label}
-                    </a>
-                ) : (
-                    label
-                )
+                if (term.link) {
+                    return (
+                        <a key={index} href={term.link} className="underline">{label}</a>
+                    )
+                }
+
+                return <span key={index}>{label}</span>
             })}
         
         </>

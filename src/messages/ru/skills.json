@@ -34,11 +34,11 @@
             "artist": {
                 "support_skill": {
                     "name": "Scarlet Shade",
-                    "description": "Рафаэль создает Scarlet Shade, наносящий урон по периметру и вызывающий горение. Также оставляет 3 [Flame Lily]."
+                    "description": "Рафаэль создает Scarlet Shade, наносящий урон по периметру и вызывающий [Burn]. Также оставляет 3 [Flame Lily]."
                 },
                 "resonance_skill": {
                     "name": "Scorching",
-                    "description": "МС поджигает все [Flame Lily], нанося урон по периметру и горение. Каждая [Flame Lily] увеличивает АТК на 5% в течение 8 секунд."
+                    "description": "МС поджигает все [Flame Lily], нанося урон по периметру и вызывая [Burn]. Каждая [Flame Lily] увеличивает АТК на 5% в течение 8 секунд."
                 },
                 "ardent_oath": {
                     "name": "Searing Motif",
@@ -46,7 +46,7 @@
                 },
                 "passive_skill": {
                     "name": "Flowing Flame",
-                    "description": "Когда навыки МС и Рафаэля поражают врага, Рафаэл вызывает до 5 [Flame Lily], наносящих урон по периметру. При использовании 10 [Flame Lily] увеличивается урон базовой атаки Рафаэля и дальность его атак."
+                    "description": "Когда навыки МС и Рафаэля поражают врага, Рафаэл вызывает до 5 [Flame Lily], наносящих урон по периметру. При использовании 10 [Flame Lily] увеличивается урон базовой атаки Рафаэля и дальность его атак, также создаются новые [Flame Lilies], наносящие урон и вызывающие [Burn]."
                 }
             },
             "fresh_paint": {
@@ -88,11 +88,11 @@
             "abysswalker": {
                 "support_skill": {
                     "name": "Eclipse Rend",
-                    "description": "Нажмите на иконку Рафаэля, когда будет готова к использованию(загорится жёлтым), или совершите [Perfect Dodge]. По завершению на поле будет  [Fishtail Beacon], его поднятие восстанавливает 2 [Potential] • При макс. Potential наносит сильный удар по врагам, сжигая их."
+                    "description": "Нажмите на иконку Рафаэля, когда будет готова к использованию(загорится жёлтым), или совершите [Perfect Dodge]. По завершению на поле будет  [Fishtail Beacon], его поднятие восстанавливает 2 [Potential] • При макс. Potential наносит сильный удар по врагам, оставляя [Burn]."
                 },
                 "resonance_skill": {
                     "name": "Fantasia Shark",
-                    "description": "МС с Рафаэлем стягивает врагов цепями. Fantasia Shark кусает и сжигает их."
+                    "description": "МС с Рафаэлем стягивает врагов цепями. Fantasia Shark кусает и наносит [Burn]."
                 },
                 "ardent_oath": {
                     "name": "Four Scourges",
