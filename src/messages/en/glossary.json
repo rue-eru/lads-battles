@@ -123,7 +123,7 @@
         "labelKey": "Beacon"
     },
     "burn" : {
-        "description": "Continuous damage status abnormality inflicted on enemies. Can be inflicted by some skills of Abysswalker and Artist.",
+        "descriptionKey": "Continuous damage status abnormality inflicted on enemies. Can be inflicted by some skills of Abysswalker and Artist.",
         "labelKey": "Burn"
     },
     "deepsea_pursuit": {

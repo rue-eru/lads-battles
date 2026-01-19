@@ -21,7 +21,8 @@ export function GlossatyTooltip ({ label, description, href} : Props) {
             flip(),
             shift({ padding: 8})
         ],
-        whileElementMounted: autoUpdate,
+        whileElementsMounted   // plural
+: autoUpdate,
     })
 
     const trigger = (
@@ -29,7 +30,7 @@ export function GlossatyTooltip ({ label, description, href} : Props) {
             ref={refs.setReference}
             onMouseEnter={() => setOpen(true)}
             onMouseLeave={() => setOpen(false)}
-            className="hover:bg-pink-400 text-yellow-100 underline decoration-dotted decoration-pink-400 cursor-help"
+            className={`hover:bg-pink-400 text-yellow-100 ${href ? "cursor-pointer" : "cursor-help"}`}
         >
             {label}
         </span>
@@ -42,7 +43,7 @@ export function GlossatyTooltip ({ label, description, href} : Props) {
                 <div
                     ref={refs.setFloating}
                     style={floatingStyles}
-                    className="z-50 max-w-xs rounded-md bg-black/80 px-3 py-2 text-sm text-white shadow-lg"
+                    className="z-50 max-w-xs rounded-md bg-lightgray/90 px-3 py-2 text-white shadow-lg main-font not-italic font-normal"
                 >
                     {description}
                 </div>
