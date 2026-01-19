@@ -24,14 +24,16 @@ const InknutAntiqua = Inknut_Antiqua({
   variable: "--font-inknut-antiqua",
   subsets: ['latin'],
   weight: ["300" , "400" , "500" , "600" , "700" , "800" , "900"],
-  display: 'swap'
+  display: 'swap',
+  preload: true,
 });
 
 const SourceSerif4 = Source_Serif_4({
   variable: "--font-source-serif-4",
   subsets: ['latin', 'cyrillic'],
   weight: ["300" , "400" , "500" , "600" , "700" , "800" , "900"],
-  display: 'swap'
+  display: 'swap',
+  preload: true,
 });
 
 const NotoSerifJP = Noto_Serif_JP({
@@ -39,7 +41,8 @@ const NotoSerifJP = Noto_Serif_JP({
   //ts doesnt allow japanese???
   subsets: ['latin'],
   weight: ["300" , "400" , "500" , "600" , "700" , "800" , "900"],
-  display: 'swap'
+  display: 'swap',
+  preload: true,
 });
 
 
@@ -70,7 +73,7 @@ export default async function RootLayout({
 
 
   return (
-    <html lang={locale}>
+    <html lang={locale} style={{ scrollBehavior: 'smooth' }} data-scroll-behavior="smooth">
       <body 
          className={`
           ${geistSans.variable} ${geistMono.variable} ${InknutAntiqua.variable} ${SourceSerif4.variable} ${NotoSerifJP.variable}

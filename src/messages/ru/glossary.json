@@ -119,7 +119,7 @@
         "labelKey": "Flame Lilies"
     },
     "burn" : {
-        "description": "Наносит врагам постепенный урон, накладывается компаньонами Abysswalker и Artist.",
+        "descriptionKey": "Наносит врагам постепенный урон, накладывается компаньонами Abysswalker и Artist.",
         "labelKey": "Burn"
     },
     "scarlet_shade": {

@@ -10,6 +10,7 @@ export function GlossaryText ({ text }: { text: string}) {
     const parts = text.split(/(\[[^\]]+\])/g);
     const tGlossay = useTranslations('glossary');
 
+
     return(
         <>
             {parts.map((part, index) => {
@@ -42,7 +43,9 @@ export function GlossaryText ({ text }: { text: string}) {
 
                 if (term.link) {
                     return (
-                        <a key={index} href={term.link} className="underline">{label}</a>
+                        <a key={index} href={term.link}>
+                            {label}
+                        </a>
                     )
                 }
 
