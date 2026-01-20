@@ -4,7 +4,6 @@ import Image from "next/image";
 import { styles } from "@/app/utils/styles";
 import { ProtocoreTableRowProps } from "@/app/utils/interfaces-data";
 import { useTranslations } from "next-intl";
-import { getStellactrumColor } from "@/app/utils/game/stellactrum-utils";
 import StatList from "./StatList";
 import { TextRenderer } from "../glossary/TextRenderer";
 
@@ -15,7 +14,6 @@ export default function ProtocoreTableRow ({
 } : ProtocoreTableRowProps) {
 
     const t = useTranslations('protocores.protocoreStats');
-    const displayStellactrum = getStellactrumColor(stellactrum);
 
     const renderStatContent = () => {
         if (Array.isArray(protocoreStat)) {
@@ -30,7 +28,7 @@ export default function ProtocoreTableRow ({
             <td>
                 <div>
                     <Image 
-                        src={`/images/mats/protocores/${displayStellactrum}/${protocoreType}.png`}
+                        src={`/images/mats/protocores/${stellactrum}/${protocoreType}.png`}
                         alt={`${protocoreType} protocore`}
                         width={60}
                         height={60}

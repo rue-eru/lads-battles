@@ -115,3 +115,9 @@ export interface CopyWrapperProps {
     children: ReactNode;
     className?: string;
 }
+
+export interface ProtocoreTableProps {
+    stellactrum: string;
+    character: string;
+    companion: string;
+}

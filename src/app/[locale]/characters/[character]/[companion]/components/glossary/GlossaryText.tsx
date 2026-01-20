@@ -12,17 +12,17 @@ export function GlossaryText ({ text }: { text: string}) {
 
 
     return(
-        <>
+        <span>
             {parts.map((part, index) => {
 
                 const match = part.match(/^\[(.+)\]$/);
 
-                if (!match) return <span key={index}>{part}</span>;
+                if (!match) return <span key={`text-${index}`}>{part}</span>;
 
                 const termKey = match[1];
                 const term = GLOSSARY[termKey];
 
-                if (!term) return <span key={index}>{termKey}</span>;
+                if (!term) return <span key={`term-${termKey}-${index}`}>{termKey}</span>;
 
                 const label = tGlossay(term.label) || term.label
 
@@ -33,7 +33,7 @@ export function GlossaryText ({ text }: { text: string}) {
                 if (description) {
                     return (
                         <GlossatyTooltip
-                            key={index}
+                            key={`tooltip-${termKey}-${index}`}
                             label={label}
                             description={description}
                             href={term.link}
@@ -43,15 +43,15 @@ export function GlossaryText ({ text }: { text: string}) {
 
                 if (term.link) {
                     return (
-                        <a key={index} href={term.link}>
+                        <a key={`link-${termKey}-${index}`} href={term.link}>
                             {label}
                         </a>
                     )
                 }
 
-                return <span key={index}>{label}</span>
+                return <span key={`label-${termKey}-${index}`}>{label}</span>
             })}
         
-        </>
+        </span>
     )
 }

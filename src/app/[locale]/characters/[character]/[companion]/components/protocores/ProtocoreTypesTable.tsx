@@ -1,13 +1,11 @@
 import { ProtocoreTypesTableProps } from "@/app/utils/interfaces-data";
 import { useTranslations } from "next-intl";
-import { getStellactrumColor } from "../../../../../../utils/game/stellactrum-utils";
 import Image from "next/image";
 import { styles } from "@/app/utils/styles";
 import { TextRenderer } from "../glossary/TextRenderer";
 
 export default function ProtocoreTypesTable({stellactrum, betaData, deltaData }: ProtocoreTypesTableProps) {
     const t = useTranslations('protocores');
-    const displayColor = getStellactrumColor(stellactrum);
 
     betaData = [
         'hp_bonus', 'atk_bonus' , 'def_bonus' , 'expedited_energy_boost' , 'oath_recovery_boost' , 'oath_strength'
@@ -41,7 +39,7 @@ export default function ProtocoreTypesTable({stellactrum, betaData, deltaData }:
                         <div className={styles.flatStatProt}>
                             <div className={styles.flatStatStyle}>
                                 <Image 
-                                    src={`/images/mats/protocores/${displayColor}/alpha.png`}
+                                    src={`/images/mats/protocores/${stellactrum}/alpha.png`}
                                     alt="Alpha"
                                     width={50}
                                     height={50}
@@ -60,7 +58,7 @@ export default function ProtocoreTypesTable({stellactrum, betaData, deltaData }:
                         <div className={styles.multipleStatProt}>
                             <div className={styles.multipleStatStyle}>
                                 <Image 
-                                    src={`/images/mats/protocores/${displayColor}/beta.png`}
+                                    src={`/images/mats/protocores/${stellactrum}/beta.png`}
                                     alt="Alpha"
                                     width={50}
                                     height={50}
@@ -107,7 +105,7 @@ export default function ProtocoreTypesTable({stellactrum, betaData, deltaData }:
                         <div className={styles.flatStatProt}>
                             <div className={styles.flatStatStyle}>
                                 <Image 
-                                    src={`/images/mats/protocores/${displayColor}/gamma.png`}
+                                    src={`/images/mats/protocores/${stellactrum}/gamma.png`}
                                     alt="Gamma"
                                     width={50}
                                     height={50}
@@ -129,7 +127,7 @@ export default function ProtocoreTypesTable({stellactrum, betaData, deltaData }:
                         <div className={styles.multipleStatProt}>
                             <div className={styles.multipleStatStyle}>
                                 <Image 
-                                    src={`/images/mats/protocores/${displayColor}/delta.png`}
+                                    src={`/images/mats/protocores/${stellactrum}/delta.png`}
                                     alt="Delta"
                                     width={50}
                                     height={50}

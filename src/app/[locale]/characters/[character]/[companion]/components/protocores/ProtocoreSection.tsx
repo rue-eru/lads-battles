@@ -8,14 +8,23 @@ import ProtocoreTable from "./ProtocoreTable";
 import ProtocoreTypesTable from "./ProtocoreTypesTable";
 import { TextRenderer } from "../glossary/TextRenderer";
 import { useCurrentLanguage } from "@/app/hooks/useCurrentLanguage";
+import { useEffect, useState } from "react";
+import { getStellactrumColor, type StellactrumColor } from "@/app/utils/game/stellactrum-utils";
 
 export default function ProtocoreSection ({character, companion}: CharaDataProps) {
     const charaData = charactersData[character as CharacterId];
     const companionData = charaData.companions.find(comp => comp.id === companion);
 
     const t = useTranslations('protocores');
-
     const { isRu, isJa } = useCurrentLanguage();
+
+    const [color, setColor] = useState<StellactrumColor | null>(null);
+
+    useEffect(() => {
+      setColor(getStellactrumColor(companionData?.stellactrum));
+    }, []);
+
+    if (!color) return null;
 
 
     return (
@@ -32,7 +41,7 @@ export default function ProtocoreSection ({character, companion}: CharaDataProps
 
             {/*protocore names and visual representation*/}
             <ProtocoreTypesTable 
-                stellactrum={companionData?.stellactrum}
+                stellactrum={color}
             />
                 {/*companionId={companionData?.id} */ }
 
@@ -72,7 +81,7 @@ export default function ProtocoreSection ({character, companion}: CharaDataProps
 
             ) :  ('')}
 
-            <ProtocoreTable character={character} companion={companion}/>
+            <ProtocoreTable character={character} companion={companion} stellactrum={color}/>
 
             { companionData?.type === "solar" ? (
                 <>

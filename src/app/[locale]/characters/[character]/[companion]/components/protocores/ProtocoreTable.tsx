@@ -1,6 +1,6 @@
 'use client'
 
-import { CharaDataProps } from "@/app/utils/interfaces-data";
+import { ProtocoreTableProps } from "@/app/utils/interfaces-data";
 import { CharacterId, charactersData } from "@/app/utils/loaders/character-data-loader";
 import { useState } from "react";
 import { rankData } from "@/app/utils/loaders/rank-loader";
@@ -10,13 +10,11 @@ import { styles } from "@/app/utils/styles";
 import { TextRenderer } from "../glossary/TextRenderer";
 
 
-export default function ProtocoreTable ({character, companion} : CharaDataProps) {
+export default function ProtocoreTable ({character, companion, stellactrum }: ProtocoreTableProps) {
 
     const [activeRank, setActiveRank] = useState('r0');
     const tRank = useTranslations('ranks');
 
-
-    
     const charaData = charactersData[character as CharacterId];
     const companionData = charaData.companions.find(comp => comp.id === companion);
 
@@ -34,25 +32,25 @@ export default function ProtocoreTable ({character, companion} : CharaDataProps)
                             <ProtocoreTableRow
                                 protocoreType="alpha"
                                 protocoreStat={companionData?.alpha || 'hp'}
-                                stellactrum={companionData?.stellactrum}
+                                stellactrum={stellactrum}
 
                             />
                             <ProtocoreTableRow
                                 protocoreType="beta"
                                 protocoreStat={companionData?.beta as any|| 'beta'}
-                                stellactrum={companionData?.stellactrum}
+                                stellactrum={stellactrum}
 
                             />
                             <ProtocoreTableRow
                                 protocoreType="gamma"
                                 protocoreStat={companionData?.gamma || 'atk'}
-                                stellactrum={companionData?.stellactrum}
+                                stellactrum={stellactrum}
 
                             />
                             <ProtocoreTableRow
                                 protocoreType="delta"
                                 protocoreStat={companionData?.delta as any|| 'delta'}
-                                stellactrum={companionData?.stellactrum}
+                                stellactrum={stellactrum}
 
                             />
                         </tbody>
@@ -82,22 +80,22 @@ export default function ProtocoreTable ({character, companion} : CharaDataProps)
                             <ProtocoreTableRow
                                 protocoreType="alpha"
                                 protocoreStat={companionData?.alpha || 'hp'}
-                                stellactrum={companionData?.stellactrum}
+                                stellactrum={stellactrum}
                             />
                             <ProtocoreTableRow
                                 protocoreType="beta"
                                 protocoreStat={(rankData as any)[character]?.[companion]?.[activeRank]?.beta ||companionData?.beta || []}
-                                stellactrum={companionData?.stellactrum}
+                                stellactrum={stellactrum}
                             />
                             <ProtocoreTableRow
                                 protocoreType="gamma"
                                 protocoreStat={companionData?.gamma || 'atk'}
-                                stellactrum={companionData?.stellactrum}
+                                stellactrum={stellactrum}
                             />
                             <ProtocoreTableRow
                                 protocoreType="delta"
                                 protocoreStat={(rankData as any)[character]?.[companion]?.[activeRank]?.delta || companionData?.delta || [] }
-                                stellactrum={companionData?.stellactrum}
+                                stellactrum={stellactrum}
                             />
                         </tbody>
                     </table> 

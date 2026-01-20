@@ -56,9 +56,7 @@ export default function SkillCard ({
                 </div>
                 {/*skill description part*/}
                 <div className="">
-                    <p>
                         <TextRenderer>{t(descriptionKey)}</TextRenderer>
-                    </p>
                     {NBType && <span className="italic">
                         <TextRenderer>{tGeneral(`skill_NB.${NBType}`)}</TextRenderer>
                     </span>}
