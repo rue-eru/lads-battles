@@ -20,11 +20,12 @@ export default function NavDropdown ({
             <div className="flex items-center gap-1 uppercase">
                 <span className="hover:text-pink-400">{label}</span>
                  <Image
-                     src="/images/icons/dropdown-arrow.png"
-                     alt="dropdown arrow"
-                     width={12}
-                     height={12}
-                     className={`transition-transform ${open ? 'rotate-180' : ''}`}
+                    src="/images/icons/dropdown-arrow.png"
+                    alt="dropdown arrow"
+                    width={12}
+                    height={12}
+                    className={`transition-transform ${open ? 'rotate-180' : ''}`}
+                    unoptimized
                  />
             </div>
             {open && children}

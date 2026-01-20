@@ -1,41 +1,52 @@
 export interface BaseGameplayGuide {
     type: 'standard' | 'solar';
-    //summary: string;
-    //tips: string[] | string;
+}
+
+export interface GameplayBlockBase {
+    id: string;
+    type:
+      | 'paragraph'
+      | 'orderedList'
+      | 'unorderedList'
+      | 'rotationList'
+      | 'image'
+      | 'imageGroupSharedCaption'
+      | 'imageGroupPerImageCaption'
+      | 'standard_summary';
 }
 
 export type GameplayBlock =
-    | {
+    | (GameplayBlockBase & {
         type: 'paragraph';
         content: string;
-    }
-    | {
+    })
+    | (GameplayBlockBase & {
         type: 'orderedList';
         content: string[];
-    }
-    | {
+    })
+    | (GameplayBlockBase & {
         type: 'unorderedList';
         content: string[];
-    }
-    | {
+    })
+    | (GameplayBlockBase & {
         type: 'rotationList';
         content: string[];
-    }
-    | {
+    })
+    | (GameplayBlockBase & {
         type: 'image';
         src: string;
         alt: string;
         caption: string;
-    }
-    | {
+    })
+    | (GameplayBlockBase & {
         type: 'imageGroupSharedCaption';
         caption: string;
         images: Array<{
             src: string;
             alt: string;
         }>
-    }
-    | {
+    })
+    | (GameplayBlockBase & {
         type: 'imageGroupPerImageCaption';
         directionLayout?: 'grid-col' | 'flex';
         images: Array<{
@@ -44,11 +55,11 @@ export type GameplayBlock =
             layout?: 'left' | 'right' | 'top' | 'center';
             caption: string;
         }>
-    }
-    | {
+    })
+    | (GameplayBlockBase & {
         type: 'standard_summary';
         content: string;
-    }
+    });
 
 export interface StandardGameplayGuideBlock extends BaseGameplayGuide {
     type: 'standard';

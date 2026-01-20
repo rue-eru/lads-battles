@@ -18,14 +18,15 @@ export default function Navigation() {
     return (
         <nav className="p-2  flex items-center justify-between bg-lightgray font-accent font-light">
 
+
+
             <Link href="/" className="hidden sm:block">
-                <Image
-                    src={isJa ? "/images/icons/ja-logo.png" : "/images/icons/main-logo.png"}
-                    alt="Website Logo > Home Link"
-                    width={70}
-                    height={70}
-                    priority
-                />
+                    <Image
+                        src={isJa ? "/images/icons/ja-logo.png" : "/images/icons/main-logo.png"}
+                        alt="Website Logo > Home Link"
+                        width={70}
+                        height={70}
+                    />
             </Link>
 
             <div className="flex items-center gap-4 sm:gap-10 uppercase lg:tracking-[0.5rem]">

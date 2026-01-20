@@ -8,8 +8,6 @@ import { useState } from "react";
 import { Lightbox } from "./Lightbox";
 import { TextRenderer } from "../glossary/TextRenderer";
 
-
-
 export function GameplayBlockRenderer({
     blocks
 }: {
@@ -28,32 +26,35 @@ export function GameplayBlockRenderer({
     return(
         <>
             <div className="flex flex-col gap-12">
-            {blocks.map((block, index) => {
+            {blocks.map((block) => {
+
+                const blockKey = block.id;
+
                 switch (block.type) {
 
                     case 'paragraph':
                         return (
-                            <p key={`${block.type}-${index}-${Date.now()}`}>
+                            <div key={blockKey}>
                                 <TextRenderer>{t(block.content)}</TextRenderer>
-                            </p>
+                            </div>
                         );
 
                     case 'standard_summary': 
                         return (
                             <div
-                                key={`${block.type}-${index}-${Date.now()}`}
+                                key={blockKey}
                             >
                                 <span>{tGeneral('standard_rotation')}</span>
-                                <span className="font-semibold text-pink-400">
+                                <div className="font-semibold text-pink-400">
                                     <TextRenderer>{t(block.content)}</TextRenderer>
-                                </span>
+                                </div>
                             </div>
                         )
 
                     case 'image': 
                         return (
                             <figure
-                                key={`${block.type}-${index}-${Date.now()}`}
+                                key={blockKey}
                                 className={`flex flex-col ${styles.img_bg}`}
                             >
                                 <div className={styles.imgHeight}>
@@ -80,12 +81,12 @@ export function GameplayBlockRenderer({
 
                     case 'imageGroupSharedCaption':
                         return (
-                            <figure key={index} className={`${styles.img_bg}`}>
+                            <figure key={blockKey} className={`${styles.img_bg}`}>
                                 <div className="flex flex-col gap-1">
                                     {/*maps only an image*/}
-                                    {block.images.map((img, index) => (
+                                    {block.images.map((img) => (
                                         <div
-                                            key={`${block.type}-${index}-${Date.now()}`}
+                                            key={`${block.type}-${img.src}`}
                                             className={styles.imgHeight}
                                         >
                                             <Image 
@@ -122,7 +123,7 @@ export function GameplayBlockRenderer({
                                     : "md:flex md:flex-row md:flex-wrap grid grid-cols-1 gap-1 justify-evenly"
                                 }
                                     ${styles.img_bg}`} 
-                                key={index}
+                                key={blockKey}
                             >
                                 {/*everything maps alltogether*/}
 
@@ -141,8 +142,8 @@ export function GameplayBlockRenderer({
                                     
                                     return(
                                     <figure 
-                                        key={`${block.type}-${img.src}`}
                                         className="flex-1 w-full h-auto"
+                                        key={img.src}
                                     >
                                             <div className={`relative ${directionLayoutGRID
                                                 ? 'h-20 sm:h-40 md:h-50'
@@ -176,11 +177,11 @@ export function GameplayBlockRenderer({
 
                     case 'rotationList':
                         return(
-                            <div className="border">
+                            <div className="border" key={blockKey}>
                                 <ul className="list-['∘'] p-6 list-outside">
                                     {block.content.map((li, index) => (
                                         <li
-                                            key={`${block.type}-${index}-${Date.now()}`}
+                                            key={`${blockKey}-${index}`}
                                             className="font-bold text-justify pl-2"
                                         >
                                             <TextRenderer>{t(li)}</TextRenderer>
@@ -193,10 +194,10 @@ export function GameplayBlockRenderer({
 
                     case 'orderedList':
                         return(
-                            <ol className="list-decimal list-inside">
+                            <ol className="list-decimal list-inside" key={blockKey}>
                                 {block.content.map((li, index) => (
                                     <li
-                                        key={`${block.type}-${index}-${Date.now()}`}
+                                        key={`${blockKey}-${index}`}
                                         className="font-bold text-justify pl-2"
                                     >
                                         <TextRenderer>{t(li)}</TextRenderer>
@@ -207,10 +208,10 @@ export function GameplayBlockRenderer({
 
                     case 'unorderedList':
                         return(
-                            <ul className="list-['∘'] list-outside">
+                            <ul className="list-['∘'] list-outside" key={blockKey}>
                                 {block.content.map((li, index) => (
                                     <li
-                                        key={`${block.type}-${index}-${Date.now()}`}
+                                        key={`${blockKey}-${index}`}
                                         className="pl-2"
                                     >
                                         <TextRenderer>{t(li)}</TextRenderer>

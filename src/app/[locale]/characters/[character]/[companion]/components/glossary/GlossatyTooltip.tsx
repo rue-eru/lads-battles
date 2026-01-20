@@ -40,13 +40,13 @@ export function GlossatyTooltip ({ label, description, href} : Props) {
         <>
             {href ? <a href={href}>{trigger}</a> : trigger}
             {open && (
-                <div
+                <span
                     ref={refs.setFloating}
                     style={floatingStyles}
                     className="z-50 max-w-xs rounded-md bg-lightgray/90 px-3 py-2 text-white shadow-lg main-font not-italic font-normal"
                 >
                     {description}
-                </div>
+                </span>
             )}
         </>
     )
