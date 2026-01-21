@@ -2,51 +2,47 @@ export interface BaseGameplayGuide {
     type: 'standard' | 'solar';
 }
 
-export interface GameplayBlockBase {
-    id: string;
-    type:
-      | 'paragraph'
-      | 'orderedList'
-      | 'unorderedList'
-      | 'rotationList'
-      | 'image'
-      | 'imageGroupSharedCaption'
-      | 'imageGroupPerImageCaption'
-      | 'standard_summary';
-}
-
 export type GameplayBlock =
-    | (GameplayBlockBase & {
+    | {
         type: 'paragraph';
         content: string;
-    })
-    | (GameplayBlockBase & {
+        id: string;
+    }
+    | {
         type: 'orderedList';
         content: string[];
-    })
-    | (GameplayBlockBase & {
+        id: string;
+    }
+    | {
         type: 'unorderedList';
         content: string[];
-    })
-    | (GameplayBlockBase & {
+        id: string;
+
+    }
+    | {
         type: 'rotationList';
         content: string[];
-    })
-    | (GameplayBlockBase & {
+        id: string;
+
+    }
+    |{
         type: 'image';
         src: string;
         alt: string;
         caption: string;
-    })
-    | (GameplayBlockBase & {
+        id: string;
+    }
+    |{
         type: 'imageGroupSharedCaption';
         caption: string;
         images: Array<{
             src: string;
             alt: string;
         }>
-    })
-    | (GameplayBlockBase & {
+        id: string;
+
+    }
+    |{
         type: 'imageGroupPerImageCaption';
         directionLayout?: 'grid-col' | 'flex';
         images: Array<{
@@ -55,11 +51,13 @@ export type GameplayBlock =
             layout?: 'left' | 'right' | 'top' | 'center';
             caption: string;
         }>
-    })
-    | (GameplayBlockBase & {
+        id: string;
+    }
+    | {
         type: 'standard_summary';
         content: string;
-    });
+        id: string;
+    };
 
 export interface StandardGameplayGuideBlock extends BaseGameplayGuide {
     type: 'standard';
