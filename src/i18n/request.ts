@@ -20,14 +20,13 @@ export default getRequestConfig(async ({requestLocale}) => {
     protocores: (await import(`../messages/${locale}/protocores.json`)).default,
     gameplay: (await import(`../messages/${locale}/gameplay.json`)).default,
     glossary: (await import(`../messages/${locale}/glossary.json`)).default,
-
-
-
+    errors: (await import(`../messages/${locale}/errors.json`)).default,
   };
     
   return {
     locale,
     messages,
     // messages: (await import(`../messages/${locale}.json`)).default
+    
   };
 });

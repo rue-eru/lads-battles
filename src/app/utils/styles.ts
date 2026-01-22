@@ -2,11 +2,11 @@ export const styles = {
     h1: `font-accent text-xl`,
     headerEN: ``,
     sectionH1: `font-accent text-xl uppercase`,
-
-
+    pageStructure: `flex flex-col min-h-screen`,
     divider: `border-t border-text-primary w-full -mt-4`,
     pagelayout: `lg:w-[50%] sm:w-[90%] w-[95%] mx-auto flex-1 mb-20`,
     contentlayout: `flex flex-col gap-[32px] row-start-2 items-center sm:items-start mt-20 w-full text-justify`,
+    
     tableRow: `hover:bg-pink-400 font-accent`,
     charaIconStyle: ` hover:border-pink-400 hover:border-3 rounded-full`,
     navDowndropLists: `absolute w-full top-full bg-lightgray rounded-lg shadow-lg z-50 text-center tracking-widest py-4`,
