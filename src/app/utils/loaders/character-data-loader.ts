@@ -25,3 +25,5 @@ export const charactersData: CharactersData = {
 
 export type CharacterId = keyof typeof charactersData;
 export type CompanionId = typeof charactersData[CharacterId]['companions'][number]['id'];
+
+export const characters = ['xavier', 'zayne', 'rafayel', 'sylus', 'caleb'];

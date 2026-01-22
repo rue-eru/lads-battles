@@ -121,3 +121,10 @@ export interface ProtocoreTableProps {
     character: string;
     companion: string;
 }
+
+export interface ErrorPageProps {
+    code: number;
+    name: string;
+    description: string;
+    title: string;
+}

@@ -2,13 +2,12 @@ import Link from 'next/link';
 import CharacterCard from "../components/CharacterCard";
 import { useTranslations } from 'next-intl';
 import { styles } from '../utils/styles';
+import { characters } from '../utils/loaders/character-data-loader';
 
 
 export default function CharacterList () {
 
     const tCharas = useTranslations('characters.chNames');
-
-    const characters = ['xavier', 'zayne', 'rafayel', 'sylus', 'caleb'];
 
     return(
         <div>
