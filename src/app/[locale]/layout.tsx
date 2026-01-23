@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import '../globals.css';
+import './globals.css';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import { Geist, Geist_Mono, Inknut_Antiqua, Source_Serif_4, Noto_Serif_JP } from "next/font/google";

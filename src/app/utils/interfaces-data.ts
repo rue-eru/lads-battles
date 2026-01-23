@@ -124,7 +124,4 @@ export interface ProtocoreTableProps {
 
 export interface ErrorPageProps {
     code: number;
-    name: string;
-    description: string;
-    title: string;
 }
