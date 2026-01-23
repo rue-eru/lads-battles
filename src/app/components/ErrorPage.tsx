@@ -10,10 +10,7 @@ import { characters } from "../utils/loaders/character-data-loader";
 
 
 
-export default function ErrorPage({ code, title, description, name }: ErrorPageProps) {
-    const tError = useTranslations(`errors.${code}`);
-    const tNames = useTranslations('characters.chNames');
-    const tLayout = useTranslations('layout');
+export default function ErrorPage({ code }: ErrorPageProps) {
     const t = useTranslations();
     const {isJa} = useCurrentLanguage();
 
@@ -24,9 +21,7 @@ export default function ErrorPage({ code, title, description, name }: ErrorPageP
         return name;
     }
 
-    const kittyName = getKittyName();
-
-    const characterNameKey = tNames(kittyName as any);
+    const kittyName = getKittyName()
 
     const getkittyColor = () => {
         switch (kittyName) {
@@ -39,36 +34,44 @@ export default function ErrorPage({ code, title, description, name }: ErrorPageP
 
     const kittyColor = getkittyColor();
 
-    const renderDescription = () => {
-        const parts = description.split('{name}');
-        if (parts.length === 1) return description;
+    const title = t(`errors.${code}.title`)
 
-        return (
-            <>
-                {parts[0]}
-                <span className={`capitalize ${kittyColor}`}>
-                    {characterNameKey}
-                </span>
-            </>
-        )
-    }
+    // for rich text
+    const description = `errors.${code}.description`;
+
+    const description1 = t(`errors.${code}.description1`);
+    const description2 = t(`errors.${code}.description2`);
+    const name = t(`characters.chNames.${kittyName}`);
+
+
 
     return(
         <div className={styles.pageStructure}>
         <div className={styles.pagelayout}>
-            <div className={styles.contentlayout}>
+            <div className={`${styles.contentlayout} ${basicFont} `}>
 
                 <hr className={styles.divider}></hr>
 
 
-                <div className="mx-auto h-auto font-source-serif-4">
+                <div className="mx-auto h-auto ">
                     <div className="flex flex-col items-center justify-center">
-                        <h1 className="text-9xl">{code}</h1>
-                        <h2 className={`${basicFont} text-2xl`}>{title}</h2>
+                        <h1 className="text-9xl font-source-serif-4">{code}</h1>
+                        <h2 className="text-2xl">{title}</h2>
                     </div>
-                    <p className="py-4">
-                        {renderDescription()}
-                    </p>
+                    <div className="py-4">
+                        {/* for some reason next-intl's rich text doesnt pass attributes in next 16, so it was decided to go in a more straightforward way with a key separation instead for now
+
+                        {t.rich(description, 
+                            {name: kittyName}, 
+                            {style: (chunks: string) => <div className={`capitalize ${kittyColor}`}>{chunks}</div>}
+                        )}
+                        */}
+                        <p>
+                            {description1}
+                            <span className={`capitalize ${kittyColor}`}>{name}</span>
+                            {description2}    
+                        </p>         
+                    </div>
                 </div>
 
                <div className="flex justify-center items-center mx-auto gap-4">
@@ -82,7 +85,7 @@ export default function ErrorPage({ code, title, description, name }: ErrorPageP
                                 height={20}
                                 className="object-cover"
                             />
-                            <p className="uppercase font-inknut">{tLayout('home-btn')}</p>
+                            <p className={`uppercase ${basicFont} `}>{t('layout.home-btn')}</p>
                         </button>
                     </Link>
                         <Image

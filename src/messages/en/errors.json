@@ -1,7 +1,8 @@
 {
     "404": {
-        "notFoundTitle": "Page Not Found",
-        "notFoundDescription": "Oopsie! Kitty <name></name> wasn't able to find that page! It seems there could be a typo in the http entry. Please return back and try your request again."
-    }
+        "title": "Page Not Found",
+        "description": "Oopsie! Kitty {name} wasn't able to find that page! It seems there could be a typo in the http entry. Please return back and try your request again.",
+        "description1": "Oopsie! Kitty ",
+        "description2": " wasn't able to find that page! It seems there could be a typo in the http entry. Please return back and try your request again."    }
 
 }
