@@ -15,5 +15,6 @@
     "up": "up",
     "goSection": "go to",
     "goSectionSM": "to",
-    "search-placeholder": "Search companions..."
+    "search-placeholder": "Search companions...",
+    "retry-btn": "Retry"
 }

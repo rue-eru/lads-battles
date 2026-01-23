@@ -1,8 +1,23 @@
 {
+    "401": {
+        "title": "Unauthorized error",
+        "description1": "a placeholder for future",
+        "description2": " a request to a website or server failed because it lacks valid authentication credentials, meaning the user is not logged in or has provided incorrect login information"
+    },
+    "403": {
+        "title": "Forbidden error/ Access Denied",
+        "description1": "a placeholder for future",
+        "description2": " You don't have permission to access this resource"
+    },
     "404": {
         "title": "Page Not Found",
         "description": "Oopsie! Kitty {name} wasn't able to find that page! It seems there could be a typo in the http entry. Please return back and try your request again.",
         "description1": "Oopsie! Kitty ",
-        "description2": " wasn't able to find that page! It seems there could be a typo in the http entry. Please return back and try your request again."    }
-
+        "description2": " wasn't able to find that page! It seems there could be a typo in the web address. Head back and give it another shot!"    
+    },
+    "500": {
+        "title": "Server Error",
+        "description1": "Something went wrong on our end. Kitty ",
+        "description2": " is working on it!"
+    }
 }

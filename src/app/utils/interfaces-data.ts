@@ -124,4 +124,10 @@ export interface ProtocoreTableProps {
 
 export interface ErrorPageProps {
     code: number;
+    onRetry?: () => void
+}
+
+export interface ErrorProps {
+    error: Error & { digest?: string};
+    reset: () => void;
 }
