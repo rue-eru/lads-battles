@@ -6,8 +6,10 @@ import { Geist, Geist_Mono, Inknut_Antiqua, Source_Serif_4, Noto_Serif_JP } from
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
-import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import SideNav from '../components/side-nav/SideNav';
+import pick from 'lodash/pick';
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -55,7 +57,7 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 };
 
-export default async function RootLayout({
+export default async function LocaleLayout({
   children,
   params,
 }: {
@@ -63,6 +65,7 @@ export default async function RootLayout({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  const messages = await getMessages();
 
   if (!hasLocale(routing.locales, locale)) {
     notFound();
@@ -80,7 +83,9 @@ export default async function RootLayout({
             flex flex-col min-h-screen
           `}
       >{/* flex flex-col min-h-screen - helps footer to stay at the bottom x1*/}
-        <NextIntlClientProvider>
+        <NextIntlClientProvider
+          locale={locale}
+        >
           <Navigation />
           <SideNav />
           <main className="grow" >{children}</main>
