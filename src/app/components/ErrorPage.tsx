@@ -8,9 +8,7 @@ import type { ErrorPageProps } from "../utils/interfaces-data";
 import { useCurrentLanguage } from "../hooks/useCurrentLanguage";
 import { characters } from "../utils/loaders/character-data-loader";
 
-
-
-export default function ErrorPage({ code }: ErrorPageProps) {
+export default function ErrorPage({ code, onRetry }: ErrorPageProps) {
     const t = useTranslations();
     const {isJa} = useCurrentLanguage();
 
@@ -26,7 +24,7 @@ export default function ErrorPage({ code }: ErrorPageProps) {
     const getkittyColor = () => {
         switch (kittyName) {
             case 'xavier': return `text-blue-300`;
-            case 'zayne': return `text-blue-600`;
+            case 'zayne': return `text-lime-600`;
             case 'rafayel': return `text-purple-400`;
             case 'sylus': return `text-red-400`;
             case 'caleb': return `text-yellow-400`;
@@ -43,10 +41,7 @@ export default function ErrorPage({ code }: ErrorPageProps) {
     const description2 = t(`errors.${code}.description2`);
     const name = t(`characters.chNames.${kittyName}`);
 
-
-
     return(
-        <div className={styles.pageStructure}>
         <div className={styles.pagelayout}>
             <div className={`${styles.contentlayout} ${basicFont} `}>
 
@@ -74,32 +69,45 @@ export default function ErrorPage({ code }: ErrorPageProps) {
                     </div>
                 </div>
 
-               <div className="flex justify-center items-center mx-auto gap-4">
+               <div className="flex flex-col sm:flex-row-reverse justify-center items-center mx-auto sm:gap-4 -mt-10">
 
-                    <Link href="/">
-                        <button className="bg-lightgray flex flex-row justify-center items-center gap-2 p-3 border rounded-3xl cursor-pointer">
-                            <Image
-                                src="/images/icons/home.png"
-                                alt="Home Logo > Home Link"
-                                width={20}
-                                height={20}
-                                className="object-cover"
-                            />
-                            <p className={`uppercase ${basicFont} `}>{t('layout.home-btn')}</p>
-                        </button>
-                    </Link>
-                        <Image
+                    <Image
                             src={`/images/others/${kittyName}.webp`}
                             alt={`${kittyName} kitty gif`}
                             width={150}
                             height={150}
                             className="object-cover"
                             unoptimized
-                        />                 
+                    />   
+
+                    <div className="flex gap-4">
+
+                        <Link href="/">
+                            <button className={styles.errorBtns}>
+                                <Image
+                                    src="/images/icons/home.png"
+                                    alt="Home Logo > Home Link"
+                                    width={20}
+                                    height={20}
+                                    className="object-cover"
+                                />
+                                <p className={`uppercase ${basicFont} `}>{t('layout.home-btn')}</p>
+                            </button>
+                        </Link>
+
+                        {onRetry && (
+                            <button
+                                onClick={onRetry}
+                                className={styles.errorBtns}
+                            >
+                                {t('layout.retry-btn')}
+                            </button>
+                        )}
+                    </div>
+              
                 </div>
                 <hr className={styles.divider}></hr>
             </div>
-        </div>
         </div>
     )
 }
