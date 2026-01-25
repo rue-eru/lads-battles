@@ -13,6 +13,7 @@ import { getGameplayGuide } from '@/app/utils/loaders/gameplay-loader';
 export default async function CompanionPage ( {params} : {
   params: Promise<{character: CharacterId; companion: CompanionId; locale: Locale}>
 }) {
+  await new Promise(resolve => setTimeout(resolve, 500000));
 
     const { character, companion, locale } = await params;
     setRequestLocale(locale);
