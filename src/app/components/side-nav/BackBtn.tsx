@@ -19,6 +19,7 @@ export default function BackBtn () {
             {!isHome && 
             <button
                 onClick={() => router.back()}
+                className="cursor-pointer"
             >
                 <div className={styles.floatBtnStyle}>
                     <Image

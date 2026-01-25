@@ -6,10 +6,10 @@ import { Geist, Geist_Mono, Inknut_Antiqua, Source_Serif_4, Noto_Serif_JP } from
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
-import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import SideNav from '../components/side-nav/SideNav';
-import pick from 'lodash/pick';
-
+import { Suspense } from 'react';
+import Loading from './loading';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -65,7 +65,6 @@ export default async function LocaleLayout({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  const messages = await getMessages();
 
   if (!hasLocale(routing.locales, locale)) {
     notFound();
@@ -80,16 +79,18 @@ export default async function LocaleLayout({
       <body 
          className={`
           ${geistSans.variable} ${geistMono.variable} ${InknutAntiqua.variable} ${SourceSerif4.variable} ${NotoSerifJP.variable}
-            flex flex-col min-h-screen
+            flex flex-col min-h-screen main-font
           `}
       >{/* flex flex-col min-h-screen - helps footer to stay at the bottom x1*/}
         <NextIntlClientProvider
           locale={locale}
         >
           <Navigation />
-          <SideNav />
+          <SideNav /> 
+          <Suspense fallback={<Loading />}>
           <main className="grow" >{children}</main>
           {/*flex-grow - helps footer to stay at the bottom x2*/}
+          </Suspense>
           <Footer />
         </NextIntlClientProvider>
 

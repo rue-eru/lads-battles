@@ -58,11 +58,11 @@ export default function SectionNav () {
             section ids: protocoreSection, skillWeaponSection, gameplaySection*/}
 
                 {/* sm and md screens*/}
-                    <div className="lg:hidden">
+                    <div className="lg:hidden ">
                         {!isExpanded ? (
                             <button
                                 onClick={() => setIsExpanded(true)}
-                                className={styles.floatBtnStyleLetters}
+                                className={`${styles.floatBtnStyleLetters} cursor-pointer`}
                             ><p className={`${ruBtn} ${enBtn} ${jaBtn}`}>{t('layout.goSectionSM')}</p>
                             </button>
                         ) : (
@@ -72,14 +72,14 @@ export default function SectionNav () {
                                     className={`${styles.floatBtnStyleLetters} ${isExpanded ? "border-none" : ""}`}
                                 ><span className={`${ruBtn} ${enBtn} ${jaBtn}`}>{t('layout.goSectionSM')}</span>
                                 </button>
-                                <ul className="text-left list-none list-inside px-4">
+                                <ul className="text-left list-none list-inside px-4 ">
                                     {availableSections.map(section => (
                                         <li 
                                             key={section.id}
-                                            className="my-0.5 hover:text-pink-400
-                                        ">
+                                            className="my-0.5 hover:text-pink-400">
                                             <button
                                                 onClick={() => scrollToId(section.id)}
+                                                className="cursor-pointer"
                                             >
                                                 <span className={`text-center uppercase text-[12px] ${ruLi}`}>{t(section.labelKey)}</span>
                                             </button>
@@ -102,6 +102,7 @@ export default function SectionNav () {
                                     <button
                                         key={section.id}
                                         onClick={() => scrollToId(section.id)}
+                                        className="cursor-pointer"
                                     >
                                         {t(section.labelKey)}
                                     </button>
