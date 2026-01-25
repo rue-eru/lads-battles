@@ -8,7 +8,7 @@ import SectionNav from "./SectionNav";
 export default function SideNav () {
 
     return(
-        <div className="font-accent z-50">
+        <div className="font-accent z-50 ">
 
                 <div className="fixed lg:left-10 top-20 left-2">
                     <BackBtn />

@@ -29,6 +29,7 @@ export default function BackBtn () {
             {showUP && (
             <button
                 onClick={() => window.scrollTo({ top: 0, behavior: "smooth"})}
+                className="cursor-pointer"
             >
                 <div className={styles.floatBtnStyle}>
                     <Image

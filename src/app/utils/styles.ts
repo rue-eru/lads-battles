@@ -12,7 +12,7 @@ export const styles = {
     navDowndropLists: `absolute w-full top-full bg-lightgray rounded-lg shadow-lg z-50 text-center tracking-widest py-4`,
     dropdownBlockLI: `block hover:text-pink-400 uppercase text-nowrap`,
     contactIcons: `object-covers bg-aliceblue rounded-full outline-2 outline-black -outline-offset-1 shadow-md shadow-black/20 cursor-pointer`,
-    errorBtns: `bg-lightgray flex flex-row justify-center items-center gap-2 p-3 border rounded-3xl cursor-pointer`,
+    errorBtns: `bg-lightgray flex flex-row justify-center items-center gap-2 p-3 border rounded-3xl cursor-pointer uppercase`,
 
 
     //styles for ProtocororeTypeTable

@@ -91,7 +91,7 @@ export default function ErrorPage({ code, onRetry }: ErrorPageProps) {
                                     height={20}
                                     className="object-cover"
                                 />
-                                <p className={`uppercase ${basicFont} `}>{t('layout.home-btn')}</p>
+                                <p className={`${basicFont} ${code === 404 ? "" : "sm:block hidden"}`}>{t('layout.home-btn')}</p>
                             </button>
                         </Link>
 
@@ -100,7 +100,14 @@ export default function ErrorPage({ code, onRetry }: ErrorPageProps) {
                                 onClick={onRetry}
                                 className={styles.errorBtns}
                             >
-                                {t('layout.retry-btn')}
+                               <Image
+                                    src="/images/icons/retry.png"
+                                    alt="Retry Button Icon"
+                                    width={20}
+                                    height={20}
+                                    className="object-cover"
+                                />
+                                <p className={`${basicFont} sm:block hidden`}>{t('layout.retry-btn')}</p>
                             </button>
                         )}
                     </div>
