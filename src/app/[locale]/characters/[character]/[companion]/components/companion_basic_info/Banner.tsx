@@ -1,5 +1,6 @@
 "use client"
 
+import { GENERIC_BLUR } from "@/app/lib/imageBlur";
 import { CharaDataProps } from "@/app/utils/interfaces-data";
 import Image from "next/image";
 
@@ -15,7 +16,10 @@ export default function Banner({character, companion} : CharaDataProps) {
                     className="w-full h-auto"
                     priority
                     placeholder="blur"
+                    blurDataURL={GENERIC_BLUR}
+                    loading="eager"
                 />
+
         </div>
     )
 }

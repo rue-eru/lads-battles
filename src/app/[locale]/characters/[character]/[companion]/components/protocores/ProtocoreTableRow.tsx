@@ -33,6 +33,8 @@ export default function ProtocoreTableRow ({
                         width={60}
                         height={60}
                         className="object-cover"
+                        unoptimized
+                        loading="lazy"
                     />
                 </div>
             </td>

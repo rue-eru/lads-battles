@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { GENERIC_BLUR } from "../lib/imageBlur";
 
 interface CharacterCardProps {
     titleId: string;
@@ -22,6 +23,10 @@ export default function CharacterCard({
                     width={imageSize}
                     height={imageSize}
                     className={className}
+                    unoptimized
+                    loading="lazy"
+                    placeholder="blur"
+                    blurDataURL={GENERIC_BLUR}
                 ></Image>
                 <p className="text-center mt-2">{titleId}</p>
         </div>

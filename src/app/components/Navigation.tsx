@@ -26,6 +26,8 @@ export default function Navigation() {
                         alt="Website Logo > Home Link"
                         width={70}
                         height={70}
+                        priority
+                        unoptimized
                     />
             </Link>
 

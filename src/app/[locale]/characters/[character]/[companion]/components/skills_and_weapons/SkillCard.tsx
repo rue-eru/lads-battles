@@ -41,6 +41,8 @@ export default function SkillCard ({
                         className="object-cover"
                         width={80}
                         height={80}
+                        unoptimized
+                        loading="lazy"
                     />
                 </div>
             </td>
