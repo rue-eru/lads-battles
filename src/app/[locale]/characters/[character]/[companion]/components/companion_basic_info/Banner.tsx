@@ -14,6 +14,7 @@ export default function Banner({character, companion} : CharaDataProps) {
                     height={620}
                     className="w-full h-auto"
                     priority
+                    placeholder="blur"
                 />
         </div>
     )

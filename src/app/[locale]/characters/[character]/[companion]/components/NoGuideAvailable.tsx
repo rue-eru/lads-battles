@@ -47,6 +47,8 @@ export function NoGuideAvailable  ({
                             width={150}
                             height={150}
                             className="object-cover"
+                            placeholder="blur"
+                            loading="lazy"
                             unoptimized
                         /> 
                     </div>
