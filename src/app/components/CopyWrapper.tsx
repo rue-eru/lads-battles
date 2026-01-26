@@ -35,6 +35,8 @@ export default function CopyWrapper ({
                         width={15}
                         height={15}
                         className="object-cover ml-2"
+                        unoptimized
+                        loading="lazy"
                     />
                     : <Image
                         src="/images/icons/copy.png"
@@ -42,6 +44,8 @@ export default function CopyWrapper ({
                         width={15}
                         height={15}
                         className="object-cover ml-2"
+                        unoptimized
+                        loading="lazy"
                     /> 
             }
             </div>

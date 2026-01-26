@@ -33,11 +33,13 @@ export default function BackBtn () {
             >
                 <div className={styles.floatBtnStyle}>
                     <Image
-                         src="/images/icons/up-arrow.png"
-                         alt="up arrow"
-                         width={20}
-                         height={20}
-                         className="object-cover"
+                            src="/images/icons/up-arrow.png"
+                            alt="up arrow"
+                            width={20}
+                            height={20}
+                            className="object-cover"
+                            unoptimized
+                            priority
                      />
                     <span className={`uppercase hidden lg:block lg:flex-none ${isJa ? "tracking-[0.3em]" : ""}`}>{t('layout.up')}</span>
                 </div>            

@@ -41,6 +41,8 @@ export default function StandardWeapons () {
                                 alt={tWeapons(weaponData.name_key)}
                                 width={150}
                                 height={150}
+                                unoptimized
+                                loading="lazy"
                                 className={`object-cover ${
                                     expandedWeapon === weaponId
                                         ? 'border-pink-400 border-3 rounded-full'
@@ -88,6 +90,8 @@ export default function StandardWeapons () {
                                                 width={80}
                                                 height={80}
                                                 className="object-cover"
+                                                unoptimized
+                                                loading="lazy"
                                             />
                                         </div>
                                     </td>
@@ -114,6 +118,8 @@ export default function StandardWeapons () {
                                                 width={80}
                                                 height={80}
                                                 className="object-cover"
+                                                unoptimized
+                                                loading="lazy"
                                             />
                                         </div>
                                     </td>
@@ -140,6 +146,8 @@ export default function StandardWeapons () {
                                                 width={80}
                                                 height={80}
                                                 className="object-cover"
+                                                unoptimized
+                                                loading="lazy"
                                             />
                                         </div>
                                     </td>

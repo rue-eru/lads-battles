@@ -54,6 +54,8 @@ export default function MySkillsTable( {character, companion}: CharaDataProps) {
                         width={140}
                         height={140}
                         className="object-cover rounded"
+                        unoptimized
+                        loading="lazy"
                     />
                 </div>
                 <div className="text-left">

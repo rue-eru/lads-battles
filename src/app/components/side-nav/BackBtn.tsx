@@ -23,11 +23,13 @@ export default function BackBtn () {
             >
                 <div className={styles.floatBtnStyle}>
                     <Image
-                         src="/images/icons/back-arrow.png"
-                         alt="back arrow"
-                         width={20}
-                         height={20}
-                         className="object-cover"
+                            src="/images/icons/back-arrow.png"
+                            alt="back arrow"
+                            width={20}
+                            height={20}
+                            className="object-cover"
+                            unoptimized
+                            priority
                      />
                     <span className="uppercase hidden lg:block lg:flex-none">{t('layout.back')}</span>
                 </div>

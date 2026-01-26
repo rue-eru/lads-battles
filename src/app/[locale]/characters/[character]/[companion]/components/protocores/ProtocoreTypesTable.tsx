@@ -24,10 +24,12 @@ export default function ProtocoreTypesTable({stellactrum, betaData, deltaData }:
                 <div className={styles.thDiv}>
                     <div className={styles.thImgSpanDiv}>
                         <Image 
-                         src="/images/icons/solar_icon.webp"
-                         alt="Solar"
-                         width={24}
-                         height={24}
+                            src="/images/icons/solar_icon.webp"
+                            alt="Solar"
+                            width={24}
+                            height={24}
+                            unoptimized
+                            loading="lazy"
                         />
                         <span className={styles.protoTypeTableH1}>{t('ProtocoreType.Solar')}</span>
                     </div>
@@ -44,6 +46,8 @@ export default function ProtocoreTypesTable({stellactrum, betaData, deltaData }:
                                     width={50}
                                     height={50}
                                     className="object-cover"
+                                    unoptimized
+                                    loading="lazy"
                                 />
                                 <span>α</span>
                             </div>
@@ -63,6 +67,8 @@ export default function ProtocoreTypesTable({stellactrum, betaData, deltaData }:
                                     width={50}
                                     height={50}
                                     className="object-cover"
+                                    unoptimized
+                                    loading="lazy"
                                 />
                                 <span>β</span>
                             </div>
@@ -90,11 +96,12 @@ export default function ProtocoreTypesTable({stellactrum, betaData, deltaData }:
                 <div className={styles.thDiv}>
                     <div className={styles.thImgSpanDiv}>
                         <Image 
-                         src="/images/icons/lunar_icon.webp"
-                         alt="Lunar"
-                         width={24}
-                         height={24}
-                        />
+                            src="/images/icons/lunar_icon.webp"
+                            alt="Lunar"
+                            width={24}
+                            height={24}
+                            unoptimized
+                            loading="lazy"                        />
                         <span className={styles.protoTypeTableH1}>{t('ProtocoreType.Lunar')}</span>
                     </div>
                 </div>
@@ -110,6 +117,8 @@ export default function ProtocoreTypesTable({stellactrum, betaData, deltaData }:
                                     width={50}
                                     height={50}
                                     className="object-cover"
+                                    unoptimized
+                                    loading="lazy"
                                 />
                                 <span>γ</span>
                             </div>
@@ -132,6 +141,8 @@ export default function ProtocoreTypesTable({stellactrum, betaData, deltaData }:
                                     width={50}
                                     height={50}
                                     className="object-cover"
+                                    unoptimized
+                                    loading="lazy"
                                 />
                                 <span>δ</span>
                             </div>

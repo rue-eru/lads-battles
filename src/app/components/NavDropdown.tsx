@@ -26,6 +26,7 @@ export default function NavDropdown ({
                     height={12}
                     className={`transition-transform ${open ? 'rotate-180' : ''}`}
                     unoptimized
+                    priority
                  />
             </div>
             {open && children}

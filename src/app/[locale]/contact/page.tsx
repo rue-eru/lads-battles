@@ -58,6 +58,7 @@ export default function Contact () {
                                 height={200}
                                 className="object-covers z-50"
                                 unoptimized
+                                loading="lazy"
                             /> 
 
                             <div className="flex gap-2 w-fit mx-auto -mt-7">
@@ -69,6 +70,8 @@ export default function Contact () {
                                         height={30}
                                         className={styles.contactIcons}
                                         title="Email"
+                                        unoptimized
+                                        loading="lazy"
                                     />
                                 </a>
                                 <a href="https://github.com/rue-eru" aria-label="Github" target="_blank" rel="noopener noreferrer">
@@ -79,7 +82,8 @@ export default function Contact () {
                                         height={30}
                                         className={styles.contactIcons}
                                         title="Github"
-
+                                        unoptimized
+                                        loading="lazy"
                                     />
                                 </a>
                                 <a href="https://t.me/literallyfault" aria-label="Telegram" target="_blank" rel="noopener noreferrer">
@@ -90,6 +94,8 @@ export default function Contact () {
                                         height={30}
                                         className={styles.contactIcons}
                                         title="Telegram"
+                                        unoptimized
+                                        loading="lazy"
                                     />
                                 </a>
                             </div>

@@ -7,6 +7,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { Lightbox } from "./Lightbox";
 import { TextRenderer } from "../glossary/TextRenderer";
+import { GENERIC_BLUR } from "@/app/lib/imageBlur";
 
 export function GameplayBlockRenderer({
     blocks
@@ -69,6 +70,10 @@ export function GameplayBlockRenderer({
                                             alt: t(block.alt)
                                         })
                                     }
+                                    unoptimized
+                                    loading="lazy"
+                                    placeholder="blur"
+                                    blurDataURL={GENERIC_BLUR}
                                 />
                                 </div>
                                 {block.caption && (
@@ -100,6 +105,10 @@ export function GameplayBlockRenderer({
                                                         alt: t(img.alt)
                                                     })
                                                 }
+                                                unoptimized
+                                                loading="lazy"
+                                                placeholder="blur"
+                                                blurDataURL={GENERIC_BLUR}
                                             />
                                         </div>
                                     ))}
@@ -160,6 +169,10 @@ export function GameplayBlockRenderer({
                                                             alt: t(img.alt)
                                                         })
                                                     }
+                                                    unoptimized
+                                                    loading="lazy"
+                                                    placeholder="blur"
+                                                    blurDataURL={GENERIC_BLUR}
                                                 />
                                             </div>
 
