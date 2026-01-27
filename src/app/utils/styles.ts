@@ -11,13 +11,15 @@ export const styles = {
     charaIconStyle: ` hover:border-pink-400 hover:border-3 rounded-full`,
     navDowndropLists: `absolute w-full top-full bg-lightgray rounded-lg shadow-lg z-50 text-center tracking-widest py-4`,
     dropdownBlockLI: `block hover:text-pink-400 uppercase text-nowrap`,
-    contactIcons: `object-covers bg-aliceblue rounded-full outline-2 outline-black -outline-offset-1 shadow-md shadow-black/20 cursor-pointer`,
+    contactIcons: `object-contain bg-aliceblue rounded-full outline-2 outline-black -outline-offset-1 shadow-md shadow-black/20 cursor-pointer`,
     errorBtns: `bg-lightgray flex flex-row justify-center items-center gap-2 p-3 border rounded-3xl cursor-pointer uppercase`,
 
 
     //styles for ProtocororeTypeTable
     thDiv: `flex justify-center items-center`,
     thImgSpanDiv: `inline-flex items-center text-center gap-3`,
+    cardTypeImage: `object-contain w-6 h-6`,
+    protocoreTypeImage: `object-contain w-15 h-15`,
     protCol: `flex gap-6 flex-col`,
     flatStatProt: `inline-flex gap-10 items-center`,
     flatStatStyle: `flex items-center gap-2 mb-2`,
@@ -35,8 +37,10 @@ export const styles = {
     skillsPinkBubble: `rounded-2xl px-2 bg-pink-400`,
     skillsGrayubble: `rounded-2xl px-2 bg-lightgray`,
     imgSkillWidth: `w-[25%] sm:w-32 p-2 sm:p-6`,
+    imgSkillCentered: `flex justify-center items-center`,
     skillDescriptionDiv:`sm:p-6 py-6`,
     skillInfoBubbleDiv: `flex flex-wrap items-center gap-3 mb-2 font-accent`,
+    skillRoundImg: `object-contain sm:w-20 sm:h-20 w-15 h-15`,
 
     //gameplay
     figcaptionStyle: `text-sm text-right text-gray-400 italic text-wrap justify-end`,

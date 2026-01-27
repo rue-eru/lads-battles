@@ -30,15 +30,15 @@ export default function ProtocoreTableRow ({
                     <Image 
                         src={`/images/mats/protocores/${stellactrum}/${protocoreType}.png`}
                         alt={`${protocoreType} protocore`}
-                        width={60}
-                        height={60}
-                        className="object-cover"
+                        width={50}
+                        height={50}
+                        className={styles.protocoreTypeImage}
                         unoptimized
                         loading="lazy"
                     />
                 </div>
             </td>
-            <td className="px-4 py-3 w-[90%]">
+            <td className="px-4 py-3 sm:w-[90%] w-[80%]">
                 <div>
                     {renderStatContent()}
                 </div>

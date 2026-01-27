@@ -34,11 +34,11 @@ export default function SkillCard ({
 
             {/*header with an icon and key points for skills*/}
             <td className={styles.imgSkillWidth}>
-                <div className="relative">
+                <div className={styles.imgSkillCentered}>
                     <Image 
                         src={icon}
                         alt={t(nameKey)}
-                        className="object-cover"
+                        className={styles.skillRoundImg}
                         width={80}
                         height={80}
                         unoptimized

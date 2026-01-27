@@ -47,13 +47,15 @@ const NotoSerifJP = Noto_Serif_JP({
   preload: true,
 });
 
-
 //fix l10n
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations('layout');
   return {
     title: t('title'),
     description: t('description'),
+    icons: {
+        icon: '/favicon.ico', // Points to /public/favicon.ico
+    },
   };
 };
 

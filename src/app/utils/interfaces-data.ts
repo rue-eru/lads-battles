@@ -6,6 +6,13 @@ export interface CharaDataProps{
     companion: string
 }
 
+export interface CharacterCardProps {
+    titleId: string;
+    imageSize?: number;
+    imgRoot?: string;
+    className?: string
+}
+
 export interface TableRowProps{
     label: string,
     value: string | React.ReactNode;//for images

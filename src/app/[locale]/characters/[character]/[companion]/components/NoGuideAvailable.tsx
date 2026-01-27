@@ -46,7 +46,7 @@ export function NoGuideAvailable  ({
                             alt={`${character} kitty gif`}
                             width={150}
                             height={150}
-                            className="object-cover"
+                            className="object-cover w-40 h-auto"
                             loading="lazy"
                             unoptimized
                         /> 
