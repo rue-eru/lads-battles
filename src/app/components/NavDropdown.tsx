@@ -22,11 +22,11 @@ export default function NavDropdown ({
                  <Image
                     src="/images/icons/dropdown-arrow.png"
                     alt="dropdown arrow"
-                    width={12}
-                    height={12}
-                    className={`transition-transform ${open ? 'rotate-180' : ''}`}
+                    width={1.75}
+                    height={3}
+                    className={`object-contain h-1.75 w-3 transition-transform ${open ? 'rotate-180' : ''}`}
                     unoptimized
-                    priority
+                    loading="eager"
                  />
             </div>
             {open && children}

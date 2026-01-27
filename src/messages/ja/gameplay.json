@@ -23,7 +23,7 @@
         },
         "fresh_paint": {
             "summary":  "[Tinctus]を爆発させて防御力低下＆回復",
-            "paragraph": "[Charged Attack]と[Support Skill]が[Tinctus]を付与（最大5スタック）。[Active Skill]、[Resonance Skill]、[Ardent Oath]でそれを爆発させ、スタック数に応じたダメージを与え、自身とホムラのHPを回復します。5スタックの爆発は敵の防御力を5秒間20%低下させます。より多くの[Tinctus]を付与するには、高速武器「[Hunter Firearm]」を使用すると効果的です。",
+            "paragraph": "重撃と[Support Skill]が[Tinctus]を付与（最大5スタック）。[Active Skill]、[Resonance Skill]、[Ardent Oath]でそれを爆発させ、スタック数に応じたダメージを与え、自身とホムラのHPを回復します。5スタックの爆発は敵の防御力を5秒間20%低下させます。より多くの[Tinctus]を付与するには、高速武器「[Hunter Firearm]」を使用すると効果的です。",
             "images": {
                 "tinctus": {
                     "alt": "敵にかかっている薔薇色の印",
@@ -50,7 +50,7 @@
             "paragraph_4": "自身にかかっているバフはHPバーの上、ホムラのバフはそのアイコンの近くで常に確認できます:",
             "paragraph_5": "深海の潜行者に決まったローテーションはありませんが、基本的な流れは以下の通りです:",
             "li_1": "バフを付与するために[Basic Attack]を行う",
-            "li_2": "[Fishtail Beacon]を見つけたら、[Charged Attack]を使用して回収",
+            "li_2": "[Fishtail Beacon]を見つけたら、重撃を使用して回収",
             "li_3": "[Support Skill]使用後は、敵に付く[Beacon]を回収するのを待つ",
             "li_4": "敵を引き寄せ（シールドを破壊）するために[Resonance Skill]を使用",
 
@@ -100,7 +100,7 @@
             "images": {
                 "seaspirit": {
                     "alt": "フィールド上の海霊",
-                    "caption": "ホムラの協力スキルと[Perfect Dodge]で召喚された海霊"
+                    "caption": "ホムラの協力スキルと完全回避で召喚された海霊"
                 },
                 "faith": {
                     "alt": "信仰ゲージ",
@@ -127,7 +127,7 @@
         "lemurian_sea_god": {
 
             "paragraph_1": "リモリアの海神は最初は複雑に見えますが、ローテーションは比較的単純で、ランクが上がるほど洗練されていきます。",
-            "paragraph_2": "戦闘の核は[Sea God Mark]と[Divine Favor]状態です。[Sea God Mark]で強化された[Charged Attack]が敵に命中すると、[Support Skill]のスキルCD が1.5秒短縮されます。",
+            "paragraph_2": "戦闘の核は[Sea God Mark]と[Divine Favor]状態です。[Sea God Mark]で強化された重撃が敵に命中すると、[Support Skill]のスキルCD が1.5秒短縮されます。",
             "paragraph_3": "基本的に「通常状態」と「[Divine Favor]状態」の2つがあり、[Ocean's Descent]ゲージを満タンにすることで切り替わります。ゲージの左側（波紋）は、自身の[Basic Attack]と[Active Skill]で溜まります。右側（怒涛）は、ホムラの[Support Skill]のアイコンをタップするか、[Perfect Dodge]を成功させることでより早く溜めることができます。",
             "paragraph_4": "[Ocean's Descent]ゲージが満タンになると専用ボタンが出現します。発動すると11秒間[Divine Favor]状態になります。この状態中、ホムラは戦場に雷を落とし、あなたが主役となります！",
             "paragraph_5": "[Divine Favor]状態中に[Sea God Mark]を消費すると、攻撃が大きく強化されます。さらに、[Active Skill]を使用すると[Lightning Crystal]が生成されます。[Lightning Crystal]の中へ回避することでこれを起爆させ、大ダメージを与え、スキルエネルギーを0.3回復し、[Active Skill]のスキルCDを3.3秒短縮できます！状態終了時、まだ[Lightning Crystal]が残っている場合、それは自動的に起爆します。",
@@ -136,7 +136,7 @@
 
             "ul_li_1": "[Resonance Skill]発動 ＋ MCの[Basic Attack]と[Active Skill]でゲージを溜める（状態切り替え直前に[Sea God Mark]を消費しないよう注意 ＋ ホムラの[Support Skill] ＋ [Resonance Skill] ⇨",
             "ul_li_2": "[Divine Favor]状態を発動 ⇨",
-            "ul_li_3": "[Sea God Mark]を消費した[Charged Attack] ＋ [Active Skill]で[Lightning Crystal]生成 ＋ その中へ回避（状態終了まで繰り返し）⇨",
+            "ul_li_3": "[Sea God Mark]を消費した重撃 ＋ [Active Skill]で[Lightning Crystal]生成 ＋ その中へ回避（状態終了まで繰り返し）⇨",
             "ul_li_4": "この一連の流れを繰り返す ↺",
 
 

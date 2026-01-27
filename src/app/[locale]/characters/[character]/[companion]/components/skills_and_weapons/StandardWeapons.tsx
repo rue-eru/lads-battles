@@ -43,7 +43,7 @@ export default function StandardWeapons () {
                                 height={150}
                                 unoptimized
                                 loading="lazy"
-                                className={`object-cover ${
+                                className={`object-contain w-35 h-35 ${
                                     expandedWeapon === weaponId
                                         ? 'border-pink-400 border-3 rounded-full'
                                         : ''
@@ -83,13 +83,13 @@ export default function StandardWeapons () {
                                 {/*basic attack data*/}
                                 <tr id="stWeaponBasic">
                                     <td className={styles.imgSkillWidth}>
-                                        <div>
+                                        <div className={styles.imgSkillCentered}>
                                             <Image 
                                                 src={`/images/standard_weapons/${expandedWeapon}/basic_attack.png`}
                                                 alt={tWeapons(weaponData.skills.basic_attack.name_key)}
                                                 width={80}
                                                 height={80}
-                                                className="object-cover"
+                                                className={styles.skillRoundImg}
                                                 unoptimized
                                                 loading="lazy"
                                             />
@@ -111,13 +111,13 @@ export default function StandardWeapons () {
                                 {/*passive skill data*/}
                                 <tr id="stWeaponPassive">
                                     <td className={styles.imgSkillWidth}>
-                                        <div>
+                                        <div className={styles.imgSkillCentered}>
                                             <Image 
                                                 src={`/images/standard_weapons/${expandedWeapon}/passive_skill.png`}
                                                 alt={tWeapons(weaponData.skills.passive_skill.name_key)}
                                                 width={80}
                                                 height={80}
-                                                className="object-cover"
+                                                className={styles.skillRoundImg}
                                                 unoptimized
                                                 loading="lazy"
                                             />
@@ -139,13 +139,13 @@ export default function StandardWeapons () {
                                 {/*active skill data*/}
                                 <tr id="stWeaponActive">
                                     <td className={styles.imgSkillWidth}>
-                                        <div>
+                                        <div className={styles.imgSkillCentered}>
                                             <Image 
                                                 src={`/images/standard_weapons/${expandedWeapon}/active_skill.png`}
                                                 alt={tWeapons(weaponData.skills.active_skill.name_key)}
                                                 width={80}
                                                 height={80}
-                                                className="object-cover"
+                                                className={styles.skillRoundImg}
                                                 unoptimized
                                                 loading="lazy"
                                             />

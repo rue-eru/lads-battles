@@ -28,6 +28,7 @@ export default function ProtocoreTypesTable({stellactrum, betaData, deltaData }:
                             alt="Solar"
                             width={24}
                             height={24}
+                            className={styles.cardTypeImage}
                             unoptimized
                             loading="lazy"
                         />
@@ -45,7 +46,7 @@ export default function ProtocoreTypesTable({stellactrum, betaData, deltaData }:
                                     alt="Alpha"
                                     width={50}
                                     height={50}
-                                    className="object-cover"
+                                    className={styles.protocoreTypeImage}
                                     unoptimized
                                     loading="lazy"
                                 />
@@ -63,10 +64,10 @@ export default function ProtocoreTypesTable({stellactrum, betaData, deltaData }:
                             <div className={styles.multipleStatStyle}>
                                 <Image 
                                     src={`/images/mats/protocores/${stellactrum}/beta.png`}
-                                    alt="Alpha"
+                                    alt="Beta"
                                     width={50}
                                     height={50}
-                                    className="object-cover"
+                                    className={styles.protocoreTypeImage}
                                     unoptimized
                                     loading="lazy"
                                 />
@@ -101,7 +102,9 @@ export default function ProtocoreTypesTable({stellactrum, betaData, deltaData }:
                             width={24}
                             height={24}
                             unoptimized
-                            loading="lazy"                        />
+                            loading="lazy"
+                            className={styles.cardTypeImage}                        
+                            />
                         <span className={styles.protoTypeTableH1}>{t('ProtocoreType.Lunar')}</span>
                     </div>
                 </div>
@@ -116,7 +119,7 @@ export default function ProtocoreTypesTable({stellactrum, betaData, deltaData }:
                                     alt="Gamma"
                                     width={50}
                                     height={50}
-                                    className="object-cover"
+                                    className={styles.protocoreTypeImage}
                                     unoptimized
                                     loading="lazy"
                                 />
@@ -140,7 +143,7 @@ export default function ProtocoreTypesTable({stellactrum, betaData, deltaData }:
                                     alt="Delta"
                                     width={50}
                                     height={50}
-                                    className="object-cover"
+                                    className={styles.protocoreTypeImage}
                                     unoptimized
                                     loading="lazy"
                                 />

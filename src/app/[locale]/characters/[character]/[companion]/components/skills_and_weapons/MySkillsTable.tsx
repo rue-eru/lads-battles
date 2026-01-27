@@ -53,7 +53,7 @@ export default function MySkillsTable( {character, companion}: CharaDataProps) {
                         alt={tData(weapon_key)}
                         width={140}
                         height={140}
-                        className="object-cover rounded"
+                        className="object-contain rounded sm:w-40 sm:h-40 h-30 w-30 "
                         unoptimized
                         loading="lazy"
                     />
