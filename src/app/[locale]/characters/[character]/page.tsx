@@ -27,21 +27,22 @@ export default async function CharacterCompanionList({
                 
                 <hr className={styles.divider}></hr>
 
-
-                <div className="grid grid-cols-2 md:grid-cols-3 p-6 gap-6 w-full font-accent uppercase text-wrap text-[16px] content-center">
-                    {characterData.companions.map((companion) => (
-                    <Link
-                      key={companion.id}
-                      href={`/${locale}/characters/${character}/${companion.id}`}
-                    >
-                            <CharacterCard 
-                                titleId={tCompanions(companion.nameKey as any)}
-                                imageSize={220}
-                                imgRoot={`companions/${character}/icons/${companion.id}.jpg`}
-                                className={styles.charaIconStyle}
-                            />
-                    </Link>
-                    ))}
+                <div className='flex justify-center items-center w-full'>
+                    <div className="grid grid-cols-2 md:grid-cols-3 w-full h-full justify-between gap-4 font-accent uppercase text-wrap text-[16px] content-center overflow-x-auto">
+                        {characterData.companions.map((companion) => (
+                        <Link
+                          key={companion.id}
+                          href={`/${locale}/characters/${character}/${companion.id}`}
+                        >
+                                <CharacterCard 
+                                    titleId={tCompanions(companion.nameKey as any)}
+                                    imageSize={220}
+                                    imgRoot={`companions/${character}/icons/${companion.id}.jpg`}
+                                    className={styles.companionIconStyle}
+                                />
+                        </Link>
+                        ))}
+                    </div>
                 </div>
             </div>
         </div>
