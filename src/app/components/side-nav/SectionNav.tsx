@@ -9,9 +9,22 @@ export default function SectionNav () {
 
     const t = useTranslations();
     const pathname = usePathname();
-    const [isCompanionPage, setIsCompanionPage] = useState(false);
     const [isExpanded, setIsExpanded] = useState(false);
     const {isRu, isEn, isJa} = useCurrentLanguage();
+    const [ready, setReady] = useState(false);
+
+    type Section = {
+        id: string;
+        labelKey: string;
+    }
+
+    const sections: Section[] = [
+        { id: "protocoreSection", labelKey: "protocores.header"}, 
+        { id: "skillWeaponSection", labelKey: "skills.header"},
+        { id: "gameplaySection", labelKey: "gameplay.general.header"}
+    ];
+
+    const [availableSections, setAvailableSections] = useState<Section[]>([]);
 
     const scrollToId = (id: string) => {
         document.getElementById(id)?.scrollIntoView({
@@ -21,27 +34,42 @@ export default function SectionNav () {
         setIsExpanded(false); //for sm to be closed
     }
 
-    useEffect(() => {
+    const isCompanionPage = (() => {
         const segments = pathname.split('/').filter(Boolean);
-        const companionPageCheck = 
-            segments.length === 4 &&
-            segments[1] === "characters";    
-        setIsCompanionPage(companionPageCheck);
-    }, [pathname])
+        return segments.length === 4 && segments[1] === "characters";    
+    })();
 
-    const sections = [
-        { id: "protocoreSection", labelKey: "protocores.header"}, 
-        { id: "skillWeaponSection", labelKey: "skills.header"},
-        { id: "gameplaySection", labelKey: "gameplay.general.header"}
-    ];
 
-    if (!isCompanionPage) {
+
+    useEffect(() => {
+        if (!isCompanionPage) return;
+
+        const update = () => {
+            const detected = sections.filter(section => document.getElementById(section.id));
+            setAvailableSections(detected);
+
+            if (detected.length === sections.length) {
+                setReady(true)
+                observer.disconnect();
+            }
+        }
+
+        update(); // initial check 
+        
+        const observer = new MutationObserver(update); // watches for changes within the entire body of a web page 
+        //begin observing a target node(body)
+        observer.observe(document.body, {
+            childList: true, // report any additions or removals of direct children to the target node (and, combined with subtree, all descendant nodes)
+            subtree: true // observer will fire its callback function regardless of how deep within the <body> the change occurs. 
+        })
+
+        return () => observer.disconnect();
+
+    }, [isCompanionPage])
+
+    if (!isCompanionPage || !ready) {
         return null
     }
-
-    const availableSections = sections.filter(section => {
-        return document.getElementById(section.id) !== null;
-    })
 
     if (availableSections.length === 0) {
         return null
@@ -57,7 +85,7 @@ export default function SectionNav () {
             {/*to a section by #id only opens on http://localhost:3000/en/characters/${character}/${companion}
             section ids: protocoreSection, skillWeaponSection, gameplaySection*/}
 
-                {/* sm and md screens*/}
+                {/*  md⇩ screens */}
                     <div className="lg:hidden ">
                         {!isExpanded ? (
                             <button
@@ -100,7 +128,6 @@ export default function SectionNav () {
                                     key={section.id}
                                 >
                                     <button
-                                        key={section.id}
                                         onClick={() => scrollToId(section.id)}
                                         className="cursor-pointer"
                                     >

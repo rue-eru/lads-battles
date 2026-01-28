@@ -11,7 +11,8 @@ export default function CharacterList () {
 
     return(
         <div>
-          <div className="grid grid-cols-3 md:grid-cols-5 gap-4 p-5 font-accent uppercase text-center mr-5">
+          <div className="flex flex-wrap justify-center items-center
+           sm:grid sm:grid-cols-3 md:grid-cols-5 gap-1 sm:gap-4 p-4 font-accent uppercase text-center">
 
           {characters.map((characterId) => (
             <Link

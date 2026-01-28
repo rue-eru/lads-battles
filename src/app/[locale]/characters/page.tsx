@@ -13,7 +13,7 @@ export default function CharactersPage () {
                 <hr className={styles.divider}></hr>
         
                 <div className={styles.contentlayout}>
-                    <div className='-mt-20 mb-4'>
+                    <div className='-mt-20 mb-4 w-full flex justify-center items-center'>
                         <CharacterList />
                     </div>
                     <hr className={styles.divider}></hr>
