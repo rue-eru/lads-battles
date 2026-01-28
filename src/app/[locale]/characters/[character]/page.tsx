@@ -28,7 +28,7 @@ export default async function CharacterCompanionList({
                 <hr className={styles.divider}></hr>
 
                 <div className='flex justify-center items-center w-full'>
-                    <div className="grid grid-cols-2 md:grid-cols-3 w-full h-full justify-between gap-4 font-accent uppercase text-wrap text-[16px] content-center overflow-x-auto">
+                    <div className="grid grid-cols-2 md:grid-cols-3 w-full h-full justify-between gap-4 font-accent uppercase text-wrap text-[16px] content-center">
                         {characterData.companions.map((companion) => (
                         <Link
                           key={companion.id}

@@ -87,7 +87,7 @@ export default async function LocaleLayout({
           <Navigation />
           <SideNav /> 
           <Suspense fallback={<Loading />}>
-          <main className="grow" >{children}</main>
+          <main className="grow max-w-300 w-full mx-auto" >{children}</main>
           {/*flex-grow - helps footer to stay at the bottom x2*/}
           </Suspense>
           <Footer />

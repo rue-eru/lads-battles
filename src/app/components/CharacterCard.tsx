@@ -10,7 +10,7 @@ export default function CharacterCard({
 }: CharacterCardProps) {
 
     return (
-        <div className="flex flex-col items-center  hover:scale-115 transition-transform hover:text-pink-400">
+        <div className="flex flex-col items-center hover:scale-115 transition-transform hover:text-pink-400">
                 <Image
                     src={`/images/${imgRoot}`}
                     alt={`imgRoot`} // you can also translate it in the file you pass it to
