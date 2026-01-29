@@ -24,7 +24,7 @@ export default function Home({ params }: { params: Promise<{ locale: Locale }> }
         <p>{tHome("At the moment")}</p>
         <p>{tHome("Ending")}</p>
 
-        <div className="font-accent uppercase border-4 border-lightgray flex-nowrap w-full text-center">
+        <div className={`font-accent uppercase border-4 border-lightgray flex-nowrap w-full text-center ${styles.textAccentShadow}`}>
           <span className="block bg-lightgray flex-1 p-2">{tHome('to start')}</span>
             <CharacterList/>
         </div>

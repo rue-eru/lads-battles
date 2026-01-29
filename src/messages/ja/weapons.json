@@ -88,5 +88,7 @@
     "skill_basic_info:": {
         "resonance_skill": "敵のシールドを破壊できるのはこのスキルのみです。[Stellactrum Match]は「完全マッチング」時はシールドを2層破壊します。",
         "ardent_oath": "通常、戦闘中に1回しか使用できませんが、[Oath Recovery Boost]プロトコアを使用することで2回の使用が可能になります。"
-    }
+    },
+    "image_alt": "の画像 "
+
 }

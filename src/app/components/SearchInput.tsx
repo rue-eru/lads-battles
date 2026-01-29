@@ -1,6 +1,7 @@
+'use client'
+
 import { useCurrentLanguage } from "@/app/hooks/useCurrentLanguage";
 import { getSearchData } from "@/app/utils/search-data";
-import Fuse from "fuse.js";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
@@ -11,38 +12,74 @@ export default function SearchInput(){
     const [query, setQuery] = useState('');
     const [open, setOpen] = useState(false);
     const [activeIndex, setActiveIndex] = useState(-1);
+    const [isSearchLoaded, setIsSearchLoaded] = useState(false);
+    const [fuse, setFuse] = useState<any>(null);
+    const [isLoading, setIsLoading] = useState(false);
+
     const containerRef = useRef<HTMLDivElement>(null);
     const router = useRouter();
     const pathname = usePathname();
     const t = useTranslations();
     const locale = pathname.split('/')[1] || 'en';
-    const searchItems = useMemo(() => getSearchData(), []);
     const {isEn} = useCurrentLanguage();
 
-    const fuse = useMemo(() => new Fuse(searchItems, {
-        keys: [
-            { name: 'names.en', weight: 0.4 }, // EN&JA = official => heigher weight
-            { name: 'names.ja', weight: 0.4 },
-            { name: 'names.ru', weight: 0.2 },
-            { name: 'aliases', weight: 0.1 }, // for fallback
+    //lazy load! loads only when the search is opened!
+    const loadSearch = async () => {
+        if (isSearchLoaded) return; 
+        setIsLoading(true);
 
-        ],
-        threshold: 0.3, // 1 is super strict search, 0 is soft
-        ignoreLocation: true,
-        minMatchCharLength: 2,
-    }), [searchItems]);
+        try {
+            //dynamically import
+            const FuseModule = await import('fuse.js');
+            const Fuse = FuseModule.default;
+
+            const data = getSearchData();
+
+            const fuseInstance = new Fuse(data, {
+                keys: [
+                    { name: 'names.en', weight: 0.4 }, // EN&JA = official => heigher weight
+                    { name: 'names.ja', weight: 0.4 },
+                    { name: 'names.ru', weight: 0.2 },
+                    { name: 'aliases', weight: 0.1 }, // for fallback
+                
+                ],
+                threshold: 0.3, // 1 is super strict search, 0 is soft
+                ignoreLocation: true,
+                minMatchCharLength: 2,
+            });
+
+            setFuse(fuseInstance);
+            setIsSearchLoaded(true);
+        } catch (error) {
+            console.error("Failed to load search:", error);
+        } finally {
+            setIsLoading(false);
+        };
+    };
+
+    const handleOpen = async () => {
+        setOpen(true);
+        await loadSearch();
+    }
+
+    const handleMouseEnter = () => {
+        // starts preload on hover
+        if (!isSearchLoaded && !isLoading) {
+            loadSearch();
+        }
+    }
 
     const results = useMemo(() => {
-        if(!query.trim()) return [];
-        return fuse.search(query).map(result => result.item);
+        if(!query.trim() || !fuse) return [];
+        return fuse.search(query).map((result: any) => result.item);
     }, [query, fuse]);
 
-    //helper to get display name usuing IDs
-    const getDisplayName = (item: typeof searchItems[0]) => {
+    //helper to get display name using IDs
+    const getDisplayName = (item: any) => {
         return `${t(item.characterTKey)}: ${t(item.companionTKey)}`;
     }
 
-    const handleSelect = (item: typeof searchItems[0]) => {
+    const handleSelect = (item: any) => {
         router.push(`/${locale}${item.route}`);
         setQuery('');
         setOpen(false);
@@ -89,8 +126,8 @@ export default function SearchInput(){
             >
                 {!open ? (
                     <button
-                        onClick={() => setOpen(true)}
-                        onMouseEnter={() => setOpen(true)}
+                        onClick={handleOpen}
+                        onMouseEnter={handleMouseEnter}
                         className="rounded-full bg-aliceblue h-10 w-10 flex justify-center items-center cursor-pointer"
                     >
                         <Image
@@ -133,13 +170,22 @@ export default function SearchInput(){
                                 value={query}
                                 onChange={(e) => setQuery(e.target.value)}
                                 onKeyDown={handleKeyDown}
-                            >
-                            </input>
-                            {query && results.length > 0 && (
+                            />
+
+                            {isLoading && (
+                                <div className="bg-aliceblue text-darkgray rounded-3xl shadow-lg mt-0.5 p-4">
+                                    <div className="flex items-center justify-center gap-2">
+                                        <div className="animate-spin rounded-full h-4 w-4 border-2 border-pink-400 border-t-transparent"></div>
+                                        <span className="text-sm animate-pulse">...</span>
+                                    </div>
+                                </div>
+                            )}
+
+                            {!isLoading && query && results.length > 0 && (
                                 <div 
                                     className=" bg-aliceblue text-darkgray rounded-3xl shadow-lg mt-0.5 overflow-hidden"
                                 >
-                                    {results.slice(0, 10).map((item, index) => (
+                                    {results.slice(0, 10).map((item: any, index: any) => (
                                        <button
                                         key={item.id}
                                         onClick={() => handleSelect(item)}
@@ -156,6 +202,12 @@ export default function SearchInput(){
                                             {getDisplayName(item)}
                                        </button>
                                     ))}
+                                </div>
+                            )}
+
+                            {!isLoading && query && results.length === 0 && isSearchLoaded && (
+                                <div className="bg-aliceblue text-darkgray rounded-3xl shadow-lg mt-0.5 p-4">
+                                    <span className="text-sm">{t('layout.no-results')}</span>
                                 </div>
                             )}
                         

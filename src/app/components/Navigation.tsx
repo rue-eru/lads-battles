@@ -16,7 +16,7 @@ export default function Navigation() {
     const { isJa } = useCurrentLanguage();
 
     return (
-        <nav className="p-2  flex items-center justify-between bg-lightgray font-accent font-light">
+        <nav className={`p-2 flex items-center justify-between bg-lightgray font-accent font-light ${styles.textAccentShadow}`}>
 
 
 

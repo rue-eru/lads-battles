@@ -6,6 +6,7 @@ export const styles = {
     divider: `border-t border-text-primary w-full -mt-4`,
     pagelayout: `lg:w-[50%] sm:w-[90%] w-[95%] mx-auto flex-1 mb-20`,
     contentlayout: `flex flex-col gap-[32px] row-start-2 items-center sm:items-start mt-20 w-full text-justify`,
+    textAccentShadow: `text-shadow-xs text-shadow-cyan-950`,
     
     tableRow: `hover:bg-pink-400 font-accent`,
     charaIconStyle: `hover:border-pink-400 hover:border-3 rounded-full flex-1 object-cover
@@ -37,8 +38,8 @@ export const styles = {
     //skills
     h1Skills: `font-accent text-xl mb-6`,
     skillsInfoDiv: `flex gap-3 font-accent text-wrap`,
-    skillsPinkBubble: `rounded-2xl px-2 bg-pink-400`,
-    skillsGrayubble: `rounded-2xl px-2 bg-lightgray`,
+    skillsPinkBubble: `rounded-2xl px-2 bg-pink-400 text-shadow-xs text-shadow-cyan-950`,
+    skillsGrayubble: `rounded-2xl px-2 bg-lightgray text-shadow-xs text-shadow-cyan-950`,
     imgSkillWidth: `w-[25%] sm:w-32 p-2 sm:p-6`,
     imgSkillCentered: `flex justify-center items-center`,
     skillDescriptionDiv:`sm:p-6 py-6`,
@@ -46,7 +47,7 @@ export const styles = {
     skillRoundImg: `object-contain sm:w-20 sm:h-20 w-15 h-15`,
 
     //gameplay
-    figcaptionStyle: `text-sm text-right text-gray-400 italic text-wrap justify-end`,
+    figcaptionStyle: `text-sm text-right text-gray-300 italic text-wrap justify-end`,
     img_bg: ` bg-gray-700 rounded-sm p-1`,
     imgHeight: `w-full h-60 md:h-80 lg:h-100 relative`,
     imgFillContainer: `object-cover cursor-zoom-in w-full h-full`,

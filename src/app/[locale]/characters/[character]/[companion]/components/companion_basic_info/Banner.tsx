@@ -10,14 +10,15 @@ export default function Banner({character, companion} : CharaDataProps) {
         <div className="w-full mx-auto"> {/*full width on mobile, 5-% on md+*/}
                 <Image 
                     src={`/images/companions/${character}/banners/${companion}.png`}
-                    alt="Page banner"
+                    alt={`${companion} banner`}
                     width={1920}
                     height={620}
                     className="w-full h-auto"
-                    priority
+                    priority={true}
+                    quality={75}
+                    sizes="100vw"
                     placeholder="blur"
                     blurDataURL={GENERIC_BLUR}
-                    loading="eager"
                 />
 
         </div>

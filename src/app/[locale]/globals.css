@@ -37,6 +37,7 @@
 html[lang="en"] .font-accent,
 .font-accent {
   font-family: var(--font-inknut-antiqua), serif;
+  
 }
 
 html[lang="ru"] .font-accent {

@@ -4,13 +4,14 @@ import {Link} from "@/i18n/navigation"
 import { useTranslations } from "next-intl";
 import { useCurrentLanguage } from "../hooks/useCurrentLanguage";
 import HomeBtn from "./HomeBtn";
+import { styles } from "../utils/styles";
 
 export default function Footer() {
     const t = useTranslations('layout');
     const {isJa, isEn} = useCurrentLanguage();
 
     return (
-        <footer className={`flex flex-wrap items-center justify-between bg-lightgray font-accent font-light w-full border-t-2 border-darkgray sm:px-6 h-auto 
+        <footer className={`flex flex-wrap items-center justify-between bg-lightgray font-accent font-light w-full border-t-2 border-darkgray sm:px-6 h-auto ${styles.textAccentShadow}
         ${isEn ? 'sm:font-normal font-light px-0.5 py-2' : 'p-1'}`}>
 
             <div className="flex flex-nowrap gap-2 sm:items-center sm:gap-10 uppercase lg:tracking-[0.5rem] w-[40%] sm:w-fit">
