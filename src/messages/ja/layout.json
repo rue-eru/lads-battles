@@ -16,7 +16,8 @@
     "goSection": "セクションへ移動",
     "goSectionSM": "へ",
     "search-placeholder": "パートナーを検索",
-    "retry-btn": "再試行"
+    "retry-btn": "再試行",
+    "no-results": "該当無し"
 
 }
 

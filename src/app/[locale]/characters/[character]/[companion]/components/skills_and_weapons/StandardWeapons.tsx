@@ -38,7 +38,7 @@ export default function StandardWeapons () {
                         <div className="relative cursor-pointer">
                             <Image 
                                 src={`/images/standard_weapons/${weaponId}/icon.png`}
-                                alt={tWeapons(weaponData.name_key)}
+                                alt={`${!isJa ? tWeapons('image_alt') : ""}${tWeapons(weaponData.name_key)}${isJa ? tWeapons('image_alt') : ""}`}
                                 width={150}
                                 height={150}
                                 unoptimized

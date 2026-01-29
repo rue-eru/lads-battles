@@ -50,7 +50,7 @@ export default function SkillCard ({
             <td className={styles.skillDescriptionDiv} >
                 <div className={styles.skillInfoBubbleDiv}>
                     {/*skill name from translation key!*/}
-                    <h3>{t(nameKey)}</h3>
+                    <p>{t(nameKey)}</p>
                     {/*label as type of skill eg support skill*/}
                     <span className={styles.skillsPinkBubble}>{label}</span>
                     {cooldown && <span className={`${styles.skillsGrayubble} ${isRu ? "lowercase" : ""}`}>{tGeneral("cooldown")} {cooldown}{tGeneral("seconds")}</span>}

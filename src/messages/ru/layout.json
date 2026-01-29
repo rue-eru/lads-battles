@@ -16,5 +16,6 @@
     "goSection": "перейти:",
     "goSectionSM": "к",
     "search-placeholder": "Поиск компаньона...",
-    "retry-btn": "повторить"
+    "retry-btn": "повторить",
+    "no-results": "Нет совпадений"
 }
