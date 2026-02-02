@@ -206,7 +206,7 @@ export default function SearchInput(){
                             )}
 
                             {!isLoading && query && results.length === 0 && isSearchLoaded && (
-                                <div className="bg-aliceblue text-darkgray rounded-3xl shadow-lg mt-0.5 p-4">
+                                <div className="bg-aliceblue text-pink-400 font-accent text-shadow-none rounded-3xl mt-0.5 p-4">
                                     <span className="text-sm">{t('layout.no-results')}</span>
                                 </div>
                             )}

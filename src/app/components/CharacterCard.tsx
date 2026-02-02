@@ -4,7 +4,6 @@ import type { CharacterCardProps } from "../utils/interfaces-data";
 
 export default function CharacterCard({
     titleId,
-    imageSize,
     imgRoot,
     className
 }: CharacterCardProps) {
@@ -14,13 +13,15 @@ export default function CharacterCard({
                 <Image
                     src={`/images/${imgRoot}`}
                     alt={`imgRoot`} // you can also translate it in the file you pass it to
-                    width={imageSize}
-                    height={imageSize}
                     className={className}
-                    unoptimized
+                    width={200}
+                    height={200}
                     loading="lazy"
                     placeholder="blur"
                     blurDataURL={GENERIC_BLUR}
+                    sizes="(max-width: 640px) 120px,
+                           (max-width: 768px) 160px,
+                           200px"
                 ></Image>
                 <p className="text-center mt-2">{titleId}</p>
         </div>

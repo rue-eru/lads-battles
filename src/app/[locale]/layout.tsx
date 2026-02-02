@@ -75,6 +75,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} style={{ scrollBehavior: 'smooth' }} data-scroll-behavior="smooth">
+
       <body 
          className={`
           ${geistSans.variable} ${geistMono.variable} ${InknutAntiqua.variable} ${SourceSerif4.variable} ${NotoSerifJP.variable}

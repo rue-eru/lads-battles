@@ -21,7 +21,6 @@ export default function CharacterList () {
             >
               <CharacterCard 
                 titleId={tCharas(characterId as any)}
-                imageSize={150}
                 imgRoot={`icons/${characterId}.png`}
                 className={styles.charaIconStyle}
               />
