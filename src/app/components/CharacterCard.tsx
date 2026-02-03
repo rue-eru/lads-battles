@@ -16,7 +16,7 @@ export default function CharacterCard({
                     className={className}
                     width={200}
                     height={200}
-                    loading="lazy"
+                    priority
                     placeholder="blur"
                     blurDataURL={GENERIC_BLUR}
                     sizes="(max-width: 640px) 120px,

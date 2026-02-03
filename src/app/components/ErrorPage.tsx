@@ -77,8 +77,7 @@ export default function ErrorPage({ code, onRetry }: ErrorPageProps) {
                             width={150}
                             height={150}
                             className="object-cover"
-                            unoptimized
-                            loading="lazy"
+                            priority
                     />   
 
                     <div className="flex gap-4">
@@ -91,8 +90,7 @@ export default function ErrorPage({ code, onRetry }: ErrorPageProps) {
                                     width={20}
                                     height={20}
                                     className="object-cover"
-                                    unoptimized
-                                    loading="lazy"
+                                    priority
                                 />
                                 <p className={`${basicFont} ${code === 404 ? "" : "sm:block hidden"}`}>{t('layout.home-btn')}</p>
                             </button>
@@ -109,8 +107,7 @@ export default function ErrorPage({ code, onRetry }: ErrorPageProps) {
                                     width={20}
                                     height={20}
                                     className="object-cover"
-                                    unoptimized
-                                    loading="lazy"
+                                    priority
                                 />
                                 <p className={`${basicFont} sm:block hidden`}>{t('layout.retry-btn')}</p>
                             </button>

@@ -11,8 +11,8 @@ export default function Banner({character, companion} : CharaDataProps) {
                 <Image 
                     src={`/images/companions/${character}/banners/${companion}.png`}
                     alt={`${companion} banner`}
-                    width={1920}
-                    height={620}
+                    width={800}
+                    height={258}
                     className="w-full h-auto"
                     priority={true}
                     quality={75}
@@ -24,3 +24,8 @@ export default function Banner({character, companion} : CharaDataProps) {
         </div>
     )
 }
+
+// Desktop/Large: \(1920\times 620\) (\(3.09:1\))
+// Laptop/Tablet: \(1200\times 388\) (\(3.09:1\))
+// Mobile (Landscape): \(800\times 258\) (\(3.1:1\))
+// Mobile (Portrait): \(375\times 121\) (\(3.1:1\)) 

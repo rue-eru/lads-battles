@@ -133,10 +133,9 @@ export default function SearchInput(){
                         <Image
                             src="/images/icons/search.png"
                             alt="search icon"
-                            width={25}
-                            height={25}
-                            className="object-cover"
-                            unoptimized
+                            width={5}
+                            height={5}
+                            className="object-cover h-9 w-9 p-0.5"
                             priority
                         />
                     </button>

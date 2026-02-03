@@ -38,7 +38,6 @@ export default function BackBtn () {
                             width={20}
                             height={20}
                             className="object-cover w-3 h-3"
-                            unoptimized
                             priority
                      />
                     <span className={`uppercase hidden lg:block lg:flex-none ${isJa ? "tracking-[0.3em]" : ""}`}>{t('layout.up')}</span>

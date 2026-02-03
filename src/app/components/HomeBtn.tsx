@@ -16,7 +16,6 @@ export default function HomeBtn () {
                     height={17}
                     priority
                     className="sm:hidden"
-                    unoptimized
                 />
             </Link>
         </>

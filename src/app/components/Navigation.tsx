@@ -26,9 +26,12 @@ export default function Navigation() {
                         alt="Website Logo > Home Link"
                         width={70}
                         height={70}
-                        unoptimized
                         className="object-cover h-10 w-auto"
                         loading="eager"
+                        rel="preload"
+                        sizes="(max-width: 640px) 50px,
+                                (max-width: 768px) 70px,
+                                100px"
                     />
             </Link>
 

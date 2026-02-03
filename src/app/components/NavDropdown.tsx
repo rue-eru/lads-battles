@@ -19,15 +19,14 @@ export default function NavDropdown ({
         >
             <div className="flex items-center gap-1 uppercase">
                 <span className="hover:text-pink-400">{label}</span>
-                 <Image
-                    src="/images/icons/dropdown-arrow.png"
-                    alt="dropdown arrow"
-                    width={1.75}
-                    height={3}
-                    className={`object-contain h-1.75 w-3 transition-transform ${open ? 'rotate-180' : ''}`}
-                    unoptimized
-                    loading="eager"
-                 />
+                    <Image
+                        src="/images/icons/dropdown-arrow.png"
+                        alt="dropdown arrow"
+                        width={0.75}
+                        height={1.5}
+                        className={`object-contain h-1.75 w-3 transition-transform ${open ? 'rotate-180' : ''}`}
+                        priority
+                    />
             </div>
             {open && children}
         </div>
