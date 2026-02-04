@@ -1,8 +1,6 @@
 @import "tailwindcss";
 
 :root {
-  --font-geist-sans: initial;
-  --font-geist-mono: initial; 
   --font-inknut-antiqua: initial;
   --font-source-serif-4: initial;
   --font-noto-serif-jp: initial;
@@ -18,8 +16,6 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
   --font-inknut: var(--font-inknut-antiqua);
   --font-source-serif-4: var(--font-source-serif-4);
   --font-noto-serif-jp: var(--font-noto-serif-jp);

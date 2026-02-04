@@ -2,7 +2,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
-import { Geist, Geist_Mono, Inknut_Antiqua, Source_Serif_4, Noto_Serif_JP } from "next/font/google";
+import { Inknut_Antiqua, Source_Serif_4 } from "next/font/google";
+import localFont from "next/font/local";
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
@@ -11,41 +12,48 @@ import SideNav from '../components/side-nav/SideNav';
 import { Suspense } from 'react';
 import Loading from './loading';
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-  display: 'fallback'
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 const InknutAntiqua = Inknut_Antiqua({
   variable: "--font-inknut-antiqua",
   subsets: ['latin'],
-  weight: ["300" , "400" , "500" , "600" , "700" , "800" , "900"],
+  weight: ["300" , "400" , "500" , "600" , "700"],
   display: 'swap',
-  preload: true,
+  preload: false,
 });
 
 const SourceSerif4 = Source_Serif_4({
   variable: "--font-source-serif-4",
   subsets: ['latin', 'cyrillic'],
-  weight: ["300" , "400" , "500" , "600" , "700" , "800" , "900"],
+  weight: ["300" , "400" , "500" , "600" , "700"],
   display: 'swap',
-  preload: true,
+  preload: false,
 });
 
+const NotoSerifJP = localFont({
+    variable: "--font-noto-serif-jp",
+    src: [
+    {
+      path: '../../../public/fonts/Noto_Serif_JP/NotoSerifJP-Regular.woff',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: '../../../public/fonts/Noto_Serif_JP/NotoSerifJP-Bold.woff',
+      weight: '700',
+      style: 'normal',
+    },
+  ]
+})
+
+/*
 const NotoSerifJP = Noto_Serif_JP({
   variable: "--font-noto-serif-jp",
   //ts doesnt allow japanese???
-  subsets: ['latin'],
-  weight: ["300" , "400" , "500" , "600" , "700" , "800" , "900"],
+  subsets: [],
+  weight: ["300" , "400" , "500" , "600" , "700"],
   display: 'swap',
   preload: true,
-});
+}); 
+*/
 
 //fix l10n
 export async function generateMetadata(): Promise<Metadata> {
@@ -78,7 +86,7 @@ export default async function LocaleLayout({
 
       <body 
          className={`
-          ${geistSans.variable} ${geistMono.variable} ${InknutAntiqua.variable} ${SourceSerif4.variable} ${NotoSerifJP.variable}
+          ${InknutAntiqua.variable} ${SourceSerif4.variable} ${NotoSerifJP.variable}
             flex flex-col min-h-screen main-font
           `}
       >{/* flex flex-col min-h-screen - helps footer to stay at the bottom x1*/}
