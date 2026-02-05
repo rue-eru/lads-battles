@@ -14,7 +14,7 @@ const nextConfig: NextConfig = {
                 port: ""
             }
         ]
-    }
+    },
 };
 
 const withNextIntl = createNextIntlPlugin();
