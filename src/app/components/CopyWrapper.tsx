@@ -28,26 +28,14 @@ export default function CopyWrapper ({
             </button>
 
             <div>
-                {copied 
-                    ? <Image
-                        src="/images/icons/check-box.png"
-                        alt="checked"
-                        width={15}
-                        height={15}
-                        className="object-cover ml-2"
-                        priority
-                    />
-                    : <Image
-                        src="/images/icons/copy.png"
-                        alt="checked"
-                        width={15}
-                        height={15}
-                        className="object-cover ml-2"
-                        priority
-                    /> 
-            }
+                <Image
+                    src={!copied ? "/images/icons/copy.png" : "/images/icons/check-box.png"}
+                    alt="checked"
+                    width={15}
+                    height={15}
+                    className="object-cover ml-2"
+                />
             </div>
-
         </div>
     )
 }

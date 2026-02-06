@@ -33,7 +33,7 @@ export default function ProtocoreTableRow ({
                         width={50}
                         height={50}
                         className={styles.protocoreTypeImage}
-                        priority
+                        loading="lazy"
                     />
                 </div>
             </td>

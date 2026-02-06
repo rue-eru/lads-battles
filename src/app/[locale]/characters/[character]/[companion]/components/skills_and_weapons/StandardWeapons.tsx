@@ -41,7 +41,7 @@ export default function StandardWeapons () {
                                 alt={`${!isJa ? tWeapons('image_alt') : ""}${tWeapons(weaponData.name_key)}${isJa ? tWeapons('image_alt') : ""}`}
                                 width={150}
                                 height={150}
-                                priority
+                                loading="lazy"
                                 className={`object-contain w-35 h-35 ${
                                     expandedWeapon === weaponId
                                         ? 'border-pink-400 border-3 rounded-full'
@@ -89,7 +89,7 @@ export default function StandardWeapons () {
                                                 width={80}
                                                 height={80}
                                                 className={styles.skillRoundImg}
-                                                priority
+                                                loading="lazy"
                                             />
                                         </div>
                                     </td>
@@ -116,7 +116,7 @@ export default function StandardWeapons () {
                                                 width={80}
                                                 height={80}
                                                 className={styles.skillRoundImg}
-                                                priority
+                                                loading="lazy"
                                             />
                                         </div>
                                     </td>
@@ -143,7 +143,7 @@ export default function StandardWeapons () {
                                                 width={80}
                                                 height={80}
                                                 className={styles.skillRoundImg}
-                                                priority
+                                                loading="lazy"
                                             />
                                         </div>
                                     </td>

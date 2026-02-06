@@ -22,7 +22,7 @@ export function Lightbox({
                     alt={alt}
                     fill
                     className="object-contain"
-                    priority
+                    loading="lazy"
                 />
             </div>
 

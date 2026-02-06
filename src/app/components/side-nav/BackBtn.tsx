@@ -50,7 +50,6 @@ export default function BackBtn () {
                         width={20}
                         height={20}
                         className="object-cover h-3 w-3"
-                        priority
                  />
                 <span className="uppercase hidden lg:block lg:flex-none">{t('layout.back')}</span>
             </div>

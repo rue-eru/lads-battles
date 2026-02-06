@@ -9,7 +9,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import SideNav from '../components/side-nav/SideNav';
 import { Suspense } from 'react';
 import Loading from './loading';
-import { InknutAntiqua, NotoSerifJP, SourceSerif4 } from '../../../public/fonts';
+import { localeFontMap } from '../../../public/fonts';
 
 //fix l10n
 export async function generateMetadata(): Promise<Metadata> {
@@ -36,11 +36,13 @@ export default async function LocaleLayout({
   // Enable static rendering
   setRequestLocale(locale);
 
+  const currentFont = localeFontMap[locale];
+
   return (
     <html lang={locale} style={{ scrollBehavior: 'smooth' }} data-scroll-behavior="smooth">
       <body 
          className={`
-             ${NotoSerifJP.variable} ${InknutAntiqua.variable} ${SourceSerif4.variable}
+            ${currentFont.variable}
             flex flex-col min-h-screen main-font
           `}
       >{/* flex flex-col min-h-screen - helps footer to stay at the bottom x1*/}

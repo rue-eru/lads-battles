@@ -41,7 +41,6 @@ export default function SkillCard ({
                         className={styles.skillRoundImg}
                         width={80}
                         height={80}
-                        priority
                     />
                 </div>
             </td>

@@ -1,9 +1,6 @@
-'use client'
-
 import BackBtn from "./BackBtn";
 import UpBtn from "./UpBtn";
 import SectionNav from "./SectionNav";
-
 
 export default function SideNav () {
 

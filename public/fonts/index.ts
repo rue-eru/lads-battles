@@ -70,10 +70,18 @@ export const NotoSerifJP = localFont({
       weight: '400',
       style: 'normal',
     },
+    /*
     {
       path: './noto-serif-jp/noto-serif-jp-v33-japanese_latin-700.woff2',
       weight: '700',
       style: 'normal',
     },
+    */
   ]
 })
+
+export const localeFontMap: Record<string, any> = {
+  en: InknutAntiqua,
+  ja: NotoSerifJP,
+  ru: SourceSerif4,
+};

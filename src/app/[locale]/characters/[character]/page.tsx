@@ -36,7 +36,7 @@ export default async function CharacterCompanionList({
                         >
                                 <CharacterCard 
                                     titleId={tCompanions(companion.nameKey as any)}
-                                    imageSize={220}
+                                    imageSize={100}
                                     imgRoot={`companions/${character}/icons/${companion.id}.jpg`}
                                     className={styles.companionIconStyle}
                                 />

@@ -13,10 +13,14 @@ export default function Banner({character, companion} : CharaDataProps) {
                     alt={`${companion} banner`}
                     width={800}
                     height={258}
-                    className="w-full h-auto"
-                    priority={true}
                     quality={75}
-                    sizes="100vw"
+                    className="w-full h-auto"
+                    fetchPriority="high"
+                    sizes="
+                      (max-width: 640px) 100vw,
+                      (max-width: 1040px) 70vw,
+                      100vw
+                    " 
                     placeholder="blur"
                     blurDataURL={GENERIC_BLUR}
                 />

@@ -65,8 +65,7 @@ export default function Navigation() {
             </div>
 
             {/*allows bigger screens avoid blocking dropdown by the expanded input*/}
-            <div className="sm:w-[30%] lg:w-fit flex justify-end-safe">
-
+            <div className="sm:w-[30%] lg:w-fit flex justify-end-safe mr-3">
                 <SearchInput/>
             </div>
 

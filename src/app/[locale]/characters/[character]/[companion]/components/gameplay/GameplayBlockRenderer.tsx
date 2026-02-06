@@ -70,7 +70,7 @@ export function GameplayBlockRenderer({
                                             alt: t(block.alt)
                                         })
                                     }
-                                    priority
+                                    loading="lazy"
                                     placeholder="blur"
                                     blurDataURL={GENERIC_BLUR}
                                 />
@@ -104,7 +104,7 @@ export function GameplayBlockRenderer({
                                                         alt: t(img.alt)
                                                     })
                                                 }
-                                                priority
+                                                loading="lazy"
                                                 placeholder="blur"
                                                 blurDataURL={GENERIC_BLUR}
                                             />
@@ -167,9 +167,10 @@ export function GameplayBlockRenderer({
                                                             alt: t(img.alt)
                                                         })
                                                     }
-                                                    priority
+                                                    loading="lazy"
                                                     placeholder="blur"
                                                     blurDataURL={GENERIC_BLUR}
+                                                    sizes="50vw"
                                                 />
                                             </div>
 

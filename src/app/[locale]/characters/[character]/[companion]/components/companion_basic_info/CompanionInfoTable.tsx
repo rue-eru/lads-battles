@@ -4,6 +4,7 @@ import { CharacterId, charactersData } from "@/app/utils/loaders/character-data-
 import { CharaDataProps } from "@/app/utils/interfaces-data";
 import TableRow from "./TableRow";
 import { useTranslations } from 'next-intl';
+import Image from "next/image";
 
 
 export default function CompanionInfoTable ( {character, companion} : CharaDataProps
@@ -20,6 +21,7 @@ export default function CompanionInfoTable ( {character, companion} : CharaDataP
         return t(`${category}.${key}` as any)
     }
 
+    const solarPairs = [1, 2];
 
     return (
         <div className="w-full ">
@@ -58,16 +60,17 @@ export default function CompanionInfoTable ( {character, companion} : CharaDataP
                             label={t('table.solarPair')}
                             value={
                                 <div className="flex gap-2">
-                                    <img 
-                                        src={`/images/solar_pairs/${character}/${companionData.id}/${companionData.solarPair}-1.webp`}
-                                        alt="Solar pair card 1"
-                                        className="w-12 h-12 object-cover rounded "
-                                    />
-                                    <img 
-                                        src={`/images/solar_pairs/${character}/${companionData.id}/${companionData.solarPair}-2.webp`}
-                                        alt="Solar pair card 2"
-                                        className="w-12 h-12 object-cover rounded "
-                                    />
+                                    {solarPairs.map((num) => (
+                                        <Image 
+                                            src={`/images/solar_pairs/${character}/${companionData.id}/${companionData.solarPair}-${num}.webp`}
+                                            alt={`Solar pair card ${num}`}
+                                            key={`${companionData.solarPair}-${num}`}
+                                            className="w-12 h-12 object-cover rounded "
+                                            width={30}
+                                            height={30}
+                                            loading="lazy"
+                                        />
+                                    ))}
                                 </div>
                             }
                         />

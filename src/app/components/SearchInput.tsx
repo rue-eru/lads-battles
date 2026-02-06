@@ -136,7 +136,6 @@ export default function SearchInput(){
                             width={5}
                             height={5}
                             className="object-cover h-9 w-9 p-0.5"
-                            priority
                         />
                     </button>
                 ) : (

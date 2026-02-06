@@ -14,7 +14,6 @@ export default function HomeBtn () {
                     alt="Home Logo > Home Link"
                     width={17}
                     height={17}
-                    priority
                     className="sm:hidden"
                 />
             </Link>

@@ -14,9 +14,8 @@ export default function CharacterCard({
                     src={`/images/${imgRoot}`}
                     alt={`imgRoot`} // you can also translate it in the file you pass it to
                     className={className}
-                    width={200}
-                    height={200}
-                    priority
+                    width={100}
+                    height={100}
                     placeholder="blur"
                     blurDataURL={GENERIC_BLUR}
                     sizes="(max-width: 640px) 120px,
