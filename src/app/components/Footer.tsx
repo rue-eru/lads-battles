@@ -12,13 +12,15 @@ export default function Footer() {
 
     return (
         <footer className={`flex flex-wrap items-center justify-between bg-lightgray font-accent font-light w-full border-t-2 border-darkgray sm:px-6 h-auto ${styles.textAccentShadow}
-        ${isEn ? 'sm:font-normal font-light px-0.5 py-2' : 'p-1'}`}>
+        ${isEn ? 'sm:font-normal font-light px-0.5 py-2' : 'p-2'}`}>
 
             <div className="flex flex-nowrap gap-2 sm:items-center sm:gap-10 uppercase lg:tracking-[0.5rem] w-[40%] sm:w-fit">
+                <div className="mt-1">
                     <HomeBtn />
-                    <Link href="/contact" className="hover:text-pink-400 text-nowrap">
-                        {t("contact")}
-                    </Link>
+                </div>
+                <Link href="/contact" className="hover:text-pink-400 text-nowrap">
+                    {t("contact")}
+                </Link>
             </div>
 
             <div className="sm:text-right text-left w-auto sm:ml-4">

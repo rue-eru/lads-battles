@@ -15,7 +15,7 @@ export default function SideNav () {
                     <SectionNav />
                 </div>
 
-            <div className="fixed bottom-4 left-1/2 lg:left-10 lg:bottom-30">
+            <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 lg:left-10  lg:bottom-30 lg:transform-none lg:translate-none">
                 <UpBtn />
             </div>
 

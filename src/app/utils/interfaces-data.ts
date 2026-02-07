@@ -138,3 +138,7 @@ export interface ErrorProps {
     error: Error & { digest?: string};
     reset: () => void;
 }
+
+export interface SpoilerProps {
+    text: string;
+}

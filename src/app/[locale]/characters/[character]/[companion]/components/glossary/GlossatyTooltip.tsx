@@ -31,6 +31,10 @@ export function GlossatyTooltip ({ label, description, href} : Props) {
             onMouseEnter={() => setOpen(true)}
             onMouseLeave={() => setOpen(false)}
             className={`hover:bg-pink-400 text-yellow-100 ${href ? "cursor-pointer" : "cursor-help"}`}
+            style={{
+                WebkitTapHighlightColor: 'transparent',
+                WebkitTouchCallout: 'none',
+            }}
         >
             {label}
         </span>
@@ -43,7 +47,7 @@ export function GlossatyTooltip ({ label, description, href} : Props) {
                 <span
                     ref={refs.setFloating}
                     style={floatingStyles}
-                    className="z-50 max-w-xs rounded-md bg-lightgray/90 px-3 py-2 text-white shadow-lg main-font not-italic font-normal text-start text-wrap"
+                    className="z-50 max-w-xs rounded-md bg-lightgray lg:bg-lightgray/90 px-3 py-2 text-white shadow-lg main-font not-italic font-normal text-start text-wrap"
                 >
                     {description}
                 </span>
