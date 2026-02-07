@@ -19,9 +19,11 @@ A fan-made guide website for Love and Deepspace (LADS) battle mechanics, providi
 
 <details>
 <summary><h2>📸 Demo</h2></summary>
+
 [Live Demo](https://lads-battles.vercel.app/)
 
- images/videos will be placed here after the deployment
+images/videos will be placed here after the deployment
+
 </details>
 
 <details>
