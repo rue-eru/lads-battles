@@ -1,4 +1,4 @@
-# LADS Battle Companion Guide Project
+<h1 align=center>  LADS Battle Companion Guide Project </h1>
 
 <div align="left">
   <img src="https://img.shields.io/badge/Next.js-16-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js 16" />
@@ -43,7 +43,12 @@ images/videos will be placed here after the deployment
 - **3** languages fully localized (EN/JA/RU)  
 - **100+** images optimized
 - **90%** font size reduction (JP fonts, local WOFF2)
-- **95+** Average Lighthouse performance score
+- **90+** Average Lighthouse performance score
+
+> - Lighthouse audits conducted in production environment (Vercel)
+> - Desktop performance: 90–100
+> - Mobile performance: 80–90 (content-heavy pages)
+> - Accessibility / Best Practices / SEO: consistently 100
 
 ![Lighthouse Performance](https://img.shields.io/badge/performance-80+%25-brightgreen)
 ![Lighthouse Accessibility](https://img.shields.io/badge/accessibility-100%25-brightgreen)
@@ -356,5 +361,9 @@ This project is a fan-made guide for Love and Deepspace. All game assets and int
 **Note:** This is a fan project not affiliated with the official Love and Deepspace team. All game data is based on player experience and may not be 100% accurate to the latest game updates.
 
 ---
-*First Uploaded: Feb 7, 2026* </br>
-*Last Updated: Feb 7, 2026* </br>
+
+<div align="right">
+<i>
+First Uploaded: Feb 7, 2026 </br>
+Last Updated: Feb 7, 2026
+</div>
