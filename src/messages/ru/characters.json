@@ -14,22 +14,22 @@
       "evol_police": "Evol Police",
       "lightseeker": "Lightseeker",
       "lumiere": "Lumiere",
-      "king_of_darknight": "King Of Darknight"
+      "king_of_darknight": "King of Darknight"
     },
     "zayne": {
       "linkon_doctor": "Linkon Doctor",
-      "medic_of_the_arctic": "Medic Of The Arctic",
+      "medic_of_the_arctic": "Medic of the Arctic",
       "dawnbreaker": "Dawnbreaker",
       "foreseer": "Foreseer",
-      "master_of_fate": "Master Of Fate",
-      "god_of_annihilation": "God Of Annihilation"
+      "master_of_fate": "Master of Fate",
+      "god_of_annihilation": "God of Annihilation"
     },
     "rafayel": {
       "artist": "Artist",
       "fresh_paint": "Fresh Paint",
-      "phantom_of_the_siren": "Phantom Of The Siren",
+      "phantom_of_the_siren": "Phantom of the Siren",
       "abysswalker": "Abysswalker",
-      "god_of_the_tides": "God Of The Tides",
+      "god_of_the_tides": "God of the Tides",
       "lemurian_sea_god": "Lemurian Sea God"
     },
     "sylus": {
@@ -51,7 +51,7 @@
     "best": "Лучше всего",
     "specialty": "Специализация",
     "unlock": "Как открыть",
-    "solarPair": "Солнечная пара"
+    "solarPair": "Солярная пара"
   },
   "roles": {
     "burst_aoe": "Ультимейт | Урон по области",
@@ -59,7 +59,7 @@
     "support_debuff": "Поддержка | Дебафф",
     "burst_single_pull": "Ультимейт | Урон по одной цели | Стяжка",
     "sustained_buff_aoe": "Поддержка | Бафф | Урон по области",
-    "dps_aoe_empower": "Основной источник урона | Урон по области | Наделяет силой"
+    "dps_aoe_empower": "Основной источник урона | Урон по области | Усиление"
   },
   "scaling": {
     "atk": "ATK",
@@ -68,7 +68,7 @@
   },
   "unlock": {
     "obtain_one_memory": "Получите одно воспоминание",
-    "obtain_six_memories": "Получите 6 4★+ воспоминаний",
+    "obtain_six_memories": "Получите 6 воспоминаний 4★+",
     "main_story_3_14": "Основная история 3-14",
     "standard_banner": "Стандартный и Временный Баннер",
     "limited_banner": "Временный баннер"

@@ -4,11 +4,11 @@
         "labelKey": "Basic Attack"
     },
     "active_skill": {
-        "descriptionKey": "Активный Навык МС. Может варьироваться от выбранного оружия.",
+        "descriptionKey": "Активный навык МС. Может варьироваться от выбранного оружия.",
         "labelKey": "Active Skill"
     },
     "passive_skill": {
-        "descriptionKey": "Пассивный навок. Имеется и у него, и у МС.",
+        "descriptionKey": "Пассивный навык. Имеется и у него, и у МС.",
         "labelKey": "Passive Skill"
     },
     "support_skill": {
@@ -68,15 +68,15 @@
         "labelKey": "DEF Bonus"
     },
     "oath_recovery": {
-        "descriptionKey": "Протокор β, увеличающий скорость востановления Oath(Ульты). Может увеличить использование Oath за раунд с 1 до 2 раз.",
+        "descriptionKey": "Протокор β, увеличивающий скорость восстановления Oath (Ульты). Может увеличить использование Oath за раунд с 1 до 2 раз.",
         "labelKey": "Oath Recovery Boost"
     },
     "oath_strength": {
-        "descriptionKey": "Протокор β, увеличающий урон от Oath (Ульты).",
+        "descriptionKey": "Протокор β, увеличивающий урон от Oath (Ульты).",
         "labelKey": "Oath's Strength"
     },
     "expedited_energy": {
-        "descriptionKey": "Протокор β, увеличающий скорость востановления особой энергии — ◆. Чем быстрее она будет востанавливаться, тем чаще можно будет использовать повторно Resonance Skill и Active Skill.",
+        "descriptionKey": "Протокор β, увеличивающий скорость восстановления особой энергии — ◆. Чем быстрее она будет восстанавливаться, тем чаще можно будет использовать повторно Resonance Skill и Active Skill.",
         "labelKey": "Expedited Energy Boost"
     },
     "dmg_to_weakened": {
@@ -84,15 +84,15 @@
         "labelKey": "DMG Boost to Weakened"
     },
     "crit_dmg": {
-        "descriptionKey": "Протокор δ увеличивающий  CRIT DMG (Критический Урон). Указывает на возможное увеличение урона от CRIT DMG в процентах. Оно возможно, в случае, если у вас достаточно CRIT Rate(Критического Шанса).",
+        "descriptionKey": "Протокор δ увеличивающий  CRIT DMG (Критический Урон). Указывает на возможное увеличение урона от CRIT DMG в процентах. Это возможно, в случае, если у вас достаточно CRIT Rate(Критического Шанса).",
         "labelKey": "CRIT DMG"
     },
     "crit_rate": {
-        "descriptionKey": "Протокор δ увеличивающий CRIT Rate (Критический Шанс). Указывет вероятность увеличения CRIT DMG(Критического Урона) в процентах. То есть, 50% означает, что в 1 из 2 случаев возможно получить увеличение урона на показатель вашего CRIT DMG.",
+        "descriptionKey": "Протокор δ увеличивающий CRIT Rate (Критический Шанс). Указывает вероятность увеличения CRIT DMG(Критического Урона) в процентах. То есть, 50% означает, что в 1 из 2 случаев возможно получить увеличение урона на показатель вашего CRIT DMG.",
         "labelKey": "CRIT Rate"
     },
     "stellactrum_match": {
-        "descriptionKey": "У каждой карты есть свой цвет, также как на каждой арене есть рекомендации по цветам. Когда цвета карт совпадают цветам арены, Resonance Skill будет снимать 2 слоя щита у врагов, вместо 1.",
+        "descriptionKey": "У каждой карты есть свой цвет, также как на каждой арене есть рекомендации по цветам. Когда цвета карт совпадают с цветами арены, Resonance Skill будет снимать 2 слоя щита у врагов, вместо 1.",
         "labelKey": "Stellactrum Match"
     },
     "mc": {
@@ -112,7 +112,7 @@
         "labelKey": "Hunter Firearm"
     },
     "flame_lily": {
-        "descriptionKey": "Особая способность компаньона Artis. Навыки призывают Flame Lily, активациия раздаёт баффы.",
+        "descriptionKey": "Особая способность компаньона Artis. Навыки призывают Flame Lily, активация раздаёт баффы.",
         "labelKey": "Flame Lily"
     },
     "flame_lilies": {
@@ -127,7 +127,7 @@
         "labelKey": "Scarlet Shade"
     },
     "tinctus": {
-        "descriptionKey": "Особая способность компаньона Fresh Paint. Для получения баффа, нанесите на врогов Tinctus.",
+        "descriptionKey": "Особая способность компаньона Fresh Paint. Для получения баффа, нанесите на врагов Tinctus.",
         "labelKey": "Tinctus"
     },
     "reprise": {
@@ -163,38 +163,38 @@
         "labelKey": "Searing Slash"
     },
     "sea_spirit": {
-        "descriptionKey": "Особая способность компаньона God Of The Tides. Его Passive Skill и МС создаёт один Sea Spirit. Имеет 3 уровня.",
+        "descriptionKey": "Особая способность компаньона God of the Tides. Его Passive Skill и МС создают один Sea Spirit. Имеет 3 уровня.",
         "labelKey": "Sea Spirit"
     },
     "sea_spirits": {
         "labelKey": "Sea Spirits"
     },
     "heavenly_rain": {
-        "descriptionKey": "Особая способность компаньона God Of The Tides. Активируется при заполнении графы Faith на полную, раздаёт баффы.",
+        "descriptionKey": "Особая способность компаньона God of the Tides. Активируется при заполнении графы Faith на полную, раздаёт баффы.",
         "labelKey": "Heavenly Rain"
     },
     "faith": {
-        "descriptionKey": "Особая способность компаньона God Of The Tides. Расположена под HP МС. Удары от него, МС и Sea Spirit заполняют её.",
+        "descriptionKey": "Особая способность компаньона God of the Tides. Расположена под HP МС. Удары от него, МС и Sea Spirit заполняют её.",
         "labelKey": "Faith" 
     },
     "tidal_field": {
-        "descriptionKey": "Особая способность компаньона God Of The Tides'. Активируется через Active Skill, при нахождении внутри круга — раздаёт баффы.",
+        "descriptionKey": "Особая способность компаньона God of the Tides. Активируется через Active Skill, при нахождении внутри круга — раздаёт баффы.",
         "labelKey": "Tidal Field"
     },
     "surging_tides": {
-        "descriptionKey": "Resonance Skill компаньона God Of The Tides. Нажмите, чтобы ознакомиться.",
+        "descriptionKey": "Resonance Skill компаньона God of the Tides. Нажмите, чтобы ознакомиться.",
         "labelKey": "Surging Tides"
     },
     "sea_god_mark": {
-        "descriptionKey": "Особая способность компаньона Lemurian Sea God. Восстанавлиевается в течении короткого периода. Заряжанная атака поглащает ее, увеличивая урон, особенно полезно в состоянии Divine Favor.",
+        "descriptionKey": "Особая способность компаньона Lemurian Sea God. Восстанавливается в течение короткого периода. Заряженная атака поглощает ее, увеличивая урон, особенно полезно в состоянии Divine Favor.",
         "labelKey": "Sea God Mark"
     },
     "ocean_descent": {
-        "descriptionKey": "Особая способность компаньона Lemurian Sea God. Ее графа расположенна под HP МС. Атаки МС заполняют левую часть, а Passive Skill Рафаэля — левую.",
+        "descriptionKey": "Особая способность компаньона Lemurian Sea God. Ее графа расположена под HP МС. Атаки МС заполняют левую часть, а Passive Skill Рафаэля — правую.",
         "labelKey": "Ocean's Descent"
     },
     "divine_favor": {
-        "descriptionKey": "Особое состояние компаньона Lemurian Sea God. Можно активировать, когда при полном заполнении Ocean's Descent, появится дополнительная кнопка на экране. В этом состоянии поглщание Sea God Mark наносит больше урона, при Active Skill на поле появится Lightning Crystal, прожатие улонения прям в него нанесет урон по периметру — Lightning Tide.",
+        "descriptionKey": "Особое состояние компаньона Lemurian Sea God. Можно активировать, когда при полном заполнении Ocean's Descent, появится дополнительная кнопка на экране. В этом состоянии поглощение Sea God Mark наносит больше урона, при Active Skill, на поле появится Lightning Crystal, прожатие уклонения прямо в него нанесет урон по периметру — Lightning Tide.",
         "labelKey": "Divine Favor"
     },
     "lightning_tide": {
@@ -206,11 +206,11 @@
         "labelKey": "Lightning Crystal"
     },
     "hunters_intention": {
-        "descriptionKey": "Passive Skill оружия Hunter Sword . Даёт ATK бафф",
+        "descriptionKey": "Passive Skill оружия Hunter Sword. Даёт ATK бафф",
         "labelKey": "Hunter's Intention"
     },
     "gathering_stacks": {
-        "descriptionKey": "Особая способнасть оружия Hunter Claymore. При 3 очках значительно увеличивает урон от Active Skill, дополнительно позволяя пропустить этап заряда способности.",
+        "descriptionKey": "Особая способность оружия Hunter Claymore. При 3 очках значительно увеличивает урон от Active Skill, дополнительно позволяя пропустить этап заряда способности.",
         "labelKey": "Gathering Stacks"
     }
 }
