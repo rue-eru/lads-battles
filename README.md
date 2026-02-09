@@ -373,5 +373,5 @@ This project is a fan-made guide for Love and Deepspace. All game assets and int
 <div align="right">
 <i>
 First Uploaded: Feb 7, 2026 </br>
-Last Updated: Feb 7, 2026
+Last Updated: Feb 10, 2026
 </div>
