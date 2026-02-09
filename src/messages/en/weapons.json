@@ -14,7 +14,7 @@
             "header": "Standard Weapons",
             "firearm": {
                 "name": "Hunter Firearm",
-                "about": "Firearm is a perfect choice if you’re new to LADS' combat. Doing combo is good for Boss stages. Charged attack deals multitarget DMG so it is good to utilize on mob stages but it takes more time to perform.",
+                "about": "Firearm is a perfect choice if you’re new to LADS' combat. Easy combos make it good for boss stages. Charged attack deal multitarget DMG making it good for  mob stages but it takes more time to perform.",
                 "skills": {
                     "basic_attack": {
                         "name": "Precise Firing",
@@ -22,7 +22,7 @@
                     },
                     "passive_skill": {
                         "name": "Weakpoint",
-                        "description": "20% chance of dealing additional DMG on hit. When using [Active Skill] increases to 80%, additionally ATK Speed by 16%."
+                        "description": "20% chance of dealing additional DMG on hit. When using [Active Skill], this increases to 80%, and additionally increases ATK Speed by 16%."
                     },
                     "active_skill": {
                         "name": "In Hot Pursuit",
@@ -36,15 +36,15 @@
                 "skills": {
                     "basic_attack": {
                         "name": "Pierce",
-                        "description": "Perform a combo up to 4 hits. Charge Attack creates a single slash.  Both Scale with ATK. When [Hunter's Intention] is at 10 stacks, Charge Attack will be empowered."
+                        "description": "Perform a combo up to 4 hits. Charged Attack creates a single slash.  Both scale with ATK. When [Hunter's Intention] is at 10 stacks, Charged Attack will be empowered."
                     },
                     "passive_skill": {
                         "name": "Hunter's Intention",
-                        "description": "Gain s stack of [Hunter's Intention] for every instance of DMG up to 10 stacks. 1 stack increases ATK by 1.4%. Removes upon being hit."
+                        "description": "Gain a stack of [Hunter's Intention] for every instance of DMG dealt, up to 10 stacks. 1 stack increases ATK by 1.4%. Removed when being hit."
                     },
                     "active_skill": {
                         "name": "Blade's Shadow",
-                        "description": "Unleash  a slashing attack dealing [AoE] DMG."
+                        "description": "Unleash a slashing attack dealing [AoE] DMG."
                     }
                 }
             },
@@ -58,17 +58,17 @@
                     },
                     "passive_skill": {
                         "name": "Magnetic Resonance",
-                        "description": "Charge attack attack range's increased every 15s and deals massive ATK DMG."
+                        "description": "Charged attack range's increased every 15s and deals massive ATK DMG."
                     },
                     "active_skill": {
                         "name": "Magnetic Nexus",
-                        "description": "Creates a field that will inflict 6 instances of ATK DMG. When active restores HP to  you and your companion."
+                        "description": "Creates a field that inflicts 6 instances of ATK DMG. While active, restores HP to  you and your companion."
                     }
                 }
             },
             "claymore": {
                 "name": "Hunter Claymore",
-                "about": "Hunter Claymore is the most prominent standard weapon in the community due to its passive. Mastering [Gathering Stacks] are hard but really rewarding. To learn how to use them go to Training Room → Freestyle → Sustained Battle and practice here Dodge + 1 Basic Attack. Upon triggering it correctly you will be granted with one stack. Remember to collect all three before using [Active Skill] otherwise you will perform a much weaker hit. It can be used with any companion as other standard weapons but remember it scales with ATK so it is better not to use it with companions that use HP or DEF as their main stat.",
+                "about": "Hunter Claymore is the most prominent standard weapon in the community due to its passive. Mastering [Gathering Stacks] is hard but really rewarding. To learn how to use them go to Training Room → Freestyle → Sustained Battle and practice Dodge + 1 Basic Attack. When triggered correctly, you will gain one stack. Remember to collect all three before using [Active Skill] otherwise you will perform a much weaker hit. It can be used with any companion, like other standard weapons but remember it scales with ATK so it is better not to use it with companions that use HP or DEF as their main stat.",
                 "skills": {
                     "basic_attack": {
                         "name": "Indomitable Edge",
@@ -76,7 +76,7 @@
                     },
                     "passive_skill": {
                         "name": "Persistence",
-                        "description": "Allows you to empower your [Active Skill] by 50% on [Gathering Stacks] and skip the charging state. You should collect all three stacks to utilize that. One stack increases your [Basic Attack] by 12.9%."
+                        "description": "Allows you to empower your [Active Skill] by 50% using [Gathering Stacks] and skip the charging time. You need to collect all three stacks to utilize this. One stack increases your [Basic Attack] by 12.9%."
                     },
                     "active_skill": {
                         "name": "Frangere Slash",
@@ -85,8 +85,8 @@
                 }
             }
     },
-    "skill_basic_info:": {
-        "resonance_skill": "Only that skill helps you to destroy enemy’s shiels. On full Stellactrum match destroys 2 layers of the shield.",
+    "skill_basic_info": {
+        "resonance_skill": "Only that skill helps you to destroy enemy’s shields. On full Stellactrum match destroys 2 layers of the shield.",
         "ardent_oath": "Usually you can use it once during a battle, use [Oath Recovery Boost] protocore to utilize it twice."
     },
     "image_alt": "Image of the weapon: "

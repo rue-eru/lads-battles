@@ -23,6 +23,10 @@
         "descriptionKey": "Ультимативная способность персонажа. Нажмите, чтобы ознакомиться с Ardent Oath для этого персонажа.",
         "labelKey": "Ardent Oath"
     },
+    "charged_attack": {
+        "descriptionKey": "Заряженная атака, для выполнения зажмите кнопку обычной атаки",
+        "labelKey": "Charged Attack"
+    },
     "perfect_dodge": {
         "descriptionKey": "Идеальное Уклонение. Для активации необходимо уклониться от удара врага прямо в момент его нанесения. Активирует Support Skill, даже если время отката незакончилось.",
         "labelKey": "Perfect Dodge"

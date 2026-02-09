@@ -1,11 +1,11 @@
 {
         "header": "Protocores",
-        "stellacrtumMatchInfo": "If the card [Stellactrum Match] is on full the stage's requirments use protocores with the main stat as [DMG Boost to Weakened] or [Oath Recovery Boost], otherwise [CRIT DMG], [CRIT Rate]  and [Expedited Energy Boost].",
-        "introSolar": "Sometimes 5★ companions want slightly different build. For solar pairs β protocore might change depending on the Ranks your have.",
+        "stellactrumMatchInfo": "If the card's [Stellactrum Match] fully meets the stage's requirements use protocores with main stats like [DMG Boost to Weakened] or [Oath Recovery Boost], otherwise prioritize [CRIT DMG], [CRIT Rate] and [Expedited Energy Boost].",
+        "introSolar": "Sometimes 5★ companions require slightly different builds. For solar pairs, the β protocore might change depending on your companion's Rank.",
         "chooseProtocores": "choose protocores based on your needs",
         "substats": "Substats",
         "substatsChoice": {
-            "basic": "For substats priorities protocores with ATK, ATK Bonus, CRIT Rate, CRIT DMG, DMG Boost to Weakened",
+            "basic": "For substats, priorities protocores with ATK, ATK Bonus, CRIT Rate, CRIT DMG, DMG Boost to Weakened",
             "solar": {
                 "intro": "For substats priorities protocores with ",
                 "abysswalker": "ATK, ATK Bonus, CRIT Rate, CRIT DMG, DMG Boost to Weakened",
@@ -13,11 +13,11 @@
                 "lemurian_sea_god": "DEF, DEF Bonus, CRIT Rate, CRIT DMG, DMG Boost to Weakened"
             }
         },
-        "solarCardsInfo": "Solar cards use [α] and [β] protocores. [α] has a fixed main HP stat while [β]'s main stat derives.",
-        "lunarCardsInfo": "Lunar cards use [γ] and [δ] protocores. [γ] has a fixed main ATK stat while [δ]'s main stat derives.",
-        "critBuildsInfo": "For crit builds don't forget to check your [CRIT Rate] before entering the stage. For comfortable ratio aim for 60-80% [CRIT Rate]. Remember your [CRIT DMG] doesn't matter if you do not utilize it.",
-        "OathInfo": "Usually your companion will be able to use [Ardent Oath] once during the battle. To use it twice use [Oath Recovery Boost] for β protocore.",
-        "energyInfo": "[Active Skill] and [Resonance Skill] require special energy ◆, to regenerate it faster use [Expedited Energy Boost] for β protocore.",
+        "solarCardsInfo": "Solar cards use [α] and [β] protocores. [α] has a fixed main HP stat, while [β]'s main stat derives.",
+        "lunarCardsInfo": "Lunar cards use [γ] and [δ] protocores. [γ] has a fixed main ATK stat, while [δ]'s main stat derives.",
+        "critBuildsInfo": "For crit builds, don't forget to check your [CRIT Rate] before entering a stage. For comfortable ratio, aim for 60-80% [CRIT Rate]. Remember that your [CRIT DMG] doesn't matter if you do not utilize it.",
+        "OathInfo": "Usually, your companion can use [Ardent Oath] once per  battle. To use it twice, use [Oath Recovery Boost] as you β protocore.",
+        "energyInfo": "[Active Skill] and [Resonance Skill] require special energy ◆, to regenerate it faster, use [Expedited Energy Boost] as your β protocore.",
         "energyNB": "depends on your companion ranks",
         "ProtocoreType": {
             "Solar": "Solar",
@@ -32,7 +32,7 @@
             "def_bonus": "DEF Bonus",
             "expedited_energy_boost": "Expedited Energy Boost",
             "oath_recovery_boost": "Oath Recovery Boost",
-            "oath_strength": "Oath’s Strength",
+            "oath_strength": "Oath's Strength",
             "crit_rate": "CRIT Rate",
             "crit_dmg": "CRIT DMG",
             "dmg_boost_to_weakened": "DMG Boost to Weakened"

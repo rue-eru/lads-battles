@@ -37,7 +37,7 @@
                 },
                 "resonance_skill": {
                     "name": "灼酷",
-                    "description": "フィールド上の全ての[Flame Lily]に着火し、範囲ダメージと[Burn]を付与する。炎の罠1つにつき自身の攻撃力が5%上昇する（8秒間）。"
+                    "description": "フィールド上の全ての[Flame Lily]に着火し、範囲ダメージと[Burn]を付与する。[Flame Lily]1つにつき自身の攻撃力が5%上昇する（8秒間）。"
                 },
                 "ardent_oath": {
                     "name":"火焰爆裂",
@@ -45,7 +45,7 @@
                 },
                 "passive_skill": {
                     "name": "流炎",
-                    "description": "自身とホムラのスキルが敵に命中すると、最大5つの[Flame Lily]を召喚する。[Flame Lily]を合計10個消費すると、ホムラの通常攻撃ダメージと攻撃範囲が10秒間強化される。新生した[Flame Lily]を生成した後、それらを起動させてダメージを与え、[Burn]状態にする。"
+                    "description": "自身とホムラのスキルが敵に命中すると、最大5つの[Flame Lily]を召喚する。[Flame Lily]を合計10個消費すると、ホムラの通常攻撃ダメージと攻撃範囲が10秒間強化される。新生した[Flame Lily]を生成し、それらを起動させてダメージを与え、[Burn]状態にする。"
                 }
             },
             "fresh_paint": {
@@ -99,15 +99,15 @@
                 },
                 "passive_skill": {
                     "name": "深海のしるべ",
-                    "description": "ホムラが敵に定期的に[Beacon]を付与する。重撃で命中させると[Potential]を1回収できる。"
+                    "description": "ホムラが敵に定期的に[Beacon]を付与する。[Charged Attack]で命中させると[Potential]を1回収できる。"
                 },
                 "basic_attack": {
                     "name": "深海速射",
-                    "description": "双銃による最大5段の連続攻撃。重撃は近くの敵をノックバックする。"
+                    "description": "双銃による最大5段の連続攻撃。[Charged Attack]は近くの敵をノックバックする。"
                 },
                 "my_passive_skill": {
                     "name": "深海の影",
-                    "description": "通常攻撃が命中するたびに「追撃」スタックが増加（最大5スタック）。1スタックごとに攻撃速度+4%、CR率+2%。"
+                    "description": "通常攻撃が命中するたびに「[Deepsea Pursuit]」スタックが増加（最大5スタック）。1スタックごとに攻撃速度+4%、CR率+2%。"
                 },
                 "active_skill": {
                     "name": "海域貫通",
@@ -133,7 +133,7 @@
                 },
                 "basic_attack": {
                     "name": "うねり",
-                    "description": "自身の攻撃力と最大HPに基づく最大4段の連続攻撃。重撃は敵を吹き飛ばす。"
+                    "description": "自身の攻撃力と最大HPに基づく最大4段の連続攻撃。[Charged Attack]は敵を吹き飛ばす。"
                 },
                 "my_passive_skill": {
                     "name": "海の低吟",
@@ -160,15 +160,15 @@
                 },
                 "passive_skill": {
                     "name": "漣海の淵",
-                    "description": "戦闘開始時、ホムラが[海神の印]を付与。重撃で消費され、8秒後に再付与される。[海神の印]は非常に強力で、特に[神の眷属]状態で真価を発揮する。"
+                    "description": "戦闘開始時、ホムラが[Sea God Mark]を付与。[Charged Attack]で消費され、8秒後に再付与される。[Sea God Mark]は非常に強力で、特に[Divine Favor]状態で真価を発揮する。"
                 },
                 "basic_attack": {
                     "name": "追波",
-                    "description": "最大4段の連続攻撃。重撃は強力な斬撃を放ち、[海神の印]が満タンの場合は消費する。ダメージは攻撃力と防御力に依存。"
+                    "description": "最大4段の連続攻撃。[Charged Attack]は強力な斬撃を放ち、[Sea God Mark]が満タンの場合は消費する。ダメージは攻撃力と防御力に依存。"
                 },
                 "my_passive_skill": {
                     "name": "帰る波濤",
-                    "description": "[海神の印]を消費する重撃は、追加でスキルエネルギーを0.5回復する。"
+                    "description": "[Sea God Mark]を消費する[Charged Attack]は、追加でスキルエネルギーを0.5回復する。"
                 },
                 "active_skill": {
                     "name": "減流",

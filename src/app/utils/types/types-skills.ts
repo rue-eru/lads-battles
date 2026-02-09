@@ -16,7 +16,6 @@ export interface Skills {
     cooldown?: string;
     cost?: string;
     description_key: SkillDescription;
-    terms?: string[];
 }
 
 export interface CompanionSkills {

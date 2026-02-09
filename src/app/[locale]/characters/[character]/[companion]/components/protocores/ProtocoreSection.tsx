@@ -69,7 +69,7 @@ export default function ProtocoreSection ({character, companion}: CharaDataProps
             <p className="-mt-8 text-right w-full italic">{isJa ? "※ ": "* "}{t('energyNB')}</p>
 
             <span>                        
-                <TextRenderer>{t('stellacrtumMatchInfo')}</TextRenderer>
+                <TextRenderer>{t('stellactrumMatchInfo')}</TextRenderer>
             </span>
 
 

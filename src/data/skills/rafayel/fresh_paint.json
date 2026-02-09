@@ -3,8 +3,7 @@
         "support_skill": {
             "name_key": "skills.our_skills.rafayel.fresh_paint.support_skill.name",
             "cooldown": "10",
-            "description_key": "skills.our_skills.rafayel.fresh_paint.support_skill.description",
-            "terms": ["Tinctus"]
+            "description_key": "skills.our_skills.rafayel.fresh_paint.support_skill.description"
         },
         "resonance_skill": {
             "name_key": "skills.our_skills.rafayel.fresh_paint.resonance_skill.name",
@@ -18,8 +17,7 @@
         },
         "passive_skill": {
             "name_key": "skills.our_skills.rafayel.fresh_paint.passive_skill.name",
-            "description_key": "skills.our_skills.rafayel.fresh_paint.passive_skill.description",
-            "terms": ["Tinctus", "Active Skill", "Resonance Skill", "Ardent Oath"]
+            "description_key": "skills.our_skills.rafayel.fresh_paint.passive_skill.description"
         }
     }
 }

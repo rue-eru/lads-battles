@@ -3,15 +3,13 @@
             "support_skill": {
                 "name_key": "skills.our_skills.rafayel.phantom_of_the_siren.support_skill.name",
                 "cooldown": "10",
-                "description_key": "skills.our_skills.rafayel.phantom_of_the_siren.support_skill.description",
-                "terms": ["Reprise"]
+                "description_key": "skills.our_skills.rafayel.phantom_of_the_siren.support_skill.description"
             },
             "resonance_skill": {
                 "name_key": "skills.our_skills.rafayel.phantom_of_the_siren.resonance_skill.name",
                 "cooldown": "15",
                 "cost": "2",
-                "description_key": "skills.our_skills.rafayel.phantom_of_the_siren.resonance_skill.description",
-                "terms": ["Echo"]
+                "description_key": "skills.our_skills.rafayel.phantom_of_the_siren.resonance_skill.description"
             },
             "ardent_oath": {
                 "name_key": "skills.our_skills.rafayel.phantom_of_the_siren.ardent_oath.name",
@@ -19,8 +17,7 @@
             },
             "passive_skill": {
                 "name_key": "skills.our_skills.rafayel.phantom_of_the_siren.passive_skill.name",
-                "description_key": "skills.our_skills.rafayel.phantom_of_the_siren.passive_skill.description",
-                "terms": ["Echo", "Aria"]
+                "description_key": "skills.our_skills.rafayel.phantom_of_the_siren.passive_skill.description"
             }
     }
 }

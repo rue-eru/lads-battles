@@ -14,22 +14,22 @@
       "evol_police": "Evol Police",
       "lightseeker": "Lightseeker",
       "lumiere": "Lumiere",
-      "king_of_darknight": "King Of Darknight"
+      "king_of_darknight": "King of Darknight"
     },
     "zayne": {
       "linkon_doctor": "Linkon Doctor",
-      "medic_of_the_arctic": "Medic Of The Arctic",
+      "medic_of_the_arctic": "Medic of the Arctic",
       "dawnbreaker": "Dawnbreaker",
       "foreseer": "Foreseer",
-      "master_of_fate": "Master Of Fate",
-      "god_of_annihilation": "God Of Annihilation"
+      "master_of_fate": "Master of Fate",
+      "god_of_annihilation": "God of Annihilation"
     },
     "rafayel": {
       "artist": "Artist",
       "fresh_paint": "Fresh Paint",
-      "phantom_of_the_siren": "Phantom Of The Siren",
+      "phantom_of_the_siren": "Phantom of the Siren",
       "abysswalker": "Abysswalker",
-      "god_of_the_tides": "God Of The Tides",
+      "god_of_the_tides": "God of the Tides",
       "lemurian_sea_god": "Lemurian Sea God"
     },
     "sylus": {
@@ -77,7 +77,7 @@
     "single_target": "Single Target",
     "multi_target_res_aoth": "Multi Target(Resonance and Oath)",
     "multi_target": "Multi Target",
-    "multi_target_dps": "multi target and DPS"
+    "multi_target_dps": "Multi Target and DPS"
   },
   "specialty": {
     "atk_buff": "ATK Buff",

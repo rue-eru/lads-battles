@@ -51,7 +51,7 @@
     "best": "得意状況",
     "specialty": "特徴",
     "unlock": "解放条件",
-    "solarPair": "セット日位思念"
+    "solarPair": "日位思念セット"
   },
   "roles": {
     "burst_aoe": "バースト | 複数",
@@ -75,7 +75,7 @@
   },
   "best": {
     "single_target": "単体敵",
-    "multi_target_res_aoth": "複数敵(共鳴スキルと誓約スキル)",
+    "multi_target_res_aoth": "複数敵　(共鳴スキルと誓約スキル)",
     "multi_target": "複数敵",
     "multi_target_dps": "複数敵＆ダメージ"
   },

@@ -16,16 +16,16 @@ export default function Home({ params }: { params: Promise<{ locale: Locale }> }
   return (
     <div className={styles.pagelayout}>
       <main className={styles.contentlayout}>
-        <h1 className={styles.h1}>{tHome("intro header")}</h1>
+        <h1 className={styles.h1}>{tHome("intro_header")}</h1>
         <hr className={styles.divider}></hr>
         <p>{tHome("here")}</p>
-        <p>{tHome("I started playing")}</p>
-        <p>{tHome("I cannot say")}</p>
-        <p>{tHome("At the moment")}</p>
+        <p>{tHome("I_started_playing")}</p>
+        <p>{tHome("I_cannot_say")}</p>
+        <p>{tHome("at_the_moment")}</p>
         <p>{tHome("Ending")}</p>
 
         <div className={`font-accent uppercase border-4 border-lightgray flex-nowrap w-full text-center ${styles.textAccentShadow}`}>
-          <span className="block bg-lightgray flex-1 p-2">{tHome('to start')}</span>
+          <span className="block bg-lightgray flex-1 p-2">{tHome('to_start')}</span>
             <CharacterList/>
         </div>
         <CharaListNB />

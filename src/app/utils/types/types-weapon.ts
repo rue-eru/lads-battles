@@ -3,7 +3,6 @@ export interface WeaponSkill {
     description_key: string;
     cooldown?: string;
     cost?: string;
-    terms?: string[];
     rich_description?: {
         text: string;
         links?: Array<{
@@ -18,7 +17,6 @@ export interface WeaponSkill {
 export interface StandardWeapon {
     name_key: string;
     about: string;
-    terms?: string[];
     skills: {
         basic_attack: WeaponSkill;
         passive_skill: WeaponSkill;

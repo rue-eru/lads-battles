@@ -3,6 +3,10 @@
         "descriptionKey": "Basic Attack varies based on a weapon choice.",
         "labelKey": "Basic Attack"
     },
+    "charged_attack": {
+        "descriptionKey": "To perform hold the basic attack button",
+        "labelKey": "Charged Attack"
+    },
     "active_skill": {
         "descriptionKey": "Active Skill varies based on a weapon choice.",
         "labelKey": "Active Skill"
@@ -28,11 +32,11 @@
         "labelKey": "Perfect Dodge"
     },
     "oath_recovery": {
-        "descriptionKey": "A β Protocore that fastens your ultimate recovery(Oath). Can make you use your Oath two times during the battle instead of one",
+        "descriptionKey": "A β Protocore that speeds up your ultimate (Oath) recovery. Allows you to use your Oath twice per battle instead of once.",
         "labelKey": "Oath Recovery Boost"
     },
     "expedited_energy": {
-        "descriptionKey": "A β Protocore that fastens your special energy ◆ recovery. The faster you regenerate them the faster you will be able to use your Resonance Skill and Active Skill again.",
+        "descriptionKey": "A β Protocore that speeds up your special energy (◆) recovery. The faster you regenerate it, the sooner you can use your Resonance Skill and Active Skill again.",
         "labelKey": "Expedited Energy Boost"
     },
     "dmg_to_weakened": {
@@ -40,15 +44,15 @@
         "labelKey": "DMG Boost to Weakened"
     },
     "crit_dmg": {
-        "descriptionKey": "A δ Protocore that increases your CRIT DMG. It is used to multiply your damage on finale CRIT DMG number percentage. It will apply if you 'crit' i.e. your CRIT Rate is enough to happen.",
+        "descriptionKey": "A δ Protocore that increases your CRIT DMG. It multiplies your damage by the CRIT DMG percentage when you score a critical hit. It only applies when you score a critical hit, which depends on your CRIT Rate.",
         "labelKey": "CRIT DMG"
     },
     "crit_rate": {
-        "descriptionKey": "A δ Protocore that increases your CRIT Rate. It shows the ratio of possible crit multiply. E.g. 50% means there is 1 out of 2 chances to multiply your damage by CRIT DMG you have.",
+        "descriptionKey": "A δ Protocore that increases your CRIT Rate. It shows the chance of scoring a critical hit. For example, 50% means a 1 in 2 chance to multiply your damage by your CRIT DMG.",
         "labelKey": "CRIT Rate"
     },
     "stellactrum_match": {
-        "descriptionKey": "Each card has its color. On each stage there's a color requirment. When you match all the colors, your Resonance Skill will be able to destroy 2 layers of enemy's shield instead of 1.",
+        "descriptionKey": "Each card has its color. On each stage there's a color requirement. When you match all colors, your Resonance Skill can destroy 2 layers of enemy shield instead of 1.",
         "labelKey": "Stellactrum Match"
     },
     "mc": {
@@ -84,14 +88,14 @@
         "labelKey": "Hunter Firearm"
     },
     "flame_lily": {
-        "descriptionKey": "Artis's special ability. Different Skills summon them, activating buffs.",
+        "descriptionKey": "Artist's special ability. Different skills summon them, which activate buffs.",
         "labelKey": "Flame Lily"
     },
     "flame_lilies": {
         "labelKey": "Flame Lilies"
     },
     "scarlet_shade": {
-        "descriptionKey": "Artis's Support Skill. It creates Flame Lilies",
+        "descriptionKey": "Artist's Support Skill. It creates Flame Lilies",
         "labelKey": "Scarlet Shade"
     },
     "tinctus": {
@@ -135,7 +139,7 @@
         "labelKey": "Searing Slash"
     },
     "sea_spirit": {
-        "descriptionKey": "God Of The Tides' special ability. Both his and your Passive Skills summon them. It has 3 levels.",
+        "descriptionKey": "God Of The Tides' special ability. Both his Passive Skill and yours can summon them. It has 3 levels.",
         "labelKey": "Sea Spirit"
     },
     "sea_spirits": {
@@ -150,7 +154,7 @@
         "labelKey": "Faith"
     },
     "tidal_field": {
-        "descriptionKey": "God Of The Tides' special ability. It can be triggered by Active Skill and provides buffs by staying inside of it",
+        "descriptionKey": "God Of The Tides' special ability. It can be triggered by Active Skill and provides buffs when you stay inside it.",
         "labelKey": "Tidal Field"
     },
     "surging_tides": {
@@ -158,19 +162,19 @@
         "labelKey": "Surging Tides"
     },
     "sea_god_mark": {
-        "descriptionKey": "Lemurian Sea God's special ability. It recharges over time. Charge Attack can consume it empowering your attack, especially in Divine Favor.",
+        "descriptionKey": "Lemurian Sea God's special ability. It recharges over time. Charged Attack can consume it to empower your attack, especially during Divine Favor.",
         "labelKey": "Sea God Mark"
     },
     "ocean_descent": {
-        "descriptionKey": "Lemurian Sea God's special ability. It is located under MC's HP bar. Your attacks fill left part of it, while Rafayel's Passive Skill left part.",
+        "descriptionKey": "Lemurian Sea God's special ability. It is located under MC's HP bar. Your attacks fill left part of it, while Rafayel's Passive Skill fills the right part.",
         "labelKey": "Ocean's Descent"
     },
     "divine_favor": {
-        "descriptionKey": "Lemurian Sea God's special ability. You can activate it by reaching full Ocean's Descent and pressing the appeared button. In that state consuming the Sea God Mark does more damage, on Active Skill Lightning Crystal will appear on the field, dodge in it to do AoE DMG.",
+        "descriptionKey": "Lemurian Sea God's special ability. You can activate it by filling Ocean's Descent and pressing the button that appears. In that state, consuming Sea God Mark deals more damage, using Active Skill creates a Lightning Crystal on the field, dodge into it deal AoE DMG.",
         "labelKey": "Divine Favor"
     },
     "lightning_tide": {
-        "descriptionKey": "Damage explosure after triggering Lightning Crystal in Divine Favor state.",
+        "descriptionKey": "Damage explosion after triggering Lightning Crystal in Divine Favor state.",
         "labelKey": "Lightning Tide"
     },
     "lightning_crystal": {
@@ -178,11 +182,11 @@
         "labelKey": "Lightning Crystal"
     },
     "hunters_intention": {
-        "descriptionKey": "Hunter Sword's Passive Skill. Provides ATK buff",
+        "descriptionKey": "Hunter Sword's Passive Skill. Provides an ATK buff",
         "labelKey": "Hunter's Intention"
     },
     "gathering_stacks": {
-        "descriptionKey": "Hunter Claymore's special ability. On 3 stacks greatly empoweres your Active Skill allowing to skip the charge stage.",
+        "descriptionKey": "Hunter Claymore's special ability. On 3 stacks greatly empowers your Active Skill allowing you to skip the charge stage.",
         "labelKey": "Gathering Stacks"
     }
 }

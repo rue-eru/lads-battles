@@ -3,15 +3,13 @@
         "support_skill": {
             "name_key": "skills.our_skills.rafayel.artist.support_skill.name",
             "cooldown": "10",
-            "description_key": "skills.our_skills.rafayel.artist.support_skill.description",
-            "terms": ["Flame Lilies"]
+            "description_key": "skills.our_skills.rafayel.artist.support_skill.description"
         },
         "resonance_skill": {
             "name_key": "skills.our_skills.rafayel.artist.resonance_skill.name",
             "cooldown": "15",
             "cost": "2",
-            "description_key": "skills.our_skills.rafayel.artist.resonance_skill.description",
-            "terms": ["Flame Lilies"]
+            "description_key": "skills.our_skills.rafayel.artist.resonance_skill.description"
         },
         "ardent_oath": {
             "name_key": "skills.our_skills.rafayel.artist.ardent_oath.name",
@@ -19,8 +17,7 @@
         },
         "passive_skill": {
             "name_key": "skills.our_skills.rafayel.artist.passive_skill.name",
-            "description_key": "skills.our_skills.rafayel.artist.passive_skill.description",
-            "terms": ["Flame Lilies"]
+            "description_key": "skills.our_skills.rafayel.artist.passive_skill.description"
         }
     }
 }

@@ -11,7 +11,7 @@
     },
     "404": {
         "title": "Page Not Found",
-        "description": "Oopsie! Kitty {name} wasn't able to find that page! It seems there could be a typo in the http entry. Please return back and try your request again.",
+        "description": "Oopsie! Kitty {name} wasn't able to find that page! It seems there could be a typo in the URL. Please return and try your request again.",
         "description1": "Oopsie! Kitty ",
         "description2": " wasn't able to find that page! It seems there could be a typo in the web address. Head back and give it another shot!"    
     },

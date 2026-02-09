@@ -63,7 +63,6 @@ export interface SkillCardProps {
     cooldown?: number;
     cost?: number;
     descriptionKey: string;
-    terms?: string[];
     id?: string;
 }
 

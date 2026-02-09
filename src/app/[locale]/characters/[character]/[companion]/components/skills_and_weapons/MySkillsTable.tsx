@@ -69,7 +69,6 @@ export default function MySkillsTable( {character, companion}: CharaDataProps) {
                         nameKey={basic_attack.name_key}
                         label={tCommon('basic_attack')}
                         descriptionKey={basic_attack.description_key as any}
-                        terms={basic_attack.terms}
                         id="basicAttack"
                     />
 
@@ -78,7 +77,6 @@ export default function MySkillsTable( {character, companion}: CharaDataProps) {
                         nameKey={passive_skill.name_key}
                         label={tCommon('passive_skill')}
                         descriptionKey={passive_skill.description_key as any}
-                        terms={passive_skill.terms}
                         id="myPassiveSkill"
                     />
 
@@ -89,7 +87,6 @@ export default function MySkillsTable( {character, companion}: CharaDataProps) {
                         descriptionKey={active_skill.description_key as any}
                         cooldown={active_skill.cooldown as any}
                         cost={active_skill.cost as any}
-                        terms={active_skill.terms}
                         id="activeSkill"
                     />
                 </tbody>

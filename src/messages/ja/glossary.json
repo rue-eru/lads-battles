@@ -3,6 +3,10 @@
         "descriptionKey": "通常攻撃は、選択した武器によって異なります。",
         "labelKey": "通常攻撃"
     },
+    "charged_attack": {
+        "descriptionKey": "重撃を実行するには、通常攻撃ボタンを押し続けます。",
+        "labelKey": "重撃"
+    },
     "active_skill": {
         "descriptionKey": "アクティブスキルは、選択した武器によって異なります。",
         "labelKey": "アクティブスキル"
@@ -28,7 +32,7 @@
         "labelKey": "完全回避"
     },
     "oath_recovery": {
-        "descriptionKey": "誓約スキルの回復速度を上昇させるβコアです。これにより戦闘中、誓約スキルを1回ではなく2回使用できる可能性があります。",
+        "descriptionKey": "誓約スキルの回復速度を上昇させるβコアです。これにより、戦闘中に誓約スキルを1回ではなく2回使用できる可能性があります。",
         "labelKey": "約回復増"
     },
     "expedited_energy": {
@@ -175,7 +179,7 @@
     },
     "divine_favor": {
         "descriptionKey": "リモリアの海神の強力な強化状態です。「海溝の降臨」ゲージ満タンで発動でき、「海神の印」とアクティブスキルが強化され、「雷晶」を生成します。",
-        "labelKey": "神の養属"
+        "labelKey": "神の眷属)"
     },
     "lightning_tide": {
         "descriptionKey": "「神の眷属」状態中に「雷晶」を起爆させると発生する追加ダメージ効果です。",

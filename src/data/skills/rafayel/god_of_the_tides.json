@@ -3,8 +3,7 @@
         "support_skill": {
             "name_key": "skills.our_skills.rafayel.god_of_the_tides.support_skill.name",
             "cooldown": "10",
-            "description_key": "skills.our_skills.rafayel.god_of_the_tides.support_skill.description",
-            "terms": ["Sea Spirit", "Tidal Summoning", "Faith"]
+            "description_key": "skills.our_skills.rafayel.god_of_the_tides.support_skill.description"
         },
         "resonance_skill": {
             "name_key": "skills.our_skills.rafayel.god_of_the_tides.resonance_skill.name",
@@ -18,8 +17,7 @@
         },
         "passive_skill": {
             "name_key": "skills.our_skills.rafayel.god_of_the_tides.passive_skill.name",
-            "description_key": "skills.our_skills.rafayel.god_of_the_tides.passive_skill.description",
-            "terms": ["Sea Spirit", "Heavenly Rain", "Faith"]
+            "description_key": "skills.our_skills.rafayel.god_of_the_tides.passive_skill.description"
         }
     },
     "my_skills": {
@@ -30,15 +28,13 @@
         },
         "passive_skill": {
             "name_key": "skills.our_skills.rafayel.god_of_the_tides.my_passive_skill.name",
-            "description_key": "skills.our_skills.rafayel.god_of_the_tides.my_passive_skill.description",
-            "terms": ["Sea Spirit", "Active Skill"]
+            "description_key": "skills.our_skills.rafayel.god_of_the_tides.my_passive_skill.description"
         },
         "active_skill": {
             "name_key": "skills.our_skills.rafayel.god_of_the_tides.active_skill.name",
             "cooldown": "10",
             "cost": "1",
-            "description_key": "skills.our_skills.rafayel.god_of_the_tides.active_skill.description",
-            "terms": ["Tidal Field"]
+            "description_key": "skills.our_skills.rafayel.god_of_the_tides.active_skill.description"
         }
     }
 }

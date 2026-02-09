@@ -56,6 +56,11 @@ export const GLOSSARY: Record<string, GlossaryTermProps> = {
         description: 'resonance_skill.descriptionKey',  
         link: '#resonanceSkill'  
     },
+    "Charged Attack": {
+        key: "Charged Attack",
+        label: "charged_attack.labelKey",
+        "description": "charged_attack.descriptionKey"
+    },
     "Ardent Oath": {
         key: "Ardent Oath",
         label: 'ardent_oath.labelKey',

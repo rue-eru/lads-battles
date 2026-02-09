@@ -3,8 +3,7 @@
         "support_skill": {
             "name_key": "skills.our_skills.rafayel.abysswalker.support_skill.name",
             "cooldown": "14",
-            "description_key": "skills.our_skills.rafayel.abysswalker.support_skill.description",
-            "terms": ["Fishtail", "Beacon", "Potential"]
+            "description_key": "skills.our_skills.rafayel.abysswalker.support_skill.description"
         },
         "resonance_skill": {
             "name_key": "skills.our_skills.rafayel.abysswalker.resonance_skill.name",
@@ -19,8 +18,7 @@
         "passive_skill": {
             "name_key": "skills.our_skills.rafayel.abysswalker.passive_skill.name",
             "cooldown": "14",
-            "description_key": "skills.our_skills.rafayel.abysswalker.passive_skill.description",
-            "terms": ["Beacon", "Potential"]
+            "description_key": "skills.our_skills.rafayel.abysswalker.passive_skill.description"
         }
     },
     "my_skills": {

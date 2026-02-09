@@ -9,8 +9,7 @@
             },
             "passive_skill": {
                 "name_key": "standard_weapons.firearm.skills.passive_skill.name",
-                "description_key": "standard_weapons.firearm.skills.passive_skill.description",
-                "terms": ["Active Skill"]
+                "description_key": "standard_weapons.firearm.skills.passive_skill.description"
             },
             "active_skill": {
                 "name_key": "standard_weapons.firearm.skills.active_skill.name",
@@ -26,13 +25,11 @@
         "skills": {
             "basic_attack": {
                 "name_key": "standard_weapons.sword.skills.basic_attack.name",
-                "description_key": "standard_weapons.sword.skills.basic_attack.description",
-                "terms": ["Hunter`s Intention"]
+                "description_key": "standard_weapons.sword.skills.basic_attack.description"
             },
             "passive_skill": {
                 "name_key": "standard_weapons.sword.skills.passive_skill.name",
-                "description_key": "standard_weapons.sword.skills.passive_skill.description",
-                "terms": ["Hunter`s Intention"]
+                "description_key": "standard_weapons.sword.skills.passive_skill.description"
             },
             "active_skill": {
                 "name_key": "standard_weapons.sword.skills.active_skill.name",
@@ -65,7 +62,6 @@
     "claymore": {
         "name_key": "standard_weapons.claymore.name",
         "about": "standard_weapons.claymore.about",
-        "terms": ["Gathering Stacks", "Active Skill"],
         "skills": {
             "basic_attack": {
                 "name_key": "standard_weapons.claymore.skills.basic_attack.name",
@@ -73,8 +69,7 @@
             },
             "passive_skill": {
                 "name_key": "standard_weapons.claymore.skills.passive_skill.name",
-                "description_key": "standard_weapons.claymore.skills.passive_skill.description",
-            "terms": ["Gathering Stacks", "Active Skill", "Basic Attack"]
+                "description_key": "standard_weapons.claymore.skills.passive_skill.description"
             },
             "active_skill": {
                 "name_key": "standard_weapons.claymore.skills.active_skill.name",

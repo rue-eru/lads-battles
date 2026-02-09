@@ -78,7 +78,7 @@ export default function SectionNav () {
     }
 
     const ruBtn = isRu ? "uppercase text-[14px] -ml-0.5" : "";
-    const ruLi = isRu? "text-[14px] capitalize!" : "";
+    const ruLi = isRu? "text-[14px]" : "uppercase";
     const enBtn = isEn ? "uppercase text-[12px] -ml-1.5": "";
     const jaBtn = isJa ? "-ml-1.5" : "";
 
@@ -111,7 +111,7 @@ export default function SectionNav () {
                                                 onClick={() => scrollToId(section.id)}
                                                 className="cursor-pointer"
                                             >
-                                                <span className={`text-center uppercase text-[12px] ${ruLi}`}>{t(section.labelKey)}</span>
+                                                <span className={`text-center text-[12px] ${ruLi}`}>{t(section.labelKey)}</span>
                                             </button>
                                         </li>
                                     ))}

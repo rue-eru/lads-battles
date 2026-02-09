@@ -17,21 +17,18 @@
         },
         "passive_skill": {
             "name_key": "skills.our_skills.rafayel.lemurian_sea_god.passive_skill.name",
-            "description_key": "skills.our_skills.rafayel.lemurian_sea_god.passive_skill.description",
-            "terms": ["Sea God Mark", "Ocean`s Descent"]
+            "description_key": "skills.our_skills.rafayel.lemurian_sea_god.passive_skill.description"
         }
     },
     "my_skills": {
         "weapon_key": "weapons.exclusive_weapons.ballads_of_ebbs.name",
         "basic_attack": {
             "name_key": "skills.our_skills.rafayel.lemurian_sea_god.basic_attack.name",
-            "description_key": "skills.our_skills.rafayel.lemurian_sea_god.basic_attack.description",
-            "terms": ["Sea God Mark"]
+            "description_key": "skills.our_skills.rafayel.lemurian_sea_god.basic_attack.description"
         },
         "passive_skill": {
             "name_key": "skills.our_skills.rafayel.lemurian_sea_god.my_passive_skill.name",
-            "description_key": "skills.our_skills.rafayel.lemurian_sea_god.my_passive_skill.description",
-            "terms": ["Sea God Mark"]
+            "description_key": "skills.our_skills.rafayel.lemurian_sea_god.my_passive_skill.description"
         },
         "active_skill": {
             "name_key": "skills.our_skills.rafayel.lemurian_sea_god.active_skill.name",
