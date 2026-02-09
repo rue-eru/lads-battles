@@ -12,7 +12,7 @@
         "labelKey": "アクティブスキル"
     },
     "passive_skill": {
-        "descriptionKey": "MCとパートナーはそれぞれ固有のパッシブスキルを持っています。",
+        "descriptionKey": "主人公とパートナーはそれぞれ固有のパッシブスキルを持っています。",
         "labelKey": "パッシブスキル"
     },
     "support_skill": {
@@ -56,8 +56,8 @@
         "labelKey": "磁場星譜"
     },
     "mc": {
-        "descriptionKey": "主人公（Main Character）、つまりあなた自身のことです。",
-        "labelKey": "MC"
+        "descriptionKey": "主人公（Main Character, MC）、つまりあなた自身のことです。",
+        "labelKey": "主人公"
     },
     "dot": {
         "descriptionKey": "持続ダメージ（Damage Over Time）。時間経過で継続的にダメージを与える効果です。",
@@ -127,7 +127,7 @@
         "labelKey": "尾びれ矢"
     },
     "potential": {
-        "descriptionKey": "深海の潜行者固有の特殊ゲージ。6点まで溜まり、MCのHPバーの下に表示されます。",
+        "descriptionKey": "深海の潜行者固有の特殊ゲージ。6点まで溜まり、主人公のHPバーの下に表示されます。",
         "labelKey": "潜在エネルギー"
     },
     "beacon": {
@@ -147,7 +147,7 @@
         "labelKey": "強力斬撃"
     },
     "sea_spirit": {
-        "descriptionKey": "潮汐の神固有の特殊召喚物です。ホムラとMCのパッシブスキルで召喚でき、レベルが3段階存在します。",
+        "descriptionKey": "潮汐の神固有の特殊召喚物です。ホムラと主人公のパッシブスキルで召喚でき、レベルが3段階存在します。",
         "labelKey": "海霊"
     },
     "sea_spirits": {
@@ -158,7 +158,7 @@
         "labelKey": "海の慈雨"
     },
     "faith": {
-        "descriptionKey": "潮汐の神固有のゲージです。MCのHPバーの下に表示されます。自身、ホムラ、海霊の攻撃が命中することで溜まります。",
+        "descriptionKey": "潮汐の神固有のゲージです。主人公のHPバーの下に表示されます。自身、ホムラ、海霊の攻撃が命中することで溜まります。",
         "labelKey": "信仰"
     },
     "tidal_field": {
@@ -179,7 +179,7 @@
     },
     "divine_favor": {
         "descriptionKey": "リモリアの海神の強力な強化状態です。「海溝の降臨」ゲージ満タンで発動でき、「海神の印」とアクティブスキルが強化され、「雷晶」を生成します。",
-        "labelKey": "神の眷属)"
+        "labelKey": "神の眷属"
     },
     "lightning_tide": {
         "descriptionKey": "「神の眷属」状態中に「雷晶」を起爆させると発生する追加ダメージ効果です。",

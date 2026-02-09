@@ -76,8 +76,8 @@
                     "caption": "ホムラが受けているスキルバフは、そのアイコンの近くに表示されます"
                 },
                 "my_buffs": {
-                    "alt": "MCにかかっているバフ表示",
-                    "caption": "MCが受けているスキルバフは、HPバーの上に表示されます"
+                    "alt": "主人公にかかっているバフ表示",
+                    "caption": "主人公が受けているスキルバフは、HPバーの上に表示されます"
                 }
             }
 
@@ -111,8 +111,8 @@
                     "caption": "ホムラが受けているスキルバフは、そのアイコンの近くに表示されます。"
                 },
                 "mc_buffs": {
-                    "alt": "MCにかかっているバフ表示",
-                    "caption": "MCが受けているスキルバフは、HPバーの上に表示されます。"            
+                    "alt": "主人公にかかっているバフ表示",
+                    "caption": "主人公が受けているスキルバフは、HPバーの上に表示されます。"            
                 },
                 "heavenly_rain" :{
                     "alt": "海の慈雨発動時の演出",
@@ -134,7 +134,7 @@
             "paragraph_6": "通常、[Divine Favor]状態中にこのローテーションを3回行えます。ランクによっては4回まで可能です！",
             "paragraph_7": "全体の基本的なローテーションは以下のようになります：",
 
-            "ul_li_1": "[Resonance Skill]発動 ＋ MCの[Basic Attack]と[Active Skill]でゲージを溜める（状態切り替え直前に[Sea God Mark]を消費しないよう注意）＋ ホムラの[Support Skill] ＋ [Resonance Skill] ⇨",
+            "ul_li_1": "[Resonance Skill]発動 ＋ 主人公の[Basic Attack]と[Active Skill]でゲージを溜める（状態切り替え直前に[Sea God Mark]を消費しないよう注意）＋ ホムラの[Support Skill] ＋ [Resonance Skill] ⇨",
             "ul_li_2": "[Divine Favor]状態を発動 ⇨",
             "ul_li_3": "[Sea God Mark]を消費した[Charged Attack] ＋ [Active Skill]で[Lightning Crystal]生成 ＋ その中へ回避（状態終了まで繰り返し）⇨",
             "ul_li_4": "この一連の流れを繰り返す ↺",
