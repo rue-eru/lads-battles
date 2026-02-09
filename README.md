@@ -232,6 +232,14 @@ npm start
 <details>
 <summary><h2>🌍 Localization</h2></summary>
 
+### Localization Transparency
+- **English**: Original content (fluent proficiency)
+- **Russian**: Self-translated (native proficiency)  
+- **Japanese**: Self-translated with AI assistance for natural phrasing
+  - N2-level foundation + AI refinement for game terminology
+  - Non-game UI translations primarily self-created
+  - All translations verified for accuracy
+
 ### Translation Structure
 ```
 messages/
