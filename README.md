@@ -22,7 +22,21 @@ A fan-made guide website for Love and Deepspace (LADS) battle mechanics, providi
 
 [Live Demo](https://lads-battles.vercel.app/)
 
-images/videos will be placed here after the deployment
+## Project Screenshots
+| Pages | EN Locale | 日本語 Locale |
+|:-------:|:----------:|:---------:|
+| **Home Page** | ![Home Page EN](./images/readme_showcase/en/home.png) | ![Home Page JP](./images/readme_showcase/ja/home.png) |
+| **Character List** | ![Character List EN](./images/readme_showcase/en/character_list.png)
+ | ![Character List JP](./images/readme_showcase/ja/character_list.png)
+ |
+| **Companion List** | ![Companion List EN](./images/readme_showcase/en/companion_list.png)
+ | ![Companion List JP](./images/readme_showcase/ja/companion_list.png)
+ |
+| **Guide not available** | ![Guide not available EN](./images/readme_showcase/en/guide_not_available.png) | ![Guide not available JP](./images/readme_showcase/ja/guide_not_available.png) |
+| **Standard Companion Guide** | ![Standard Companion Guide EN](./images/readme_showcase/en/standard_companion_guide.png) | ![Standard Companion Guide JP](./images/readme_showcase/ja/standard_companion_guide.png) |
+| **5★ Companion Guide** | ![5★ Companion Guide EN](./images/readme_showcase/en/5star_guide.png) | ![5★ Companion Guide JP](./images/readme_showcase/ja/5star_guide.png) |
+| **Page 404** | ![Page 404 EN](./images/readme_showcase/en/404.png) | ![Page 404 JP](./images/readme_showcase/ja/404.png) |
+| **Contact Page** | ![Contact Page EN](./images/readme_showcase/en/contact.png) | ![Contact Page JP](./images/readme_showcase/ja/contact.png) |
 
 </details>
 
