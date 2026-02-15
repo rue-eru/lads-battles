@@ -23,16 +23,16 @@ A fan-made guide website for Love and Deepspace (LADS) battle mechanics, providi
 [Live Demo](https://lads-battles.vercel.app/)
 
 ## Project Screenshots
-| Pages | EN Locale | 日本語 Locale |
+| Pages | EN Locale | 日本語 Locale | РУС Locale |
 |:-------:|:----------:|:---------:|
-| **Home Page** | ![Home Page EN](./public/images/readme_showcase/en/home.png) | ![Home Page JP](./public/images/readme_showcase/ja/home.png) |
-| **Character List** | ![Character List EN](./public/images/readme_showcase/en/character_list.png)| ![Character List JP](./public/images/readme_showcase/ja/character_list.png) |
-| **Companion List** | ![Companion List EN](./public/images/readme_showcase/en/companion_list.png) | ![Companion List JP](./public/images/readme_showcase/ja/companion_list.png) |
-| **Guide not available** | ![Guide not available EN](./public/images/readme_showcase/en/guide_not_available.png) | ![Guide not available JP](./public/images/readme_showcase/ja/guide_not_available.png) |
-| **Standard Companion Guide** | ![Standard Companion Guide EN](./public/images/readme_showcase/en/standard_companion_guide.png) | ![Standard Companion Guide JP](./public/images/readme_showcase/ja/standard_companion_guide.png) |
-| **5★ Companion Guide** | ![5★ Companion Guide EN](./public/images/readme_showcase/en/5star_guide.png) | ![5★ Companion Guide JP](./public/images/readme_showcase/ja/5star_guide.png) |
-| **Page 404** | ![Page 404 EN](./public/images/readme_showcase/en/404.png) | ![Page 404 JP](./public/images/readme_showcase/ja/404.png) |
-| **Contact Page** | ![Contact Page EN](./public/images/readme_showcase/en/contact.png) | ![Contact Page JP](./public/images/readme_showcase/ja/contact.png) |
+| **Home Page** | ![Home Page EN](./public/images/readme_showcase/en/home.png) | ![Home Page JP](./public/images/readme_showcase/ja/home.png) | ![Home Page RU](./public/images/readme_showcase/ru/home.png) |
+| **Character List** | ![Character List EN](./public/images/readme_showcase/en/character_list.png)| ![Character List JP](./public/images/readme_showcase/ja/character_list.png) | ![Character List RU](./public/images/readme_showcase/ru/character_list.png) |
+| **Companion List** | ![Companion List EN](./public/images/readme_showcase/en/companion_list.png) | ![Companion List JP](./public/images/readme_showcase/ja/companion_list.png) | ![Companion List RU](./public/images/readme_showcase/ru/companion_list.png) |
+| **Guide not available** | ![Guide not available EN](./public/images/readme_showcase/en/guide_not_available.png) | ![Guide not available JP](./public/images/readme_showcase/ja/guide_not_available.png) | ![Guide not available RU](./public/images/readme_showcase/ru/guide_not_available.png) |
+| **Standard Companion Guide** | ![Standard Companion Guide EN](./public/images/readme_showcase/en/standard_companion_guide.png) | ![Standard Companion Guide JP](./public/images/readme_showcase/ja/standard_companion_guide.png) | ![Standard Companion Guide RU](./public/images/readme_showcase/ru/standard_companion_guide.png) |
+| **5★ Companion Guide** | ![5★ Companion Guide EN](./public/images/readme_showcase/en/5star_guide.png) | ![5★ Companion Guide JP](./public/images/readme_showcase/ja/5star_guide.png) | ![5★ Companion Guide RU](./public/images/readme_showcase/ru/5star_guide.png) |
+| **Page 404** | ![Page 404 EN](./public/images/readme_showcase/en/404.png) | ![Page 404 JP](./public/images/readme_showcase/ja/404.png) | ![Page 404 RU](./public/images/readme_showcase/ru/404.png) |
+| **Contact Page** | ![Contact Page EN](./public/images/readme_showcase/en/contact.png) | ![Contact Page JP](./public/images/readme_showcase/ja/contact.png) | ![Contact Page RU](./public/images/readme_showcase/ru/contact.png) |
 
 </details>
 
