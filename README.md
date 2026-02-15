@@ -25,7 +25,7 @@ A fan-made guide website for Love and Deepspace (LADS) battle mechanics, providi
 ## Project Screenshots
 | Pages | EN Locale | 日本語 Locale |
 |:-------:|:----------:|:---------:|
-| **Home Page** | ![Home Page EN](./images/readme_showcase/en/home.png) | ![Home Page JP](./images/readme_showcase/ja/home.png) |
+| **Home Page** | ![Home Page EN](./public/images/readme_showcase/en/home.png) | ![Home Page JP](./images/readme_showcase/ja/home.png) |
 | **Character List** | ![Character List EN](./images/readme_showcase/en/character_list.png)
  | ![Character List JP](./images/readme_showcase/ja/character_list.png)
  |
