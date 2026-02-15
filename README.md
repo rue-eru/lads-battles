@@ -8,6 +8,7 @@
   <img src="https://img.shields.io/badge/next--intl-4-0070F3?style=for-the-badge&logo=next.js&logoColor=white" alt="Next-Intl" />
   <img src="https://img.shields.io/badge/i18n-EN/JA/RU-4ECDC4?style=for-the-badge" alt="i18n 3 Languages" />
   <img src="https://img.shields.io/badge/Deployment-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+  <img src="https://img.shields.io/badge/✨-Experience%20it%20Live%20Now-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white)](https://lads-battles.vercel.app/" alt="Vercel DEMO" />
 </div>
 
 ## 📋 Project Overview
@@ -20,7 +21,11 @@ A fan-made guide website for Love and Deepspace (LADS) battle mechanics, providi
 <details>
 <summary><h2>📸 Demo</h2></summary>
 
-[Live Demo](https://lads-battles.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/Try%20the%20Live%20Demo%20in%20your%20language-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white)](https://lads-battles.vercel.app/)
+
+[![EN](https://img.shields.io/badge/🇺🇸-English-007ACC?style=flat-square)](https://lads-battles.vercel.app/en)
+[![JA](https://img.shields.io/badge/🇯🇵-日本語-009B6B?style=flat-square)](https://lads-battles.vercel.app/ja)
+[![RU](https://img.shields.io/badge/🇷🇺-Pусский-4ECDC4?style=flat-square)](https://lads-battles.vercel.app/ru)
 
 ## Project Screenshots
 | Pages | EN Locale | 日本語 Locale | РУС Locale |
@@ -383,5 +388,5 @@ This project is a fan-made guide for Love and Deepspace. All game assets and int
 <div align="right">
 <i>
 First Uploaded: Feb 7, 2026 </br>
-Last Updated: Feb 10, 2026
+Last Updated: Feb 16, 2026
 </div>
