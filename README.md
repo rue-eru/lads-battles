@@ -46,6 +46,21 @@ A fan-made guide website for Love and Deepspace (LADS) battle mechanics, providi
 | **Page 500** | ![Page 404 EN](./public/images/readme_showcase/en/500.png) | ![Page 404 JP](./public/images/readme_showcase/ja/500.png) | ![Page 404 RU](./public/images/readme_showcase/ru/500.png) |
 | **Contact Page** | ![Contact Page EN](./public/images/readme_showcase/en/contact.png) | ![Contact Page JP](./public/images/readme_showcase/ja/contact.png) | ![Contact Page RU](./public/images/readme_showcase/ru/contact.png) |
 
+## Project Gifs
+<div align="center>
+
+| PC Preview |
+|---|
+| ![PC Preview Gif](./public/images/readme_showcase/pc.gif) |
+
+
+| Mobile Preview |
+|---|
+| ![Mobile Preview Gif](./public/images/readme_showcase/mobile.gif) |
+
+
+
+</div>
 </details>
 
 <details>
