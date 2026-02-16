@@ -13,13 +13,9 @@ export default function NavDropdown ({
 
     return (
         <div 
-            className="relative flex items-center gap-1 cursor-pointer"
+            className="relative flex items-center gap-1 cursor-pointer no-highlight-button"
             onMouseEnter={() => setOpen(true)}
             onMouseLeave={() => setOpen(false)}
-            style={{
-                WebkitTapHighlightColor: 'transparent',
-                WebkitTouchCallout: 'none',
-            }}
         >
             <div className="flex items-center gap-1 uppercase">
                 <span className="hover:text-pink-400">{label}</span>
