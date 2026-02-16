@@ -22,7 +22,7 @@ export function GlossatyTooltip ({ label, description, href} : Props) {
             shift({ padding: 8})
         ],
         whileElementsMounted   // plural
-: autoUpdate,
+        : autoUpdate,
     })
 
     const trigger = (
@@ -30,11 +30,7 @@ export function GlossatyTooltip ({ label, description, href} : Props) {
             ref={refs.setReference}
             onMouseEnter={() => setOpen(true)}
             onMouseLeave={() => setOpen(false)}
-            className={`hover:bg-pink-400 text-yellow-100 ${href ? "cursor-pointer" : "cursor-help"}`}
-            style={{
-                WebkitTapHighlightColor: 'transparent',
-                WebkitTouchCallout: 'none',
-            }}
+            className={`hover:bg-pink-400 text-yellow-100 no-highlight-button ${href ? "cursor-pointer" : "cursor-help"}`}
         >
             {label}
         </span>

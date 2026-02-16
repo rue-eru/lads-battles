@@ -35,7 +35,7 @@ export default function LanguageSwitch(){
                     <button
                         key={lang.code}
                         onClick={() => switchLang(lang.code)}
-                        className={`hover:text-pink-400 uppercase text-nowrap flex flex-col justify-center items-center mx-auto ${styles.textAccentShadow}`}
+                        className={`hover:text-pink-400 uppercase text-nowrap flex flex-col justify-center items-center mx-auto no-highlight-button ${styles.textAccentShadow}`}
                         style={{
                             WebkitTapHighlightColor: 'transparent',
                             WebkitTouchCallout: 'none',
