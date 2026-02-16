@@ -12,11 +12,13 @@ export default function Contact () {
     const email = process.env.NEXT_PUBLIC_EMAIL || "";
 
     const maskedEmail = (email: string) => {
+        if (!email) return '';
         const [local, domain] = email.split('@');
         return local.charAt(0) + '*'.repeat(local.length - 1) + '@' + domain;
     }
 
     const maskedUID = (uid: string) => {
+        if (!uid) return '';
         const parts = uid.split(' '); // splits into parts by a whitespase
         const maskedNums = '*'.repeat(parts[2].length);
         const maskedName = "*".repeat(parts[2].length);
