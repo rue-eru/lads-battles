@@ -43,6 +43,7 @@ A fan-made guide website for Love and Deepspace (LADS) battle mechanics, providi
 | **Standard Companion Guide** | ![Standard Companion Guide EN](./public/images/readme_showcase/en/standard_companion_guide.png) | ![Standard Companion Guide JP](./public/images/readme_showcase/ja/standard_companion_guide.png) | ![Standard Companion Guide RU](./public/images/readme_showcase/ru/standard_companion_guide.png) |
 | **5★ Companion Guide** | ![5★ Companion Guide EN](./public/images/readme_showcase/en/5star_guide.png) | ![5★ Companion Guide JP](./public/images/readme_showcase/ja/5star_guide.png) | ![5★ Companion Guide RU](./public/images/readme_showcase/ru/5star_guide.png) |
 | **Page 404** | ![Page 404 EN](./public/images/readme_showcase/en/404.png) | ![Page 404 JP](./public/images/readme_showcase/ja/404.png) | ![Page 404 RU](./public/images/readme_showcase/ru/404.png) |
+| **Page 500** | ![Page 404 EN](./public/images/readme_showcase/en/500.png) | ![Page 404 JP](./public/images/readme_showcase/ja/500.png) | ![Page 404 RU](./public/images/readme_showcase/ru/500.png) |
 | **Contact Page** | ![Contact Page EN](./public/images/readme_showcase/en/contact.png) | ![Contact Page JP](./public/images/readme_showcase/ja/contact.png) | ![Contact Page RU](./public/images/readme_showcase/ru/contact.png) |
 
 </details>

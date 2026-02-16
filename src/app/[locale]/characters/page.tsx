@@ -4,7 +4,7 @@ import { styles } from "@/app/utils/styles";
 import CharaListNB from '@/app/components/CharaListNB';
 
 export default function CharactersPage () {
-        const t = useTranslations('layout');
+    const t = useTranslations('layout');
     
     return (
         <div className={styles.pagelayout}>
