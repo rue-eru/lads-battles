@@ -52,7 +52,7 @@ A fan-made guide website for Love and Deepspace (LADS) battle mechanics, providi
 |---|
 | ![PC Preview Gif](./public/images/readme_showcase/pc.gif) |
 
-<div align="center>
+<div align="center">
 
 | Mobile Preview |
 |---|
