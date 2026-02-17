@@ -8,6 +8,7 @@
   <img src="https://img.shields.io/badge/next--intl-4-0070F3?style=for-the-badge&logo=next.js&logoColor=white" alt="Next-Intl" />
   <img src="https://img.shields.io/badge/i18n-EN/JA/RU-4ECDC4?style=for-the-badge" alt="i18n 3 Languages" />
   <img src="https://img.shields.io/badge/Deployment-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+
    <a href="https://lads-battles.vercel.app/" target="_blank">
   <img src="https://img.shields.io/badge/✨-Experience%20it%20Live%20Now-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white)](https://lads-battles.vercel.app/" alt="Vercel DEMO" />
   </a>
@@ -79,7 +80,7 @@ A fan-made guide website for Love and Deepspace (LADS) battle mechanics, providi
 - **3** languages fully localized (EN/JA/RU)  
 - **100+** images optimized
 - **90%** font size reduction (JP fonts, local WOFF2)
-- **90+** Average Lighthouse performance score
+- **90+** Lighthouse (Production Build – Vercel in Incognito Mode)
 
 > - Lighthouse audits conducted in production environment (Vercel)
 > - Desktop performance: 90–100
@@ -102,7 +103,8 @@ This project was built as my first full Next.js App Router application to deeply
 
 I chose a real game system to avoid artificial demo logic and to simulate real-world complexity.
 
-It was an important project for me personally since I chose the game I did enjoy playing myself and it was an interesting journey to learn and actually build an image I had in my head and turn it into an actual "thing".
+It was an important project for me personally since I chose the game I did enjoy playing myself and it was an interesting journey to learn and This project allowed me to translate a personal interest into a structured, production-grade web application.
+
 </details>
 
 <details>
@@ -189,7 +191,7 @@ lads-next/
 ### 5. Privacy-First Contact
 - Sensitive data partially hidden with `*` (e.g., `s******@gmail.com`) and Spoiler component 
 - Environment variables used for sensitive data (both locally and on vercel)
-- Demonstrates security awareness
+- Avoids hardcoded contact information
 
 </details>
 

@@ -13,7 +13,7 @@
 ## 📋 プロジェクト概要
 「恋と深空（Love and Deepspace）」の戦闘メカニズムに特化したファンメイドガイドサイトです。パートナーの詳細なガイド、武器情報、スキル解説、ゲームプレイ戦略を多言語で提供します。
 
-> **詳細な技術解説は英語版READMEをご覧ください** ➞ [README.md](README.md) | [GitHub プロフィール](https://github.com/rue-eru)</br>
+> **技術的な設計背景や詳細な実装意図については英語版READMEにて詳しく記載しております。** ➞ [README.md](README.md) | [GitHub プロフィール](https://github.com/rue-eru)</br>
 > 🇯🇵 このプロジェクトは日本語完全対応です。採用ご検討の際はぜひデモをご覧ください。</br>
 > 🖥️ [デモはこちら](https://lads-battles.vercel.app/ja)
 
