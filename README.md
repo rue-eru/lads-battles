@@ -43,7 +43,7 @@ A fan-made guide website for Love and Deepspace (LADS) battle mechanics, providi
 | **Standard Companion Guide** | ![Standard Companion Guide EN](./public/images/readme_showcase/en/standard_companion_guide.png) | ![Standard Companion Guide JP](./public/images/readme_showcase/ja/standard_companion_guide.png) | ![Standard Companion Guide RU](./public/images/readme_showcase/ru/standard_companion_guide.png) |
 | **5★ Companion Guide** | ![5★ Companion Guide EN](./public/images/readme_showcase/en/5star_guide.png) | ![5★ Companion Guide JP](./public/images/readme_showcase/ja/5star_guide.png) | ![5★ Companion Guide RU](./public/images/readme_showcase/ru/5star_guide.png) |
 | **Page 404** | ![Page 404 EN](./public/images/readme_showcase/en/404.png) | ![Page 404 JP](./public/images/readme_showcase/ja/404.png) | ![Page 404 RU](./public/images/readme_showcase/ru/404.png) |
-| **Page 500** | ![Page 404 EN](./public/images/readme_showcase/en/500.png) | ![Page 404 JP](./public/images/readme_showcase/ja/500.png) | ![Page 404 RU](./public/images/readme_showcase/ru/500.png) |
+| **Page 500** | ![Page 500 EN](./public/images/readme_showcase/en/500.png) | ![Page 500 JP](./public/images/readme_showcase/ja/500.png) | ![Page 500 RU](./public/images/readme_showcase/ru/500.png) |
 | **Contact Page** | ![Contact Page EN](./public/images/readme_showcase/en/contact.png) | ![Contact Page JP](./public/images/readme_showcase/ja/contact.png) | ![Contact Page RU](./public/images/readme_showcase/ru/contact.png) |
 
 ## Project Gifs
@@ -185,6 +185,11 @@ lads-next/
 - Section jump functionality
 - Mobile-responsive navigation buttons
 - Loading states and skeletons
+
+### 5. Privacy-First Contact
+- Sensitive data partially hidden with `*` (e.g., `s******@gmail.com`) and Spoiler component 
+- Environment variables used for sensitive data (both locally and on vercel)
+- Demonstrates security awareness
 
 </details>
 
@@ -409,5 +414,5 @@ This project is a fan-made guide for Love and Deepspace. All game assets and int
 <div align="right">
 <i>
 First Uploaded: Feb 7, 2026 </br>
-Last Updated: Feb 16, 2026
+Last Updated: Feb 17, 2026
 </div>
