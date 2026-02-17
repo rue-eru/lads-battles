@@ -14,13 +14,40 @@
 「恋と深空（Love and Deepspace）」の戦闘メカニズムに特化したファンメイドガイドサイトです。パートナーの詳細なガイド、武器情報、スキル解説、ゲームプレイ戦略を多言語で提供します。
 
 > **詳細な技術解説は英語版READMEをご覧ください** ➞ [README.md](README.md) | [GitHub プロフィール](https://github.com/rue-eru)</br>
+> 🇯🇵 このプロジェクトは日本語完全対応です。採用ご検討の際はぜひデモをご覧ください。</br>
 > 🖥️ [デモはこちら](https://lads-battles.vercel.app/ja)
 
 
 <details>
 <summary>スクリーンショットと動画</summary>
 
-後日追加予定
+## プロジェクトスクリーンショット
+
+| ページ | EN Locale | 日本語 Locale | РУС Locale |
+|:-------:|:----------:|:---------:|:---------:|
+| **ホームページ** | ![Home Page EN](./public/images/readme_showcase/en/home.png) | ![Home Page JP](./public/images/readme_showcase/ja/home.png) | ![Home Page RU](./public/images/readme_showcase/ru/home.png) |
+| **キャラクター一覧** | ![Character List EN](./public/images/readme_showcase/en/character_list.png)| ![Character List JP](./public/images/readme_showcase/ja/character_list.png) | ![Character List RU](./public/images/readme_showcase/ru/character_list.png) |
+| **パートナー一覧** | ![Companion List EN](./public/images/readme_showcase/en/companion_list.png) | ![Companion List JP](./public/images/readme_showcase/ja/companion_list.png) | ![Companion List RU](./public/images/readme_showcase/ru/companion_list.png) |
+| **ガイドなしページ** | ![Guide not available EN](./public/images/readme_showcase/en/guide_not_available.png) | ![Guide not available JP](./public/images/readme_showcase/ja/guide_not_available.png) | ![Guide not available RU](./public/images/readme_showcase/ru/guide_not_available.png) |
+| **ガイドページ** | ![Standard Companion Guide EN](./public/images/readme_showcase/en/standard_companion_guide.png) | ![Standard Companion Guide JP](./public/images/readme_showcase/ja/standard_companion_guide.png) | ![Standard Companion Guide RU](./public/images/readme_showcase/ru/standard_companion_guide.png) |
+| **5★ガイドページ** | ![5★ Companion Guide EN](./public/images/readme_showcase/en/5star_guide.png) | ![5★ Companion Guide JP](./public/images/readme_showcase/ja/5star_guide.png) | ![5★ Companion Guide RU](./public/images/readme_showcase/ru/5star_guide.png) |
+| **404ページ** | ![Page 404 EN](./public/images/readme_showcase/en/404.png) | ![Page 404 JP](./public/images/readme_showcase/ja/404.png) | ![Page 404 RU](./public/images/readme_showcase/ru/404.png) |
+| **500ページ** | ![Page 500 EN](./public/images/readme_showcase/en/500.png) | ![Page 500 JP](./public/images/readme_showcase/ja/500.png) | ![Page 500 RU](./public/images/readme_showcase/ru/500.png) |
+| **お問い合わせページ** | ![Contact Page EN](./public/images/readme_showcase/en/contact.png) | ![Contact Page JP](./public/images/readme_showcase/ja/contact.png) | ![Contact Page RU](./public/images/readme_showcase/ru/contact.png) |
+
+## プロジェクトGIFアニメ
+
+| PC表示 |
+|---|
+| ![PC Preview Gif](./public/images/readme_showcase/pc.gif) |
+
+<div align="center">
+
+| モバイル表示 |
+|---|
+| ![Mobile Preview Gif](./public/images/readme_showcase/mobile.gif) |
+
+</div>
 
 </details>
 
@@ -93,6 +120,6 @@
 <div align="right">
 <i>
 最初公開: 2026年2月7日<br>
-最終更新: 2026年2月10日
+最終更新: 2026年2月17日
 </i>
 </div>
