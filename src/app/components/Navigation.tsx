@@ -13,14 +13,14 @@ import HomeBtn from "./HomeBtn"
 export default function Navigation() {
     const tLayout = useTranslations('layout');
     const tCharas = useTranslations('characters');
-    const { isJa, lang } = useCurrentLanguage();
+    const { isJa } = useCurrentLanguage();
 
     return (
         <nav className={`p-2 flex items-center justify-between bg-lightgray font-accent font-light ${styles.textAccentShadow}`}>
 
 
 
-            <Link href={`/${lang}`}  className="hidden sm:block">
+            <Link href="/" className="hidden sm:block">
                     <Image
                         src={isJa ? "/images/icons/ja-logo.png" : "/images/icons/main-logo.png"}
                         alt="Website Logo > Home Link"
