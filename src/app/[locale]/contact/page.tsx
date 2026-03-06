@@ -69,7 +69,7 @@ export default function Contact () {
                                 priority
                             /> 
 
-                            <div className="flex gap-2 w-fit mx-auto -mt-7">
+                            <div className="flex gap-2 w-fit mx-auto -mt-6">
                                 <a href="mailto:shigoto.el@gmail.com" aria-label="Email" target="_blank" rel="noopener noreferrer">
                                     <Image
                                         alt="email icon"
@@ -78,6 +78,17 @@ export default function Contact () {
                                         height={30}
                                         className={styles.contactIcons}
                                         title="Email"
+                                        priority
+                                    />
+                                </a>
+                                <a href="https://x.com/ladsbattles" aria-label="X.com" target="_blank" rel="noopener noreferrer">
+                                    <Image
+                                        alt="x/twitter icon"
+                                        src={`/images/icons/x.png`}
+                                        width={30}
+                                        height={30}
+                                        className={styles.contactIcons}
+                                        title="X/Twiiter"
                                         priority
                                     />
                                 </a>
