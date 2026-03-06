@@ -21,6 +21,31 @@ A fan-made guide website for Love and Deepspace (LADS) battle mechanics, providi
 > 日本語の説明が必要な場合は、[日本語版README](README.ja.md)をご覧ください。  
 > 翻訳の経験を活かした国際化対応が得意です。
 
+
+## 📈 Community Launch (24h stats)
+
+<details>
+<summary>Click to see first-day traction — 12K+ impressions, 500+ bookmarks</summary>
+
+<br>
+
+| Post on X | Analytics| 
+|:-------:|:----------:|
+| ![Tweet EN](./public/images/readme_showcase/launch/tweet_en.png)  | ![Tweet Analytics](./public/images/readme_showcase/launch/analytics_en.png)  | 
+
+### In the first 24 hours we reached:
+- **12K+ impressions**
+- **700+ likes**
+- **560+ bookmarks**
+- **120+ reblogs**
+- **290+ link clicks**
+
+[View launch thread on X](https://x.com/ladsbattles/status/2029647770731049385)<br>
+[Visit Project's account on X](https://x.com/ladsbattles)
+
+</details>
+
+
 <details>
 <summary><h2>📸 Demo</h2></summary>
 
@@ -416,5 +441,5 @@ This project is a fan-made guide for Love and Deepspace. All game assets and int
 <div align="right">
 <i>
 First Uploaded: Feb 7, 2026 </br>
-Last Updated: Feb 17, 2026
+Last Updated: Mar 7, 2026
 </div>
