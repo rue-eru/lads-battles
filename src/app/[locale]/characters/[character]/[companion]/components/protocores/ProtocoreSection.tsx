@@ -39,38 +39,45 @@ export default function ProtocoreSection ({character, companion}: CharaDataProps
             </h1>
             <hr className={styles.divider}></hr>
 
-            {/*protocore names and visual representation*/}
-            <ProtocoreTypesTable 
-                stellactrum={color}
-            />
-                {/*companionId={companionData?.id} */ }
+            <details >
+                <summary className={`capitalize font-accent w-fit hover:bg-pink-400`}>Protocore general info</summary>
+
+                <div className="border-b pb-8">
+                    {/*protocore names and visual representation*/}
+                    <ProtocoreTypesTable 
+                        stellactrum={color}
+                    />
+                        {/*companionId={companionData?.id} */ }
 
 
-            {/* basic info that is true for all companions that's why it is static*/}
-            <ul className="w-full list-['∘'] list-outside">
-                    <li className="pl-2">
-                        <TextRenderer>{t('solarCardsInfo')}</TextRenderer>
-                    </li>
-                    <li className="pl-2">
-                        <TextRenderer>{t('lunarCardsInfo')}</TextRenderer>
-                    </li>
-                    <li className="pl-2"> 
-                        <TextRenderer>{t('critBuildsInfo')}</TextRenderer>
-                    </li>
-                    <li className="pl-2"> 
-                        <TextRenderer>{t('OathInfo')}</TextRenderer>
-                        {isJa ? "※": "*"}
-                    </li>
-                    <li className="pl-2"> 
-                        <TextRenderer>{t('energyInfo')}</TextRenderer>
-                        {isJa ? "※": "*"}
-                    </li>
-            </ul>
-            <p className="-mt-8 text-right w-full italic">{isJa ? "※ ": "* "}{t('energyNB')}</p>
+                    {/* basic info that is true for all companions that's why it is static*/}
+                    <ul className="w-full list-['∘'] list-outside">
+                            <li className="pl-2">
+                                <TextRenderer>{t('solarCardsInfo')}</TextRenderer>
+                            </li>
+                            <li className="pl-2">
+                                <TextRenderer>{t('lunarCardsInfo')}</TextRenderer>
+                            </li>
+                            <li className="pl-2"> 
+                                <TextRenderer>{t('critBuildsInfo')}</TextRenderer>
+                            </li>
+                            <li className="pl-2"> 
+                                <TextRenderer>{t('OathInfo')}</TextRenderer>
+                                {isJa ? "※": "*"}
+                            </li>
+                            <li className="pl-2"> 
+                                <TextRenderer>{t('energyInfo')}</TextRenderer>
+                                {isJa ? "※": "*"}
+                            </li>
+                    </ul>
+                    <p className="-mt-8 text-right w-full italic">{isJa ? "※ ": "* "}{t('energyNB')}</p>
 
-            <span>                        
-                <TextRenderer>{t('stellactrumMatchInfo')}</TextRenderer>
-            </span>
+                    <span>                        
+                        <TextRenderer>{t('stellactrumMatchInfo')}</TextRenderer>
+                    </span>
+                </div>
+
+            </details>
 
 
             {/*what stats to choose on your protocores based on companion type*/}
