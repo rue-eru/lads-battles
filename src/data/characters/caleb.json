@@ -3,6 +3,17 @@
         { "id": "deepspace_pilot", "nameKey": "caleb.deepspace_pilot"},
         { "id": "farspace_colonel", "nameKey": "caleb.farspace_colonel"},
         { "id": "ultimate_weapon_x_02", "nameKey": "caleb.ultimate_weapon_x_02"},
-        { "id": "netherlord", "nameKey": "caleb.netherlord"}
+        { 
+            "id": "netherlord", 
+            "nameKey": "caleb.netherlord",
+            "type": "solar",
+            "stellactrum": "emerald",
+            "solarPair": "as",
+            "rarity": "★★★★★",
+            "role": "dps_heal_single",
+            "scaling": "atk_hp",
+            "best": "heal_single",
+            "specialty": "heal",
+            "unlock": "limited_banner"        }
     ]  
 }

@@ -5,5 +5,5 @@ import ultimate_weapon_x_02 from './ultimate_weapon_x_02.json'
 export const calebGameplay = {
     deepspace_pilot,
     farspace_colonel,
-    ultimate_weapon_x_02
+    ultimate_weapon_x_02,
 } as const
