@@ -289,5 +289,117 @@ export const GLOSSARY: Record<string, GlossaryTermProps> = {
         key: "Stellactrum Match",
         label: 'stellactrum_match.labelKey',
         description: 'stellactrum_match.descriptionKey',  
-    }
+    },
+    "Bingdi Lotus": {
+        key: "Bingdi Lotus",
+        label: 'bingdi_lotus.labelKey',
+        description: 'bingdi_lotus.descriptionKey',  
+    },
+    "Bingdi Lotus: Yin": {
+        key: "Bingdi Lotus: Yin",
+        label: 'bingdi_lotus_yin.labelKey',
+        description: 'bingdi_lotus_yin.descriptionKey',
+    },
+    "Bingdi Lotus: Yang": {
+        key: "Bingdi Lotus: Yang",
+        label: 'bingdi_lotus_yang.labelKey',
+        description: 'bingdi_lotus_yang.descriptionKey',
+    },
+    "Lotus Seed": {
+        key: "Lotus Seed",
+        label: 'lotus_seed.labelKey',
+        description: 'lotus_seed.descriptionKey',
+    },
+    "Yin-Yang Cycle": {
+        key: "Yin-Yang Cycle",
+        label: 'yin_yang_cycle.labelKey',
+        description: 'yin_yang_cycle.descriptionKey',
+    },
+    "Yin-Yang Union": {
+        key: "Yin-Yang Union",
+        label: 'yin_yang_union.labelKey',
+        description: 'yin_yang_union.descriptionKey',
+    },
+    "Yin-Yang Rift": {
+        key: "Yin-Yang Rift",
+        label: 'yin_yang_rift.labelKey',
+        description: 'yin_yang_rift.descriptionKey',
+    },
+    "Sword Stance": {
+        key: "Sword Stance",
+        label: 'sword_stance.labelKey',
+        description: 'sword_stance.descriptionKey',
+    },
+    "Azure Ballad": {
+        key: "Azure Ballad",
+        label: 'azure_ballad.labelKey',
+        description: 'azure_ballad.descriptionKey',
+        link: "#activeSkill"
+    },
+    "Spectral Slash": {
+        key: "Spectral Slash",
+        label: 'spectral_slash.labelKey',
+        description: 'spectral_slash.descriptionKey',
+        link: "#supportSkill"
+    },
+    "Netherseal Slash": {
+        key: "Netherseal Slash",
+        label: 'netherseal_slash.labelKey',
+        description: 'netherseal_slash.descriptionKey',
+        link: "#supportSkill"
+    },
+    "Bloom": {
+        key: "Bloom",
+        label: 'bloom.labelKey',
+        description: 'bloom.descriptionKey',
+    },
+    "Dustbreak": {
+        key: "Dustbreak",
+        label: 'dustbreak.labelKey',
+        description: 'dustbreak.descriptionKey',
+    },
+    "Paired Knot": {
+        key: "Paired Knot",
+        label: 'paired_knot.labelKey',
+        description: 'paired_knot.descriptionKey',
+    },
+    "Paired Knot: Yin": {
+        key: "Paired Knot: Yin",
+        label: 'paired_knot_yin.labelKey',
+        description: 'paired_knot_yin.descriptionKey',
+    },
+    "Paired Knot: Yang": {
+        key: "Paired Knot: Yang",
+        label: 'paired_knot_yang.labelKey',
+        description: 'paired_knot_yang.descriptionKey',
+    },
+    "Ghost": {
+        key: "Ghost",
+        label: 'ghost.labelKey',
+        description: 'ghost.descriptionKey',
+    },
+    "Severance Dance": {
+        key: "Severance Dance",
+        label: 'severance_dance.labelKey',
+        description: 'severance_dance.descriptionKey',
+        link: "#activeSkill"
+    },
+    "Soulguide Bell": {
+        key: "Soulguide Bell",
+        label: 'soulguide_bell.labelKey',
+        description: 'soulguide_bell.descriptionKey',
+        link: "#resonanceSkill"
+    },
+    "Fate Unforgotten": {
+        key: "Fate Unforgotten",
+        label: 'fate_unforgotten.labelKey',
+        description: 'fate_unforgotten.descriptionKey',
+        link: "#ardentOath"
+    },
+    "Azure Cleave": {
+        key: "Azure Cleave",
+        label: 'azure_cleave.labelKey',
+        description: 'azure_cleave.descriptionKey',
+        link: "#basicAttack"
+    },
 }

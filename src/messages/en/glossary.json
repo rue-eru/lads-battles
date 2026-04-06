@@ -188,5 +188,89 @@
     "gathering_stacks": {
         "descriptionKey": "Hunter Claymore's special ability. On 3 stacks greatly empowers your Active Skill allowing you to skip the charge stage.",
         "labelKey": "Gathering Stacks"
+    },
+    "bingdi_lotus": {
+        "descriptionKey": "A two-part mark applied to enemies. Consists of Yin and Yang halves. When both halves are on the same enemy, they merge and trigger a Bloom.",
+        "labelKey": "Bingdi Lotus"
+    },
+    "bingdi_lotus_yin": {
+        "descriptionKey": "The dark half of Bingdi Lotus. Applied by Paired Knot: Yin and other specific attacks.",
+        "labelKey": "Bingdi Lotus: Yin"
+    },
+    "bingdi_lotus_yang": {
+        "descriptionKey": "The light half of Bingdi Lotus. Applied by Paired Knot: Yang and other specific attacks.",
+        "labelKey": "Bingdi Lotus: Yang"
+    },
+    "lotus_seed": {
+        "descriptionKey": "A resource you carry (max 1). Gained when your Active Skill hits an enemy. Consumed by Charged Attack to apply the missing Bingdi Lotus half. While holding it, you are unstoppable.",
+        "labelKey": "Lotus Seed"
+    },
+    "yin_yang_cycle": {
+        "descriptionKey": "A passive ability that tracks your transformation cooldown (33s baseline). When cast, you and Caleb enter Yin-Yang Union state. Bloom effects reduce its cooldown by 3s each time.",
+        "labelKey": "Yin-Yang Cycle"
+    },
+    "yin_yang_union": {
+        "descriptionKey": "Your empowered burst state. Replaces your Active Skill with Azure Ballad and your Support Skill with Spectral Slash. You become unstoppable for its duration.",
+        "labelKey": "Yin-Yang Union"
+    },
+    "yin_yang_rift": {
+        "descriptionKey": "A tear in reality summoned by certain skills during Yin-Yang Union. Pulls in enemies, deals AoE damage, and makes your next Azure Ballad cost 0 Energy.",
+        "labelKey": "Yin-Yang Rift"
+    },
+    "sword_stance": {
+        "descriptionKey": "A brief pose entered after certain attacks (Severance Dance or the third basic attack). While in this state, tap Basic Attack for Paired Knot: Yang or hold for Paired Knot: Yin.",
+        "labelKey": "Sword Stance"
+    },
+    "azure_ballad": {
+        "descriptionKey": "Your Active Skill during Yin-Yang Union. Costs 1 Energy Charge. On hit, activates a Yin-Yang Rift. The next Azure Ballad after a rift activation costs 0 Energy.",
+        "labelKey": "Azure Ballad"
+    },
+    "spectral_slash": {
+        "descriptionKey": "Your Support Skill during Yin-Yang Union. Cooldown 3.1s. Tears open a Yin-Yang Rift on hit. Use on cooldown for maximum rift uptime.",
+        "labelKey": "Spectral Slash"
+    },
+    "netherseal_slash": {
+        "descriptionKey": "Your Support Skill outside Yin-Yang Union. Cooldown 9s. Caleb charges forward and applies the missing Bingdi Lotus half to enemies hit.",
+        "labelKey": "Netherseal Slash"
+    },
+    "bloom": {
+        "descriptionKey": "Triggered when an enemy receives both halves of Bingdi Lotus. Deals massive damage, restores 0.5 Energy Charge, and reduces Yin-Yang Cycle cooldown by 3s.",
+        "labelKey": "Bloom"
+    },
+    "dustbreak": {
+        "descriptionKey": "A timed button press during Fate Unforgotten (Ardent Oath). 3 prompts appear. Each perfect press heals 5% Max HP. All 3 perfect = 20% DMG Reduction for 15s.",
+        "labelKey": "Dustbreak"
+    },
+    "paired_knot": {
+        "descriptionKey": "A passive ability active during Sword Stance. Tap Basic Attack for Paired Knot: Yang (applies Bingdi Lotus: Yang). Hold Basic Attack for Paired Knot: Yin (applies Bingdi Lotus: Yin).",
+        "labelKey": "Paired Knot"
+    },
+    "paired_knot_yin": {
+        "descriptionKey": "A special basic attack from Sword Stance. Applies Bingdi Lotus: Yin. Counts as the final hit of your basic attack combo.",
+        "labelKey": "Paired Knot: Yin"
+    },
+    "paired_knot_yang": {
+        "descriptionKey": "A special basic attack from Sword Stance. Applies Bingdi Lotus: Yang. Counts as the final hit of your basic attack combo.",
+        "labelKey": "Paired Knot: Yang"
+    },
+    "ghost": {
+        "descriptionKey": "A debuff applied at Netherlord Rank 1+. If a Ghost-marked enemy is marked again, they take bonus damage. Removed when Yin-Yang Union ends.",
+        "labelKey": "Ghost"
+    },
+    "severance_dance": {
+        "descriptionKey": "Netherlord's Active Skill. Cooldown 6s, costs 1 Energy. A two-hit combo that puts you into Sword Stance. Hitting an enemy grants 1 Lotus Seed.",
+        "labelKey": "Severance Dance"
+    },
+    "soulguide_bell": {
+        "descriptionKey": "Netherlord's Resonance Skill. Cooldown 15s, costs 2 Energy. Pulls in enemies and reduces Yin-Yang Cycle cooldown by 3s.",
+        "labelKey": "Soulguide Bell"
+    },
+    "fate_unforgotten": {
+        "descriptionKey": "Netherlord's Ardent Oath (ultimate ability). Features 3 Dustbreak timed presses. At higher ranks, can critically strike.",
+        "labelKey": "Fate Unforgotten"
+    },
+    "azure_cleave": {
+        "descriptionKey": "Netherlord's basic attack. A 3-hit combo. The final hit applies a random Bingdi Lotus half. After the third hit, you enter Sword Stance.",
+        "labelKey": "Azure Cleave"
     }
 }

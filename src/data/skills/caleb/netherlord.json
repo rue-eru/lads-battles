@@ -1,0 +1,40 @@
+{
+    "his_skills": {
+        "support_skill": {
+            "name_key": "skills.our_skills.caleb.netherlord.support_skill.name",
+            "cooldown": "9",
+            "description_key": "skills.our_skills.caleb.netherlord.support_skill.description"
+        },
+        "resonance_skill": {
+            "name_key": "skills.our_skills.caleb.netherlord.resonance_skill.name",
+            "cooldown": "15",
+            "cost": "2",
+            "description_key": "skills.our_skills.caleb.netherlord.resonance_skill.description"
+        },
+        "ardent_oath": {
+            "name_key": "skills.our_skills.caleb.netherlord.ardent_oath.name",
+            "description_key": "skills.our_skills.caleb.netherlord.ardent_oath.description"
+        },
+        "passive_skill": {
+            "name_key": "skills.our_skills.caleb.netherlord.passive_skill.name",
+            "description_key": "skills.our_skills.caleb.netherlord.passive_skill.description"
+        }
+    },
+    "my_skills": {
+        "weapon_key": "weapons.exclusive_weapons.azuregaze.name",
+        "basic_attack": {
+            "name_key": "skills.our_skills.caleb.netherlord.basic_attack.name",
+            "description_key": "skills.our_skills.caleb.netherlord.basic_attack.description"
+        },
+        "passive_skill": {
+            "name_key": "skills.our_skills.caleb.netherlord.my_passive_skill.name",
+            "description_key": "skills.our_skills.caleb.netherlord.my_passive_skill.description"
+        },
+        "active_skill": {
+            "name_key": "skills.our_skills.caleb.netherlord.active_skill.name",
+            "cooldown": "6",
+            "cost": "1",
+            "description_key": "skills.our_skills.caleb.netherlord.active_skill.description"
+        }
+    }
+}

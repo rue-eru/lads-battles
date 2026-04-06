@@ -1,0 +1,99 @@
+{
+    "type": "solar",
+    "blocks": [
+        {
+            "type": "paragraph",
+            "content": "gameplay.rafayel.lemurian_sea_god.paragraph_1"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.rafayel.lemurian_sea_god.paragraph_2"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.rafayel.lemurian_sea_god.paragraph_3"
+        },
+        {
+            "type": "imageGroupPerImageCaption",
+            "directionLayout": "grid-col",
+            "images": [
+                {
+                    "src": "/images/companions/rafayel/gameplay/lemurian_sea_god/oceans_descent_bar_inactive.png",
+                    "alt": "gameplay.rafayel.lemurian_sea_god.images.oceans_descent_bar_inactive.alt",
+                    "caption": "gameplay.rafayel.lemurian_sea_god.images.oceans_descent_bar_inactive.caption"
+                },
+                {
+                    "src": "/images/companions/rafayel/gameplay/lemurian_sea_god/oceans_descent_bar_at_full.png",
+                    "alt": "gameplay.rafayel.lemurian_sea_god.images.oceans_descent_bar_at_full.alt",
+                    "caption": "gameplay.rafayel.lemurian_sea_god.images.oceans_descent_bar_at_full.caption"
+                },
+                {
+                    "src": "/images/companions/rafayel/gameplay/lemurian_sea_god/oceans_descent_bar_active.png",
+                    "alt": "gameplay.rafayel.lemurian_sea_god.images.oceans_descent_bar_active.alt",
+                    "caption": "gameplay.rafayel.lemurian_sea_god.images.oceans_descent_bar_active.caption"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.rafayel.lemurian_sea_god.paragraph_4"
+        },
+        {
+            "type": "imageGroupSharedCaption",
+            "caption": "gameplay.rafayel.lemurian_sea_god.images.state_activation.caption",
+            "images": [
+                {
+                    "src": "/images/companions/rafayel/gameplay/lemurian_sea_god/state_activation_1.jpeg",
+                    "alt": "gameplay.rafayel.lemurian_sea_god.images.state_activation.alt"
+                },
+                {
+                    "src": "/images/companions/rafayel/gameplay/lemurian_sea_god/state_activation_2.jpg",
+                    "alt": "gameplay.rafayel.lemurian_sea_god.images.state_activation.alt"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.rafayel.lemurian_sea_god.paragraph_5"
+        },
+        {
+            "type": "imageGroupPerImageCaption",
+            "images": [
+                {
+                    "src": "/images/companions/rafayel/gameplay/lemurian_sea_god/lightning_crystal.png",
+                    "alt": "gameplay.rafayel.lemurian_sea_god.images.lightning_crystal.alt",
+                    "caption": "gameplay.rafayel.lemurian_sea_god.images.lightning_crystal.caption"
+                },
+                {
+                    "layout": "left",
+                    "src": "/images/companions/rafayel/gameplay/lemurian_sea_god/buffs.png",
+                    "alt": "gameplay.rafayel.lemurian_sea_god.images.buffs.alt",
+                    "caption": "gameplay.rafayel.lemurian_sea_god.images.buffs.caption"
+                }
+
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.rafayel.lemurian_sea_god.paragraph_6"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.rafayel.lemurian_sea_god.paragraph_7"
+        },
+        {
+            "type": "rotationList",
+            "content": [
+                "gameplay.rafayel.lemurian_sea_god.ul_li_1",
+                "gameplay.rafayel.lemurian_sea_god.ul_li_2",
+                "gameplay.rafayel.lemurian_sea_god.ul_li_3",
+                "gameplay.rafayel.lemurian_sea_god.ul_li_4"
+            ]
+        },
+            {
+            "type": "paragraph",
+            "content": "gameplay.rafayel.lemurian_sea_god.paragraph_8"
+        }
+    ]
+    
+}

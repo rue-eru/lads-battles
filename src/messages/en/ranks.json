@@ -27,6 +27,15 @@
                 "r2": "Energy Charge limit is raised by 1. DMG boost from [Sea God Mark] is increased by 50%. While [Divine Favor] is active, you gain 40% DMG Reduction.",
                 "r3": "The team deals 8% more DMG. While [Divine Favor] is active, when your basic attack hits, [Active Skill] cooldown is reduced by 0.5s. While [Divine Favor] is active, when Charged Attacks empowered by [Sea God Mark] hit, [Lightning Tide] is triggered for 70% DMG. These effects can trigger once per attack."
             }
+        },
+        "caleb": {
+
+            "netherlord": {
+                "r0": "Starting Effect: The team deals 8% more DMG and takes 8% less DMG.  When you apply [Bingdi Lotus] to an enemy that already has the same half, you gain [Lotus Seed]. When [Yin-Yang Rift] is active, you restore 0.3 Energy Charge, and both you and Caleb restore 5% of Max HP.",
+                "r1": "Increases Ardent Oath charge by 20%. Outside [Yin-Yang Union]: When you consume [Lotus Seed], Caleb performs an additional [Netherseal Slash]. This attack does not affect [Netherseal Slash]'s original cooldown. During [Yin-Yang Union]: When the spectral hand summoned by [Yin-Yang Rift] attacks, it unleashes an additional shockwave, dealing AoE DMG equal to 327+175% ATK+15.7% of Max HP. If the shockwave hits during [Yin-Yang Union], enemies struck are marked as [Ghost]. [Ghost]: If the target is marked again while already marked, the target takes DMG equal to 251+134% ATK+12.1% of Max HP. When [Yin-Yang Rift] is activated, enemies marked as [Ghost] are marked again. When [Yin-Yang Union] ends, the mark is removed.",
+                "r2": "Energy Charge limit is raised by 1. When fighting alongside Netherlord, you start with 42% Oath Energy, and the duration of the enemy's weakened state is extended by 1 second. DMG dealt when [Ghost] is marked again is increased by 10%. ",
+                "r3": "The team deals 8% more DMG. During [Yin-Yang Union], when your Active Skill hits, you gain [ Lotus Seed ]. This effect can trigger only once per Active Skill. When your Charged Attack hits an enemy, it consumes [Lotus Seed] to unleash an additional shockwave at the target's location, dealing AoE DMG equal to 327+175% ATK+15.7% of Max HP. If the shockwave hits during [Yin-Yang Union], enemies struck are marked as [Ghost]. This effect can trigger only once per Charged Attack. When [Yin-Yang Rift] appears, you restore an additional 11% Oath Energy. This effect is not affected by Oath Recovery Boost. DMG dealt by Ardent Oath [Fate Unforgotten] can trigger critical hits."
+            }
         }
     }
 }

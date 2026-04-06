@@ -1,3 +1,24 @@
 {
-    
+    "netherlord": {
+       "r0": {
+           "beta": ["oath_recovery_boost", "expedited_energy_boost"],
+           "delta": ["crit_rate", "crit_dmg", "dmg_boost_to_weakened"],
+           "description_key": "ranks.rankDescriptions.caleb.netherlord.r0"
+       },
+       "r1": {
+           "beta": ["expedited_energy_boost", "oath_strength"],
+           "delta": ["crit_rate", "crit_dmg", "dmg_boost_to_weakened"],
+           "description_key": "ranks.rankDescriptions.caleb.netherlord.r1"
+      },
+       "r2": {
+           "beta": ["expedited_energy_boost", "oath_strength", "atk_bonus"],
+           "delta": ["crit_rate", "crit_dmg", "dmg_boost_to_weakened"],
+           "description_key": "ranks.rankDescriptions.caleb.netherlord.r2"
+      },
+       "r3": {
+           "beta": ["expedited_energy_boost", "oath_strength", "atk_bonus"],
+           "delta": ["crit_rate", "crit_dmg", "dmg_boost_to_weakened"],
+           "description_key": "ranks.rankDescriptions.caleb.netherlord.r3"
+      }    
+    }
 }
