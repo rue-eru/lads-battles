@@ -23,7 +23,6 @@ export type GameplayBlock =
         type: 'rotationList';
         content: string[];
         id: string;
-
     }
     |{
         type: 'image';
@@ -57,6 +56,12 @@ export type GameplayBlock =
         type: 'standard_summary';
         content: string;
         id: string;
+    }
+    | {
+        type: 'table';
+        headers?: string[],
+        rows: string[];
+        id:string;
     };
 
 export interface StandardGameplayGuideBlock extends BaseGameplayGuide {

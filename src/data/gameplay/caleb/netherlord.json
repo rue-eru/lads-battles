@@ -3,96 +3,156 @@
     "blocks": [
         {
             "type": "paragraph",
-            "content": "gameplay.rafayel.lemurian_sea_god.paragraph_1"
+            "content": "gameplay.caleb.netherlord.paragraph_1"
         },
         {
             "type": "paragraph",
-            "content": "gameplay.rafayel.lemurian_sea_god.paragraph_2"
+            "content": "gameplay.caleb.netherlord.paragraph_2"
         },
         {
-            "type": "paragraph",
-            "content": "gameplay.rafayel.lemurian_sea_god.paragraph_3"
-        },
-        {
-            "type": "imageGroupPerImageCaption",
-            "directionLayout": "grid-col",
-            "images": [
-                {
-                    "src": "/images/companions/rafayel/gameplay/lemurian_sea_god/oceans_descent_bar_inactive.png",
-                    "alt": "gameplay.rafayel.lemurian_sea_god.images.oceans_descent_bar_inactive.alt",
-                    "caption": "gameplay.rafayel.lemurian_sea_god.images.oceans_descent_bar_inactive.caption"
-                },
-                {
-                    "src": "/images/companions/rafayel/gameplay/lemurian_sea_god/oceans_descent_bar_at_full.png",
-                    "alt": "gameplay.rafayel.lemurian_sea_god.images.oceans_descent_bar_at_full.alt",
-                    "caption": "gameplay.rafayel.lemurian_sea_god.images.oceans_descent_bar_at_full.caption"
-                },
-                {
-                    "src": "/images/companions/rafayel/gameplay/lemurian_sea_god/oceans_descent_bar_active.png",
-                    "alt": "gameplay.rafayel.lemurian_sea_god.images.oceans_descent_bar_active.alt",
-                    "caption": "gameplay.rafayel.lemurian_sea_god.images.oceans_descent_bar_active.caption"
-                }
+            "type": "unorderedList",
+            "content": [
+                "gameplay.caleb.netherlord.ul_li_1",
+                "gameplay.caleb.netherlord.ul_li_2",
+                "gameplay.caleb.netherlord.ul_li_3"
             ]
         },
         {
             "type": "paragraph",
-            "content": "gameplay.rafayel.lemurian_sea_god.paragraph_4"
+            "content": "gameplay.caleb.netherlord.paragraph_3"
         },
         {
-            "type": "imageGroupSharedCaption",
-            "caption": "gameplay.rafayel.lemurian_sea_god.images.state_activation.caption",
-            "images": [
-                {
-                    "src": "/images/companions/rafayel/gameplay/lemurian_sea_god/state_activation_1.jpeg",
-                    "alt": "gameplay.rafayel.lemurian_sea_god.images.state_activation.alt"
-                },
-                {
-                    "src": "/images/companions/rafayel/gameplay/lemurian_sea_god/state_activation_2.jpg",
-                    "alt": "gameplay.rafayel.lemurian_sea_god.images.state_activation.alt"
-                }
+            "type": "table",
+            "headers": [
+                "gameplay.caleb.netherlord.table_1.table_header_action",
+                "gameplay.caleb.netherlord.table_1.table_header_applies"
+            ],
+            "rows": [
+                [
+                    "gameplay.caleb.netherlord.table_1.table_row_1_action",
+                    "gameplay.caleb.netherlord.table_1.table_row_1_applies"
+                ],
+                [
+                    "gameplay.caleb.netherlord.table_1.table_row_2_action",
+                    "gameplay.caleb.netherlord.table_1.table_row_2_applies"
+                ],
+                [
+                    "gameplay.caleb.netherlord.table_1.table_row_3_action",
+                    "gameplay.caleb.netherlord.table_1.table_row_3_applies"
+                ],
+                [
+                    "gameplay.caleb.netherlord.table_1.table_row_4_action",
+                    "gameplay.caleb.netherlord.table_1.table_row_4_applies"
+                ]
             ]
         },
         {
             "type": "paragraph",
-            "content": "gameplay.rafayel.lemurian_sea_god.paragraph_5"
+            "content": "gameplay.caleb.netherlord.paragraph_4"
         },
         {
-            "type": "imageGroupPerImageCaption",
-            "images": [
-                {
-                    "src": "/images/companions/rafayel/gameplay/lemurian_sea_god/lightning_crystal.png",
-                    "alt": "gameplay.rafayel.lemurian_sea_god.images.lightning_crystal.alt",
-                    "caption": "gameplay.rafayel.lemurian_sea_god.images.lightning_crystal.caption"
-                },
-                {
-                    "layout": "left",
-                    "src": "/images/companions/rafayel/gameplay/lemurian_sea_god/buffs.png",
-                    "alt": "gameplay.rafayel.lemurian_sea_god.images.buffs.alt",
-                    "caption": "gameplay.rafayel.lemurian_sea_god.images.buffs.caption"
-                }
+            "type": "table",
+            "headers": [
+                "gameplay.caleb.netherlord.table_2.th_if",
+                "gameplay.caleb.netherlord.table_2.th_then"
+            ],
+            "rows": [
+                [
+                    "gameplay.caleb.netherlord.table_2.tr_1_red",
+                    "gameplay.caleb.netherlord.table_2.tr_1_hold"
+                ],
+                [
+                    "gameplay.caleb.netherlord.table_2.tr_2_blue",
+                    "gameplay.caleb.netherlord.table_2.tr_2_tap"
+                ],
+                [
+                    "gameplay.caleb.netherlord.table_2.tr_3_no",
+                    "gameplay.caleb.netherlord.table_2.tr_3_either"
+                ]
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.caleb.netherlord.paragraph_5"
+        },
+        {
+            "type": "rotationList",
+            "content": [
+                "gameplay.caleb.netherlord.rotationstring"
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.caleb.netherlord.paragraph_6"
+        },
+        {
+            "type": "orderedList",
+            "content": [
+                "gameplay.caleb.netherlord.li_1",
+                "gameplay.caleb.netherlord.li_2",
+                "gameplay.caleb.netherlord.li_3",
+                "gameplay.caleb.netherlord.li_4",
+                "gameplay.caleb.netherlord.li_5",
+                "gameplay.caleb.netherlord.li_6",
+                "gameplay.caleb.netherlord.li_7",
+                "gameplay.caleb.netherlord.li_8",
+                "gameplay.caleb.netherlord.li_9"
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.caleb.netherlord.paragraph_7"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.caleb.netherlord.paragraph_8"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.caleb.netherlord.paragraph_9"
+        },
+        {
+            "type": "table",
+            "headers": [
+                "gameplay.caleb.netherlord.table_3.skill",
+                "gameplay.caleb.netherlord.table_3.become"
+            ],
+            "rows": [
+                [
+                    "gameplay.caleb.netherlord.table_3.tr_1_active",
+                    "gameplay.caleb.netherlord.table_3.tr_1_azure"
+                ],
+                [
+                    "gameplay.caleb.netherlord.table_3.tr_2_support",
+                    "gameplay.caleb.netherlord.table_3.tr_2_slash"
+                ]
+            ]
+        },
+        {
+            "type": "rotationList",
+            "content": [
+                "gameplay.caleb.netherlord.rotationstring2"
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.caleb.netherlord.paragraph_10"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.caleb.netherlord.paragraph_11"
+        },
+        {
+            "type": "unorderedList",
+            "content": [
+                "gameplay.caleb.netherlord.li_10",
+                "gameplay.caleb.netherlord.li_11"
 
             ]
         },
         {
             "type": "paragraph",
-            "content": "gameplay.rafayel.lemurian_sea_god.paragraph_6"
-        },
-        {
-            "type": "paragraph",
-            "content": "gameplay.rafayel.lemurian_sea_god.paragraph_7"
-        },
-        {
-            "type": "rotationList",
-            "content": [
-                "gameplay.rafayel.lemurian_sea_god.ul_li_1",
-                "gameplay.rafayel.lemurian_sea_god.ul_li_2",
-                "gameplay.rafayel.lemurian_sea_god.ul_li_3",
-                "gameplay.rafayel.lemurian_sea_god.ul_li_4"
-            ]
-        },
-            {
-            "type": "paragraph",
-            "content": "gameplay.rafayel.lemurian_sea_god.paragraph_8"
+            "content": "gameplay.caleb.netherlord.paragraph_12"
         }
     ]
     

@@ -175,6 +175,66 @@
     },
     "caleb": {
         "netherlord": {
+            "paragraph_1": "Netherlord is one of the most mechanically demanding companions — proper timing and input (tap vs hold) matter a lot. He has two phases: Neutral (building resources) and Union (burst damage). Your goal is to enter Union as often as possible by triggering [Blooms].",
+            "paragraph_2": "Enemies get two halves of a lotus mark (Yin = red, Yang = blue). When both halves meet → [Bloom] triggers:",
+            "ul_li_1": "Deals big damage",
+            "ul_li_2": "Restores 0.5 Energy Charge",
+            "ul_li_3": "Reduces Union cooldown by 3 seconds",
+            "paragraph_3": "How to Apply Lotus Halves",
+            "table_1": {
+                "table_header_action": "Action",
+                "table_header_applies": "What it applies",
+                "table_row_1_action": "4th hit of [Basic Attack]",
+                "table_row_1_applies": "Random half (Yin/Yang)",
+                "table_row_2_action": "[Severance Dance] ([Active Skill])",
+                "table_row_2_applies": "Gives a [Lotus Seed] (not a half)",
+                "table_row_3_action": "[Charged Attack] (with Seed)",
+                "table_row_3_applies": "Applies the missing half → triggers Bloom",
+                "table_row_4_action": "[Netherseal Slash] ([Support Skill])",
+                "table_row_4_applies": "Applies a half (prioritizes the missing one)"
+
+            },
+            "paragraph_4": "When you enter [Sword Stance] (after [Active Skill] or 3rd basic attack), look at the enemy's flower:",
+            "table_2": {
+                "th_if": "If you see",
+                "th_then": "Then",
+                "tr_1_red": "Red flower (Yin half)",
+                "tr_1_hold": "HOLD [Basic Attack] → applies Yang (blue) → Bloom",
+                "tr_2_blue": "Blue flower (Yang half)",
+                "tr_2_tap": "TAP [Basic Attack] → applies Yin (red) → Bloom",
+                "tr_3_no": "No flower",
+                "tr_3_either": "Either"
+            },
+            "paragraph_5": "Neutral Phase Rotation",
+            "rotationstring": "Short version: [Support Skill] & [Active Skill] → tap/hold → [Charged Attack] → 3x [Basic Attack]s → tap/hold → [Active Skill] → tap/hold → [Support Skill]",
+            "paragraph_6": "What each step does:",
+            "li_1": "[Support Skill] → applies a half (prioritizes the missing one)",
+            "li_2": "[Active Skill] → gives you a [Lotus Seed] + enters [Sword Stance]",
+            "li_3": "Tap/HOLD (based on flower color) → applies correct half",
+            "li_4": "[Charged Attack] → consumes Seed → applies missing half → guarantees BLOOM #1",
+            "li_5": "3x [Basic Attacks] → final hit applies random half",
+            "li_6": "Tap/HOLD again (from [Sword Stance]) → applies matching half → BLOOM #2",
+            "li_7": "[Active Skill] (if ready) → gives another Seed",
+            "li_8": "Tap/HOLD → applies correct half",
+            "li_9": "[Support Skill] or [Charged Attack] → completes the next Bloom",
+            "paragraph_7": "Trigger Blooms as quickly as possible to reduce [Yin-Yang Cycle] cooldown and enter Union. This rotation is a baseline; in practice you can adjust based on cooldowns or replace some Bloom triggers with [Soulguide Bell].",
+            "paragraph_8": "Union Phase (Burst Window)",
+            "paragraph_9": "Once in Union, your skills change:",
+            "table_3": {
+                "skill": "Normal Skill",
+                "become": "Becomes",
+                "tr_1_active": "[Active Skill]",
+                "tr_1_azure": "[Azure Ballad] (costs 1 Energy, opens Rift)",
+                "tr_2_support": "[Support Skill]",
+                "tr_2_slash" : "[Spectral Slash] (3.1s CD, opens Rift)"
+
+            },
+            "rotationstring2": "[Spectral Slash] (opens Rift) → [Azure Ballad] (costs 1 Energy; makes next free) → [Charged Attack] (bonus damage; at R3 even higher)",
+            "paragraph_10": "Each Rift makes your next [Azure Ballad] free, allowing you to chain skills and extend your rotation.",
+            "paragraph_11": "[Ardent Oath] is best used during the enemy’s weakened state (after breaking their shield), and [Fate Unforgotten] is no exception, but it has its own mechanics. During the animation: 3 [Dustbreak] buttons appear. Tap each at the right moment:",
+            "li_10": "Each perfect = 5% Max HP heal to you and Caleb",
+            "li_11": "All 3 perfect = 20% DMG reduction for 15s",
+            "paragraph_12": "At R3: This ultimate can crit — huge damage increase."
 
         }
     }

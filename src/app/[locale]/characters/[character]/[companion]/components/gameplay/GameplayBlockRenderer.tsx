@@ -231,6 +231,57 @@ export function GameplayBlockRenderer({
                             </ul>
                         )
 
+                    case "table" :
+                        return (
+                            <div key={blockKey}>
+                                <table className="min-w-full">
+                                    {block.headers &&(
+                                        <thead>
+                                            <tr className="border-b border-aliceblue/20">
+                                                {block.headers.map((header, index) => (
+                                                    <th 
+                                                        key={`${header}-header-${index}`}
+                                                        className="py-2 font-bold text-center"
+                                                    >
+                                                        <TextRenderer>
+                                                            {t(header)}
+                                                        </TextRenderer>
+                                                    </th>
+                                                ))}
+
+                                            </tr>
+                                        </thead>
+                                    )}
+                                    <tbody>
+                                        {block.rows.map((row: any, rowIndex) => (
+                                            <tr
+                                                key={rowIndex}
+                                                className="hover:bg-pink-400"
+                                            >
+                                                {row.map((cell: any, cellIndex: any) => (
+                                                    <td
+                                                        key={cellIndex}
+                                                        className="py-2 px-4
+                                                            border-aliceblue/10
+                                                            first:border-r
+                                                            border-b
+                                                            sm:border-none
+                                                            text-left
+                                                            md:text-nowrap
+                                                        "
+                                                    >
+                                                        <TextRenderer>
+                                                            {t(cell)}
+                                                        </TextRenderer>
+                                                    </td>
+                                                ))}
+                                            </tr>
+                                        ))}
+                                    </tbody>
+                                </table>
+                            </div>
+                        )
+
                 }
             })}
             </div>
