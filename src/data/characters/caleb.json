@@ -14,6 +14,7 @@
             "scaling": "atk_hp",
             "best": "heal_single",
             "specialty": "heal",
-            "unlock": "limited_banner"        }
+            "unlock": "limited_banner"        
+        }
     ]  
 }

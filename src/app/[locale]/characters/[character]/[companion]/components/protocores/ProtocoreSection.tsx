@@ -40,7 +40,7 @@ export default function ProtocoreSection ({character, companion}: CharaDataProps
             <hr className={styles.divider}></hr>
 
             <details >
-                <summary className={`capitalize font-accent w-fit hover:bg-pink-400`}>Protocore general info</summary>
+                <summary className={`capitalize font-accent w-fit hover:bg-pink-400 cursor-pointer`}>Protocore general info</summary>
 
                 <div className="border-b pb-8">
                     {/*protocore names and visual representation*/}
