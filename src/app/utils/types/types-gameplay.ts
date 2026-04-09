@@ -7,6 +7,8 @@ export type GameplayBlock =
         type: 'paragraph';
         content: string;
         id: string;
+        layout?: 'top' | 'bottom';
+        highlight? : 'yes' | 'no'
     }
     | {
         type: 'orderedList';

@@ -33,12 +33,25 @@ export function GameplayBlockRenderer({
 
                 switch (block.type) {
 
-                    case 'paragraph':
+                    case 'paragraph': {
+                        const marginLayout = block.layout === 'top'
+                            ? ``
+                            : block.layout === 'bottom'
+                            ? `-mb-10`
+                            : ''
+                        const header = block.highlight === 'yes'
+                            ? 'font-bold font-accent text-center'
+                            : ''
+
                         return (
-                            <div key={blockKey}>
+                            <div
+                                key={blockKey}
+                                className={`${marginLayout} ${header}`}
+                            >
                                 <TextRenderer>{t(block.content)}</TextRenderer>
                             </div>
                         );
+                    }
 
                     case 'standard_summary': 
                         return (
@@ -267,7 +280,7 @@ export function GameplayBlockRenderer({
                                                             border-b
                                                             sm:border-none
                                                             text-left
-                                                            md:text-nowrap
+                                                            
                                                         "
                                                     >
                                                         <TextRenderer>

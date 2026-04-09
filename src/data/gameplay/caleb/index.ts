@@ -7,5 +7,4 @@ export const calebGameplay = {
     deepspace_pilot,
     farspace_colonel,
     ultimate_weapon_x_02,
-    
 } as const

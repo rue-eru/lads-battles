@@ -6,8 +6,16 @@
             "content": "gameplay.caleb.netherlord.paragraph_1"
         },
         {
+            "type": "image",
+            "layout": "left",
+            "src": "/images/companions/caleb/gameplay/netherlord/mc_icons.png",
+            "alt": "gameplay.caleb.netherlord.images.mc_icons.alt",
+            "caption": "gameplay.caleb.netherlord.images.mc_icons.caption"
+        },
+        {
             "type": "paragraph",
-            "content": "gameplay.caleb.netherlord.paragraph_2"
+            "content": "gameplay.caleb.netherlord.paragraph_2",
+            "layout": "bottom"
         },
         {
             "type": "unorderedList",
@@ -19,7 +27,8 @@
         },
         {
             "type": "paragraph",
-            "content": "gameplay.caleb.netherlord.paragraph_3"
+            "content": "gameplay.caleb.netherlord.paragraph_3",
+            "layout": "bottom"
         },
         {
             "type": "table",
@@ -48,7 +57,8 @@
         },
         {
             "type": "paragraph",
-            "content": "gameplay.caleb.netherlord.paragraph_4"
+            "content": "gameplay.caleb.netherlord.paragraph_4",
+            "layout": "bottom"
         },
         {
             "type": "table",
@@ -72,8 +82,16 @@
             ]
         },
         {
+            "type": "image",
+            "src": "/images/companions/caleb/gameplay/netherlord/lotus.gif",
+            "alt": "gameplay.caleb.netherlord.images.lotus.alt",
+            "caption": "gameplay.caleb.netherlord.images.lotus.caption"
+        },
+        {
             "type": "paragraph",
-            "content": "gameplay.caleb.netherlord.paragraph_5"
+            "content": "gameplay.caleb.netherlord.paragraph_5",
+            "layout": "bottom",
+            "highlight": "yes"
         },
         {
             "type": "rotationList",
@@ -83,7 +101,8 @@
         },
         {
             "type": "paragraph",
-            "content": "gameplay.caleb.netherlord.paragraph_6"
+            "content": "gameplay.caleb.netherlord.paragraph_6",
+            "layout": "bottom"
         },
         {
             "type": "orderedList",
@@ -105,11 +124,14 @@
         },
         {
             "type": "paragraph",
-            "content": "gameplay.caleb.netherlord.paragraph_8"
+            "content": "gameplay.caleb.netherlord.paragraph_8",
+            "layout": "bottom",
+            "highlight": "yes"
         },
         {
             "type": "paragraph",
-            "content": "gameplay.caleb.netherlord.paragraph_9"
+            "content": "gameplay.caleb.netherlord.paragraph_9",
+            "layout": "bottom"
         },
         {
             "type": "table",
@@ -139,20 +161,32 @@
             "content": "gameplay.caleb.netherlord.paragraph_10"
         },
         {
+            "type": "image",
+            "src": "/images/companions/caleb/gameplay/netherlord/rift.jpg",
+            "alt": "gameplay.caleb.netherlord.images.rift.alt",
+            "caption": "gameplay.caleb.netherlord.images.rift.caption"
+        },
+        {
             "type": "paragraph",
-            "content": "gameplay.caleb.netherlord.paragraph_11"
+            "content": "gameplay.caleb.netherlord.paragraph_11",
+            "layout": "bottom"
         },
         {
             "type": "unorderedList",
             "content": [
                 "gameplay.caleb.netherlord.li_10",
                 "gameplay.caleb.netherlord.li_11"
-
             ]
         },
         {
             "type": "paragraph",
             "content": "gameplay.caleb.netherlord.paragraph_12"
+        },
+        {
+            "type": "image",
+            "src": "/images/companions/caleb/gameplay/netherlord/oath.gif",
+            "alt": "gameplay.caleb.netherlord.images.oath.alt",
+            "caption": "gameplay.caleb.netherlord.images.oath.caption"
         }
     ]
     

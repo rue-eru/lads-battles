@@ -234,7 +234,25 @@
             "paragraph_11": "[Ardent Oath] is best used during the enemy’s weakened state (after breaking their shield), and [Fate Unforgotten] is no exception, but it has its own mechanics. During the animation: 3 [Dustbreak] buttons appear. Tap each at the right moment:",
             "li_10": "Each perfect = 5% Max HP heal to you and Caleb",
             "li_11": "All 3 perfect = 20% DMG reduction for 15s",
-            "paragraph_12": "At R3: This ultimate can crit — huge damage increase."
+            "paragraph_12": "At R3: This ultimate can crit — huge damage increase.",
+            "images": {
+                "mc_icons": {
+                    "caption": "Only MC gets icons in battle with Netherlord. Icon in blue shows that Union is up, in pink - in possesion of a Seed, in green - Sword Stance.",
+                    "alt": ""
+                },
+                "lotus": {
+                    "caption": "The flower can be seen directly on the enemy during the battle. Red Yin half is at the bottom, while Blue Yang half is placed at the top.",
+                    "alt": "Flower ingame visual"
+                },
+                "rift": {
+                    "caption": "In Union Phase you will see rifts instead of flowers",
+                    "alt": "Rift from Union ingame visual"
+                },
+                "oath": {
+                    "caption": "Tap on each button during Oath animation to get all the buffs",
+                    "alt": "Oath ingame visual"
+                }
+            }
 
         }
     }
