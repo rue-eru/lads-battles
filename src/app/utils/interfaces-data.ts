@@ -141,3 +141,8 @@ export interface ErrorProps {
 export interface SpoilerProps {
     text: string;
 }
+
+export interface NoGuideAvailableProps extends CharaDataProps {
+    hasGuideFile: boolean;
+    availableLocales: string[];
+}

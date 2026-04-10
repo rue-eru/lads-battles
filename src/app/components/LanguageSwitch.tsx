@@ -3,17 +3,12 @@
 import { usePathname, useRouter } from "next/navigation";
 import NavDropdown from "./NavDropdown";
 import { styles } from "../utils/styles";
+import { languages } from "../utils/languageNames";
 
 export default function LanguageSwitch(){
 
     const router = useRouter();
     const pathname = usePathname();    
-
-    const languages = [
-        { code: 'en', name: 'en'},
-        { code: 'ru', name: 'рус' },
-        { code: 'ja', name: '日本語'}
-    ];
 
     const currentLangCode = pathname.split('/')[1] || 'en';
 

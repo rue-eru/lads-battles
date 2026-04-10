@@ -9,7 +9,7 @@ export default function CharaListNB() {
 
     return(
         <>
-            <p className='-mt-4'>{isJa ? "※ " : "* "}{tLayout("NB")}</p>
+            <p className='-mt-4 whitespace-pre-wrap'>{isJa ? "※ " : "* "}{tLayout("NB")}</p>
 
         </>
     )

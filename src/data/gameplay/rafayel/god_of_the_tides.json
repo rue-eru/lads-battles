@@ -3,7 +3,8 @@
     "blocks": [
         {
             "type": "paragraph",
-            "content": "gameplay.rafayel.god_of_the_tides.paragraph_1"
+            "content": "gameplay.rafayel.god_of_the_tides.paragraph_1",
+            "layout": "bottom"
         },  
         {
             "type": "unorderedList",
@@ -31,7 +32,8 @@
         },
         {
             "type": "paragraph",
-            "content": "gameplay.rafayel.god_of_the_tides.paragraph_2"
+            "content": "gameplay.rafayel.god_of_the_tides.paragraph_2",
+            "layout": "bottom"
         }, 
         {
             "type": "rotationList",
@@ -83,7 +85,8 @@
         },
         {
             "type": "paragraph",
-            "content": "gameplay.rafayel.god_of_the_tides.paragraph_4"
+            "content": "gameplay.rafayel.god_of_the_tides.paragraph_4",
+            "layout": "bottom"
         }, 
         {
             "type": "orderedList",

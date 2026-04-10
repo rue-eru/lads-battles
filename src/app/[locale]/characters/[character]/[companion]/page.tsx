@@ -9,6 +9,7 @@ import SkillWeaponSection from './components/skills_and_weapons/SkillWeaponSecti
 import GameplaySection from './components/gameplay/GameplaySection';
 import { NoGuideAvailable } from './components/NoGuideAvailable';
 import { getGameplayGuide } from '@/app/utils/loaders/gameplay-loader';
+import { guideLocales } from '@/data/guideLocaleAvailability';
 
 export default async function CompanionPage ( {params} : {
   params: Promise<{character: CharacterId; companion: CompanionId; locale: Locale}>
@@ -22,9 +23,12 @@ export default async function CompanionPage ( {params} : {
 
     const characterData = charactersData[character];
     const companionData = characterData.companions.find(comp => comp.id === companion);
-    const guide = getGameplayGuide(character as any, companion);
 
-    const hasGuide = Boolean(guide?.type);
+    // guide ?
+    const guide = getGameplayGuide(character as any, companion);
+    const hasGuideFile = Boolean(guide?.type);
+
+    const availableLocales = hasGuideFile ? (guideLocales[companion]) || ['en'] : [];
 
     if (!companionData) {
       return null
@@ -37,7 +41,7 @@ export default async function CompanionPage ( {params} : {
                 <h1 className={styles.h1}><span>{tCharas(character as any)}</span>: {tCompanions(companionData.nameKey as any)}</h1> 
                 <Banner character={character as any} companion={companion} />
 
-                  {hasGuide ? (
+                  {hasGuideFile && availableLocales.includes(locale) ? (
                     <>
                       <CompanionInfoTable character={character as any} companion={companion}/>
                       <ProtocoreSection character={character as any} companion={companion}/>
@@ -45,8 +49,15 @@ export default async function CompanionPage ( {params} : {
                       <GameplaySection character={character as any} companion={companion} />
                     </>
                   ) : (
-                    <NoGuideAvailable character={character as any} companion={companion} />
-                  )}
+                    <NoGuideAvailable 
+                      character={character as any} 
+                      companion={companion} 
+                      availableLocales={availableLocales}
+                      hasGuideFile={hasGuideFile}
+                    />
+                  )
+                  
+                  }
 
             </div>
         </div>

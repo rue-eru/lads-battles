@@ -79,7 +79,8 @@
         },
         {
             "type": "paragraph",
-            "content": "gameplay.rafayel.lemurian_sea_god.paragraph_7"
+            "content": "gameplay.rafayel.lemurian_sea_god.paragraph_7",
+            "layout": "bottom"
         },
         {
             "type": "rotationList",

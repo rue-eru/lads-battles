@@ -1,16 +1,24 @@
 'use client'
 
-import type { CharaDataProps } from "@/app/utils/interfaces-data"
+import { useCurrentLanguage } from "@/app/hooks/useCurrentLanguage"
+import type { NoGuideAvailableProps } from "@/app/utils/interfaces-data"
+import { languages } from "@/app/utils/languageNames"
 import { styles } from "@/app/utils/styles"
-import { useTranslations } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 import Image from "next/image"
+import Link from "next/link"
 import { useEffect, useState } from "react"
 
 export function NoGuideAvailable  ({
-    character,
-}: CharaDataProps) {
+    character, 
+    companion,
+    hasGuideFile,
+    availableLocales
+}: NoGuideAvailableProps) {
 
     const t = useTranslations('layout');
+    const currentLocale = useLocale();
+    const {isJa} = useCurrentLanguage();
 
     const [positionClass, setPositionClass ] = useState('');
 
@@ -28,12 +36,39 @@ export function NoGuideAvailable  ({
 
     }, [])
 
+    const showLocaleLinks = hasGuideFile && availableLocales.length > 0;
+
+    const otherAvailableLocales = showLocaleLinks
+        ? availableLocales
+            .filter(l => l !== currentLocale)
+            .map(code => ({
+                code,
+                name: languages.find(lang => lang.code === code)?.name || code
+            }))
+        : [];
 
     return (
         <div className="w-full py-12 -mb-30">
             <hr className={styles.divider}></hr>
             <div className="text-center py-6 font-accent flex flex-col gap-4">
                 <p>{t('not-available')}</p>
+                    {otherAvailableLocales.length > 0 && (
+                        <p>
+                            {t('available-in')}
+                            {otherAvailableLocales.map((locale, index)  => (
+                                <span key={locale.code}>
+                                    <Link
+                                        href={`/${locale.code}/characters/${character}/${companion}`}
+                                        className="hover:text-pink-400 cursor-pointer underline uppercase"
+                                    >
+                                        {locale.name}
+                                    </Link>
+                                    {index < otherAvailableLocales.length -1 && " / "}
+                                </span>
+                            ))}
+                            {isJa && <span>ではあります！</span>}
+                        </p>
+                    )}
                 <p>{t('stay_tuned')}</p>
             </div>
 

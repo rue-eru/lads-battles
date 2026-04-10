@@ -60,7 +60,8 @@
     "support_debuff": "Support | Debuff",
     "burst_single_pull": "Burst | Single-target | Pull",
     "sustained_buff_aoe": "Sustained | Buff | AoE",
-    "dps_aoe_empower": "DPS | AoE | Empower"
+    "dps_aoe_empower": "DPS | AoE | Empower",
+    "dps_heal_single": "DPS | Heal | Single-target"
   },
   "scaling": {
     "atk": "ATK",
@@ -78,11 +79,13 @@
     "single_target": "Single Target",
     "multi_target_res_aoth": "Multi Target(Resonance and Oath)",
     "multi_target": "Multi Target",
-    "multi_target_dps": "Multi Target and DPS"
+    "multi_target_dps": "Multi Target and DPS",
+    "single_dps": "Single Target and DPS"
   },
   "specialty": {
     "atk_buff": "ATK Buff",
     "heal_debuff": "Heal, Debuff",
-    "debuff": "Debuff"
+    "debuff": "Debuff",
+    "heal_dmg_reduction": "Heal and DMG Reduction"
   }
 }

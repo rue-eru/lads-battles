@@ -70,11 +70,11 @@ export default function ProtocoreSection ({character, companion}: CharaDataProps
                                 {isJa ? "※": "*"}
                             </li>
                     </ul>
-                    <p className="-mt-8 text-right w-full italic">{isJa ? "※ ": "* "}{t('energyNB')}</p>
+                    <p className="text-right w-full italic mb-4">{isJa ? "※ ": "* "}{t('energyNB')}</p>
 
-                    <span>                        
+                    <p>                        
                         <TextRenderer>{t('stellactrumMatchInfo')}</TextRenderer>
-                    </span>
+                    </p>
                 </div>
 
             </details>

@@ -11,9 +11,9 @@
             "solarPair": "nl",
             "rarity": "★★★★★",
             "role": "dps_heal_single",
-            "scaling": "atk_hp",
-            "best": "heal_single",
-            "specialty": "heal",
+            "scaling": "hp",
+            "best": "single_dps",
+            "specialty": "heal_dmg_reduction",
             "unlock": "limited_banner"        
         }
     ]  

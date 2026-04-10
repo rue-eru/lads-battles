@@ -7,7 +7,8 @@
         },
         {
             "type": "paragraph",
-            "content": "gameplay.rafayel.abysswalker.paragraph_2"
+            "content": "gameplay.rafayel.abysswalker.paragraph_2",
+            "layout": "bottom"
         },
         {
             "type": "imageGroupPerImageCaption",
@@ -46,7 +47,8 @@
         },
         {
             "type": "paragraph",
-            "content": "gameplay.rafayel.abysswalker.paragraph_4"
+            "content": "gameplay.rafayel.abysswalker.paragraph_4",
+            "layout": "bottom"
         },
         {
             "type": "imageGroupPerImageCaption",
@@ -68,7 +70,8 @@
         },
         {
             "type": "paragraph",
-            "content": "gameplay.rafayel.abysswalker.paragraph_5"
+            "content": "gameplay.rafayel.abysswalker.paragraph_5",
+            "layout": "bottom"
         },
         {
             "type": "rotationList",
