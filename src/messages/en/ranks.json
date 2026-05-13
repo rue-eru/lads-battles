@@ -8,6 +8,14 @@
     "rDescriptionBtn": "Rank Description",
     "NB": "Remember your Rank Buffs are only active when you add both Solar Pair cards in the team. You can choose your limited companion, but he wont receive any buffs even if you own R3.",
     "rankDescriptions": {
+        "xavier": {
+            "king_of_darknight": {
+                "r0": "Starting Effect: The team deals 8% more DMG and takes 8% less DMG. The first hit of each Active Skill reduces Support Skill cooldown by 5s.  When not in [Darknight Reign], hitting enemies with Charged Attacks grants [Pilgrim's Prayer], increasing the accumulation rate of [Last Words] for 10s. Gaining it again refreshes duration.",
+                "r1": "Increases Ardent Oath charge by 20%. When you create [Radiant Ripples], Support Skill cooldown is refreshed; [Radiant Ripples] damage increases by 40%. When not in the [Darknight Reign] state, casting Resonance Skills grants you [Pilgrim's Prayer]. While [Darknight Reign] is active, you become unstoppable.",
+                "r2": "Energy Charge limit is raised by 1. While [Darknight Reign] is active, you and Xavier ignore 12.5% of enemy DEF and restore HP equal to 2% of Max HP per second.",
+                "r3": "The team deals 8% more DMG. When you create [Radiant Ripples], Xavier will also create [Radiant Ripples]. While [Darknight Reign] is active, each time [Radiant Ripples] undulate, [Lumenflora]'s damage increases by 6%, up to 36%. This damage boost effect is cleared when [Darknight Reign] ends."
+            }
+        },
         "rafayel": {
             "abysswalker": {
                 "r0": "Starting Effect: The team deals 8% more DMG and takes 8% less DMG. Abysswalker's [Deepsea Pursuit] gains 30% additional [CRIT DMG].",

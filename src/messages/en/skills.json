@@ -29,6 +29,38 @@
         }
     },
     "our_skills": {
+        "xavier": {
+            "king_of_darknight": {
+                "support_skill": {
+                    "name": "Royal Seal",
+                    "description": ""
+                },
+                "resonance_skill": {
+                    "name": "Lumenflora Grace",
+                    "description": ""
+                },
+                "ardent_oath": {
+                    "name": "Royal Decree",
+                    "description": ""
+                },
+                "passive_skill": {
+                    "name": "Coronation",
+                    "description": ""
+                },
+                "basic_attack": {
+                    "name": "Prayer",
+                    "description": ""
+                },
+                "my_passive_skill": {
+                    "name": "Procession",
+                    "description": ""
+                },
+                "active_skill": {
+                    "name": "Final Elegy",
+                    "description": ""
+                }
+            }
+        },
         "rafayel": {
             "artist": {
                 "support_skill": {
@@ -205,7 +237,37 @@
                     "name": "Severance Dance ",
                     "description": "A two‑hit combo that puts you into [Sword Stance]. Hitting an enemy grants 1 [Lotus Seed]."
                 }
-            } 
+            },
+            "": {
+                "support_skill": {
+                    "name": "",
+                    "description": ""
+                },
+                "resonance_skill": {
+                    "name": "",
+                    "description": ""
+                },
+                "ardent_oath": {
+                    "name": "",
+                    "description": ""
+                },
+                "passive_skill": {
+                    "name": "",
+                    "description": ""
+                },
+                "basic_attack": {
+                    "name": "",
+                    "description": ""
+                },
+                "my_passive_skill": {
+                    "name": "",
+                    "description": ""
+                },
+                "active_skill": {
+                    "name": "",
+                    "description": ""
+                }
+            }
         }          
     }
 }

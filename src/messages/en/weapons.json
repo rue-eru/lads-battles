@@ -11,6 +11,9 @@
         },
         "azuregaze": {
             "name": "Azuregaze"
+        },
+        "final_resound": {
+            "name": "Final Resound"
         }
     },
     "standard_weapons": {
