@@ -272,5 +272,61 @@
     "azure_cleave": {
         "descriptionKey": "Netherlord's basic attack. A 3-hit combo. The final hit applies a random Bingdi Lotus half. After the third hit, you enter Sword Stance.",
         "labelKey": "Azure Cleave"
+    },
+    "darknight_reign": {
+        "labelKey": "Darknight Reign",
+        "descriptionKey": "Xavier's 9-second empowered state. Activated by Darknight Coronation. Your Active Skill changes to The Chosen One's Blessing, and Xavier deals bonus damage."
+    },
+    "darknight_coronation": {
+        "labelKey": "Darknight Coronation",
+        "descriptionKey": "The skill that triggers Darknight Reign. 30s cooldown. Appears as an extra button in battle when you have 3 Lumenflora Stamens."
+    },
+    "last_words": {
+        "labelKey": "Last Words",
+        "descriptionKey": "A resource accumulated outside Darknight Reign (max 3 stacks). Consumed by Final Elegy (Active Skill) to reduce Darknight Coronation cooldown and gain Lumenflora Stamens."
+    },
+    "lumenflora_stamen": {
+        "labelKey": "Lumenflora Stamen",
+        "descriptionKey": "A resource (max 3 stacks). Carried into Darknight Reign to reduce the initial cooldown of The Chosen One's Blessing by 3.4s per stack."
+    },
+    "the_chosen_ones_blessing": {
+        "labelKey": "The Chosen One's Blessing",
+        "descriptionKey": "Your Active Skill during Darknight Reign. Creates Radiant Ripples beneath you. Can be cast up to 3 times per Reign."
+    },
+    "radiant_ripples": {
+        "labelKey": "Radiant Ripples",
+        "descriptionKey": "AoE field created by The Chosen One's Blessing. Deals damage. At higher ranks, Xavier can create them too."
+    },
+    "lumenflora": {
+        "labelKey": "Lumenflora",
+        "descriptionKey": "Flower field created by Lumenflora Grace (Resonance Skill). During Darknight Reign, Royal Seal blooms additional Lumenflora for AoE damage."
+    },
+    "prayer": {
+        "labelKey": "Prayer",
+        "descriptionKey": "King of Darknight's basic attack. A 4-hit combo. Charged Attack shoots a ray of radiant light."
+    },
+    "final_elegy": {
+        "labelKey": "Final Elegy",
+        "descriptionKey": "King of Darknight's Active Skill. Cooldown 12s, costs 1 Energy. Within 2.7s of casting, if you have Last Words, you may cast again with enhanced damage."
+    },
+    "royal_seal": {
+        "labelKey": "Royal Seal",
+        "descriptionKey": "King of Darknight's Support Skill. Cooldown 15s. Xavier pierces enemies, dealing damage and granting 1 stack of Last Words. Cooldown ends in 5s when entering or exiting Darknight Reign."
+    },
+    "lumenflora_grace": {
+        "labelKey": "Lumenflora Grace",
+        "descriptionKey": "King of Darknight's Resonance Skill. Cooldown 15s, costs 2 Energy. Xavier leaps and strikes, blooming a sea of Lumenflora that gathers enemies."
+    },
+    "royal_decree": {
+        "labelKey": "Royal Decree",
+        "descriptionKey": "King of Darknight's Ardent Oath (ultimate). Xavier summons a giant sword to strike enemies. Deals massive damage."
+    },
+    "coronation": {
+        "labelKey": "Coronation",
+        "descriptionKey": "King of Darknight's Passive Skill. Manages the Darknight Reign state, Last Words accumulation, and Stamen generation."
+    },
+    "procession": {
+        "labelKey": "Procession",
+        "descriptionKey": "King of Darknight's Passive Skill. First Active Skill hit recovers 0.45 Energy. During Darknight Reign, damage dealt and DMG Boost to Weakened are increased by 8%."
     }
 }

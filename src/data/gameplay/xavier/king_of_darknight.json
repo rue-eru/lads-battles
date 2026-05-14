@@ -1,8 +1,61 @@
 {
-    "type": "",
-    "summaryKey": "",
-    "tipsKey": "",
-    "images": [
+    "type": "solar",
+    "blocks": [
+        {
+            "type": "paragraph",
+            "content": "gameplay.xavier.king_of_darknight.paragraph_1",
+            "layout": "bottom"
+        },
+        {
+            "type": "unorderedList",
+            "content": [
+                "gameplay.xavier.king_of_darknight.ul_li_1",
+                "gameplay.xavier.king_of_darknight.ul_li_2"
+            ]
+        },
+        {
+            "type": "image",
+            "layout": "left",
+            "src": "/images/companions/caleb/gameplay/netherlord/icons.png",
+            "alt": "gameplay.caleb.netherlord.images.mc_icons.alt",
+            "caption": "gameplay.caleb.netherlord.images.mc_icons.caption"
+        },
+        {
+            "type": "image",
+            "layout": "left",
+            "src": "/images/companions/caleb/gameplay/netherlord/icons.png",
+            "alt": "gameplay.caleb.netherlord.images.mc_icons.alt",
+            "caption": "gameplay.caleb.netherlord.images.mc_icons.caption"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.xavier.king_of_darknight.paragraph_3",
+            "layout": "bottom",
+            "highlight": "yes"
+        },
+       {
+            "type": "orderedList",
+            "content": [
+                "gameplay.xavier.king_of_darknight.li_1",
+                "gameplay.xavier.king_of_darknight.li_2",
+                "gameplay.xavier.king_of_darknight.li_3",
+                "gameplay.xavier.king_of_darknight.li_4"
 
+            ]
+        },
+        {
+            "type": "image",
+            "layout": "left",
+            "src": "/images/companions/caleb/gameplay/netherlord/icons.png",
+            "alt": "gameplay.caleb.netherlord.images.mc_icons.alt",
+            "caption": "gameplay.caleb.netherlord.images.mc_icons.caption"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.xavier.king_of_darknight.paragraph_4",
+            "layout": "bottom",
+            "highlight": "yes"
+        }
     ]
+
 }

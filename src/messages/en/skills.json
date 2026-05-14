@@ -33,31 +33,31 @@
             "king_of_darknight": {
                 "support_skill": {
                     "name": "Royal Seal",
-                    "description": ""
+                    "description": "Xavier pierces enemies with his sword, dealing damage and granting you 1 stack of [Last Words]. When you enter or exit [Darknight Reign], this skill's cooldown ends in 5s. Empowered version cannot be triggered during [Darknight Reign]."
                 },
                 "resonance_skill": {
                     "name": "Lumenflora Grace",
-                    "description": ""
+                    "description": "Xavier leaps into the air with you, gathering enemies, then strikes down blooming a sea of Lumenflora."
                 },
                 "ardent_oath": {
                     "name": "Royal Decree",
-                    "description": ""
+                    "description": "Xavier thrusts his sword into the Sinders, summoning a sea of Lumenflora. You bless him as he wields a giant sword to strike enemies."
                 },
                 "passive_skill": {
-                    "name": "Coronation",
-                    "description": ""
+                    "name": "Coronation !!!",
+                    "description": "Upon entering battle, you gain an additional skill [Darknight Coronation]. After casting it, you and Xavier enter the [Darknight Reign] state for 9s (30s cooldown)."
                 },
                 "basic_attack": {
                     "name": "Prayer",
-                    "description": ""
+                    "description": "A 4‑hit combo. Charged Attack shoots a ray of radiant light."
                 },
                 "my_passive_skill": {
                     "name": "Procession",
-                    "description": ""
+                    "description": "Hitting an enemy with Active Skill for the first time recovers 0.45 Energy Charge. During [Darknight Reign], damage dealt and DMG Boost to Weakened are increased by 8%."
                 },
                 "active_skill": {
                     "name": "Final Elegy",
-                    "description": ""
+                    "description": "Wields Final Resound to sing an elegy, dealing AoE damage. Within 2.7s of casting, if you have at least 1 stack of [Last Words], you may cast again with enhanced damage."
                 }
             }
         },

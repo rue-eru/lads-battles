@@ -5,6 +5,20 @@
         "standard_conclusion": "Standard Companion's gameplay is pretty straightforward: you utilise his skills to get buffs while adapting your gameplay based on the standard weapon you have chosen.",
         "standard_rotation": "Your rotation will go like: "
     },
+    "xavier": {
+        "king_of_darknight": {
+            "paragraph_1": "King of Darknight is a controlled, methodical companion who cycles between two phases:",
+            "ul_li_1": "Outside [Darknight Reign]: Build [Last Words] stacks → consume them with [Final Elegy] (Active Skill) to gain [Lumenflora Stamen] and reduce Reign cooldown.",
+            "ul_li_2": "Inside [Darknight Reign]: Spend your [Stamens] to reduce initial cooldown of your special Active Skill [The Chosen One's Blessing], then spam it and the empowered Support Skill [Royal Seal] for burst damage.",
+            "paragraph_3": "Outside [Darknight Reign] — The Setup Phase",
+            "li_1": "Accumulate [Last Words] — wait for passive generation OR use [Royal Seal] (Support Skill) to get 1 stack instantly.",
+            "li_2": "Cast [Final Elegy] (Active Skill) — consumes 1 [Last Words] → reduces [Darknight Coronation] cooldown by 4s → gives 1 [Lumenflora Stamen].",
+            "li_3": "Within 2.7s, cast [Final Elegy] again (enhanced version) — consumes another [Last Words] → another stack.",
+            "li_4": "Repeat until you have 3 [Stamens] and [Darknight Coronation] is ready.",
+            "paragraph_4": "Entering [Darknight Reign]"
+
+        }
+    },
     "rafayel": {
         "artist": {
             "paragraph": 

@@ -402,4 +402,85 @@ export const GLOSSARY: Record<string, GlossaryTermProps> = {
         description: 'azure_cleave.descriptionKey',
         link: "#basicAttack"
     },
+    "Darknight Reign": {
+        key: "Darknight Reign",
+        label: 'darknight_reign.labelKey',
+        description: 'darknight_reign.descriptionKey',
+    },
+    "Darknight Coronation": {
+        key: "Darknight Coronation",
+        label: 'darknight_coronation.labelKey',
+        description: 'darknight_coronation.descriptionKey',
+    },
+    "Last Words": {
+        key: "Last Words",
+        label: 'last_words.labelKey',
+        description: 'last_words.descriptionKey',
+    },
+    "Lumenflora Stamen": {
+        key: "Lumenflora Stamen",
+        label: 'lumenflora_stamen.labelKey',
+        description: 'lumenflora_stamen.descriptionKey',
+    },
+    "Lumenflora Stamens": {
+        key: "Lumenflora Stamens",
+        label: 'lumenflora_stamen.labelKey',
+        description: 'lumenflora_stamen.descriptionKey',
+    },
+    "The Chosen One's Blessing": {
+        key: "The Chosen One's Blessing",
+        label: 'the_chosen_ones_blessing.labelKey',
+        description: 'the_chosen_ones_blessing.descriptionKey',
+        link: "#activeSkill"
+    },
+    "Radiant Ripples": {
+        key: "Radiant Ripples",
+        label: 'radiant_ripples.labelKey',
+        description: 'radiant_ripples.descriptionKey',
+    },
+    "Lumenflora": {
+        key: "Lumenflora",
+        label: 'lumenflora.labelKey',
+        description: 'lumenflora.descriptionKey',
+    },
+    "Prayer": {
+        key: "Prayer",
+        label: 'prayer.labelKey',
+        description: 'prayer.descriptionKey',
+        link: "#basicAttack"
+    },
+    "Final Elegy": {
+        key: "Final Elegy",
+        label: 'final_elegy.labelKey',
+        description: 'final_elegy.descriptionKey',
+        link: "#activeSkill"
+    },
+    "Royal Seal": {
+        key: "Royal Seal",
+        label: 'royal_seal.labelKey',
+        description: 'royal_seal.descriptionKey',
+        link: "#supportSkill"
+    },
+    "Lumenflora Grace": {
+        key: "Lumenflora Grace",
+        label: 'lumenflora_grace.labelKey',
+        description: 'lumenflora_grace.descriptionKey',
+        link: "#resonanceSkill"
+    },
+    "Royal Decree": {
+        key: "Royal Decree",
+        label: 'royal_decree.labelKey',
+        description: 'royal_decree.descriptionKey',
+        link: "#ardentOath"
+    },
+    "Coronation": {
+        key: "Coronation",
+        label: 'coronation.labelKey',
+        description: 'coronation.descriptionKey',
+    },
+    "Procession": {
+        key: "Procession",
+        label: 'procession.labelKey',
+        description: 'procession.descriptionKey',
+    },
 }
