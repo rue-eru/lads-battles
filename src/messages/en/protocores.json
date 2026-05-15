@@ -11,7 +11,8 @@
                 "abysswalker": "ATK, ATK Bonus, CRIT Rate, CRIT DMG, DMG Boost to Weakened",
                 "god_of_the_tides": "HP, HP Bonus, CRIT Rate, CRIT DMG, DMG Boost to Weakened",
                 "lemurian_sea_god": "DEF, DEF Bonus, CRIT Rate, CRIT DMG, DMG Boost to Weakened",
-                "netherlord":"DMG to Weakened > HP% > Crit Rate > Crit DMG > ATK%"
+                "netherlord":"DMG to Weakened > HP% > Crit Rate > Crit DMG > ATK%",
+                "king_of_darknight": "HP%/HP > Crit Rate > Crit DMG > DMG to Weakened"
             }
         },
         "solarCardsInfo": "Solar cards use [α] and [β] protocores. [α] has a fixed main HP stat, while [β]'s main stat derives.",

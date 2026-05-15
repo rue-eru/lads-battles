@@ -55,6 +55,100 @@
             "content": "gameplay.xavier.king_of_darknight.paragraph_4",
             "layout": "bottom",
             "highlight": "yes"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.xavier.king_of_darknight.paragraph_5",
+            "layout": "bottom"
+        },
+            {
+            "type": "paragraph",
+            "content": "gameplay.xavier.king_of_darknight.paragraph_6",
+            "layout": "bottom"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.xavier.king_of_darknight.paragraph_7",
+            "layout": "bottom"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.xavier.king_of_darknight.paragraph_8",
+            "layout": "bottom"
+        },
+        {
+            "type": "unorderedList",
+            "content": [
+                "gameplay.xavier.king_of_darknight.ul_li_3",
+                "gameplay.xavier.king_of_darknight.ul_li_4",
+                "gameplay.xavier.king_of_darknight.ul_li_5"
+
+            ]
+        },
+        {
+            "type": "image",
+            "layout": "left",
+            "src": "/images/companions/caleb/gameplay/netherlord/icons.png",
+            "alt": "gameplay.caleb.netherlord.images.mc_icons.alt",
+            "caption": "gameplay.caleb.netherlord.images.mc_icons.caption"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.xavier.king_of_darknight.paragraph_9",
+            "layout": "bottom",
+            "highlight": "yes"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.xavier.king_of_darknight.paragraph_10",
+            "layout": "bottom"
+        },
+        {
+            "type": "rotationList",
+            "content": [
+                "gameplay.xavier.king_of_darknight.rotationstring"
+            ]
+        },
+        {
+            "type": "unorderedList",
+            "content": [
+                "gameplay.xavier.king_of_darknight.ul_li_6",
+                "gameplay.xavier.king_of_darknight.ul_li_7"
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.xavier.king_of_darknight.paragraph_11",
+            "layout": "bottom"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.xavier.king_of_darknight.paragraph_12",
+            "layout": "bottom"
+        },
+        {
+            "type": "image",
+            "layout": "left",
+            "src": "/images/companions/caleb/gameplay/netherlord/icons.png",
+            "alt": "gameplay.caleb.netherlord.images.mc_icons.alt",
+            "caption": "gameplay.caleb.netherlord.images.mc_icons.caption"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.xavier.king_of_darknight.paragraph_13",
+            "layout": "bottom",
+            "highlight": "yes"
+        },
+        {
+            "type": "rotationList",
+            "content": [
+                "gameplay.xavier.king_of_darknight.rotation_1",
+                "gameplay.xavier.king_of_darknight.rotation_2",
+                "gameplay.xavier.king_of_darknight.rotation_3",
+                "gameplay.xavier.king_of_darknight.rotation_4",
+                "gameplay.xavier.king_of_darknight.rotation_5",
+                "gameplay.xavier.king_of_darknight.rotation_6"
+            ]
         }
     ]
 

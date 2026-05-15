@@ -1,23 +1,23 @@
 {
    "king_of_darknight": {
        "r0": {
-           "beta": ["oath_recovery_boost", "def_bonus"],
-           "delta": ["crit_rate", "crit_dmg", "dmg_boost_to_weakened", "def_bonus"],
+           "beta": ["oath_recovery_boost", "expedited_energy_boost"],
+           "delta": ["crit_rate", "crit_dmg", "dmg_boost_to_weakened", "hp_bonus"],
            "description_key": "ranks.rankDescriptions.xavier.king_of_darknight.r0"
       },
        "r1": {
-           "beta": [ "def_bonus"],
-           "delta": ["crit_rate", "crit_dmg", "dmg_boost_to_weakened", "def_bonus"],
+           "beta": [ "hp_bonus", "expedited_energy_boost", "oath_strength"],
+           "delta": ["crit_rate", "crit_dmg", "dmg_boost_to_weakened", "hp_bonus"],
            "description_key": "ranks.rankDescriptions.xavier.king_of_darknight.r1"
       },
        "r2": {
-           "beta": [ "def_bonus"],
-           "delta": ["crit_rate", "crit_dmg", "dmg_boost_to_weakened", "def_bonus"],
+           "beta": [ "hp_bonus", "expedited_energy_boost", "oath_strength"],
+           "delta": ["crit_rate", "crit_dmg", "dmg_boost_to_weakened", "hp_bonus"],
            "description_key": "ranks.rankDescriptions.xavier.king_of_darknight.r2"
       },
        "r3": {
-           "beta": [ "def_bonus"],
-           "delta": ["crit_rate", "crit_dmg", "dmg_boost_to_weakened", "def_bonus"],
+           "beta": [ "hp_bonus", "expedited_energy_boost", "oath_strength"],
+           "delta": ["crit_rate", "crit_dmg", "dmg_boost_to_weakened", "hp_bonus"],
            "description_key": "ranks.rankDescriptions.xavier.king_of_darknight.r3"
       }
    }
