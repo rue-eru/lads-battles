@@ -36,7 +36,13 @@
             "rotation_3": "PRESS [Darknight Coronation] ⇨ ENTER REIGN (9 seconds)",
             "rotation_4": "INSIDE REIGN: [The Chosen One's Blessing] ⇨ [Royal Seal] ⇨ repeat up to 3 times ⇨ Use [Royal Decree] (Ardent Oath) if available",
             "rotation_5": "REIGN ENDS ⇨ Return to OUTSIDE (cooldown 30s, reduced by your setup)",
-            "rotation_6": "REPEAT ↺"
+            "rotation_6": "REPEAT ↺",
+            "images": {
+                "out_buffs": {
+                    "caption": "Buffs outside Darknight Reign",
+                    "alt": "Buffs that are displayed outside the Burst"
+                }
+            }
 
         }
     },

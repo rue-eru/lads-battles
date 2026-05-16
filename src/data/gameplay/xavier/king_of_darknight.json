@@ -16,14 +16,14 @@
         {
             "type": "image",
             "layout": "left",
-            "src": "/images/companions/caleb/gameplay/netherlord/icons.png",
-            "alt": "gameplay.caleb.netherlord.images.mc_icons.alt",
-            "caption": "gameplay.caleb.netherlord.images.mc_icons.caption"
+            "src": "/images/companions/xavier/gameplay/king_of_darknight/outside_burst_buffs.png",
+            "alt": "gameplay.xavier.king_of_darknight.images.out_buffs.alt",
+            "caption": "gameplay.xavier.king_of_darknight.images.out_buffs.caption"
         },
         {
             "type": "image",
             "layout": "left",
-            "src": "/images/companions/caleb/gameplay/netherlord/icons.png",
+            "src": "/images/companions/xavier/gameplay/king_of_darknight/burst_icon.png",
             "alt": "gameplay.caleb.netherlord.images.mc_icons.alt",
             "caption": "gameplay.caleb.netherlord.images.mc_icons.caption"
         },
