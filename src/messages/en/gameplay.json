@@ -41,6 +41,18 @@
                 "out_buffs": {
                     "caption": "Buffs outside Darknight Reign",
                     "alt": "Buffs that are displayed outside the Burst"
+                },
+                "burst_icons": {
+                    "caption": "Buff icons inside Darknight Reign",
+                    "alt": "Buffs that are displayed inside the Burst"
+                },
+                "outside_burst_gif": {
+                    "caption": "Before entering Burst try to get all three flower buffs first",
+                    "alt": "Outside Burst rotation example"
+                },
+                "burst_gif": {
+                    "caption": "When entering the Burst try to spam Active Skill and his Support Skill as much as possible",
+                    "alt": "Burst rotation example"
                 }
             }
 

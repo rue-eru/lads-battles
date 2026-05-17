@@ -3,29 +3,31 @@
     "blocks": [
         {
             "type": "paragraph",
-            "content": "gameplay.xavier.king_of_darknight.paragraph_1",
+            "content": "gameplay.xavier.king_of_darknight.paragraph_1"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.xavier.king_of_darknight.ul_li_1",
             "layout": "bottom"
         },
         {
-            "type": "unorderedList",
-            "content": [
-                "gameplay.xavier.king_of_darknight.ul_li_1",
-                "gameplay.xavier.king_of_darknight.ul_li_2"
-            ]
-        },
-        {
             "type": "image",
-            "layout": "left",
+            "layout": "bottom",
             "src": "/images/companions/xavier/gameplay/king_of_darknight/outside_burst_buffs.png",
             "alt": "gameplay.xavier.king_of_darknight.images.out_buffs.alt",
             "caption": "gameplay.xavier.king_of_darknight.images.out_buffs.caption"
         },
         {
+            "type": "paragraph",
+            "content": "gameplay.xavier.king_of_darknight.ul_li_2",
+            "layout": "bottom"
+        },
+        {
             "type": "image",
             "layout": "left",
-            "src": "/images/companions/xavier/gameplay/king_of_darknight/burst_icon.png",
-            "alt": "gameplay.caleb.netherlord.images.mc_icons.alt",
-            "caption": "gameplay.caleb.netherlord.images.mc_icons.caption"
+            "src": "/images/companions/xavier/gameplay/king_of_darknight/burst_icons.png",
+            "alt": "gameplay.xavier.king_of_darknight.images.burst_icons.alt",
+            "caption": "gameplay.xavier.king_of_darknight.images.burst_icons.caption"
         },
         {
             "type": "paragraph",
@@ -46,9 +48,9 @@
         {
             "type": "image",
             "layout": "left",
-            "src": "/images/companions/caleb/gameplay/netherlord/icons.png",
-            "alt": "gameplay.caleb.netherlord.images.mc_icons.alt",
-            "caption": "gameplay.caleb.netherlord.images.mc_icons.caption"
+            "src": "/images/companions/xavier/gameplay/king_of_darknight/outside_burst.gif",
+            "alt": "gameplay.xavier.king_of_darknight.images.outside_burst_gif.alt",
+            "caption": "gameplay.xavier.king_of_darknight.images.outside_burst_gif.caption"
         },
         {
             "type": "paragraph",
@@ -86,13 +88,6 @@
             ]
         },
         {
-            "type": "image",
-            "layout": "left",
-            "src": "/images/companions/caleb/gameplay/netherlord/icons.png",
-            "alt": "gameplay.caleb.netherlord.images.mc_icons.alt",
-            "caption": "gameplay.caleb.netherlord.images.mc_icons.caption"
-        },
-        {
             "type": "paragraph",
             "content": "gameplay.xavier.king_of_darknight.paragraph_9",
             "layout": "bottom",
@@ -128,10 +123,10 @@
         },
         {
             "type": "image",
-            "layout": "left",
-            "src": "/images/companions/caleb/gameplay/netherlord/icons.png",
-            "alt": "gameplay.caleb.netherlord.images.mc_icons.alt",
-            "caption": "gameplay.caleb.netherlord.images.mc_icons.caption"
+            "layout": "bottom",
+            "src": "/images/companions/xavier/gameplay/king_of_darknight/burst.gif",
+            "alt": "gameplay.xavier.king_of_darknight.images.burst_gif.alt",
+            "caption": "gameplay.xavier.king_of_darknight.images.burst_gif.caption"
         },
         {
             "type": "paragraph",

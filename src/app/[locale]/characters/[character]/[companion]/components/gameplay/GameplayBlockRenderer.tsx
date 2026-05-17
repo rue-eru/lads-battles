@@ -23,7 +23,14 @@ export function GameplayBlockRenderer({
         alt: string;
     } | null>(null);
 
-
+    // for smaller images with important info being cut of on the display
+    const objPositionMap = {
+        left: 'object-left',
+        right: 'object-right',
+        top: 'object-top',
+        center: 'object-center'
+    } as const;
+    
     return(
         <>
             <div className="flex flex-col gap-12">
@@ -65,36 +72,41 @@ export function GameplayBlockRenderer({
                             </div>
                         )
 
-                    case 'image': 
-                        return (
-                            <figure
-                                key={blockKey}
-                                className={`flex flex-col ${styles.img_bg}`}
-                            >
-                                <div className={styles.imgHeight}>
-                                <Image
-                                    src={block.src}
-                                    alt={t(block.alt)}
-                                    fill
-                                    className={styles.imgFillContainer}
-                                    onClick={() => 
-                                        setOpenImage({
-                                            src: block.src,
-                                            alt: t(block.alt)
-                                        })
-                                    }
-                                    loading="lazy"
-                                    placeholder="blur"
-                                    blurDataURL={GENERIC_BLUR}
-                                />
-                                </div>
-                                {block.caption && (
-                                    <figcaption className={styles.figcaptionStyle}>
-                                        {t(block.caption)}
-                                    </figcaption>
-                                )}
-                            </figure>
-                        )
+                    case 'image': {
+
+                        const positionClass =
+                            block.layout ? objPositionMap[block.layout] : "object-center";
+                    
+                            return (
+                                <figure
+                                    key={blockKey}
+                                    className={`flex flex-col ${styles.img_bg}`}
+                                >
+                                    <div className={styles.imgHeight}>
+                                    <Image
+                                        src={block.src}
+                                        alt={t(block.alt)}
+                                        fill
+                                        className={`${styles.imgFillContainer} ${positionClass}`}
+                                        onClick={() => 
+                                            setOpenImage({
+                                                src: block.src,
+                                                alt: t(block.alt)
+                                            })
+                                        }
+                                        loading="lazy"
+                                        placeholder="blur"
+                                        blurDataURL={GENERIC_BLUR}
+                                    />
+                                    </div>
+                                    {block.caption && (
+                                        <figcaption className={styles.figcaptionStyle}>
+                                            {t(block.caption)}
+                                        </figcaption>
+                                    )}
+                                </figure>
+                            )
+                        }
 
                     case 'imageGroupSharedCaption':
                         return (
@@ -148,13 +160,6 @@ export function GameplayBlockRenderer({
                                 {/*everything maps alltogether*/}
 
                                 {block.images.map((img) => {
-                                    // for smaller images with important info being cut of on the display
-                                    const objPositionMap = {
-                                        left: 'object-left',
-                                        right: 'object-right',
-                                        top: 'object-top',
-                                        center: 'object-center'
-                                    } as const;
 
                                     const positionClass =
                                         img.layout ? objPositionMap[img.layout] : "object-center";

@@ -32,6 +32,7 @@ export type GameplayBlock =
         alt: string;
         caption: string;
         id: string;
+        layout?: 'left' | 'right' | 'top' | 'center';
     }
     |{
         type: 'imageGroupSharedCaption';

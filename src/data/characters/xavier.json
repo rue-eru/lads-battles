@@ -14,8 +14,8 @@
             "rarity": "★★★★★",
             "role": "dps_burst_single",
             "scaling": "hp",
-            "best": "",
-            "specialty": "",
+            "best": "single_target",
+            "specialty": "hp_scaling_dps",
             "unlock": "limited_banner"
         }
     ]

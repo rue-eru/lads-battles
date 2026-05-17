@@ -61,7 +61,8 @@
     "burst_single_pull": "Burst | Single-target | Pull",
     "sustained_buff_aoe": "Sustained | Buff | AoE",
     "dps_aoe_empower": "DPS | AoE | Empower",
-    "dps_heal_single": "DPS | Heal | Single-target"
+    "dps_heal_single": "DPS | Heal | Single-target",
+    "dps_burst_single": "DPS | Burst | Single-target"
   },
   "scaling": {
     "atk": "ATK",
@@ -86,6 +87,7 @@
     "atk_buff": "ATK Buff",
     "heal_debuff": "Heal, Debuff",
     "debuff": "Debuff",
-    "heal_dmg_reduction": "Heal and DMG Reduction"
+    "heal_dmg_reduction": "Heal and DMG Reduction",
+    "hp_scaling_dps": "HP-Scaling DPS"
   }
 }
