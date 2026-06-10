@@ -16,6 +16,14 @@
                 "r3": "The team deals 8% more DMG. When you create [Radiant Ripples], Xavier will also create [Radiant Ripples]. While [Darknight Reign] is active, each time [Radiant Ripples] undulate, [Lumenflora]'s damage increases by 6%, up to 36%. This damage boost effect is cleared when [Darknight Reign] ends."
             }
         },
+        "zayne": {
+            "god_of_annihilation": {
+                "r0": "The team deals 8% more DMG and takes 8% less DMG. Zayne: Diviner's Hymn DN When fighting alongside God of Annihilation, you become unstoppable during Charged Attacks and take 40% less DMG. While awakened as [Deity of Niava], you and Zayne deal 8% additional DMG.",
+                "r1": "Increases Ardent Oath charge by 20%. During the [Deity of Niava] state, your Basic Attacks can also shatter enemies' [Soul Rifts] on hit. Additionally, when your Active Skill hits an enemy for the first time, if that enemy has no [Soul Rift], their [Soul Rift] will be revealed again. [Divine Sever] creates an additional array that continuously pulls in nearby enemies. After a period of time, the array explodes, dealing AoE DMG equal to 242+129% ATK+11.6% of Max HP.",
+                "r2": "Energy Charge limit is raised by 1. When fighting alongside God of Annihilation, your Active Skill DMG is increased by 20%. When you shatter [Soul Rifts], you and Zayne each restore HP equal to 5% of Max HP.",
+                "r3": "The team deals 8% more DMG. Enemies hit by [Terminus Arrow] or [Divine Sever] take 30% more DMG for 4s. When you load [Golden Arrows] with Basic Attacks, you will gain 1 additional [Golden Arrow]."
+            }
+        },
         "rafayel": {
             "abysswalker": {
                 "r0": "Starting Effect: The team deals 8% more DMG and takes 8% less DMG. Abysswalker's [Deepsea Pursuit] gains 30% additional [CRIT DMG].",

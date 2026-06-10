@@ -5,6 +5,18 @@
         { "id": "dawnbreaker", "nameKey": "zayne.dawnbreaker"},
         { "id": "foreseer", "nameKey": "zayne.foreseer"},
         { "id": "master_of_fate", "nameKey": "zayne.master_of_fate"},
-        { "id": "god_of_annihilation", "nameKey": "zayne.god_of_annihilation"}
+        { 
+            "id": "god_of_annihilation", 
+            "nameKey": "zayne.god_of_annihilation",
+            "type": "solar",
+            "stellactrum": "pearl",
+            "solarPair": "goa",
+            "rarity": "★★★★★",
+            "role": "",
+            "scaling": "",
+            "best": "",
+            "specialty": "",
+            "unlock": "limited_banner"        
+        }
     ] 
 }
