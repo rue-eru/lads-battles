@@ -44,7 +44,7 @@
                     "description": "Xavier thrusts his sword into the Sinders, summoning a sea of Lumenflora. You bless him as he wields a giant sword to strike enemies."
                 },
                 "passive_skill": {
-                    "name": "Coronation !!!",
+                    "name": "Coronation",
                     "description": "Upon entering battle, you gain an additional skill [Darknight Coronation]. After casting it, you and Xavier enter the [Darknight Reign] state for 9s (30s cooldown)."
                 },
                 "basic_attack": {
@@ -58,6 +58,38 @@
                 "active_skill": {
                     "name": "Final Elegy",
                     "description": "Wields Final Resound to sing an elegy, dealing AoE damage. Within 2.7s of casting, if you have at least 1 stack of [Last Words], you may cast again with enhanced damage."
+                }
+            }
+        },
+        "zayne": {
+            "god_of_annihilation": {
+                "support_skill": {
+                    "name": "Endbringer Arrow",
+                    "description": "Zayne fires a piercing arrow that explodes on first hit. Cannot be used during [Deity of Niava] state."
+                },
+                "resonance_skill": {
+                    "name": "Divinity Order",
+                    "description": "Zayne gathers nearby enemies while you ready [Divine Grip]. Transforms resonance into divine arrows dealing AoE damage."
+                },
+                "ardent_oath": {
+                    "name": "Aengru Radiance",
+                    "description": "You and Zayne enter the Aengru Field, forming a divine golden bow. Unleash a final devastating strike."
+                },
+                "passive_skill": {
+                    "name": "Fateful Bond",
+                    "description": "Starting state: Zayne has 3 [Divine Shackles]. You need to remove them using [Golden Arrows]."
+                },
+                "basic_attack": {
+                    "name": "Order Rupture",
+                    "description": "A 4‑hit combo. Charged Attack delivers two slashes; the second slash applies [Rupture Mark] (DoT for 2s)."
+                },
+                "my_passive_skill": {
+                    "name": "Divine Slash",
+                    "description": "You are resistant to interruption. During Active Skill, unstoppable + 40% less damage."
+                },
+                "active_skill": {
+                    "name": "Divine Judgment",
+                    "description": "Thrust forward dealing damage. After thrusting, hold Basic Attack to chain into a Charged Attack. Within 4s after casting [Divine Judgment], it becomes [Divine Slash] (free, no Energy Cost) — swing forward, leap, and slam the ground while firing all [Golden Arrows] at the target."
                 }
             }
         },

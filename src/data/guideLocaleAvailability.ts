@@ -1,8 +1,10 @@
     export const guideLocales: Record<string, string[]> = {
 
-      // Xavier
+      // XAVIER
       'king_of_darknight': ['en'],
 
+      // ZAYNE
+      'god_of_annihilation': ['en'],
       
       // RAFAYEL
       'artist': ['en', 'ru', 'ja'],
