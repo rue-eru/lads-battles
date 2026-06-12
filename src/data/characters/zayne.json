@@ -12,10 +12,10 @@
             "stellactrum": "pearl",
             "solarPair": "goa",
             "rarity": "★★★★★",
-            "role": "",
-            "scaling": "",
-            "best": "",
-            "specialty": "",
+            "role": "dps_burst_empower",
+            "scaling": "atk_hp",
+            "best": "multi_target",
+            "specialty": "burst_transformation",
             "unlock": "limited_banner"        
         }
     ] 
