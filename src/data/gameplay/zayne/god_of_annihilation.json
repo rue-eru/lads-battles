@@ -1,8 +1,136 @@
 {
-    "type": "",
-    "summaryKey": "",
-    "tipsKey": "",
-    "images": [
-
+    "type": "solar",
+    "blocks": [
+        {
+            "type": "paragraph",
+            "content": "gameplay.zayne.god_of_annihilation.paragraph_1"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.zayne.god_of_annihilation.paragraph_2",
+            "layout": "bottom",
+            "highlight": "yes"
+        },
+        {
+            "type": "paragraph",
+            "layout": "bottom",
+            "content": "gameplay.zayne.god_of_annihilation.paragraph_3"
+        },
+        {
+            "type": "orderedList",
+            "content": [
+                "gameplay.zayne.god_of_annihilation.li_1",
+                "gameplay.zayne.god_of_annihilation.li_2",
+                "gameplay.zayne.god_of_annihilation.li_3",
+                "gameplay.zayne.god_of_annihilation.li_4",
+                "gameplay.zayne.god_of_annihilation.li_5",
+                "gameplay.zayne.god_of_annihilation.li_6",
+                "gameplay.zayne.god_of_annihilation.li_7"
+            ]
+        },
+        {
+            "type": "paragraph",
+            "layout": "bottom",
+            "content": "gameplay.zayne.god_of_annihilation.paragraph_4"
+        },
+        {
+            "type": "image",
+            "layout": "bottom",
+            "src": "/images/companions/xavier/gameplay/king_of_darknight/burst.gif",
+            "alt": "gameplay.xavier.king_of_darknight.images.burst_gif.alt",
+            "caption": "gameplay.xavier.king_of_darknight.images.burst_gif.caption"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.zayne.god_of_annihilation.paragraph_5",
+            "layout": "bottom",
+            "highlight": "yes"
+        },
+        {
+            "type": "paragraph",
+            "layout": "bottom",
+            "content": "gameplay.zayne.god_of_annihilation.paragraph_6"
+        },
+        {
+            "type": "paragraph",
+            "layout": "bottom",
+            "content": "gameplay.zayne.god_of_annihilation.paragraph_7"
+        },
+        {
+            "type": "unorderedList",
+            "content": [
+                "gameplay.zayne.god_of_annihilation.ul_li_1",
+                "gameplay.zayne.god_of_annihilation.ul_li_2",
+                "gameplay.zayne.god_of_annihilation.ul_li_3",
+                "gameplay.zayne.god_of_annihilation.ul_li_4",
+                "gameplay.zayne.god_of_annihilation.ul_li_5"
+            ]
+        },
+        {
+            "type": "image",
+            "layout": "bottom",
+            "src": "/images/companions/xavier/gameplay/king_of_darknight/burst.gif",
+            "alt": "gameplay.xavier.king_of_darknight.images.burst_gif.alt",
+            "caption": "gameplay.xavier.king_of_darknight.images.burst_gif.caption"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.zayne.god_of_annihilation.paragraph_8",
+            "layout": "bottom",
+            "highlight": "yes"
+        },
+        {
+            "type": "paragraph",
+            "layout": "bottom",
+            "content": "gameplay.zayne.god_of_annihilation.paragraph_9"
+        },
+        {
+            "type": "paragraph",
+            "layout": "bottom",
+            "content": "gameplay.zayne.god_of_annihilation.paragraph_10"
+        },
+        {
+            "type": "rotationList",
+            "content": [
+                "gameplay.zayne.god_of_annihilation.rotation_1",
+                "gameplay.zayne.god_of_annihilation.rotation_2",
+                "gameplay.zayne.god_of_annihilation.rotation_3"
+            ]
+        },
+        {
+            "type": "paragraph",
+            "layout": "bottom",
+            "content": "gameplay.zayne.god_of_annihilation.paragraph_11"
+        },
+        {
+            "type": "paragraph",
+            "layout": "bottom",
+            "content": "gameplay.zayne.god_of_annihilation.paragraph_12"
+        },
+        {
+            "type": "image",
+            "layout": "bottom",
+            "src": "/images/companions/xavier/gameplay/king_of_darknight/burst.gif",
+            "alt": "gameplay.xavier.king_of_darknight.images.burst_gif.alt",
+            "caption": "gameplay.xavier.king_of_darknight.images.burst_gif.caption"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.zayne.god_of_annihilation.paragraph_13",
+            "layout": "bottom",
+            "highlight": "yes"
+        },
+        {
+            "type": "rotationList",
+            "content": [
+                "gameplay.zayne.god_of_annihilation.rotation_4",
+                "gameplay.zayne.god_of_annihilation.rotation_5",
+                "gameplay.zayne.god_of_annihilation.rotation_6",
+                "gameplay.zayne.god_of_annihilation.rotation_7",
+                "gameplay.zayne.god_of_annihilation.rotation_8",
+                "gameplay.zayne.god_of_annihilation.rotation_9"
+            ]
+        }
+ 
     ]
 }

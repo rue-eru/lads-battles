@@ -10,10 +10,10 @@
             "paragraph_1": "King of Darknight is a controlled, methodical companion who cycles between two phases:",
             "ul_li_1": "Outside [Darknight Reign]: Build [Last Words] stacks → consume them with [Final Elegy] (Active Skill) to gain [Lumenflora Stamen] and reduce Reign cooldown.",
             "ul_li_2": "Inside [Darknight Reign]: Spend your [Stamens] to reduce initial cooldown of your special Active Skill [The Chosen One's Blessing], then spam it and the empowered Support Skill [Royal Seal] for burst damage.",
-            "paragraph_3": "Outside [Darknight Reign] — The Setup Phase",
-            "li_1": "Accumulate [Last Words] — wait for passive generation OR use [Royal Seal] (Support Skill) to get 1 stack instantly.",
-            "li_2": "Cast [Final Elegy] (Active Skill) — consumes 1 [Last Words] → reduces [Darknight Coronation] cooldown by 4s → gives 1 [Lumenflora Stamen].",
-            "li_3": "Within 2.7s, cast [Final Elegy] again (enhanced version) — consumes another [Last Words] → another stack.",
+            "paragraph_3": "Outside [Darknight Reign] | The Setup Phase",
+            "li_1": "Accumulate [Last Words]: wait for passive generation OR use [Royal Seal] (Support Skill) to get 1 stack instantly.",
+            "li_2": "Cast [Final Elegy] (Active Skill): consumes 1 [Last Words] → reduces [Darknight Coronation] cooldown by 4s → gives 1 [Lumenflora Stamen].",
+            "li_3": "Within 2.7s, cast [Final Elegy] again (enhanced version) it consumes another [Last Words] → another stack.",
             "li_4": "Repeat until you have 3 [Stamens] and [Darknight Coronation] is ready.",
             "paragraph_4": "Entering [Darknight Reign]",
             "paragraph_5": "Best timing: When the enemy's shield is broken or nearly broken. Press the [Darknight Coronation] button.",
@@ -23,14 +23,14 @@
             "ul_li_3": "Your Active Skill becomes [The Chosen One's Blessing]",
             "ul_li_4": "[Royal Seal] becomes empowered (cannot trigger the normal empowered version, but blooms extra Lumenflora)",
             "ul_li_5": "Each [Lumenflora Stamen] you have reduces the initial cooldown of [The Chosen One's Blessing] by 3.4s (up to 10.2s with 3 stacks)",
-            "paragraph_9": "Inside [Darknight Reign] — The Burst Phase",
+            "paragraph_9": "Inside [Darknight Reign] | The Burst Phase",
             "paragraph_10": "Goal: Spam [The Chosen One's Blessing] and [Royal Seal] as many times as possible within 9 seconds.",
             "rotationstring": "[The Chosen One's Blessing] ⇨ [Royal Seal] ⇨ [The Chosen One's Blessing] ⇨ [Royal Seal] ⇨ repeat",
             "ul_li_6": "[The Chosen One's Blessing] creates [Radiant Ripples] under you (AoE damage). Can be cast up to 3 times per Reign.",
             "ul_li_7": "[Royal Seal] blooms additional Lumenflora, dealing big AoE damage.",
             "paragraph_11": "At R1+: During Reign, you become unstoppable and [Radiant Ripples] damage increases by 40%. The Support Skill cooldown resets when you create Ripples.",
             "paragraph_12": "At R3: Xavier also creates [Radiant Ripples] when you do, and each Ripple undulation increases [Lumenflora] damage by 6% (up to 36%) during Reign.",
-            "paragraph_13": "",
+            "paragraph_13": "Complete Rotation",
             "rotation_1": "OUTSIDE REIGN: Build [Last Words] (wait or use [Royal Seal]) ⇨ [Final Elegy] (consumes 1) ⇨ Enhanced [Final Elegy] (consumes another) ⇨ repeat until 3 [Stamens] and [Darknight Coronation] ready",
             "rotation_2": "WAIT for enemy shield to break (or almost break)",
             "rotation_3": "PRESS [Darknight Coronation] ⇨ ENTER REIGN (9 seconds)",
@@ -58,6 +58,46 @@
 
         }
     },
+
+    "zayne": {
+        "god_of_annihilation": {
+            "paragraph_1": "God of Annihilation is a resource stacking & burst transformation companion. You build [Golden Arrows] through [Basic Attack]s, fire them with [Charged Attack] to stack [Arrow Mark], remove Zayne's [Divine Shackles], then enter [Deity of Niava] for 10 seconds of empowered damage.",
+            "paragraph_2": "Outside [Deity of Niava] | Setup Phase",
+            "paragraph_3": "Goal: Remove 3 [Divine Shackles] as fast as possible.",
+            "li_1": "[Basic Attack] (any hit) → loads 1 [Golden Arrow]",
+            "li_2": "Repeat until you have 4 [Golden Arrows]",
+            "li_3": "[Charged Attack] → fires all arrows → each hit applies [Arrow Mark]",
+            "li_4": "At 4 stacks → [Arrow Mark] consumed → removes 1 shackle + Zayne fires [Terminus Arrow] (heals!)",
+            "li_5": "[Active Skill] ([Divine Judgment]) → converts any [Remnant Feathers] back to arrows",
+            "li_6": "Within 4s, use free [Divine Slash] (no Energy cost) → fires all arrows again",
+            "li_7": "Repeat steps 1-6 until all 3 shackles are gone",
+            "paragraph_4": "Pro tip: Use [Divinity Order] ([Resonance Skill]) to gather enemies so your [Charged Attack] hits multiple at once.",
+            "paragraph_5": "Entering [Deity of Niava]",
+            "paragraph_6": "Duration: 10 seconds",
+            "paragraph_7": "What changes:",
+            "ul_li_1": "Enemies' [Soul Rifts] become visible",
+            "ul_li_2": "Your [Charged Attack] shatters [Soul Rifts] for big damage",
+            "ul_li_3": "[Endbringer Arrow] becomes [Divine Sever] (counts as [Charged Attack] damage)",
+            "ul_li_4": "[Soul Rifts] reappear 6s after being shattered",
+            "ul_li_5": "You and Zayne deal +8% DMG (from Starting Effect)",
+            "paragraph_8": "Inside [Deity of Niava] | Burst Phase",
+            "paragraph_9": "Goal: Shatter as many [Soul Rifts] as possible within 10 seconds.",
+            "paragraph_10": "The loop:",
+            "rotation_1": "[Charged Attack] → shatter [Soul Rift] → bonus damage",
+            "rotation_2": "[Divine Sever] (refresh by shattering) → deals [Charged Attack] damage",
+            "rotation_3": "Repeat ↺",
+            "paragraph_11": "At R1+: [Basic Attack]s can also shatter [Soul Rifts]. [Divine Sever] creates an extra array that pulls enemies and explodes.",
+            "paragraph_12": "At R3: Enemies hit by [Terminus Arrow] or [Divine Sever] take 30% more damage for 4s.",
+            "paragraph_13": "Complete Rotation",
+            "rotation_4": "[Basic Attack] → gain [Golden Arrows] (max 4)",
+            "rotation_5": "[Charged Attack] → fire all arrows → apply [Arrow Mark]",
+            "rotation_6": "4x [Arrow Mark] → removes 1 [Divine Shackle] + triggers [Terminus Arrow]",
+            "rotation_7": "Repeat until 0 shackles → [Bind Gaze] available",
+            "rotation_8": "Cast [Bind Gaze] → enter [Deity of Niava] (10s)",
+            "rotation_9": "During [Deity of Niava]: [Charged Attack] → shatter [Soul Rifts] for bonus damage"
+        }
+    },
+
     "rafayel": {
         "artist": {
             "paragraph": 
@@ -287,7 +327,7 @@
             "paragraph_11": "[Ardent Oath] is best used during the enemy’s weakened state (after breaking their shield), and [Fate Unforgotten] is no exception, but it has its own mechanics. During the animation: 3 [Dustbreak] buttons appear. Tap each at the right moment:",
             "li_10": "Each perfect = 5% Max HP heal to you and Caleb",
             "li_11": "All 3 perfect = 20% DMG reduction for 15s",
-            "paragraph_12": "At R3: This ultimate can crit — huge damage increase.",
+            "paragraph_12": "At R3: This ultimate can crit is a huge damage increase.",
             "images": {
                 "mc_icons": {
                     "caption": "Only MC gets icons in battle with Netherlord. They can be found right above MC's HP bar. Icon in blue shows that Union Phase is up, in pink - in possesion of a Seed, in green - Sword Stance.",

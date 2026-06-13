@@ -69,7 +69,7 @@
     "atk": "ATK",
     "hp": "HP",
     "def": "DEF",
-    "atk_hp": "ATK & HP"
+    "atk_hp": "ATK + HP"
   },
   "unlock": {
     "obtain_one_memory": "Obtain one memory",
