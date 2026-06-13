@@ -5,11 +5,19 @@
             "type": "paragraph",
             "content": "gameplay.zayne.god_of_annihilation.paragraph_1"
         },
+        
         {
             "type": "paragraph",
             "content": "gameplay.zayne.god_of_annihilation.paragraph_2",
             "layout": "bottom",
             "highlight": "yes"
+        },
+        {
+            "type": "image",
+            "layout": "bottom",
+            "src": "/images/companions/zayne/gameplay/god_of_annihilation/indicators.png",
+            "alt": "gameplay.zayne.god_of_annihilation.images.indicators.alt",
+            "caption": "gameplay.zayne.god_of_annihilation.images.indicators.caption"
         },
         {
             "type": "paragraph",
@@ -36,9 +44,9 @@
         {
             "type": "image",
             "layout": "bottom",
-            "src": "/images/companions/xavier/gameplay/king_of_darknight/burst.gif",
-            "alt": "gameplay.xavier.king_of_darknight.images.burst_gif.alt",
-            "caption": "gameplay.xavier.king_of_darknight.images.burst_gif.caption"
+            "src": "/images/companions/zayne/gameplay/god_of_annihilation/niava_set.png",
+            "alt": "gameplay.zayne.god_of_annihilation.images.niava_set.alt",
+            "caption": "gameplay.zayne.god_of_annihilation.images.niava_set.caption"
         },
         {
             "type": "paragraph",
@@ -69,9 +77,9 @@
         {
             "type": "image",
             "layout": "bottom",
-            "src": "/images/companions/xavier/gameplay/king_of_darknight/burst.gif",
-            "alt": "gameplay.xavier.king_of_darknight.images.burst_gif.alt",
-            "caption": "gameplay.xavier.king_of_darknight.images.burst_gif.caption"
+            "src": "/images/companions/zayne/gameplay/god_of_annihilation/outside_niava.gif",
+            "alt": "gameplay.zayne.god_of_annihilation.images.outside_niava.alt",
+            "caption": "gameplay.zayne.god_of_annihilation.images.outside_niava.caption"
         },
         {
             "type": "paragraph",
@@ -110,9 +118,9 @@
         {
             "type": "image",
             "layout": "bottom",
-            "src": "/images/companions/xavier/gameplay/king_of_darknight/burst.gif",
-            "alt": "gameplay.xavier.king_of_darknight.images.burst_gif.alt",
-            "caption": "gameplay.xavier.king_of_darknight.images.burst_gif.caption"
+            "src": "/images/companions/zayne/gameplay/god_of_annihilation/inside_niava.gif",
+            "alt": "gameplay.zayne.god_of_annihilation.images.inside_niava.alt",
+            "caption": "gameplay.zayne.god_of_annihilation.images.inside_niava.caption"
         },
         {
             "type": "paragraph",

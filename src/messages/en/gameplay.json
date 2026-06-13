@@ -94,7 +94,25 @@
             "rotation_6": "4x [Arrow Mark] → removes 1 [Divine Shackle] + triggers [Terminus Arrow]",
             "rotation_7": "Repeat until 0 shackles → [Bind Gaze] available",
             "rotation_8": "Cast [Bind Gaze] → enter [Deity of Niava] (10s)",
-            "rotation_9": "During [Deity of Niava]: [Charged Attack] → shatter [Soul Rifts] for bonus damage"
+            "rotation_9": "During [Deity of Niava]: [Charged Attack] → shatter [Soul Rifts] for bonus damage",
+            "images": {
+                "indicators": {
+                    "alt": "icons to pay attention during the buttle",
+                    "caption": "Pay attention to these during the Setup Phase"
+                },
+                "niava_set": {
+                    "alt": "indicators of Deity of Niava readiness",
+                    "caption": "When all shackles are removed → Bind Gaze button appears → press it to activate Deity of Niava Phase"
+                },
+                "outside_niava": {
+                    "alt": "pre Deity of Niava rotation showcase",
+                    "caption": "The rotation: Basic x4 → Charged → Terminus Arrow → Active → Divine Slash"
+                },
+                "inside_niava": {
+                    "alt": "Deity of Niava rotation showcase",
+                    "caption": "The Rotation inside Deity of Niava: Charged Attack → shatter → Divine Sever → shatter → repeat"
+                }
+            }
         }
     },
 
