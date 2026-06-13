@@ -290,6 +290,9 @@ export const GLOSSARY: Record<string, GlossaryTermProps> = {
         label: 'stellactrum_match.labelKey',
         description: 'stellactrum_match.descriptionKey',  
     },
+
+
+    //Caleb: Netherlord
     "Bingdi Lotus": {
         key: "Bingdi Lotus",
         label: 'bingdi_lotus.labelKey',
@@ -402,6 +405,8 @@ export const GLOSSARY: Record<string, GlossaryTermProps> = {
         description: 'azure_cleave.descriptionKey',
         link: "#basicAttack"
     },
+
+    // Xavier: King of Darknight
     "Darknight Reign": {
         key: "Darknight Reign",
         label: 'darknight_reign.labelKey',
@@ -482,5 +487,115 @@ export const GLOSSARY: Record<string, GlossaryTermProps> = {
         key: "Procession",
         label: 'procession.labelKey',
         description: 'procession.descriptionKey',
+    },
+
+    // Zayne: God of Annihilation
+    "Deity of Niava": {
+        key: "Deity of Niava",
+        label: 'deity_of_niava.labelKey',
+        description: 'deity_of_niava.descriptionKey',
+    },
+    "Divine Shackles": {
+        key: "Divine Shackles",
+        label: 'divine_shackles.labelKey',
+        description: 'divine_shackles.descriptionKey',
+    },
+    "Golden Arrows": {
+        key: "Golden Arrows",
+        label: 'golden_arrows.labelKey',
+        description: 'golden_arrows.descriptionKey',
+    },
+    "Remnant Feather": {
+        key: "Remnant Feather",
+        label: 'remnant_feather.labelKey',
+        description: 'remnant_feather.descriptionKey',
+    },
+    "Remnant Feathers": {
+        key: "Remnant Feathers",
+        label: 'remnant_feathers.labelKey',
+        description: 'remnant_feathers.descriptionKey',
+    },
+    "Arrow Mark": {
+        key: "Arrow Mark",
+        label: 'arrow_mark.labelKey',
+        description: 'arrow_mark.descriptionKey',
+    },
+    "Terminus Arrow": {
+        key: "Terminus Arrow",
+        label: 'terminus_arrow.labelKey',
+        description: 'terminus_arrow.descriptionKey',
+        link: "#supportSkill"
+    },
+    "Soul Rift": {
+        key: "Soul Rift",
+        label: 'soul_rift.labelKey',
+        description: 'soul_rift.descriptionKey',
+    },
+    "Soul Rifts": {
+        key: "Soul Rifts",
+        label: 'soul_rifts.labelKey',
+        description: 'soul_rifts.descriptionKey',
+    },
+    "Divine Sever": {
+        key: "Divine Sever",
+        label: 'divine_sever.labelKey',
+        description: 'divine_sever.descriptionKey',
+        link: "#supportSkill"
+    },
+    "Bind Gaze": {
+        key: "Bind Gaze",
+        label: 'bind_gaze.labelKey',
+        description: 'bind_gaze.descriptionKey',
+    },
+    "Rupture Mark": {
+        key: "Rupture Mark",
+        label: 'rupture_mark.labelKey',
+        description: 'rupture_mark.descriptionKey',
+    },
+    "Order Rupture": {
+        key: "Order Rupture",
+        label: 'order_rupture.labelKey',
+        description: 'order_rupture.descriptionKey',
+        link: "#basicAttack"
+    },
+    "Divine Judgment": {
+        key: "Divine Judgment",
+        label: 'divine_judgment.labelKey',
+        description: 'divine_judgment.descriptionKey',
+        link: "#activeSkill"
+    },
+    "Divine Slash": {
+        key: "Divine Slash",
+        label: 'divine_slash.labelKey',
+        description: 'divine_slash.descriptionKey',
+        link: "#activeSkill"
+    },
+    "Endbringer Arrow": {
+        key: "Endbringer Arrow",
+        label: 'endbringer_arrow.labelKey',
+        description: 'endbringer_arrow.descriptionKey',
+        link: "#supportSkill"
+    },
+    "Divinity Order": {
+        key: "Divinity Order",
+        label: 'divinity_order.labelKey',
+        description: 'divinity_order.descriptionKey',
+        link: "#resonanceSkill"
+    },
+    "Aengru Radiance": {
+        key: "Aengru Radiance",
+        label: 'aengru_radiance.labelKey',
+        description: 'aengru_radiance.descriptionKey',
+        link: "#ardentOath"
+    },
+    "Fateful Bond": {
+        key: "Fateful Bond",
+        label: 'fateful_bond.labelKey',
+        description: 'fateful_bond.descriptionKey',
+    },
+    "Divine Grip": {
+        key: "Divine Grip",
+        label: 'divine_grip.labelKey',
+        description: 'divine_grip.descriptionKey',
     },
 }

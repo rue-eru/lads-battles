@@ -1,45 +1,40 @@
 {
     "his_skills": {
         "support_skill": {
-            "name_key": "",
-            "cooldown": "",
-            "description_key": "",
-            "terms": [""]
+            "name_key": "skills.our_skills.zayne.god_of_annihilation.support_skill.name",
+            "cooldown": "10",
+            "description_key": "skills.our_skills.zayne.god_of_annihilation.support_skill.description"
         },
         "resonance_skill": {
-            "name_key": "",
-            "cooldown": "",
-            "cost": "",
-            "description_key": "",
-            "terms": [""]
+            "name_key": "skills.our_skills.zayne.god_of_annihilation.resonance_skill.name",
+            "cooldown": "15",
+            "cost": "2",
+            "description_key": "skills.our_skills.zayne.god_of_annihilation.resonance_skill.description"
         },
         "ardent_oath": {
-            "name_key": "",
-            "description_key": ""
+            "name_key": "skills.our_skills.zayne.god_of_annihilation.ardent_oath.name",
+            "description_key": "skills.our_skills.zayne.god_of_annihilation.ardent_oath.description"
         },
         "passive_skill": {
-            "name_key": "",
-            "description_key": "",
-            "terms": [""]
+            "name_key": "skills.our_skills.zayne.god_of_annihilation.passive_skill.name",
+            "description_key": "skills.our_skills.zayne.god_of_annihilation.passive_skill.description"
         }
     },
     "my_skills": {
-        "weapon_key": "",
+        "weapon_key": "weapons.exclusive_weapons.divine_grip.name",
         "basic_attack": {
-            "name_key": "",
-            "description_key": ""
+            "name_key": "skills.our_skills.zayne.god_of_annihilation.basic_attack.name",
+            "description_key": "skills.our_skills.xavier.king_of_darknight.basic_attack.description"
         },
         "passive_skill": {
-            "name_key": "",
-            "description_key": "",
-            "terms": [""]
+            "name_key": "skills.our_skills.zayne.god_of_annihilation.my_passive_skill.name",
+            "description_key": "skills.our_skills.zayne.god_of_annihilation.my_passive_skill.description"
         },
         "active_skill": {
-            "name_key": "",
-            "cooldown": "",
-            "cost": "",
-            "description_key": "",
-            "terms": [""]
+            "name_key": "skills.our_skills.zayne.god_of_annihilation.active_skill.name",
+            "cooldown": "10",
+            "cost": "1",
+            "description_key": "skills.our_skills.zayne.god_of_annihilation.active_skill.description"
         }
     }
 }

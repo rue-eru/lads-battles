@@ -61,13 +61,15 @@
     "burst_single_pull": "Burst | Single-target | Pull",
     "sustained_buff_aoe": "Sustained | Buff | AoE",
     "dps_aoe_empower": "DPS | AoE | Empower",
+    "dps_burst_empower": "DPS | Burst | Empower",
     "dps_heal_single": "DPS | Heal | Single-target",
     "dps_burst_single": "DPS | Burst | Single-target"
   },
   "scaling": {
     "atk": "ATK",
     "hp": "HP",
-    "def": "DEF"
+    "def": "DEF",
+    "atk_hp": "ATK + HP"
   },
   "unlock": {
     "obtain_one_memory": "Obtain one memory",
@@ -88,6 +90,7 @@
     "heal_debuff": "Heal, Debuff",
     "debuff": "Debuff",
     "heal_dmg_reduction": "Heal and DMG Reduction",
-    "hp_scaling_dps": "HP-Scaling DPS"
+    "hp_scaling_dps": "HP-Scaling DPS",
+    "burst_transformation": "Burst Transformation"
   }
 }

@@ -189,6 +189,11 @@
         "descriptionKey": "Hunter Claymore's special ability. On 3 stacks greatly empowers your Active Skill allowing you to skip the charge stage.",
         "labelKey": "Gathering Stacks"
     },
+
+
+
+
+    
     "bingdi_lotus": {
         "descriptionKey": "A two-part mark applied to enemies. Consists of Yin and Yang halves. When both halves are on the same enemy, they merge and trigger a Bloom.",
         "labelKey": "Bingdi Lotus"
@@ -273,6 +278,12 @@
         "descriptionKey": "Netherlord's basic attack. A 3-hit combo. The final hit applies a random Bingdi Lotus half. After the third hit, you enter Sword Stance.",
         "labelKey": "Azure Cleave"
     },
+
+
+
+
+
+
     "darknight_reign": {
         "labelKey": "Darknight Reign",
         "descriptionKey": "Xavier's 9-second empowered state. Activated by Darknight Coronation. Your Active Skill changes to The Chosen One's Blessing, and Xavier deals bonus damage."
@@ -328,5 +339,89 @@
     "procession": {
         "labelKey": "Procession",
         "descriptionKey": "King of Darknight's Passive Skill. First Active Skill hit recovers 0.45 Energy. During Darknight Reign, damage dealt and DMG Boost to Weakened are increased by 8%."
+    },
+
+
+
+
+    "deity_of_niava": {
+        "labelKey": "Deity of Niava",
+        "descriptionKey": "Zayne's 10-second empowered state. Enter by removing all 3 Divine Shackles and casting Bind Gaze. During this state, Soul Rifts are revealed and can be shattered with Charged Attacks."
+    },
+    "divine_shackles": {
+        "labelKey": "Divine Shackles",
+        "descriptionKey": "Zayne's starting debuff (3 stacks). Remove them by stacking Arrow Marks on enemies. When all shackles are removed, Bind Gaze becomes available."
+    },
+    "golden_arrows": {
+        "labelKey": "Golden Arrows",
+        "descriptionKey": "Resource loaded by Basic Attacks (max 4). Fired by Charged Attack. Each hit leaves an Arrow Mark on the enemy."
+    },
+    "remnant_feather": {
+        "labelKey": "Remnant Feather",
+        "descriptionKey": "Left behind by fired Golden Arrows. Lasts 5 seconds. Converted back to Golden Arrows when your Active Skill hits an enemy."
+    },
+    "remnant_feathers": {
+        "labelKey": "Remnant Feathers",
+        "descriptionKey": "Left behind by fired Golden Arrows. Lasts 5 seconds. Converted back to Golden Arrows when your Active Skill hits an enemy."
+    },
+    "arrow_mark": {
+        "labelKey": "Arrow Mark",
+        "descriptionKey": "Stacks on enemies from Golden Arrow hits (max 4 stacks). At maximum stacks, removes 1 Divine Shackle and triggers Terminus Arrow."
+    },
+    "terminus_arrow": {
+        "labelKey": "Terminus Arrow",
+        "descriptionKey": "Zayne's follow-up attack when Arrow Mark reaches max stacks. Deals damage and restores 5% Max HP to both you and Zayne."
+    },
+    "soul_rift": {
+        "labelKey": "Soul Rift",
+        "descriptionKey": "Revealed on enemies during Deity of Niava state. Shatter with Charged Attack for bonus damage. Reappears 6s after being shattered."
+    },
+    "soul_rifts": {
+        "labelKey": "Soul Rifts",
+        "descriptionKey": "Revealed on enemies during Deity of Niava state. Shatter with Charged Attack for bonus damage. Reappears 6s after being shattered."
+    },
+    "divine_sever": {
+        "labelKey": "Divine Sever",
+        "descriptionKey": "Replaces Endbringer Arrow during Deity of Niava. Counts as Charged Attack damage. Refreshed by shattering an enemy's Soul Rift."
+    },
+    "bind_gaze": {
+        "labelKey": "Bind Gaze",
+        "descriptionKey": "The skill that triggers Deity of Niava. Appears when all Divine Shackles are removed."
+    },
+    "rupture_mark": {
+        "labelKey": "Rupture Mark",
+        "descriptionKey": "Applied by Charged Attack's second slash. Deals damage over time for 2 seconds."
+    },
+    "order_rupture": {
+        "labelKey": "Order Rupture",
+        "descriptionKey": "God of Annihilation's basic attack. A 4-hit combo using Divine Grip. Charged Attack applies Rupture Mark."
+    },
+    "divine_judgment": {
+        "labelKey": "Divine Judgment",
+        "descriptionKey": "God of Annihilation's Active Skill. Cooldown 10s, costs 1 Energy. Thrust forward dealing damage. Within 4s, becomes free Divine Slash."
+    },
+    "divine_slash": {
+        "labelKey": "Divine Slash",
+        "descriptionKey": "Free Active Skill available within 4s after Divine Judgment. Swing, leap, slam, and fire all Golden Arrows at the target. Does not cost Energy."
+    },
+    "endbringer_arrow": {
+        "labelKey": "Endbringer Arrow",
+        "descriptionKey": "God of Annihilation's Support Skill. Cooldown 10s. Zayne fires a piercing arrow that explodes on first hit. Cannot be used during Deity of Niava."
+    },
+    "divinity_order": {
+        "labelKey": "Divinity Order",
+        "descriptionKey": "God of Annihilation's Resonance Skill. Cooldown 15s, costs 2 Energy. Zayne gathers enemies while you ready Divine Grip, striking with divine arrows."
+    },
+    "aengru_radiance": {
+        "labelKey": "Aengru Radiance",
+        "descriptionKey": "God of Annihilation's Ardent Oath (ultimate). You and Zayne enter the Aengru Field, forming a divine golden bow to unleash a devastating strike."
+    },
+    "fateful_bond": {
+        "labelKey": "Fateful Bond",
+        "descriptionKey": "God of Annihilation's Passive Skill. Manages Divine Shackles, Golden Arrows, Remnant Feathers, Arrow Marks, and the Deity of Niava transformation."
+    },
+    "divine_grip": {
+        "labelKey": "Divine Grip",
+        "descriptionKey": "God of Annihilation's exclusive weapon. Used for Order Rupture basic attacks and Divine Slash."
     }
 }
