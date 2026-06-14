@@ -24,7 +24,6 @@
         },
         {
             "type": "image",
-            "layout": "left",
             "src": "/images/companions/xavier/gameplay/king_of_darknight/burst_icons.png",
             "alt": "gameplay.xavier.king_of_darknight.images.burst_icons.alt",
             "caption": "gameplay.xavier.king_of_darknight.images.burst_icons.caption"
@@ -47,7 +46,6 @@
         },
         {
             "type": "image",
-            "layout": "left",
             "src": "/images/companions/xavier/gameplay/king_of_darknight/outside_burst.gif",
             "alt": "gameplay.xavier.king_of_darknight.images.outside_burst_gif.alt",
             "caption": "gameplay.xavier.king_of_darknight.images.outside_burst_gif.caption"
