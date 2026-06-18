@@ -18,5 +18,9 @@
     "goSectionSM": "к",
     "search-placeholder": "Поиск компаньона...",
     "retry-btn": "повторить",
-    "no-results": "Нет совпадений"
+    "no-results": "Нет совпадений",
+    "metadata": {
+      "guideTitle": "{{companionName}} — {{characterName}} | LADS Battle Guide",
+      "guideDescription": "Полное руководство по сборке {{companionName}} ({{characterName}}): протоколы, навыки и геймплей."
+    }
 }

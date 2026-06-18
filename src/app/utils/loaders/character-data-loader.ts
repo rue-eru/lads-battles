@@ -8,11 +8,11 @@ import calebData from '@/data/characters/caleb.json';
 
 //rewrite others later
 
-const xavier: CharacterData = xavierData;
-const zayne: CharacterData = zayneData;
+const xavier: CharacterData = xavierData as CharacterData;
+const zayne: CharacterData = zayneData as CharacterData;
 const rafayel: CharacterData = rafayelData as CharacterData;
-const sylus: CharacterData = sylusData;
-const caleb: CharacterData = calebData;
+const sylus: CharacterData = sylusData as CharacterData;
+const caleb: CharacterData = calebData as CharacterData;
 
 // it's an object with character IDs
 export const charactersData: CharactersData = {
