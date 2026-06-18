@@ -10,6 +10,14 @@ import GameplaySection from './components/gameplay/GameplaySection';
 import { NoGuideAvailable } from './components/NoGuideAvailable';
 import { getGameplayGuide } from '@/app/utils/loaders/gameplay-loader';
 import { guideLocales } from '@/data/guideLocaleAvailability';
+import { generateGuideMetadata } from './utils/metadata';
+
+export async function generateMetadata(params:{
+    character: string,
+    companion: string
+  }) {
+  return generateGuideMetadata(params)
+}
 
 export default async function CompanionPage ( {params} : {
   params: Promise<{character: CharacterId; companion: CompanionId; locale: Locale}>
