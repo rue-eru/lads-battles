@@ -20,8 +20,8 @@
     "retry-btn": "再試行",
     "no-results": "該当無し",
     "metadata": {
-      "guideTitle": "{{companionName}} — {{characterName}} | 恋と深空バトルガイド",
-      "guideDescription": "{{companionName}}（{{characterName}}）の完全ビルドガイド：コア、スキルと武器、ゲームプレイ。"
+      "guideTitle": "{companionName} · {characterName} | 恋と深空バトルガイド",
+      "guideDescription": "{companionName}（{characterName}）の完全ビルドガイド：コア、スキルと武器、ゲームプレイ。 恋と深空バトルガイド"
     }
 
 }

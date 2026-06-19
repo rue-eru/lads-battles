@@ -20,7 +20,9 @@
     "retry-btn": "повторить",
     "no-results": "Нет совпадений",
     "metadata": {
-      "guideTitle": "{{companionName}} — {{characterName}} | LADS Battle Guide",
-      "guideDescription": "Полное руководство по сборке {{companionName}} ({{characterName}}): протоколы, навыки и геймплей."
+      "guideTitle": "{companionName} · {characterName} | LADS Battle Guide | Love and Deepspace Гайд",
+      "guideDescription": "Полное руководство по сборке {companionName} ({characterName}): протоколы, навыки и геймплей | Love and Deepspace Гайд"
     }
 }
+
+
