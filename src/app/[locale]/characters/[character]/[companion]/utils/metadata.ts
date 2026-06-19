@@ -7,20 +7,23 @@ export async function generateGuideMetadata({
   character: string;
   companion: string;
 }) {
-  const t = await getTranslations();
+  const tCharacters = await getTranslations('characters');
+  const tLayout = await getTranslations('layout');
 
-  const characterName = t(`characters.chNames.${character}`);
-  const companionName = t(`characters.companions.${character}.${companion}`);
+  const characterName = tCharacters(`chNames.${character}`);
+  const companionName = tCharacters(`companions.${character}.${companion}`);
 
-  const title = t(`layout.metadata.guideTitle`, {
+  const title = tLayout(`metadata.guideTitle`, {
     companionName,
     characterName,
   });
-  const description = t(`layout.metadata.guideDescription`, {
+  const description = tLayout(`metadata.guideDescription`, {
     companionName,
     characterName,
   });
 
+  console.log('characterName:', characterName);
+console.log('companionName:', companionName);
   return {
     title,
     description,

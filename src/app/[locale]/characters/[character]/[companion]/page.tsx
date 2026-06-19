@@ -12,11 +12,15 @@ import { getGameplayGuide } from '@/app/utils/loaders/gameplay-loader';
 import { guideLocales } from '@/data/guideLocaleAvailability';
 import { generateGuideMetadata } from './utils/metadata';
 
-export async function generateMetadata(params:{
+export async function generateMetadata({params}:{ params : Promise<{
     character: string,
     companion: string
-  }) {
-  return generateGuideMetadata(params)
+  }>}) {
+    const { character, companion } = await params
+  return generateGuideMetadata({
+    character,
+    companion
+  })
 }
 
 export default async function CompanionPage ( {params} : {
