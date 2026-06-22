@@ -57,7 +57,10 @@ export default function Navigation() {
                             </Link>
                             <Link href="/characters/caleb" className={styles.dropdownBlockLI}>
                                 {tCharas("chNames.caleb")}
-                            </Link>                                                        
+                            </Link>
+                            <Link href="/characters/valko" className={styles.dropdownBlockLI}>
+                                {tCharas("chNames.valko")}
+                            </Link>                                               
                         </div>
                 </NavDropdown>
 

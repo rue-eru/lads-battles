@@ -146,3 +146,7 @@ export interface NoGuideAvailableProps extends CharaDataProps {
     hasGuideFile: boolean;
     availableLocales: string[];
 }
+
+export interface CharacterListProps {
+    className: string
+}

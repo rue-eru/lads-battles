@@ -4,7 +4,8 @@
     "zayne": "レイ",
     "rafayel": "ホムラ",
     "sylus": "シン",
-    "caleb": "マヒル"
+    "caleb": "マヒル",
+    "valko": "ロウガ"
   },
   "companions": {
     "companion-list-title": "パートナー",
@@ -43,6 +44,9 @@
         "farspace_colonel": "遠空執艦官",
         "ultimate_weapon_x_02": "究極兵器X-02",
         "netherlord": "冥羅の主"
+    },
+    "valko": {
+      
     }
   },
   "table": {

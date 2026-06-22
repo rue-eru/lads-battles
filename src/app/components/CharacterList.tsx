@@ -3,16 +3,16 @@ import CharacterCard from "../components/CharacterCard";
 import { useTranslations } from 'next-intl';
 import { styles } from '../utils/styles';
 import { characters } from '../utils/loaders/character-data-loader';
+import type { CharacterListProps } from '../utils/interfaces-data';
 
 
-export default function CharacterList () {
+export default function CharacterList ({ className }: CharacterListProps) {
 
     const tCharas = useTranslations('characters.chNames');
 
     return(
         <div>
-          <div className="flex flex-wrap sm:justify-center justify-evenly items-center
-           sm:grid sm:grid-cols-3 md:grid-cols-5 gap-4 sm:gap-4 p-4 font-accent uppercase text-center">
+          <div className={`font-accent uppercase text-center ${className}`}>
 
           {characters.map((characterId) => (
             <Link

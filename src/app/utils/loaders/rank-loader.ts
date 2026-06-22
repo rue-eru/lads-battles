@@ -5,6 +5,7 @@ import zayneRanks from '@/data/ranks/zayne.json'
 import rafayelRanks from '@/data/ranks/rafayel.json'
 import sylusRanks from '@/data/ranks/sylus.json'
 import calebRanks from '@/data/ranks/caleb.json'
+import valkoRanks from '@/data/ranks/valko.json'
 
 export const rankData = {
     xavier: xavierRanks,
@@ -12,6 +13,7 @@ export const rankData = {
     rafayel: rafayelRanks,
     sylus: sylusRanks,
     caleb: calebRanks,
+    valko: valkoRanks
 } as const
 
 export type RankCharacterId = keyof typeof rankData;

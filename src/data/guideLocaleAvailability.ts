@@ -14,6 +14,11 @@
       'god_of_the_tides': ['en', 'ru', 'ja'],
       'lemurian_sea_god': ['en', 'ru', 'ja'],
 
+      // SYLUS
+
       // CALEB
       'netherlord': ['en',]
+
+      // VALKO
+      
     };
