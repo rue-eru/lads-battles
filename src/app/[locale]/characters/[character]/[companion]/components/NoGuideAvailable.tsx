@@ -72,6 +72,9 @@ export function NoGuideAvailable  ({
                 <p>{t('stay_tuned')}</p>
             </div>
 
+            {/* will get back when valko gets his own official kitty animations */}
+            {character === "valko" ? null : (<>
+
             {positionClass && (
                 <div className="grid grid-cols-5 place-items-center">
                     <div className={`col-span-1 col-start-3 w-45 ${positionClass}`}>
@@ -86,6 +89,8 @@ export function NoGuideAvailable  ({
                     </div>
                 </div>
             )}
+
+            </>)}
             
 
             </div>
