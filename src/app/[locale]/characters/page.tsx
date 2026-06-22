@@ -12,9 +12,12 @@ export default function CharactersPage () {
                 <h1 className={styles.h1}>{t("character-list")}</h1>
                 <hr className={styles.divider}></hr>
         
-                <div className={styles.contentlayout}>
+                <div className={`${styles.contentlayout}`}>
                     <div className='-mt-20 mb-4 w-full flex justify-center items-center'>
-                        <CharacterList />
+                        <CharacterList className="
+                            flex flex-wrap justify-evenly items-center gap-4 p-4
+                            sm:justify-center sm:grid sm:grid-cols-3 sm:gap-4 
+                        " />
                     </div>
                     <hr className={styles.divider}></hr>
                     <CharaListNB />

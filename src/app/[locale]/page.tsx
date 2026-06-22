@@ -26,7 +26,10 @@ export default function Home({ params }: { params: Promise<{ locale: Locale }> }
 
         <div className={`font-accent uppercase border-4 border-lightgray flex-nowrap w-full text-center ${styles.textAccentShadow}`}>
           <span className="block bg-lightgray flex-1 p-2">{tHome('to_start')}</span>
-            <CharacterList/>
+            <CharacterList className="
+              flex justify-evenly items-center p-3 gap-2 text-sm
+              sm:flex-nowrap flex-wrap
+            " />
         </div>
         <CharaListNB />
       </main>

@@ -4,7 +4,8 @@
     "zayne": "Zayne",
     "rafayel": "Rafayel",
     "sylus": "Sylus",
-    "caleb": "Caleb"
+    "caleb": "Caleb",
+    "valko": "Valko"
   },
   "companions": {
     "companion-list-title": "Companions",
@@ -43,6 +44,9 @@
         "farspace_colonel": "Farspace Colonel",
         "ultimate_weapon_x_02": "Ultimate Weapon X-02",
         "netherlord": "Netherlord"
+    },
+    "valko": {
+        "placeholder": "upcoming"
     }
   },
   "table": {

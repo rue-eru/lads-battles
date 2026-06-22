@@ -5,6 +5,7 @@ import { zayneSkills} from "@/data/skills/zayne";
 import { rafayelSkills } from "@/data/skills/rafayel";
 import { sylusSkills } from "@/data/skills/sylus";
 import { calebSkills } from "@/data/skills/caleb";
+import { valkoSkills } from "@/data/skills/valko";
 
 export const SkillsData = {
     xavier: xavierSkills,
@@ -12,6 +13,7 @@ export const SkillsData = {
     rafayel: rafayelSkills,
     sylus: sylusSkills,
     caleb: calebSkills,
+    valko: valkoSkills
 } as const
 
 export type SkillsCharacterId = keyof typeof SkillsData;

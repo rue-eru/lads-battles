@@ -5,6 +5,7 @@ import { zayneGameplay} from "@/data/gameplay/zayne";
 import { rafayelGameplay } from "@/data/gameplay/rafayel";
 import { sylusGameplay } from "@/data/gameplay/sylus";
 import { calebGameplay } from "@/data/gameplay/caleb";
+import { valkoGameplay } from "@/data/gameplay/valko";
 
 export const GameplayData = {
     xavier: xavierGameplay,
@@ -12,6 +13,7 @@ export const GameplayData = {
     rafayel: rafayelGameplay,
     sylus: sylusGameplay,
     caleb: calebGameplay,
+    valko: valkoGameplay
 } as const
 
 //type for chracter ids 
