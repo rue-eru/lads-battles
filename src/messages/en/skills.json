@@ -240,6 +240,36 @@
             }    
         },
         "caleb": {
+            "farspace_colonel": {
+                "support_skill": {
+                    "name": "Particle Beam",
+                    "description": "Caleb dashes, leaps, and fires a [Particle Beam], dealing damage and recovering 5 [Firepower]."
+                },
+                "resonance_skill": {
+                    "name": "Deep Strike",
+                    "description": "Summon an aerial combat unit for a powerful air strike, dealing 2 Protocore DMG. Creates a [Battlefront] for 15s."
+                },
+                "ardent_oath": {
+                    "name": "Total Blockade",
+                    "description": "You and Caleb lock down the perimeter for a full-scale sweep."
+                },
+                "passive_skill": {
+                    "name": "Combat Guidance",
+                    "description": "Each basic attack hit restores 1 [Firepower] (final hit +2). Max 100 [Firepower]. When full, can use [Deep Strike]. Using [Deep Strike] or [Ground Breach] restores 0.3 Energy Charge. Enemy Weakened duration +2s."
+                },
+                "basic_attack": {
+                    "name": "Swift Strike",
+                    "description": "A 4‑hit combo. Charged Attack pierces enemies in a fan-shaped area."
+                },
+                "my_passive_skill": {
+                    "name": "Blast Strike",
+                    "description": "Inside [Battlefront]: After Charged Attack or [Air Strike], tap Basic Attack to perform the third strike instantly. Outside [Battlefront]: Dodging grants 10 [Zerom] stacks every 5s. Each basic attack consumes 1 stack to restore 1 [Firepower]."
+                },
+                "active_skill": {
+                    "name": "Air Strike",
+                    "description": "Call in multiple air strikes, recover 2 [Firepower]. With 2+ Energy Charges, consume 1 extra to increase damage. R1: on hit inside [Battlefront] CD is 6s."
+                }
+            },
             "netherlord": {
                 "support_skill": {
                     "name": "Netherseal Slash",
@@ -300,6 +330,10 @@
                     "description": ""
                 }
             }
-        }          
+        },
+        
+        "valko": {
+
+        }       
     }
 }

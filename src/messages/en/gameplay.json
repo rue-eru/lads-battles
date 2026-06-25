@@ -285,6 +285,55 @@
         }
     },
     "caleb": {
+        "farspace_colonel": {
+            "paragraph_1": "Farspace Colonel's gameplay has two main phases: Outside and Inside [Battlefront]",
+            "paragraph_2": "Outside [Battlefront] | Setup Phase",
+            "paragraph_3": "Goal: Reach 100 [Firepower] to unlock [Deep Strike].\nPriority skills to use:",
+            "ol_1": {
+                "li_1": "Basic Attack (full 4-hit combo) → restores 6 Firepower (1+1+1+3)",
+                "li_2": "[Particle Beam] (Support Skill) → restores 5 Firepower + deals damage",
+                "li_3": "[Air Strike] (Active Skill) → restores 2 Firepower + calls air strikes",
+                "li_4": "Dodge → gain 10 [Zerom] → basic attacks consume Zerom to restore extra Firepower"
+            },
+            "paragraph_4": "Pro tip: Use [Air Strike] with 2+ Energy for bonus damage.",
+            "paragraph_5": "Entering [Battlefront]",
+            "paragraph_6": "When [Firepower] hits 100 → [Deep Strike] button glows → press it.\nWhat changes:",
+            "ul_1": {
+                "li_1": "[Deep Strike] deals damage + creates [Battlefront] for 15s",
+                "li_2": "[Deep Strike] is replaced by [Ground Breach]",
+                "li_3": "[Firepower] cannot be recovered inside the [Battlefront]",
+                "li_4": "Final hit of basic attacks applies [Focus] marks (max 3)"
+            },
+            "paragraph_7": "Inside [Battlefront] — Burst Phase",
+            "paragraph_8": "Goal: Stack 3 [Focus] marks → cast [Ground Breach] for maximum damage.\nThe loop:",
+            "burst_rotation": {
+                "li_1": "[Basic Attack] (full combo) → applies [Focus] mark (max 3)",
+                "li_2": "Use [Particle Beam] ([Support Skill]) for damage",
+                "li_3": "Cast [Air Strike] ([Active Skill]) for extra damage",
+                "li_4": "[Ground Breach] → snipe enemies → damage scales with [Focus] marks",
+                "li_5": "All Firepower consumed → [Battlefront] ends"
+            },
+            "paragraph_9": "[Focus] scaling:",
+            "ul_2": {
+                "li_1": "0 marks = base damage",
+                "li_2": "1 mark = +40% damage",
+                "li_3": "2 marks = +60% damage",
+                "li_4": "3 marks = +80% damage"
+            },
+            "paragraph_10": "At R3 when [Focus] marks exceed the limit (3+), an extra gravity vortex spawns, dealing bonus damage. [Basic Attack] final hit grants an additional [Focus] mark — making it easier to trigger the vortex.",
+            "ul_3": {
+                "li_1": "R3 loop: Basic → extra Focus → vortex triggers → more damage"
+            },
+            "paragraph_11": "Complete Rotation",
+            "paragraph_12": "As a Standard Myth Companion, Farspace Colonel doesn't really have a strict rotation, as long as you build enough [Firepower] to activate [Battlefront]. Ideally we can follow the next sequence of actions:",
+            "full_rotation": {
+                "li_1": "OUTSIDE [BATTLEFRONT]: [Basic Attack] (restores [Firepower]) → [Particle Beam] (+5 [Firepower]) → [Air Strike] (+2 [Firepower]) → Dodge (gain [Zerom]) → [Basic Attack] (consume [Zerom] for extra [Firepower]) → repeat until 100 [Firepower]",
+                "li_2": "CAST [Deep Strike] → create [BATTLEFRONT] (15 seconds)",
+                "li_3": "INSIDE [BATTLEFRONT]: [Basic Attack] (full combo) → apply [Focus] mark → [Air Strike] (if off cooldown) → [Particle Beam] → [Basic Attack] → [Focus] mark #2 → [Basic Attack] → [Focus] mark #3 → [Ground Breach] → snipe with max [Focus] damage",
+                "li_4": "[BATTLEFRONT] ENDS → [Firepower] consumed → Return to OUTSIDE",
+                "li_5": "REPEAT ↺"
+            }
+        },
         "netherlord": {
             "paragraph_1": "Netherlord is one of the most mechanically demanding companions — proper timing and input (tap vs hold) matter a lot. He has two phases: Neutral (building resources) and Union (burst damage). Your goal is to enter Union as often as possible by triggering [Blooms].",
             "paragraph_2": "Enemies get two halves of a lotus mark (Yin = red, Yang = blue). When both halves meet → [Bloom] triggers:",

@@ -423,5 +423,66 @@
     "divine_grip": {
         "labelKey": "Divine Grip",
         "descriptionKey": "God of Annihilation's exclusive weapon. Used for Order Rupture basic attacks and Divine Slash."
+    },
+
+
+
+
+
+    "battlefront": {
+        "labelKey": "Battlefront",
+        "descriptionKey": "A combat zone created by Deep Strike. Lasts 15s. Inside it, Deep Strike becomes Ground Breach, Firepower cannot be recovered, and basic attacks apply Focus marks."
+    },
+    "ground_breach": {
+        "labelKey": "Ground Breach",
+        "descriptionKey": "Replaces Deep Strike inside Battlefront. Set up a sniping position dealing damage. Each Focus mark increases damage (first +40%, subsequent +20%). Consumes all Firepower and ends Battlefront."
+    },
+    "firepower": {
+        "labelKey": "Firepower",
+        "descriptionKey": "Resource (max 100). Restored by basic attacks, Particle Beam, and Air Strike. Used to maintain Battlefront and empower Ground Breach. Cannot be recovered inside Battlefront."
+    },
+    "focus": {
+        "labelKey": "Focus",
+        "descriptionKey": "Marks applied by the final hit of basic attacks inside Battlefront (max 3). Increases Ground Breach damage. At higher ranks, excess marks create a gravity vortex."
+    },
+    "focus_marks": {
+        "labelKey": "Focus Marks",
+        "descriptionKey": "Marks applied by the final hit of basic attacks inside Battlefront (max 3). Increases Ground Breach damage. At higher ranks, excess marks create a gravity vortex."
+    },
+    "zerom": {
+        "labelKey": "Zerom",
+        "descriptionKey": "Stacks gained from dodging outside Battlefront (10 stacks every 5s). Consumed by basic attacks to restore 1 Firepower per stack."
+    },
+    "particle_beam": {
+        "labelKey": "Particle Beam",
+        "descriptionKey": "Caleb's Support Skill. Cooldown 10s. Dashes, leaps, and fires a Particle Beam. Recovers 5 Firepower."
+    },
+    "deep_strike": {
+        "labelKey": "Deep Strike",
+        "descriptionKey": "Caleb's Resonance Skill. Cooldown 15s, costs 2 Energy. Summons an aerial combat unit for an air strike. Creates Battlefront for 15s."
+    },
+    "total_blockade": {
+        "labelKey": "Total Blockade",
+        "descriptionKey": "Caleb's Ardent Oath (ultimate). Locks down the perimeter for a full-scale sweep."
+    },
+    "combat_guidance": {
+        "labelKey": "Combat Guidance",
+        "descriptionKey": "Caleb's Passive Skill. Basic attacks restore Firepower (final hit +2). Max 100. When full, can use Deep Strike. Using Deep Strike or Ground Breach restores 0.3 Energy Charge."
+    },
+    "swift_strike": {
+        "labelKey": "Swift Strike",
+        "descriptionKey": "Ground Breacher's basic attack. A 4-hit combo using Skybreaker-SN. Charged Attack pierces enemies in a fan-shaped area."
+    },
+    "air_strike": {
+        "labelKey": "Air Strike",
+        "descriptionKey": "Ground Breacher's Active Skill. Cooldown 12s, costs 1 Energy. Calls in multiple air strikes, recovers 2 Firepower. With 2+ Energy, consume 1 extra for increased damage."
+    },
+    "blast_strike": {
+        "labelKey": "Blast Strike",
+        "descriptionKey": "Ground Breacher's Passive Skill. Inside Battlefront: after Charged Attack or Air Strike, tap Basic Attack for instant third strike. Outside: dodging grants Zerom stacks to restore Firepower."
+    },
+    "skybreaker_sn": {
+        "labelKey": "Skybreaker-SN",
+        "descriptionKey": "Ground Breacher's exclusive weapon. Used for Swift Strike basic attacks."
     }
 }

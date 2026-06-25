@@ -95,6 +95,7 @@
     "debuff": "Debuff",
     "heal_dmg_reduction": "Heal and DMG Reduction",
     "hp_scaling_dps": "HP-Scaling DPS",
-    "burst_transformation": "Burst Transformation"
+    "burst_transformation": "Burst Transformation",
+    "shield_break_burst": "Shield Break and Burst DPS"
   }
 }

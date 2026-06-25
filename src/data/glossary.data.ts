@@ -598,4 +598,82 @@ export const GLOSSARY: Record<string, GlossaryTermProps> = {
         label: 'divine_grip.labelKey',
         description: 'divine_grip.descriptionKey',
     },
+
+    // Caleb: Farspace Colonel
+    "Battlefront": {
+        key: "Battlefront",
+        label: 'battlefront.labelKey',
+        description: 'battlefront.descriptionKey',
+    },
+    "Ground Breach": {
+        key: "Ground Breach",
+        label: 'ground_breach.labelKey',
+        description: 'ground_breach.descriptionKey',
+        link: "#resonanceSkill"
+    },
+    "Firepower": {
+        key: "Firepower",
+        label: 'firepower.labelKey',
+        description: 'firepower.descriptionKey',
+    },
+    "Focus": {
+        key: "Focus",
+        label: 'focus.labelKey',
+        description: 'focus.descriptionKey',
+    },
+    "Focus Marks": {
+        key: "Focus Marks",
+        label: 'focus_marks.labelKey',
+        description: 'focus_marks.descriptionKey',
+    },
+    "Zerom": {
+        key: "Zerom",
+        label: 'zerom.labelKey',
+        description: 'zerom.descriptionKey',
+    },
+    "Particle Beam": {
+        key: "Particle Beam",
+        label: 'particle_beam.labelKey',
+        description: 'particle_beam.descriptionKey',
+        link: "#supportSkill"
+    },
+    "Deep Strike": {
+        key: "Deep Strike",
+        label: 'deep_strike.labelKey',
+        description: 'deep_strike.descriptionKey',
+        link: "#resonanceSkill"
+    },
+    "Total Blockade": {
+        key: "Total Blockade",
+        label: 'total_blockade.labelKey',
+        description: 'total_blockade.descriptionKey',
+        link: "#ardentOath"
+    },
+    "Combat Guidance": {
+        key: "Combat Guidance",
+        label: 'combat_guidance.labelKey',
+        description: 'combat_guidance.descriptionKey',
+    },
+    "Swift Strike": {
+        key: "Swift Strike",
+        label: 'swift_strike.labelKey',
+        description: 'swift_strike.descriptionKey',
+        link: "#basicAttack"
+    },
+    "Air Strike": {
+        key: "Air Strike",
+        label: 'air_strike.labelKey',
+        description: 'air_strike.descriptionKey',
+        link: "#activeSkill"
+    },
+    "Blast Strike": {
+        key: "Blast Strike",
+        label: 'blast_strike.labelKey',
+        description: 'blast_strike.descriptionKey',
+    },
+    "Skybreaker-SN": {
+        key: "Skybreaker-SN",
+        label: 'skybreaker_sn.labelKey',
+        description: 'skybreaker_sn.descriptionKey',
+    },
 }
