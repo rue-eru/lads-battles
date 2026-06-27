@@ -6,6 +6,12 @@
             "content": "gameplay.caleb.farspace_colonel.paragraph_1"
         },
         {
+            "type": "rotationList",
+            "content": [
+                "gameplay.caleb.farspace_colonel.notabene.li_1"
+            ]
+        },
+        {
             "type": "paragraph",
             "content": "gameplay.caleb.farspace_colonel.paragraph_2",
             "layout": "bottom",
@@ -33,9 +39,9 @@
         },
         {
             "type": "image",
-            "src": "/images/companions/xavier/gameplay/king_of_darknight/burst_icons.png",
-            "alt": "gameplay.xavier.king_of_darknight.images.burst_icons.alt",
-            "caption": "gameplay.xavier.king_of_darknight.images.burst_icons.caption"
+            "src": "/images/companions/caleb/gameplay/farspace_colonel/outside_battlefront_icons.png",
+            "alt": "gameplay.caleb.farspace_colonel.images.outside_battlefront_icons.alt",
+            "caption": "gameplay.caleb.farspace_colonel.images.outside_battlefront_icons.caption"
         },
         {
             "type": "paragraph",
@@ -60,9 +66,9 @@
         },
         {
             "type": "image",
-            "src": "/images/companions/xavier/gameplay/king_of_darknight/burst_icons.png",
-            "alt": "gameplay.xavier.king_of_darknight.images.burst_icons.alt",
-            "caption": "gameplay.xavier.king_of_darknight.images.burst_icons.caption"
+            "src": "/images/companions/caleb/gameplay/farspace_colonel/firepower_100.png",
+            "alt": "gameplay.caleb.farspace_colonel.images.firepower_100.alt",
+            "caption": "gameplay.caleb.farspace_colonel.images.firepower_100.caption"
         },
         {
             "type": "paragraph",
@@ -74,16 +80,6 @@
             "type": "paragraph",
             "content": "gameplay.caleb.farspace_colonel.paragraph_8",
             "layout": "bottom"
-        },
-        {
-            "type": "rotationList",
-            "content": [
-                "gameplay.caleb.farspace_colonel.burst_rotation.li_1",
-                "gameplay.caleb.farspace_colonel.burst_rotation.li_2",
-                "gameplay.caleb.farspace_colonel.burst_rotation.li_3",
-                "gameplay.caleb.farspace_colonel.burst_rotation.li_4",
-                "gameplay.caleb.farspace_colonel.burst_rotation.li_5"
-            ]
         },
         {
             "type": "paragraph",
@@ -102,9 +98,25 @@
         },
         {
             "type": "image",
-            "src": "/images/companions/xavier/gameplay/king_of_darknight/burst_icons.png",
-            "alt": "gameplay.xavier.king_of_darknight.images.burst_icons.alt",
-            "caption": "gameplay.xavier.king_of_darknight.images.burst_icons.caption"
+            "src": "/images/companions/caleb/gameplay/farspace_colonel/inside_battlefront_icons.png",
+            "alt": "gameplay.caleb.farspace_colonel.images.inside_battlefront_icons.alt",
+            "caption": "gameplay.caleb.farspace_colonel.images.inside_battlefront_icons.caption"
+        },
+        {
+            "type": "rotationList",
+            "content": [
+                "gameplay.caleb.farspace_colonel.burst_rotation.li_1",
+                "gameplay.caleb.farspace_colonel.burst_rotation.li_2",
+                "gameplay.caleb.farspace_colonel.burst_rotation.li_3",
+                "gameplay.caleb.farspace_colonel.burst_rotation.li_4",
+                "gameplay.caleb.farspace_colonel.burst_rotation.li_5"
+            ]
+        },
+        {
+            "type": "image",
+            "src": "/images/companions/caleb/gameplay/farspace_colonel/burst_rotation.gif",
+            "alt": "gameplay.caleb.farspace_colonel.images.burst_icons.alt",
+            "caption": "gameplay.caleb.farspace_colonel.images.burst_icons.caption"
         },
         {
             "type": "paragraph",

@@ -471,18 +471,18 @@
     },
     "swift_strike": {
         "labelKey": "Swift Strike",
-        "descriptionKey": "Ground Breacher's basic attack. A 4-hit combo using Skybreaker-SN. Charged Attack pierces enemies in a fan-shaped area."
+        "descriptionKey": "Farspace Colonel's basic attack. A 4-hit combo using Skybreaker-SN. Charged Attack pierces enemies in a fan-shaped area."
     },
     "air_strike": {
         "labelKey": "Air Strike",
-        "descriptionKey": "Ground Breacher's Active Skill. Cooldown 12s, costs 1 Energy. Calls in multiple air strikes, recovers 2 Firepower. With 2+ Energy, consume 1 extra for increased damage."
+        "descriptionKey": "Farspace Colonel's Active Skill. Cooldown 12s, costs 1 Energy. Calls in multiple air strikes, recovers 2 Firepower. With 2+ Energy, consume 1 extra for increased damage."
     },
     "blast_strike": {
         "labelKey": "Blast Strike",
-        "descriptionKey": "Ground Breacher's Passive Skill. Inside Battlefront: after Charged Attack or Air Strike, tap Basic Attack for instant third strike. Outside: dodging grants Zerom stacks to restore Firepower."
+        "descriptionKey": "Farspace Colonel's Passive Skill. Inside Battlefront: after Charged Attack or Air Strike, tap Basic Attack for instant third strike. Outside: dodging grants Zerom stacks to restore Firepower."
     },
     "skybreaker_sn": {
         "labelKey": "Skybreaker-SN",
-        "descriptionKey": "Ground Breacher's exclusive weapon. Used for Swift Strike basic attacks."
+        "descriptionKey": "Farspace Colonel's exclusive weapon. Used for Swift Strike basic attacks."
     }
 }

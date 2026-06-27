@@ -287,6 +287,9 @@
     "caleb": {
         "farspace_colonel": {
             "paragraph_1": "Farspace Colonel's gameplay has two main phases: Outside and Inside [Battlefront]",
+            "notabene": {
+                "li_1": "It is important to notice that companing to other companions, Farspace Colonel's Shiled Breaking mechanic is a bit different though it is as always connected to the [Resonance Skill]. Usually when we're not having full [Stellactrum Match], we're only able to break one layer, FC is breaking 2 layers. And in the same way when we are breaking 2 layers on full [Stellactrum Match], FC breaks 4 layers. The reason behind it is that his [Resonance Skill] should be unlocked first in order to use it and it takes two times more time to do so."
+            },
             "paragraph_2": "Outside [Battlefront] | Setup Phase",
             "paragraph_3": "Goal: Reach 100 [Firepower] to unlock [Deep Strike].\nPriority skills to use:",
             "ol_1": {
@@ -305,7 +308,7 @@
                 "li_4": "Final hit of basic attacks applies [Focus] marks (max 3)"
             },
             "paragraph_7": "Inside [Battlefront] — Burst Phase",
-            "paragraph_8": "Goal: Stack 3 [Focus] marks → cast [Ground Breach] for maximum damage.\nThe loop:",
+            "paragraph_8": "Goal: Stack 3 [Focus] marks → cast [Ground Breach] for maximum damage.",
             "burst_rotation": {
                 "li_1": "[Basic Attack] (full combo) → applies [Focus] mark (max 3)",
                 "li_2": "Use [Particle Beam] ([Support Skill]) for damage",
@@ -332,6 +335,24 @@
                 "li_3": "INSIDE [BATTLEFRONT]: [Basic Attack] (full combo) → apply [Focus] mark → [Air Strike] (if off cooldown) → [Particle Beam] → [Basic Attack] → [Focus] mark #2 → [Basic Attack] → [Focus] mark #3 → [Ground Breach] → snipe with max [Focus] damage",
                 "li_4": "[BATTLEFRONT] ENDS → [Firepower] consumed → Return to OUTSIDE",
                 "li_5": "REPEAT ↺"
+            },
+            "images": {
+                "burst_icons": {
+                    "alt": "A showcase axample of burst rotation aka Battlefront",
+                    "caption": "Battlefront rotation example"
+                },
+                "firepower_100": {
+                    "alt": "An image showing Active Skill button being active on reaching 100 Firepower",
+                    "caption": "When reaching 100 Firepower the Active Skill button unlocks making it possible to switch to a Battlefront Phase"
+                },
+                "inside_battlefront_icons": {
+                    "alt": "An image with icons which are relevant to Battlefront Phase",
+                    "caption": "Buff icons inside Battlefront Phase"
+                },
+                "outside_battlefront_icons": {
+                    "alt": "An image with icons which are relevant to outside Battlefront Phase",
+                    "caption": "Buff icons outside Battlefront Phase | Setup Phase"
+                }
             }
         },
         "netherlord": {
