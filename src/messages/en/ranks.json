@@ -45,7 +45,12 @@
             }
         },
         "caleb": {
-
+            "farspace_colonel": {
+                "r0": "Starting Effect: The team deals 8% more DMG and takes 8% less DMG. After using [Charged Attacks] or [Active Skill]s within [Battlefront], you and Caleb's DMG is increased by 20% for 5s. This effect's duration can stack and is cleared when [Ground Breach] ends.",
+                "r1": "Increases [Ardent Oath] charge by 20%. [Focus] mark limit +2. Within [Battlefront], your [Active Skill]s on-hit grant 1 [Focus] mark and reduce [Active Skill] cooldown by 6 s.",
+                "r2": "Energy Charge limit is raised by 1. Using [Ground Breach] or [Deep Strike] restores 0.2 Energy Charge. When consuming [Zerom], additionally restore 0.5 [Firepower].",
+                "r3": "The team deals 8% more DMG. You and Caleb deal 5% increased DMG to enemies with Protocore Shield. Within [Battlefront], when the final hit of your basic attack lands, you gain an additional [Focus] mark. When [Focus] marks exceed the limit, excess marks unleash a gravity vortex at the target location, dealing 225+120% ATK+476% DEF DMG to enemies in range."
+            },
             "netherlord": {
                 "r0": "Starting Effect: The team deals 8% more DMG and takes 8% less DMG.  When you apply [Bingdi Lotus] to an enemy that already has the same half, you gain [Lotus Seed]. When [Yin-Yang Rift] is active, you restore 0.3 Energy Charge, and both you and Caleb restore 5% of Max HP.",
                 "r1": "Increases Ardent Oath charge by 20%. Outside [Yin-Yang Union]: When you consume [Lotus Seed], Caleb performs an additional [Netherseal Slash]. This attack does not affect [Netherseal Slash]'s original cooldown. During [Yin-Yang Union]: When the spectral hand summoned by [Yin-Yang Rift] attacks, it unleashes an additional shockwave, dealing AoE DMG equal to 327+175% ATK+15.7% of Max HP. If the shockwave hits during [Yin-Yang Union], enemies struck are marked as [Ghost]. [Ghost]: If the target is marked again while already marked, the target takes DMG equal to 251+134% ATK+12.1% of Max HP. When [Yin-Yang Rift] is activated, enemies marked as [Ghost] are marked again. When [Yin-Yang Union] ends, the mark is removed.",

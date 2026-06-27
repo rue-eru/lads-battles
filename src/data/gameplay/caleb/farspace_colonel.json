@@ -1,8 +1,155 @@
 {
-    "type": "",
-    "summaryKey": "",
-    "tipsKey": "",
-    "images": [
+    "type": "solar",
+    "blocks": [
+        {
+            "type": "paragraph",
+            "content": "gameplay.caleb.farspace_colonel.paragraph_1"
+        },
+        {
+            "type": "rotationList",
+            "content": [
+                "gameplay.caleb.farspace_colonel.notabene.li_1"
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.caleb.farspace_colonel.paragraph_2",
+            "layout": "bottom",
+            "highlight": "yes"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.caleb.farspace_colonel.paragraph_3",
+            "layout": "bottom"
+        },
+        {
+            "type": "orderedList",
+            "content": [
+                "gameplay.caleb.farspace_colonel.ol_1.li_1",
+                "gameplay.caleb.farspace_colonel.ol_1.li_2",
+                "gameplay.caleb.farspace_colonel.ol_1.li_3",
+                "gameplay.caleb.farspace_colonel.ol_1.li_4"
 
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.caleb.farspace_colonel.paragraph_4",
+            "layout": "bottom"
+        },
+        {
+            "type": "image",
+            "src": "/images/companions/caleb/gameplay/farspace_colonel/outside_battlefront_icons.png",
+            "alt": "gameplay.caleb.farspace_colonel.images.outside_battlefront_icons.alt",
+            "caption": "gameplay.caleb.farspace_colonel.images.outside_battlefront_icons.caption"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.caleb.farspace_colonel.paragraph_5",
+            "layout": "bottom",
+            "highlight": "yes"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.caleb.farspace_colonel.paragraph_6",
+            "layout": "bottom"
+        },
+        {
+            "type": "unorderedList",
+            "content": [
+                "gameplay.caleb.farspace_colonel.ul_1.li_1",
+                "gameplay.caleb.farspace_colonel.ul_1.li_2",
+                "gameplay.caleb.farspace_colonel.ul_1.li_3",
+                "gameplay.caleb.farspace_colonel.ul_1.li_4"
+
+            ]
+        },
+        {
+            "type": "image",
+            "src": "/images/companions/caleb/gameplay/farspace_colonel/firepower_100.png",
+            "alt": "gameplay.caleb.farspace_colonel.images.firepower_100.alt",
+            "caption": "gameplay.caleb.farspace_colonel.images.firepower_100.caption"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.caleb.farspace_colonel.paragraph_7",
+            "layout": "bottom",
+            "highlight": "yes"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.caleb.farspace_colonel.paragraph_8",
+            "layout": "bottom"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.caleb.farspace_colonel.paragraph_9",
+            "layout": "bottom"
+        },
+        {
+            "type": "unorderedList",
+            "content": [
+                "gameplay.caleb.farspace_colonel.ul_2.li_1",
+                "gameplay.caleb.farspace_colonel.ul_2.li_2",
+                "gameplay.caleb.farspace_colonel.ul_2.li_3",
+                "gameplay.caleb.farspace_colonel.ul_2.li_4"
+
+            ]
+        },
+        {
+            "type": "image",
+            "src": "/images/companions/caleb/gameplay/farspace_colonel/inside_battlefront_icons.png",
+            "alt": "gameplay.caleb.farspace_colonel.images.inside_battlefront_icons.alt",
+            "caption": "gameplay.caleb.farspace_colonel.images.inside_battlefront_icons.caption"
+        },
+        {
+            "type": "rotationList",
+            "content": [
+                "gameplay.caleb.farspace_colonel.burst_rotation.li_1",
+                "gameplay.caleb.farspace_colonel.burst_rotation.li_2",
+                "gameplay.caleb.farspace_colonel.burst_rotation.li_3",
+                "gameplay.caleb.farspace_colonel.burst_rotation.li_4",
+                "gameplay.caleb.farspace_colonel.burst_rotation.li_5"
+            ]
+        },
+        {
+            "type": "image",
+            "src": "/images/companions/caleb/gameplay/farspace_colonel/burst_rotation.gif",
+            "alt": "gameplay.caleb.farspace_colonel.images.burst_icons.alt",
+            "caption": "gameplay.caleb.farspace_colonel.images.burst_icons.caption"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.caleb.farspace_colonel.paragraph_10",
+            "layout": "bottom"
+        },
+        {
+            "type": "unorderedList",
+            "content": [
+                "gameplay.caleb.farspace_colonel.ul_3.li_1"
+
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.caleb.farspace_colonel.paragraph_11",
+            "layout": "bottom",
+            "highlight": "yes"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.caleb.farspace_colonel.paragraph_12",
+            "layout": "bottom"
+        },
+        {
+            "type": "rotationList",
+            "content": [
+                "gameplay.caleb.farspace_colonel.full_rotation.li_1",
+                "gameplay.caleb.farspace_colonel.full_rotation.li_2",
+                "gameplay.caleb.farspace_colonel.full_rotation.li_3",
+                "gameplay.caleb.farspace_colonel.full_rotation.li_4",
+                "gameplay.caleb.farspace_colonel.full_rotation.li_5"
+            ]
+        }
     ]
 }

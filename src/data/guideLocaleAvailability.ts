@@ -17,7 +17,8 @@
       // SYLUS
 
       // CALEB
-      'netherlord': ['en',]
+      'netherlord': ['en'],
+      'farspace_colonel': ['en']
 
       // VALKO
       

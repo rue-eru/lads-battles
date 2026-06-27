@@ -1,7 +1,19 @@
 {
     "companions": [
         { "id": "deepspace_pilot", "nameKey": "caleb.deepspace_pilot"},
-        { "id": "farspace_colonel", "nameKey": "caleb.farspace_colonel"},
+        { 
+            "id": "farspace_colonel", 
+            "nameKey": "caleb.farspace_colonel",
+            "type": "solar",
+            "stellactrum": "ruby",
+            "solarPair": "fc",
+            "rarity": "★★★★★",
+            "role": "dps_burst_empower",
+            "scaling": "def",
+            "best": "single_dps",
+            "specialty": "shield_break_burst",
+            "unlock": "limited_banner"
+        },
         { "id": "ultimate_weapon_x_02", "nameKey": "caleb.ultimate_weapon_x_02"},
         { 
             "id": "netherlord", 

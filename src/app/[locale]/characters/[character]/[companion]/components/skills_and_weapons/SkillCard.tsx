@@ -29,6 +29,9 @@ export default function SkillCard ({
 
     const NBType = hasNB();
 
+    const hasCooldown = cooldown !== null && cooldown !== undefined && Number(cooldown) > 0;
+    const hasCost = cost !== null && cost !== undefined && Number(cost) > 0;
+
     return (
         <tr id={id}>
 
@@ -51,8 +54,8 @@ export default function SkillCard ({
                     <p>{t(nameKey)}</p>
                     {/*label as type of skill eg support skill*/}
                     <span className={styles.skillsPinkBubble}>{label}</span>
-                    {cooldown && <span className={`${styles.skillsGrayubble} ${isRu ? "lowercase" : ""}`}>{tGeneral("cooldown")} {cooldown}{tGeneral("seconds")}</span>}
-                    {cost && <span className={`${styles.skillsGrayubble} ${isRu ? "lowercase" : ""}`}>{tGeneral("cost")} {cost} ◆</span>}
+                    {hasCooldown && <span className={`${styles.skillsGrayubble} ${isRu ? "lowercase" : ""}`}>{tGeneral("cooldown")} {cooldown}{tGeneral("seconds")}</span>}
+                    {hasCost && <span className={`${styles.skillsGrayubble} ${isRu ? "lowercase" : ""}`}>{tGeneral("cost")} {cost} ◆</span>}
                 </div>
                 {/*skill description part*/}
                 <div className="">

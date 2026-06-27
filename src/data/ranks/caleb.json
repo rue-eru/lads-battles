@@ -1,4 +1,26 @@
 {
+    "farspace_colonel": {
+       "r0": {
+           "beta": ["oath_recovery_boost", "expedited_energy_boost"],
+           "delta": ["crit_rate", "crit_dmg", "dmg_boost_to_weakened"],
+           "description_key": "ranks.rankDescriptions.caleb.farspace_colonel.r0"
+       },
+       "r1": {
+           "beta": ["expedited_energy_boost", "def_bonus"],
+           "delta": ["crit_rate", "crit_dmg", "dmg_boost_to_weakened"],
+           "description_key": "ranks.rankDescriptions.caleb.farspace_colonel.r1"
+      },
+       "r2": {
+           "beta": ["expedited_energy_boost", "def_bonus"],
+           "delta": ["crit_rate", "crit_dmg", "dmg_boost_to_weakened"],
+           "description_key": "ranks.rankDescriptions.caleb.farspace_colonel.r2"
+      },
+       "r3": {
+           "beta": ["expedited_energy_boost", "def_bonus"],
+           "delta": ["crit_rate", "crit_dmg", "dmg_boost_to_weakened"],
+           "description_key": "ranks.rankDescriptions.caleb.farspace_colonel.r3"
+      }    
+    },
     "netherlord": {
        "r0": {
            "beta": ["oath_recovery_boost", "expedited_energy_boost"],
