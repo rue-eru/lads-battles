@@ -101,7 +101,7 @@ A fan-made guide website for Love and Deepspace (LADS) battle mechanics, providi
 <details>
 <summary><h2>📊 Project Stats</h2></summary>
 
-- **6** detailed companion guides
+- **6** detailed companion guides (+updates)
 - **3** languages fully localized (EN/JA/RU)  
 - **100+** images optimized
 - **90%** font size reduction (JP fonts, local WOFF2)
