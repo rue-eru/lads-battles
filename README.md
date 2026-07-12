@@ -8,10 +8,6 @@
   <img src="https://img.shields.io/badge/next--intl-4-0070F3?style=for-the-badge&logo=next.js&logoColor=white" alt="Next-Intl" />
   <img src="https://img.shields.io/badge/i18n-EN/JA/RU-4ECDC4?style=for-the-badge" alt="i18n 3 Languages" />
   <img src="https://img.shields.io/badge/Deployment-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
-
-   <a href="https://lads-battles.vercel.app/" target="_blank">
-  <img src="https://img.shields.io/badge/✨-Experience%20it%20Live%20Now-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white)](https://lads-battles.vercel.app/" alt="Vercel DEMO" />
-  </a>
 </div>
 
 ## 📋 Project Overview
@@ -47,7 +43,7 @@ A fan-made guide website for Love and Deepspace (LADS) battle mechanics, providi
 
 
 <details>
-<summary><h2>📸 Demo</h2></summary>
+<summary><h2>Demo</h2></summary>
 
 <div align="center">
 
@@ -89,7 +85,7 @@ A fan-made guide website for Love and Deepspace (LADS) battle mechanics, providi
 </details>
 
 <details>
-<summary><h2>💡 What This Project Demonstrates</h2></summary>
+<summary><h2>What This Project Demonstrates</h2></summary>
 
 - App Router–first Next.js architecture
 - Complex i18n with dynamic routes
@@ -99,9 +95,9 @@ A fan-made guide website for Love and Deepspace (LADS) battle mechanics, providi
 </details>
 
 <details>
-<summary><h2>📊 Project Stats</h2></summary>
+<summary><h2>Project Stats</h2></summary>
 
-- **6** detailed companion guides
+- **6** detailed companion guides (+updates)
 - **3** languages fully localized (EN/JA/RU)  
 - **100+** images optimized
 - **90%** font size reduction (JP fonts, local WOFF2)
@@ -119,7 +115,7 @@ A fan-made guide website for Love and Deepspace (LADS) battle mechanics, providi
 </details>
 
 <details>
-<summary><h2>📈 Motivation</h2></summary>
+<summary><h2>Motivation</h2></summary>
 
 This project was built as my first full Next.js App Router application to deeply understand:
 - Internationalized routing at scale
@@ -133,7 +129,7 @@ It was an important project for me personally since I chose the game I did enjoy
 </details>
 
 <details>
-<summary><h2>🏗️ Architecture</h2></summary>
+<summary><h2>Architecture</h2></summary>
 
 ### Data Layer
 - **Structure:** JSON files for all dynamic data
@@ -186,7 +182,7 @@ lads-next/
 </details>
 
 <details>
-<summary><h2>🛠️ Key Features</h2></summary>
+<summary><h2>Key Features</h2></summary>
 
 ### 1. Dynamic Companion Guides
 - Detailed character pages with protocores, skills, weapons, and gameplay tips
@@ -222,7 +218,7 @@ lads-next/
 
 
 <details>
-<summary><h2>📦 Installation & Setup</h2></summary>
+<summary><h2>Installation & Setup</h2></summary>
 
 ### Prerequisites
 - Node.js 18+ 
@@ -254,7 +250,7 @@ npm start
 </details>
 
 <details>
-<summary><h2>🔖 Development Notes & Solutions</h2></summary>
+<summary><h2>Development Notes & Solutions</h2></summary>
 
 ### Challenges & Solutions
 
@@ -298,7 +294,7 @@ npm start
 </details>
 
 <details>
-<summary><h2>🌍 Localization</h2></summary>
+<summary><h2>Localization</h2></summary>
 
 ### Localization Transparency
 - **English**: Original content (fluent proficiency)
@@ -331,7 +327,7 @@ NB: Translation keys for data-driven sections are located in `src/data`
 </details>
 
 <details>
-<summary><h2>🎨 Styling & Design</h2></summary>
+<summary><h2>Styling & Design</h2></summary>
 
 ### Design System
 - **Typography:** Local fonts with proper language fallbacks
@@ -346,7 +342,7 @@ NB: Translation keys for data-driven sections are located in `src/data`
 </details>
 
 <details>
-<summary><h2>⚙️ Testing & Quality</h2></summary>
+<summary><h2>Testing & Quality</h2></summary>
 
 ### Development Tools
 - ESLint for code quality
@@ -363,7 +359,7 @@ NB: Translation keys for data-driven sections are located in `src/data`
 </details>
 
 <details>
-<summary><h2>📝 To-Do & Roadmap</h2></summary>
+<summary><h2>To-Do & Roadmap</h2></summary>
 
 ### Completed ✅
 - [x] Multi-language support (EN/JA/RU)
@@ -390,7 +386,7 @@ NB: Translation keys for data-driven sections are located in `src/data`
 </details>
 
 <details>
-<summary><h2>⚡ Contributing</h2></summary>
+<summary><h2>Contributing</h2></summary>
 
 1. Fork the repository
 2. Create a feature branch
@@ -409,7 +405,7 @@ NB: Translation keys for data-driven sections are located in `src/data`
 </details>
 
 <details>
-<summary><h2>⚠️ Known Limitations</h2></summary>
+<summary><h2>Known Limitations</h2></summary>
 
 - Data is static JSON
 - Search is client-side only
@@ -421,13 +417,13 @@ NB: Translation keys for data-driven sections are located in `src/data`
 ## 📄 License
 This project is a fan-made guide for Love and Deepspace. All game assets and intellectual property belong to their respective owners. This guide is created for educational purposes under fair use.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 - Love and Deepspace development team
 - Community contributors and testers
 - Open source libraries used in this project
 - All players who provided feedback and suggestions
 
-## 📨 Contact & Support
+## Contact & Support
 - **Suggestions:** Pull requests or discussions
 - **Bug Reports:** Please include steps to reproduce
 - **Email**: shigoto.el@gmail.com
