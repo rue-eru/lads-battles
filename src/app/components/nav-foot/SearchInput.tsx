@@ -24,6 +24,12 @@ export default function SearchInput(){
     const {isEn} = useCurrentLanguage();
     const [iconHover, setIconHover] = useState(false);
 
+    useEffect(() => {
+        if (!open) {
+            setIconHover(false)
+        }
+    }, [open])
+
     //lazy load! loads only when the search is opened!
     const loadSearch = async () => {
         if (isSearchLoaded) return; 

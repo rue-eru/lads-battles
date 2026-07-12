@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from "react";
-import type { NavDropdownProps } from "../utils/interfaces-data";
+import type { NavDropdownProps } from "../../utils/interfaces-data";
 import Image from "next/image";
 
 export default function NavDropdown ({

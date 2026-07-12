@@ -2,8 +2,8 @@
 
 import { usePathname, useRouter } from "next/navigation";
 import NavDropdown from "./NavDropdown";
-import { styles } from "../utils/styles";
-import { languages } from "../utils/languageNames";
+import { styles } from "@/app/utils/styles";
+import { languages } from "@/app/utils/languageNames";
 
 export default function LanguageSwitch(){
 

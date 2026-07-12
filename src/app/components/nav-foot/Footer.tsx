@@ -2,9 +2,9 @@
 
 import {Link} from "@/i18n/navigation"
 import { useTranslations } from "next-intl";
-import { useCurrentLanguage } from "../hooks/useCurrentLanguage";
 import HomeBtn from "./HomeBtn";
-import { styles } from "../utils/styles";
+import { useCurrentLanguage } from "@/app/hooks/useCurrentLanguage";
+import { styles } from "@/app/utils/styles";
 
 export default function Footer() {
     const t = useTranslations('layout');
