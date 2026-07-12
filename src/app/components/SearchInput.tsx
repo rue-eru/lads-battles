@@ -22,6 +22,7 @@ export default function SearchInput(){
     const t = useTranslations();
     const locale = pathname.split('/')[1] || 'en';
     const {isEn} = useCurrentLanguage();
+    const [iconHover, setIconHover] = useState(false);
 
     //lazy load! loads only when the search is opened!
     const loadSearch = async () => {
@@ -131,11 +132,13 @@ export default function SearchInput(){
                         className="rounded-full bg-aliceblue h-10 w-10 flex justify-center items-center cursor-pointer"
                     >
                         <Image
-                            src="/images/icons/search.png"
+                            src={iconHover ? "/images/icons/search-accent.png" : "/images/icons/search.png"}
                             alt="search icon"
                             width={5}
                             height={5}
-                            className="object-cover h-9 w-9 p-0.5"
+                            className="object-cover h-9 w-9 p-0.5 transition-all"
+                            onMouseEnter={() => setIconHover(true)}
+                            onMouseLeave={() => setIconHover(false)}
                         />
                     </button>
                 ) : (
