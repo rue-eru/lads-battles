@@ -2,7 +2,14 @@
     "title": "Love and Deepspace Battles",
     "description": "Fan resource for LADS' battle system",
     "character-list": "Character List",
-    "NB": "Currently only some companion guides are available.\n Progress State: Xavier 1/6, Zayne 1/6, Rafayel 6/6, Sylus 0/4, Caleb 2/4, Valko 0/0",
+    "NB": "Currently only some companion guides are available.",
+    "guide-progress-section": {
+      "summary": "Check the progress",
+      "companion": "Companion",
+      "status": "Status",
+      "character-link-title": "{character}'s companion list page",
+      "companion-link-title": "{companion}'s companion guide page"
+    },
     "home-btn":"home",
     "characters": "characters",
     "contact": "Contact",

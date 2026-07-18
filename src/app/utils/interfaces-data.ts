@@ -150,3 +150,12 @@ export interface NoGuideAvailableProps extends CharaDataProps {
 export interface CharacterListProps {
     className: string
 }
+
+export interface BorderedButtonGroupProps<T> {
+    items: T[];
+    activeItem: T;
+    onSelect: (item: T) => void;
+    getLabel: (i: T) => string;
+    getKey: (i: T) => string;
+    className?: string;
+}

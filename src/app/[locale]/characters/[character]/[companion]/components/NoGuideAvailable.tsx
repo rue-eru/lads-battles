@@ -1,8 +1,8 @@
 'use client'
 
 import { useCurrentLanguage } from "@/app/hooks/useCurrentLanguage"
+import { getOtherAvailableLocales } from "@/app/utils/guide-locale-helpers"
 import type { NoGuideAvailableProps } from "@/app/utils/interfaces-data"
-import { languages } from "@/app/utils/languageNames"
 import { styles } from "@/app/utils/styles"
 import { useLocale, useTranslations } from "next-intl"
 import Image from "next/image"
@@ -36,15 +36,9 @@ export function NoGuideAvailable  ({
 
     }, [])
 
-    const showLocaleLinks = hasGuideFile && availableLocales.length > 0;
 
-    const otherAvailableLocales = showLocaleLinks
-        ? availableLocales
-            .filter(l => l !== currentLocale)
-            .map(code => ({
-                code,
-                name: languages.find(lang => lang.code === code)?.name || code
-            }))
+    const otherAvailableLocales = hasGuideFile && availableLocales.length > 0
+        ? getOtherAvailableLocales(currentLocale, availableLocales)
         : [];
 
     return (

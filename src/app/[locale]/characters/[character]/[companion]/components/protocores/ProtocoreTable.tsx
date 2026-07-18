@@ -8,6 +8,7 @@ import { useTranslations } from "next-intl";
 import ProtocoreTableRow from "./ProtocoreTableRow";
 import { styles } from "@/app/utils/styles";
 import { TextRenderer } from "../glossary/TextRenderer";
+import { BorderedButtonGroup } from "@/app/components/ui/BorderedButtonGroup";
 
 
 export default function ProtocoreTable ({character, companion, stellactrum }: ProtocoreTableProps) {
@@ -59,21 +60,15 @@ export default function ProtocoreTable ({character, companion, stellactrum }: Pr
 
                 /*SOLAR COMPANIONS WITH RANK BUTTON*/
                 <div>
-                    <div className="flex mb-4">
-                        {['r0', 'r1', 'r2', 'r3'].map((rank) => (
-                            <button
-                                key={rank}
-                                onClick={() => setActiveRank(rank)}
-                                className={`px-4 font-medium font-accent border-l-2 border-white first:border-none cursor-pointer ${
-                                    activeRank === rank 
-                                        ? ' text-pink-400 ' 
-                                        : 'text-white hover:bg-pink-400'
-                                }`}
-                            >
-                                {tRank(`ranks.${rank}` as any)}
-                            </button>
-                        ))}
-                    </div>    
+
+                    <BorderedButtonGroup 
+                        items={['r0', 'r1', 'r2', 'r3']}
+                        activeItem={activeRank}
+                        onSelect={setActiveRank}
+                        getLabel={(rank) => tRank(`ranks.${rank}` as any)}
+                        getKey={(rank) => rank}
+                        className="mb-4"
+                    />
 
                     <table className="w-full min-w-full table-auto border-collapse">
                         <tbody>
