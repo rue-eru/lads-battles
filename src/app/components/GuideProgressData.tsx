@@ -61,7 +61,8 @@ export default function GuideProgressData() {
                     return (
                         <div 
                             key={characterId}
-                            className="border-lightgray md:border-2 
+                            className="border-lightgray
+                                md:border-2 
                                 md:even:border-l-0
                                 md:nth-[-n+4]:border-b-0
                                 border-x-2 last:border-2
