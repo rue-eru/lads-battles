@@ -3,6 +3,13 @@
     "description": "『恋と深空』のバトルシステムに関するファンリソース",
     "character-list": "キャラクター一覧",
     "NB": "現在公開中はホムラのみ・英語版には他もあり",
+    "guide-progress-section": {
+      "summary": "進捗状況を確認",
+      "companion": "パートナー",
+      "status": "ステータス",
+      "character-link-title": "{character}のパートナー一覧ページ",
+      "companion-link-title": "{companion}のガイドページ"
+    },
     "home-btn":"ホーム",
     "characters": "キャラクター",
     "contact": "お問い合わせ",

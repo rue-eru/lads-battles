@@ -3,6 +3,13 @@
     "description": "Фан-ресурс, посвященный боевой системе LADS",
     "character-list": "Персонажи",
     "NB": "В данной версии доступна только страница Рафаэля (на английском доступно больше)",
+    "guide-progress-section": {
+      "summary": "Посмотреть прогресс",
+      "companion": "Компаньон",
+      "status": "Статус",
+      "character-link-title": "Страница со списком компаньонов персонажа: {character}",
+      "companion-link-title": "Страница с руководством по компаньону {companion}"
+    },
     "home-btn":"на главную",
     "characters": "Персонажи",
     "contact": "Связь",
