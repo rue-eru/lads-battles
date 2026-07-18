@@ -1,11 +1,11 @@
 'use client'
 
+import RandomKittyGenerator from "@/app/components/ui/RandomKittyGenerator"
 import { useCurrentLanguage } from "@/app/hooks/useCurrentLanguage"
 import { getOtherAvailableLocales } from "@/app/utils/guide-locale-helpers"
 import type { NoGuideAvailableProps } from "@/app/utils/interfaces-data"
 import { styles } from "@/app/utils/styles"
 import { useLocale, useTranslations } from "next-intl"
-import Image from "next/image"
 import Link from "next/link"
 import { useEffect, useState } from "react"
 
@@ -66,26 +66,16 @@ export function NoGuideAvailable  ({
                 <p>{t('stay_tuned')}</p>
             </div>
 
-            {/* will get back when valko gets his own official kitty animations */}
-            {character === "valko" ? null : (<>
-
             {positionClass && (
                 <div className="grid grid-cols-5 place-items-center">
                     <div className={`col-span-1 col-start-3 w-45 ${positionClass}`}>
-                        <Image
-                            src={`/images/others/${character}.webp`}
-                            alt={`${character} kitty gif`}
-                            width={150}
-                            height={150}
-                            className="object-cover w-40 h-auto"
-                            priority
-                        /> 
+                        <RandomKittyGenerator
+                            kittyChara={character}
+                            className="w-40 h-auto"
+                        />
                     </div>
                 </div>
-            )}
-
-            </>)}
-            
+            )}            
 
             </div>
 

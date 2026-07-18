@@ -159,3 +159,8 @@ export interface BorderedButtonGroupProps<T> {
     getKey: (i: T) => string;
     className?: string;
 }
+
+export interface RandomKittyGeneratorProps {
+    kittyChara: string;
+    className?: string
+}
