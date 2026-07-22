@@ -27,8 +27,22 @@
     "retry-btn": "повторить",
     "no-results": "Нет совпадений",
     "metadata": {
-      "guideTitle": "{companionName} · {characterName} | LADS Battle Guide | Love and Deepspace Гайд",
-      "guideDescription": "Полное руководство по сборке {companionName} ({characterName}): протоколы, навыки и геймплей | Love and Deepspace Гайд"
+      "guidePage": {
+        "title": "{companionName} · {characterName} | LADS Battle Guide | Гайд по компаньонам Love and Deepspace",
+        "description": "Полный гайд по {companionName} ({characterName}): протоколы, навыки, геймплей | Love and Deepspace"
+      },
+      "charactersListPage": {
+        "title": "Список персонажей | LADS Battle | Гайд по Love and Deepspace",
+        "description": "Все персонажи Love and Deepspace: Ксавьер, Зейн, Рафаэль, Сайлус, Калеб и другие | Статы, билды, гайды"
+      },
+      "companionsListPage": {
+        "title": "{characterName}: список компаньонов | LADS Battle | Гайд по Love and Deepspace",
+        "description": "Все компаньоны {characterName} в Love and Deepspace: полный список с гайдами и билдами"
+      },
+      "contactPage": {
+        "title": "Контакты | LADS Battle | Гайд по Love and Deepspace",
+        "description": "Свяжитесь с командой LADS Battle: вопросы, обратная связь, социальные сети"
+      }
     }
 }
 

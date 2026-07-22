@@ -6,6 +6,22 @@ import CharacterCard from "@/app/components/CharacterCard";
 import { styles } from "@/app/utils/styles";
 import CompanionListH1WordOrder from '@/app/components/side-nav/CompanionListH1WordOrder';
 
+export async function generateMetadata({params}:{params: Promise<{
+    character: string
+}>}) {
+    const {character} = await params;
+    const t = await getTranslations('layout.metadata.companionsListPage');
+    const tNames = await getTranslations(`characters.chNames`);
+    const characterName = tNames(character);
+    const title = t(`title`, {characterName});
+    const description = t(`description`, {characterName});
+
+    return {
+        title,
+        description
+    }
+}
+
 export default async function CharacterCompanionList({
     params
 } : {
