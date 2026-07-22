@@ -27,7 +27,21 @@
     "retry-btn": "Retry",
     "no-results": "No results",
     "metadata": {
-      "guideTitle": "{companionName} · {characterName} | LADS Battle Guide | Love and Deepspace Guide",
-      "guideDescription": "Complete build guide for {companionName} ({characterName}): protocores, skills, and gameplay | Love and Deepspace Guide"
+      "guidePage": {
+        "title": "{companionName} · {characterName} | LADS Battle Guide | Love and Deepspace Companion Guide",
+        "description": "Complete {companionName} ({characterName}) build guide: protocore recommendations, skill breakdowns, gameplay tips for Love and Deepspace"
+      },
+      "charactersListPage": {
+        "title": "Characters | LADS Battle | Love and Deepspace Character Guide",
+        "description": "All Love and Deepspace characters: Xavier, Zayne, Rafayel, Sylus, Caleb, and more | Stats, builds, and guides"
+      },
+      "companionsListPage": {
+        "title": "{characterName} Companions | LADS Battles | Love and Deepspace Guide",
+        "description": "All {characterName} companions in Love and Deepspace: complete list with guides, builds, and gameplay tips"
+      },
+      "contactPage": {
+        "title": "Contact | LADS Battle | Love and Deepspace Guide",
+        "description": "Get in touch with LADS Battle team: feedback, questions, or social media connections"
+      }
     }
 }

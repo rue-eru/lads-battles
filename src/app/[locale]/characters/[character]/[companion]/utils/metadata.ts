@@ -13,17 +13,16 @@ export async function generateGuideMetadata({
   const characterName = tCharacters(`chNames.${character}`);
   const companionName = tCharacters(`companions.${character}.${companion}`);
 
-  const title = tLayout(`metadata.guideTitle`, {
+  const title = tLayout(`metadata.guidePage.title`, {
     companionName,
     characterName,
   });
-  const description = tLayout(`metadata.guideDescription`, {
+  const description = tLayout(`metadata.guidePage.description`, {
     companionName,
     characterName,
   });
 
-  console.log('characterName:', characterName);
-console.log('companionName:', companionName);
+
   return {
     title,
     description,

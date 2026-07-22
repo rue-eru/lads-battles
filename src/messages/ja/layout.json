@@ -27,8 +27,22 @@
     "retry-btn": "再試行",
     "no-results": "該当無し",
     "metadata": {
-      "guideTitle": "{companionName} · {characterName} | 恋と深空バトルガイド",
-      "guideDescription": "{companionName}（{characterName}）の完全ビルドガイド：コア、スキルと武器、ゲームプレイ。 恋と深空バトルガイド"
+      "guidePage": {
+        "title": "{companionName} · {characterName} | 恋と深空バトル | 恋と深空 パートナーガイド",
+        "description": "{companionName}（{characterName}）完全ビルドガイド：コア、スキル、攻略 | 恋と深空ガイド"
+      },
+      "charactersListPage": {
+        "title": "キャラクター一覧 | 恋と深空バトル | 恋と深空ガイド",
+        "description": "恋と深空 全キャラクター | ステータス、ビルド、ガイド"
+      },
+      "companionsListPage": {
+        "title": "{characterName} パートナー一覧 | 恋と深空バトル | 恋と深空ガイド",
+        "description": "恋と深空 {characterName} 全パートナー：完全リスト、ガイド、ビルド"
+      },
+      "contactPage": {
+        "title": "お問い合わせ | 恋と深空バトル | 恋と深空ガイド",
+        "description": "恋と深空バトル チームへのお問い合わせ：フィードバック、質問、SNS"
+      }
     }
 
 }

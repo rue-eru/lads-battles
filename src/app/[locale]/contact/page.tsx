@@ -2,7 +2,20 @@ import CopyWrapper from "@/app/components/CopyWrapper";
 import Spoiler from "@/app/components/Spoiler";
 import { styles } from "@/app/utils/styles";
 import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import Image from "next/image";
+
+export async function generateMetadata() {
+    const t = await getTranslations('layout.metadata.contactPage');
+    const title = t('title');
+    const description = t('description');
+
+    return{
+        title,
+        description
+    }
+    
+}
 
 export default function Contact () {
 
