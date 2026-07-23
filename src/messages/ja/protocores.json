@@ -1,40 +1,41 @@
 {
-        "header": "コア",
-        "stellactrumMatchInfo": "カードの「[Stellactrum Match]」が「完全マッチング」の場合は、コアの主属性として「[DMG Boost to Weakened]」または「[Oath Recovery Boost]」を選択してください。「完全マッチング」でない場合は、「[CRIT DMG]」「[CRIT Rate]」「[Expedited Energy Boost]」を優先してください。",
-        "introSolar": "一部の5星パートナーは、少し特殊なビルドを必要とすることがあります。日位カードの「β」コアは、所有するランクによって最適な選択が変わる場合があります。",
-        "chooseProtocores": "目的に合わせてコアを選択",
-        "substats": "副属性",
-        "substatsChoice": {
-            "basic": "副属性の優先順位：攻撃力、攻撃力バフ、CR率、CR攻撃、対弱体攻撃。",
-            "solar": {
-                "intro": "副属性の優先順位：",
-                "abysswalker": "攻撃力、攻撃力バフ、CR率、CR攻撃、対弱体攻撃。",
-                "god_of_the_tides": "HP、HPバフ、CR率、CR攻撃、対弱体攻撃。",
-                "lemurian_sea_god": "防御力、防御力バフ、CR率、CR攻撃、対弱体攻撃。"
-            }
-        },
-        "solarCardsInfo": "日位カードは「[α]」と「[β]」コアを使用します。「[α]」の主属性は「HP」で固定されていますが、「[β]」の主属性は選択できます。",
-        "lunarCardsInfo": "月位カードは「[γ]」と「[δ]」コアを使用します。「[γ]」の主属性は「攻撃力」で固定されていますが、「[δ]」の主属性は選択できます。",
-        "critBuildsInfo": "クリティカルビルドは、戦闘前に自身の[CRIT Rate]を必ず確認してください。快適なゲームプレイのために60〜80%の[CRIT Rate]を目安にしましょう。クリティカル率が低いと[CRIT DMG]の数値が高くても意味がありません。",
-        "OathInfo": "通常、戦闘中に[Ardent Oath]を使用できるのは1回ですが、2回使用したい場合は「[β]」コアの[Oath Recovery Boost]を選択してください。",
-        "energyInfo": "[Active Skill]と[Resonance Skill]は専用エネルギー「◆」を消費します。回復速度を上げたい場合は、「[β]」コアの「[Expedited Energy Boost]」を選択してください。",
-        "energyNB": "パートナーのランクによって効果が異なります。",
-        "ProtocoreType": {
-            "Solar": "日位",
-            "Lunar": "月位"
-        },
-        "protocoreStats" : {
-            "hp": "HP",
-            "atk": "攻撃力",
-            "def": "防御力",
-            "hp_bonus": "HPバフ",
-            "atk_bonus": "攻撃力バフ",
-            "def_bonus": "防御力バフ",
-            "expedited_energy_boost": "エネルギー回復増",
-            "oath_recovery_boost": "誓約回復増",
-            "oath_strength": "誓約ダメージ増",
-            "crit_rate": "CR率",
-            "crit_dmg": "CR攻撃",
-            "dmg_boost_to_weakened": "対弱体攻撃"
+    "header": "コア",
+    "generalInfoBtn": "コアの基本情報",
+    "stellactrumMatchInfo": "カードの「[Stellactrum Match]」が「完全マッチング」の場合は、コアの主属性として「[DMG Boost to Weakened]」または「[Oath Recovery Boost]」を選択してください。「完全マッチング」でない場合は、「[CRIT DMG]」「[CRIT Rate]」「[Expedited Energy Boost]」を優先してください。",
+    "introSolar": "一部の5星パートナーは、少し特殊なビルドを必要とすることがあります。日位カードの「β」コアは、所有するランクによって最適な選択が変わる場合があります。",
+    "chooseProtocores": "目的に合わせてコアを選択",
+    "substats": "副属性",
+    "substatsChoice": {
+        "basic": "副属性の優先順位：攻撃力、攻撃力バフ、CR率、CR攻撃、対弱体攻撃。",
+        "solar": {
+            "intro": "副属性の優先順位：",
+            "abysswalker": "攻撃力、攻撃力バフ、CR率、CR攻撃、対弱体攻撃。",
+            "god_of_the_tides": "HP、HPバフ、CR率、CR攻撃、対弱体攻撃。",
+            "lemurian_sea_god": "防御力、防御力バフ、CR率、CR攻撃、対弱体攻撃。"
         }
+    },
+    "solarCardsInfo": "日位カードは「[α]」と「[β]」コアを使用します。「[α]」の主属性は「HP」で固定されていますが、「[β]」の主属性は選択できます。",
+    "lunarCardsInfo": "月位カードは「[γ]」と「[δ]」コアを使用します。「[γ]」の主属性は「攻撃力」で固定されていますが、「[δ]」の主属性は選択できます。",
+    "critBuildsInfo": "クリティカルビルドは、戦闘前に自身の[CRIT Rate]を必ず確認してください。快適なゲームプレイのために60〜80%の[CRIT Rate]を目安にしましょう。クリティカル率が低いと[CRIT DMG]の数値が高くても意味がありません。",
+    "OathInfo": "通常、戦闘中に[Ardent Oath]を使用できるのは1回ですが、2回使用したい場合は「[β]」コアの[Oath Recovery Boost]を選択してください。",
+    "energyInfo": "[Active Skill]と[Resonance Skill]は専用エネルギー「◆」を消費します。回復速度を上げたい場合は、「[β]」コアの「[Expedited Energy Boost]」を選択してください。",
+    "energyNB": "パートナーのランクによって効果が異なります。",
+    "ProtocoreType": {
+        "Solar": "日位",
+        "Lunar": "月位"
+    },
+    "protocoreStats" : {
+        "hp": "HP",
+        "atk": "攻撃力",
+        "def": "防御力",
+        "hp_bonus": "HPバフ",
+        "atk_bonus": "攻撃力バフ",
+        "def_bonus": "防御力バフ",
+        "expedited_energy_boost": "エネルギー回復増",
+        "oath_recovery_boost": "誓約回復増",
+        "oath_strength": "誓約ダメージ増",
+        "crit_rate": "CR率",
+        "crit_dmg": "CR攻撃",
+        "dmg_boost_to_weakened": "対弱体攻撃"
+    }
 }
