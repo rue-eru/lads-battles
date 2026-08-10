@@ -10,10 +10,10 @@
             "stellactrum": "sapphire",
             "solarPair": "sf",
             "rarity": "★★★★★",
-            "role": "",
+            "role": "burst_aoe_empower",
             "scaling": "def",
-            "best": "",
-            "specialty": "",
+            "best": "single_target",
+            "specialty": "burst_transformation",
             "unlock": "limited_banner"        
         }
     ]

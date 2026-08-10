@@ -284,6 +284,78 @@
             }
         }
     },
+    "sylus": {
+        "silverwing_fiend": {
+            "paragraph_1": "Silverwing Fiend is a resource-building burst transformation companion. You absorb [Blood Essence] through attacks to fill a 100-point gauge. When full, cast [Blood Pact] to enter [Crimson Bond] — Sylus becomes your familiar, your skills transform, and you unleash massive DEF-scaling damage through [Bloodroses] and [Underworld Rift].",
+            "paragraph_2": "You have two main resources to track:",
+            "ul_li_1": "[Blood Essence] — main resource (0-100), filled by attacks and skills",
+            "ul_li_2": "[Rose Mark] — buff that empowers Charged Attacks; recovers over time",
+            "ul_li_3": "[Bloodrose] — damage amp stacks (max 2) from blooming seeds during Bond",
+            "paragraph_3": "How to gain [Blood Essence]:",
+            "table_1": {
+                "table_header_action": "Action",
+                "table_header_applies": "Essence gained",
+                "table_row_1_action": "[Basic Attack] (per hit)",
+                "table_row_1_applies": "+3",
+                "table_row_2_action": "[Charged Attack] (with [Rose Mark])",
+                "table_row_2_applies": "+12 + triggers [Rose Thorns]",
+                "table_row_3_action": "[Crimson Break] ([Support Skill])",
+                "table_row_3_applies": "+6",
+                "table_row_4_action": "[Crimson Coffin] ([Resonance Skill])",
+                "table_row_4_applies": "+20 + gathers enemies"
+            },
+            "paragraph_4": "When [Blood Essence] is full (100), the [Blood Pact] button lights up — press it to enter [Crimson Bond].",
+            "paragraph_5": "Pro tip: Use [Crimson Coffin] on cooldown — it's your biggest single source of [Blood Essence].",
+            "rotationstring": "[Charged Attack] → [Crimson Break] → [Basic Attack] → [Crimson Coffin] → repeat until 100 [Blood Essence]",
+            "paragraph_6": "The setup phase cycle:",
+            "li_1": "[Basic Attack] (full combo) → absorbs 3 [Blood Essence] per hit",
+            "li_2": "[Charged Attack] → consumes [Rose Mark] → triggers [Rose Thorns] (+12 Essence)",
+            "li_3": "[Crimson Break] ([Support Skill]) → absorbs +6 Essence",
+            "li_4": "[Crimson Coffin] ([Resonance Skill]) → absorbs +20 Essence + gathers enemies",
+            "paragraph_7": "Build to 100 [Blood Essence] as quickly as possible, then use [Blood Pact] to enter [Crimson Bond].",
+            "paragraph_8": "Crimson Bond (Burst): During [Crimson Bond], your skills change:",
+            "table_2": {
+                "skill": "Normal Skill",
+                "normal": "Outside Bond",
+                "bond": "During Bond",
+                "tr_1_skill": "[Support Skill]",
+                "tr_1_normal": "[Crimson Break]",
+                "tr_1_bond": "[Crimson Void] (auto-triggers on bloom)",
+                "tr_2_skill": "[Resonance Skill]",
+                "tr_2_normal": "[Crimson Coffin]",
+                "tr_2_bond": "[Underworld Rift] (8s CD)",
+                "tr_3_skill": "[Active Skill]",
+                "tr_3_normal": "[Rose Scent]",
+                "tr_3_bond": "[Bloodrose Rain] (CD increases per cast)"
+            },
+            "rotationstring2": "Attack to stimulate [Bloodrose Seed] → grow [Bloodroses] (max 2) → [Bloodrose Rain] (buff) → [Underworld Rift] (detonate)",
+            "paragraph_9": "Inside [Crimson Bond]: keep attacking to grow [Bloodroses]. Each [Bloodrose] increases [Underworld Rift] detonation damage by 30%. Wait for 2 [Bloodroses] before detonating for maximum damage.",
+            "paragraph_10": "[Ardent Oath] — [Crimson Finale] — is best used during [Crimson Bond] for maximum damage:",
+            "li_10": "At R2: [Blood Spell] debuff increases enemy DMG taken by 8%",
+            "li_11": "At R3: Sylus deals 10% more DMG during Bond",
+            "li_12": "At R3: Casting [Active Skill] grants [Bloodrose Wreath] (+10% DMG for 8s). Wreath fires extra bullets on Basic/Charged attacks that grow [Bloodrose Seed] faster — making it easier to reach 2 Bloodroses before detonation.",
+            "paragraph_11": "Full Rotation Summary:",
+            "rotationstring3": "Setup: Charged Attack → Crimson Break → Basic Attack →  Crimson Coffin → repeat to 100 Essence → Blood Pact → Crimson Bond → Burst: Attack → grow Bloodrose #1 → Attack → grow Bloodrose #2 → Bloodrose Rain → Underworld Rift → detonate → repeat",
+            "images": {
+                "ui_before": {
+                    "caption": "Silverwing Fiend's main buff icons",
+                    "alt": "Silverwing Fiend UI icons before building Essence"
+                },
+                "ui_100": {
+                    "caption": "At 100 Blood Essence, the Blood Pact button lights up. Press it to enter Crimson Bond.",
+                    "alt": "Silverwing Fiend UI with full Blood Essence and Blood Pact button highlighted"
+                },
+                "rotation_before": {
+                    "caption": "Setup phase approximate rotation: Charged Attack → Crimson Break → Basic Attack → Crimson Coffin → repeat to 100 Essence.",
+                    "alt": "Silverwing Fiend setup rotation GIF"
+                },
+                "rotation_inside": {
+                    "caption": "Burst phase inside Crimson Bond rotation: attack to grow Bloodroses → Bloodrose Rain → Underworld Rift detonation.",
+                    "alt": "Silverwing Fiend burst rotation GIF"
+                }
+            }
+        }
+    },
     "caleb": {
         "farspace_colonel": {
             "paragraph_1": "Farspace Colonel's gameplay has two main phases: Outside and Inside [Battlefront]",

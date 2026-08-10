@@ -1,7 +1,177 @@
 {
     "type": "solar",
     "blocks": [
- 
+        {
+            "type": "paragraph",
+            "content": "gameplay.sylus.silverwing_fiend.paragraph_1"
+        },
+        {
+            "type": "image",
+            "src": "/images/companions/sylus/gameplay/silverwing_fiend/ui_before.png",
+            "alt": "gameplay.sylus.silverwing_fiend.images.ui_before.alt",
+            "caption": "gameplay.sylus.silverwing_fiend.images.ui_before.caption"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.sylus.silverwing_fiend.paragraph_2",
+            "layout": "bottom"
+        },
+        {
+            "type": "unorderedList",
+            "content": [
+                "gameplay.sylus.silverwing_fiend.ul_li_1",
+                "gameplay.sylus.silverwing_fiend.ul_li_2",
+                "gameplay.sylus.silverwing_fiend.ul_li_3"
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.sylus.silverwing_fiend.paragraph_3",
+            "layout": "bottom"
+        },
+        {
+            "type": "table",
+            "headers": [
+                "gameplay.sylus.silverwing_fiend.table_1.table_header_action",
+                "gameplay.sylus.silverwing_fiend.table_1.table_header_applies"
+            ],
+            "rows": [
+                [
+                    "gameplay.sylus.silverwing_fiend.table_1.table_row_1_action",
+                    "gameplay.sylus.silverwing_fiend.table_1.table_row_1_applies"
+                ],
+                [
+                    "gameplay.sylus.silverwing_fiend.table_1.table_row_2_action",
+                    "gameplay.sylus.silverwing_fiend.table_1.table_row_2_applies"
+                ],
+                [
+                    "gameplay.sylus.silverwing_fiend.table_1.table_row_3_action",
+                    "gameplay.sylus.silverwing_fiend.table_1.table_row_3_applies"
+                ],
+                [
+                    "gameplay.sylus.silverwing_fiend.table_1.table_row_4_action",
+                    "gameplay.sylus.silverwing_fiend.table_1.table_row_4_applies"
+                ]
+            ]
+        },
+        {
+            "type": "image",
+            "src": "/images/companions/sylus/gameplay/silverwing_fiend/ui_100.png",
+            "alt": "gameplay.sylus.silverwing_fiend.images.ui_100.alt",
+            "caption": "gameplay.sylus.silverwing_fiend.images.ui_100.caption"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.sylus.silverwing_fiend.paragraph_4",
+            "layout": "bottom",
+            "highlight": "yes"
+        },
+        {
+            "type": "rotationList",
+            "content": [
+                "gameplay.sylus.silverwing_fiend.rotationstring"
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.sylus.silverwing_fiend.paragraph_5",
+            "layout": "bottom"
+        },
+        {
+            "type": "orderedList",
+            "content": [
+                "gameplay.sylus.silverwing_fiend.li_1",
+                "gameplay.sylus.silverwing_fiend.li_2",
+                "gameplay.sylus.silverwing_fiend.li_3",
+                "gameplay.sylus.silverwing_fiend.li_4"
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.sylus.silverwing_fiend.paragraph_6"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.sylus.silverwing_fiend.paragraph_7",
+            "layout": "bottom",
+            "highlight": "yes"
+        },
+        {
+            "type": "image",
+            "src": "/images/companions/sylus/gameplay/silverwing_fiend/rotation_before.gif",
+            "alt": "gameplay.sylus.silverwing_fiend.images.rotation_before.alt",
+            "caption": "gameplay.sylus.silverwing_fiend.images.rotation_before.caption"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.sylus.silverwing_fiend.paragraph_8",
+            "layout": "bottom"
+        },
+        {
+            "type": "table",
+            "headers": [
+                "gameplay.sylus.silverwing_fiend.table_2.skill",
+                "gameplay.sylus.silverwing_fiend.table_2.normal",
+                "gameplay.sylus.silverwing_fiend.table_2.bond"
+            ],
+            "rows": [
+                [
+                    "gameplay.sylus.silverwing_fiend.table_2.tr_1_skill",
+                    "gameplay.sylus.silverwing_fiend.table_2.tr_1_normal",
+                    "gameplay.sylus.silverwing_fiend.table_2.tr_1_bond"
+                ],
+                [
+                    "gameplay.sylus.silverwing_fiend.table_2.tr_2_skill",
+                    "gameplay.sylus.silverwing_fiend.table_2.tr_2_normal",
+                    "gameplay.sylus.silverwing_fiend.table_2.tr_2_bond"
+                ],
+                [
+                    "gameplay.sylus.silverwing_fiend.table_2.tr_3_skill",
+                    "gameplay.sylus.silverwing_fiend.table_2.tr_3_normal",
+                    "gameplay.sylus.silverwing_fiend.table_2.tr_3_bond"
+                ]
+            ]
+        },
+        {
+            "type": "rotationList",
+            "content": [
+                "gameplay.sylus.silverwing_fiend.rotationstring2"
+            ]
+        },
+        {
+            "type": "image",
+            "src": "/images/companions/sylus/gameplay/silverwing_fiend/rotation_inside.gif",
+            "alt": "gameplay.sylus.silverwing_fiend.images.rotation_inside.alt",
+            "caption": "gameplay.sylus.silverwing_fiend.images.rotation_inside.caption"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.sylus.silverwing_fiend.paragraph_9",
+            "layout": "bottom"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.sylus.silverwing_fiend.paragraph_10"
+        },
+        {
+            "type": "unorderedList",
+            "content": [
+                "gameplay.sylus.silverwing_fiend.li_10",
+                "gameplay.sylus.silverwing_fiend.li_11",
+                "gameplay.sylus.silverwing_fiend.li_12"
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.sylus.silverwing_fiend.paragraph_11",
+            "layout": "bottom",
+            "highlight": "yes"
+        },
+        {
+            "type": "rotationList",
+            "content": [
+                "gameplay.sylus.silverwing_fiend.rotationstring3"
+            ]
+        }
     ]
-    
 }

@@ -67,7 +67,8 @@
     "dps_aoe_empower": "DPS | AoE | Empower",
     "dps_burst_empower": "DPS | Burst | Empower",
     "dps_heal_single": "DPS | Heal | Single-target",
-    "dps_burst_single": "DPS | Burst | Single-target"
+    "dps_burst_single": "DPS | Burst | Single-target",
+    "burst_aoe_empower": "Burst | AoE | Empower"
   },
   "scaling": {
     "atk": "ATK",
