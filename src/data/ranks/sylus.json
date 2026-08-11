@@ -1,3 +1,24 @@
 {
-    
+    "silverwing_fiend": {
+        "r0": {
+            "beta": ["oath_recovery_boost", "expedited_energy_boost"],
+            "delta": ["crit_rate", "crit_dmg", "def_bonus"],
+            "description_key": "ranks.rankDescriptions.sylus.silverwing_fiend.r0"
+        },
+        "r1": {
+            "beta": ["expedited_energy_boost", "def_bonus"],
+            "delta": ["crit_rate", "crit_dmg", "def_bonus"],
+            "description_key": "ranks.rankDescriptions.sylus.silverwing_fiend.r1"
+        },
+        "r2": {
+            "beta": ["expedited_energy_boost", "def_bonus"],
+            "delta": ["crit_rate", "crit_dmg", "def_bonus"],
+            "description_key": "ranks.rankDescriptions.sylus.silverwing_fiend.r2"
+        },
+        "r3": {
+            "beta": ["expedited_energy_boost", "def_bonus"],
+            "delta": ["crit_rate", "crit_dmg", "def_bonus"],
+            "description_key": "ranks.rankDescriptions.sylus.silverwing_fiend.r3"
+        } 
+    }
 }

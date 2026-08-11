@@ -239,6 +239,38 @@
                 }
             }    
         },
+        "sylus": {
+            "silverwing_fiend": {
+                "support_skill": {
+                    "name": "Crimson Break",
+                    "description": "Sylus pierces enemies, absorbing 6 [Blood Essence]. Cannot be used during [Crimson Bond]. \n During [Crimson Bond]: Becomes [Crimson Void] — Sylus summons blood pillars, triggers [Rose Thorns] AoE. Cannot be cast manually — triggers automatically when [Bloodrose Seed] blooms."
+                },
+                "resonance_skill": {
+                    "name": "Crimson Coffin",
+                    "description": "Summon a Crimson Coffin — Sylus descends, gathers enemies, extracts 20 [Blood Essence]. \n During [Crimson Bond]: Becomes [Underworld Rift] (CD 8s). Summon thorns, pause enemy weakness timers, suspend [Bloodrose Seed] growth. Detonation damage increases by 30% per [Bloodrose] on the field. After detonation: [Crimson Bond] ends, [Blood Essence] cleared, [Bloodrose Seed] removed."
+                },
+                "ardent_oath": {
+                    "name": "Crimson Finale",
+                    "description": "Sylus unfurls his silver wings, summoning the blood moon. Countless crimson crystals rain down for massive damage."
+                },
+                "passive_skill": {
+                    "name": "Crimson Seal",
+                    "description": "The core mechanic. See Gameplay section for full breakdown."
+                },
+                "basic_attack": {
+                    "name": "Rose Spike",
+                    "description": "A 4‑hit combo. Charged Attack summons a magical array beneath enemies."
+                },
+                "my_passive_skill": {
+                    "name": "Rose Rain",
+                    "description": "During [Crimson Bond], Active Skill becomes [Bloodrose Rain]."
+                },
+                "active_skill": {
+                    "name": "Rose Scent",
+                    "description": "Apply [Bloodrose Scent] to yourself for 8s — unstoppable + 15% damage increase. \n During [Crimson Bond]: Active Skill becomes [Bloodrose Rain] (CD 4s). Fires bullets that activate [Bloodrose Seed]. No Energy cost, but each cast increases cooldown by 4s (up to +36s)."
+                }
+            }
+        },
         "caleb": {
             "farspace_colonel": {
                 "support_skill": {

@@ -676,4 +676,109 @@ export const GLOSSARY: Record<string, GlossaryTermProps> = {
         label: 'skybreaker_sn.labelKey',
         description: 'skybreaker_sn.descriptionKey',
     },
+
+    // Sylus: Silverwing Fiend
+    "Rose Mark": {
+        key: "Rose Mark",
+        label: 'rose_mark.labelKey',
+        description: 'rose_mark.descriptionKey',
+    },
+    "Blood Essence": {
+        key: "Blood Essence",
+        label: 'blood_essence.labelKey',
+        description: 'blood_essence.descriptionKey',
+    },
+    "Crimson Bond": {
+        key: "Crimson Bond",
+        label: 'crimson_bond.labelKey',
+        description: 'crimson_bond.descriptionKey',
+    },
+    "Bloodrose Seed": {
+        key: "Bloodrose Seed",
+        label: 'bloodrose_seed.labelKey',
+        description: 'bloodrose_seed.descriptionKey',
+    },
+    "Bloodrose": {
+        key: "Bloodrose",
+        label: 'bloodrose.labelKey',
+        description: 'bloodrose.descriptionKey',
+    },
+    "Bloodroses": {
+        key: "Bloodroses",
+        label: 'bloodroses.labelKey',
+        description: 'bloodroses.descriptionKey',
+    },
+    "Rose Thorns": {
+        key: "Rose Thorns",
+        label: 'rose_thorns.labelKey',
+        description: 'rose_thorns.descriptionKey',
+    },
+    "Blood Pact": {
+        key: "Blood Pact",
+        label: 'blood_pact.labelKey',
+        description: 'blood_pact.descriptionKey',
+    },
+    "Underworld Rift": {
+        key: "Underworld Rift",
+        label: 'underworld_rift.labelKey',
+        description: 'underworld_rift.descriptionKey',
+        link: "#resonanceSkill"
+    },
+    "Bloodrose Rain": {
+        key: "Bloodrose Rain",
+        label: 'bloodrose_rain.labelKey',
+        description: 'bloodrose_rain.descriptionKey',
+        link: "#activeSkill"
+    },
+    "Bloodrose Scent": {
+        key: "Bloodrose Scent",
+        label: 'bloodrose_scent.labelKey',
+        description: 'bloodrose_scent.descriptionKey',
+    },
+    "Crimson Break": {
+        key: "Crimson Break",
+        label: 'crimson_break.labelKey',
+        description: 'crimson_break.descriptionKey',
+        link: "#supportSkill"
+    },
+    "Crimson Void": {
+        key: "Crimson Void",
+        label: 'crimson_void.labelKey',
+        description: 'crimson_void.descriptionKey',
+        link: "#supportSkill"
+    },
+    "Crimson Coffin": {
+        key: "Crimson Coffin",
+        label: 'crimson_coffin.labelKey',
+        description: 'crimson_coffin.descriptionKey',
+        link: "#resonanceSkill"
+    },
+    "Crimson Finale": {
+        key: "Crimson Finale",
+        label: 'crimson_finale.labelKey',
+        description: 'crimson_finale.descriptionKey',
+        link: "#ardentOath"
+    },
+    "Crimson Seal": {
+        key: "Crimson Seal",
+        label: 'crimson_seal.labelKey',
+        description: 'crimson_seal.descriptionKey',
+    },
+    "Rose Spike": {
+        key: "Rose Spike",
+        label: 'rose_spike.labelKey',
+        description: 'rose_spike.descriptionKey',
+        link: "#basicAttack"
+    },
+    "Rose Scent": {
+        key: "Rose Scent",
+        label: 'rose_scent_skill.labelKey',
+        description: 'rose_scent_skill.descriptionKey',
+        link: "#activeSkill"
+    },
+    "Crimson Malison": {
+        key: "Crimson Malison",
+        label: 'crimson_malison.labelKey',
+        description: 'crimson_malison.descriptionKey',
+    },
 }

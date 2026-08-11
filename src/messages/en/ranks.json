@@ -44,6 +44,14 @@
                 "r3": "The team deals 8% more DMG. While [Divine Favor] is active, when your basic attack hits, [Active Skill] cooldown is reduced by 0.5s. While [Divine Favor] is active, when Charged Attacks empowered by [Sea God Mark] hit, [Lightning Tide] is triggered for 70% DMG. These effects can trigger once per attack."
             }
         },
+        "sylus": {
+            "silverwing_fiend": {
+                "r0": "Starting Effect: The team deals 8% more DMG and takes 8% less DMG. When you consume [Rose Mark], you recover an additional 0.5 Energy Charge.",
+                "r1": "Increases Ardent Oath charge by 20%. [Rose Thorns] damage increases by 10% and additionally pulls in enemies within range. Casting [Blood Pact] immediately refreshes your Active Skill cooldown and reduces the cooldown of your next Active Skill cast by 4s. This effect cannot stack.",
+                "r2": "Energy Charge limit is raised by 1. When [Crimson Void] hits, it additionally applies [Blood Spell] to enemies, increasing their DMG taken by 8% for 6s. [Blood Spell] is removed when [Crimson Bond] ends. When [Bloodrose Seed] blooms, you and Sylus each recover HP equal to 5% of max HP.",
+                "r3": "The team deals 8% more DMG. During [Crimson Bond], Sylus deals 10% more DMG. When Sylus applies [Bloodrose Seed], he also stimulates [Bloodrose Seed] to grow. During [Crimson Bond], casting Active Skill grants you [Bloodrose Wreath], increasing your DMG by 10% for 8s. When your Basic Attacks or Charged Attacks hit enemies, [Bloodrose Wreath] fires additional bullets at them, dealing damage equal to 79+42% ATK+168% DEF and stimulating [Blooddrose Seed]. This damage counts as Basic Attack damage and this effect can trigger once per attack. When you gain [Bloodrose Wreath], any [Bloodrose Scent] you have is removed, and you gain all its effects. When [Crimson Bond] ends, [Bloodrose Wreath] is removed."
+            }
+        },
         "caleb": {
             "farspace_colonel": {
                 "r0": "Starting Effect: The team deals 8% more DMG and takes 8% less DMG. After using [Charged Attacks] or [Active Skill]s within [Battlefront], you and Caleb's DMG is increased by 20% for 5s. This effect's duration can stack and is cleared when [Ground Breach] ends.",
