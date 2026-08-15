@@ -7,6 +7,7 @@ import Link from "next/link";
 import type { ErrorPageProps } from "../utils/interfaces-data";
 import { useCurrentLanguage } from "../hooks/useCurrentLanguage";
 import { characters } from "../utils/loaders/character-data-loader";
+import RandomKittyGenerator from "./ui/RandomKittyGenerator";
 
 export default function ErrorPage({ code, onRetry }: ErrorPageProps) {
     const t = useTranslations();
@@ -15,8 +16,17 @@ export default function ErrorPage({ code, onRetry }: ErrorPageProps) {
     const basicFont = isJa ? 'font-noto-serif-jp' : 'font-source-serif-4';
 
     const getKittyName = () => {
+        
+        const availableCharacters = characters.filter(char => char !== 'valko')
+        let name =availableCharacters[Math.floor(Math.random() * availableCharacters.length)]
+        return name
+        
+        {/*original function before valko exclusion
+        SHOULD BE RETURNED AFTER WE GET OFFICIAL ANIMATIONS
+
         let name = characters[Math.floor(Math.random() * characters.length)];
         return name;
+        */}
     }
 
     const kittyName = getKittyName()
@@ -71,13 +81,9 @@ export default function ErrorPage({ code, onRetry }: ErrorPageProps) {
 
                <div className="flex flex-col sm:flex-row-reverse justify-center items-center mx-auto sm:gap-4 -mt-10">
 
-                    <Image
-                            src={`/images/others/${kittyName}.webp`}
-                            alt={`${kittyName} kitty gif`}
-                            width={150}
-                            height={150}
-                            className="object-cover"
-                    />   
+                    <RandomKittyGenerator
+                        kittyChara={kittyName}
+                    />
 
                     <div className="flex gap-4">
 

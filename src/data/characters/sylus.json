@@ -3,6 +3,18 @@
         { "id": "otherworldly_visitor", "nameKey": "sylus.otherworldly_visitor"},
         { "id": "relentless_conqueror", "nameKey": "sylus.relentless_conqueror"},
         { "id": "abysm_sovereign", "nameKey": "sylus.abysm_sovereign"},
-        { "id": "silverwing_fiend", "nameKey": "sylus.silverwing_fiend"}
+        { 
+            "id": "silverwing_fiend", 
+            "nameKey": "sylus.silverwing_fiend",
+            "type": "solar",
+            "stellactrum": "sapphire",
+            "solarPair": "sf",
+            "rarity": "★★★★★",
+            "role": "",
+            "scaling": "def",
+            "best": "",
+            "specialty": "",
+            "unlock": "limited_banner"        
+        }
     ]
 }

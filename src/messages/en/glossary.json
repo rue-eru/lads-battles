@@ -484,5 +484,86 @@
     "skybreaker_sn": {
         "labelKey": "Skybreaker-SN",
         "descriptionKey": "Farspace Colonel's exclusive weapon. Used for Swift Strike basic attacks."
+    },
+
+
+
+
+
+    "rose_mark": {
+        "labelKey": "Rose Mark",
+        "descriptionKey": "Granted by Sylus at battle start. Recovers 10s after being consumed. Charged Attack consumes it to trigger Rose Thorns and extract Blood Essence."
+    },
+    "blood_essence": {
+        "labelKey": "Blood Essence",
+        "descriptionKey": "Resource (max 100). Absorbed from Basic/Charged Attacks (3 per hit) and Rose Thorns (12). When full, cast Blood Pact to enter Crimson Bond."
+    },
+    "crimson_bond": {
+        "labelKey": "Crimson Bond",
+        "descriptionKey": "Sylus's empowered state. Enter by casting Blood Pact when Blood Essence is full. Resonance becomes Underworld Rift. Active becomes Bloodrose Rain. Rose Mark recovery is paused."
+    },
+    "bloodrose_seed": {
+        "labelKey": "Bloodrose Seed",
+        "descriptionKey": "Applied by Sylus during Crimson Bond. Transfers to enemies you hit and grows with each attack. When fully stimulated, blooms into a Bloodrose."
+    },
+    "bloodrose": {
+        "labelKey": "Bloodrose",
+        "descriptionKey": "Blooms from fully stimulated Bloodrose Seed. Max 2 on field. Each increases Underworld Rift detonation damage by 30%."
+    },
+    "bloodroses": {
+        "labelKey": "Bloodroses",
+        "descriptionKey": "Blooms from fully stimulated Bloodrose Seed. Max 2 on field. Each increases Underworld Rift detonation damage by 30%."
+    },
+    "rose_thorns": {
+        "labelKey": "Rose Thorns",
+        "descriptionKey": "AoE damage triggered by Charged Attack consuming Rose Mark. Extracts 12 Blood Essence. At R1, pulls in enemies."
+    },
+    "blood_pact": {
+        "labelKey": "Blood Pact",
+        "descriptionKey": "Cast when Blood Essence is full to enter Crimson Bond. At R1, refreshes Active Skill cooldown and reduces next Active cooldown by 4s."
+    },
+    "underworld_rift": {
+        "labelKey": "Underworld Rift",
+        "descriptionKey": "Replaces Resonance Skill during Crimson Bond. CD 8s. Summons thorns, pauses enemy weakness timers. Detonation damage +30% per Bloodrose on field. Ends Crimson Bond."
+    },
+    "bloodrose_rain": {
+        "labelKey": "Bloodrose Rain",
+        "descriptionKey": "Replaces Active Skill during Crimson Bond. CD 4s. Fires bullets that activate Bloodrose Seed. No Energy cost, but each cast increases cooldown by 4s (up to +36s)."
+    },
+    "bloodrose_scent": {
+        "labelKey": "Bloodrose Scent",
+        "descriptionKey": "Applied by Rose Scent (outside Bond) or Bloodrose Rain (inside Bond). Lasts 8s. Grants unstoppable + 15% damage increase."
+    },
+    "crimson_break": {
+        "labelKey": "Crimson Break",
+        "descriptionKey": "Sylus's Support Skill. CD 10s. Pierces enemies, absorbs 6 Blood Essence. Cannot be used during Crimson Bond."
+    },
+    "crimson_void": {
+        "labelKey": "Crimson Void",
+        "descriptionKey": "Replaces Support Skill during Crimson Bond. Triggers automatically when Bloodrose Seed blooms. Summons blood pillars and triggers Rose Thorns AoE."
+    },
+    "crimson_coffin": {
+        "labelKey": "Crimson Coffin",
+        "descriptionKey": "Sylus's Resonance Skill. CD 15s, costs 2 Energy. Summons a coffin, gathers enemies, extracts 20 Blood Essence."
+    },
+    "crimson_finale": {
+        "labelKey": "Crimson Finale",
+        "descriptionKey": "Sylus's Ardent Oath (ultimate). Unfurls silver wings, summons blood moon, rains crimson crystals for massive damage."
+    },
+    "crimson_seal": {
+        "labelKey": "Crimson Seal",
+        "descriptionKey": "Sylus's Passive Skill. Manages Rose Mark, Blood Essence, Crimson Bond, Bloodrose Seed, and Bloodroses."
+    },
+    "rose_spike": {
+        "labelKey": "Rose Spike",
+        "descriptionKey": "Silverwing Fiend's basic attack. A 4-hit combo using Crimson Malison. Charged Attack summons a magical array."
+    },
+    "rose_scent_skill": {
+        "labelKey": "Rose Scent",
+        "descriptionKey": "Silverwing Fiend's Active Skill. CD 10s, costs 1 Energy. Applies Bloodrose Scent for 8s (unstoppable + 15% damage). During Crimson Bond, becomes Bloodrose Rain."
+    },
+    "crimson_malison": {
+        "labelKey": "Crimson Malison",
+        "descriptionKey": "Silverwing Fiend's exclusive weapon. Used for Rose Spike basic attacks."
     }
 }

@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { useTranslations } from "next-intl"
-import { useCurrentLanguage } from "../hooks/useCurrentLanguage";
+import { useCurrentLanguage } from "../../hooks/useCurrentLanguage";
 
 export default function HomeBtn () {
     const tLayout = useTranslations('layout');

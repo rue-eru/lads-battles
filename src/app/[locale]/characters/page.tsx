@@ -2,6 +2,18 @@ import { useTranslations } from 'next-intl';
 import CharacterList from "@/app/components/CharacterList";
 import { styles } from "@/app/utils/styles";
 import CharaListNB from '@/app/components/CharaListNB';
+import { getTranslations } from 'next-intl/server';
+
+export async function generateMetadata() {
+    const t = await getTranslations('layout.metadata.charactersListPage');
+    const title = t('title');
+    const description = t('description');
+
+    return{
+        title,
+        description
+    }
+}
 
 export default function CharactersPage () {
     const t = useTranslations('layout');

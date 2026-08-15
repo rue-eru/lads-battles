@@ -1,9 +1,19 @@
     export const guideLocales: Record<string, string[]> = {
 
       // XAVIER
+      'deepspace_hunter': [],
+      'distant_youth': [],
+      'evol_police': [],
+      'lightseeker': [],
+      'lumiere': [],
       'king_of_darknight': ['en'],
 
       // ZAYNE
+      'linkon_doctor': [],
+      'medic_of_the_arctic': [],
+      'dawnbreaker': [],
+      'foreseer': [],
+      'master_of_fate': [],
       'god_of_annihilation': ['en'],
       
       // RAFAYEL
@@ -15,10 +25,16 @@
       'lemurian_sea_god': ['en', 'ru', 'ja'],
 
       // SYLUS
+      'otherworldly_visitor': [],
+      'relentless_conqueror': [],
+      'abysm_sovereign': [],
+      'silverwing_fiend': [],
 
       // CALEB
+      'deepspace_pilot': [],
+      'farspace_colonel': ['en'],
+      'ultimate_weapon_x_02': [],
       'netherlord': ['en'],
-      'farspace_colonel': ['en']
 
       // VALKO
       

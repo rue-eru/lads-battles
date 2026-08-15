@@ -2,7 +2,14 @@
     "title": "Love and Deepspace Battles",
     "description": "Fan resource for LADS' battle system",
     "character-list": "Character List",
-    "NB": "Currently only some companion guides are available.\n Progress State: Xavier 1/6, Zayne 1/6, Rafayel 6/6, Sylus 0/4, Caleb 2/4, Valko 0/0",
+    "NB": "Currently only some companion guides are available.",
+    "guide-progress-section": {
+      "summary": "Check the progress",
+      "companion": "Companion",
+      "status": "Status",
+      "character-link-title": "{character}'s companion list page",
+      "companion-link-title": "{companion}'s companion guide page"
+    },
     "home-btn":"home",
     "characters": "characters",
     "contact": "Contact",
@@ -20,7 +27,21 @@
     "retry-btn": "Retry",
     "no-results": "No results",
     "metadata": {
-      "guideTitle": "{companionName} · {characterName} | LADS Battle Guide | Love and Deepspace Guide",
-      "guideDescription": "Complete build guide for {companionName} ({characterName}): protocores, skills, and gameplay | Love and Deepspace Guide"
+      "guidePage": {
+        "title": "{companionName} · {characterName} | LADS Battle Guide | Love and Deepspace Companion Guide",
+        "description": "Complete {companionName} ({characterName}) build guide: protocore recommendations, skill breakdowns, gameplay tips for Love and Deepspace"
+      },
+      "charactersListPage": {
+        "title": "Characters | LADS Battle | Love and Deepspace Character Guide",
+        "description": "All Love and Deepspace characters: Xavier, Zayne, Rafayel, Sylus, Caleb, and more | Stats, builds, and guides"
+      },
+      "companionsListPage": {
+        "title": "{characterName} Companions | LADS Battles | Love and Deepspace Guide",
+        "description": "All {characterName} companions in Love and Deepspace: complete list with guides, builds, and gameplay tips"
+      },
+      "contactPage": {
+        "title": "Contact | LADS Battle | Love and Deepspace Guide",
+        "description": "Get in touch with LADS Battle team: feedback, questions, or social media connections"
+      }
     }
 }
