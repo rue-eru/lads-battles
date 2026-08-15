@@ -80,6 +80,19 @@
                 "best": "multi_target_dps",
                 "specialty": "debuff",
                 "unlock": "limited_banner"
+        },
+        {
+                "id": "vermilion_martial_god",
+                "nameKey": "rafayel.vermilion_martial_god",
+                "type": "solar",
+                "stellactrum": "",
+                "solarPair": "vmg",
+                "rarity": "★★★★★",
+                "role": "",
+                "scaling": "",
+                "best": "",
+                "specialty": "",
+                "unlock": "limited_banner"
         }
     ]
 }
