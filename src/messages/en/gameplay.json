@@ -326,10 +326,10 @@
             "li_10": "[Martial Fall] — single-target damage from [Warflame Cleave] or [Crushing Descent]",
             "li_11": "[Ashen Duskfall] — replaces [Martial Fall] if [Vermilion Visage] has energy; AoE damage (first hit full, rest reduced to 30%)",
             "paragraph_11": "Full Rotation",
-            "paragraph_12": "Setup Phase | build [Martial Intent] and charge [Vermilion Visage]:",
+            "paragraph_12": "Setup Phase: build [Martial Intent] and charge [Vermilion Visage]:",
             "paragraph_12_1": "You can also try starting the battle by using Active Skill without any charges buff to get faster into a [Martial Soul]",
             "rotationstring3": "[Resonance Skill] (optional, for shield break/gathering) → [Charged Attack] (build [Martial Intent]) → [Severed Grace] (empowered, charges [Visage]) → [Sweeping Clouds] (charges [Visage]) → repeat until [Vermilion Visage] full → [Martial God's Descent] → [Martial Soul]",
-            "paragraph_13": "Burst Phase — inside [Martial Soul], spend [Flare] and end with [Crushing Descent]:",
+            "paragraph_13": "Burst Phase: inside [Martial Soul], spend [Flare] and end with [Crushing Descent]:",
             "rotationstring4": "[Warflame Cleave] (spend 3 [Flare] → [Martial Fall]) → [Sundering Thrust] (build [Flare]) → [Basic Attacks] (build [Flare] faster) → repeat → [Crushing Descent] (ends [Soul] + [Martial Fall]/[Ashen Duskfall]) → repeat the whole rotation ↺",
             "paragraph_14": "At R1+: Start with full [Martial Intent] — skip the initial Charged Attack and go straight into empowered [Severed Grace]. At R2+: Enemy Weakness is extended, giving more burst time. At R3+: [Sundering Thrust] has shorter cooldown and [Ashen Duskfall] deals more damage.",
             "images": {
