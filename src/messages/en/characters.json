@@ -68,7 +68,9 @@
     "dps_aoe_empower": "DPS | AoE | Empower",
     "dps_burst_empower": "DPS | Burst | Empower",
     "dps_heal_single": "DPS | Heal | Single-target",
-    "dps_burst_single": "DPS | Burst | Single-target"
+    "dps_burst_single": "DPS | Burst | Single-target",
+    "dps_single_empower": "DPS | Single-target | Empower"
+
   },
   "scaling": {
     "atk": "ATK",
@@ -88,7 +90,8 @@
     "multi_target_res_aoth": "Multi Target(Resonance and Oath)",
     "multi_target": "Multi Target",
     "multi_target_dps": "Multi Target and DPS",
-    "single_dps": "Single Target and DPS"
+    "single_dps": "Single Target and DPS",
+    "single_multi": "Single Target + Multi Target (Resonance)"
   },
   "specialty": {
     "atk_buff": "ATK Buff",
@@ -97,6 +100,7 @@
     "heal_dmg_reduction": "Heal and DMG Reduction",
     "hp_scaling_dps": "HP-Scaling DPS",
     "burst_transformation": "Burst Transformation",
-    "shield_break_burst": "Shield Break and Burst DPS"
+    "shield_break_burst": "Shield Break and Burst DPS",
+    "sync_burst_transformation": "Sync State | Burst Transformation"
   }
 }

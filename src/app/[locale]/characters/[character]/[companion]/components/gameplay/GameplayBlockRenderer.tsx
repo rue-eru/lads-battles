@@ -28,7 +28,8 @@ export function GameplayBlockRenderer({
         left: 'object-left',
         right: 'object-right',
         top: 'object-top',
-        center: 'object-center'
+        center: 'object-center',
+        bottom: 'object-bottom'
     } as const;
     
     return(
@@ -300,6 +301,49 @@ export function GameplayBlockRenderer({
                             </div>
                         )
 
+                    case 'video': {
+                        const positionClass = block.layout ? objPositionMap[block.layout] : "object-center";
+                        const autoPlay = block.autoPlay !== false;
+                        const loop = block.loop !== false;
+                        const muted = block.muted !== false;
+                        const controls = block.controls || false;
+                    
+                        return (
+                            <figure
+                                key={blockKey}
+                                className={`flex flex-col ${styles.img_bg}`}
+                            >
+                                <div className={`${styles.imgHeight} relative`}>
+                                    <video
+                                        src={block.src}
+                                        poster={block.poster}
+                                        className={`w-full h-full object-cover ${positionClass}`}
+                                        autoPlay={autoPlay}
+                                        loop={loop}
+                                        muted={muted}
+                                        controls={controls}
+                                        playsInline
+                                        onClick={() => {
+                                        }}
+                                    />
+                                    {!controls && (
+                                        <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+                                            <div className="bg-black/40 rounded-full p-3 pointer-events-none">
+                                                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                                    <polygon points="5,3 19,12 5,21" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    )}
+                                </div>
+                                {block.caption && (
+                                    <figcaption className={styles.figcaptionStyle}>
+                                        {t(block.caption)}
+                                    </figcaption>
+                                )}
+                            </figure>
+                        );
+                    }
                 }
             })}
             </div>

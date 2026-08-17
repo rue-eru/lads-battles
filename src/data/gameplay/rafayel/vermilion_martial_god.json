@@ -1,0 +1,207 @@
+{
+    "type": "solar",
+    "blocks": [
+        {
+            "type": "paragraph",
+            "content": "gameplay.rafayel.vermilion_martial_god.paragraph_1"
+        },
+        {
+            "type": "image",
+            "src": "/images/companions/rafayel/gameplay/vermilion_martial_god/ui.png",
+            "alt": "gameplay.rafayel.vermilion_martial_god.images.ui.alt",
+            "caption": "gameplay.rafayel.vermilion_martial_god.images.ui.caption"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.rafayel.vermilion_martial_god.paragraph_2",
+            "layout": "bottom"
+        },
+        {
+            "type": "unorderedList",
+            "content": [
+                "gameplay.rafayel.vermilion_martial_god.ul_li_1",
+                "gameplay.rafayel.vermilion_martial_god.ul_li_2",
+                "gameplay.rafayel.vermilion_martial_god.ul_li_3"
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.rafayel.vermilion_martial_god.paragraph_3",
+            "layout": "bottom"
+        },
+        {
+            "type": "table",
+            "headers": [
+                "gameplay.rafayel.vermilion_martial_god.table_1.table_header_action",
+                "gameplay.rafayel.vermilion_martial_god.table_1.table_header_applies"
+            ],
+            "rows": [
+                [
+                    "gameplay.rafayel.vermilion_martial_god.table_1.table_row_1_action",
+                    "gameplay.rafayel.vermilion_martial_god.table_1.table_row_1_applies"
+                ],
+                [
+                    "gameplay.rafayel.vermilion_martial_god.table_1.table_row_2_action",
+                    "gameplay.rafayel.vermilion_martial_god.table_1.table_row_2_applies"
+                ],
+                [
+                    "gameplay.rafayel.vermilion_martial_god.table_1.table_row_3_action",
+                    "gameplay.rafayel.vermilion_martial_god.table_1.table_row_3_applies"
+                ]
+            ]
+        },
+        {
+            "type": "image",
+            "src": "/images/companions/rafayel/gameplay/vermilion_martial_god/sync_btn.png",
+            "alt": "gameplay.rafayel.vermilion_martial_god.images.sync_btn.alt",
+            "caption": "gameplay.rafayel.vermilion_martial_god.images.sync_btn.caption"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.rafayel.vermilion_martial_god.paragraph_4",
+            "layout": "bottom",
+            "highlight": "yes"
+        },
+        {
+            "type": "rotationList",
+            "content": [
+                "gameplay.rafayel.vermilion_martial_god.rotationstring"
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.rafayel.vermilion_martial_god.paragraph_5",
+            "layout": "bottom"
+        },
+        {
+            "type": "orderedList",
+            "content": [
+                "gameplay.rafayel.vermilion_martial_god.li_1",
+                "gameplay.rafayel.vermilion_martial_god.li_2",
+                "gameplay.rafayel.vermilion_martial_god.li_3",
+                "gameplay.rafayel.vermilion_martial_god.li_4"
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.rafayel.vermilion_martial_god.paragraph_6"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.rafayel.vermilion_martial_god.paragraph_7",
+            "layout": "bottom",
+            "highlight": "yes"
+        },
+        {
+            "type": "image",
+            "src": "/images/companions/rafayel/gameplay/vermilion_martial_god/martial_soul.png",
+            "alt": "gameplay.rafayel.vermilion_martial_god.images.martial_soul.alt",
+            "caption": "gameplay.rafayel.vermilion_martial_god.images.martial_soul.caption"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.rafayel.vermilion_martial_god.paragraph_8",
+            "layout": "bottom"
+        },
+        {
+            "type": "table",
+            "headers": [
+                "gameplay.rafayel.vermilion_martial_god.table_2.skill",
+                "gameplay.rafayel.vermilion_martial_god.table_2.normal",
+                "gameplay.rafayel.vermilion_martial_god.table_2.soul"
+            ],
+            "rows": [
+                [
+                    "gameplay.rafayel.vermilion_martial_god.table_2.tr_1_skill",
+                    "gameplay.rafayel.vermilion_martial_god.table_2.tr_1_normal",
+                    "gameplay.rafayel.vermilion_martial_god.table_2.tr_1_soul"
+                ],
+                [
+                    "gameplay.rafayel.vermilion_martial_god.table_2.tr_2_skill",
+                    "gameplay.rafayel.vermilion_martial_god.table_2.tr_2_normal",
+                    "gameplay.rafayel.vermilion_martial_god.table_2.tr_2_soul"
+                ]
+            ]
+        },
+        {
+            "type": "rotationList",
+            "content": [
+                "gameplay.rafayel.vermilion_martial_god.rotationstring2"
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.rafayel.vermilion_martial_god.paragraph_9",
+            "layout":"bottom"
+        },
+        {
+            "type": "unorderedList",
+            "content": [
+                "gameplay.rafayel.vermilion_martial_god.li_10",
+                "gameplay.rafayel.vermilion_martial_god.li_11"
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.rafayel.vermilion_martial_god.paragraph_11",
+            "layout": "bottom",
+            "highlight": "yes"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.rafayel.vermilion_martial_god.paragraph_12",
+            "layout": "bottom"
+        },
+        {
+            "type": "rotationList",
+            "content": [
+                "gameplay.rafayel.vermilion_martial_god.rotationstring3"
+            ]
+        },
+        {
+            "type": "video",
+            "src": "/images/companions/rafayel/gameplay/vermilion_martial_god/rotation_setup.mp4",
+            "poster": "/images/companions/rafayel/gameplay/vermilion_martial_god/rotation_setup_poster.jpg",
+            "alt": "gameplay.rafayel.vermilion_martial_god.videos.rotation_setup.alt",
+            "caption": "gameplay.rafayel.vermilion_martial_god.videos.rotation_setup.caption",
+            "layout": "bottom",
+            "autoPlay": true,
+            "loop": true,
+            "muted": true,
+            "controls": true
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.rafayel.vermilion_martial_god.paragraph_12_1"
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.rafayel.vermilion_martial_god.paragraph_13",
+            "layout": "bottom"
+        },
+        {
+            "type": "rotationList",
+            "content": [
+                "gameplay.rafayel.vermilion_martial_god.rotationstring4"
+            ]
+        },
+        {
+            "type": "video",
+            "src": "/images/companions/rafayel/gameplay/vermilion_martial_god/rotation_burst.mp4",
+            "poster": "/images/companions/rafayel/gameplay/vermilion_martial_god/rotation_burst_poster.jpg",
+            "alt": "gameplay.rafayel.vermilion_martial_god.videos.rotation_burst.alt",
+            "caption": "gameplay.rafayel.vermilion_martial_god.videos.rotation_burst.caption",
+            "layout": "center",
+            "autoPlay": true,
+            "loop": true,
+            "muted": true,
+            "controls": true
+        },
+        {
+            "type": "paragraph",
+            "content": "gameplay.rafayel.vermilion_martial_god.paragraph_14",
+            "layout": "bottom"
+        }
+            
+    ]
+}

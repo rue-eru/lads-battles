@@ -23,6 +23,7 @@
       'abysswalker': ['en', 'ru', 'ja'],
       'god_of_the_tides': ['en', 'ru', 'ja'],
       'lemurian_sea_god': ['en', 'ru', 'ja'],
+      'vermilion_martial_god': ['en'],
 
       // SYLUS
       'otherworldly_visitor': [],

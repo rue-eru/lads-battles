@@ -16,7 +16,8 @@
             "king_of_darknight": "HP%/HP > Crit Rate > Crit DMG > DMG to Weakened",
             "god_of_annihilation": "ATK% / ATK > HP% / HP > Crit Rate > Crit DMG > DMG to Weakened",
             "farspace_colonel": "DEF Bonus > DEF > CRIT Rate > CRIT DMG > DMG Boost to Weakened > ATK Bonus > ATK",
-            "silverwing_fiend": "DEF Bonus > DEF > CRIT Rate > CRIT DMG > DMG Boost to Weakened > ATK Bonus > ATK"
+            "silverwing_fiend": "DEF Bonus > DEF > CRIT Rate > CRIT DMG > DMG Boost to Weakened > ATK Bonus > ATK",
+            "vermilion_martial_god": "ATK Bonus > ATK > CRIT Rate > CRIT DMG > DMG Boost to Weakened > Oath's Strength"
         }
     },
     "solarCardsInfo": "Solar cards use [α] and [β] protocores. [α] has a fixed main HP stat, while [β]'s main stat derives.",

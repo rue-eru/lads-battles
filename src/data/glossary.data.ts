@@ -781,4 +781,119 @@ export const GLOSSARY: Record<string, GlossaryTermProps> = {
         label: 'crimson_malison.labelKey',
         description: 'crimson_malison.descriptionKey',
     },
+    // Rafayel: Vermilion Martial God
+    "Martial Soul": {
+        key: "Martial Soul",
+        label: 'martial_soul.labelKey',
+        description: 'martial_soul.descriptionKey',
+    },
+    "Martial Intent": {
+        key: "Martial Intent",
+        label: 'martial_intent.labelKey',
+        description: 'martial_intent.descriptionKey',
+    },
+    "Vermilion Visage": {
+        key: "Vermilion Visage",
+        label: 'vermilion_visage.labelKey',
+        description: 'vermilion_visage.descriptionKey',
+    },
+    "Vermilion Flare": {
+        key: "Vermilion Flare",
+        label: 'vermilion_flare.labelKey',
+        description: 'vermilion_flare.descriptionKey',
+    },
+    "Martial Fall": {
+        key: "Martial Fall",
+        label: 'martial_fall.labelKey',
+        description: 'martial_fall.descriptionKey',
+    },
+    "Ashen Duskfall": {
+        key: "Ashen Duskfall",
+        label: 'ashen_duskfall.labelKey',
+        description: 'ashen_duskfall.descriptionKey',
+    },
+    "Suppression": {
+        key: "Suppression",
+        label: 'suppression.labelKey',
+        description: 'suppression.descriptionKey',
+    },
+    "Martial God's Descent": {
+        key: "Martial God's Descent",
+        label: 'martial_gods_descent.labelKey',
+        description: 'martial_gods_descent.descriptionKey',
+    },
+    "Sweeping Clouds": {
+        key: "Sweeping Clouds",
+        label: 'sweeping_clouds.labelKey',
+        description: 'sweeping_clouds.descriptionKey',
+        link: "#supportSkill"
+    },
+    "Skyfire Sweep": {
+        key: "Skyfire Sweep",
+        label: 'skyfire_sweep.labelKey',
+        description: 'skyfire_sweep.descriptionKey',
+        link: "#resonanceSkill"
+    },
+    "Ashen Tempest": {
+        key: "Ashen Tempest",
+        label: 'ashen_tempest.labelKey',
+        description: 'ashen_tempest.descriptionKey',
+        link: "#ardentOath"
+    },
+    "Rally Drum": {
+        key: "Rally Drum",
+        label: 'rally_drum.labelKey',
+        description: 'rally_drum.descriptionKey',
+    },
+    "Rimefall Dance": {
+        key: "Rimefall Dance",
+        label: 'rimefall_dance.labelKey',
+        description: 'rimefall_dance.descriptionKey',
+        link: "#basicAttack"
+    },
+    "Sundering Thrust": {
+        key: "Sundering Thrust",
+        label: 'sundering_thrust.labelKey',
+        description: 'sundering_thrust.descriptionKey',
+        link: "#activeSkill"
+    },
+    "Warflame Cleave": {
+        key: "Warflame Cleave",
+        label: 'warflame_cleave.labelKey',
+        description: 'warflame_cleave.descriptionKey',
+        link: "#activeSkill"
+    },
+    "Crushing Descent": {
+        key: "Crushing Descent",
+        label: 'crushing_descent.labelKey',
+        description: 'crushing_descent.descriptionKey',
+        link: "#activeSkill"
+    },
+    "Song of Rout": {
+        key: "Song of Rout",
+        label: 'song_of_rout.labelKey',
+        description: 'song_of_rout.descriptionKey',
+    },
+    "Twilight's End": {
+        key: "Twilight's End",
+        label: 'twilights_end.labelKey',
+        description: 'twilights_end.descriptionKey',
+        link: "#basicAttack"
+    },
+    "Lingering Haze": {
+        key: "Lingering Haze",
+        label: 'lingering_haze.labelKey',
+        description: 'lingering_haze.descriptionKey',
+    },
+    "Severed Grace": {
+        key: "Severed Grace",
+        label: 'severed_grace.labelKey',
+        description: 'severed_grace.descriptionKey',
+        link: "#activeSkill"
+    },
+    "Twilight Haze": {
+        key: "Twilight Haze",
+        label: 'twilight_haze.labelKey',
+        description: 'twilight_haze.descriptionKey',
+    },
 }

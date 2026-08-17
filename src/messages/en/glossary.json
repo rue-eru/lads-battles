@@ -565,5 +565,92 @@
     "crimson_malison": {
         "labelKey": "Crimson Malison",
         "descriptionKey": "Silverwing Fiend's exclusive weapon. Used for Rose Spike basic attacks."
+    },
+
+
+
+    "martial_soul": {
+        "labelKey": "Martial Soul",
+        "descriptionKey": "Rafayel's empowered state. Enter by fully charging Vermilion Visage and activating Martial God's Descent. New skills become available, Rafayel recovers all HP, and you gain +25% DMG while Visage energy lasts."
+    },
+    "martial_intent": {
+        "labelKey": "Martial Intent",
+        "descriptionKey": "Resource accumulated by Charged Attacks. When full, your next Active Skill is empowered (+50% DMG). Cleared when entering Martial Soul."
+    },
+    "vermilion_visage": {
+        "labelKey": "Vermilion Visage",
+        "descriptionKey": "Energy bar charged by Active Skills. When full, Martial God's Descent becomes available. During Martial Soul, continuously consumed for +25% DMG."
+    },
+    "vermilion_flare": {
+        "labelKey": "Vermilion Flare",
+        "descriptionKey": "Combat resource during Martial Soul (max 3). Accumulated by Basic/Charged Attacks. Consumed by Warflame Cleave."
+    },
+    "martial_fall": {
+        "labelKey": "Martial Fall",
+        "descriptionKey": "Single-target damage called down by Warflame Cleave landing strike or Crushing Descent ground slam. At R1, damage increased by 60%."
+    },
+    "ashen_duskfall": {
+        "labelKey": "Ashen Duskfall",
+        "descriptionKey": "Replaces Martial Fall when Vermilion Visage has energy. AoE damage (first hit full, rest reduced to 30%). At R3, damage increased by 10%."
+    },
+    "suppression": {
+        "labelKey": "Suppression",
+        "descriptionKey": "Debuff applied by empowered Sweeping Clouds or third Charged Strike. Deals bonus Weakness DMG."
+    },
+    "martial_gods_descent": {
+        "labelKey": "Martial God's Descent",
+        "descriptionKey": "The skill that triggers Martial Soul. Appears when Vermilion Visage is fully charged."
+    },
+    "sweeping_clouds": {
+        "labelKey": "Sweeping Clouds",
+        "descriptionKey": "Rafayel's Support Skill. CD 14s. Moves to target and slashes, charging Vermilion Visage. Cannot be triggered by Perfect Dodge — triggers when your Martial Intent-empowered Active Skill hits."
+    },
+    "skyfire_sweep": {
+        "labelKey": "Skyfire Sweep",
+        "descriptionKey": "Rafayel's Resonance Skill. CD 15s, costs 2 Energy. You and Rafayel leap in tandem, unleashing blazing torrents, drawing in enemies."
+    },
+    "ashen_tempest": {
+        "labelKey": "Ashen Tempest",
+        "descriptionKey": "Rafayel's Ardent Oath (ultimate). You resonate as Rafayel soars skyward, raining countless blade tips. You start with 15% Oath Energy."
+    },
+    "rally_drum": {
+        "labelKey": "Rally Drum",
+        "descriptionKey": "Rafayel's Passive Skill. Manages Martial Intent, Vermilion Visage, and the Martial Soul transformation."
+    },
+    "rimefall_dance": {
+        "labelKey": "Rimefall Dance",
+        "descriptionKey": "Rafayel's empowered Basic Attack during Martial Soul. 4-hit combo. Charged Attack leaps forward for bonus damage."
+    },
+    "sundering_thrust": {
+        "labelKey": "Sundering Thrust",
+        "descriptionKey": "Active Skill I during Martial Soul. CD 5s. Thrust forward, dealing damage. Rafayel becomes unstoppable for 4s and accumulates Vermilion Flare."
+    },
+    "warflame_cleave": {
+        "labelKey": "Warflame Cleave",
+        "descriptionKey": "Active Skill II during Martial Soul. Costs 3 Vermilion Flare. Leap and land with a slashing attack, calling down Martial Fall on hit."
+    },
+    "crushing_descent": {
+        "labelKey": "Crushing Descent",
+        "descriptionKey": "Active Skill III during Martial Soul. CD 3s. Ends Martial Soul. Gathers enemies and calls down Martial Fall (or Ashen Duskfall if Visage has energy). Pauses stage timer. Rafayel is invincible."
+    },
+    "song_of_rout": {
+        "labelKey": "Song of Rout",
+        "descriptionKey": "Rafayel's Passive Skill during Martial Soul. Fully restores Vermilion Visage on activation. Manages Vermilion Flare accumulation and Visage energy consumption."
+    },
+    "twilights_end": {
+        "labelKey": "Twilight's End",
+        "descriptionKey": "Your Basic Attack using Twilight Haze. 3-hit combo. Charged (hold) fires Dusk Energy for +50% DMG, unstoppable, 40% less damage. Charged Attack restores 0.3 Energy Charge."
+    },
+    "lingering_haze": {
+        "labelKey": "Lingering Haze",
+        "descriptionKey": "Your Passive Skill. Casting Active Skill makes next 3 Charged Attacks accumulate extra Martial Intent. Third Charged Strike applies Suppression."
+    },
+    "severed_grace": {
+        "labelKey": "Severed Grace",
+        "descriptionKey": "Your Active Skill. CD 7s, costs 1 Energy. Slash forward. When Martial Intent is full, empowered into a powerful leap slash (+50% DMG). Unstoppable throughout."
+    },
+    "twilight_haze": {
+        "labelKey": "Twilight Haze",
+        "descriptionKey": "Your exclusive weapon for Vermilion Martial God. Used for Twilight's End basic attacks."
     }
 }

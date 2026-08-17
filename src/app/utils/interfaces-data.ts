@@ -50,7 +50,7 @@ export interface StatListProps {
 export interface SkillWeaponTableRowProps {
     icon: string;
     title: string;
-    label: 'support_skill' | 'resonance_skill' | 'ardent_oath' | 'his_passive_skill' | 'basic_attack' | 'active_skill' | 'my_passive_skill';
+    label: 'support_skill' | 'resonance_skill' | 'ardent_oath' | 'his_passive_skill' | 'basic_attack' | 'active_skill' | 'active_skill_1' | 'active_skill_2' | 'active_skill_3' | 'my_passive_skill';
     cooldown?: number;
     cost?: number;
     data: string;

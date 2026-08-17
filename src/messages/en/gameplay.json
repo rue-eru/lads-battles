@@ -282,6 +282,80 @@
                     "caption": "When Ocean's Descent is active an activation button will appear changing state to Divine Favor in which Rafayel will throw lightnings on the field while you will be empowered."
                 }
             }
+        },
+        "vermilion_martial_god": {
+            "paragraph_1": "Vermilion Martial God is a two-phase burst transformation companion. You build [Martial Intent] and charge [Vermilion Visage] outside [Martial Soul], then enter a high-damage burst window with new skills. The loop: build resources → transform → spend [Vermilion Flare] → end with [Crushing Descent] → repeat.",
+            "paragraph_2": "You have three main resources to track:",
+            "ul_li_1": "[Martial Intent] — accumulated by Charged Attacks; empowers Active Skill (+50% DMG)",
+            "ul_li_2": "[Vermilion Visage] — energy bar charged by Active Skills; full = transform",
+            "ul_li_3": "[Vermilion Flare] — burst resource during Martial Soul (max 3); spent on [Warflame Cleave]",
+            "paragraph_3": "How to build resources outside [Martial Soul]:",
+            "table_1": {
+                "table_header_action": "Action",
+                "table_header_applies": "What it does",
+                "table_row_1_action": "[Charged Attack]",
+                "table_row_1_applies": "Accumulates [Martial Intent] (full = empower next Active Skill)",
+                "table_row_2_action": "[Severed Grace] ([Active Skill])",
+                "table_row_2_applies": "If [Martial Intent] full → +50% DMG + charges [Vermilion Visage]",
+                "table_row_3_action": "[Sweeping Clouds] ([Support Skill])",
+                "table_row_3_applies": "Charges [Vermilion Visage] on cooldown"
+            },
+            "paragraph_4": "When [Vermilion Visage] is full, [Martial God's Descent] becomes available — press it to enter [Martial Soul].",
+            "rotationstring": "[Charged Attack] → [Severed Grace] → [Sweeping Clouds] → repeat until [Vermilion Visage] full → [Martial God's Descent]",
+            "paragraph_5": "The setup phase cycle:",
+            "li_1": "[Charged Attack] → builds [Martial Intent] to full",
+            "li_2": "[Severed Grace] ([Active Skill]) → empowered (+50% DMG) + charges [Vermilion Visage]",
+            "li_3": "[Sweeping Clouds] ([Support Skill]) → charges [Vermilion Visage] on cooldown",
+            "li_4": "Repeat until [Vermilion Visage] is full → [Martial God's Descent] appears",
+            "paragraph_6": "Build resources efficiently to enter [Martial Soul] as quickly as possible.",
+            "paragraph_7": "Martial Soul (Burst Window): During [Martial Soul], your skills change:",
+            "table_2": {
+                "skill": "Skill",
+                "normal": "Outside Martial Soul",
+                "soul": "During Martial Soul",
+                "tr_1_skill": "Basic Attack",
+                "tr_1_normal": "[Twilight's End]",
+                "tr_1_soul": "[Rimefall Dance] (empowered 4-hit combo)",
+                "tr_2_skill": "Active Skills",
+                "tr_2_normal": "[Severed Grace] (CD 7s)",
+                "tr_2_soul": "[Sundering Thrust] (CD 5s), [Warflame Cleave] (costs Flare), [Crushing Descent] (ends Soul)"
+            },
+            "rotationstring2": "[Sundering Thrust] (build [Vermilion Flare]) → [Warflame Cleave] (costs 3 Flare → [Martial Fall]) → Basic/Charged Attacks (build Flare again) → repeat → [Crushing Descent] (ends Soul + [Martial Fall])",
+            "paragraph_8": "Inside [Martial Soul], [Vermilion Visage] energy drains — you gain +25% DMG while it lasts. Use [Sundering Thrust] to build [Vermilion Flare], spend it on [Warflame Cleave] for [Martial Fall] damage, then end with [Crushing Descent].",
+            "paragraph_9": "[Martial Fall] vs [Ashen Duskfall]:",
+            "li_10": "[Martial Fall] — single-target damage from [Warflame Cleave] or [Crushing Descent]",
+            "li_11": "[Ashen Duskfall] — replaces [Martial Fall] if [Vermilion Visage] has energy; AoE damage (first hit full, rest reduced to 30%)",
+            "paragraph_11": "Full Rotation",
+            "paragraph_12": "Setup Phase | build [Martial Intent] and charge [Vermilion Visage]:",
+            "paragraph_12_1": "You can also try starting the battle by using Active Skill without any charges buff to get faster into a [Martial Soul]",
+            "rotationstring3": "[Resonance Skill] (optional, for shield break/gathering) → [Charged Attack] (build [Martial Intent]) → [Severed Grace] (empowered, charges [Visage]) → [Sweeping Clouds] (charges [Visage]) → repeat until [Vermilion Visage] full → [Martial God's Descent] → [Martial Soul]",
+            "paragraph_13": "Burst Phase — inside [Martial Soul], spend [Flare] and end with [Crushing Descent]:",
+            "rotationstring4": "[Warflame Cleave] (spend 3 [Flare] → [Martial Fall]) → [Sundering Thrust] (build [Flare]) → [Basic Attacks] (build [Flare] faster) → repeat → [Crushing Descent] (ends [Soul] + [Martial Fall]/[Ashen Duskfall]) → repeat the whole rotation ↺",
+            "paragraph_14": "At R1+: Start with full [Martial Intent] — skip the initial Charged Attack and go straight into empowered [Severed Grace]. At R2+: Enemy Weakness is extended, giving more burst time. At R3+: [Sundering Thrust] has shorter cooldown and [Ashen Duskfall] deals more damage.",
+            "images": {
+                "ui": {
+                    "caption": "Icons to pay attention to as you start the battle",
+                    "alt": "Vermilion Martial God UI with Intent and Visage"
+                },
+                "sync_btn": {
+                    "caption": "Vermilion Visage filling up | when full, Martial God's Descent button appears",
+                    "alt": "Vermilion Visage filling"
+                },
+                "martial_soul": {
+                    "caption": "Entering Martial Soul | new skills become available",
+                    "alt": "Martial Soul transformation"
+                }
+            },
+            "videos": {
+                "rotation_setup": {
+                    "alt": "Vermilion Martial God setup rotation",
+                    "caption": "Setup phase | Rotation Example"
+                },
+                "rotation_burst": {
+                    "alt": "Vermilion Martial God sync/ burst rotation",
+                    "caption": "Burst(Syns) phase | Rotation Example"
+                }
+            }
         }
     },
     "caleb": {
