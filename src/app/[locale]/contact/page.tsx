@@ -105,7 +105,7 @@ export default function Contact () {
                                         priority
                                     />
                                 </a>
-                                <a href="https://github.com/rue-eru" aria-label="Github" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/rue-eru/lads-battles" aria-label="Github" target="_blank" rel="noopener noreferrer">
                                     <Image
                                         alt="github icon"
                                         src={`/images/icons/github-logo.png`}

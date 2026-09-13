@@ -64,5 +64,27 @@
            "delta": ["crit_rate", "crit_dmg", "dmg_boost_to_weakened", "def_bonus"],
            "description_key": "ranks.rankDescriptions.rafayel.lemurian_sea_god.r3"
       }
-   }
+    },
+    "vermilion_martial_god": {
+        "r0": {
+            "beta": ["expedited_energy_boost", "oath_recovery_boost"],
+            "delta": ["atk_bonus", "crit_rate", "crit_dmg", "dmg_boost_to_weakened"],
+            "description_key": "ranks.rankDescriptions.rafayel.vermilion_martial_god.r0"
+        },
+        "r1": {
+            "beta": ["expedited_energy_boost", "atk_bonus"],
+            "delta": ["atk_bonus", "crit_rate", "crit_dmg", "dmg_boost_to_weakened"],
+            "description_key": "ranks.rankDescriptions.rafayel.vermilion_martial_god.r1"
+        },
+        "r2": {
+            "beta": ["expedited_energy_boost", "atk_bonus"],
+            "delta": ["atk_bonus", "crit_rate", "crit_dmg", "dmg_boost_to_weakened"],
+            "description_key": "ranks.rankDescriptions.rafayel.vermilion_martial_god.r2"
+        },
+        "r3": {
+            "beta": ["expedited_energy_boost", "atk_bonus"],
+            "delta": ["atk_bonus", "crit_rate", "crit_dmg", "dmg_boost_to_weakened"],
+            "description_key": "ranks.rankDescriptions.rafayel.vermilion_martial_god.r3"
+        }
+    }
 }

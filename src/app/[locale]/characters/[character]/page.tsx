@@ -5,6 +5,8 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import CharacterCard from "@/app/components/CharacterCard";
 import { styles } from "@/app/utils/styles";
 import CompanionListH1WordOrder from '@/app/components/side-nav/CompanionListH1WordOrder';
+import { getGameplayGuide } from '@/app/utils/loaders/gameplay-loader';
+import { guideLocales } from '@/data/guideLocaleAvailability';
 
 export async function generateMetadata({params}:{params: Promise<{
     character: string
@@ -25,14 +27,16 @@ export async function generateMetadata({params}:{params: Promise<{
 export default async function CharacterCompanionList({
     params
 } : {
-    params: Promise<{ character: CharacterId; locale: Locale }>
+    params: Promise<{ 
+        character: CharacterId;
+        companion: CharacterId;
+        locale: Locale 
+    }>
 }) {
  
     const  { character, locale } = await params;
     setRequestLocale(locale);
-
     const tCompanions = await getTranslations('characters.companions');
-
     const characterData = charactersData[character];
 
     return (
@@ -45,19 +49,28 @@ export default async function CharacterCompanionList({
 
                 <div className='flex justify-center items-center w-full'>
                     <div className="grid grid-cols-2 md:grid-cols-3 w-full h-full justify-between gap-4 font-accent uppercase text-wrap text-[16px] content-center">
-                        {characterData.companions.map((companion) => (
-                        <Link
-                          key={companion.id}
-                          href={`/${locale}/characters/${character}/${companion.id}`}
-                        >
-                                <CharacterCard 
-                                    titleId={tCompanions(companion.nameKey as any)}
-                                    imageSize={100}
-                                    imgRoot={`companions/${character}/icons/${companion.id}.jpg`}
-                                    className={styles.companionIconStyle}
-                                />
-                        </Link>
-                        ))}
+                        {characterData.companions.map((companion) => {
+                            
+                            const availableLocales = guideLocales[companion.id] || [];
+                            const isAvailableInLocale = availableLocales.includes(locale);
+                            const grayscaleClass = !isAvailableInLocale ? 'grayscale' : '';
+
+                            return(
+                                <Link
+                                  key={companion.id}
+                                  href={`/${locale}/characters/${character}/${companion.id}`}
+                                >
+                                        <CharacterCard 
+                                            titleId={tCompanions(companion.nameKey as any)}
+                                            imageSize={100}
+                                            imgRoot={`companions/${character}/icons/${companion.id}.jpg`}
+                                            className={`
+                                                ${styles.companionIconStyle}
+                                                ${grayscaleClass}
+                                            `}
+                                        />
+                                </Link>
+                        )})}
                     </div>
                 </div>
             </div>

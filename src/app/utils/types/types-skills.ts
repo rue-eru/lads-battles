@@ -30,6 +30,13 @@ export interface CompanionSkills {
         basic_attack: Skills;
         passive_skill: Skills;
         active_skill: Skills;
+    },
+    sync_skills?: {
+        basic_attack: Skills;
+        active_skill_1: Skills;
+        active_skill_2: Skills;
+        active_skill_3: Skills;
+        passive_skill: Skills;
     }
 }
 

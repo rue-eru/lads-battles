@@ -9,6 +9,16 @@
         "passive_skill": "Passive Skill"
 
     },
+    "syncSection": {
+        "header": "Sync Skills",
+        "intro": "This is a new mechanic which was introduced in August 2026. It introduces a new set of skills.",
+        "no-data": "No skill data available for this companion.",
+        "basic_attack": "Basic Attack",
+        "active_skill_1": "Active Skill I",
+        "active_skill_2": "Active Skill II",
+        "active_skill_3": "Active Skill III",
+        "passive_skill":"Passive Skill"
+    },
     "mySection": {
         "header": "My skills",
         "intro": "5★ companions' [MC] has her own special weapon. You can always switch to standard weapons but you can’t wield other companion's exclusive weapons.",
@@ -236,6 +246,58 @@
                 "active_skill": {
                     "name": "Riptide Rend",
                     "description": "Dash forward dealing DMG based on your ATK + DEF."
+                }
+            },
+            "vermilion_martial_god": {
+                "support_skill": {
+                    "name": "Sweeping Clouds",
+                    "description": "Rafayel swiftly moves to the target and slashes, charging up [Vermilion Visage]. Cannot be triggered by Perfect Dodge — triggers when your [Martial Intent]-empowered Active Skill hits."
+                },
+                "resonance_skill": {
+                    "name": "Skyfire Sweep",
+                    "description": "You and Rafayel leap into the air in tandem, unleashing blazing torrents, drawing in enemies and dealing AoE damage."
+                },
+                "ardent_oath": {
+                    "name": "Ashen Tempest",
+                    "description": "You resonate with Rafayel. He soars skyward as vermilion light transforms into countless blade tips raining down. You start with 15% Oath Energy."
+                },
+                "passive_skill": {
+                    "name": "Rally Drum",
+                    "description": "This is the core mechanic. It is completely different in both Setup Phase (Outside [Martial Soul]) and Burst Phase (Inside [Martial Soul]). More details in Gameplay Section."
+                },
+                "basic_attack": {
+                    "name": "Twilight's End",
+                    "description": "3‑hit combo. Each strike can be charged (hold) → fires Dusk Energy (Ranged Attack), +50% DMG, unstoppable, 40% less damage. Charged Attack restores 0.3 Energy Charge. During [Martial Soul], Dusk Energy dissipates immediately."
+                },
+                "my_passive_skill": {
+                    "name": "Lingering Haze",
+                    "description": "Casting Active Skill makes next 3 Charged Attacks accumulate extra [Martial Intent]. Third Charged Strike applies [Suppression] (bonus Weakness DMG)."
+                },
+                "active_skill": {
+                    "name": "Severed Grace",
+                    "description": "Slash forward. When [Martial Intent] is full, empowered into a powerful leap slash (+50% DMG). Unstoppable throughout."
+                },
+                "sync": {
+                    "basic_attack": {
+                        "name": "Rimefall Dance",
+                        "description" : "Empowered Basic Attacks (4-hit combo). Charged Attack leaps forward for bonus damage."
+                    },
+                    "active_skill_1": {
+                        "name": "Sundering Thrust",
+                        "description": "Thrust forward, dealing damage. Rafayel becomes unstoppable for 4s and accumulates [Vermilion Flare]."
+                    },
+                    "active_skill_2": {
+                        "name": "Warflame Cleave",
+                        "description": "Leap, charge, land with a slashing attack. On landing, calls down [Martial Fall] (single-target damage)."
+                    },
+                    "active_skill_3": {
+                        "name": "Crushing Descent",
+                        "description": "Rafayel moves to target, throws Ashen Pair, gathers enemies, slams Twilight Haze into the ground. Ends [Martial Soul]. Calls down [Martial Fall] (or [Ashen Duskfall] if [Vermilion Visage] has energy). Pauses stage timer and enemy Weakness duration. Rafayel is invincible during cast."
+                    },
+                    "passive_skill": {
+                        "name": "Song of Rout",
+                        "description": "Activating [Martial Soul] fully restores [Vermilion Visage]. Continuous energy consumption = 25% DMG boost. Rafayel gains full [Vermilion Flare] (max 3). Basic/Charged Attacks accumulate Flare. When [Martial Soul] ends, all Flare and Visage energy cleared."
+                    }
                 }
             }    
         },

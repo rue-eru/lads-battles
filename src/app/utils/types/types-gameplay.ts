@@ -65,6 +65,20 @@ export type GameplayBlock =
         headers?: string[],
         rows: string[];
         id:string;
+    } 
+    | {
+        type: 'video';
+        src: string;          
+        poster?: string;
+        alt: string;
+        caption: string;
+        id: string;
+        layout?: 'left' | 'right' | 'top' | 'center' | 'bottom';
+        autoPlay?: boolean;
+        loop?: boolean;
+        muted?: boolean;
+        controls?: boolean;
+        className?: string;
     };
 
 export interface StandardGameplayGuideBlock extends BaseGameplayGuide {
