@@ -29,7 +29,7 @@
       'otherworldly_visitor': [],
       'relentless_conqueror': [],
       'abysm_sovereign': [],
-      'silverwing_fiend': [],
+      'silverwing_fiend': ['en'],
 
       // CALEB
       'deepspace_pilot': [],
